@@ -1,0 +1,210 @@
+DSCBase $40E784
+
+
+
+
+Subscript 0
+Unk11 0 0
+Unk11 3 1
+SetBG 111
+Fade 0 30
+ShowChara 1 1 9
+# にょっにょにょっ
+# にょにょ～っ…♪
+ShowTextBox "!!! 40E784 0"
+Wait 60
+ShowChara 1 0 10
+# さーて、今日も一
+# 日バリバリと働く
+# にょ～っ！
+ShowTextBox "!!! 40E784 1"
+Wait 60
+ShowChara 3 1 17
+# 今日もキリキリと
+# 働くにゅ…
+ShowTextBox "!!! 40E784 2"
+Wait 60
+ShowChara 8 2 53
+# でじこーっ
+# がんばって働くゲ
+# マ～～っ！
+ShowTextBox "!!! 40E784 3"
+Wait 60
+# ゲマは、いつでも
+# でじこを応援して
+# るゲマ～っ！
+ShowTextBox "!!! 40E784 4"
+Wait 60
+ShowChara 1 1 13
+# 目からビーム！
+ShowTextBox "!!! 40E784 5"
+Wait 60
+Fade 3 10
+Fade 2 10
+ShowChara 8 2 4
+# ゲマぁ～～っ！
+ShowTextBox "!!! 40E784 6"
+Wait 60
+ShowChara 1 1 11
+# 応援だけかにょ？
+# なんでゲマも手伝
+# わないにょっ！？
+ShowTextBox "!!! 40E784 7"
+Wait 60
+ShowChara 8 2 4
+# ジョ、ジョークだ
+# ゲマ～っ！
+ShowTextBox "!!! 40E784 8"
+Wait 60
+ShowChara 3 1 17
+# 分かってるならい
+# いにゅ
+ShowTextBox "!!! 40E784 9"
+Wait 60
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 2 2 23
+# おはよー！
+ShowTextBox "!!! 40E784 10"
+Wait 60
+ShowChara 3 1 17
+# おはようにゅ
+ShowTextBox "!!! 40E784 11"
+Wait 60
+ShowChara 1 1 8
+# にょっ、うさだが
+# やってきたにょ！
+ShowTextBox "!!! 40E784 12"
+Wait 60
+ShowChara 2 2 22
+# あら、でじこ、今
+# 日はずいぶん早い
+# のね。どうかした
+# の？
+ShowTextBox "!!! 40E784 13"
+Wait 60
+ShowChara 1 1 8
+# “なにかあった”
+# じゃないにょっ！
+ShowTextBox "!!! 40E784 14"
+Wait 60
+ShowChara 1 0 9
+# もうすぐ、この店
+# に新しい店長さん
+# がやって来るんだ
+# にょ～っ！
+ShowTextBox "!!! 40E784 15"
+Wait 60
+ShowChara 2 2 22
+# なるほど、それで
+# お店の中をびしー
+# っと、キレイに掃
+# 除してたのね
+ShowTextBox "!!! 40E784 16"
+Wait 60
+ShowChara 1 1 9
+# にょにょっ、もう
+# だ～いぶ片づいた
+# にょ！
+ShowTextBox "!!! 40E784 17"
+Wait 60
+ShowChara 1 0 14
+# にょにょ、これで
+# いつ新しい店長さ
+# んがやってきても
+# 大丈夫だにょ～
+ShowTextBox "!!! 40E784 18"
+Wait 60
+ShowChara 8 2 1
+# とりあえず、第一
+# 印象だけは、ばっ
+# ちりゲマ！
+ShowTextBox "!!! 40E784 19"
+Wait 60
+ShowChara 1 1 11
+# むかっ、「第一印
+# 象だけ」とは何に
+# ょ～！
+ShowTextBox "!!! 40E784 20"
+Wait 60
+ShowChara 2 2 23
+# あははははーっ…
+ShowTextBox "!!! 40E784 21"
+Wait 60
+ShowChara 2 0 55
+# って、あんまり人
+# のこと笑えないか
+# も…
+ShowTextBox "!!! 40E784 22"
+Wait 60
+ShowChara 8 2 2
+# なんだか、新しい
+# 店長さんが気の毒
+# に思えてきたゲマ
+ShowTextBox "!!! 40E784 23"
+Wait 60
+ShowChara 3 1 21
+# 大丈夫、なるよう
+# にしかならないに
+# ゅ
+ShowTextBox "!!! 40E784 24"
+Wait 60
+JumpOnSelection 1 0 0
+Label 0
+Fade 1 30
+Unk0C 0
+EndScript
+Label 1
+Fade 1 30
+Unk0C 1
+EndScript
+
+
+
+Subscript 1
+Unk11 0 2
+Unk11 3 3
+SetBG 118
+Fade 0 30
+ShowChara 8 1 1
+# みんなの自己紹介ゲマ！
+ShowTextBox "!!! 40E784 25"
+Wait 60
+ShowChara 8 0 53
+# おいらの名前は、
+# ゲマだゲマ！
+ShowTextBox "!!! 40E784 26"
+Wait 60
+ShowChara 1 1 10
+# でじこだにょ！
+ShowTextBox "!!! 40E784 27"
+Wait 60
+ShowChara 1 0 8
+# う～ん、とくいな
+# ことは「目からビ
+# ーム」だにょ！
+ShowTextBox "!!! 40E784 28"
+Wait 60
+ShowChara 2 2 22
+# アタシは、ラ・ビ
+# ・アン・ローズ…
+ShowTextBox "!!! 40E784 29"
+Wait 60
+ShowChara 3 1 17
+# …………
+ShowTextBox "!!! 40E784 30"
+Wait 60
+ShowChara 3 0 18
+# ぷちこにゅ…
+ShowTextBox "!!! 40E784 31"
+Wait 60
+JumpOnSelection 1 2 0
+Label 2
+Fade 1 30
+Unk0C 0
+EndScript
+Label 3
+Fade 1 15
+Unk0C 1
+EndScript

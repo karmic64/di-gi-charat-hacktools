@@ -1,0 +1,272 @@
+DSCBase $40F1FC
+
+
+
+
+Subscript 0
+ShowChara 2 1 22
+# 今週の結果よ！
+ShowTextBox "!!! 40F1FC 0"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 2 0 22
+# 先週の売上は
+# \x04$0円\x1a、
+# 今週の売上は
+# \x04$1円\x1aね
+ShowTextBox "!!! 40F1FC 1"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 2 0 22
+# 今週はほかにもい
+# ろいろあったから
+# \x04あとでお店情報を
+# チェックするとい
+# いわよ！\x1a
+ShowTextBox "!!! 40F1FC 2"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 2 0 22
+# 今週の人気グッズ
+# は\x03$0\x1a、不人気グッズは\x01$1\x1aよ
+ShowTextBox "!!! 40F1FC 3"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 2 0 22
+# ひょうばんは$0
+# きれいさは$1
+# になったわ
+ShowTextBox "!!! 40F1FC 4"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 2 0 22
+# 今週はお客さんが
+# \x04$0人\x1a来たわ
+# 売上は\x04$1円\x1aで、お金は\x04$2円\x1aになったわ
+ShowTextBox "!!! 40F1FC 5"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+ShowChara 2 0 22
+# それではここで
+# みんなからの報告
+# よ
+ShowTextBox "!!! 40F1FC 6"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+ShowChara 2 0 23
+# 来週もみんな
+# がんばりましょ！
+ShowTextBox "!!! 40F1FC 7"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 8
+ShowChara 2 0 23
+# 来週もみんな
+# がんばりましょ！
+ShowTextBox "!!! 40F1FC 8"
+WaitTextBox
+ShowChara 2 0 23
+# ところで店長さん
+# アタシ、だいぶ
+# \x04$0\x1aがうまくなった気がするの
+ShowTextBox "!!! 40F1FC 9"
+WaitTextBox
+# コツをおしえて
+# もらえばもっと
+# じょうずに$0できそうだわ！
+ShowTextBox "!!! 40F1FC 10"
+WaitTextBox
+# 手伝っていただけ
+# るかしら？
+ShowTextBox "!!! 40F1FC 11"
+Wait 60
+EndScript
+
+
+
+Subscript 9
+ShowChara 2 0 23
+# よーし、
+# がんばるわよー！
+ShowTextBox "!!! 40F1FC 12"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 10
+ShowChara 2 0 25
+# そう、
+# ざんねん…
+ShowTextBox "!!! 40F1FC 13"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 2 0 23
+PlaySfx 141
+# ひょうばんが
+# \x03$0\x1aになったわ
+# 先週から\x03$1\x1aふえたわ！
+ShowTextBox "!!! 40F1FC 14"
+WaitTextBox
+EndScript
+
+
+
+Subscript 12
+ShowChara 2 0 22
+# ひょうばんは
+# $0よ
+# 先週とかわらない
+# わね
+ShowTextBox "!!! 40F1FC 15"
+WaitTextBox
+EndScript
+
+
+
+Subscript 13
+ShowChara 2 0 25
+# ひょうばんが
+# \x01$0\x1aになったわ
+# 先週から\x01$1\x1aへったわ…
+ShowTextBox "!!! 40F1FC 16"
+WaitTextBox
+EndScript
+
+
+
+Subscript 14
+ShowChara 2 0 23
+PlaySfx 141
+# きれいさが
+# \x03$0%\x1aになったわ
+# 先週から\x03$1%\x1aふえたわ！
+ShowTextBox "!!! 40F1FC 17"
+WaitTextBox
+EndScript
+
+
+
+Subscript 15
+ShowChara 2 0 22
+# きれいさは
+# $0%よ
+# 先週とかわらない
+# わね
+ShowTextBox "!!! 40F1FC 18"
+WaitTextBox
+EndScript
+
+
+
+Subscript 16
+ShowChara 2 0 25
+# きれいさが
+# \x01$0%\x1aになったわ
+# 先週から\x01$1%\x1aへってるのね…
+ShowTextBox "!!! 40F1FC 19"
+WaitTextBox
+EndScript
+
+
+
+Subscript 17
+ShowChara 2 0 23
+PlaySfx 141
+# お客さんが\x03$0人\x1a来たわ
+# 先週から\x03$1人\x1aふえたわ！
+ShowTextBox "!!! 40F1FC 20"
+WaitTextBox
+EndScript
+
+
+
+Subscript 18
+ShowChara 2 0 22
+# お客さんが$0人来たわ
+# 先週とかわらないわね
+ShowTextBox "!!! 40F1FC 21"
+WaitTextBox
+EndScript
+
+
+
+Subscript 19
+ShowChara 2 0 25
+# お客さんが\x01$0人\x1a来たわ
+# 先週から\x01$1人\x1aへったわ…
+ShowTextBox "!!! 40F1FC 22"
+WaitTextBox
+EndScript
+
+
+
+Subscript 20
+ShowChara 2 0 23
+PlaySfx 141
+# 売上は先週より
+# \x03$0円\x1aふえて、
+# お金が\x03$1円\x1aになったわ！
+ShowTextBox "!!! 40F1FC 23"
+WaitTextBox
+EndScript
+
+
+
+Subscript 21
+ShowChara 2 0 22
+# 売上は先週と
+# おなじで、
+# お金は$1円になったわ
+ShowTextBox "!!! 40F1FC 24"
+WaitTextBox
+EndScript
+
+
+
+Subscript 22
+ShowChara 2 0 25
+# 売上は先週より
+# \x01$0円\x1aへって、
+# お金が\x01$1円\x1aになったわ…
+ShowTextBox "!!! 40F1FC 25"
+WaitTextBox
+EndScript

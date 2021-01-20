@@ -1,0 +1,800 @@
+DSCBase $4156FC
+
+
+
+
+Subscript 0
+ShowChara 8 2 1
+# お店を開くゲマー！
+ShowTextBox "!!! 4156FC 0"
+WaitTextBox
+# お店を開く前に、ちゃ
+# んとグッズを仕入れて
+# おいて
+ShowTextBox "!!! 4156FC 1"
+WaitTextBox
+# みんなのお仕事を決め
+# なおしておくゲマ！
+ShowTextBox "!!! 4156FC 2"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 1
+ShowChara 8 2 1
+# グッズを仕入れるゲマ
+# ー！
+ShowTextBox "!!! 4156FC 3"
+WaitTextBox
+# 毎週出てくるグッズが
+# 変わるから、こまめに
+# チェックするゲマ
+ShowTextBox "!!! 4156FC 4"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 8 2 1
+# みんなのお仕事を決め
+# るゲマ
+ShowTextBox "!!! 4156FC 5"
+WaitTextBox
+# みんなのやりたいお仕
+# 事にしてあげるゲマ！
+ShowTextBox "!!! 4156FC 6"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 3
+ShowChara 8 2 1
+# お店のお金を使って、
+# お店やみんなをパワー
+# アップしたいときや
+ShowTextBox "!!! 4156FC 7"
+WaitTextBox
+# グッズをたくさん売り
+# たいときに使うコマン
+# ドゲマ！
+ShowTextBox "!!! 4156FC 8"
+WaitTextBox
+# そうそう、スペシャル
+# コマンドは、\x04１週間に
+# １回しかできない\x1aゲマ
+ShowTextBox "!!! 4156FC 9"
+WaitTextBox
+# 使うタイミングが大切
+# ゲマ
+ShowTextBox "!!! 4156FC 10"
+WaitTextBox
+# そして、お店のお金を
+# 使わないと出来ないか
+# ら、
+ShowTextBox "!!! 4156FC 11"
+WaitTextBox
+# コマンドばかり使って
+# お金をむだ使いしない
+# ようにするゲマ！
+ShowTextBox "!!! 4156FC 12"
+WaitTextBox
+ShowChara 8 0 2
+# \x01お金がなくなってグッ
+# ズが仕入れられなくな
+# るかもゲマ…\x1a
+ShowTextBox "!!! 4156FC 13"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 4
+ShowChara 8 2 1
+# スロットがふえてお店
+# が広くなるゲマー！
+ShowTextBox "!!! 4156FC 14"
+WaitTextBox
+# スロットがふえれば、
+# 一度にたくさんグッズ
+# をおくことができて
+ShowTextBox "!!! 4156FC 15"
+WaitTextBox
+# しかも、お客さんがた
+# くさんお店の中に入れ
+# るようになるから
+ShowTextBox "!!! 4156FC 16"
+WaitTextBox
+# １週間でたくさんもう
+# けることができるゲマ
+# ー！
+ShowTextBox "!!! 4156FC 17"
+WaitTextBox
+# コマンドを使うたびに
+# \x04４・６・９コ\x1aとスロッ
+# トがふえるゲマ
+ShowTextBox "!!! 4156FC 18"
+WaitTextBox
+# そのかわり、どんどん
+# 必要なお金が高くなる
+# から…
+ShowTextBox "!!! 4156FC 19"
+WaitTextBox
+# たくさんお金をためて
+# おくゲマー！
+ShowTextBox "!!! 4156FC 20"
+WaitTextBox
+# ちゃんとグッズを仕入
+# れるお金もとっておく
+# ゲマよ！
+ShowTextBox "!!! 4156FC 21"
+WaitTextBox
+# スロットをふやしても
+# グッズを仕入れるお金
+# がなかったら…
+ShowTextBox "!!! 4156FC 22"
+WaitTextBox
+# お客さんに売るモノが
+# なにもなくなるゲマ！
+ShowTextBox "!!! 4156FC 23"
+WaitTextBox
+# ちゃんとグッズを買う
+# お金も残しておくこと
+# ゲマッ
+ShowTextBox "!!! 4156FC 24"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 5
+ShowChara 8 2 1
+# フェアを開くと、だれ
+# かのグッズが、１週間
+# すごく売れるゲマー！
+ShowTextBox "!!! 4156FC 25"
+WaitTextBox
+# フェアを開くときには
+# \x04だれのフェアにするの
+# かを決める\x1aゲマ
+ShowTextBox "!!! 4156FC 26"
+WaitTextBox
+# たとえば、\x04でじこ\x1aを選
+# んで\x04でじこフェア\x1aを開
+# いたら
+ShowTextBox "!!! 4156FC 27"
+WaitTextBox
+# でじこの名前がついた
+# グッズがすごく売れる
+# ようになるゲマー！
+ShowTextBox "!!! 4156FC 28"
+WaitTextBox
+# \x04でじこ\x1aの名前がついた
+# グッズをたくさん仕入
+# れておいて
+ShowTextBox "!!! 4156FC 29"
+WaitTextBox
+# \x04でじこフェア\x1aを開けば
+# すごくもうかるかもし
+# れないゲマ！
+ShowTextBox "!!! 4156FC 30"
+WaitTextBox
+# 一発おおもうけをした
+# いときにフェアを開く
+# といいかもゲマー！
+ShowTextBox "!!! 4156FC 31"
+WaitTextBox
+# あ、そうゲマ
+ShowTextBox "!!! 4156FC 32"
+WaitTextBox
+# フェアは、\x04毎月の最後
+# の週にしか開くことが
+# できないゲマ！\x1a
+ShowTextBox "!!! 4156FC 33"
+WaitTextBox
+# タイミングよく、グッ
+# ズを仕入れておくのが
+# ポイントゲマ～♪
+ShowTextBox "!!! 4156FC 34"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 6
+ShowChara 8 2 1
+# グッズを10％安くして
+# お客さんにたくさん
+# 買ってもらうゲマー！
+ShowTextBox "!!! 4156FC 35"
+WaitTextBox
+# 売れないグッズが売れ
+# やすくなるけれど
+ShowTextBox "!!! 4156FC 36"
+WaitTextBox
+# グッズを10％安く売る
+# から、もうけが少なく
+# なるゲマ
+ShowTextBox "!!! 4156FC 37"
+WaitTextBox
+# なかなかグッズが売れ
+# なくて、\x01たたきうり\x1aに
+# なりそうなときには
+ShowTextBox "!!! 4156FC 38"
+WaitTextBox
+# 思い切ってバーゲンを
+# 開いてみるといいかも
+# ゲマー！
+ShowTextBox "!!! 4156FC 39"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 7
+ShowChara 8 2 1
+# ビラをくばった週は、
+# お客さんがいっぱい来
+# てくれるゲマー！
+ShowTextBox "!!! 4156FC 40"
+WaitTextBox
+# なかなかお客さんが来
+# てくれないときにやる
+# といいゲマ！
+ShowTextBox "!!! 4156FC 41"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 8
+ShowChara 8 2 1
+# みんながお仕事で使う
+# アイテムを買うゲマ！
+ShowTextBox "!!! 4156FC 42"
+WaitTextBox
+# みんなにアイテムを
+# 買ってあげると
+ShowTextBox "!!! 4156FC 43"
+WaitTextBox
+# みんながもっと上手に
+# お仕事できるようにな
+# るゲマ！
+ShowTextBox "!!! 4156FC 44"
+WaitTextBox
+# アイテムは、お仕事ご
+# とに２つずつ、みんな
+# の分だけあるゲマ
+ShowTextBox "!!! 4156FC 45"
+WaitTextBox
+# 高いアイテムを買って
+# あげるほど、上手にお
+# 仕事できるゲマ！
+ShowTextBox "!!! 4156FC 46"
+WaitTextBox
+# アイテムを買うと、お
+# 店のお金がへってしま
+# うから
+ShowTextBox "!!! 4156FC 47"
+WaitTextBox
+# グッズを仕入れるお金
+# も残しておくゲマ！
+ShowTextBox "!!! 4156FC 48"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 9
+ShowChara 8 2 1
+# みんながお仕事で使う
+# アイテムゲマ！
+ShowTextBox "!!! 4156FC 49"
+WaitTextBox
+# アイテムは、お仕事ご
+# とに２つずつ、みんな
+# の分だけあるゲマ
+ShowTextBox "!!! 4156FC 50"
+WaitTextBox
+# アイテムを買ったら、
+# すぐにアイテムを使う
+# ようになるゲマ
+ShowTextBox "!!! 4156FC 51"
+WaitTextBox
+# そして、今つかってい
+# るアイテムよりも高い
+# アイテムを買うと
+ShowTextBox "!!! 4156FC 52"
+WaitTextBox
+# 高い方のアイテムを使
+# うようになるゲマ
+ShowTextBox "!!! 4156FC 53"
+WaitTextBox
+# 使うアイテムは、１つ
+# のお仕事につき１つだ
+# けってことゲマ
+ShowTextBox "!!! 4156FC 54"
+WaitTextBox
+# レジ用アイテムだと
+# \x04電卓\x1aと\x04レジ\x1aがあるけれ
+# ど
+ShowTextBox "!!! 4156FC 55"
+WaitTextBox
+# どっちも買ってあげた
+# ら、レジだけを使うっ
+# てことゲマ
+ShowTextBox "!!! 4156FC 56"
+WaitTextBox
+# ついでに、アイテムを
+# 買うときのアドバイス
+# ゲマ！
+ShowTextBox "!!! 4156FC 57"
+WaitTextBox
+# みんなに全部のアイテ
+# ムを買ってあげるのも
+# いいけれど
+ShowTextBox "!!! 4156FC 58"
+WaitTextBox
+# なかなかレベルが上が
+# らないキャラに買って
+# あげるといいゲマ！
+ShowTextBox "!!! 4156FC 59"
+WaitTextBox
+# 安いのと高いのがある
+# けど、高い方がパワー
+# アップするゲマ
+ShowTextBox "!!! 4156FC 60"
+WaitTextBox
+# 安いアイテムを買って
+# あとで高いのを買って
+# もいいし
+ShowTextBox "!!! 4156FC 61"
+WaitTextBox
+# お店のお金がたまるま
+# でアイテムを買わない
+# でおいて
+ShowTextBox "!!! 4156FC 62"
+WaitTextBox
+# お金がたまったころに
+# いきなり高いアイテム
+# を買うのもいいゲマ！
+ShowTextBox "!!! 4156FC 63"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 10
+ShowChara 8 1 1
+# グッズをスロットにセットするに
+# は
+ShowTextBox "!!! 4156FC 64"
+WaitTextBox
+# レバーでカラッポのスロットを選
+# んで、Ａボタンを押すゲマ！
+ShowTextBox "!!! 4156FC 65"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 8 1 1
+# セットされているグッズにカーソ
+# ルを合わせると
+ShowTextBox "!!! 4156FC 66"
+WaitTextBox
+# グッズの名前と残りの数をチェッ
+# クすることができるゲマ
+ShowTextBox "!!! 4156FC 67"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 12
+ShowChara 8 1 1
+# 同じキャラ名か、同じ名前のグッ
+# ズを並べてセットすると
+ShowTextBox "!!! 4156FC 68"
+WaitTextBox
+# \x04チェイン\x1aが発生して売れやすくな
+# るゲマ！
+ShowTextBox "!!! 4156FC 69"
+WaitTextBox
+# \x04チェイン\x1aが発生すると矢印が出て
+# くるゲマ
+ShowTextBox "!!! 4156FC 70"
+WaitTextBox
+# どんどん\x04チェイン\x1aをおこして、
+# グッズをたくさん売るゲマー！
+ShowTextBox "!!! 4156FC 71"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 13
+ShowChara 8 1 1
+# お店メニューに戻るゲマ
+ShowTextBox "!!! 4156FC 72"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 14
+ShowChara 8 1 1
+# お店のことがわかる
+# \x04お店情報画面\x1aを開くゲマ！
+ShowTextBox "!!! 4156FC 73"
+WaitTextBox
+# 全部で６つの情報を見ることがで
+# きるゲマ
+ShowTextBox "!!! 4156FC 74"
+WaitTextBox
+# \x04ひょうばん\x1aは、高いほどお客さん
+# がたくさん来てくれるゲマ
+ShowTextBox "!!! 4156FC 75"
+WaitTextBox
+# \x04きれいさ\x1aは、低いほどお客さんが
+# お店に入ってこなくなるゲマ
+ShowTextBox "!!! 4156FC 76"
+WaitTextBox
+# \x04お客さん\x1aは、お店に来てくれたお
+# 客さんの数ゲマ
+ShowTextBox "!!! 4156FC 77"
+WaitTextBox
+# \x04うりあげ\x1aは、お店が１週間でかせ
+# いだお金ゲマ
+ShowTextBox "!!! 4156FC 78"
+WaitTextBox
+# \x04おかね\x1aは、お店が持っているお金
+# ゲマ
+ShowTextBox "!!! 4156FC 79"
+WaitTextBox
+# \x04お店ポイント\x1aは、おかねやみんな
+# のレベルで決まるスコアゲマ
+ShowTextBox "!!! 4156FC 80"
+WaitTextBox
+# 店長さんの実力によって、増えた
+# り減ったりするゲマ！
+ShowTextBox "!!! 4156FC 81"
+WaitTextBox
+# たまにこの画面を開いて、お店の
+# 状態をチェックするといいゲマね
+ShowTextBox "!!! 4156FC 82"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 15
+ShowChara 8 2 1
+# 今選んでいるのが
+# \x04グッズパネル\x1aゲマ
+ShowTextBox "!!! 4156FC 83"
+WaitTextBox
+# \x04グッズの名前\x1a、\x04個数\x1a、
+# \x04必要なお金\x1a、\x04もうけ度\x1a
+# が書いてあるゲマ
+ShowTextBox "!!! 4156FC 84"
+WaitTextBox
+# グッズを選ぶと、仕入
+# れる数を変えることが
+# できるゲマ
+ShowTextBox "!!! 4156FC 85"
+WaitTextBox
+# 数を増やすと、必要な
+# お金も増えていくゲマ
+ShowTextBox "!!! 4156FC 86"
+WaitTextBox
+# 数を決めたら、選んだ
+# グッズを買うことがで
+# きるゲマ！
+ShowTextBox "!!! 4156FC 87"
+WaitTextBox
+# グッズを買うと、必要
+# なお金の分だけ、お店
+# のお金が減るゲマ
+ShowTextBox "!!! 4156FC 88"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 16
+ShowChara 8 2 1
+# さっき、みんなから
+# 「○○が流行してる」
+# って聞いたゲマ？
+ShowTextBox "!!! 4156FC 89"
+WaitTextBox
+# みんなが教えてくれた
+# 流行グッズには、
+# \x04★マーク\x1aがつくゲマ！
+ShowTextBox "!!! 4156FC 90"
+WaitTextBox
+# \x04★マーク\x1aのグッズをた
+# くさん仕入れて、おお
+# もうけするゲマ！
+ShowTextBox "!!! 4156FC 91"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 17
+ShowChara 8 2 1
+# スロットメニューに戻
+# るゲマ
+ShowTextBox "!!! 4156FC 92"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 18
+ShowChara 8 2 1
+# グッズパネルの並べ方
+# を切り替えることがで
+# きるゲマ
+ShowTextBox "!!! 4156FC 93"
+WaitTextBox
+# 全部で４つの並べ方に
+# 切り替えることができ
+# るゲマ
+ShowTextBox "!!! 4156FC 94"
+WaitTextBox
+# \x04値段順\x1a：
+# 買うのに必要なお金の
+# 少ない順に並べるゲマ
+ShowTextBox "!!! 4156FC 95"
+WaitTextBox
+# \x04個数順\x1a：
+# 仕入れる個数の少ない
+# 順に並べるゲマ
+ShowTextBox "!!! 4156FC 96"
+WaitTextBox
+# \x04もうけ順\x1a：
+# もうけ度の大きい順に
+# 並べるゲマ
+ShowTextBox "!!! 4156FC 97"
+WaitTextBox
+# \x04キャラ順\x1a：
+# みんなの名前順に並べ
+# るゲマ
+ShowTextBox "!!! 4156FC 98"
+WaitTextBox
+# 選びやすい並べ方にし
+# てみるといいゲマー！
+ShowTextBox "!!! 4156FC 99"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 19
+ShowChara 8 1 1
+# キャラの足元に出ているのは、そ
+# のお仕事のレベルゲマ
+ShowTextBox "!!! 4156FC 100"
+WaitTextBox
+# 頭の上に\x04(^-^)\x1aや\x04(-_-)\x1aのマークが
+# 出ることがあるゲマ
+ShowTextBox "!!! 4156FC 101"
+WaitTextBox
+# いまセットされているお仕事をや
+# りたいときには\x04(^-^)\x1aが
+ShowTextBox "!!! 4156FC 102"
+WaitTextBox
+# やりたくないときには\x04(-_-)\x1aが出
+# るゲマ！
+ShowTextBox "!!! 4156FC 103"
+WaitTextBox
+# どっちでもないときには、なにも
+# 出ないゲマ
+ShowTextBox "!!! 4156FC 104"
+WaitTextBox
+# このマークを見て、みんなのやり
+# たいお仕事をチェックするゲマッ
+ShowTextBox "!!! 4156FC 105"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 20
+ShowChara 8 1 1
+# \x04レジ\x1a係ゲマ
+ShowTextBox "!!! 4156FC 106"
+WaitTextBox
+# お客さんがもってきたグッズを計
+# 算するゲマ
+ShowTextBox "!!! 4156FC 107"
+WaitTextBox
+# 誰かが必ずレジ係になっていない
+# とお店を開けないので注意ゲマ！
+ShowTextBox "!!! 4156FC 108"
+WaitTextBox
+# そうそう、レジを続けていくと、
+# いいことがあるゲマ
+ShowTextBox "!!! 4156FC 109"
+WaitTextBox
+# レジをやってるキャラのグッズが
+# 売れやすくなるゲマ～！
+ShowTextBox "!!! 4156FC 110"
+WaitTextBox
+# レジをやってると、人気が出てく
+# るってことゲマ～♪
+ShowTextBox "!!! 4156FC 111"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 21
+ShowChara 8 1 1
+# \x04接客\x1a係ゲマッ
+ShowTextBox "!!! 4156FC 112"
+WaitTextBox
+# 困っているお客さんのお手伝いを
+# するゲマ！
+ShowTextBox "!!! 4156FC 113"
+WaitTextBox
+# 接客が上手になると、お店のひょ
+# うばんが上がるゲマ～！
+ShowTextBox "!!! 4156FC 114"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 22
+ShowChara 8 1 1
+# \x04グッズ整理\x1a係ゲマッ
+ShowTextBox "!!! 4156FC 115"
+WaitTextBox
+# スロットにおいてあるグッズをキ
+# レイに並べたりするゲマッ！
+ShowTextBox "!!! 4156FC 116"
+WaitTextBox
+# グッズ整理が上手になると、グッ
+# ズが売れやすくなるゲマ～！
+ShowTextBox "!!! 4156FC 117"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 23
+ShowChara 8 1 1
+# \x04掃除\x1a係ゲマ
+ShowTextBox "!!! 4156FC 118"
+WaitTextBox
+# お店の中をきれいにおそうじする
+# ゲマ！
+ShowTextBox "!!! 4156FC 119"
+WaitTextBox
+# お客さんが来るほど、お店の中が
+# どんどん汚くなるゲマ
+ShowTextBox "!!! 4156FC 120"
+WaitTextBox
+# お店をきれいにして、お客さんが
+# たくさん来るようにするゲマ！
+ShowTextBox "!!! 4156FC 121"
+WaitTextBox
+# 掃除が上手になると、すぐにお店
+# の中をキレイにできるゲマー！
+ShowTextBox "!!! 4156FC 122"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 24
+ShowChara 8 1 1
+# お店メニューに戻るゲマ
+ShowTextBox "!!! 4156FC 123"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 25
+ShowChara 8 1 1
+# みんなのことがわかる
+# \x04キャラ情報画面\x1aを開くゲマ！
+ShowTextBox "!!! 4156FC 124"
+WaitTextBox
+# 開いたら、レバーの←→でキャラ
+# をきりかえるゲマ
+ShowTextBox "!!! 4156FC 125"
+WaitTextBox
+# \x04キャラ情報画面\x1aには、お仕事の
+# \x04レベル\x1aと\x04経験値ゲージ\x1a、
+ShowTextBox "!!! 4156FC 126"
+WaitTextBox
+# \x04装備しているアイテム\x1aが出ている
+# ゲマ
+ShowTextBox "!!! 4156FC 127"
+WaitTextBox
+# アシスタントキャラには、\x04とくぎ\x1a
+# と\x04とくぎゲージ\x1aも出ているゲマ
+ShowTextBox "!!! 4156FC 128"
+WaitTextBox
+# \x04とくぎ\x1aは、アシスタントキャラだ
+# け使うことができるゲマ！
+ShowTextBox "!!! 4156FC 129"
+WaitTextBox
+# みんなのとくぎをおしえるゲマ
+ShowTextBox "!!! 4156FC 130"
+WaitTextBox
+# でじこ：\x01目からビーム！\x1a
+# \x04お店をキレイにするゲマ！\x1a
+ShowTextBox "!!! 4156FC 131"
+WaitTextBox
+# これを使えば、１週間はおそうじ
+# する必要がないゲマ～♪
+ShowTextBox "!!! 4156FC 132"
+WaitTextBox
+# うさだ：\x01人気あつめ\x1a
+# \x04グッズを売れやすくするゲマ！\x1a
+ShowTextBox "!!! 4156FC 133"
+WaitTextBox
+# これを使えば、１週間だけどんな
+# グッズも売れやすくなるゲマ～♪
+ShowTextBox "!!! 4156FC 134"
+WaitTextBox
+# ぷちこ：\x01安値仕入れ\x1a
+# \x04グッズを５％安く仕入れるゲマ！\x1a
+ShowTextBox "!!! 4156FC 135"
+WaitTextBox
+# これを使えば、高いグッズも安く
+# 仕入れることができるゲマ～♪
+ShowTextBox "!!! 4156FC 136"
+WaitTextBox
+# つぎに、\x04とくぎ\x1aの使い方ゲマ！
+ShowTextBox "!!! 4156FC 137"
+WaitTextBox
+# \x04とくぎゲージ\x1aは毎日すこしずつ
+# たまっていくゲマ
+ShowTextBox "!!! 4156FC 138"
+WaitTextBox
+# \x04とくぎゲージ\x1aがたまると、アシス
+# タントキャラが話してくるゲマ
+ShowTextBox "!!! 4156FC 139"
+WaitTextBox
+# 使うときには「はい」、あとで使
+# うときには「いいえ」ゲマ！
+ShowTextBox "!!! 4156FC 140"
+WaitTextBox
+HideChara
+EndScript

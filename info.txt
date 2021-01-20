@@ -1,0 +1,146 @@
+
+DSC (script data) format:
+word - constant "DSC\0"
+word - 0?
+word - pointer to MCM data
+word - amount of data offsets
+word - list of data offsets
+        the unpacked script data appears to be separated into "subscripts". these are the offsets
+        of all subscripts relative to the start of the uncompressed data.
+
+
+MBM (bitmap data) format:
+word - constant "MBM\0"
+halfword - ???
+halfword - width of image in pixels
+halfword - height of image in pixels
+halfword - palette entries
+halfword - ????
+halfword - ????
+two ((not) always identical?) pointers to palette data
+then the MCM data
+the bitmap data is nybble packed if there are only $10 palette entries, in gba format
+
+
+MCM (compressed file) format:
+word - constant "MCM\0"
+word - final decompressed size
+word - max size of uncompressed data chunks
+word - amount of compressed data chunks
+4 bytes - decompression sequence
+    $00 - end of list
+    $01 - rle
+    $02 - lz77
+    $03 - huffman
+    $04 - diff8bit
+    $05 - diff16bit
+absolute pointers to compressed data
+
+data is split into (maxsize)-byte uncompressed segments, and then these are individually compressed
+
+compressed data is standard gba format
+
+
+MRM format:
+word - constant "MRM\0"
+.... ?
+
+
+
+
+script handling code is at $8048424
+jumptable is at $8048458-$80484e3 - this means there are $23 commands
+
+Game script format:
+codes/params are halfwords
+$00 - end of script ($80484e4)
+$01 - introduce character portrait ($8048502)
+        - movement id - dictates movement, textbox color, talk sound
+        - ?
+        - character portrait id
+            note: the upper and lower parts of the background is technically a character,
+            creating a letterboxing effect when an actual character is onscreen
+$02 - swipe out character portrait ($8048530)
+$03 - display string in text box ($8048538)
+        - length of string
+        - the string itself
+$04 - wait for text box completion? or A press ($8048592)
+$05 - fade effect ($80485ac)
+        - fade mode
+            $00 - black -> normal
+            $01 - normal -> black
+            $02 - white -> normal
+            $03 - normal -> white
+        - fade speed (higher is slower)
+$06 - Set background image ($804851e)
+        - Image ID (pointer table to MBM datas at $80ea598)
+$07 - Wait xx frames (only after text box completion?) ($804859a)
+        - frames to wait
+$08 - ? ($80485c4) variable length?
+        - ?
+        - ?
+        - ?
+        - ?
+        - ?
+        - ?
+        - ?
+$09 - same as $22? ($8048550)
+$0a - jump depending on choice ($80484ec)
+        - length of following list
+        - jump offset, relative to start of the subscript, times 2
+        - 0?
+$0b - ? ($8048624)
+        - ?
+        - ?
+$0c - ? ($8048640)
+        - ?
+$0d - set up counter (used for timing song lyrics) ($8048652)
+        - initial value?
+$0e - ? ($8048668)
+        - ?
+$0f - ? ($804867e)
+        - ?
+$10 - black out background? ($80486b0)
+$11 - ? ($80486b8)
+        - set scriptinfo + (this*2)....
+        - relative jump offset
+$12 - ? ($80486d4)
+        - ?
+        - ?
+$13 - open text prompt menu ($8048692)
+        - ?
+        - length of string
+        - description string (doesn't seem to support ascii/numbers...)
+$14 - ? ($80486f0)
+        - ?
+        - ?
+$15 - ? ($804870c)
+$16 - door-closing transition ($8048714)
+$17 - screen sine unwipe ($804871c)
+        - speed (higher is slower)
+$18 - screen sine wipe to black ($804872e)
+        - speed (higher is slower)
+$19 - ? ($8048740)
+        - ?
+$1a - ? ($804876a)
+$1b - ? ($8048752)
+        - ?
+        - ?
+$1c - play sound effect ($8048778)
+        - sfx id
+$1d - play music ($804878e)
+        - song id
+$1e - stop music ($80487ba)
+$1f - activate music up counter? ($80487c2)
+$20 - wait for music up counter ($80487ca)
+        - ?
+$21 - fade out music ($80487a4)
+        - fade speed (higher is slower)
+$22 - create selection menu in text box ($804856c)
+        - amount of selections
+        - length of string
+        - string?
+higher codes are treated as no-ops
+
+
+

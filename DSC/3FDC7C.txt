@@ -1,0 +1,197 @@
+DSCBase $3FDC7C
+
+
+
+
+Subscript 0
+Unk08 1 154 78 8 72 10 3
+Unk08 2 45 60 24 108 10 3
+Unk08 3 204 130 72 24 10 3
+SetBG 120
+Fade 0 30
+ShowChara 1 1 9
+# 今日は待ちに待っ
+# た豆まきの日にょ
+# ！！
+ShowTextBox "!!! 3FDC7C 0"
+WaitTextBox
+ShowChara 1 0 8
+# にょにょっ、ぷち
+# こ、ちょっと耳を
+# かすにょ…
+ShowTextBox "!!! 3FDC7C 1"
+WaitTextBox
+ShowChara 3 1 17
+# にゅっ…？
+ShowTextBox "!!! 3FDC7C 2"
+WaitTextBox
+ShowChara 1 1 8
+# ごにょごにょ、ご
+# にょごにょ…
+ShowTextBox "!!! 3FDC7C 3"
+WaitTextBox
+ShowChara 1 0 14
+# ＯＫにょ？
+ShowTextBox "!!! 3FDC7C 4"
+WaitTextBox
+ShowChara 3 0 18
+# ＯＫにゅ！
+ShowTextBox "!!! 3FDC7C 5"
+WaitTextBox
+ShowChara 2 2 23
+# おまたせー、豆ま
+# きセットを買って
+# きたわよー
+ShowTextBox "!!! 3FDC7C 6"
+WaitTextBox
+ShowChara 1 1 10
+# ごくろうにょっ！
+# …じゃ、さっそく
+# ジャンケンで鬼を
+# 決めるにょ～
+ShowTextBox "!!! 3FDC7C 7"
+WaitTextBox
+ShowChara 2 2 22
+# わっ、待って、ま
+# だ心の準備が…
+ShowTextBox "!!! 3FDC7C 8"
+WaitTextBox
+ShowChara 3 1 17
+# いくにゅ…
+ShowTextBox "!!! 3FDC7C 9"
+WaitTextBox
+ShowChara 1 1 8
+# せえの、さーいし
+# ょは…
+ShowTextBox "!!! 3FDC7C 10"
+WaitTextBox
+ShowChara 2 2 22
+# ぐーっ！
+ShowTextBox "!!! 3FDC7C 11"
+WaitTextBox
+ShowChara 3 1 18
+# ぱー、にゅ…
+ShowTextBox "!!! 3FDC7C 12"
+WaitTextBox
+ShowChara 1 1 9
+# ぱー、にょっ！
+ShowTextBox "!!! 3FDC7C 13"
+WaitTextBox
+ShowChara 2 2 22
+# えっ？
+ShowTextBox "!!! 3FDC7C 14"
+WaitTextBox
+ShowChara 1 1 9
+# でじこがパー、ぷ
+# ちこもパー、そし
+# て、うさだだけグ
+# ー…
+ShowTextBox "!!! 3FDC7C 15"
+WaitTextBox
+ShowChara 1 0 10
+# ということで、鬼
+# はうさだに決定に
+# ょ～
+ShowTextBox "!!! 3FDC7C 16"
+WaitTextBox
+ShowChara 2 2 24
+# なによ今のはっ！
+# インチキだわっ！
+ShowTextBox "!!! 3FDC7C 17"
+WaitTextBox
+ShowChara 1 1 14
+# 何をおっしゃって
+# るのかさっぱりだ
+# にょ、ラ・ビ・ア
+# ン・ローズさん？
+# 勝負はじつに公正
+# に行われたにょ！
+ShowTextBox "!!! 3FDC7C 18"
+WaitTextBox
+ShowChara 3 1 21
+# ぷちこは子供だか
+# ら、むつかしいこ
+# とは分からないに
+# ゅ…
+ShowTextBox "!!! 3FDC7C 19"
+WaitTextBox
+ShowChara 2 2 24
+# でじこはともかく
+# ぷちこにまでっ…
+ShowTextBox "!!! 3FDC7C 20"
+WaitTextBox
+# き～っ、こんな簡
+# 単な手に引っかか
+# っちゃうなんて、
+# ゆるせな～い！
+ShowTextBox "!!! 3FDC7C 21"
+WaitTextBox
+# えーい、鬼は外！
+ShowTextBox "!!! 3FDC7C 22"
+WaitTextBox
+Fade 3 30
+SetBG 16
+Fade 2 30
+ShowChara 1 0 0
+# にょにょっ、何をする
+# にょっ！
+ShowTextBox "!!! 3FDC7C 23"
+WaitTextBox
+ShowChara 2 0 0
+# 問答無用っ、えいっ！
+ShowTextBox "!!! 3FDC7C 24"
+WaitTextBox
+ShowChara 1 0 0
+# よ、よくもやったにょ
+# っ！おかえしにょ、そ
+# れっ！
+ShowTextBox "!!! 3FDC7C 25"
+WaitTextBox
+ShowChara 3 0 0
+# ぽりぽり…ぷちこは年
+# の数だけお豆を食べる
+# だけでいいにゅ～
+ShowTextBox "!!! 3FDC7C 26"
+WaitTextBox
+ShowChara 1 0 0
+# うさだっ、お前は鬼に
+# ょっ、鬼だにょっ！
+ShowTextBox "!!! 3FDC7C 27"
+WaitTextBox
+ShowChara 2 0 0
+# きーっ、まだそれを言
+# うつもり？
+ShowTextBox "!!! 3FDC7C 28"
+WaitTextBox
+ShowChara 1 0 0
+# 鬼は外っ！鬼は外っ！
+ShowTextBox "!!! 3FDC7C 29"
+WaitTextBox
+ShowChara 2 0 0
+# 鬼は外っ！鬼は外っ！
+ShowTextBox "!!! 3FDC7C 30"
+WaitTextBox
+Fade 1 30
+SetBG 120
+Fade 0 30
+ShowChara 1 1 11
+# ぜぇぜぇ…今日の
+# ところはこれくら
+# いにしといてやる
+# というか、つかれ
+# たにょ！
+ShowTextBox "!!! 3FDC7C 31"
+WaitTextBox
+ShowChara 2 2 24
+# はぁはぁ…そ、そ
+# うね…これくらい
+# にしときましょ
+ShowTextBox "!!! 3FDC7C 32"
+WaitTextBox
+ShowChara 3 1 17
+# ふたりとも、どう
+# でもいいけどおそ
+# うじが大変にゅ…
+ShowTextBox "!!! 3FDC7C 33"
+WaitTextBox
+EndScript

@@ -1,0 +1,68 @@
+DSCBase $4145AC
+
+
+
+
+Subscript 0
+# カイの悩みを聞いた！
+ShowTextBox "!!! 4145AC 0"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+# カイをなだめた！
+ShowTextBox "!!! 4145AC 1"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+# カイをなぐさめた！
+ShowTextBox "!!! 4145AC 2"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+# カイをおだてた！
+ShowTextBox "!!! 4145AC 3"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+# カイにかつを入れた！
+ShowTextBox "!!! 4145AC 4"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+# カイをはげました！
+ShowTextBox "!!! 4145AC 5"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+# カイをほめた！
+ShowTextBox "!!! 4145AC 6"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+EndScript
+
+
+
+Subscript 8
+EndScript

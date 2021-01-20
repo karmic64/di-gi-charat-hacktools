@@ -1,0 +1,195 @@
+DSCBase $40AE24
+
+
+
+
+Subscript 0
+Unk14 0 16
+ShowChara 2 2 22
+EndScript
+
+
+
+Subscript 1
+ShowChara 2 0 22
+# 開店していいかしら？
+ShowTextBox "!!! 40AE24 0"
+EndScript
+
+
+
+Subscript 2
+ShowChara 2 0 22
+# 新しいグッズを仕入れ
+# るわよ
+ShowTextBox "!!! 40AE24 1"
+EndScript
+
+
+
+Subscript 3
+ShowChara 2 0 22
+# 誰がどのお仕事をする
+# のか、決めましょう！
+ShowTextBox "!!! 40AE24 2"
+EndScript
+
+
+
+Subscript 4
+ShowChara 2 0 22
+# お店のことをちゃんと
+# 知っておくのが売り上
+# げ倍増への近道よ
+ShowTextBox "!!! 40AE24 3"
+EndScript
+
+
+
+Subscript 5
+ShowChara 2 0 22
+# 楽しいショッピングし
+# ましょ！
+ShowTextBox "!!! 40AE24 4"
+EndScript
+
+
+
+Subscript 6
+ShowChara 2 0 22
+# 道具を買ったら、お仕
+# 事も楽ちんね！
+ShowTextBox "!!! 40AE24 5"
+EndScript
+
+
+
+Subscript 7
+ShowChara 2 0 22
+# バーゲン！　いい響き
+# だわ…
+ShowTextBox "!!! 40AE24 6"
+EndScript
+
+
+
+Subscript 8
+ShowChara 2 0 22
+# ビラ配りは、笑顔をた
+# やさずに！
+ShowTextBox "!!! 40AE24 7"
+EndScript
+
+
+
+Subscript 9
+ShowChara 2 0 22
+# お店を広くするのね！
+# 工事は来週の日曜日に
+# やるわ！
+ShowTextBox "!!! 40AE24 8"
+EndScript
+
+
+
+Subscript 10
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 2 0 23
+# さあ、今週も開店よ！
+ShowTextBox "!!! 40AE24 9"
+EndScript
+
+
+
+Subscript 12
+EndScript
+
+
+
+Subscript 13
+ShowChara 2 0 25
+# ごめんなさい…
+# まだなの
+ShowTextBox "!!! 40AE24 10"
+EndScript
+
+
+
+Subscript 14
+ShowChara 2 0 22
+# $0円かかるけどやるの？
+ShowTextBox "!!! 40AE24 11"
+EndScript
+
+
+
+Subscript 15
+ShowChara 2 0 25
+# お、お金が足りないな
+# んて！
+ShowTextBox "!!! 40AE24 12"
+EndScript
+
+
+
+Subscript 16
+ShowChara 2 0 23
+# お仕事がんばりましょ
+# うね！
+ShowTextBox "!!! 40AE24 13"
+EndScript
+
+
+
+Subscript 17
+ShowChara 2 0 23
+# バーゲン開始！
+ShowTextBox "!!! 40AE24 14"
+EndScript
+
+
+
+Subscript 18
+ShowChara 2 0 23
+# ビラ配りをやるわよ！
+ShowTextBox "!!! 40AE24 15"
+EndScript
+
+
+
+Subscript 19
+ShowChara 2 0 23
+# お店を広くするわよ！
+ShowTextBox "!!! 40AE24 16"
+EndScript
+
+
+
+Subscript 20
+ShowChara 2 0 22
+# だれかのフェアをやっ
+# てお客さんをたくさん
+# 呼ぶわ
+ShowTextBox "!!! 40AE24 17"
+EndScript
+
+
+
+Subscript 21
+ShowChara 2 0 23
+# $1フェア、ただいまからスタート！
+ShowTextBox "!!! 40AE24 18"
+EndScript
+
+
+
+Subscript 22
+ShowChara 2 0 22
+# $1のフェアをやるわよ！
+ShowTextBox "!!! 40AE24 19"
+EndScript

@@ -1,0 +1,68 @@
+DSCBase $412EF4
+
+
+
+
+Subscript 0
+# ぷちこの悩みを聞いた！
+ShowTextBox "!!! 412EF4 0"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+# ぷちこをなだめた！
+ShowTextBox "!!! 412EF4 1"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+# ぷちこをなぐさめた！
+ShowTextBox "!!! 412EF4 2"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+# ぷちこをおだてた！
+ShowTextBox "!!! 412EF4 3"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+# ぷちこにかつを入れた！
+ShowTextBox "!!! 412EF4 4"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+# ぷちこをはげました！
+ShowTextBox "!!! 412EF4 5"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+# ぷちこをほめた！
+ShowTextBox "!!! 412EF4 6"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+EndScript
+
+
+
+Subscript 8
+EndScript

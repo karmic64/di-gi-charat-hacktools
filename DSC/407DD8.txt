@@ -1,0 +1,169 @@
+DSCBase $407DD8
+
+
+
+
+Subscript 0
+ShowChara 3 4 17
+# こう見えても、ぷ
+# ちこ、しりとりは
+# 得意にゅ
+ShowTextBox "!!! 407DD8 0"
+Wait 60
+EndScript
+
+
+
+Subscript 1
+ShowChara 3 4 17
+# 最初の一言にゅ…
+ShowTextBox "!!! 407DD8 1"
+Wait 1
+EndScript
+
+
+
+Subscript 2
+ShowChara 3 0 17
+# 「$1」にゅ…
+ShowTextBox "!!! 407DD8 2"
+Wait 1
+EndScript
+
+
+
+Subscript 3
+ShowChara 3 0 18
+# 「$1」にゅ
+ShowTextBox "!!! 407DD8 3"
+Wait 60
+EndScript
+
+
+
+Subscript 4
+ShowChara 3 0 20
+# 出てこないにゅ
+# パスにゅ
+ShowTextBox "!!! 407DD8 4"
+Wait 60
+EndScript
+
+
+
+Subscript 5
+ShowChara 3 0 20
+# うっかり「ん」が
+# ついたにゅ
+# 自分がなさけない
+# にゅ
+ShowTextBox "!!! 407DD8 5"
+Wait 60
+EndScript
+
+
+
+Subscript 6
+ShowChara 3 0 20
+# だめにゅ
+# ギブアップ、する
+# にゅ
+ShowTextBox "!!! 407DD8 6"
+Wait 60
+EndScript
+
+
+
+Subscript 7
+ShowChara 3 4 18
+# ざっとこんなもの
+# にゅ！
+ShowTextBox "!!! 407DD8 7"
+Wait 60
+EndScript
+
+
+
+Subscript 8
+ShowChara 3 4 20
+# リベンジを要求す
+# るにゅ
+ShowTextBox "!!! 407DD8 8"
+Wait 60
+EndScript
+
+
+
+Subscript 9
+ShowChara 3 4 18
+# じゃんけんにゅ
+# しりとりの順番を
+# 決めるにゅ
+ShowTextBox "!!! 407DD8 9"
+Wait 60
+EndScript
+
+
+
+Subscript 10
+ShowChara 3 4 17
+# じゃんけん…
+ShowTextBox "!!! 407DD8 10"
+Wait 30
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 3 4 18
+# $1にゅ
+ShowTextBox "!!! 407DD8 11"
+Wait 30
+EndScript
+
+
+
+Subscript 12
+ShowChara 3 4 18
+# 勝ったにゅ！
+ShowTextBox "!!! 407DD8 12"
+Wait 30
+EndScript
+
+
+
+Subscript 13
+ShowChara 3 4 20
+# …負けたにゅ
+ShowTextBox "!!! 407DD8 13"
+Wait 30
+EndScript
+
+
+
+Subscript 14
+ShowChara 3 4 17
+# あいこでもう一回
+# にゅ
+ShowTextBox "!!! 407DD8 14"
+Wait 30
+EndScript
+
+
+
+Subscript 15
+ShowChara 3 0 17
+# ぷちこは$1番目にゅ
+ShowTextBox "!!! 407DD8 15"
+Wait 60
+EndScript
+
+
+
+Subscript 16
+ShowChara 3 0 17
+# 「$1」か「$3」にゅ…
+ShowTextBox "!!! 407DD8 16"
+Wait 1
+EndScript

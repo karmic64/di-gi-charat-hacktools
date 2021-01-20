@@ -1,0 +1,209 @@
+DSCBase $3F22D0
+
+
+
+
+Subscript 0
+Unk08 1 120 74 100 100 10 3
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# カレンダーを見る
+# と、今週から歯の
+# 健康週間だゲマ
+ShowTextBox "!!! 3F22D0 0"
+WaitTextBox
+# 店長さん、虫歯っ
+# て何ゲマ…むぎゅ
+# っ！
+ShowTextBox "!!! 3F22D0 1"
+WaitTextBox
+ShowChara 1 1 8
+# 店長しゃん、今の
+# ゲマの変な質問は
+# 無視するにょ！
+ShowTextBox "!!! 3F22D0 2"
+WaitTextBox
+ShowChara 2 2 22
+# 芸能人は歯が命っ
+# てよく言うわ
+# 虫歯なんて、とん
+# でもない！
+ShowTextBox "!!! 3F22D0 3"
+WaitTextBox
+ShowChara 2 0 26
+# もちろん、アタシ
+# は毎日歯を磨いて
+# るから、ぴっかぴ
+# っかよ！
+ShowTextBox "!!! 3F22D0 4"
+WaitTextBox
+ShowChara 1 1 8
+# にょっ！そんなこ
+# とでいばるなんて
+# こころざしが低い
+# にょ！
+ShowTextBox "!!! 3F22D0 5"
+WaitTextBox
+ShowChara 2 2 26
+# あ～ら、そういう
+# でじこは虫歯ある
+# んじゃない？
+ShowTextBox "!!! 3F22D0 6"
+WaitTextBox
+ShowChara 1 1 9
+# つ、都合の悪いこ
+# とは店長しゃんに
+# 振るにょ！
+ShowTextBox "!!! 3F22D0 7"
+WaitTextBox
+# 正直に答えるにょ
+# っ！店長しゃんは
+# 虫歯あるにょ？
+ShowTextBox "!!! 3F22D0 8"
+WaitTextBox
+# …ある
+# ない！
+ShowSelMenu09 2 "!!! 3F22D0 9"
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 1 0 10
+# さすが店長しゃん
+# にょ！
+ShowTextBox "!!! 3F22D0 10"
+WaitTextBox
+# やっぱり歯磨きは
+# 大切にょっ…とい
+# うことで、この話
+# は終わりにするに
+# ょ！
+ShowTextBox "!!! 3F22D0 11"
+WaitTextBox
+ShowChara 2 2 55
+# その態度、あやし
+# いわ…でじこって
+# ひょっとして、虫
+# 歯があるの？
+ShowTextBox "!!! 3F22D0 12"
+WaitTextBox
+ShowChara 1 1 15
+# ぎくっ！そんなこ
+# とないにょっ、ほ
+# っとくにょっ！
+ShowTextBox "!!! 3F22D0 13"
+WaitTextBox
+ShowChara 2 2 55
+# そんなにムキにな
+# らなくてもいいじ
+# ゃない
+ShowTextBox "!!! 3F22D0 14"
+WaitTextBox
+ShowChara 2 0 26
+# それじゃ店長さん
+# 今日のおやつはケ
+# ーキにしましょう
+# か？
+ShowTextBox "!!! 3F22D0 15"
+WaitTextBox
+ShowChara 3 2 18
+# ぷちこには、虫歯
+# はないにゅ！
+ShowTextBox "!!! 3F22D0 16"
+WaitTextBox
+EndScript
+Label 0
+ShowChara 1 0 10
+# にょにょ、店長し
+# ゃんの歯にも虫歯
+# があるぐらいだか
+# ら
+ShowTextBox "!!! 3F22D0 17"
+WaitTextBox
+# でじこの歯に虫歯
+# があっても、全然
+# おかしくないにょ
+# ～！
+ShowTextBox "!!! 3F22D0 18"
+WaitTextBox
+ShowChara 2 2 55
+# ごまかしてる、ご
+# まかしてる…
+ShowTextBox "!!! 3F22D0 19"
+WaitTextBox
+ShowChara 3 2 21
+# あとで痛い目を見
+# るパターンにゅ
+ShowTextBox "!!! 3F22D0 20"
+WaitTextBox
+Fade 1 120
+Wait 60
+SetBG 124
+Fade 0 1
+ShowChara 1 0 0
+# 店長しゃん、起きるにょ…
+ShowTextBox "!!! 3F22D0 21"
+WaitTextBox
+# …………
+ShowTextBox "!!! 3F22D0 22"
+WaitTextBox
+# 起きるにょーっ！
+ShowTextBox "!!! 3F22D0 23"
+WaitTextBox
+Fade 1 1
+SetBG 123
+Fade 0 30
+Fade 3 1
+SetBG 20
+Fade 2 30
+# にょーっ、やっと起き
+# たにょ！まったく手間
+# をとらすにょっ…！
+ShowTextBox "!!! 3F22D0 24"
+WaitTextBox
+# おほん、ワタシは天か
+# らつかわされた、虫歯
+# の天使様にょっ！
+ShowTextBox "!!! 3F22D0 25"
+WaitTextBox
+# ときに、店長しゃんの
+# 口の中にはいくつか虫
+# 歯がありますにょ？
+ShowTextBox "!!! 3F22D0 26"
+WaitTextBox
+# ごまかしてもダメにょ
+# っ、神様は見てるにょ
+# っ！
+ShowTextBox "!!! 3F22D0 27"
+WaitTextBox
+# いえいえ、歯を全部抜
+# けば虫歯の心配ありま
+# せんにょ
+ShowTextBox "!!! 3F22D0 28"
+WaitTextBox
+# さぁ、観念するにょ、
+# 今から歯を全部引っこ
+# 抜くにょっ！
+ShowTextBox "!!! 3F22D0 29"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 1 1 8
+# にょっ？店長しゃ
+# ん、どうしたにょ
+# なんだか顔色が悪
+# いにょ
+ShowTextBox "!!! 3F22D0 30"
+WaitTextBox
+ShowChara 1 0 12
+# あっ、待つにょ店
+# 長しゃん！どうし
+# てでじこから逃げ
+# ようとするにょ？
+ShowTextBox "!!! 3F22D0 31"
+WaitTextBox
+EndScript

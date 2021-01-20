@@ -1,0 +1,304 @@
+DSCBase $3F0B4C
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 23
+# さて、ついにゴー
+# ルデンウィークに
+# 突入ね…
+ShowTextBox "!!! 3F0B4C 0"
+WaitTextBox
+# ところで、でじこ
+# って、ゴールデン
+# ウィークが何か、
+# 知ってる？
+ShowTextBox "!!! 3F0B4C 1"
+WaitTextBox
+ShowChara 1 2 10
+# もちろん、知って
+# るにょ！
+ShowTextBox "!!! 3F0B4C 2"
+WaitTextBox
+# ゴールデンウィー
+# クは春の大型連休
+# のことにょっ！
+ShowTextBox "!!! 3F0B4C 3"
+WaitTextBox
+# ちなみに、今年の
+# ゴールデンウィー
+# クは、今日４月２
+# ８日から、来週の
+# ５月５日までにょ
+# ～っ！
+ShowTextBox "!!! 3F0B4C 4"
+WaitTextBox
+ShowChara 2 1 23
+# へぇ、よく知って
+# るじゃない！
+ShowTextBox "!!! 3F0B4C 5"
+WaitTextBox
+ShowChara 1 2 12
+# だけど、お店の手
+# 伝いがあるから、
+# でじこにはあんま
+# り関係ないにょ～
+ShowTextBox "!!! 3F0B4C 6"
+WaitTextBox
+ShowChara 2 1 25
+# …そうね
+ShowTextBox "!!! 3F0B4C 7"
+WaitTextBox
+ShowChara 3 2 17
+# がんばるにゅ！
+# 稼ぎ時にゅ
+ShowTextBox "!!! 3F0B4C 8"
+WaitTextBox
+ShowChara 8 1 1
+# そうゲマっ、ぷち
+# この言うとおりゲ
+# マ！
+ShowTextBox "!!! 3F0B4C 9"
+WaitTextBox
+ShowChara 8 0 53
+# ゴールデンウィー
+# クは、他のお店は
+# セールとかやって
+# お客さんをたくさ
+# ん集めるゲマ！
+ShowTextBox "!!! 3F0B4C 10"
+WaitTextBox
+# 他のお店に負けな
+# いよう、うちの店
+# もお客さんを呼ぶ
+# アイディアを考え
+# るゲマ！
+ShowTextBox "!!! 3F0B4C 11"
+WaitTextBox
+ShowChara 2 1 23
+# そうね！みんなで
+# 考えて、アイディ
+# ア出してみましょ
+ShowTextBox "!!! 3F0B4C 12"
+WaitTextBox
+ShowChara 1 2 16
+# え～、なんだか気
+# がすすまないにょ
+# ～
+# 納得いかないにょ
+# ～
+ShowTextBox "!!! 3F0B4C 13"
+WaitTextBox
+ShowChara 8 1 2
+# だまって考えるゲ
+# マ！
+ShowTextBox "!!! 3F0B4C 14"
+WaitTextBox
+ShowChara 3 2 17
+# 考えるにゅ…
+ShowTextBox "!!! 3F0B4C 15"
+WaitTextBox
+Fade 1 120
+Wait 60
+Fade 0 30
+ShowChara 8 1 2
+# う～ん…
+ShowTextBox "!!! 3F0B4C 16"
+WaitTextBox
+ShowChara 1 2 12
+# にょ～～っ、何も
+# 思いつかないにょ
+# ～～！
+ShowTextBox "!!! 3F0B4C 17"
+WaitTextBox
+# 休憩したら…
+# いや、根性だ…
+ShowSelMenu09 2 "!!! 3F0B4C 18"
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 1 0 9
+# にょっ、今、店長
+# しゃんが良いこと
+# を言ったにょっ！
+ShowTextBox "!!! 3F0B4C 19"
+WaitTextBox
+ShowChara 3 2 17
+# 根性にゅっ！
+ShowTextBox "!!! 3F0B4C 20"
+WaitTextBox
+ShowChara 1 2 11
+# そうにょっ！こん
+# なときこそ、みん
+# なで根性出してが
+# んばるにょっ！
+ShowTextBox "!!! 3F0B4C 21"
+WaitTextBox
+ShowChara 2 1 25
+# うーん、もっとも
+# だけど…
+ShowTextBox "!!! 3F0B4C 22"
+WaitTextBox
+ShowChara 8 1 1
+# 結論ゲマっ！
+ShowTextBox "!!! 3F0B4C 23"
+WaitTextBox
+# ゴールデンウィー
+# クは、みんな根性
+# 出してがんばるゲ
+# マっ！
+ShowTextBox "!!! 3F0B4C 24"
+WaitTextBox
+ShowChara 14 2 63
+# おーっ！
+ShowTextBox "!!! 3F0B4C 25"
+WaitTextBox
+ShowChara 8 1 1
+# 声が小さいゲマぁ
+# ～～っ！
+ShowTextBox "!!! 3F0B4C 26"
+WaitTextBox
+ShowChara 14 2 63
+# おおーーーーっ！
+ShowTextBox "!!! 3F0B4C 27"
+WaitTextBox
+ShowChara 1 2 10
+# にょにょ！なんか
+# やれる気になって
+# きたにょ！
+ShowTextBox "!!! 3F0B4C 28"
+WaitTextBox
+ShowChara 2 1 25
+# やれる気がするだ
+# けかも…
+ShowTextBox "!!! 3F0B4C 29"
+WaitTextBox
+ShowChara 3 2 21
+# それは言わない約
+# 束にゅ
+ShowTextBox "!!! 3F0B4C 30"
+WaitTextBox
+ShowChara 8 1 53
+# さあ、開店するゲ
+# マ！
+ShowTextBox "!!! 3F0B4C 31"
+WaitTextBox
+EndScript
+Label 0
+ShowChara 8 1 2
+# 店長さんも、ああ
+# 言ってるゲマ
+# ちょっと休憩する
+# ゲマ…
+ShowTextBox "!!! 3F0B4C 32"
+WaitTextBox
+ShowChara 3 2 17
+# 賛成にゅ
+ShowTextBox "!!! 3F0B4C 33"
+WaitTextBox
+ShowChara 1 2 12
+# にょにょ～、考え
+# すぎで、お腹が減
+# ったにょ～
+ShowTextBox "!!! 3F0B4C 34"
+WaitTextBox
+ShowChara 2 1 23
+# ねぇ、何か食べま
+# しょ？
+ShowTextBox "!!! 3F0B4C 35"
+WaitTextBox
+ShowChara 3 2 17
+# 賛成にゅ
+ShowTextBox "!!! 3F0B4C 36"
+WaitTextBox
+ShowChara 1 2 10
+# でじこは外に食べ
+# に行きたいにょ！
+# ファミレスとかが
+# いいにょっ！
+ShowTextBox "!!! 3F0B4C 37"
+WaitTextBox
+ShowChara 2 1 25
+# え～っ、ファミレ
+# ス？高いわよ～
+ShowTextBox "!!! 3F0B4C 38"
+WaitTextBox
+ShowChara 1 2 8
+# にょっ……！
+ShowTextBox "!!! 3F0B4C 39"
+WaitTextBox
+ShowChara 1 0 10
+# ひらめいたにょ！
+ShowTextBox "!!! 3F0B4C 40"
+WaitTextBox
+ShowChara 8 1 1
+# 「ひらめ」がどう
+# かしたゲマ？
+ShowTextBox "!!! 3F0B4C 41"
+WaitTextBox
+ShowChara 1 2 9
+# ファミレスという
+# 言葉でひらめいた
+# にょ！
+ShowTextBox "!!! 3F0B4C 42"
+WaitTextBox
+ShowChara 1 0 10
+# ゴールデンウィー
+# クの間だけ、ファ
+# ミレスの服を着る
+# んだにょ～～っ！
+ShowTextBox "!!! 3F0B4C 43"
+WaitTextBox
+# そうすれば、でじ
+# こを見に、たくさ
+# んお客さんがやっ
+# てくるに違いない
+# にょ！
+ShowTextBox "!!! 3F0B4C 44"
+WaitTextBox
+ShowChara 2 1 24
+# え～～～～っ！？
+ShowTextBox "!!! 3F0B4C 45"
+WaitTextBox
+ShowChara 8 1 54
+# ひぇ～～～っ！？
+ShowTextBox "!!! 3F0B4C 46"
+WaitTextBox
+ShowChara 3 2 17
+# にゅっ！？
+ShowTextBox "!!! 3F0B4C 47"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 1 80 68 68 100 10 3
+SetBG 23
+Fade 0 30
+ShowChara 1 0 0
+# いらっしゃいませ～
+# …だにょ！
+ShowTextBox "!!! 3F0B4C 48"
+WaitTextBox
+# これぞ、ゴールデンウ
+# ィーク限定
+ShowTextBox "!!! 3F0B4C 49"
+WaitTextBox
+# ちょースペシャル・デ
+# ラックス・ゴージャス
+# コスチュームにょっ！
+ShowTextBox "!!! 3F0B4C 50"
+WaitTextBox
+# にょにょ、予想通り、
+# 朝からお客さんでいっ
+# ぱいだにょ！
+ShowTextBox "!!! 3F0B4C 51"
+WaitTextBox
+# この調子で一週間、が
+# んばるにょ～！
+ShowTextBox "!!! 3F0B4C 52"
+WaitTextBox
+EndScript

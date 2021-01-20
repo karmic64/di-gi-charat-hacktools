@@ -1,0 +1,83 @@
+Here are all the files you need to worry about:
+
+"DiGi Charat - DigiCommunication (J) [!].gba" - This is the original game ROM. Don't modify it!
+"DSC" - This folder contains all the scripts.
+"MBM" - This folder contains all the graphics.
+"text.txt" - This file contains all of the miscellaneous tiny strings scattered throughout the ROM. (not ready yet)
+"build.exe" - This program builds a translated ROM. Pay attention to the output for errors.
+"t.gba" - When you run make.exe, this is the ROM that gets built.
+
+I recommend mGBA <https://mgba.io/> to play the game.
+
+
+FOR SCRIPT/TEXT TRANSLATION:
+The scripts are all in plaintext form. Before doing any editing, ensure your text editor is set to use Shift+JIS encoding!!! If you can read the Japanese text, you should be fine.
+
+By default all of the strings are "!!!! <filename> <string num>", which if you see it ingame, is meant to indicate an untranslated string. The original text is contained in a comment above.
+
+All you need to do is replace that placeholder text with a real translation. Pay attention to the newlines! The game does not do automatic word wrapping and will simply start putting characters on the next line if the line overflows. Japanese characters in the game are twice as wide physically as the English ones, so you do have more space to write the translations. Make sure you test the game thoroughly to make sure there are no issues with word wrapping.
+
+The game uses several control codes:
+$x, where x is a number - The game replaces this internally with an arbitrary string. You will need to play the game to find the context.
+\x__, where __ is a two-digit hexadecimal value - This could be any arbitrary value. The game seems to use this exclusively for changing the text color.
+Be careful about changing anything else in the script. If you really need to change or add a command, you can check "info.txt" for an incomplete command reference.
+
+You can represent newlines in the script two ways:
+With the \n code:
+"Nyonyonyo!\nThat was a new line,\nnyo!"
+or by just putting a new line right in the string:
+"Nyonyonyo!
+That was a new line,
+nyo!"
+Use whatever you prefer.
+
+If you need to use double-quotes in a string, use the \" code.
+"Don't call me \"Usada\"!"
+If you need a backslash, use the \\ code.
+
+If it makes your life easier, feel free to rename the text files and place comments if you need them. Any text on a line following an # that is NOT contained in a string is ignored.
+
+IMPORTANT NOTE: The string argument to a ShowTextPrompt command and the text-entering menu that appears as a result do NOT support English characters right now and will require some hacking by me to make it work. For now, when you encounter one, go to the bottom of this file and note the filename and string number given in the placeholder and the real translation instead of modifying the script.
+
+Full list of color control codes:
+\x01 -> reddish pink
+\x02 -> yellow
+\x03 -> green
+\x04 -> cyan
+\x05 -> purple
+\x06 -> magenta
+\x1a -> white
+
+
+
+
+FOR BITMAP TRANSLATION:
+If you are not savvy with pixel art, just note the filename and translation at the bottom of this file of every text in the image that needs translation. There's no need to translate insignificant background scenery, but UI elements absolutely must be.
+
+If you are, then please follow the below:
+The images are INDEXED COLOR bitmaps. It is not necessary to preserve the exact palette, but you must not go above the amount of colors in the original image's palette.
+Palette entry 0 is interpreted by the GBA hardware as "transparent". Don't use any actual color here.
+Do not change the resolution of the original bitmap.
+The final translated bitmaps must be in the same format as the original files. 4-bit BMP if the palette is 16 colors and 8-bit BMP if 64. Please place them in a separate folder.
+
+
+
+------------------- THIS SPACE FOR TEXT PROMPT DESCRIPTIONS
+
+
+
+
+
+
+
+
+
+-------------------- THIS SPACE FOR BITMAP TRANSLATIONS
+
+
+
+
+
+
+
+--------------------- END.

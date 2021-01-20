@@ -1,0 +1,180 @@
+DSCBase $411070
+
+
+
+
+Subscript 0
+Fade 0 30
+Unk14 0 16
+ShowChara 1 2 10
+# でじこやる気満点
+# にょ！　いっきに
+# お掃除しちゃうかにょ
+ShowTextBox "!!! 411070 0"
+WaitTextBox
+# まかせてくれるにょ？
+ShowTextBox "!!! 411070 1"
+Wait 1
+EndScript
+
+
+
+Subscript 1
+ShowChara 1 0 10
+# 目からビーム！
+ShowTextBox "!!! 411070 2"
+WaitTextBox
+ShowChara 8 2 1
+# \x04お店の中がとてもキレ
+# イになったゲマー！\x1a
+ShowTextBox "!!! 411070 3"
+WaitTextBox
+# 今週はおそうじしなく
+# てもよさそうだゲマ♪
+ShowTextBox "!!! 411070 4"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 1 0 12
+# そうかにょ…
+ShowTextBox "!!! 411070 5"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 3
+Fade 0 30
+Unk14 0 16
+ShowChara 2 2 23
+# あたしの力で、グッズ
+# をすごく売れるように
+# しちゃうわよ
+ShowTextBox "!!! 411070 6"
+WaitTextBox
+# まかせてくれる？
+ShowTextBox "!!! 411070 7"
+Wait 1
+EndScript
+
+
+
+Subscript 4
+ShowChara 2 0 23
+# ローズハリケーン！
+ShowTextBox "!!! 411070 8"
+WaitTextBox
+ShowChara 8 2 1
+# \x04今週だけどのグッズも
+# 売れやすくなったゲマー！\x1a
+ShowTextBox "!!! 411070 9"
+WaitTextBox
+# たくさん仕入れて
+# おおもうけするゲマ！
+ShowTextBox "!!! 411070 10"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 5
+ShowChara 2 0 25
+# まあいいんだけど
+ShowTextBox "!!! 411070 11"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 6
+Fade 0 30
+Unk14 0 16
+ShowChara 3 2 17
+# ぷちこにゅ
+ShowTextBox "!!! 411070 12"
+WaitTextBox
+ShowChara 3 0 17
+# ぷちこが丁寧におねが
+# いすれば、グッズを
+# ５％割引で買えるにゅ
+ShowTextBox "!!! 411070 13"
+WaitTextBox
+# まかせるにゅ？
+ShowTextBox "!!! 411070 14"
+Wait 1
+EndScript
+
+
+
+Subscript 7
+ShowChara 3 0 18
+# 高いにゅ…
+# まけろにゅ！！
+ShowTextBox "!!! 411070 15"
+WaitTextBox
+ShowChara 8 2 1
+# \x04今週だけ、どのグッズ
+# も５％安く仕入れるこ
+# とができるゲマー！\x1a
+ShowTextBox "!!! 411070 16"
+WaitTextBox
+# 高いグッズを仕入れる
+# チャンスだゲマー！
+ShowTextBox "!!! 411070 17"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 8
+ShowChara 3 0 20
+# つぎがあるにゅ…
+ShowTextBox "!!! 411070 18"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 9
+Fade 0 30
+Unk14 0 16
+ShowChara 1 0 10
+# でじこ
+# やる気満点にょ
+# いっきにお掃除
+# しちゃうかにょ？
+ShowTextBox "!!! 411070 19"
+WaitTextBox
+# まかせるにゅ？
+ShowTextBox "!!! 411070 20"
+Wait 1
+EndScript
+
+
+
+Subscript 10
+ShowChara 1 0 10
+# 目からビーム！
+ShowTextBox "!!! 411070 21"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 1 0 12
+# そうかにょ…
+ShowTextBox "!!! 411070 22"
+WaitTextBox
+HideChara
+EndScript

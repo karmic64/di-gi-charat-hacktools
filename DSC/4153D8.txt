@@ -1,0 +1,91 @@
+DSCBase $4153D8
+
+
+
+
+Subscript 0
+ShowChara 4 2 28
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# さいしょから
+# はじめるぴょ
+ShowTextBox "!!! 4153D8 0"
+EndScript
+
+
+
+Subscript 3
+ShowChara 4 0 29
+# いちねんかん
+# がんばるぴょ！
+ShowTextBox "!!! 4153D8 1"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 4
+# まえのつづきから
+# はじめるぴょ
+ShowTextBox "!!! 4153D8 2"
+EndScript
+
+
+
+Subscript 5
+ShowChara 4 0 29
+# きょうもがんばるぴょ！
+ShowTextBox "!!! 4153D8 3"
+WaitTextBox
+DoorCloseTransition
+EndScript
+
+
+
+Subscript 6
+# めいしを見たり、ともだちとこうかんしたりするぴょ
+ShowTextBox "!!! 4153D8 4"
+EndScript
+
+
+
+Subscript 7
+HideChara
+EndScript
+
+
+
+Subscript 8
+# ミニゲームやおもいでをみたりするぴょ
+ShowTextBox "!!! 4153D8 5"
+EndScript
+
+
+
+Subscript 9
+HideChara
+EndScript
+
+
+
+Subscript 10
+# いろいろなせっていをするぴょ
+ShowTextBox "!!! 4153D8 6"
+EndScript
+
+
+
+Subscript 11
+Fade 1 15
+HideChara
+EndScript

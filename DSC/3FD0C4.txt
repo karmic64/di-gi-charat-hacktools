@@ -1,0 +1,130 @@
+DSCBase $3FD0C4
+
+
+
+
+Subscript 0
+Unk08 3 93 96 80 120 10 2
+SetBG 111
+Fade 0 30
+ShowChara 3 2 17
+# 行ってくるにゅ
+ShowTextBox "!!! 3FD0C4 0"
+WaitTextBox
+ShowChara 8 1 53
+# いってらっしゃ
+# いゲマ
+ShowTextBox "!!! 3FD0C4 1"
+WaitTextBox
+ShowChara 1 1 8
+# にょにょっ、ぷち
+# こと店長しゃん、
+# 今からおでかけす
+# るにょ？
+ShowTextBox "!!! 3FD0C4 2"
+WaitTextBox
+ShowChara 3 2 17
+# そういう約束だっ
+# たにゅ
+ShowTextBox "!!! 3FD0C4 3"
+WaitTextBox
+ShowChara 1 1 12
+# がーん、でじこに
+# ないしょで店長し
+# ゃんとうまいもの
+# を食べに行くなん
+# てひどいにょ！
+ShowTextBox "!!! 3FD0C4 4"
+WaitTextBox
+# でじことぷちこの
+# 友情は、そんなに
+# 薄っぺらいものだ
+# ったのかにょ～！
+ShowTextBox "!!! 3FD0C4 5"
+WaitTextBox
+ShowChara 3 2 17
+# 何を言われても代
+# わる気はないにゅ
+ShowTextBox "!!! 3FD0C4 6"
+WaitTextBox
+ShowChara 1 1 12
+# とほほ…レストラ
+# ン…
+ShowTextBox "!!! 3FD0C4 7"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 1 1 8
+# もう、いくつ寝る
+# と、お正月にょ～
+ShowTextBox "!!! 3FD0C4 8"
+WaitTextBox
+ShowChara 1 0 9
+# おしょ～がつには
+# タコあげて、羽根
+# ついて、お年玉も
+# らって
+ShowTextBox "!!! 3FD0C4 9"
+WaitTextBox
+ShowChara 1 0 10
+# それから、
+# お年玉もらって、
+# お年玉もらって、
+# お年玉もらって、
+# お年玉をもらうに
+# ょ～
+ShowTextBox "!!! 3FD0C4 10"
+WaitTextBox
+ShowChara 2 2 25
+# うっとうしいから
+# やめてよ…
+ShowTextBox "!!! 3FD0C4 11"
+WaitTextBox
+ShowChara 1 1 8
+# にょにょ、店長し
+# ゃん、早く戻って
+# こないかにょ～
+ShowTextBox "!!! 3FD0C4 12"
+WaitTextBox
+ShowChara 1 0 12
+# もし、でじこがぷ
+# ちこだったら、今
+# ごろレストランで
+# おいしいものを食
+# べてたのはでじこ
+# だったのににょ～
+ShowTextBox "!!! 3FD0C4 13"
+WaitTextBox
+ShowChara 2 2 55
+# もう何を言ってる
+# んだか…
+ShowTextBox "!!! 3FD0C4 14"
+WaitTextBox
+Fade 1 30
+SetBG 53
+Fade 0 30
+ShowChara 3 0 0
+# きれいなツリーにゅ
+ShowTextBox "!!! 3FD0C4 15"
+WaitTextBox
+# 夜中になると光るなん
+# て、知らなかったにゅ
+ShowTextBox "!!! 3FD0C4 16"
+WaitTextBox
+# もう少しツリーを見て
+# おいて、いいかにゅ？
+ShowTextBox "!!! 3FD0C4 17"
+WaitTextBox
+# …はくしゅっ！
+ShowTextBox "!!! 3FD0C4 18"
+WaitTextBox
+# だいじょうぶにゅ、別
+# に寒くないにゅ
+ShowTextBox "!!! 3FD0C4 19"
+WaitTextBox
+# たぶん、でじこが…い
+# や、なんでもないにゅ
+ShowTextBox "!!! 3FD0C4 20"
+WaitTextBox
+EndScript

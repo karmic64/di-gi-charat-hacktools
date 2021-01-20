@@ -1,0 +1,167 @@
+DSCBase $414A80
+
+
+
+
+Subscript 0
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 1
+# クウは\x02仕事に飽きているようだ\x1a
+ShowTextBox "!!! 414A80 0"
+EndScript
+
+
+
+Subscript 2
+# 「もうこんな仕事飽きてきたなー」
+ShowTextBox "!!! 414A80 1"
+EndScript
+
+
+
+Subscript 3
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 4
+# クウは\x02やりたい仕事を他の人にとられてすねているようだ\x1a
+ShowTextBox "!!! 414A80 2"
+EndScript
+
+
+
+Subscript 5
+# 「えこひいきなんてずるいよなー」
+ShowTextBox "!!! 414A80 3"
+EndScript
+
+
+
+Subscript 6
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 7
+# クウは\x02自分のグッズが叩き売られて悲しいようだ\x1a
+ShowTextBox "!!! 414A80 4"
+EndScript
+
+
+
+Subscript 8
+# 「俺のグッズが叩き売られてる…」
+ShowTextBox "!!! 414A80 5"
+EndScript
+
+
+
+Subscript 9
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 10
+# クウは\x03自分のグッズがたくさんあってうれしいようだ\x1a
+ShowTextBox "!!! 414A80 6"
+EndScript
+
+
+
+Subscript 11
+# 「俺のグッズでいっぱいにすればお店は大繁盛だな！」
+ShowTextBox "!!! 414A80 7"
+EndScript
+
+
+
+Subscript 12
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 13
+# $0クウは\x01仕事がうまくいっていないようだ\x1a
+ShowTextBox "!!! 414A80 8"
+EndScript
+
+
+
+Subscript 14
+# 「ちぇ、こんなことやってられないぜ…」
+ShowTextBox "!!! 414A80 9"
+EndScript
+
+
+
+Subscript 15
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 16
+# $0\x02クウの調子はあまりよくないようだ\x1a
+ShowTextBox "!!! 414A80 10"
+EndScript
+
+
+
+Subscript 17
+# 「なんかやる気がでないんだよなー」
+ShowTextBox "!!! 414A80 11"
+EndScript
+
+
+
+Subscript 18
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 19
+# $0クウは問題無く仕事をしているようだ
+ShowTextBox "!!! 414A80 12"
+EndScript
+
+
+
+Subscript 20
+# 「ぴよこのため、がんばらないとな」
+ShowTextBox "!!! 414A80 13"
+EndScript
+
+
+
+Subscript 21
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 22
+# $0クウは\x03はりきって仕事をしているようだ\x1a
+ShowTextBox "!!! 414A80 14"
+EndScript
+
+
+
+Subscript 23
+# 「へへ、絶好調だぜ！」
+ShowTextBox "!!! 414A80 15"
+EndScript
+
+
+
+Subscript 24
+EndScript

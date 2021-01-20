@@ -1,0 +1,460 @@
+DSCBase $3E1C90
+
+
+
+
+Subscript 0
+ShowChara 1 4 8
+# $1と言えば、$2風$3がおいしいにょ～！
+ShowTextBox "!!! 3E1C90 0"
+WaitTextBox
+# $1が隠し味に入ってて絶品にょ～！
+ShowTextBox "!!! 3E1C90 1"
+WaitTextBox
+ShowChara 1 0 9
+# 店長しゃんも一度
+# 食べてみれば、い
+# いにょ～
+# でじこのオススメ
+# にょ！
+ShowTextBox "!!! 3E1C90 2"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 1 4 8
+# $1の横顔は、なんとなく$2に似てるにょ
+ShowTextBox "!!! 3E1C90 3"
+WaitTextBox
+ShowChara 1 0 9
+# 店長しゃんもそう
+# 思うにょ？
+ShowTextBox "!!! 3E1C90 4"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 1 4 16
+# でじこ、かったる
+# いにょ～
+# もう$1するのイヤだにょ～
+ShowTextBox "!!! 3E1C90 5"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 1 4 9
+# 店長しゃんのおっつかい♪
+# 店長しゃんのおっつかい♪
+ShowTextBox "!!! 3E1C90 6"
+WaitTextBox
+ShowChara 1 0 10
+# ちょっと$2まで$1しに、行って来ていいかにょ？
+ShowTextBox "!!! 3E1C90 7"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 1 4 8
+# $1と言えば、テレビの料理番組で、$2を食べてたにょ
+ShowTextBox "!!! 3E1C90 8"
+WaitTextBox
+ShowChara 1 0 9
+# おいしそうだった
+# にょ～♪
+ShowTextBox "!!! 3E1C90 9"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 1 4 8
+# 豆知識にょ！
+ShowTextBox "!!! 3E1C90 10"
+WaitTextBox
+ShowChara 1 0 9
+# $2は主に$1に住んでるにょ！
+ShowTextBox "!!! 3E1C90 11"
+WaitTextBox
+ShowChara 1 0 10
+# だから、子供に大
+# 人気なんだにょ～
+# ！
+ShowTextBox "!!! 3E1C90 12"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+ShowChara 1 4 15
+# にょーーーッ！！
+ShowTextBox "!!! 3E1C90 13"
+WaitTextBox
+# いきなり無性に$1が食べたくなってきたにょーッ！
+ShowTextBox "!!! 3E1C90 14"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+ShowChara 1 4 9
+# ゲマが代わりに$1をやってくれるそうだから、でじこは$2に遊びに行くにょ
+ShowTextBox "!!! 3E1C90 15"
+WaitTextBox
+ShowChara 8 4 54
+# そ、そんなの聞いてないゲマ！？
+ShowTextBox "!!! 3E1C90 16"
+WaitTextBox
+ShowChara 1 4 13
+# うるさいにょ！
+# 逆らうとひどいにょ！
+ShowTextBox "!!! 3E1C90 17"
+WaitTextBox
+EndScript
+
+
+
+Subscript 8
+ShowChara 1 4 15
+# テレビでスゴイもの見たにょ！
+ShowTextBox "!!! 3E1C90 18"
+WaitTextBox
+# $1と$2がバトルしてたにょ！
+ShowTextBox "!!! 3E1C90 19"
+WaitTextBox
+# カメラマンがビビ
+# るくらいの、すご
+# い映像だったにょ
+# ！
+ShowTextBox "!!! 3E1C90 20"
+WaitTextBox
+EndScript
+
+
+
+Subscript 9
+ShowChara 1 4 9
+# ここで$1にお住まいの$2さんから、お手紙にょ！
+ShowTextBox "!!! 3E1C90 21"
+WaitTextBox
+ShowChara 1 0 8
+# 『こんにちは私は
+# でじこちゃんの熱
+# 烈なファンです。
+# でじこちゃんがと
+# てもとても好きで
+# す』
+ShowTextBox "!!! 3E1C90 22"
+WaitTextBox
+ShowChara 1 0 9
+# $2さん、ありがとにょ！
+ShowTextBox "!!! 3E1C90 23"
+WaitTextBox
+ShowChara 1 0 8
+# 『私は今$3で$4をしているのですが…』
+ShowTextBox "!!! 3E1C90 24"
+WaitTextBox
+# 『でじこちゃんのグッズをもっと置かないとお店が燃える夢を見ました』
+ShowTextBox "!!! 3E1C90 25"
+WaitTextBox
+ShowChara 1 0 15
+# にょーーーっ！？
+# それは大変にょ！！
+ShowTextBox "!!! 3E1C90 26"
+WaitTextBox
+ShowChara 1 0 8
+# 『そんなわけで、
+# でじこちゃんのグ
+# ッズを今の百倍は
+# 入れるとよいと思
+# います』
+ShowTextBox "!!! 3E1C90 27"
+WaitTextBox
+ShowChara 1 0 10
+# そんなわけで、で
+# じこのグッズを今
+# の百倍入れるにょ
+# ーっ！
+ShowTextBox "!!! 3E1C90 28"
+WaitTextBox
+ShowChara 8 4 2
+# …その手紙はどうして、でじこの字で書かれてるゲマ？
+ShowTextBox "!!! 3E1C90 29"
+WaitTextBox
+ShowChara 1 4 15
+# にょっ！
+ShowTextBox "!!! 3E1C90 30"
+WaitTextBox
+ShowChara 1 0 9
+# …以上、$1にお住まいの$2さんからのお手紙でしたにょ！
+ShowTextBox "!!! 3E1C90 31"
+WaitTextBox
+# 応援ありがとにょでじこガンバルにょ！
+ShowTextBox "!!! 3E1C90 32"
+WaitTextBox
+EndScript
+
+
+
+Subscript 10
+ShowChara 1 4 8
+# $1といえば、$2が名産らしいにょ
+ShowTextBox "!!! 3E1C90 33"
+WaitTextBox
+# 名産ってことは、
+# いっぱい作ってる
+# ってことにょ
+ShowTextBox "!!! 3E1C90 34"
+WaitTextBox
+ShowChara 1 0 14
+# 買い占めてお店で
+# 売るにょ！
+ShowTextBox "!!! 3E1C90 35"
+WaitTextBox
+EndScript
+
+
+
+Subscript 11
+ShowChara 1 4 12
+# …$1
+# なつかしいにょ～
+# つらかったにょ～
+# 苦しかったにょ～
+ShowTextBox "!!! 3E1C90 36"
+WaitTextBox
+ShowChara 1 0 11
+# そんな苦労があっ
+# たからこそ、$2にもお店を出せたんだにょ！
+ShowTextBox "!!! 3E1C90 37"
+WaitTextBox
+EndScript
+
+
+
+Subscript 12
+ShowChara 1 4 9
+# $1は$2の大好物でもあるにょ！
+ShowTextBox "!!! 3E1C90 38"
+WaitTextBox
+ShowChara 1 0 10
+# 覚えるにょ！
+ShowTextBox "!!! 3E1C90 39"
+WaitTextBox
+EndScript
+
+
+
+Subscript 13
+ShowChara 1 4 16
+# $1なら『$2』で$3してたにょ～
+ShowTextBox "!!! 3E1C90 40"
+WaitTextBox
+ShowChara 1 0 9
+# ハッスルプレイで
+# 会場をわかせてたにょ！
+ShowTextBox "!!! 3E1C90 41"
+WaitTextBox
+EndScript
+
+
+
+Subscript 14
+ShowChara 1 4 14
+# でじこ、『$1』の本なら全部持ってるにょ～
+ShowTextBox "!!! 3E1C90 42"
+WaitTextBox
+ShowChara 2 4 55
+# ひょっとして、それ自慢してるの？
+ShowTextBox "!!! 3E1C90 43"
+WaitTextBox
+ShowChara 1 4 11
+# ひょっとしてじゃ
+# なくても、自慢だ
+# にょ！文句あるかにょ！
+ShowTextBox "!!! 3E1C90 44"
+WaitTextBox
+EndScript
+
+
+
+Subscript 15
+ShowChara 1 4 8
+# $1では、$2の花が貴重らしいにょ！
+ShowTextBox "!!! 3E1C90 45"
+WaitTextBox
+# $1生まれの$3が言ってたにょ
+ShowTextBox "!!! 3E1C90 46"
+WaitTextBox
+EndScript
+
+
+
+Subscript 16
+ShowChara 1 4 10
+# たった今『$1』グッズは売り切れましたにょ～！
+# 完売にょ～！
+ShowTextBox "!!! 3E1C90 47"
+WaitTextBox
+EndScript
+
+
+
+Subscript 17
+ShowChara 1 4 8
+# $1は秋になる実がおいしいにょ！
+ShowTextBox "!!! 3E1C90 48"
+WaitTextBox
+ShowChara 1 0 9
+# 店長しゃんは知ってたかにょ？
+ShowTextBox "!!! 3E1C90 49"
+WaitTextBox
+EndScript
+
+
+
+Subscript 18
+ShowChara 1 4 8
+# でじこ、『$1』は好きだにょ！
+ShowTextBox "!!! 3E1C90 50"
+WaitTextBox
+ShowChara 1 0 9
+# おもしろくて、毎回ビデオに録画してるにょ！
+ShowTextBox "!!! 3E1C90 51"
+WaitTextBox
+EndScript
+
+
+
+Subscript 19
+ShowChara 1 4 16
+# 『$1』なら、でじこ最後まで読んだにょ
+ShowTextBox "!!! 3E1C90 52"
+WaitTextBox
+ShowChara 1 0 12
+# $2と$3のラブロマンスに、おもわず涙が出たにょ～
+ShowTextBox "!!! 3E1C90 53"
+WaitTextBox
+EndScript
+
+
+
+Subscript 20
+ShowChara 1 4 8
+# 『$1』は$2が司会する超人気番組だにょ！
+ShowTextBox "!!! 3E1C90 54"
+WaitTextBox
+ShowChara 1 0 9
+# 毎回、楽しみにしてるにょ！
+ShowTextBox "!!! 3E1C90 55"
+WaitTextBox
+EndScript
+
+
+
+Subscript 21
+ShowChara 1 4 8
+# $1を飲みながら$2すると危険だにょ！
+ShowTextBox "!!! 3E1C90 56"
+WaitTextBox
+ShowChara 1 0 16
+# 気分悪くなるにょ～
+ShowTextBox "!!! 3E1C90 57"
+WaitTextBox
+EndScript
+
+
+
+Subscript 22
+ShowChara 1 4 8
+# $1だったらでじこ知ってるにょ
+ShowTextBox "!!! 3E1C90 58"
+WaitTextBox
+ShowChara 1 0 9
+# このまえ、$2が乗って暴走してたにょ
+ShowTextBox "!!! 3E1C90 59"
+WaitTextBox
+ShowChara 1 0 13
+# 危なかったから、でじこがお仕置きしてやったにょ！
+ShowTextBox "!!! 3E1C90 60"
+WaitTextBox
+EndScript
+
+
+
+Subscript 23
+ShowChara 1 4 15
+# にょ～～～！
+# 無性に$1が飲みたくなったにょ！！
+ShowTextBox "!!! 3E1C90 61"
+WaitTextBox
+ShowChara 1 0 8
+# 誰かおつかいに…
+ShowTextBox "!!! 3E1C90 62"
+WaitTextBox
+ShowChara 10 4 6
+# にゃ～～～♪
+ShowTextBox "!!! 3E1C90 63"
+WaitTextBox
+ShowChara 1 4 12
+# …ムリにょ！
+# ほっけみりんにはムリにょ～
+ShowTextBox "!!! 3E1C90 64"
+WaitTextBox
+EndScript
+
+
+
+Subscript 24
+ShowChara 1 4 8
+# にょ！？
+# お店の前に$1が止まったにょ
+ShowTextBox "!!! 3E1C90 65"
+WaitTextBox
+ShowChara 1 0 15
+# にょ～～～！
+# 誰か降りてくるにょ？
+ShowTextBox "!!! 3E1C90 66"
+WaitTextBox
+ShowChara 9 4 7
+# ……………
+ShowTextBox "!!! 3E1C90 67"
+WaitTextBox
+ShowChara 1 4 11
+# なんで、まじんがっぱが$1に乗ってたにょ？
+ShowTextBox "!!! 3E1C90 68"
+WaitTextBox
+ShowChara 9 4 7
+# ……………
+ShowTextBox "!!! 3E1C90 69"
+WaitTextBox
+ShowChara 1 4 12
+# ムシかにょ～～～
+# シカトかにょ～～
+ShowTextBox "!!! 3E1C90 70"
+WaitTextBox
+EndScript
+
+
+
+Subscript 25
+ShowChara 1 4 8
+# 『$1』とは、デ・ジ・キャラット星では王族だけが許された遊びにょ！
+ShowTextBox "!!! 3E1C90 71"
+WaitTextBox
+ShowChara 1 0 16
+# 小市民には高級すぎるにょ～
+ShowTextBox "!!! 3E1C90 72"
+WaitTextBox
+EndScript

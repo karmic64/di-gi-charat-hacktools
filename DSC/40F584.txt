@@ -1,0 +1,170 @@
+DSCBase $40F584
+
+
+
+
+Subscript 0
+ShowChara 2 0 23
+# アタシ、今週は
+# $0、すごくがんばれたわ！
+# 来週もまかせといて！
+ShowTextBox "!!! 40F584 0"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 2 0 22
+# 今週は、
+# $0、ふつうにこなせたみたいね
+# 来週もがんばるわ！
+ShowTextBox "!!! 40F584 1"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 2 0 25
+# うーん、今週は
+# $0、うまくいかなかったかも…
+# 来週はがんばらなくちゃ！
+ShowTextBox "!!! 40F584 2"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 2 0 55
+# うーん、\x01$0\x1aばかりでちょっとつまらないわね…
+# そろそろ\x03$1\x1aをやりたいな～
+ShowTextBox "!!! 40F584 3"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 2 0 23
+PlaySfx 143
+PlaySfx 18
+# やったわ、
+# $0、レベルアップよ！
+# これで\x03$1\x1aね！
+ShowTextBox "!!! 40F584 4"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 2 0 23
+PlaySfx 143
+PlaySfx 18
+# やったわ、
+# $0、レベルアップよ！
+# これで…
+ShowTextBox "!!! 40F584 5"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 6
+SetBG 60
+Unk08 2 82 84 112 88 10 3
+Fade 0 30
+ShowChara 2 0 0
+# \x03レジマスター\x1aよ！
+ShowTextBox "!!! 40F584 6"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 7
+SetBG 108
+Unk08 2 169 62 106 88 10 3
+Fade 0 30
+ShowChara 2 0 0
+# \x03接客マスター\x1aよ！
+ShowTextBox "!!! 40F584 7"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 8
+SetBG 61
+Unk08 2 148 72 20 96 10 3
+Fade 0 30
+ShowChara 2 0 0
+# \x03グッズマスター\x1aよ！
+ShowTextBox "!!! 40F584 8"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 9
+SetBG 62
+Unk08 2 109 58 104 92 10 3
+Fade 0 30
+ShowChara 2 0 0
+# \x03掃除マスター\x1aよ！
+ShowTextBox "!!! 40F584 9"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 10
+SetBG 111
+Fade 2 30
+ShowChara 2 0 23
+PlaySfx 143
+PlaySfx 18
+# 店長さん、手伝っ
+# てくれてどうもあ
+# りがとう！
+# \x03店長さんのおかげ
+# でお仕事レベルが
+# あがったわ！\x1a
+ShowTextBox "!!! 40F584 10"
+WaitTextBox
+ShowChara 2 0 23
+# アタシ、これから
+# ももっとがんばる
+# から、今後ともよ
+# ろしくね！
+ShowTextBox "!!! 40F584 11"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 11
+SetBG 111
+Fade 0 30
+ShowChara 2 0 25
+# 店長さんせっかく
+# 手伝ってくれたの
+# に、うまくいかな
+# かったわ…
+ShowTextBox "!!! 40F584 12"
+WaitTextBox
+ShowChara 2 0 22
+# アタシ、次こそは
+# がんばるわね！
+ShowTextBox "!!! 40F584 13"
+WaitTextBox
+Fade 1 30
+EndScript

@@ -1,0 +1,382 @@
+DSCBase $3F9D38
+
+
+
+
+Subscript 0
+Unk08 1 124 53 60 84 10 3
+Unk08 2 186 72 24 84 10 3
+Unk08 3 50 55 24 88 10 3
+Unk08 8 22 133 16 20 10 3
+SetBG 120
+Fade 0 30
+ShowChara 1 1 10
+# さーて、今日は待
+# ちに待ったハワイ
+# 旅行の日にょ～！
+ShowTextBox "!!! 3F9D38 0"
+WaitTextBox
+ShowChara 1 0 9
+# みんな、おぼえて
+# るかにょ？１０月
+# の市民運動会で、
+# このハワイ旅行の
+# チケットを手に入
+# れたんだにょ～
+ShowTextBox "!!! 3F9D38 1"
+WaitTextBox
+ShowChara 2 2 25
+# はぁ…ハワイじゃ
+# なくて、羽合なん
+# だけど…
+ShowTextBox "!!! 3F9D38 2"
+WaitTextBox
+# 常夏のビーチと、
+# 晩秋の温泉街じゃ
+# ずいぶん差がある
+# わよね
+ShowTextBox "!!! 3F9D38 3"
+WaitTextBox
+ShowChara 1 1 9
+# 最後の忘れ物チェ
+# ックするにょ～
+ShowTextBox "!!! 3F9D38 4"
+WaitTextBox
+# 着替えに洗面具、
+# それにカメラっと
+# …
+ShowTextBox "!!! 3F9D38 5"
+WaitTextBox
+ShowChara 1 0 10
+# それじゃ、出発に
+# ょ～っ！
+ShowTextBox "!!! 3F9D38 6"
+WaitTextBox
+Fade 1 120
+SetBG 123
+Fade 0 30
+Fade 3 1
+SetBG 47
+Fade 2 30
+ShowChara 1 0 0
+# いい湯だにょ～
+ShowTextBox "!!! 3F9D38 7"
+WaitTextBox
+ShowChara 3 0 0
+# いい湯だにゅ
+ShowTextBox "!!! 3F9D38 8"
+WaitTextBox
+ShowChara 2 0 0
+# たまには、温泉もいい
+# わねー
+ShowTextBox "!!! 3F9D38 9"
+WaitTextBox
+ShowChara 1 0 0
+# お湯もいいけど、でじ
+# こは夕食が楽しみだに
+# ょ～
+ShowTextBox "!!! 3F9D38 10"
+WaitTextBox
+ShowChara 3 0 0
+# でじこ、食い意地はっ
+# てるにゅ
+ShowTextBox "!!! 3F9D38 11"
+WaitTextBox
+ShowChara 2 0 0
+# 地方の温泉街に、都会
+# から来た３人の美人Ｏ
+# Ｌが宿泊中…
+ShowTextBox "!!! 3F9D38 12"
+WaitTextBox
+# テレビドラマだったら
+# 今夜あたりに何か事件
+# が起きるところね
+ShowTextBox "!!! 3F9D38 13"
+WaitTextBox
+ShowChara 1 0 0
+# うさだ、テレビの見す
+# ぎにょ
+ShowTextBox "!!! 3F9D38 14"
+WaitTextBox
+Fade 3 30
+SetBG 124
+Fade 2 30
+Fade 1 1
+SetBG 116
+Fade 0 30
+ShowChara 1 1 12
+# にょにょ～、悲し
+# いにょ～、もう帰
+# らなきゃならない
+# なんて、悲しすぎ
+# るにょ～
+ShowTextBox "!!! 3F9D38 15"
+WaitTextBox
+ShowChara 2 2 22
+# しかたないじゃな
+# い。明日から、ま
+# たお店の手伝いが
+# あるんだし
+ShowTextBox "!!! 3F9D38 16"
+WaitTextBox
+ShowChara 3 2 17
+# そもそも、日帰り
+# のチケットにゅ
+ShowTextBox "!!! 3F9D38 17"
+WaitTextBox
+ShowChara 1 1 12
+# 現実はきびしいに
+# ょ。温泉とお料理
+# の思い出を胸に、
+# でじこはおとなし
+# く帰るにょ
+ShowTextBox "!!! 3F9D38 18"
+WaitTextBox
+ShowChara 2 2 23
+# おおげさねぇ…
+ShowTextBox "!!! 3F9D38 19"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 1 1 15
+# にょにょ～っ！
+ShowTextBox "!!! 3F9D38 20"
+WaitTextBox
+ShowChara 3 2 19
+# 急に大声出して、
+# いったい、どうし
+# たにゅ
+ShowTextBox "!!! 3F9D38 21"
+WaitTextBox
+ShowChara 1 1 15
+# ゲマの姿がどこに
+# も見あたらないに
+# ょっ！
+ShowTextBox "!!! 3F9D38 22"
+WaitTextBox
+ShowChara 2 2 22
+# おかしいわね、さ
+# っきまでそこにい
+# たのに
+ShowTextBox "!!! 3F9D38 23"
+WaitTextBox
+ShowChara 3 2 17
+# にゅっ、あそこを
+# 見るにゅ！
+ShowTextBox "!!! 3F9D38 24"
+WaitTextBox
+ShowChara 8 1 63
+# た、たすけてゲマ
+# ～っ！
+ShowTextBox "!!! 3F9D38 25"
+WaitTextBox
+ShowChara 1 1 15
+# これはビックリに
+# ょ！ゲマが山のお
+# 猿さんに捕まえら
+# れてるにょ！
+ShowTextBox "!!! 3F9D38 26"
+WaitTextBox
+ShowChara 2 2 22
+# エサか何かと間違
+# えられちゃったの
+# かしら…？
+ShowTextBox "!!! 3F9D38 27"
+WaitTextBox
+ShowChara 1 1 11
+# 何をのんきなこと
+# いってるにょ！と
+# にかく、助けるに
+# ょ～っ！
+ShowTextBox "!!! 3F9D38 28"
+WaitTextBox
+Unk1B 1 40
+EndScript
+
+
+
+Subscript 2
+PlayMusic 17
+SetBG 116
+Fade 2 30
+ShowChara 1 1 10
+# 正義は勝つにょ！
+ShowTextBox "!!! 3F9D38 29"
+WaitTextBox
+ShowChara 8 1 53
+# で、でじこ～、き
+# っと助けてくれる
+# って信じてたゲマ
+# ～っ！
+ShowTextBox "!!! 3F9D38 30"
+WaitTextBox
+ShowChara 1 1 9
+# にょにょ、これで
+# も、でじこはデ・
+# ジ・キャラット星
+# の王女、当然の行
+# 動にょ
+ShowTextBox "!!! 3F9D38 31"
+WaitTextBox
+ShowChara 8 1 53
+# ゲマは…ゲマはう
+# れしいゲマ！
+ShowTextBox "!!! 3F9D38 32"
+WaitTextBox
+ShowChara 2 2 23
+# じーん…感動のシ
+# ーンだわ
+ShowTextBox "!!! 3F9D38 33"
+WaitTextBox
+ShowChara 3 2 17
+# ひたってる場合じ
+# ゃないにゅ
+ShowTextBox "!!! 3F9D38 34"
+WaitTextBox
+ShowChara 2 2 22
+# えっ？
+ShowTextBox "!!! 3F9D38 35"
+WaitTextBox
+ShowChara 3 2 17
+# 急がないと、帰り
+# の電車に間に合わ
+# ないにゅ
+ShowTextBox "!!! 3F9D38 36"
+WaitTextBox
+ShowChara 2 2 24
+# タイヘン、電車に
+# 乗れなかったら、
+# こんなところで野
+# 宿よ！
+ShowTextBox "!!! 3F9D38 37"
+WaitTextBox
+ShowChara 1 1 15
+# にょにょ～っ、そ
+# れは一大事、い、
+# 急ぐにょ～っ！
+ShowTextBox "!!! 3F9D38 38"
+WaitTextBox
+ShowChara 8 1 2
+# ま、待って、ゲマ
+# をおいていかない
+# でゲマ～！
+ShowTextBox "!!! 3F9D38 39"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+PlayMusic 17
+SetBG 116
+Fade 0 30
+ShowChara 1 1 12
+# にょにょ、力およ
+# ばず…
+ShowTextBox "!!! 3F9D38 40"
+WaitTextBox
+ShowChara 2 2 24
+# ちょっと、どうす
+# るのよ？
+ShowTextBox "!!! 3F9D38 41"
+WaitTextBox
+ShowChara 1 1 8
+# う～ん…
+ShowTextBox "!!! 3F9D38 42"
+WaitTextBox
+ShowChara 2 2 24
+# う～ん、じゃなく
+# て！
+ShowTextBox "!!! 3F9D38 43"
+WaitTextBox
+ShowChara 1 1 8
+# にょにょ、これは
+# 追わない方がよか
+# ったかもにょ
+ShowTextBox "!!! 3F9D38 44"
+WaitTextBox
+ShowChara 2 2 22
+# あら、どうして？
+ShowTextBox "!!! 3F9D38 45"
+WaitTextBox
+ShowChara 1 1 9
+# サル者は追わず、
+# っていうにょ
+ShowTextBox "!!! 3F9D38 46"
+WaitTextBox
+ShowChara 2 2 23
+# なるほど…って、
+# ええかげんにしな
+# さい！
+ShowTextBox "!!! 3F9D38 47"
+WaitTextBox
+ShowChara 1 1 9
+# おあとがよろしい
+# ようにょ～
+ShowTextBox "!!! 3F9D38 48"
+WaitTextBox
+ShowChara 8 1 2
+# よくないゲマ～
+ShowTextBox "!!! 3F9D38 49"
+WaitTextBox
+ShowChara 1 1 15
+# にょにょっ、ゲ、
+# ゲマっ！
+ShowTextBox "!!! 3F9D38 50"
+WaitTextBox
+ShowChara 2 2 23
+# い、いつのまにか
+# 戻ってたのね…
+ShowTextBox "!!! 3F9D38 51"
+WaitTextBox
+ShowChara 8 1 2
+# 誰かさんたちがマ
+# ンザイやってる間
+# に、必死で逃げて
+# きたゲマ
+ShowTextBox "!!! 3F9D38 52"
+WaitTextBox
+ShowChara 1 1 15
+# で、でじこたちは
+# 別に遊んでたわけ
+# じゃないにょ！
+ShowTextBox "!!! 3F9D38 53"
+WaitTextBox
+ShowChara 8 1 2
+# ふ～ん、本当ゲマ
+# ？
+ShowTextBox "!!! 3F9D38 54"
+WaitTextBox
+ShowChara 3 2 17
+# お取り込み中、失
+# 礼にゅ。今のさわ
+# ぎで出発が遅れた
+# にゅ、急ぐにゅ！
+ShowTextBox "!!! 3F9D38 55"
+WaitTextBox
+ShowChara 8 1 2
+# しかたないゲマ。
+# 続きは、帰りの電
+# 車の中でゆっくり
+# 聞かせてもらうゲ
+# マ
+ShowTextBox "!!! 3F9D38 56"
+WaitTextBox
+ShowChara 1 1 12
+# にょにょ、だから
+# ゴメンナサイって
+# いってるにょ～
+ShowTextBox "!!! 3F9D38 57"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+EndScript

@@ -1,0 +1,201 @@
+DSCBase $3F3A98
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# ねえ、店長さん、
+# 今度の１５日のお
+# 祭りの日、出店を
+# 出すんでしょ？
+ShowTextBox "!!! 3F3A98 0"
+WaitTextBox
+ShowChara 2 0 23
+# なんといっても、
+# キャラクターグッ
+# ズは縁日向けだも
+# のね！
+ShowTextBox "!!! 3F3A98 1"
+WaitTextBox
+ShowChara 1 2 11
+# でじこは反対にょ
+# っ！
+ShowTextBox "!!! 3F3A98 2"
+WaitTextBox
+ShowChara 2 1 22
+# どうして？いい考
+# えだと思うけど…
+ShowTextBox "!!! 3F3A98 3"
+WaitTextBox
+ShowChara 1 2 11
+# よくないにょっ！
+# お店を出したら、
+# お祭りで遊ぶ時間
+# がなくなっちゃう
+# にょ！
+ShowTextBox "!!! 3F3A98 4"
+WaitTextBox
+# そんなんじゃ、せ
+# っかくのお祭りが
+# だいなしになっち
+# ゃうにょっ！
+ShowTextBox "!!! 3F3A98 5"
+WaitTextBox
+# 反対ったら反対だ
+# にょ！
+ShowTextBox "!!! 3F3A98 6"
+WaitTextBox
+ShowChara 2 1 25
+# と、とりつくしま
+# がないわね…
+ShowTextBox "!!! 3F3A98 7"
+WaitTextBox
+ShowChara 2 0 22
+# ぷちこはどうなの
+# かしら？
+ShowTextBox "!!! 3F3A98 8"
+WaitTextBox
+ShowChara 3 2 17
+# 反対にゅ！
+# ぷちこもお祭りで
+# 遊びたいにゅ
+ShowTextBox "!!! 3F3A98 9"
+WaitTextBox
+ShowChara 2 1 25
+# うーん、賛成１、
+# 反対２かぁ…
+ShowTextBox "!!! 3F3A98 10"
+WaitTextBox
+ShowChara 1 2 11
+# 店長しゃん、でじ
+# こはお祭りで遊び
+# たいにょ～！
+ShowTextBox "!!! 3F3A98 11"
+WaitTextBox
+# いいよ
+# ダメ！
+ShowSelMenu09 2 "!!! 3F3A98 12"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 1 0 10
+# やっぱり店長しゃ
+# んは、でじこの味
+# 方だにょ～！
+ShowTextBox "!!! 3F3A98 13"
+WaitTextBox
+ShowChara 2 1 22
+# まっ、いいか…
+ShowTextBox "!!! 3F3A98 14"
+WaitTextBox
+ShowChara 2 0 23
+# じゃ、店長さんに
+# はその責任を取っ
+# てもらうというこ
+# とで…
+ShowTextBox "!!! 3F3A98 15"
+WaitTextBox
+# お祭りの日は、で
+# じこの案内はよろ
+# しくね
+ShowTextBox "!!! 3F3A98 16"
+WaitTextBox
+ShowChara 1 2 10
+# やったにょ、当日
+# は店長しゃんのお
+# ごりにょ～！
+ShowTextBox "!!! 3F3A98 17"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 1 0 12
+# にょにょ～っ、そ
+# んな～
+ShowTextBox "!!! 3F3A98 18"
+WaitTextBox
+ShowChara 2 1 55
+# 残念だけど、あき
+# らめなさい
+ShowTextBox "!!! 3F3A98 19"
+WaitTextBox
+ShowChara 1 2 12
+# …………
+ShowTextBox "!!! 3F3A98 20"
+WaitTextBox
+ShowChara 2 1 23
+# まぁまぁ、そんな
+# に気を落とさない
+# で…一緒にがんば
+# ろ、ね？
+ShowTextBox "!!! 3F3A98 21"
+WaitTextBox
+ShowChara 3 2 17
+# 違うにゅ、よく見
+# るにゅ
+ShowTextBox "!!! 3F3A98 22"
+WaitTextBox
+ShowChara 1 2 11
+# にょにょ～っ！！
+ShowTextBox "!!! 3F3A98 23"
+WaitTextBox
+# こうなったら、お
+# 祭りでは売って売
+# って売りまくって
+# やるにょ～っ！！
+ShowTextBox "!!! 3F3A98 24"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 1 115 65 104 100 10 3
+SetBG 113
+Fade 0 30
+ShowChara 1 1 10
+# 今日は、待ちに待
+# ったお祭りの日に
+# ょっ！
+ShowTextBox "!!! 3F3A98 25"
+WaitTextBox
+# さあ、お祭りに出
+# 発にょ～っ
+ShowTextBox "!!! 3F3A98 26"
+WaitTextBox
+Fade 3 30
+SetBG 34
+Fade 2 30
+ShowChara 1 0 0
+# このりんご飴、なかな
+# かおいしいにょ～
+ShowTextBox "!!! 3F3A98 27"
+WaitTextBox
+# さ～て、お次は何にし
+# ようかにょ…
+ShowTextBox "!!! 3F3A98 28"
+WaitTextBox
+# にょ、「まだ何か買う
+# のか」って？
+ShowTextBox "!!! 3F3A98 29"
+WaitTextBox
+# 何を言ってるにょ、店
+# 長しゃん！
+ShowTextBox "!!! 3F3A98 30"
+WaitTextBox
+# でじこはまだ、わたが
+# しと焼きとうもろこし
+# とりんご飴を食べて
+ShowTextBox "!!! 3F3A98 31"
+WaitTextBox
+# 金魚すくいと輪投げと
+# ヨーヨーすくいをやっ
+# ただけにょ！
+ShowTextBox "!!! 3F3A98 32"
+WaitTextBox
+# じゃ、次はあれ、射的
+# をやるにょ～！
+ShowTextBox "!!! 3F3A98 33"
+WaitTextBox
+EndScript

@@ -1,0 +1,44 @@
+DSCBase $411434
+
+
+
+
+Subscript 0
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# $0
+# 残り$1/$2個にゅ
+ShowTextBox "!!! 411434 0"
+EndScript
+
+
+
+Subscript 3
+# Ａボタンを押して、このスロット
+# に入れるグッズを買うにゅ
+ShowTextBox "!!! 411434 1"
+EndScript
+
+
+
+Subscript 4
+# もう終わりにゅ？
+ShowTextBox "!!! 411434 2"
+EndScript
+
+
+
+Subscript 5
+# お店情報を見るにゅ？
+ShowTextBox "!!! 411434 3"
+EndScript

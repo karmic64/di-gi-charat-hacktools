@@ -1,0 +1,352 @@
+DSCBase $3E2D38
+
+
+
+
+Subscript 0
+ShowChara 3 4 17
+# $1、ぷちこ食ったことあるにゅ
+ShowTextBox "!!! 3E2D38 0"
+WaitTextBox
+ShowChara 3 0 18
+# うまいにゅ★
+ShowTextBox "!!! 3E2D38 1"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 3 4 17
+# ぷちこ、$1は見たことあるにゅ
+ShowTextBox "!!! 3E2D38 2"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 3 4 17
+# $1…えんやこらにゅ
+ShowTextBox "!!! 3E2D38 3"
+WaitTextBox
+# ぷちこ、がんばるにゅ！
+ShowTextBox "!!! 3E2D38 4"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 3 4 17
+# …$1ってすごいにゅ？
+ShowTextBox "!!! 3E2D38 5"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 3 4 17
+# $1と言えば、約束の場所として有名にゅ
+ShowTextBox "!!! 3E2D38 6"
+WaitTextBox
+# 伝説の$2が生えてるカップル達のサンクチュアリにゅ
+ShowTextBox "!!! 3E2D38 7"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 3 4 19
+# $1と$2は食い合わせが悪いにゅ
+ShowTextBox "!!! 3E2D38 8"
+WaitTextBox
+ShowChara 3 0 20
+# 食べるとおなかゴロゴロにゅ
+ShowTextBox "!!! 3E2D38 9"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+ShowChara 3 4 17
+# $1といえば、$2で大安売りしてたにゅ
+ShowTextBox "!!! 3E2D38 10"
+WaitTextBox
+# 思わずたくさん買ってしまったにゅ
+ShowTextBox "!!! 3E2D38 11"
+WaitTextBox
+ShowChara 3 0 18
+# …今度、うちのお店で売るにゅ
+ShowTextBox "!!! 3E2D38 12"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+ShowChara 3 4 17
+# $1は$2に育てられた…
+ShowTextBox "!!! 3E2D38 13"
+WaitTextBox
+ShowChara 3 0 18
+# …という仮説があるにゅ
+ShowTextBox "!!! 3E2D38 14"
+WaitTextBox
+EndScript
+
+
+
+Subscript 8
+ShowChara 3 4 17
+# $1は$2の生き別れの家族…
+ShowTextBox "!!! 3E2D38 15"
+WaitTextBox
+ShowChara 3 0 21
+# かも知れないにゅ
+ShowTextBox "!!! 3E2D38 16"
+WaitTextBox
+EndScript
+
+
+
+Subscript 9
+ShowChara 3 4 17
+# ぷちこ、この季節
+# の$1が一番好きにゅ
+ShowTextBox "!!! 3E2D38 17"
+WaitTextBox
+ShowChara 3 0 18
+# にゅ…おなか空いたにゅ
+ShowTextBox "!!! 3E2D38 18"
+WaitTextBox
+EndScript
+
+
+
+Subscript 10
+ShowChara 3 4 17
+# $1といえば、$2が大好物にゅ
+ShowTextBox "!!! 3E2D38 19"
+WaitTextBox
+# この季節、$3にものすごく集まってるにゅ
+ShowTextBox "!!! 3E2D38 20"
+WaitTextBox
+EndScript
+
+
+
+Subscript 11
+ShowChara 3 4 17
+# 『$1』のグッズは、今大人気にゅ
+ShowTextBox "!!! 3E2D38 21"
+WaitTextBox
+ShowChara 3 0 18
+# ほっといても売れるにゅ！
+ShowTextBox "!!! 3E2D38 22"
+WaitTextBox
+EndScript
+
+
+
+Subscript 12
+ShowChara 3 4 17
+# 店長さん、知ってるにゅ？
+# $1を煎じたお茶は体にいいらしいにゅ
+ShowTextBox "!!! 3E2D38 23"
+WaitTextBox
+ShowChara 3 0 18
+# 健康第一、ファイト５０発にゅ！
+ShowTextBox "!!! 3E2D38 24"
+WaitTextBox
+EndScript
+
+
+
+Subscript 13
+ShowChara 10 4 6
+# にゃ～～～
+ShowTextBox "!!! 3E2D38 25"
+WaitTextBox
+ShowChara 3 4 19
+# マジにゅ！？
+ShowTextBox "!!! 3E2D38 26"
+WaitTextBox
+ShowChara 10 4 6
+# にゃ～～～
+ShowTextBox "!!! 3E2D38 27"
+WaitTextBox
+ShowChara 3 4 20
+# どうしようもないにゅ？
+ShowTextBox "!!! 3E2D38 28"
+WaitTextBox
+ShowChara 10 4 6
+# にゃ～～～
+ShowTextBox "!!! 3E2D38 29"
+WaitTextBox
+ShowChara 3 4 21
+# 店長さん、ほっけ
+# みりんが店長さん
+# と結ばれるのは$1と言ってるにゅ
+ShowTextBox "!!! 3E2D38 30"
+WaitTextBox
+ShowChara 10 4 6
+# にゃ～～～
+ShowTextBox "!!! 3E2D38 31"
+WaitTextBox
+ShowChara 3 4 21
+# 絶対に逃れられない運命らしいにゅ
+ShowTextBox "!!! 3E2D38 32"
+WaitTextBox
+ShowChara 3 0 18
+# 意外とお似合いにゅ！
+ShowTextBox "!!! 3E2D38 33"
+WaitTextBox
+EndScript
+
+
+
+Subscript 14
+ShowChara 3 4 17
+# $1…
+# ぷちこのあこがれにゅ
+ShowTextBox "!!! 3E2D38 34"
+WaitTextBox
+ShowChara 3 0 18
+# 空気がとってもキレイなとこらしいにゅ
+ShowTextBox "!!! 3E2D38 35"
+WaitTextBox
+EndScript
+
+
+
+Subscript 15
+ShowChara 3 4 20
+# …$1
+# ぷちこ、ちっちゃいからツライにゅ
+ShowTextBox "!!! 3E2D38 36"
+WaitTextBox
+ShowChara 3 0 17
+# でも、お仕事だったら仕方ないにゅ
+ShowTextBox "!!! 3E2D38 37"
+WaitTextBox
+ShowChara 3 0 18
+# がんばるにゅ！
+ShowTextBox "!!! 3E2D38 38"
+WaitTextBox
+EndScript
+
+
+
+Subscript 16
+ShowChara 3 4 17
+# 『$1』…
+# よく$2が出てる番組にゅ
+ShowTextBox "!!! 3E2D38 39"
+WaitTextBox
+ShowChara 3 0 21
+# ぷちこ、$2を見るとなごむにゅ～♪
+ShowTextBox "!!! 3E2D38 40"
+WaitTextBox
+EndScript
+
+
+
+Subscript 17
+ShowChara 3 4 17
+# この前、$1が転職したにゅ
+ShowTextBox "!!! 3E2D38 41"
+WaitTextBox
+# $2のプロを目指すって言ってたにゅ
+ShowTextBox "!!! 3E2D38 42"
+WaitTextBox
+ShowChara 3 0 21
+# その心意気だけは買ってやるにゅ
+ShowTextBox "!!! 3E2D38 43"
+WaitTextBox
+EndScript
+
+
+
+Subscript 18
+ShowChara 3 4 17
+# 『$1』で$2の早食いをしてたにゅ！
+ShowTextBox "!!! 3E2D38 44"
+WaitTextBox
+# 当然優勝は$3だったにゅ
+ShowTextBox "!!! 3E2D38 45"
+WaitTextBox
+ShowChara 3 0 18
+# 流石にゅ！
+ShowTextBox "!!! 3E2D38 46"
+WaitTextBox
+EndScript
+
+
+
+Subscript 19
+ShowChara 3 4 17
+# ビッグニュースにゅ！
+ShowTextBox "!!! 3E2D38 47"
+WaitTextBox
+# 今度『$1』が映画化されるらしいにゅ！
+ShowTextBox "!!! 3E2D38 48"
+WaitTextBox
+ShowChara 3 0 18
+# ぷちこ、楽しみにゅ！
+ShowTextBox "!!! 3E2D38 49"
+WaitTextBox
+EndScript
+
+
+
+Subscript 20
+ShowChara 3 4 17
+# $1は$2の得意技にゅ！
+ShowTextBox "!!! 3E2D38 50"
+WaitTextBox
+EndScript
+
+
+
+Subscript 21
+ShowChara 3 4 18
+# $1はメチャクチャ早いにゅ
+ShowTextBox "!!! 3E2D38 51"
+WaitTextBox
+# そのスピードは$2をもしのぐにゅ！
+ShowTextBox "!!! 3E2D38 52"
+WaitTextBox
+EndScript
+
+
+
+Subscript 22
+ShowChara 3 4 17
+# ほっけみりんが$1したいって言ってるにゅ
+ShowTextBox "!!! 3E2D38 53"
+WaitTextBox
+# ちょっとおでかけして来ていいかにゅ？
+ShowTextBox "!!! 3E2D38 54"
+WaitTextBox
+EndScript
+
+
+
+Subscript 23
+ShowChara 3 4 17
+# 今、ぷちこ$1に乗って$2で$3してみたいにゅ
+ShowTextBox "!!! 3E2D38 55"
+WaitTextBox
+ShowChara 3 0 21
+# でも$2は$4がいっぱいいるから気をつけるにゅ
+ShowTextBox "!!! 3E2D38 56"
+WaitTextBox
+ShowChara 3 0 19
+# ふんづけたりすると呪われるにゅ…
+ShowTextBox "!!! 3E2D38 57"
+WaitTextBox
+EndScript

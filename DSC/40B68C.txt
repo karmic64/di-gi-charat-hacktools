@@ -1,0 +1,54 @@
+DSCBase $40B68C
+
+
+
+
+Subscript 0
+# ともだちとめいしをこうかんするにょ！
+ShowTextBox "!!! 40B68C 0"
+EndScript
+
+
+
+Subscript 1
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 2
+# いままでもらったともだちのめいしを見るにょ！
+ShowTextBox "!!! 40B68C 1"
+EndScript
+
+
+
+Subscript 3
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 4
+# みんなのめいしのランキングを見るにょ！
+ShowTextBox "!!! 40B68C 2"
+EndScript
+
+
+
+Subscript 5
+HideChara
+EndScript
+
+
+
+Subscript 6
+ShowChara 1 2 8
+EndScript
+
+
+
+Subscript 7
+EndScript

@@ -1,0 +1,54 @@
+DSCBase $40B930
+
+
+
+
+Subscript 0
+# ともだちとめいしのこうかんをするのね！
+ShowTextBox "!!! 40B930 0"
+EndScript
+
+
+
+Subscript 1
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 2
+# いままでもらったともだちのめいしを見るのね！
+ShowTextBox "!!! 40B930 1"
+EndScript
+
+
+
+Subscript 3
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 4
+# みんなのめいしのランキングを見るのね！
+ShowTextBox "!!! 40B930 2"
+EndScript
+
+
+
+Subscript 5
+HideChara
+EndScript
+
+
+
+Subscript 6
+ShowChara 2 2 22
+EndScript
+
+
+
+Subscript 7
+EndScript

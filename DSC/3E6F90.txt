@@ -1,0 +1,389 @@
+DSCBase $3E6F90
+
+
+
+
+Subscript 0
+ShowChara 2 1 25
+# ああ…
+# $1の毛ってフサフサしてて気持ちいい…
+ShowTextBox "!!! 3E6F90 0"
+WaitTextBox
+ShowChara 2 0 23
+# これってクセになりそうね�@
+ShowTextBox "!!! 3E6F90 1"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 2 1 23
+# ねぇ午後のおやつを買ってくるんだけど…
+ShowTextBox "!!! 3E6F90 2"
+WaitTextBox
+# $1でいいかしら？
+ShowTextBox "!!! 3E6F90 3"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 2 1 22
+# ねぇ$1から小包が届いてるわよ
+ShowTextBox "!!! 3E6F90 4"
+WaitTextBox
+ShowChara 2 0 23
+# あら、中身は…$2ね
+ShowTextBox "!!! 3E6F90 5"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 2 1 23
+# ちょっと！
+ShowTextBox "!!! 3E6F90 6"
+WaitTextBox
+# お店にいるのあれ
+# もしかして$1かしら！？
+ShowTextBox "!!! 3E6F90 7"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 2 1 24
+# だれッ！？
+# お店の看板に$1の絵を落書きしたの？
+ShowTextBox "!!! 3E6F90 8"
+WaitTextBox
+ShowChara 2 0 55
+# しかも、ぜんぜん似てないじゃない～
+ShowTextBox "!!! 3E6F90 9"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 9 2 7
+# ………
+ShowTextBox "!!! 3E6F90 10"
+WaitTextBox
+ShowChara 10 1 6
+# にゃ～
+ShowTextBox "!!! 3E6F90 11"
+WaitTextBox
+ShowChara 8 2 2
+# …そうゲマね
+# $1の$2は住む場所がなくなって、大変ゲマ
+ShowTextBox "!!! 3E6F90 12"
+WaitTextBox
+ShowChara 2 1 26
+# ええっ！？
+# 今そんな深刻な話してたの？
+ShowTextBox "!!! 3E6F90 13"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+ShowChara 2 1 22
+# 店長さん、知ってます？
+ShowTextBox "!!! 3E6F90 14"
+WaitTextBox
+# $1の$2がすっごくおいしいって評判…
+ShowTextBox "!!! 3E6F90 15"
+WaitTextBox
+ShowChara 2 0 23
+# アタシも１度でいいから食べてみたいわ♪
+ShowTextBox "!!! 3E6F90 16"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+ShowChara 2 1 27
+# キーーーッ！！
+ShowTextBox "!!! 3E6F90 17"
+WaitTextBox
+# 昨日『$1』で$2が$3してたの見損ねちゃった～
+ShowTextBox "!!! 3E6F90 18"
+WaitTextBox
+ShowChara 2 0 25
+# 今日学校ですごく評判よかったの
+# 誰か、ビデオ録ってないかしら？
+ShowTextBox "!!! 3E6F90 19"
+WaitTextBox
+EndScript
+
+
+
+Subscript 8
+ShowChara 2 1 25
+# ハア…$1が恋しい季節ね
+ShowTextBox "!!! 3E6F90 20"
+WaitTextBox
+ShowChara 2 0 22
+# とか言ってたら、おなかが空いてきちゃったわ
+ShowTextBox "!!! 3E6F90 21"
+WaitTextBox
+ShowChara 2 0 23
+# そろそろお茶にしません？
+ShowTextBox "!!! 3E6F90 22"
+WaitTextBox
+EndScript
+
+
+
+Subscript 9
+ShowChara 2 1 23
+# ねー、さっき道ばたで$1の子供見ちゃった
+# かわいかったわよ～
+ShowTextBox "!!! 3E6F90 23"
+WaitTextBox
+ShowChara 2 0 22
+# お店で飼えないかしら？
+ShowTextBox "!!! 3E6F90 24"
+WaitTextBox
+EndScript
+
+
+
+Subscript 10
+ShowChara 2 1 25
+# あ、店長さん…
+# ごめんなさい、ボーッとして…
+ShowTextBox "!!! 3E6F90 25"
+WaitTextBox
+ShowChara 2 0 22
+# 今日$1が『$2』のグッズを大量に買ってて、ショックだったの
+ShowTextBox "!!! 3E6F90 26"
+WaitTextBox
+ShowChara 2 0 55
+# 意外よね～
+ShowTextBox "!!! 3E6F90 27"
+WaitTextBox
+EndScript
+
+
+
+Subscript 11
+ShowChara 2 1 26
+# おーほほほっ
+# ついにこの日が来たわ
+ShowTextBox "!!! 3E6F90 28"
+WaitTextBox
+ShowChara 2 0 23
+# 今日開催されるミス$1はアタシが優勝すること、間違い無しね♪
+ShowTextBox "!!! 3E6F90 29"
+WaitTextBox
+EndScript
+
+
+
+Subscript 12
+ShowChara 2 1 24
+# ちょっと、誰！？
+# アタシのカバンに$1を入れたの？
+ShowTextBox "!!! 3E6F90 30"
+WaitTextBox
+EndScript
+
+
+
+Subscript 13
+ShowChara 2 1 23
+# ねぇ今度発売される$1のＣＤ『$2とワタシ』って、楽しみよね～♪
+ShowTextBox "!!! 3E6F90 31"
+WaitTextBox
+# なんでも$3が特別ゲストで参加してるらしいわよ
+ShowTextBox "!!! 3E6F90 32"
+WaitTextBox
+EndScript
+
+
+
+Subscript 14
+ShowChara 2 1 22
+# 知ってる？
+# この季節、$1は$2が満開らしいわよ
+ShowTextBox "!!! 3E6F90 33"
+WaitTextBox
+ShowChara 2 0 23
+# 行ってみたいわね
+ShowTextBox "!!! 3E6F90 34"
+WaitTextBox
+EndScript
+
+
+
+Subscript 15
+ShowChara 2 2 25
+# そういえば最近、お店に来ないわね
+# …$1
+ShowTextBox "!!! 3E6F90 35"
+WaitTextBox
+# なにかあったのかしら？
+ShowTextBox "!!! 3E6F90 36"
+WaitTextBox
+EndScript
+
+
+
+Subscript 16
+ShowChara 2 2 22
+# ねぇ店長さん
+# 今度$1でアルバイト募集してみない？
+ShowTextBox "!!! 3E6F90 37"
+WaitTextBox
+ShowChara 2 0 23
+# きっとユニークな人が来てくれると思うの
+ShowTextBox "!!! 3E6F90 38"
+WaitTextBox
+EndScript
+
+
+
+Subscript 17
+ShowChara 2 1 22
+# ねぇみんな聞いて
+# 今日、学校で恐い話を聞いたの
+ShowTextBox "!!! 3E6F90 39"
+WaitTextBox
+ShowChara 2 0 25
+# あのね…
+# 夜な夜な$1に乗った$2が…
+ShowTextBox "!!! 3E6F90 40"
+WaitTextBox
+# $3で$4してるんですって！！
+ShowTextBox "!!! 3E6F90 41"
+WaitTextBox
+# 恐いわよね～
+ShowTextBox "!!! 3E6F90 42"
+WaitTextBox
+EndScript
+
+
+
+Subscript 18
+ShowChara 2 1 24
+# ちょっとでじこ！
+ShowTextBox "!!! 3E6F90 43"
+WaitTextBox
+# 『$1』のグッズ、棚に並べておいてって言ったでしょ！
+ShowTextBox "!!! 3E6F90 44"
+WaitTextBox
+EndScript
+
+
+
+Subscript 19
+ShowChara 2 1 22
+# お花屋さんの前で$1の花を売ってたわ
+ShowTextBox "!!! 3E6F90 45"
+WaitTextBox
+ShowChara 2 0 23
+# もうそんな季節なのね…
+ShowTextBox "!!! 3E6F90 46"
+WaitTextBox
+EndScript
+
+
+
+Subscript 20
+ShowChara 2 1 22
+# ねぇ店長さん
+# 昨日の『$1』見た？
+ShowTextBox "!!! 3E6F90 47"
+WaitTextBox
+# $2が$3と大ゲンカして、番組めちゃくちゃだったらしいじゃない
+ShowTextBox "!!! 3E6F90 48"
+WaitTextBox
+ShowChara 2 0 55
+# ケンカって、よくないわよね
+ShowTextBox "!!! 3E6F90 49"
+WaitTextBox
+EndScript
+
+
+
+Subscript 21
+ShowChara 2 2 22
+# そういえば、アタシ昨日$1に乗る夢、見ちゃった！
+ShowTextBox "!!! 3E6F90 50"
+WaitTextBox
+ShowChara 2 0 23
+# すごいスピードで気持ちよかったわよ！
+ShowTextBox "!!! 3E6F90 51"
+WaitTextBox
+EndScript
+
+
+
+Subscript 22
+ShowChara 2 2 27
+# 昨日も今日も$1…
+# $1ばかりで嫌になっちゃう～
+ShowTextBox "!!! 3E6F90 52"
+WaitTextBox
+ShowChara 2 0 55
+# きっと明日も明後日も$1しないといけないのかしら
+ShowTextBox "!!! 3E6F90 53"
+WaitTextBox
+EndScript
+
+
+
+Subscript 23
+ShowChara 2 2 25
+# ふ～…
+# 今日学校で$1したの
+ShowTextBox "!!! 3E6F90 54"
+WaitTextBox
+ShowChara 2 0 22
+# あれって意外と楽しいわね♪
+ShowTextBox "!!! 3E6F90 55"
+WaitTextBox
+EndScript
+
+
+
+Subscript 24
+ShowChara 2 2 55
+# ふ～～～…
+# ようやく$1が終ったわ
+ShowTextBox "!!! 3E6F90 56"
+WaitTextBox
+ShowChara 2 0 22
+# なんかノド渇いちゃった
+# 確かお店の冷蔵庫に冷えた$2があったわよね
+ShowTextBox "!!! 3E6F90 57"
+WaitTextBox
+EndScript
+
+
+
+Subscript 25
+ShowChara 9 1 7
+# ………………
+ShowTextBox "!!! 3E6F90 58"
+WaitTextBox
+ShowChara 2 4 22
+# どうしたの、まじんがっぱ？
+ShowTextBox "!!! 3E6F90 59"
+WaitTextBox
+# さっきあげた$1はもう飲んじゃったの？
+ShowTextBox "!!! 3E6F90 60"
+WaitTextBox
+ShowChara 9 1 7
+# …………
+ShowTextBox "!!! 3E6F90 61"
+WaitTextBox
+EndScript

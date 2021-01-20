@@ -1,0 +1,539 @@
+DSCBase $3EA7A8
+
+
+
+
+Subscript 0
+ShowChara 2 4 23
+# アタシ、昔$1を飼っていたことあるのよ
+ShowTextBox "!!! 3EA7A8 0"
+WaitTextBox
+# 店長さんは何か動物飼ってたりしました？
+ShowTextBox "!!! 3EA7A8 1"
+WaitTextBox
+# 飼ってたどうぶつ
+ShowTextPrompt 3 "!!! 3EA7A8 2"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 2 0 23
+# $9ね、$9もかわいいわよね
+ShowTextBox "!!! 3EA7A8 3"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 2 0 22
+# ふーん、そうなの
+# 残念…
+ShowTextBox "!!! 3EA7A8 4"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 2 4 22
+# ところで$1って何を食べるのかしら？
+ShowTextBox "!!! 3EA7A8 5"
+WaitTextBox
+# $1のエサ
+ShowTextPrompt 1 "!!! 3EA7A8 6"
+JumpOnSelection 2 2 3 0
+Label 2
+ShowChara 2 0 23
+# さすが店長さん、物知りね
+ShowTextBox "!!! 3EA7A8 7"
+WaitTextBox
+EndScript
+Label 3
+ShowChara 2 0 22
+# 知らない？
+# …うーん、なんだったかしら？
+ShowTextBox "!!! 3EA7A8 8"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 2 4 23
+# アタシ、$1さんをとても尊敬してるの
+ShowTextBox "!!! 3EA7A8 9"
+WaitTextBox
+ShowChara 2 0 22
+# 店長さんも、尊敬している人っています？
+ShowTextBox "!!! 3EA7A8 10"
+WaitTextBox
+# そんけいしている人
+ShowTextPrompt 0 "!!! 3EA7A8 11"
+JumpOnSelection 2 4 5 0
+Label 4
+ShowChara 2 0 23
+# へー、あの人もとても素敵よね
+ShowTextBox "!!! 3EA7A8 12"
+WaitTextBox
+EndScript
+Label 5
+ShowChara 2 0 22
+# もしかして、店長さんも$1さんが好きなの？
+ShowTextBox "!!! 3EA7A8 13"
+WaitTextBox
+ShowChara 2 0 23
+# アタシといっしょね
+ShowTextBox "!!! 3EA7A8 14"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 2 4 22
+# $1ってどこで作られてるのかしら？
+ShowTextBox "!!! 3EA7A8 15"
+WaitTextBox
+# 誰か知ってる？
+ShowTextBox "!!! 3EA7A8 16"
+WaitTextBox
+# $1の原産地
+ShowTextPrompt 5 "!!! 3EA7A8 17"
+JumpOnSelection 2 6 7 0
+Label 6
+ShowChara 2 0 23
+# へえ、そうなんだ
+ShowTextBox "!!! 3EA7A8 18"
+WaitTextBox
+# またひとつ賢くなっちゃったわ
+ShowTextBox "!!! 3EA7A8 19"
+WaitTextBox
+EndScript
+Label 7
+ShowChara 3 4 17
+# $1の原産地は$2にゅ…
+ShowTextBox "!!! 3EA7A8 20"
+WaitTextBox
+ShowChara 2 4 22
+# へぇ…
+# よく知ってるわね
+ShowTextBox "!!! 3EA7A8 21"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 2 4 22
+# ふう、やっと$1が終ったわ
+ShowTextBox "!!! 3EA7A8 22"
+WaitTextBox
+# 店長さん、まだ他にお仕事あります？
+ShowTextBox "!!! 3EA7A8 23"
+WaitTextBox
+# うさだのしごと
+ShowTextPrompt 7 "!!! 3EA7A8 24"
+JumpOnSelection 2 8 9 0
+Label 8
+ShowChara 2 0 23
+# わかりました、すぐに始めますね
+ShowTextBox "!!! 3EA7A8 25"
+WaitTextBox
+EndScript
+Label 9
+ShowChara 2 0 23
+# それじゃあ、ひとやすみして、$2でも食べましょうか
+ShowTextBox "!!! 3EA7A8 26"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 2 4 22
+# そういえばもうすぐ、$1の$2が見ごろの季節ね
+ShowTextBox "!!! 3EA7A8 27"
+WaitTextBox
+# 店長さんは好きな花とかある？
+ShowTextBox "!!! 3EA7A8 28"
+WaitTextBox
+# 好きな花
+ShowTextPrompt 4 "!!! 3EA7A8 29"
+JumpOnSelection 2 10 11 0
+Label 10
+ShowChara 2 0 23
+# そうね、$9の花も咲くころね
+ShowTextBox "!!! 3EA7A8 30"
+WaitTextBox
+# 今度よかったら見に行かない？
+ShowTextBox "!!! 3EA7A8 31"
+WaitTextBox
+EndScript
+Label 11
+ShowChara 2 0 22
+# あんまりお花とか興味ないんだ？
+ShowTextBox "!!! 3EA7A8 32"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+ShowChara 2 4 22
+# ふう～
+# 今日は$1が忙しくて、ノドが渇くわね
+ShowTextBox "!!! 3EA7A8 33"
+WaitTextBox
+# なにか飲み物買って来ましょうか？
+ShowTextBox "!!! 3EA7A8 34"
+WaitTextBox
+# のみもの
+ShowTextPrompt 2 "!!! 3EA7A8 35"
+JumpOnSelection 2 12 13 0
+Label 12
+ShowChara 2 0 22
+# $9ね
+# いいわね、アタシもそれにしようかしら？
+ShowTextBox "!!! 3EA7A8 36"
+WaitTextBox
+EndScript
+Label 13
+ShowChara 2 0 25
+# …そう
+# じゃあ、アタシも遠慮しとくわ
+ShowTextBox "!!! 3EA7A8 37"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+ShowChara 2 4 22
+# そういえば、今日$1で$2のコンサートがあるんですってね
+ShowTextBox "!!! 3EA7A8 38"
+WaitTextBox
+ShowChara 2 0 25
+# アタシも行ってみたいんだけど…
+ShowTextBox "!!! 3EA7A8 39"
+WaitTextBox
+ShowChara 2 0 22
+# 店長さんは、誰のコンサートなら行ってみたい？
+ShowTextBox "!!! 3EA7A8 40"
+WaitTextBox
+# 好きなアーティスト
+ShowTextPrompt 0 "!!! 3EA7A8 41"
+JumpOnSelection 2 14 15 0
+Label 14
+ShowChara 2 0 26
+# え～～～！
+# 店長さんて$9のファンだったの？
+ShowTextBox "!!! 3EA7A8 42"
+WaitTextBox
+ShowChara 2 0 22
+# 意外ね…
+ShowTextBox "!!! 3EA7A8 43"
+WaitTextBox
+EndScript
+Label 15
+ShowChara 2 0 22
+# 好きな歌手とかいないの…？
+# 仕事ひとすじなのね
+ShowTextBox "!!! 3EA7A8 44"
+WaitTextBox
+EndScript
+
+
+
+Subscript 8
+ShowChara 2 4 22
+# 今$1では、花がいっぱい咲いてるんですって
+ShowTextBox "!!! 3EA7A8 45"
+WaitTextBox
+# 何の花か知ってる？
+ShowTextBox "!!! 3EA7A8 46"
+WaitTextBox
+# しょくぶつ
+ShowTextPrompt 4 "!!! 3EA7A8 47"
+JumpOnSelection 2 16 17 0
+Label 16
+ShowChara 2 0 23
+# へ～そうなんだ
+# 店長さんって物知りね
+ShowTextBox "!!! 3EA7A8 48"
+WaitTextBox
+EndScript
+Label 17
+ShowChara 2 0 25
+# …そう、知らないんだ
+ShowTextBox "!!! 3EA7A8 49"
+WaitTextBox
+EndScript
+
+
+
+Subscript 9
+ShowChara 2 4 22
+# アタシ『$1』って知ってるわよ
+ShowTextBox "!!! 3EA7A8 50"
+WaitTextBox
+# たしか動物が活躍するマンガよね
+ShowTextBox "!!! 3EA7A8 51"
+WaitTextBox
+ShowChara 2 0 56
+# どんな動物だったっけ？
+ShowTextBox "!!! 3EA7A8 52"
+WaitTextBox
+# どうぶつ
+ShowTextPrompt 3 "!!! 3EA7A8 53"
+JumpOnSelection 2 18 19 0
+Label 18
+ShowChara 2 0 23
+# そう、そうよ
+# $9だったわ！
+ShowTextBox "!!! 3EA7A8 54"
+WaitTextBox
+# いろんな$9がいっぱい出てくるのよね
+ShowTextBox "!!! 3EA7A8 55"
+WaitTextBox
+EndScript
+Label 19
+ShowChara 2 0 22
+# 店長さんも知らないんなら、しょうがないか
+ShowTextBox "!!! 3EA7A8 56"
+WaitTextBox
+ShowChara 2 0 55
+# もっとアタシも勉強しないとね
+ShowTextBox "!!! 3EA7A8 57"
+WaitTextBox
+EndScript
+
+
+
+Subscript 10
+ShowChara 2 4 22
+# $1の出身はすごいところなの
+ShowTextBox "!!! 3EA7A8 58"
+WaitTextBox
+# $1の出身地
+ShowTextPrompt 5 "!!! 3EA7A8 59"
+JumpOnSelection 2 20 21 0
+Label 20
+ShowChara 2 0 23
+# そう、$9よ
+ShowTextBox "!!! 3EA7A8 60"
+WaitTextBox
+ShowChara 2 0 55
+# 意外すぎて、ちょ
+# っと驚いちゃうわ
+# よね
+ShowTextBox "!!! 3EA7A8 61"
+WaitTextBox
+EndScript
+Label 21
+ShowChara 2 0 27
+# う～ん、どこだっ
+# たかしら？
+ShowTextBox "!!! 3EA7A8 62"
+WaitTextBox
+# 思い出せないと悔
+# しいのよね～！
+ShowTextBox "!!! 3EA7A8 63"
+WaitTextBox
+EndScript
+
+
+
+Subscript 11
+ShowChara 2 4 22
+# ねえ店長さん
+ShowTextBox "!!! 3EA7A8 64"
+WaitTextBox
+# 店長さんはひまな
+# 時何してるの？
+ShowTextBox "!!! 3EA7A8 65"
+WaitTextBox
+# ひまな時すること
+ShowTextPrompt 11 "!!! 3EA7A8 66"
+JumpOnSelection 2 22 23 0
+Label 22
+ShowChara 2 0 23
+# へぇ～
+# $9なんて意外ね～
+ShowTextBox "!!! 3EA7A8 67"
+WaitTextBox
+ShowChara 2 0 56
+# そんな風には見えないけど…
+ShowTextBox "!!! 3EA7A8 68"
+WaitTextBox
+EndScript
+Label 23
+ShowChara 2 0 55
+# …そうよね～
+ShowTextBox "!!! 3EA7A8 69"
+WaitTextBox
+# 何をするにもお金
+# がかかるもんね
+ShowTextBox "!!! 3EA7A8 70"
+WaitTextBox
+ShowChara 2 0 22
+# 家で勉強とか読書
+# してた方がマシよ
+# ね
+ShowTextBox "!!! 3EA7A8 71"
+WaitTextBox
+ShowChara 2 0 25
+# でも時々、息抜き
+# は必要かしら…
+ShowTextBox "!!! 3EA7A8 72"
+WaitTextBox
+EndScript
+
+
+
+Subscript 12
+ShowChara 2 4 55
+# 今日その$1がマンガを買って行ったわ
+ShowTextBox "!!! 3EA7A8 73"
+WaitTextBox
+# 何てタイトルか知ってる？
+ShowTextBox "!!! 3EA7A8 74"
+WaitTextBox
+# マンガ
+ShowTextPrompt 9 "!!! 3EA7A8 75"
+JumpOnSelection 2 24 25 0
+Label 24
+ShowChara 2 0 55
+# そう、よりにもよって『$9』なのよ
+ShowTextBox "!!! 3EA7A8 76"
+WaitTextBox
+ShowChara 2 0 25
+# アタシの抱いてた
+# 理想が…ああ…
+ShowTextBox "!!! 3EA7A8 77"
+WaitTextBox
+EndScript
+Label 25
+ShowChara 2 0 55
+# …そうよね～
+# 知ってるはずない
+# わよね
+ShowTextBox "!!! 3EA7A8 78"
+WaitTextBox
+# 知らない方が幸せ
+# だったのかも…
+ShowTextBox "!!! 3EA7A8 79"
+WaitTextBox
+EndScript
+
+
+
+Subscript 13
+ShowChara 2 4 22
+# いろんな$1を紹介してるテレビ番組があるんですってね
+ShowTextBox "!!! 3EA7A8 80"
+WaitTextBox
+# なんて番組か知ってる？
+ShowTextBox "!!! 3EA7A8 81"
+WaitTextBox
+# テレビばんぐみ
+ShowTextPrompt 8 "!!! 3EA7A8 82"
+JumpOnSelection 2 26 27 0
+Label 26
+ShowChara 2 0 23
+# そうそう！
+# 『$9』！
+ShowTextBox "!!! 3EA7A8 83"
+WaitTextBox
+# おかげであの番組視聴率いいらしいわよ
+ShowTextBox "!!! 3EA7A8 84"
+WaitTextBox
+# アタシも見なくっ
+# ちゃ！
+ShowTextBox "!!! 3EA7A8 85"
+WaitTextBox
+EndScript
+Label 27
+ShowChara 2 0 26
+# えッ！？
+# 店長さん知らない
+# の～！？
+ShowTextBox "!!! 3EA7A8 86"
+WaitTextBox
+ShowChara 2 0 55
+# ハァ…
+# たまには世間って
+# ものにも注目して
+# ください
+ShowTextBox "!!! 3EA7A8 87"
+WaitTextBox
+EndScript
+
+
+
+Subscript 14
+ShowChara 2 4 22
+# 最近$1は$2の食べすぎで太ったのよね
+ShowTextBox "!!! 3EA7A8 88"
+WaitTextBox
+# しかも変な乗り物
+# にも乗ってるから
+# さらに運動不足…
+ShowTextBox "!!! 3EA7A8 89"
+WaitTextBox
+# のりもの
+ShowTextPrompt 10 "!!! 3EA7A8 90"
+JumpOnSelection 2 28 29 0
+Label 28
+ShowChara 2 0 23
+# そうそう…真っ赤な$9に乗ってるのよ
+ShowTextBox "!!! 3EA7A8 91"
+WaitTextBox
+ShowChara 2 0 55
+# ここだけの話…
+# あれって似合ってないわよね
+ShowTextBox "!!! 3EA7A8 92"
+WaitTextBox
+EndScript
+Label 29
+ShowChara 2 0 24
+# ちょっと店長さん
+# アタシの話ちゃん
+# と聞いてる？
+ShowTextBox "!!! 3EA7A8 93"
+WaitTextBox
+EndScript
+
+
+
+Subscript 15
+ShowChara 2 4 22
+# $1かあ…
+# たしか人気テーマパークがあるのよね～
+ShowTextBox "!!! 3EA7A8 94"
+WaitTextBox
+ShowChara 2 0 56
+# なんてとこだったかしら？
+ShowTextBox "!!! 3EA7A8 95"
+WaitTextBox
+# テーマパーク
+ShowTextPrompt 6 "!!! 3EA7A8 96"
+JumpOnSelection 2 30 31 0
+Label 30
+ShowChara 2 0 23
+# そうそう、$9！
+ShowTextBox "!!! 3EA7A8 97"
+WaitTextBox
+# あそこってとって
+# も楽しいアトラク
+# ションがいっぱい
+# あるんだってね♪
+ShowTextBox "!!! 3EA7A8 98"
+WaitTextBox
+EndScript
+Label 31
+ShowChara 2 0 25
+# 知らないんですか
+# ？
+ShowTextBox "!!! 3EA7A8 99"
+WaitTextBox
+# 意外に遅れてるん
+# だ…
+ShowTextBox "!!! 3EA7A8 100"
+WaitTextBox
+EndScript

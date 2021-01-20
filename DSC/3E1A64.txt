@@ -1,0 +1,155 @@
+DSCBase $3E1A64
+
+
+
+
+Subscript 0
+Unk14 -120 0
+Unk12 0 48
+Unk0B 8 4
+ShowChara 8 0 54
+# $0は、何ゲマ！
+ShowTextBox "!!! 3E1A64 0"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 8 0 54
+# $0は、ちがう言葉にするゲマ！
+ShowTextBox "!!! 3E1A64 1"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 8 1 1
+# これまでの店長さんのおもいでを、残しておくゲマ？
+ShowTextBox "!!! 3E1A64 2"
+WaitTextBox
+# 残す
+# 消してしまう！
+ShowSelMenu09 2 "!!! 3E1A64 3"
+EndScript
+
+
+
+Subscript 3
+ShowChara 8 0 54
+# ほ、ほんとうに思い出をぜんぶ消してしまっていいゲマ！？
+ShowTextBox "!!! 3E1A64 4"
+WaitTextBox
+# やっぱり残す
+# 消す！！
+ShowSelMenu09 2 "!!! 3E1A64 5"
+EndScript
+
+
+
+Subscript 4
+ShowChara 8 0 2
+# これまでの店長さんの思い出は、全部なくなってしまったゲマ…
+ShowTextBox "!!! 3E1A64 6"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+Unk14 -120 0
+Unk12 0 48
+Unk0B 8 4
+ShowChara 8 1 54
+# 店長さん、なんてこと言うゲマ！
+ShowTextBox "!!! 3E1A64 7"
+WaitTextBox
+ShowChara 8 0 1
+EndScript
+
+
+
+Subscript 6
+Unk14 -120 0
+Unk12 0 48
+Unk0B 8 4
+ShowChara 8 1 1
+EndScript
+
+
+
+Subscript 7
+HideChara
+EndScript
+
+
+
+Subscript 8
+HideChara
+EndScript
+
+
+
+Subscript 9
+ShowChara 8 0 1
+# 『りれきしょ』を作るゲマ
+ShowTextBox "!!! 3E1A64 8"
+Wait 40
+EndScript
+
+
+
+Subscript 10
+ShowChara 8 0 1
+# 名前を教えてほしいゲマ
+ShowTextBox "!!! 3E1A64 9"
+EndScript
+
+
+
+Subscript 11
+ShowChara 8 0 1
+# 誕生日を教えてほしいゲマ
+ShowTextBox "!!! 3E1A64 10"
+EndScript
+
+
+
+Subscript 12
+ShowChara 8 0 1
+# 血液型を教えてほしいゲマ
+ShowTextBox "!!! 3E1A64 11"
+EndScript
+
+
+
+Subscript 13
+ShowChara 8 0 1
+# 好きな食べ物を教えてほしいゲマ
+ShowTextBox "!!! 3E1A64 12"
+EndScript
+
+
+
+Subscript 14
+ShowChara 8 0 1
+# 好きな動物を教えてほしいゲマ
+ShowTextBox "!!! 3E1A64 13"
+EndScript
+
+
+
+Subscript 15
+ShowChara 8 0 1
+# そんけいする人を教えてほしいゲマ
+ShowTextBox "!!! 3E1A64 14"
+EndScript
+
+
+
+Subscript 16
+ShowChara 8 0 1
+# 入力はおわりゲマ？
+ShowTextBox "!!! 3E1A64 15"
+EndScript

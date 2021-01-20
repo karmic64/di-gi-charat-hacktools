@@ -1,0 +1,75 @@
+DSCBase $40B104
+
+
+
+
+Subscript 0
+ShowChara 1 0 8
+# 通信の用意ができたらＡボタンをおすにょ！
+ShowTextBox "!!! 40B104 0"
+EndScript
+
+
+
+Subscript 1
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 2
+# とりやめるにょ
+ShowTextBox "!!! 40B104 1"
+Wait 60
+EndScript
+
+
+
+Subscript 3
+# 通信待ちにょ…
+ShowTextBox "!!! 40B104 2"
+EndScript
+
+
+
+Subscript 4
+# 通信中にょ…
+ShowTextBox "!!! 40B104 3"
+EndScript
+
+
+
+Subscript 5
+# 通信終了にょ！
+# Ａボタンを押して登録するにょ！
+ShowTextBox "!!! 40B104 4"
+EndScript
+
+
+
+Subscript 6
+# 登録したにょ！
+ShowTextBox "!!! 40B104 5"
+WaitTextBox
+# $0店長さんのめいしをすぐ見るかにょ？
+ShowTextBox "!!! 40B104 6"
+WaitTextBox
+# すぐ見る
+# あとで
+ShowSelMenu09 2 "!!! 40B104 7"
+EndScript
+
+
+
+Subscript 7
+# 通信がうまくいかなかったにょ…
+ShowTextBox "!!! 40B104 8"
+EndScript
+
+
+
+Subscript 8
+# $0店長さんを登録する場所をえらぶにょ！
+ShowTextBox "!!! 40B104 9"
+EndScript

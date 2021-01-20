@@ -1,0 +1,271 @@
+DSCBase $3E50B0
+
+
+
+
+Subscript 0
+ShowChara 6 1 40
+# ピョコラ様、本日
+# のおやつは$1産の$2ですよ
+ShowTextBox "!!! 3E50B0 0"
+WaitTextBox
+ShowChara 4 4 29
+# わーい、うれしいぴょ～！
+ShowTextBox "!!! 3E50B0 1"
+WaitTextBox
+ShowChara 6 1 41
+# しかも今日はなん
+# と$3つきですよ
+ShowTextBox "!!! 3E50B0 2"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 6 1 44
+# たッ大変ですッリク元帥！
+# お店に$1が来てます！！
+ShowTextBox "!!! 3E50B0 3"
+WaitTextBox
+ShowChara 5 4 39
+# 落ち着け、カイ！
+# こういう時は見て
+# 見ぬふりをすれば
+# いいのだ
+ShowTextBox "!!! 3E50B0 4"
+WaitTextBox
+ShowChara 6 1 46
+# で、でもお店の中で大暴れしてますよ！
+ShowTextBox "!!! 3E50B0 5"
+WaitTextBox
+# ああッ『$2』グッズの棚がッ！！
+ShowTextBox "!!! 3E50B0 6"
+WaitTextBox
+ShowChara 5 4 57
+# くッ…堪えろ
+# 堪えるんだッ！
+ShowTextBox "!!! 3E50B0 7"
+WaitTextBox
+ShowChara 6 1 43
+# そ、そうですね…
+# 『$3』グッズの棚を壊されるよりは…
+ShowTextBox "!!! 3E50B0 8"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 6 2 40
+# リク元帥！
+# デ・ジ・キャラッ
+# トをおとしいれる
+# いい作戦を発案し
+# ました！
+ShowTextBox "!!! 3E50B0 9"
+WaitTextBox
+ShowChara 5 1 35
+# よろしい、聞かせてもらおう
+ShowTextBox "!!! 3E50B0 10"
+WaitTextBox
+ShowChara 6 2 40
+# はッ！
+# …ごにょごにょ
+ShowTextBox "!!! 3E50B0 11"
+WaitTextBox
+ShowChara 5 1 57
+# な、なんと素晴ら
+# しい作戦だ…
+ShowTextBox "!!! 3E50B0 12"
+WaitTextBox
+ShowChara 6 2 41
+# ちなみに作戦名は『ウキウキ$1』です
+ShowTextBox "!!! 3E50B0 13"
+WaitTextBox
+ShowChara 5 1 37
+# 『ウキウキ$1』…か
+ShowTextBox "!!! 3E50B0 14"
+WaitTextBox
+ShowChara 5 0 65
+# 私としては『るんるん$2』の方が、いいな～♪
+ShowTextBox "!!! 3E50B0 15"
+WaitTextBox
+ShowChara 7 1 49
+# どっちでもいっしょだろ、そんなの…
+ShowTextBox "!!! 3E50B0 16"
+WaitTextBox
+ShowChara 6 2 42
+# いや、重大な問題
+# だぞ、クウ！
+ShowTextBox "!!! 3E50B0 17"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 6 1 40
+# おや…？
+# リク元帥あてに$1の花束が…
+ShowTextBox "!!! 3E50B0 18"
+WaitTextBox
+# 差出人は…
+ShowTextBox "!!! 3E50B0 19"
+WaitTextBox
+ShowChara 6 0 45
+# …$2？
+ShowTextBox "!!! 3E50B0 20"
+WaitTextBox
+ShowChara 5 2 35
+# おや…カイ
+# その$1はどうしたんだ？
+ShowTextBox "!!! 3E50B0 21"
+WaitTextBox
+ShowChara 6 1 44
+# あっ…あははは！
+# なッなんでもない
+# ですよ、リク元帥！！
+ShowTextBox "!!! 3E50B0 22"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 6 1 40
+# 店長さんは$1を知ってますか？
+ShowTextBox "!!! 3E50B0 23"
+WaitTextBox
+# なんでも一家に一冊『$2』があるらしいじゃないですか
+ShowTextBox "!!! 3E50B0 24"
+WaitTextBox
+ShowChara 6 0 41
+# そこにお店を開け
+# ば、あっという間
+# に大もうけできる
+# んですけどね～
+ShowTextBox "!!! 3E50B0 25"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 6 1 40
+# $1…
+# 実はあの方、$2で遊ぶのが大好きらしいです
+ShowTextBox "!!! 3E50B0 26"
+WaitTextBox
+ShowChara 6 0 41
+# あの方もまだまだ
+# 子供ってことでし
+# ょうか？
+ShowTextBox "!!! 3E50B0 27"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+ShowChara 6 2 40
+# 昨日『$1』で言ってたのですが…
+ShowTextBox "!!! 3E50B0 28"
+WaitTextBox
+# $2と$3が結婚するそうですよ
+ShowTextBox "!!! 3E50B0 29"
+WaitTextBox
+ShowChara 7 1 58
+# マジかよッ！？
+ShowTextBox "!!! 3E50B0 30"
+WaitTextBox
+ShowChara 6 2 41
+# …世も末ってことですね
+ShowTextBox "!!! 3E50B0 31"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+ShowChara 6 1 41
+# ふう～
+# $1したあとは、$2がおいしいです
+ShowTextBox "!!! 3E50B0 32"
+WaitTextBox
+ShowChara 6 0 46
+# あ～～～っ！！
+# 店長さんの分も飲
+# んでしまった～！
+ShowTextBox "!!! 3E50B0 33"
+WaitTextBox
+EndScript
+
+
+
+Subscript 8
+ShowChara 6 2 42
+# くそッ…$1め
+ShowTextBox "!!! 3E50B0 34"
+WaitTextBox
+ShowChara 7 1 47
+# どうしたんだよ、
+# カイ？
+# そんなに怒って…
+ShowTextBox "!!! 3E50B0 35"
+WaitTextBox
+ShowChara 6 2 42
+# お店の前に咲いて
+# いた$3の花を$1が$2に乗ってふんづけたんだ！！
+ShowTextBox "!!! 3E50B0 36"
+WaitTextBox
+ShowChara 6 0 43
+# 毎日お水をあげて
+# いたのに…
+ShowTextBox "!!! 3E50B0 37"
+WaitTextBox
+EndScript
+
+
+
+Subscript 9
+ShowChara 6 2 40
+# 店長、提案があります
+ShowTextBox "!!! 3E50B0 38"
+WaitTextBox
+# 今度$1にできる$2に『$3』グッズを売りに行きましょう！
+ShowTextBox "!!! 3E50B0 39"
+WaitTextBox
+ShowChara 6 0 41
+# きっと売れると思いますよ！
+ShowTextBox "!!! 3E50B0 40"
+WaitTextBox
+ShowChara 7 1 49
+# え～～～…
+# めんどくせ～…
+ShowTextBox "!!! 3E50B0 41"
+WaitTextBox
+ShowChara 6 2 46
+# そうしないと、お
+# 店の倉庫がいっぱ
+# いなんですよっ！
+ShowTextBox "!!! 3E50B0 42"
+WaitTextBox
+EndScript
+
+
+
+Subscript 10
+ShowChara 6 2 41
+# 店長、歯みがいてますか？
+ShowTextBox "!!! 3E50B0 43"
+WaitTextBox
+ShowChara 6 0 40
+# $1は虫歯だらけで、ついに入院したらしいです！
+ShowTextBox "!!! 3E50B0 44"
+WaitTextBox
+ShowChara 6 0 41
+# 気をつけましょうね
+ShowTextBox "!!! 3E50B0 45"
+WaitTextBox
+EndScript

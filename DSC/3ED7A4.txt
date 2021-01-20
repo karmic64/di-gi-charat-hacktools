@@ -1,0 +1,12 @@
+DSCBase $3ED7A4
+
+
+
+
+Subscript 0
+ShowChara 7 0 52
+# そういう言葉は、
+# ダメだぜ！
+ShowTextBox "!!! 3ED7A4 0"
+WaitTextBox
+EndScript

@@ -1,0 +1,269 @@
+DSCBase $0C8CA0
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 1 1 8
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 0"
+WaitTextBox
+ShowChara 1 1 9
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 1"
+WaitTextBox
+ShowChara 1 1 10
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 2"
+WaitTextBox
+ShowChara 1 1 11
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 3"
+WaitTextBox
+ShowChara 1 1 12
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 4"
+WaitTextBox
+ShowChara 1 1 13
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 5"
+WaitTextBox
+ShowChara 1 1 14
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 6"
+WaitTextBox
+ShowChara 1 1 15
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 7"
+WaitTextBox
+ShowChara 1 1 16
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 8"
+WaitTextBox
+ShowChara 2 1 22
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 9"
+WaitTextBox
+ShowChara 2 1 23
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 10"
+WaitTextBox
+ShowChara 2 1 24
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 11"
+WaitTextBox
+ShowChara 2 1 25
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 12"
+WaitTextBox
+ShowChara 2 1 23
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 13"
+WaitTextBox
+ShowChara 2 1 27
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 14"
+WaitTextBox
+ShowChara 2 1 55
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 15"
+WaitTextBox
+ShowChara 2 1 23
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 16"
+WaitTextBox
+ShowChara 2 1 56
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 17"
+WaitTextBox
+ShowChara 2 1 26
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 18"
+WaitTextBox
+ShowChara 3 1 17
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 19"
+WaitTextBox
+ShowChara 3 1 18
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 20"
+WaitTextBox
+ShowChara 3 1 19
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 21"
+WaitTextBox
+ShowChara 3 1 20
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 22"
+WaitTextBox
+ShowChara 3 1 21
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 23"
+WaitTextBox
+ShowChara 4 1 28
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 24"
+WaitTextBox
+ShowChara 4 1 29
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 25"
+WaitTextBox
+ShowChara 4 1 30
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 26"
+WaitTextBox
+ShowChara 4 1 31
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 27"
+WaitTextBox
+ShowChara 4 1 32
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 28"
+WaitTextBox
+ShowChara 4 1 33
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 29"
+WaitTextBox
+ShowChara 4 1 34
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 30"
+WaitTextBox
+ShowChara 4 1 62
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 31"
+WaitTextBox
+ShowChara 5 1 35
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 32"
+WaitTextBox
+ShowChara 5 1 36
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 33"
+WaitTextBox
+ShowChara 5 1 37
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 34"
+WaitTextBox
+ShowChara 5 1 38
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 35"
+WaitTextBox
+ShowChara 5 1 39
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 36"
+WaitTextBox
+ShowChara 5 1 57
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 37"
+WaitTextBox
+ShowChara 5 1 64
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 38"
+WaitTextBox
+ShowChara 6 1 40
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 39"
+WaitTextBox
+ShowChara 6 1 41
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 40"
+WaitTextBox
+ShowChara 6 1 42
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 41"
+WaitTextBox
+ShowChara 6 1 43
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 42"
+WaitTextBox
+ShowChara 6 1 44
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 43"
+WaitTextBox
+ShowChara 6 1 45
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 44"
+WaitTextBox
+ShowChara 6 1 46
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 45"
+WaitTextBox
+ShowChara 7 1 47
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 46"
+WaitTextBox
+ShowChara 7 1 48
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 47"
+WaitTextBox
+ShowChara 7 1 49
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 48"
+WaitTextBox
+ShowChara 7 1 50
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 49"
+WaitTextBox
+ShowChara 7 1 51
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 50"
+WaitTextBox
+ShowChara 7 1 52
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 51"
+WaitTextBox
+ShowChara 7 1 58
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 52"
+WaitTextBox
+ShowChara 8 1 1
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 53"
+WaitTextBox
+ShowChara 8 1 2
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 54"
+WaitTextBox
+ShowChara 8 1 3
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 55"
+WaitTextBox
+ShowChara 8 1 4
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 56"
+WaitTextBox
+ShowChara 8 1 53
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 57"
+WaitTextBox
+ShowChara 8 1 54
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 58"
+WaitTextBox
+ShowChara 11 1 5
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 59"
+WaitTextBox
+ShowChara 10 1 6
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 60"
+WaitTextBox
+ShowChara 9 1 7
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 61"
+WaitTextBox
+ShowChara 12 1 59
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 62"
+WaitTextBox
+ShowChara 12 1 60
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 63"
+WaitTextBox
+ShowChara 13 1 61
+# ‚Ä‚·‚Æ
+ShowTextBox "!!! 0C8CA0 64"
+WaitTextBox
+EndScript

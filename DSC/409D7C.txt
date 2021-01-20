@@ -1,0 +1,102 @@
+DSCBase $409D7C
+
+
+
+
+Subscript 0
+Unk14 0 16
+Unk12 -12 0
+ShowChara 3 2 17
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 3 0 17
+# 何を買うにゅ？
+ShowTextBox "!!! 409D7C 0"
+EndScript
+
+
+
+Subscript 3
+ShowChara 3 0 17
+# 全部で、
+# $0円で売れるにゅ
+ShowTextBox "!!! 409D7C 1"
+EndScript
+
+
+
+Subscript 4
+ShowChara 3 0 21
+# お金が無いにゅ…
+# がんばって、お金をも
+# っとかせぐにゅ
+ShowTextBox "!!! 409D7C 2"
+EndScript
+
+
+
+Subscript 5
+ShowChara 3 0 20
+# それはまだお店に残っ
+# てるにゅ
+ShowTextBox "!!! 409D7C 3"
+EndScript
+
+
+
+Subscript 6
+ShowChara 3 0 17
+# いくつ買うにゅ？
+ShowTextBox "!!! 409D7C 4"
+EndScript
+
+
+
+Subscript 7
+ShowChara 3 0 17
+# $0個買うのに、
+# $1円ひつようにゅ
+ShowTextBox "!!! 409D7C 5"
+EndScript
+
+
+
+Subscript 8
+ShowChara 3 0 17
+# 買うの、やめるにゅ？
+ShowTextBox "!!! 409D7C 6"
+EndScript
+
+
+
+Subscript 9
+ShowChara 3 0 17
+# 見やすいように、グッ
+# ズをならびかえるにゅ
+ShowTextBox "!!! 409D7C 7"
+EndScript
+
+
+
+Subscript 10
+ShowChara 3 0 17
+# 本当に買うにゅ？
+ShowTextBox "!!! 409D7C 8"
+EndScript
+
+
+
+Subscript 11
+ShowChara 3 0 17
+# $3の$1が$2上手になるにゅ
+ShowTextBox "!!! 409D7C 9"
+EndScript

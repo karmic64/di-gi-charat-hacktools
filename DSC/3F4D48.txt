@@ -1,0 +1,587 @@
+DSCBase $3F4D48
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 55
+# ふう…
+ShowTextBox "!!! 3F4D48 0"
+WaitTextBox
+ShowChara 1 2 8
+# ため息なんかつい
+# てどうしたにょ、
+# うさだ？
+ShowTextBox "!!! 3F4D48 1"
+WaitTextBox
+ShowChara 2 1 55
+# 明日から、２学期
+# 開始…楽しかった
+# 夏休みも今日で終
+# わりかぁ…
+ShowTextBox "!!! 3F4D48 2"
+WaitTextBox
+ShowChara 1 2 16
+# にょにょ、でじこ
+# には関係ない話に
+# ょ～
+ShowTextBox "!!! 3F4D48 3"
+WaitTextBox
+ShowChara 2 1 22
+# あら、そうでもな
+# いわよ？
+ShowTextBox "!!! 3F4D48 4"
+WaitTextBox
+ShowChara 1 2 8
+# なんでにょ？
+ShowTextBox "!!! 3F4D48 5"
+WaitTextBox
+ShowChara 2 1 22
+# だって、学校が始
+# まったら、お店に
+# 来るお客さんの数
+# が減っちゃうでし
+# ょ？
+ShowTextBox "!!! 3F4D48 6"
+WaitTextBox
+# 少なくとも、夏休
+# みと同じってわけ
+# にはいかないわよ
+# ね…
+ShowTextBox "!!! 3F4D48 7"
+WaitTextBox
+ShowChara 1 2 15
+# お客さんが減る…
+# にょにょっ、それ
+# はピンチにょっ！
+ShowTextBox "!!! 3F4D48 8"
+WaitTextBox
+ShowChara 2 1 22
+# なんとか、お客さ
+# んの気をひく手を
+# 考えなきゃね…
+ShowTextBox "!!! 3F4D48 9"
+WaitTextBox
+ShowChara 1 2 8
+# にょにょっ…アイ
+# ディア、アイディ
+# ア…
+ShowTextBox "!!! 3F4D48 10"
+WaitTextBox
+ShowChara 1 0 11
+# ゲマ、何か良い考
+# えがあったら言う
+# にょ！
+ShowTextBox "!!! 3F4D48 11"
+WaitTextBox
+ShowChara 8 2 2
+# きゅ、急にそんな
+# こと言われても困
+# るゲマ…
+ShowTextBox "!!! 3F4D48 12"
+WaitTextBox
+ShowChara 2 1 22
+# 夏休みが終わった
+# ばっかりでしょ？
+# 時期的にむずかし
+# いわよね
+ShowTextBox "!!! 3F4D48 13"
+WaitTextBox
+# 夏のイベントなん
+# て、だいたい夏休
+# みのうちにやっち
+# ゃうもんだから…
+ShowTextBox "!!! 3F4D48 14"
+WaitTextBox
+ShowChara 1 2 9
+# そろそろ、何か思
+# いついたかにょ、
+# ゲマ？
+ShowTextBox "!!! 3F4D48 15"
+WaitTextBox
+ShowChara 8 2 2
+# だ、だからそうい
+# うことは、ゲマに
+# は荷が重いゲマ…
+ShowTextBox "!!! 3F4D48 16"
+WaitTextBox
+ShowChara 1 2 11
+# まったく、その黄
+# 色くて丸いボディ
+# はただの飾りかに
+# ょっ…！
+ShowTextBox "!!! 3F4D48 17"
+WaitTextBox
+ShowChara 8 2 53
+# そ、そんなにほめ
+# られるとなんだか
+# 恥ずかしいゲマ…
+ShowTextBox "!!! 3F4D48 18"
+WaitTextBox
+ShowChara 1 2 11
+# ほめたんじゃない
+# にょ～っ！
+ShowTextBox "!!! 3F4D48 19"
+WaitTextBox
+ShowChara 2 1 55
+# はいはい…
+ShowTextBox "!!! 3F4D48 20"
+WaitTextBox
+# 気が散るから、漫
+# 才はよそでやって
+# ちょうだいね…
+ShowTextBox "!!! 3F4D48 21"
+WaitTextBox
+ShowChara 3 1 17
+# これを見るにゅ
+ShowTextBox "!!! 3F4D48 22"
+WaitTextBox
+ShowChara 1 2 8
+# 新聞のチラシ？
+ShowTextBox "!!! 3F4D48 23"
+WaitTextBox
+ShowChara 3 1 17
+# ぷちこにいい考え
+# があるにゅ…
+ShowTextBox "!!! 3F4D48 24"
+WaitTextBox
+ShowChara 2 1 22
+# えーっと、読むわ
+# ね…
+ShowTextBox "!!! 3F4D48 25"
+WaitTextBox
+# “南京町名物、中
+# 秋節。今年は９月
+# ８日に開催！”
+ShowTextBox "!!! 3F4D48 26"
+WaitTextBox
+# なるほど、中秋節
+# か…
+ShowTextBox "!!! 3F4D48 27"
+WaitTextBox
+ShowChara 1 2 8
+# 中秋節って、何に
+# ょ？
+ShowTextBox "!!! 3F4D48 28"
+WaitTextBox
+ShowChara 2 1 22
+# えーと、夏祭りの
+# ことなんだけど、
+# 日本のじゃなくて
+# 中国のなのね
+ShowTextBox "!!! 3F4D48 29"
+WaitTextBox
+ShowChara 1 2 8
+# 夏祭りなら、この
+# 間やったにょ？
+ShowTextBox "!!! 3F4D48 30"
+WaitTextBox
+ShowChara 2 1 22
+# 旧暦だから、数週
+# 間あとにずれちゃ
+# うの
+ShowTextBox "!!! 3F4D48 31"
+WaitTextBox
+ShowChara 1 2 8
+# ううむ…そういう
+# ものなのかにょ…
+ShowTextBox "!!! 3F4D48 32"
+WaitTextBox
+ShowChara 2 1 23
+# とにかく、来週だ
+# なんて、時期がい
+# いわよね
+# やっちゃいましょ
+# うよ！
+ShowTextBox "!!! 3F4D48 33"
+WaitTextBox
+ShowChara 1 2 8
+# ところで、なんで
+# でじこたちが中国
+# のお祭りをやるの
+# かにょ？
+ShowTextBox "!!! 3F4D48 34"
+WaitTextBox
+ShowChara 2 1 22
+# そりゃぁ…何も関
+# 係ないけど…
+ShowTextBox "!!! 3F4D48 35"
+WaitTextBox
+ShowChara 3 1 18
+# そこはそれにゅ！
+ShowTextBox "!!! 3F4D48 36"
+WaitTextBox
+ShowChara 2 1 26
+# 今、ぷちこが良い
+# こと言ったわ！
+ShowTextBox "!!! 3F4D48 37"
+WaitTextBox
+# そこはそれ！こう
+# いうことは、やっ
+# たもの勝ちよ、や
+# ったもの勝ち！
+ShowTextBox "!!! 3F4D48 38"
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ、どうも
+# 迷うにょ…
+ShowTextBox "!!! 3F4D48 39"
+WaitTextBox
+ShowChara 8 2 1
+# こういうときは、
+# 店長さんに決めて
+# もらうのが一番だ
+# と思うゲマ…
+ShowTextBox "!!! 3F4D48 40"
+WaitTextBox
+ShowChara 3 1 17
+# たまにはゲマもい
+# いこというにゅ
+ShowTextBox "!!! 3F4D48 41"
+WaitTextBox
+ShowChara 1 2 8
+# 店長さん、中秋節
+# をやるのはＯＫと
+# 思うにょ？
+ShowTextBox "!!! 3F4D48 42"
+WaitTextBox
+# 中秋節をやる
+# やらない
+ShowSelMenu09 2 "!!! 3F4D48 43"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 2 1 23
+# 決定ね！
+ShowTextBox "!!! 3F4D48 44"
+WaitTextBox
+# それじゃ、来週に
+# 向けて準備を始め
+# ましょ
+ShowTextBox "!!! 3F4D48 45"
+WaitTextBox
+ShowChara 1 2 12
+# にょにょ…来週ま
+# でに中国のお勉強
+# しとかなきゃいけ
+# ないにょ～
+ShowTextBox "!!! 3F4D48 46"
+WaitTextBox
+ShowChara 2 1 23
+# だいじょうぶよ、
+# てきとうに「アチ
+# ョ～」とか「アル
+# ヨ～」とか言って
+# れば問題ないわ…
+ShowTextBox "!!! 3F4D48 47"
+WaitTextBox
+ShowChara 1 2 9
+# ア、アチョーっ、
+# で、でじこアルに
+# ょ～っ！
+ShowTextBox "!!! 3F4D48 48"
+WaitTextBox
+ShowChara 2 1 23
+# 上手、上手…
+ShowTextBox "!!! 3F4D48 49"
+WaitTextBox
+ShowChara 1 2 12
+# な、なんかだまさ
+# れてるような気が
+# するにょ…
+ShowTextBox "!!! 3F4D48 50"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 1 0 8
+# でじこ的には、な
+# んか納得いかない
+# にょ～
+ShowTextBox "!!! 3F4D48 51"
+WaitTextBox
+# ということで、そ
+# の考えはボツにょ
+ShowTextBox "!!! 3F4D48 52"
+WaitTextBox
+ShowChara 2 1 25
+# もう、わがままな
+# んだから…
+ShowTextBox "!!! 3F4D48 53"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 1 146 55 36 88 10 3
+SetBG 111
+Fade 0 30
+ShowChara 2 1 23
+# 来てる、来てる、
+# お客さん、たくさ
+# ん来てるわぁ…
+ShowTextBox "!!! 3F4D48 54"
+WaitTextBox
+ShowChara 3 2 18
+# 中秋節、大成功に
+# ゅ
+ShowTextBox "!!! 3F4D48 55"
+WaitTextBox
+Fade 3 30
+SetBG 37
+Fade 2 30
+ShowChara 1 0 0
+# アチョ～っ、いらっし
+# ゃい、いらっしゃいア
+# ルにょ～
+ShowTextBox "!!! 3F4D48 56"
+WaitTextBox
+# ただいま、中秋節の大
+# セール中アルにょっ！
+ShowTextBox "!!! 3F4D48 57"
+WaitTextBox
+# 今なら、レジで中華ま
+# んじゅうプレゼント中
+# アルにょ～
+ShowTextBox "!!! 3F4D48 58"
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 2 1 23
+# でじこ、大人気み
+# たいね…
+ShowTextBox "!!! 3F4D48 59"
+WaitTextBox
+# やっぱり、アタシ
+# の指導がよかった
+# せいかしら？
+ShowTextBox "!!! 3F4D48 60"
+WaitTextBox
+ShowChara 3 2 17
+# それは関係ない…
+# とは言いきれない
+# のが微妙なところ
+# にゅ…
+ShowTextBox "!!! 3F4D48 61"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+Unk08 2 104 55 104 88 10 3
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# さあて、今日は中
+# 秋節…
+ShowTextBox "!!! 3F4D48 62"
+WaitTextBox
+# お客さん、来てく
+# れるかしら…
+ShowTextBox "!!! 3F4D48 63"
+WaitTextBox
+ShowChara 1 2 15
+# たいへんにょ～！
+ShowTextBox "!!! 3F4D48 64"
+WaitTextBox
+# もう、表にお客さ
+# んが並びはじめて
+# るにょ～！
+ShowTextBox "!!! 3F4D48 65"
+WaitTextBox
+# うさだ！そんなと
+# こでくつろいでな
+# いで、早くお店を
+# 開けるにょ～
+ShowTextBox "!!! 3F4D48 66"
+WaitTextBox
+ShowChara 2 1 22
+# も、もうちょっと
+# 待って！着替えが
+# まだ…
+ShowTextBox "!!! 3F4D48 67"
+WaitTextBox
+ShowChara 1 2 11
+# 急ぐにょ～っ！
+ShowTextBox "!!! 3F4D48 68"
+WaitTextBox
+Fade 3 30
+SetBG 38
+Fade 2 30
+ShowChara 2 0 0
+# いらっしゃいませ～♪
+# 本日は、ようこそいら
+# っしゃいました～！
+ShowTextBox "!!! 3F4D48 69"
+WaitTextBox
+# 小龍包、肉まんはいか
+# が？
+ShowTextBox "!!! 3F4D48 70"
+WaitTextBox
+# うふっ、今日は楽しん
+# でいってくださいね～
+ShowTextBox "!!! 3F4D48 71"
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 1 2 15
+# にょにょっ…うさ
+# だのやつ、なかな
+# かのやり手にょ…
+ShowTextBox "!!! 3F4D48 72"
+WaitTextBox
+ShowChara 1 0 11
+# これは負けてられ
+# ないにょ！
+ShowTextBox "!!! 3F4D48 73"
+WaitTextBox
+# こっちも派手なパ
+# フォーマンスで対
+# 抗するにょ！
+ShowTextBox "!!! 3F4D48 74"
+WaitTextBox
+ShowChara 1 0 13
+# さあさあ、見るに
+# ょ！これが中国４
+# 千年の必殺拳「目
+# からビーム」アル
+# にょ～っ！
+ShowTextBox "!!! 3F4D48 75"
+WaitTextBox
+ShowChara 8 1 54
+# め、目からビーム
+# が中国拳法だった
+# とは知らなかった
+# ゲマ～！
+ShowTextBox "!!! 3F4D48 76"
+WaitTextBox
+ShowChara 3 1 19
+# ゲマがだまされて
+# どうするにゅ…
+ShowTextBox "!!! 3F4D48 77"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+Unk08 3 116 78 8 108 10 3
+SetBG 111
+Fade 0 30
+ShowChara 1 1 9
+# にょにょ、今日の
+# 中秋節、お客さん
+# 来るといいにょ～
+ShowTextBox "!!! 3F4D48 78"
+WaitTextBox
+ShowChara 2 2 23
+# だいじょうぶ、ば
+# っちり、宣伝して
+# おいたから！
+ShowTextBox "!!! 3F4D48 79"
+WaitTextBox
+ShowChara 1 1 10
+# にょにょ、それじ
+# ゃ、開店にょ～
+ShowTextBox "!!! 3F4D48 80"
+WaitTextBox
+Fade 3 120
+Wait 60
+Fade 2 30
+ShowChara 1 1 12
+# ふ～っ、いつもな
+# らお休みの日だっ
+# ていうのに、お客
+# さんがいっぱいに
+# ょ…
+ShowTextBox "!!! 3F4D48 81"
+WaitTextBox
+ShowChara 2 2 23
+# むしろ、いつもよ
+# り多いくらいかし
+# ら…
+ShowTextBox "!!! 3F4D48 82"
+WaitTextBox
+ShowChara 2 0 22
+# ところで、朝から
+# ぷちこを見ないけ
+# ど、今日はお休み
+# なの？
+ShowTextBox "!!! 3F4D48 83"
+WaitTextBox
+ShowChara 1 1 8
+# にょっ？
+ShowTextBox "!!! 3F4D48 84"
+WaitTextBox
+# ぷちこなら朝から
+# 店の前に立ってる
+# にょ？
+ShowTextBox "!!! 3F4D48 85"
+WaitTextBox
+Fade 1 30
+SetBG 39
+Fade 0 30
+ShowChara 2 2 22
+# えーっ、あれって
+# ぷちこだったの！
+ShowTextBox "!!! 3F4D48 86"
+WaitTextBox
+# 全然動かないから
+# お人形かと思って
+# た…
+ShowTextBox "!!! 3F4D48 87"
+WaitTextBox
+ShowChara 3 0 0
+# …………
+ShowTextBox "!!! 3F4D48 88"
+WaitTextBox
+# …………
+ShowTextBox "!!! 3F4D48 89"
+WaitTextBox
+# じっとしてるのも、た
+# いへんにゅ…
+ShowTextBox "!!! 3F4D48 90"
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 8 2 1
+# でじこ～！
+ShowTextBox "!!! 3F4D48 91"
+WaitTextBox
+ShowChara 1 1 8
+# 何にょ？
+ShowTextBox "!!! 3F4D48 92"
+WaitTextBox
+ShowChara 8 2 1
+# 入口のところに置
+# いてあるお人形の
+# 値段って、いくら
+# ゲマ？
+ShowTextBox "!!! 3F4D48 93"
+WaitTextBox
+ShowChara 2 2 22
+# えっ？
+ShowTextBox "!!! 3F4D48 94"
+WaitTextBox
+ShowChara 8 2 53
+# いや～、あれを欲
+# しいっていうお客
+# さんがいるゲマ…
+ShowTextBox "!!! 3F4D48 95"
+WaitTextBox
+ShowChara 1 1 15
+# あれは売りものじ
+# ゃないにょ～！
+ShowTextBox "!!! 3F4D48 96"
+WaitTextBox
+ShowChara 2 2 25
+# この話、ぷちこに
+# はナイショね…
+ShowTextBox "!!! 3F4D48 97"
+WaitTextBox
+EndScript

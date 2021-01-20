@@ -1,0 +1,262 @@
+DSCBase $40140C
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 6 2 40
+# 毎年、６月４日か
+# ら１０日までは、
+# 「歯の衛生週間」
+# です…
+ShowTextBox "!!! 40140C 0"
+WaitTextBox
+# みなさん、歯を大
+# 切にしましょう…
+ShowTextBox "!!! 40140C 1"
+WaitTextBox
+ShowChara 6 0 41
+# ということで、自
+# 分は提案します！
+ShowTextBox "!!! 40140C 2"
+WaitTextBox
+# 今週は歯みがきグ
+# ッズを大いに売り
+# 出しましょう！
+ShowTextBox "!!! 40140C 3"
+WaitTextBox
+# コップに歯ブラシ
+# 歯みがき粉に、入
+# れ歯の洗浄剤…
+ShowTextBox "!!! 40140C 4"
+WaitTextBox
+# ありとあらゆる歯
+# みがきグッズをお
+# 店にそろえましょ
+# う！
+ShowTextBox "!!! 40140C 5"
+WaitTextBox
+ShowChara 4 1 28
+# カイが燃えてるぴ
+# ょ…
+ShowTextBox "!!! 40140C 6"
+WaitTextBox
+ShowChara 5 1 35
+# 中将は歯のことに
+# なると、人が変わ
+# るからな…
+ShowTextBox "!!! 40140C 7"
+WaitTextBox
+ShowChara 7 1 48
+# 動物を前にしたリ
+# クと同じだよ！
+ShowTextBox "!!! 40140C 8"
+WaitTextBox
+# カイ、がんばれ！
+# やりすぎかも…
+ShowSelMenu09 2 "!!! 40140C 9"
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 6 2 43
+# そうですか…
+# 残念ですが、店長
+# の指示にしたがい
+# ます…
+ShowTextBox "!!! 40140C 10"
+WaitTextBox
+ShowChara 4 1 28
+# 店長さん、よく言
+# ったぴょ！
+# そんな気の毒そう
+# な顔をしなくてい
+# いぴょ！
+ShowTextBox "!!! 40140C 11"
+WaitTextBox
+ShowChara 4 0 31
+# 情けは禁物ぴょ！
+# これでみんなが
+# 助かったぴょっ！
+ShowTextBox "!!! 40140C 12"
+WaitTextBox
+ShowChara 5 1 39
+# 歯の治療は、必ず
+# 痛みをともないま
+# すからな…
+ShowTextBox "!!! 40140C 13"
+WaitTextBox
+ShowChara 7 1 49
+# …あーっ、カイに
+# 虫歯抜かれたとき
+# のこと、思い出し
+# ちゃったぜーっ
+ShowTextBox "!!! 40140C 14"
+WaitTextBox
+ShowChara 4 1 29
+# とにかく、痛い思
+# いしなくてよかっ
+# たぴょ！
+ShowTextBox "!!! 40140C 15"
+WaitTextBox
+EndScript
+Label 0
+ShowChara 6 2 41
+# 了解しました！こ
+# のカイ、地球の人
+# たちの歯の健康の
+# ため、努力を尽く
+# します…
+ShowTextBox "!!! 40140C 16"
+WaitTextBox
+ShowChara 4 1 30
+# はじまったぴょ…
+ShowTextBox "!!! 40140C 17"
+WaitTextBox
+ShowChara 5 1 39
+# まぁ、今週いっぱ
+# いの辛抱です…
+ShowTextBox "!!! 40140C 18"
+WaitTextBox
+ShowChara 7 1 58
+# やべっ…いま俺、
+# 虫歯あるかも…
+ShowTextBox "!!! 40140C 19"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 112
+Fade 0 30
+ShowChara 6 2 41
+# では、さっそくで
+# すが店長、ちょっ
+# とよろしいですか
+# ？
+ShowTextBox "!!! 40140C 20"
+WaitTextBox
+Fade 3 30
+Unk08 4 57 114 92 108 10 3
+Unk08 5 175 24 100 50 10 3
+Unk08 6 151 90 100 108 10 3
+Unk08 7 42 31 90 16 10 3
+SetBG 85
+Fade 2 30
+ShowChara 6 0 0
+# えー、それでは、
+# これより歯科検診を
+# 行います…
+ShowTextBox "!!! 40140C 21"
+WaitTextBox
+ShowChara 4 0 0
+# ちなみに、店長さんが
+# 最後ぴょ…
+ShowTextBox "!!! 40140C 22"
+WaitTextBox
+ShowChara 7 0 0
+# 俺たちはもう終ったか
+# らな…
+ShowTextBox "!!! 40140C 23"
+WaitTextBox
+ShowChara 5 0 0
+# 残るは店長、貴様だけ
+# だ…
+ShowTextBox "!!! 40140C 24"
+WaitTextBox
+ShowChara 6 0 0
+# はい店長、口を大きく
+# あけてください…
+ShowTextBox "!!! 40140C 25"
+WaitTextBox
+# う～ん…これは削る必
+# 要がありますね…
+ShowTextBox "!!! 40140C 26"
+WaitTextBox
+# 店長、痛くなったら
+# 手をあげてください…
+ShowTextBox "!!! 40140C 27"
+WaitTextBox
+ShowChara 5 0 0
+# みんな、耳をふさげ！
+ShowTextBox "!!! 40140C 28"
+WaitTextBox
+ShowChara 4 0 0
+# 準備ＯＫぴょ！
+ShowTextBox "!!! 40140C 29"
+WaitTextBox
+ShowChara 7 0 0
+# ふさいだぜ！
+ShowTextBox "!!! 40140C 30"
+WaitTextBox
+ShowChara 5 0 0
+# （もうみんな慣れてし
+# まった…）
+ShowTextBox "!!! 40140C 31"
+WaitTextBox
+ShowChara 4 0 0
+# （あ、店長さんが手を
+# あげてるぴょ…）
+ShowTextBox "!!! 40140C 32"
+WaitTextBox
+ShowChara 6 0 0
+# ……………………
+# ……………………
+ShowTextBox "!!! 40140C 33"
+WaitTextBox
+ShowChara 7 0 0
+# （きっとガマンしろ、
+# とか言ってるんだぜ）
+ShowTextBox "!!! 40140C 34"
+WaitTextBox
+# （耳をふさいでるから
+# 聞こえないけどな…）
+ShowTextBox "!!! 40140C 35"
+WaitTextBox
+ShowChara 6 0 0
+# ………………
+# ………………
+ShowTextBox "!!! 40140C 36"
+WaitTextBox
+ShowChara 5 0 0
+# （む、終ったようです）
+ShowTextBox "!!! 40140C 37"
+WaitTextBox
+ShowChara 4 0 0
+# （何度見ても恐ろしい
+# 光景ぴょ…）
+ShowTextBox "!!! 40140C 38"
+WaitTextBox
+Fade 1 30
+SetBG 112
+Fade 0 30
+ShowChara 4 1 28
+# 店長さん、まだ顔
+# 色が悪いぴょ
+ShowTextBox "!!! 40140C 39"
+WaitTextBox
+# 思ったより、虫歯
+# がひどかったみた
+# いぴょ
+ShowTextBox "!!! 40140C 40"
+WaitTextBox
+ShowChara 4 0 31
+# そんなことで、来
+# 年の「歯の衛生週
+# 間」はどうするぴ
+# ょ？
+ShowTextBox "!!! 40140C 41"
+WaitTextBox
+# ぴよこは、絶対毎
+# 日、歯をみがくぴ
+# ょ！
+ShowTextBox "!!! 40140C 42"
+WaitTextBox
+ShowChara 4 0 29
+# 店長さんもぴよこ
+# といっしょにみが
+# くぴょ！
+ShowTextBox "!!! 40140C 43"
+WaitTextBox
+EndScript

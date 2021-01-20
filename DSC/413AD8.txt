@@ -1,0 +1,50 @@
+DSCBase $413AD8
+
+
+
+
+Subscript 0
+ShowChara 4 1 28
+# お客さんからいいことを聞いたぴょ！
+ShowTextBox "!!! 413AD8 0"
+WaitTextBox
+ShowChara 4 0 29
+# 最近は\x02$0関連のグッズ\x1aが流行っているそうだぴょ
+# たくさん仕入れて
+# ボロ儲けぴょ！
+ShowTextBox "!!! 413AD8 1"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 1
+ShowChara 4 1 28
+# お客さんからいいことを聞いたぴょ！
+ShowTextBox "!!! 413AD8 2"
+WaitTextBox
+ShowChara 4 0 29
+# 最近は\x02$0\x1aが流行っているそうだぴょ
+# たくさん仕入れて
+# ボロ儲けぴょ！
+ShowTextBox "!!! 413AD8 3"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 4 1 28
+# お客さんからいいことを聞いたぴょ！
+ShowTextBox "!!! 413AD8 4"
+WaitTextBox
+ShowChara 4 0 29
+# 最近は\x02$0\x1aがすごく流行っているそうだぴょ
+# たくさん仕入れて
+# ボロ儲けぴょ！
+ShowTextBox "!!! 413AD8 5"
+WaitTextBox
+HideChara
+EndScript

@@ -1,0 +1,203 @@
+DSCBase $4041CC
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 31
+# ぶるる…今朝は、
+# なんか妙に冷えて
+# るぴょ…
+ShowTextBox "!!! 4041CC 0"
+WaitTextBox
+ShowChara 5 2 36
+# ほう…ピョコラ様
+# 外をごらんになっ
+# てください
+# 理由が分かります
+ShowTextBox "!!! 4041CC 1"
+WaitTextBox
+ShowChara 7 1 48
+# どれどれ…おっ、
+# すげぇ！
+ShowTextBox "!!! 4041CC 2"
+WaitTextBox
+ShowChara 6 2 40
+# 少佐、そこに立っ
+# てるとピョコラ様
+# が外を見られない
+# だろ…
+ShowTextBox "!!! 4041CC 3"
+WaitTextBox
+ShowChara 7 1 47
+# ごめんごめん…
+ShowTextBox "!!! 4041CC 4"
+WaitTextBox
+ShowChara 4 1 34
+# うわ、すごいぴょ
+# っ！？外が真っ白
+# だぴょ！
+ShowTextBox "!!! 4041CC 5"
+WaitTextBox
+ShowChara 5 2 36
+# 昨夜のうちに、雪
+# が積もったようで
+# すな…
+ShowTextBox "!!! 4041CC 6"
+WaitTextBox
+ShowChara 6 2 40
+# おっ、電話だ…も
+# しもし…
+ShowTextBox "!!! 4041CC 7"
+WaitTextBox
+# ふんふん…
+ShowTextBox "!!! 4041CC 8"
+WaitTextBox
+ShowChara 5 2 35
+# カイ、どちらさま
+# かな？
+ShowTextBox "!!! 4041CC 9"
+WaitTextBox
+ShowChara 6 2 40
+# ピョコラ様ぁ、デ
+# ・ジ・キャラット
+# たちからの電話で
+# す！
+ShowTextBox "!!! 4041CC 10"
+WaitTextBox
+ShowChara 4 1 33
+# ぴょっ？
+ShowTextBox "!!! 4041CC 11"
+WaitTextBox
+ShowChara 6 2 40
+# “雪合戦しよう”
+# だそうです…
+ShowTextBox "!!! 4041CC 12"
+WaitTextBox
+ShowChara 4 1 29
+# …望むところぴょ
+# っ！
+ShowTextBox "!!! 4041CC 13"
+WaitTextBox
+Fade 3 30
+SetBG 115
+Fade 2 30
+ShowChara 1 1 10
+# にょ～っ、これで
+# もくらうにょ！
+ShowTextBox "!!! 4041CC 14"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょぴょ、どこを
+# 狙ってるぴょ！ち
+# っともあたらない
+# ぴょ！
+ShowTextBox "!!! 4041CC 15"
+WaitTextBox
+ShowChara 4 0 28
+# リク！
+ShowTextBox "!!! 4041CC 16"
+WaitTextBox
+ShowChara 5 2 39
+# はっ！
+ShowTextBox "!!! 4041CC 17"
+WaitTextBox
+ShowChara 4 2 28
+# カイ！
+ShowTextBox "!!! 4041CC 18"
+WaitTextBox
+ShowChara 6 2 40
+# はいっ！
+ShowTextBox "!!! 4041CC 19"
+WaitTextBox
+ShowChara 4 2 28
+# クウ！
+ShowTextBox "!!! 4041CC 20"
+WaitTextBox
+ShowChara 7 2 48
+# おうっ！
+ShowTextBox "!!! 4041CC 21"
+WaitTextBox
+ShowChara 4 2 29
+# でじこお姉ちゃん
+# に集中攻撃ぴょ！
+ShowTextBox "!!! 4041CC 22"
+WaitTextBox
+ShowChara 1 1 11
+# にょにょーっ、卑
+# 怯なりーっ！
+ShowTextBox "!!! 4041CC 23"
+WaitTextBox
+ShowChara 2 1 23
+# ああっ、なんて激
+# しい攻撃なのかし
+# ら！
+ShowTextBox "!!! 4041CC 24"
+WaitTextBox
+# でじこが見る見る
+# うちに雪だるまに
+# なっていくわ！
+ShowTextBox "!!! 4041CC 25"
+WaitTextBox
+ShowChara 3 1 21
+# でじこの死は無駄
+# にしないにゅ…
+ShowTextBox "!!! 4041CC 26"
+WaitTextBox
+ShowChara 1 1 11
+# でじこは死んでな
+# いにょーっ！
+ShowTextBox "!!! 4041CC 27"
+WaitTextBox
+ShowChara 2 1 23
+# あら、それは残念
+# だわ…
+ShowTextBox "!!! 4041CC 28"
+WaitTextBox
+ShowChara 1 1 11
+# うさだーっ！
+ShowTextBox "!!! 4041CC 29"
+WaitTextBox
+ShowChara 2 1 23
+# やぁねぇ、ジョー
+# クよジョーク
+ShowTextBox "!!! 4041CC 30"
+WaitTextBox
+Fade 3 30
+Unk08 4 62 38 8 60 10 3
+Unk08 1 185 140 8 108 10 3
+SetBG 92
+Fade 2 30
+ShowChara 4 0 0
+# ぴょーっ、ぴょっ
+# ぴょっ！
+ShowTextBox "!!! 4041CC 31"
+WaitTextBox
+ShowChara 1 0 0
+# おにょれ～
+ShowTextBox "!!! 4041CC 32"
+WaitTextBox
+# こんなくつじょくは、
+# 生まれて初めてにょ～
+ShowTextBox "!!! 4041CC 33"
+WaitTextBox
+ShowChara 4 0 0
+# じつにい～い気分ぴょ
+# ～っ！
+ShowTextBox "!!! 4041CC 34"
+WaitTextBox
+# さて、でじこお姉ちゃ
+# ん
+ShowTextBox "!!! 4041CC 35"
+WaitTextBox
+# 今回はこれくらいに
+# しといてあげるぴょ！
+ShowTextBox "!!! 4041CC 36"
+WaitTextBox
+# ぴょぴょ、それが勝者
+# の余裕ぴょ～っ！
+ShowTextBox "!!! 4041CC 37"
+WaitTextBox
+EndScript

@@ -1,0 +1,45 @@
+DSCBase $3E418C
+
+
+
+
+Subscript 0
+ShowChara 6 0 40
+# 私、何か変な事を
+# 言ったでしょうか
+# ？
+ShowTextBox "!!! 3E418C 0"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 6 0 43
+# 申し訳ありません
+# 申し訳ありません
+ShowTextBox "!!! 3E418C 1"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 6 0 46
+# そうですか…それ
+# ならいいんですが
+# …いいんですが…
+ShowTextBox "!!! 3E418C 2"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 6 0 43
+# 申し訳ありません
+# その話題は忘れた
+# くないんです…
+ShowTextBox "!!! 3E418C 3"
+WaitTextBox
+EndScript

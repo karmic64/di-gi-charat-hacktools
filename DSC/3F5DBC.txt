@@ -1,0 +1,172 @@
+DSCBase $3F5DBC
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 23
+# 店長さん…ちょっ
+# と相談があるんだ
+# けどいいかしら？
+ShowTextBox "!!! 3F5DBC 0"
+WaitTextBox
+ShowChara 2 0 22
+# じつは、さっき街
+# でスカウトされち
+# ゃったの…
+ShowTextBox "!!! 3F5DBC 1"
+WaitTextBox
+# 「キミはイメージ
+# にぴったりだ！…
+# というより、キミ
+# 以外考えられない
+# ！」って…
+ShowTextBox "!!! 3F5DBC 2"
+WaitTextBox
+# どうしよう、何か
+# の宣伝用ポスター
+# らしいんだけど…
+ShowTextBox "!!! 3F5DBC 3"
+WaitTextBox
+# アタシ、引き受け
+# ちゃっていいのか
+# な…
+ShowTextBox "!!! 3F5DBC 4"
+WaitTextBox
+ShowChara 2 0 25
+# ほら、だって、こ
+# れでいきなり人気
+# モデルになっちゃ
+# ったりしたら
+ShowTextBox "!!! 3F5DBC 5"
+WaitTextBox
+# 店長さんといっし
+# ょにお店の手伝い
+# とか出来なくなっ
+# ちゃうかもしれな
+# いじゃない…
+ShowTextBox "!!! 3F5DBC 6"
+WaitTextBox
+ShowChara 2 0 22
+# ねえ、店長さんは
+# どう思う？
+ShowTextBox "!!! 3F5DBC 7"
+WaitTextBox
+# やるべきだ！
+# やめた方が…
+ShowSelMenu09 2 "!!! 3F5DBC 8"
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 2 0 22
+# そうよね、まだ早
+# いわよね…
+ShowTextBox "!!! 3F5DBC 9"
+WaitTextBox
+ShowChara 2 0 23
+# ちょっと残念な気
+# もするけど、断る
+# ことにするわ！
+ShowTextBox "!!! 3F5DBC 10"
+WaitTextBox
+EndScript
+Label 0
+ShowChara 2 0 22
+# うん…
+ShowTextBox "!!! 3F5DBC 11"
+WaitTextBox
+# 勇気を出して、が
+# んばってみる…
+ShowTextBox "!!! 3F5DBC 12"
+WaitTextBox
+# じゃ、結果は来週
+# 報告するわね…
+ShowTextBox "!!! 3F5DBC 13"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# こんにちはーっ…
+ShowTextBox "!!! 3F5DBC 14"
+WaitTextBox
+ShowChara 1 2 8
+# お、来たにょ！
+ShowTextBox "!!! 3F5DBC 15"
+WaitTextBox
+ShowChara 2 1 22
+# …なぁに？
+ShowTextBox "!!! 3F5DBC 16"
+WaitTextBox
+ShowChara 1 2 9
+# 話は店長さんから
+# 聞いたにょ！早く
+# でじこにもポスタ
+# ー見せるにょ！
+ShowTextBox "!!! 3F5DBC 17"
+WaitTextBox
+ShowChara 2 1 22
+# これだけど…
+ShowTextBox "!!! 3F5DBC 18"
+WaitTextBox
+Fade 1 30
+SetBG 29
+Unk08 2 147 75 8 84 10 3
+Fade 0 30
+Wait 60
+ShowChara 2 0 0
+# わたしも
+# 　　　毎日食べてます
+# ――にんじん
+ShowTextBox "!!! 3F5DBC 19"
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 1 2 10
+# にょにょ、こりゃ
+# けっさくだにょ～
+ShowTextBox "!!! 3F5DBC 20"
+WaitTextBox
+ShowChara 2 1 22
+# それはいいんだけ
+# ど…
+ShowTextBox "!!! 3F5DBC 21"
+WaitTextBox
+ShowChara 1 2 8
+# …にょっ？
+ShowTextBox "!!! 3F5DBC 22"
+WaitTextBox
+ShowChara 2 1 25
+# 謝礼が、にんじん
+# 一年分だったの…
+ShowTextBox "!!! 3F5DBC 23"
+WaitTextBox
+ShowChara 1 2 15
+# にょにょっ、に、
+# にんじん一年分…
+ShowTextBox "!!! 3F5DBC 24"
+WaitTextBox
+ShowChara 1 0 10
+# これは笑わずには
+# いられないにょ～
+# っ！
+ShowTextBox "!!! 3F5DBC 25"
+WaitTextBox
+ShowChara 2 1 25
+# おねがーい！少し
+# でいいから持って
+# 行ってーっ！
+ShowTextBox "!!! 3F5DBC 26"
+WaitTextBox
+ShowChara 3 2 21
+# にんじんを残すの
+# は誰にゅ…
+ShowTextBox "!!! 3F5DBC 27"
+WaitTextBox
+EndScript

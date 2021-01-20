@@ -1,0 +1,127 @@
+DSCBase $3E331C
+
+
+
+
+Subscript 0
+ShowChara 4 4 28
+# $1って$2より、えらいぴょ？
+ShowTextBox "!!! 3E331C 0"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 4 4 28
+# アナローグ星にいる$1は変わってるぴょ
+ShowTextBox "!!! 3E331C 1"
+WaitTextBox
+ShowChara 4 0 29
+# 地球の$1とは違って、$2を食べるんだぴょ！
+ShowTextBox "!!! 3E331C 2"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 4 4 28
+# $1買ってくれるぴょ？
+ShowTextBox "!!! 3E331C 3"
+WaitTextBox
+ShowChara 4 0 34
+# でもぴよこ、$1より$2の方がいいぴょ
+ShowTextBox "!!! 3E331C 4"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 4 4 28
+# このまえおつかい
+# に行った時、ぴよ
+# こ$1の花見たぴょ
+ShowTextBox "!!! 3E331C 5"
+WaitTextBox
+ShowChara 4 0 29
+# とてもキレイだったぴょ♪
+ShowTextBox "!!! 3E331C 6"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 4 4 31
+# 『$1』は$2では放送されてないんだぴょ！
+ShowTextBox "!!! 3E331C 7"
+WaitTextBox
+ShowChara 4 0 30
+# $2の人たちがかわいそうだぴょ～
+ShowTextBox "!!! 3E331C 8"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 4 4 28
+# $1で$2に乗るとしあわせになるってウワサを聞いたぴょ
+ShowTextBox "!!! 3E331C 9"
+WaitTextBox
+ShowChara 4 0 31
+# マジぴょ？
+ShowTextBox "!!! 3E331C 10"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+ShowChara 4 4 29
+# ぴよこ今度$1に行ったら$2に乗りたいぴょ
+ShowTextBox "!!! 3E331C 11"
+WaitTextBox
+ShowChara 4 0 34
+# あ、$3にも乗りたいぴょ♪
+ShowTextBox "!!! 3E331C 12"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+ShowChara 4 4 29
+# ぴよこも今『$1』がお気に入りぴょ！
+ShowTextBox "!!! 3E331C 13"
+WaitTextBox
+ShowChara 4 0 30
+# $2にあけくれる主人公$3の行く末が心配だぴょ
+ShowTextBox "!!! 3E331C 14"
+WaitTextBox
+EndScript
+
+
+
+Subscript 8
+ShowChara 4 4 31
+# でじこお姉ちゃん
+# のお店にいる$1は$2ができるって話ぴょ！
+ShowTextBox "!!! 3E331C 15"
+WaitTextBox
+# それ見たさに連日
+# たくさんお客さん
+# が来てるらしいぴ
+# ょ！！
+ShowTextBox "!!! 3E331C 16"
+WaitTextBox
+ShowChara 4 0 30
+# くやしいぴょ～！
+# ぴよこのお店でも
+# なにかするぴょ～
+# ！！
+ShowTextBox "!!! 3E331C 17"
+WaitTextBox
+EndScript
