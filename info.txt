@@ -41,6 +41,26 @@ data is split into (maxsize)-byte uncompressed segments, and then these are indi
 compressed data is standard gba format
 
 
+MFM (1bpp charset) data:
+word - constant "MFM\0"
+byte? - ?
+byte? - ?
+byte - height of each char
+byte - ?
+halfword - amount of chars
+halfword - size of char in bytes, including code
+word - 0?
+word - absolute pointer to data
+data:
+halfword - character code
+x bytes - data for char
+NOTE: sometimes the data is 2bpp? separated into bitplanes
+this might have to be heuristically detected with: bitdepth = (charbytes-2)/charheight
+
+nope, that indicates that the characters are meant to be wide
+each character is formatted from left to right, top to bottom
+
+
 MRM format:
 word - constant "MRM\0"
 .... ?
@@ -56,7 +76,7 @@ codes/params are halfwords
 $00 - end of script ($80484e4)
 $01 - introduce character portrait ($8048502)
         - movement id - dictates movement, textbox color, talk sound
-        - ?
+        - character/textbox position id
         - character portrait id
             note: the upper and lower parts of the background is technically a character,
             creating a letterboxing effect when an actual character is onscreen
@@ -76,7 +96,7 @@ $06 - Set background image ($804851e)
         - Image ID (pointer table to MBM datas at $80ea598)
 $07 - Wait xx frames (only after text box completion?) ($804859a)
         - frames to wait
-$08 - ? ($80485c4) variable length?
+$08 - ? ($80485c4)
         - ?
         - ?
         - ?
@@ -110,7 +130,7 @@ $12 - ? ($80486d4)
 $13 - open text prompt menu ($8048692)
         - ?
         - length of string
-        - description string (doesn't seem to support ascii/numbers...)
+        - description string (text MUST be exclusively in double-byte JIS codes)
 $14 - ? ($80486f0)
         - ?
         - ?
@@ -139,8 +159,44 @@ $21 - fade out music ($80487a4)
 $22 - create selection menu in text box ($804856c)
         - amount of selections
         - length of string
-        - string?
+        - string, choices separated by newlines
 higher codes are treated as no-ops
 
+
+
+text box info list (indexed by first param of ShowTextBox) is at $80ebd00
+access routine at $8098f38
+
+write that sets maximum width of text box is at $80afa08
+value is tiles * 6
+another write at $8045fba - this one is in increments of two tiles
+setting of this value is at $800a608 <- $800ace0.... constant 8?
+another one at $800a45c, constant 10
+doesn't seem like window width of a particular text line can be found programatically
+
+reading char from text box buffer at $80afda2
+
+
+subroutine that copies to vram copy buffer at $80ae6d2
+
+
+
+
+text entry menu:
+write to text entry buffer at $80b0880/$80b08f2
+NOTE: max enterable characters is gotten at $80b085a (one char = TWO BYTES)
+the game seems to detect double-byte chars by simply checking if the high bit is set
+although this code does not support the display of english characters properly
+another one at $8055fdc
+routine at $8055eac appears to be the per-frame handler of the menu, it checks joy input
+there are also ones for all the buttons at the bottom
+note: joy input is flipped to mean 1 = pressed
+hiragana data table is at $80e6348
+format of each entry:
+halfword - x-position in character entry
+halfword - y-position in character entry
+halfword - character code (MUST be a double-byte JIS code)
+halfword - 0 for padding
+1bpp charset (MFM format) is at $811d57c
 
 

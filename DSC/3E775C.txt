@@ -13,7 +13,7 @@ ShowChara 1 0 9
 ShowTextBox "!!! 3E775C 1"
 WaitTextBox
 # 甘いもの
-ShowTextPrompt 1 "!!! 3E775C 2"
+ShowTextPrompt 1 "\J!!! 3E775C 2"
 JumpOnSelection 2 0 1 0
 Label 0
 ShowChara 1 0 10
@@ -42,7 +42,7 @@ WaitTextBox
 ShowTextBox "!!! 3E775C 6"
 WaitTextBox
 # $1する場所
-ShowTextPrompt 6 "!!! 3E775C 7"
+ShowTextPrompt 6 "\J!!! 3E775C 7"
 JumpOnSelection 2 2 3 0
 Label 2
 ShowChara 1 0 10
@@ -78,7 +78,7 @@ ShowChara 1 0 9
 ShowTextBox "!!! 3E775C 13"
 WaitTextBox
 # 人の名前
-ShowTextPrompt 0 "!!! 3E775C 14"
+ShowTextPrompt 0 "\J!!! 3E775C 14"
 JumpOnSelection 2 4 5 0
 Label 4
 ShowChara 1 0 10
@@ -139,7 +139,7 @@ WaitTextBox
 ShowTextBox "!!! 3E775C 25"
 WaitTextBox
 # ガツガツしてるどうぶつ
-ShowTextPrompt 3 "!!! 3E775C 26"
+ShowTextPrompt 3 "\J!!! 3E775C 26"
 JumpOnSelection 2 6 7 0
 Label 6
 ShowChara 8 0 53
@@ -189,7 +189,7 @@ ShowChara 1 4 8
 ShowTextBox "!!! 3E775C 33"
 WaitTextBox
 # ペットにしたいどうぶつ
-ShowTextPrompt 3 "!!! 3E775C 34"
+ShowTextPrompt 3 "\J!!! 3E775C 34"
 JumpOnSelection 2 8 9 0
 Label 8
 ShowChara 1 0 15
@@ -225,7 +225,7 @@ WaitTextBox
 ShowTextBox "!!! 3E775C 40"
 WaitTextBox
 # じんぶつ
-ShowTextPrompt 0 "!!! 3E775C 41"
+ShowTextPrompt 0 "\J!!! 3E775C 41"
 JumpOnSelection 2 10 11 0
 Label 10
 ShowChara 1 0 8
@@ -273,7 +273,7 @@ ShowChara 1 0 8
 ShowTextBox "!!! 3E775C 50"
 WaitTextBox
 # あそび
-ShowTextPrompt 11 "!!! 3E775C 51"
+ShowTextPrompt 11 "\J!!! 3E775C 51"
 JumpOnSelection 2 12 13 0
 Label 12
 ShowChara 1 0 15
@@ -305,7 +305,7 @@ ShowChara 1 4 9
 ShowTextBox "!!! 3E775C 55"
 WaitTextBox
 # のみもの
-ShowTextPrompt 2 "!!! 3E775C 56"
+ShowTextPrompt 2 "\J!!! 3E775C 56"
 JumpOnSelection 2 14 15 0
 Label 14
 ShowChara 1 0 10
@@ -361,7 +361,7 @@ ShowChara 1 0 8
 ShowTextBox "!!! 3E775C 65"
 WaitTextBox
 # のりもの
-ShowTextPrompt 10 "!!! 3E775C 66"
+ShowTextPrompt 10 "\J!!! 3E775C 66"
 JumpOnSelection 2 16 17 0
 Label 16
 ShowChara 1 0 16
@@ -396,7 +396,7 @@ WaitTextBox
 ShowTextBox "!!! 3E775C 71"
 WaitTextBox
 # ゆうめいなばしょ
-ShowTextPrompt 6 "!!! 3E775C 72"
+ShowTextPrompt 6 "\J!!! 3E775C 72"
 JumpOnSelection 2 18 19 0
 Label 18
 ShowChara 1 0 10
@@ -428,7 +428,7 @@ WaitTextBox
 ShowTextBox "!!! 3E775C 76"
 WaitTextBox
 # テレビばんぐみ
-ShowTextPrompt 8 "!!! 3E775C 77"
+ShowTextPrompt 8 "\J!!! 3E775C 77"
 JumpOnSelection 2 20 21 0
 Label 20
 ShowChara 1 0 10
@@ -469,7 +469,7 @@ ShowChara 1 4 8
 ShowTextBox "!!! 3E775C 83"
 WaitTextBox
 # マンガ
-ShowTextPrompt 9 "!!! 3E775C 84"
+ShowTextPrompt 9 "\J!!! 3E775C 84"
 JumpOnSelection 2 22 23 0
 Label 22
 ShowChara 1 0 14
@@ -503,7 +503,7 @@ ShowChara 1 4 8
 ShowTextBox "!!! 3E775C 89"
 WaitTextBox
 # あそび
-ShowTextPrompt 11 "!!! 3E775C 90"
+ShowTextPrompt 11 "\J!!! 3E775C 90"
 JumpOnSelection 2 24 25 0
 Label 24
 ShowChara 1 0 15
@@ -542,7 +542,7 @@ ShowChara 1 0 9
 ShowTextBox "!!! 3E775C 97"
 WaitTextBox
 # しょくぶつ
-ShowTextPrompt 4 "!!! 3E775C 98"
+ShowTextPrompt 4 "\J!!! 3E775C 98"
 JumpOnSelection 2 26 27 0
 Label 26
 ShowChara 1 0 15
@@ -593,7 +593,7 @@ ShowChara 1 0 8
 ShowTextBox "!!! 3E775C 108"
 WaitTextBox
 # しごと
-ShowTextPrompt 7 "!!! 3E775C 109"
+ShowTextPrompt 7 "\J!!! 3E775C 109"
 JumpOnSelection 2 28 29 0
 Label 28
 ShowChara 1 0 15
@@ -632,7 +632,7 @@ WaitTextBox
 ShowTextBox "!!! 3E775C 115"
 WaitTextBox
 # たべもの
-ShowTextPrompt 1 "!!! 3E775C 116"
+ShowTextPrompt 1 "\J!!! 3E775C 116"
 JumpOnSelection 2 30 31 0
 Label 30
 ShowChara 1 0 9
@@ -671,7 +671,7 @@ WaitTextBox
 ShowTextBox "!!! 3E775C 122"
 WaitTextBox
 # $1の名産地
-ShowTextPrompt 5 "!!! 3E775C 123"
+ShowTextPrompt 5 "\J!!! 3E775C 123"
 JumpOnSelection 2 32 33 0
 Label 32
 ShowChara 1 0 9

@@ -19,7 +19,7 @@ ShowChara 4 0 34
 ShowTextBox "!!! 3E98D8 2"
 WaitTextBox
 # たべもの
-ShowTextPrompt 1 "!!! 3E98D8 3"
+ShowTextPrompt 1 "\J!!! 3E98D8 3"
 JumpOnSelection 2 0 1 0
 Label 0
 ShowChara 4 0 29
@@ -86,7 +86,7 @@ ShowChara 4 0 34
 ShowTextBox "!!! 3E98D8 14"
 WaitTextBox
 # のみもの
-ShowTextPrompt 2 "!!! 3E98D8 15"
+ShowTextPrompt 2 "\J!!! 3E98D8 15"
 JumpOnSelection 2 2 3 0
 Label 2
 ShowChara 4 0 29
@@ -123,7 +123,7 @@ ShowChara 4 0 29
 ShowTextBox "!!! 3E98D8 21"
 WaitTextBox
 # 花の名前
-ShowTextPrompt 4 "!!! 3E98D8 22"
+ShowTextPrompt 4 "\J!!! 3E98D8 22"
 JumpOnSelection 2 4 5 0
 Label 4
 # そうぴょ、$9の香水ぴょ！
@@ -160,7 +160,7 @@ ShowChara 4 0 28
 ShowTextBox "!!! 3E98D8 28"
 WaitTextBox
 # たべもの
-ShowTextPrompt 1 "!!! 3E98D8 29"
+ShowTextPrompt 1 "\J!!! 3E98D8 29"
 JumpOnSelection 2 6 7 0
 Label 6
 ShowChara 4 0 29
@@ -196,7 +196,7 @@ ShowChara 4 4 28
 ShowTextBox "!!! 3E98D8 34"
 WaitTextBox
 # $1のペット
-ShowTextPrompt 3 "!!! 3E98D8 35"
+ShowTextPrompt 3 "\J!!! 3E98D8 35"
 JumpOnSelection 2 8 9 0
 Label 8
 ShowChara 4 0 33
@@ -233,7 +233,7 @@ ShowChara 4 0 28
 ShowTextBox "!!! 3E98D8 41"
 WaitTextBox
 # $1の本場
-ShowTextPrompt 5 "!!! 3E98D8 42"
+ShowTextPrompt 5 "\J!!! 3E98D8 42"
 JumpOnSelection 2 10 11 0
 Label 10
 # $9ぴょ？
@@ -272,7 +272,7 @@ ShowChara 4 0 30
 ShowTextBox "!!! 3E98D8 48"
 WaitTextBox
 # テーマパーク
-ShowTextPrompt 6 "!!! 3E98D8 49"
+ShowTextPrompt 6 "\J!!! 3E98D8 49"
 JumpOnSelection 2 12 13 0
 Label 12
 ShowChara 4 0 33
@@ -309,7 +309,7 @@ WaitTextBox
 ShowTextBox "!!! 3E98D8 55"
 WaitTextBox
 # しごと
-ShowTextPrompt 7 "!!! 3E98D8 56"
+ShowTextPrompt 7 "\J!!! 3E98D8 56"
 JumpOnSelection 2 14 15 0
 Label 14
 # ふーん、$9ぴょ～
@@ -344,7 +344,7 @@ ShowChara 4 4 28
 ShowTextBox "!!! 3E98D8 62"
 WaitTextBox
 # のりもの
-ShowTextPrompt 10 "!!! 3E98D8 63"
+ShowTextPrompt 10 "\J!!! 3E98D8 63"
 JumpOnSelection 2 16 17 0
 Label 16
 ShowChara 4 0 29
@@ -387,7 +387,7 @@ WaitTextBox
 ShowTextBox "!!! 3E98D8 70"
 WaitTextBox
 # てつやでしたこと
-ShowTextPrompt 11 "!!! 3E98D8 71"
+ShowTextPrompt 11 "\J!!! 3E98D8 71"
 JumpOnSelection 2 18 19 0
 Label 18
 ShowChara 4 0 33
@@ -426,7 +426,7 @@ ShowChara 4 0 28
 ShowTextBox "!!! 3E98D8 78"
 WaitTextBox
 # マンガ
-ShowTextPrompt 9 "!!! 3E98D8 79"
+ShowTextPrompt 9 "\J!!! 3E98D8 79"
 JumpOnSelection 2 20 21 0
 Label 20
 ShowChara 4 0 29
@@ -459,7 +459,7 @@ ShowChara 4 0 28
 ShowTextBox "!!! 3E98D8 85"
 WaitTextBox
 # テレビばんぐみ
-ShowTextPrompt 8 "!!! 3E98D8 86"
+ShowTextPrompt 8 "\J!!! 3E98D8 86"
 JumpOnSelection 2 22 23 0
 Label 22
 ShowChara 4 0 29

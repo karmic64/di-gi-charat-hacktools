@@ -22,6 +22,8 @@ $x, where x is a number - The game replaces this internally with an arbitrary st
 \x__, where __ is a two-digit hexadecimal value - This could be any arbitrary value. The game seems to use this exclusively for changing the text color.
 Be careful about changing anything else in the script. If you really need to change or add a command, you can check "info.txt" for an incomplete command reference.
 
+\J is not actually used by the game but indicates to the ROM builder that this text must be converted to double-byte JIS codes. No need to know what this means, just keep in mind that these should never be removed.
+
 You can represent newlines in the script two ways:
 With the \n code:
 "Nyonyonyo!\nThat was a new line,\nnyo!"
@@ -36,8 +38,6 @@ If you need to use double-quotes in a string, use the \" code.
 If you need a backslash, use the \\ code.
 
 If it makes your life easier, feel free to rename the text files and place comments if you need them. Any text on a line following an # that is NOT contained in a string is ignored.
-
-IMPORTANT NOTE: The string argument to a ShowTextPrompt command and the text-entering menu that appears as a result do NOT support English characters right now and will require some hacking by me to make it work. For now, when you encounter one, go to the bottom of this file and note the filename and string number given in the placeholder and the real translation instead of modifying the script.
 
 Full list of color control codes:
 \x01 -> reddish pink
@@ -59,16 +59,6 @@ The images are INDEXED COLOR bitmaps. It is not necessary to preserve the exact 
 Palette entry 0 is interpreted by the GBA hardware as "transparent". Don't use any actual color here.
 Do not change the resolution of the original bitmap.
 The final translated bitmaps must be in the same format as the original files. 4-bit BMP if the palette is 16 colors and 8-bit BMP if 64. Please place them in a separate folder.
-
-
-
-------------------- THIS SPACE FOR TEXT PROMPT DESCRIPTIONS
-
-
-
-
-
-
 
 
 
