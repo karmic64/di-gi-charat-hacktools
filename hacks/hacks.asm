@@ -3,8 +3,76 @@
             .org 0x8000000
             .incbin "../DiGi Charat - DigiCommunication (J) [!].gba"
             .thumb
+            .org 0x87f1e80
+            ;NOTE: at this point -
+            ;r0-r3 are free for use
+            ;r5 contains the text info pointer
+            ;r6 contains the printed char
+            ;r8 = 0
+                ;text info struct:
+                ;r5, #0x10 - width of text box (halfword)
+                ;r5, #0x18 - x-position (halfword)
+                ;r5, #0x28 - text buf pointer
+                ;r5, #0x2e - amount of chars left in buf (halfword)
+            ;the current char has been REMOVED from the text buffer
+wordwraphook:
+            cmp r6, #0x0a
+            beq @newlinechar
+            cmp r6, #0x20
+            bne @asnormal
+            ;count the amount of chars until the next newline/space
+            push {r4}
+            mov r0, #6 ;width in width units (6 per tile)
+            mov r1, #0 ;length in chars NOT including space
+            ldr r2, [r5,#0x28] ;text pointer
+            ldrh r3, [r5,#0x2e] ;max chars
+@countloop: ldrh r4, [r2]
+            cmp r1, r3
+            beq @clescape
+            cmp r4, #0x0a
+            beq @clescape
+            cmp r4, #0x20
+            beq @clescape
+            add r2, #2
+            add r1, #1
+            add r0, #6
+            lsr r4, #8 ;double-byte?
+            bcc @countloop
+            add r0, #6
+            b @countloop
+@clescape:  pop {r4}
+            ;check if there's enough space on the line
+            ldrh r1, [r5,#0x10] ;width
+            ldrh r2, [r5,#0x18] ;x-position
+            cmp r0, r1 ;can't avoid ugliness if width > windowwidth...
+            bgt @asnormal
+            sub r1, r2
+            beq @nextchar ;do not print a newline at the end of a line
+            cmp r0, r1
+            bgt @newlinechar ;if width > space left, print a new line instead of space
+@asnormal:
+            ldr r0, [@ptr_asnormal]
+            bx r0
             
+@newlinechar:
+            ;copied from 0x80afde2
+@newline:   ldrh r0, [r5,#0x16]
+            ldrh r1, [r5,#0x20]
+            mov r0, r1
+            mov r2, r8
+            strh r2, [r5,#0x18]
+            strh r0, [r5,#0x1a]
+@nextchar:
+            ldr r0, [@ptr_nextchar]
+            bx r0
             
+            .align 4
+@ptr_asnormal:
+            .word 0x80afdf0 | 1
+@ptr_printchar:
+            .word 0x80afdf6 | 1
+@ptr_nextchar:
+            .word 0x80aff1a | 1
             
             ;
             ;
@@ -158,4 +226,21 @@
             .endarea
             .fill 0x80e6648-org(), 0xff ;END OF LIST
             
+            
+            ;
+            ;
+            ;
+            ; word wrap trampoline
+            ;
+            ;
+            ;
+            .org 0x80afdde
+            ldr r0, [ptr_ww]
+            bx r0
+            .align 4
+ptr_ww:     .word wordwraphook | 1
+            
+            
+            
             .close
+            

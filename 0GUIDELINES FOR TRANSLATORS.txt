@@ -3,9 +3,10 @@ Here are all the files you need to worry about:
 "DiGi Charat - DigiCommunication (J) [!].gba" - This is the original game ROM. Don't modify it!
 "DSC" - This folder contains all the scripts.
 "MBM" - This folder contains all the graphics.
+"hacks" - Contains all the programming hacks. If you can't build it then please contact me for the ROM.
 "text.txt" - This file contains all of the miscellaneous tiny strings scattered throughout the ROM. (not ready yet)
 "build.exe" - This program builds a translated ROM. Pay attention to the output for errors.
-"t.gba" - When you run make.exe, this is the ROM that gets built.
+"t.gba" - When you run build.exe, this is the ROM that gets built.
 
 I recommend mGBA <https://mgba.io/> to play the game.
 
@@ -15,7 +16,7 @@ The scripts are all in plaintext form. Before doing any editing, ensure your tex
 
 By default all of the strings are "!!!! <filename> <string num>", which if you see it ingame, is meant to indicate an untranslated string. The original text is contained in a comment above.
 
-All you need to do is replace that placeholder text with a real translation. Pay attention to the newlines! The game does not do automatic word wrapping and will simply start putting characters on the next line if the line overflows. Japanese characters in the game are twice as wide physically as the English ones, so you do have more space to write the translations. Make sure you test the game thoroughly to make sure there are no issues with word wrapping.
+All you need to do is replace that placeholder text with a real translation. Japanese characters in the game are twice as wide physically as the English ones, so you do have more space to write the translations. In fact, there are thinner fonts in the game, so if you really need it I can change the font. The original game does not do automatic word wrapping, but I've hacked it in so you don't need to worry about it.
 
 The game uses several control codes:
 $x, where x is a number - The game replaces this internally with an arbitrary string. You will need to play the game to find the context.

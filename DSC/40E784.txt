@@ -11,18 +11,21 @@ Fade 0 30
 ShowChara 1 1 9
 # にょっにょにょっ
 # にょにょ～っ…♪
-ShowTextBox "!!! 40E784 0"
+ShowTextBox "This is a test of automatic word wrapping!"
 Wait 60
 ShowChara 1 0 10
 # さーて、今日も一
 # 日バリバリと働く
 # にょ～っ！
-ShowTextBox "!!! 40E784 1"
+ShowTextBox
+"Getting close...
+To the edge!"
 Wait 60
 ShowChara 3 1 17
 # 今日もキリキリと
 # 働くにゅ…
-ShowTextBox "!!! 40E784 2"
+ShowTextBox "Getting closer...
+To the edge!"
 Wait 60
 ShowChara 8 2 53
 # でじこーっ
