@@ -1,132 +1,23 @@
-DSCBase $3FA574
-
-
-
-
-Subscript 0
-Unk08 1 158 81 8 88 10 3
-Unk08 2 100 56 96 84 10 3
-Unk08 3 65 133 64 16 10 3
-Unk08 8 107 117 74 73 10 3
-SetBG 120
-Fade 0 30
-ShowChara 1 1 12
-# にょにょ～、なん
-# だか今朝は妙に冷
-# えるにょ～
-ShowTextBox "!!! 3FA574 0"
-WaitTextBox
-ShowChara 3 1 17
-# でじこ、外を見る
-# にゅ…
-ShowTextBox "!!! 3FA574 1"
-WaitTextBox
-ShowChara 1 1 15
-# これはびっくり、
-# あたり一面が真っ
-# 白にょ！
-ShowTextBox "!!! 3FA574 2"
-WaitTextBox
-ShowChara 3 1 18
-# 初雪にゅ…
-ShowTextBox "!!! 3FA574 3"
-WaitTextBox
-ShowChara 2 2 63
-# ね～～でじこ～、
-# 起きてる～？
-ShowTextBox "!!! 3FA574 4"
-WaitTextBox
-ShowChara 3 1 17
-# うさだの声にゅ
-ShowTextBox "!!! 3FA574 5"
-WaitTextBox
-ShowChara 1 1 8
-# こんな早くに何の
-# 用にょ、うさだ？
-ShowTextBox "!!! 3FA574 6"
-WaitTextBox
-ShowChara 2 2 63
-# なに朝っぱらから
-# 寝ぼけた声してる
-# のよ…
-ShowTextBox "!!! 3FA574 7"
-WaitTextBox
-ShowChara 1 1 11
-# しっけいにょ！で
-# じこは、別に寝ぼ
-# けてなんかないに
-# ょ！
-ShowTextBox "!!! 3FA574 8"
-WaitTextBox
-ShowChara 2 2 63
-# そんなことどうで
-# もいいから、外を
-# 見てごらんなさい
-# よ！雪が積もって
-# るわよ、雪がっ！
-ShowTextBox "!!! 3FA574 9"
-WaitTextBox
-ShowChara 1 1 8
-# 言われなくても知
-# ってるにょ、今ま
-# さに見てたとこ…
-ShowTextBox "!!! 3FA574 10"
-WaitTextBox
-ShowChara 1 0 12
-# はっくしょんっ！
-ShowTextBox "!!! 3FA574 11"
-WaitTextBox
-ShowChara 2 2 63
-# 雪が溶けちゃう前
-# に、雪だるまを作
-# らない？それでお
-# 店の前に飾るの
-ShowTextBox "!!! 3FA574 12"
-WaitTextBox
-ShowChara 1 1 9
-# うさだにしては、
-# いいアイディアに
-# ょ…
-ShowTextBox "!!! 3FA574 13"
-WaitTextBox
-ShowChara 2 2 63
-# なんですってー！
-ShowTextBox "!!! 3FA574 14"
-WaitTextBox
-ShowChara 1 1 8
-# それじゃ、お店へ
-# 出発にょ～
-ShowTextBox "!!! 3FA574 15"
-WaitTextBox
-Fade 3 30
-SetBG 6
-Fade 2 30
-ShowChara 1 0 0
-# う～ん、こんなでどう
-# かにょ～？
-ShowTextBox "!!! 3FA574 16"
-WaitTextBox
-ShowChara 3 0 0
-# もっと積んだ方がいい
-# にゅ…
-ShowTextBox "!!! 3FA574 17"
-WaitTextBox
-ShowChara 8 0 0
-# あのう…
-ShowTextBox "!!! 3FA574 18"
-WaitTextBox
-# ひょっとして、ゲマは
-# このままゲマ…？
-ShowTextBox "!!! 3FA574 19"
-WaitTextBox
-ShowChara 2 0 0
-# もう、崩れちゃうじゃ
-# ない！じっとしててよ
-# ね！
-ShowTextBox "!!! 3FA574 20"
-WaitTextBox
-ShowChara 8 0 0
-# ゲ、ゲマ～…
-ShowTextBox "!!! 3FA574 21"
-WaitTextBox
-EndScript
+DSCBase $3FA574 Subscript 0 Unk08 1 158 81 8 88 10 3 Unk08 2 100 56 96 84 10 3 Unk08 3 65 133 64 16 10 3 Unk08 8 107 117 74 73 10 3 SetBG 120 Fade 0 30 ShowChara 1 1 12 ShowTextBox "Nyonyo ~, it's kind of cold this morning ~"
+WaitTextBox ShowChara 3 1 17 ShowTextBox "Di Gi Charat, look out ..."
+WaitTextBox ShowChara 1 1 15 ShowTextBox "I was surprised that this was all white!"
+WaitTextBox ShowChara 3 1 18 ShowTextBox "First snow Nyu ..."
+WaitTextBox ShowChara 2 2 63 ShowTextBox "Hey, Di Gi Charat, are you awake?"
+WaitTextBox ShowChara 3 1 17 ShowTextBox "Usada's voice"
+WaitTextBox ShowChara 1 1 8 ShowTextBox "What is it for, Usa, so quickly?"
+WaitTextBox ShowChara 2 2 63 ShowTextBox "What's the drowsy voice from the morning ..."
+WaitTextBox ShowChara 1 1 11 ShowTextBox "I'm sorry! Di Gi Charat isn't asleep!"
+WaitTextBox ShowChara 2 2 63 ShowTextBox "I don't care about that, so look outside! It's snowing, it's snowing!"
+WaitTextBox ShowChara 1 1 8 ShowTextBox "You know, even if you don't tell me, I've just seen it ..."
+WaitTextBox ShowChara 1 0 12 ShowTextBox "Hakushon!"
+WaitTextBox ShowChara 2 2 63 ShowTextBox "Would you like to make a snowman before the snow melts? That's why I decorate it in front of the store"
+WaitTextBox ShowChara 1 1 9 ShowTextBox "It's a good idea for a rabbit ..."
+WaitTextBox ShowChara 2 2 63 ShowTextBox "What is it!"
+WaitTextBox ShowChara 1 1 8 ShowTextBox "Well then, let's leave for the store ~"
+WaitTextBox Fade 3 30 SetBG 6 Fade 2 30 ShowChara 1 0 0 ShowTextBox "Hmmm, how about this?"
+WaitTextBox ShowChara 3 0 0 ShowTextBox "You should stack more ..."
+WaitTextBox ShowChara 8 0 0 ShowTextBox "Excuse me…"
+WaitTextBox ShowTextBox "Perhaps Gema is Gema as it is ...?"
+WaitTextBox ShowChara 2 0 0 ShowTextBox "It's already crumbled! Stay still!"
+WaitTextBox ShowChara 8 0 0 ShowTextBox "Ge, Gema ..."
+WaitTextBox EndScript 

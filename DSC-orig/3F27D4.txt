@@ -1,0 +1,223 @@
+DSCBase $3F27D4
+
+
+
+
+Subscript 0
+Unk08 2 151 75 16 100 10 3
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# カレンダーを見る
+# と、今週から歯の
+# 健康週間だゲマ
+ShowTextBox "!!! 3F27D4 0"
+WaitTextBox
+# 店長さん、虫歯っ
+# て何ゲマ…むぎゅ
+# っ！
+ShowTextBox "!!! 3F27D4 1"
+WaitTextBox
+ShowChara 1 1 8
+# 店長しゃん、今の
+# ゲマの変な質問は
+# 無視するにょ！
+ShowTextBox "!!! 3F27D4 2"
+WaitTextBox
+ShowChara 2 2 22
+# 芸能人は歯が命っ
+# てよく言うわ
+# 虫歯なんて、とん
+# でもない！
+ShowTextBox "!!! 3F27D4 3"
+WaitTextBox
+ShowChara 2 0 26
+# もちろん、アタシ
+# は毎日歯を磨いて
+# るから、ぴっかぴ
+# っかよ！
+ShowTextBox "!!! 3F27D4 4"
+WaitTextBox
+ShowChara 1 1 8
+# にょっ！そんなこ
+# とでいばるなんて
+# こころざしが低い
+# にょ！
+ShowTextBox "!!! 3F27D4 5"
+WaitTextBox
+ShowChara 2 2 26
+# あ～ら、そういう
+# でじこは虫歯ある
+# んじゃない？
+ShowTextBox "!!! 3F27D4 6"
+WaitTextBox
+ShowChara 1 1 9
+# つ、都合の悪いこ
+# とは店長しゃんに
+# 振るにょ！
+ShowTextBox "!!! 3F27D4 7"
+WaitTextBox
+# 正直に答えるにょ
+# っ！店長しゃんは
+# 虫歯あるにょ？
+ShowTextBox "!!! 3F27D4 8"
+WaitTextBox
+# …ある
+# ない！
+ShowSelMenu09 2 "!!! 3F27D4 9"
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 1 0 10
+# さすが店長しゃん
+# にょ！
+ShowTextBox "!!! 3F27D4 10"
+WaitTextBox
+# やっぱり歯磨きは
+# 大切にょっ…とい
+# うことで、この話
+# は終わりにするに
+# ょ！
+ShowTextBox "!!! 3F27D4 11"
+WaitTextBox
+ShowChara 2 2 55
+# その態度、あやし
+# いわ…でじこって
+# ひょっとして、虫
+# 歯があるの？
+ShowTextBox "!!! 3F27D4 12"
+WaitTextBox
+ShowChara 1 1 15
+# ぎくっ！そんなこ
+# とないにょっ、ほ
+# っとくにょっ！
+ShowTextBox "!!! 3F27D4 13"
+WaitTextBox
+ShowChara 2 2 55
+# そんなにムキにな
+# らなくてもいいじ
+# ゃない
+ShowTextBox "!!! 3F27D4 14"
+WaitTextBox
+ShowChara 2 0 26
+# それじゃ、店長さ
+# ん、今日のおやつ
+# はケーキにしまし
+# ょうか？
+ShowTextBox "!!! 3F27D4 15"
+WaitTextBox
+ShowChara 3 2 18
+# ぷちこには、虫歯
+# はないにゅ！
+ShowTextBox "!!! 3F27D4 16"
+WaitTextBox
+EndScript
+Label 0
+ShowChara 1 0 10
+# にょにょ、店長し
+# ゃんの歯にも虫歯
+# があるぐらいだか
+# ら
+ShowTextBox "!!! 3F27D4 17"
+WaitTextBox
+# でじこの歯に虫歯
+# があっても、全然
+# おかしくないにょ
+# ～！
+ShowTextBox "!!! 3F27D4 18"
+WaitTextBox
+ShowChara 2 2 55
+# ごまかしてる、ご
+# まかしてる…
+ShowTextBox "!!! 3F27D4 19"
+WaitTextBox
+ShowChara 3 2 21
+# あとで痛い目を見
+# るパターンにゅ
+ShowTextBox "!!! 3F27D4 20"
+WaitTextBox
+Fade 1 160
+Wait 120
+SetBG 124
+Fade 0 1
+ShowChara 2 0 0
+# 店長さん、起きなさい…
+ShowTextBox "!!! 3F27D4 21"
+WaitTextBox
+Fade 1 1
+SetBG 123
+Fade 0 30
+Fade 3 1
+SetBG 21
+Fade 2 30
+# よく聞きなさい、店長
+# さん…
+ShowTextBox "!!! 3F27D4 22"
+WaitTextBox
+# アタシの名前はラ・ビ
+# ・アン・ローズ…では
+# なくて虫歯の女神様
+ShowTextBox "!!! 3F27D4 23"
+WaitTextBox
+# 虫歯の女神様は、ただ
+# いまキャンペーン中で
+# ーす！
+ShowTextBox "!!! 3F27D4 24"
+WaitTextBox
+# なんと、虫歯の治療を
+# 無料かつ強制的に行っ
+# ていまーす！
+ShowTextBox "!!! 3F27D4 25"
+WaitTextBox
+# さぁ、正直に答えなさ
+# い…
+ShowTextBox "!!! 3F27D4 26"
+WaitTextBox
+# いま店長さんが苦しん
+# でいるのは、右の前歯
+# ですか…
+ShowTextBox "!!! 3F27D4 27"
+WaitTextBox
+# それとも、左の奥歯で
+# すか？
+ShowTextBox "!!! 3F27D4 28"
+WaitTextBox
+# 両方…？ううむ、なん
+# という正直者！
+ShowTextBox "!!! 3F27D4 29"
+WaitTextBox
+# ごほうびとして、両方
+# とも治してあげましょ
+# う…
+ShowTextBox "!!! 3F27D4 30"
+WaitTextBox
+# さぁ、お口を開けて…
+# あぁ～～～～ん
+ShowTextBox "!!! 3F27D4 31"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# あら、店長さん、
+# 浮かない顔してど
+# うしたの？
+ShowTextBox "!!! 3F27D4 32"
+WaitTextBox
+# えっ、虫歯はもう
+# ないってどういう
+# こと？
+ShowTextBox "!!! 3F27D4 33"
+WaitTextBox
+# って、逃げるよう
+# に行っちゃった…
+ShowTextBox "!!! 3F27D4 34"
+WaitTextBox
+# いったい、何がど
+# うなってるの…？
+ShowTextBox "!!! 3F27D4 35"
+WaitTextBox
+EndScript

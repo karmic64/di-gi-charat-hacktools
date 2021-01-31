@@ -26,15 +26,16 @@ wordwraphook:
             mov r1, #0 ;length in chars NOT including space
             ldr r2, [r5,#0x28] ;text pointer
             ldrh r3, [r5,#0x2e] ;max chars
-@countloop: ldrh r4, [r2]
-            cmp r1, r3
+@countloop: cmp r1, r3
             beq @clescape
+            ldrh r4, [r2]
+            add r2, #2
+            add r1, #1
             cmp r4, #0x0a
             beq @clescape
             cmp r4, #0x20
+            blt @countloop ;ignore control codes
             beq @clescape
-            add r2, #2
-            add r1, #1
             add r0, #6
             lsr r4, #8 ;double-byte?
             bcc @countloop
@@ -43,9 +44,9 @@ wordwraphook:
 @clescape:  pop {r4}
             ;check if there's enough space on the line
             ldrh r1, [r5,#0x10] ;width
-            ldrh r2, [r5,#0x18] ;x-position
             cmp r0, r1 ;can't avoid ugliness if width > windowwidth...
             bgt @asnormal
+            ldrh r2, [r5,#0x18] ;x-position
             sub r1, r2
             beq @nextchar ;do not print a newline at the end of a line
             cmp r0, r1
@@ -69,8 +70,6 @@ wordwraphook:
             .align 4
 @ptr_asnormal:
             .word 0x80afdf0 | 1
-@ptr_printchar:
-            .word 0x80afdf6 | 1
 @ptr_nextchar:
             .word 0x80aff1a | 1
             
@@ -239,6 +238,7 @@ wordwraphook:
             bx r0
             .align 4
 ptr_ww:     .word wordwraphook | 1
+
             
             
             

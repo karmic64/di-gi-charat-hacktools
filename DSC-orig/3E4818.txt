@@ -1,0 +1,467 @@
+DSCBase $3E4818
+
+
+
+
+Subscript 0
+ShowChara 1 1 9
+# ちょっと$1で有名な$2屋があるから、お昼休みに行って来たにょ
+ShowTextBox "!!! 3E4818 0"
+WaitTextBox
+ShowChara 1 0 12
+# でも行列がすごくて、結局食べれなかったにょ～
+ShowTextBox "!!! 3E4818 1"
+WaitTextBox
+# くやしいにょ～
+ShowTextBox "!!! 3E4818 2"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 1 1 12
+# にょ～…
+ShowTextBox "!!! 3E4818 3"
+WaitTextBox
+# 昨日の分の$1が、まだ終わらないにょ～
+ShowTextBox "!!! 3E4818 4"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 1 1 15
+# $1にょ！
+# $1がお店にいるにょ！！
+ShowTextBox "!!! 3E4818 5"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 1 1 8
+# $1…$1…
+ShowTextBox "!!! 3E4818 6"
+WaitTextBox
+ShowChara 1 0 12
+# $1って何者だったかにょ～…
+# どうしても思い出
+# せないにょ～
+ShowTextBox "!!! 3E4818 7"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 1 1 13
+# 目からビィームッ！！
+ShowTextBox "!!! 3E4818 8"
+WaitTextBox
+ShowChara 8 2 4
+# ゲマーッッ！！！
+ShowTextBox "!!! 3E4818 9"
+WaitTextBox
+ShowChara 1 1 11
+# でじこのおやつを
+# 食べたむくいにょ！
+# $1の恨みは恐ろしいんだにょ！
+ShowTextBox "!!! 3E4818 10"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 1 1 14
+# にょにょにょ…
+# ぴよこのお店に$1を投げ入れてきたにょ
+ShowTextBox "!!! 3E4818 11"
+WaitTextBox
+# 今に大さわぎになるにょ！
+ShowTextBox "!!! 3E4818 12"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+ShowChara 1 1 10
+# やったにょ！
+# ついに$1名物の$2をゲットしたにょ！
+ShowTextBox "!!! 3E4818 13"
+WaitTextBox
+ShowChara 1 0 9
+# 楽しみだにょ
+# はやく食べたいにょ～
+ShowTextBox "!!! 3E4818 14"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+ShowChara 1 1 15
+# にょ～～～！？
+# お店に$1が来てるにょ～！！
+ShowTextBox "!!! 3E4818 15"
+WaitTextBox
+ShowChara 1 0 12
+# しかも『$2』グッズをたくさん買ってるにょ！？
+ShowTextBox "!!! 3E4818 16"
+WaitTextBox
+# イメージダウンだにょ～っ！
+ShowTextBox "!!! 3E4818 17"
+WaitTextBox
+EndScript
+
+
+
+Subscript 8
+ShowChara 1 1 10
+# でじこ、『$1』を読んだにょ！
+ShowTextBox "!!! 3E4818 18"
+WaitTextBox
+# すごく感動したにょ！
+ShowTextBox "!!! 3E4818 19"
+WaitTextBox
+ShowChara 1 0 11
+# 店長しゃんも読む
+# がいいにょ！
+# いや読むべきにょ！
+ShowTextBox "!!! 3E4818 20"
+WaitTextBox
+EndScript
+
+
+
+Subscript 9
+ShowChara 1 1 16
+# すごくだるいにょ～…
+ShowTextBox "!!! 3E4818 21"
+WaitTextBox
+# こんな時は$1でバケーションだにょ～
+ShowTextBox "!!! 3E4818 22"
+WaitTextBox
+EndScript
+
+
+
+Subscript 10
+ShowChara 1 1 13
+# ふっふっふっ…
+# 見たにょ…
+ShowTextBox "!!! 3E4818 23"
+WaitTextBox
+# 昨日、うさだが$1と楽しそうに話してたのを見たにょ
+ShowTextBox "!!! 3E4818 24"
+WaitTextBox
+ShowChara 2 2 27
+# あっ…あれは道に迷ってたから、教えてあげてただけよ！
+ShowTextBox "!!! 3E4818 25"
+WaitTextBox
+ShowChara 2 0 22
+# $2まで行くって言ってたわ…無事に着いたかしら？
+ShowTextBox "!!! 3E4818 26"
+WaitTextBox
+ShowChara 1 1 14
+# ほんとにそれだけかにょ？
+ShowTextBox "!!! 3E4818 27"
+WaitTextBox
+EndScript
+
+
+
+Subscript 11
+ShowChara 1 1 15
+# にょにょ～ッ！？
+# 忘れてたにょ！
+ShowTextBox "!!! 3E4818 28"
+WaitTextBox
+# 今日は$1が大活躍のゲーム『$2に消ゆ』の発売日だったにょ！
+ShowTextBox "!!! 3E4818 29"
+WaitTextBox
+EndScript
+
+
+
+Subscript 12
+ShowChara 1 2 8
+# 店長しゃん、知ってるかにょ？
+ShowTextBox "!!! 3E4818 30"
+WaitTextBox
+ShowChara 1 0 9
+# 最近、$1は$2でおでかけするのが、お気に入りだにょ
+ShowTextBox "!!! 3E4818 31"
+WaitTextBox
+EndScript
+
+
+
+Subscript 13
+ShowChara 1 2 8
+# 昨日$1と$2は、$3に乗って$4に旅立ったにょ
+ShowTextBox "!!! 3E4818 32"
+WaitTextBox
+ShowChara 1 0 12
+# お別れにょ…もう永遠のお別れにょ…
+ShowTextBox "!!! 3E4818 33"
+WaitTextBox
+EndScript
+
+
+
+Subscript 14
+ShowChara 1 1 8
+# 店長しゃん、この
+# あいだ注文した本が届いてるにょ
+ShowTextBox "!!! 3E4818 34"
+WaitTextBox
+# さっそく棚に並べるにょ
+ShowTextBox "!!! 3E4818 35"
+WaitTextBox
+ShowChara 1 0 15
+# にょ～～～ッ！？
+# 『$1』かにょ！？
+ShowTextBox "!!! 3E4818 36"
+WaitTextBox
+# 『$1』なら、でじこが１冊買うにょ！
+ShowTextBox "!!! 3E4818 37"
+WaitTextBox
+ShowChara 2 4 23
+# ありがとうござい
+# ます
+# ５００円になりま
+# す
+ShowTextBox "!!! 3E4818 38"
+WaitTextBox
+ShowChara 1 4 12
+# だめにょ…今月は
+# おこづかいがもう
+# ないにょ～
+# あきらめるにょ…
+ShowTextBox "!!! 3E4818 39"
+WaitTextBox
+EndScript
+
+
+
+Subscript 15
+ShowChara 1 1 8
+# 店長しゃん、店長しゃん
+ShowTextBox "!!! 3E4818 40"
+WaitTextBox
+# 昨日の『$1』見たかにょ？
+ShowTextBox "!!! 3E4818 41"
+WaitTextBox
+EndScript
+
+
+
+Subscript 16
+ShowChara 1 2 8
+# 今日は仕事が終ったら、『$1』を見るにょ
+ShowTextBox "!!! 3E4818 42"
+WaitTextBox
+# なんでも、$2が$3まで$4しながら旅する番組らしいにょ
+ShowTextBox "!!! 3E4818 43"
+WaitTextBox
+ShowChara 1 0 9
+# 楽しみだにょ！
+ShowTextBox "!!! 3E4818 44"
+WaitTextBox
+EndScript
+
+
+
+Subscript 17
+ShowChara 1 2 12
+# にょ～～…
+# ハナがムズムズす
+# るにょ～
+ShowTextBox "!!! 3E4818 45"
+WaitTextBox
+ShowChara 1 0 15
+# 花粉にょ！？
+# $1の花粉がお店の中にうずまいてるにょ！
+ShowTextBox "!!! 3E4818 46"
+WaitTextBox
+EndScript
+
+
+
+Subscript 18
+ShowChara 1 2 8
+# でじこ『$1』が、とても気になるにょ～
+ShowTextBox "!!! 3E4818 47"
+WaitTextBox
+ShowChara 1 0 9
+# 来週の続きがどう
+# なるか楽しみだに
+# ょ！
+ShowTextBox "!!! 3E4818 48"
+WaitTextBox
+EndScript
+
+
+
+Subscript 19
+ShowChara 1 2 8
+# 店長しゃん、おぼ
+# えておくがいいに
+# ょ！
+ShowTextBox "!!! 3E4818 49"
+WaitTextBox
+# でじこの好きな花
+# は$1だにょ
+ShowTextBox "!!! 3E4818 50"
+WaitTextBox
+ShowChara 1 0 10
+# 見てもよし食べて
+# もよしのナイスな
+# お花にょ！
+ShowTextBox "!!! 3E4818 51"
+WaitTextBox
+EndScript
+
+
+
+Subscript 20
+ShowChara 1 2 10
+# プハ～！
+# 仕事の後の$1はサイコーにょ！
+ShowTextBox "!!! 3E4818 52"
+WaitTextBox
+ShowChara 1 0 9
+# 店長しゃんも飲む
+# といいにょ
+ShowTextBox "!!! 3E4818 53"
+WaitTextBox
+EndScript
+
+
+
+Subscript 21
+ShowChara 1 2 8
+# なにやら店の外が
+# 騒がしいにょ…
+ShowTextBox "!!! 3E4818 54"
+WaitTextBox
+ShowChara 1 0 15
+# にょッ！？
+# 店の外で$1が$2してるにょ！！
+ShowTextBox "!!! 3E4818 55"
+WaitTextBox
+EndScript
+
+
+
+Subscript 22
+ShowChara 1 2 16
+# ふ～…
+# 疲れたにょ～
+ShowTextBox "!!! 3E4818 56"
+WaitTextBox
+# この季節の$1は骨が折れるにょ～
+ShowTextBox "!!! 3E4818 57"
+WaitTextBox
+EndScript
+
+
+
+Subscript 23
+ShowChara 1 2 8
+# にょ…？
+# お店に$1の花束が届いてるにょ
+ShowTextBox "!!! 3E4818 58"
+WaitTextBox
+ShowChara 1 0 15
+# にょ～～～！？
+ShowTextBox "!!! 3E4818 59"
+WaitTextBox
+ShowChara 1 0 12
+# うさだあてかにょ～～～！！
+ShowTextBox "!!! 3E4818 60"
+WaitTextBox
+ShowChara 1 0 11
+# ムカツクにょ！
+# なんででじこ様あてじゃないにょ！！
+ShowTextBox "!!! 3E4818 61"
+WaitTextBox
+ShowChara 1 0 13
+# ケッケッケッ…
+# 燃やしてしまうにょ～
+ShowTextBox "!!! 3E4818 62"
+WaitTextBox
+EndScript
+
+
+
+Subscript 24
+ShowChara 1 2 8
+# 近頃$1では$2に乗りながら$3するのが、ブームらしいにょ
+ShowTextBox "!!! 3E4818 63"
+WaitTextBox
+ShowChara 1 0 12
+# でもちょっとアブナイにょ～
+ShowTextBox "!!! 3E4818 64"
+WaitTextBox
+EndScript
+
+
+
+Subscript 25
+ShowChara 1 2 8
+# 店長しゃん店長しゃん！
+ShowTextBox "!!! 3E4818 65"
+WaitTextBox
+# 店長しゃんは昔$1で$2をしてたって本当かにょ？
+ShowTextBox "!!! 3E4818 66"
+WaitTextBox
+ShowChara 1 0 12
+# そんな苦労がある
+# から、今の店長しゃんがいるんだにょ
+ShowTextBox "!!! 3E4818 67"
+WaitTextBox
+EndScript
+
+
+
+Subscript 26
+ShowChara 1 1 10
+# しっつもんだにょ～～！
+ShowTextBox "!!! 3E4818 68"
+WaitTextBox
+ShowChara 1 0 9
+# 店長しゃんは$1を見たことあるかにょ？
+ShowTextBox "!!! 3E4818 69"
+WaitTextBox
+ShowChara 2 4 22
+# あら、アタシは見たことあるわよ
+ShowTextBox "!!! 3E4818 70"
+WaitTextBox
+ShowChara 1 4 11
+# うさだには聞いてないにょッ！！
+ShowTextBox "!!! 3E4818 71"
+WaitTextBox
+EndScript
+
+
+
+Subscript 27
+ShowChara 1 2 10
+# ビックリニュースだにょ！
+ShowTextBox "!!! 3E4818 72"
+WaitTextBox
+ShowChara 1 0 8
+# $1は$2を飲む時に$3の花びらを入れてるらしいにょ！
+ShowTextBox "!!! 3E4818 73"
+WaitTextBox
+ShowChara 1 0 14
+# キザっぽいにょ～～～
+ShowTextBox "!!! 3E4818 74"
+WaitTextBox
+EndScript

@@ -1,0 +1,98 @@
+DSCBase $418D0C
+
+
+
+
+Subscript 0
+ShowChara 2 0 0
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# おしごとをかえたいキャラを選んでＡボタンを押してね
+ShowTextBox "!!! 418D0C 0"
+EndScript
+
+
+
+Subscript 3
+# 新しいおしごとを選んでＡボタンを押してね
+ShowTextBox "!!! 418D0C 1"
+EndScript
+
+
+
+Subscript 4
+# レジにはだれかいないとお仕事ができないわ
+ShowTextBox "!!! 418D0C 2"
+EndScript
+
+
+
+Subscript 5
+# $0が$1をするわ
+ShowTextBox "!!! 418D0C 3"
+EndScript
+
+
+
+Subscript 6
+# $0と$1がお仕事を交代よ
+ShowTextBox "!!! 418D0C 4"
+EndScript
+
+
+
+Subscript 7
+# お仕事はこれで決まりかしら？
+ShowTextBox "!!! 418D0C 5"
+EndScript
+
+
+
+Subscript 8
+# 『レジ』は、お客様にグッズを売るお仕事よ
+ShowTextBox "!!! 418D0C 6"
+EndScript
+
+
+
+Subscript 9
+# 『接客』は、こまっているお客様を手助けするお仕事よ
+ShowTextBox "!!! 418D0C 7"
+EndScript
+
+
+
+Subscript 10
+# 『グッズ整理』は、グッズをスロットに並べるお仕事よ
+ShowTextBox "!!! 418D0C 8"
+EndScript
+
+
+
+Subscript 11
+# 『お掃除』は、お店の中をキレイにするお仕事よ
+ShowTextBox "!!! 418D0C 9"
+EndScript
+
+
+
+Subscript 12
+# 『偵察』…偵察って何の事？
+ShowTextBox "!!! 418D0C 10"
+EndScript
+
+
+
+Subscript 13
+# キャラのステータスを見るわ
+ShowTextBox "!!! 418D0C 11"
+EndScript

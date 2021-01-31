@@ -1,170 +1,29 @@
-DSCBase $3FF934
-
-
-
-
-Subscript 0
-Unk08 3 126 70 16 108 10 2
-SetBG 122
-Fade 0 30
-ShowChara 1 1 9
-# 明日はひな祭りに
-# ょ～
-ShowTextBox "!!! 3FF934 0"
-WaitTextBox
-# それで、ひな壇
-# （ひなだん）の準
-# 備はＯＫにょ？
-ShowTextBox "!!! 3FF934 1"
-WaitTextBox
-ShowChara 3 2 17
-# ＯＫにゅ…
-ShowTextBox "!!! 3FF934 2"
-WaitTextBox
-ShowChara 1 1 9
-# あとは明日を待つ
-# ばかりにょ！
-ShowTextBox "!!! 3FF934 3"
-WaitTextBox
-ShowChara 1 0 10
-# 明日になったら、
-# あられかじって、
-# 甘酒飲んで、ひし
-# 餅を食べるにょ～
-# っ！
-ShowTextBox "!!! 3FF934 4"
-WaitTextBox
-ShowChara 2 2 55
-# 全部、食べること
-# ばっかりね…
-ShowTextBox "!!! 3FF934 5"
-WaitTextBox
-ShowChara 1 1 15
-# にょにょっ、ヤボ
-# なツッコミはやめ
-# るにょ、うさだ！
-ShowTextBox "!!! 3FF934 6"
-WaitTextBox
-ShowChara 1 0 10
-# そ、それよりも、
-# この見事なひな壇
-# を見るにょ～！
-ShowTextBox "!!! 3FF934 7"
-WaitTextBox
-ShowChara 2 2 23
-# へぇ、なかなか立
-# 派なものね
-ShowTextBox "!!! 3FF934 8"
-WaitTextBox
-ShowChara 1 1 10
-# どうにょ、ゲマを
-# こきつかって作り
-# 上げた、グレート
-# なひな壇にょ！
-ShowTextBox "!!! 3FF934 9"
-WaitTextBox
-ShowChara 8 1 2
-# ゲマがひとりで作
-# った血と汗と涙の
-# 結晶ゲマ…
-ShowTextBox "!!! 3FF934 10"
-WaitTextBox
-ShowChara 2 2 23
-# あ、いま、ちょっ
-# といいこと思いつ
-# いちゃった！
-ShowTextBox "!!! 3FF934 11"
-WaitTextBox
-ShowChara 2 0 22
-# ねぇぷちこ、ちょ
-# っといいかしら？
-ShowTextBox "!!! 3FF934 12"
-WaitTextBox
-ShowChara 3 2 17
-# にゅ？
-ShowTextBox "!!! 3FF934 13"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 2 2 26
-# 完成っ！
-ShowTextBox "!!! 3FF934 14"
-WaitTextBox
-ShowChara 1 1 15
-# にょにょっ、これ
-# は驚きにょっ！
-ShowTextBox "!!! 3FF934 15"
-WaitTextBox
-Fade 3 30
-SetBG 12
-Fade 2 30
-ShowChara 3 0 0
-# どうかにゅ、似合って
-# るかにゅ？
-ShowTextBox "!!! 3FF934 16"
-WaitTextBox
-Fade 1 30
-SetBG 122
-Fade 0 30
-ShowChara 1 1 10
-# ばっちりにょ！ど
-# こから見ても、立
-# 派なひな人形にょ
-ShowTextBox "!!! 3FF934 17"
-WaitTextBox
-ShowChara 2 2 23
-# う～ん、ここまで
-# ハマるとは思わな
-# かったわ
-ShowTextBox "!!! 3FF934 18"
-WaitTextBox
-# 記念写真、撮って
-# おきましょ！
-ShowTextBox "!!! 3FF934 19"
-WaitTextBox
-ShowChara 1 1 8
-# 困ったにょ、今、
-# うちにカメラない
-# にょ！
-ShowTextBox "!!! 3FF934 20"
-WaitTextBox
-ShowChara 2 2 23
-# お店に行けばある
-# かも…店長さんに
-# 頼めば、きっと貸
-# してくれると思う
-# わ
-ShowTextBox "!!! 3FF934 21"
-WaitTextBox
-ShowChara 1 1 9
-# うさだ、ナイスア
-# イディアにょ
-ShowTextBox "!!! 3FF934 22"
-WaitTextBox
-ShowChara 2 2 22
-# 待ってて、アタシ
-# がひとっ走り行っ
-# てくる！
-ShowTextBox "!!! 3FF934 23"
-WaitTextBox
-ShowChara 1 1 15
-# にょにょ、でじこ
-# も行くにょ～
-ShowTextBox "!!! 3FF934 24"
-WaitTextBox
-Fade 1 30
-SetBG 12
-Fade 0 30
-ShowChara 3 0 0
-# ………………
-ShowTextBox "!!! 3FF934 25"
-WaitTextBox
-# ………………
-ShowTextBox "!!! 3FF934 26"
-WaitTextBox
-# いつまで待てばいいに
-# ゅ？
-ShowTextBox "!!! 3FF934 27"
-WaitTextBox
-EndScript
+DSCBase $3FF934 Subscript 0 Unk08 3 126 70 16 108 10 2 SetBG 122 Fade 0 30 ShowChara 1 1 9 ShowTextBox "Tomorrow is the Doll's Festival ~"
+WaitTextBox ShowTextBox "So, isn't it OK to prepare for Hinadan?"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "OK Nyu ..."
+WaitTextBox ShowChara 1 1 9 ShowTextBox "I'll just wait for tomorrow!"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "Tomorrow, I'll grab a hail, drink amazake, and eat Hishi mochi!"
+WaitTextBox ShowChara 2 2 55 ShowTextBox "All you have to do is eat ..."
+WaitTextBox ShowChara 1 1 15 ShowTextBox "Nyonyo, I'm going to stop the dangerous Tsukkomi, Usa!"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "Well, rather than that, let's see this wonderful chick platform!"
+WaitTextBox ShowChara 2 2 23 ShowTextBox "Hey, it's pretty good."
+WaitTextBox ShowChara 1 1 10 ShowTextBox "How is it, a great chick platform made by using Gema!"
+WaitTextBox ShowChara 8 1 2 ShowTextBox "Blood, sweat, and tear crystals made by Gema alone ..."
+WaitTextBox ShowChara 2 2 23 ShowTextBox "Oh, I've come up with something nice now!"
+WaitTextBox ShowChara 2 0 22 ShowTextBox "Hey Puchiko, is it a little good?"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "Nyu?"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 2 2 26 ShowTextBox "It's done!"
+WaitTextBox ShowChara 1 1 15 ShowTextBox "Nyonyo, this is a surprise!"
+WaitTextBox Fade 3 30 SetBG 12 Fade 2 30 ShowChara 3 0 0 ShowTextBox "How do you look good?"
+WaitTextBox Fade 1 30 SetBG 122 Fade 0 30 ShowChara 1 1 10 ShowTextBox "Perfect! No matter where you look, it's a wonderful Hina doll."
+WaitTextBox ShowChara 2 2 23 ShowTextBox "Hmmm, I didn't think I was so addicted to it"
+WaitTextBox ShowTextBox "Let's take a commemorative photo!"
+WaitTextBox ShowChara 1 1 8 ShowTextBox "I'm in trouble, I don't have a camera right now!"
+WaitTextBox ShowChara 2 2 23 ShowTextBox "Maybe if you go to the store ... If you ask the store manager, I'm sure they will lend you."
+WaitTextBox ShowChara 1 1 9 ShowTextBox "Usada, nice idea"
+WaitTextBox ShowChara 2 2 22 ShowTextBox "Wait, I'll run for a while!"
+WaitTextBox ShowChara 1 1 15 ShowTextBox "Nyonyo, Di Gi Charat will go too ~"
+WaitTextBox Fade 1 30 SetBG 12 Fade 0 30 ShowChara 3 0 0 ShowTextBox "………………"
+WaitTextBox ShowTextBox "………………"
+WaitTextBox ShowTextBox "How long should I wait?"
+WaitTextBox EndScript 

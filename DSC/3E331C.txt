@@ -1,127 +1,19 @@
-DSCBase $3E331C
-
-
-
-
-Subscript 0
-ShowChara 4 4 28
-# $1って$2より、えらいぴょ？
-ShowTextBox "!!! 3E331C 0"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 4 4 28
-# アナローグ星にいる$1は変わってるぴょ
-ShowTextBox "!!! 3E331C 1"
-WaitTextBox
-ShowChara 4 0 29
-# 地球の$1とは違って、$2を食べるんだぴょ！
-ShowTextBox "!!! 3E331C 2"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 4 4 28
-# $1買ってくれるぴょ？
-ShowTextBox "!!! 3E331C 3"
-WaitTextBox
-ShowChara 4 0 34
-# でもぴよこ、$1より$2の方がいいぴょ
-ShowTextBox "!!! 3E331C 4"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 4 4 28
-# このまえおつかい
-# に行った時、ぴよ
-# こ$1の花見たぴょ
-ShowTextBox "!!! 3E331C 5"
-WaitTextBox
-ShowChara 4 0 29
-# とてもキレイだったぴょ♪
-ShowTextBox "!!! 3E331C 6"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-ShowChara 4 4 31
-# 『$1』は$2では放送されてないんだぴょ！
-ShowTextBox "!!! 3E331C 7"
-WaitTextBox
-ShowChara 4 0 30
-# $2の人たちがかわいそうだぴょ～
-ShowTextBox "!!! 3E331C 8"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-ShowChara 4 4 28
-# $1で$2に乗るとしあわせになるってウワサを聞いたぴょ
-ShowTextBox "!!! 3E331C 9"
-WaitTextBox
-ShowChara 4 0 31
-# マジぴょ？
-ShowTextBox "!!! 3E331C 10"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-ShowChara 4 4 29
-# ぴよこ今度$1に行ったら$2に乗りたいぴょ
-ShowTextBox "!!! 3E331C 11"
-WaitTextBox
-ShowChara 4 0 34
-# あ、$3にも乗りたいぴょ♪
-ShowTextBox "!!! 3E331C 12"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-ShowChara 4 4 29
-# ぴよこも今『$1』がお気に入りぴょ！
-ShowTextBox "!!! 3E331C 13"
-WaitTextBox
-ShowChara 4 0 30
-# $2にあけくれる主人公$3の行く末が心配だぴょ
-ShowTextBox "!!! 3E331C 14"
-WaitTextBox
-EndScript
-
-
-
-Subscript 8
-ShowChara 4 4 31
-# でじこお姉ちゃん
-# のお店にいる$1は$2ができるって話ぴょ！
-ShowTextBox "!!! 3E331C 15"
-WaitTextBox
-# それ見たさに連日
-# たくさんお客さん
-# が来てるらしいぴ
-# ょ！！
-ShowTextBox "!!! 3E331C 16"
-WaitTextBox
-ShowChara 4 0 30
-# くやしいぴょ～！
-# ぴよこのお店でも
-# なにかするぴょ～
-# ！！
-ShowTextBox "!!! 3E331C 17"
-WaitTextBox
-EndScript
+DSCBase $3E331C Subscript 0 ShowChara 4 4 28 ShowTextBox "Is $1 better than $2?"
+WaitTextBox EndScript Subscript 1 ShowChara 4 4 28 ShowTextBox "$1 on the analog star is strange"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "Unlike the $1 on Earth, you eat $2!"
+WaitTextBox EndScript Subscript 2 ShowChara 4 4 28 ShowTextBox "Will you buy $1?"
+WaitTextBox ShowChara 4 0 34 ShowTextBox "But Piyoko, $2 is better than $1"
+WaitTextBox EndScript Subscript 3 ShowChara 4 4 28 ShowTextBox "The last time I went to use it, I saw the cherry blossoms of Piyoko $1."
+WaitTextBox ShowChara 4 0 29 ShowTextBox "It was very beautiful ♪"
+WaitTextBox EndScript Subscript 4 ShowChara 4 4 31 ShowTextBox "\"$1\" isn't airing for $2!"
+WaitTextBox ShowChara 4 0 30 ShowTextBox "I feel sorry for the $2 people ~"
+WaitTextBox EndScript Subscript 5 ShowChara 4 4 28 ShowTextBox "I heard a rumor that if you ride $2 for $1, you will be happy."
+WaitTextBox ShowChara 4 0 31 ShowTextBox "Seriously?"
+WaitTextBox EndScript Subscript 6 ShowChara 4 4 29 ShowTextBox "Piyoko I want to ride $2 next time I go to $1"
+WaitTextBox ShowChara 4 0 34 ShowTextBox "Oh, I want to ride $3 ♪"
+WaitTextBox EndScript Subscript 7 ShowChara 4 4 29 ShowTextBox "Piyoko also likes \"$1\" now!"
+WaitTextBox ShowChara 4 0 30 ShowTextBox "I'm worried about the fate of the main character, $3, who will open for $2."
+WaitTextBox EndScript Subscript 8 ShowChara 4 4 31 ShowTextBox "You can get $2 for $1 at Di Gi Charat's shop!"
+WaitTextBox ShowTextBox "It seems that a lot of customers come every day to see it! !!"
+WaitTextBox ShowChara 4 0 30 ShowTextBox "It's ugly! Do something at Piyoko's shop! !!"
+WaitTextBox EndScript 

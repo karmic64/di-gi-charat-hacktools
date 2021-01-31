@@ -1,0 +1,267 @@
+DSCBase $40F84C
+
+
+
+
+Subscript 0
+ShowChara 3 1 17
+# 今週の結果にゅ
+ShowTextBox "!!! 40F84C 0"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 3 0 17
+# 先週の売上は
+# \x04$0\x1a円、
+# 今週の売上は
+# \x04$1\x1a円にゅ
+ShowTextBox "!!! 40F84C 1"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 3 0 17
+# 今週はほかにもい
+# ろいろあったから
+# \x04あとでお店情報を
+# チェックするとい
+# いにゅ\x1a
+ShowTextBox "!!! 40F84C 2"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 3 0 17
+# 今週の人気グッズ
+# は\x03$0\x1a、不人気グッズは\x01$1\x1aにゅ
+ShowTextBox "!!! 40F84C 3"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 3 0 17
+# ひょうばんは$0
+# きれいさは$1
+# になったにゅ
+ShowTextBox "!!! 40F84C 4"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 3 0 17
+# 今週はお客さんが
+# \x04$0人\x1aきたにゅ
+# 売上は\x04$1円\x1aで、お金は\x04$2円\x1aになったにゅ
+ShowTextBox "!!! 40F84C 5"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+ShowChara 3 0 17
+# みんなからの報告
+# にゅ
+ShowTextBox "!!! 40F84C 6"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+ShowChara 3 0 17
+# みんな、がんばる
+# にゅ
+ShowTextBox "!!! 40F84C 7"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 8
+ShowChara 3 0 17
+# みんな、がんばる
+# にゅ
+ShowTextBox "!!! 40F84C 8"
+WaitTextBox
+ShowChara 3 0 17
+# …ぷちこ、
+# \x04$0\x1aがうまくなった気がするにゅ
+ShowTextBox "!!! 40F84C 9"
+WaitTextBox
+# コツをおしえてく
+# れればうまく
+# $0できそうにゅ
+ShowTextBox "!!! 40F84C 10"
+WaitTextBox
+# 手伝ってくれるにゅ？
+ShowTextBox "!!! 40F84C 11"
+Wait 60
+EndScript
+
+
+
+Subscript 9
+ShowChara 3 0 18
+# がんばるにゅ
+ShowTextBox "!!! 40F84C 12"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 10
+ShowChara 3 0 21
+# 世間の風はつめたいにゅ…
+ShowTextBox "!!! 40F84C 13"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 3 0 17
+PlaySfx 149
+# ひょうばんが
+# \x03$0\x1aになったにゅ
+# 先週から\x03$1\x1aふえたにゅ
+ShowTextBox "!!! 40F84C 14"
+WaitTextBox
+EndScript
+
+
+
+Subscript 12
+ShowChara 3 0 17
+# ひょうばんは
+# $0にゅ
+# 先週とかわらない
+# にゅ
+ShowTextBox "!!! 40F84C 15"
+WaitTextBox
+EndScript
+
+
+
+Subscript 13
+ShowChara 3 0 20
+# ひょうばんが
+# \x01$0\x1aになったにゅ
+# 先週から\x01$1\x1aへったにゅ…
+ShowTextBox "!!! 40F84C 16"
+WaitTextBox
+EndScript
+
+
+
+Subscript 14
+ShowChara 3 0 17
+PlaySfx 149
+# きれいさが
+# \x03$0%\x1aになったにゅ
+# 先週から\x03$1%\x1aふえたにゅ
+ShowTextBox "!!! 40F84C 17"
+WaitTextBox
+EndScript
+
+
+
+Subscript 15
+ShowChara 3 0 17
+# きれいさは
+# $0%にゅ
+# 先週とかわらない
+# にゅ
+ShowTextBox "!!! 40F84C 18"
+WaitTextBox
+EndScript
+
+
+
+Subscript 16
+ShowChara 3 0 20
+# きれいさが
+# \x01$0%\x1aになったにゅ
+# 先週から\x01$1%\x1aへったにゅ…
+ShowTextBox "!!! 40F84C 19"
+WaitTextBox
+EndScript
+
+
+
+Subscript 17
+ShowChara 3 0 17
+PlaySfx 149
+# お客さんが\x03$0人\x1a来たにゅ
+# 先週から\x03$1人\x1aふえたにゅ
+ShowTextBox "!!! 40F84C 20"
+WaitTextBox
+EndScript
+
+
+
+Subscript 18
+ShowChara 3 0 17
+# お客さんが$0人来たにゅ
+# 先週とかわらないにゅ
+ShowTextBox "!!! 40F84C 21"
+WaitTextBox
+EndScript
+
+
+
+Subscript 19
+ShowChara 3 0 20
+# お客さんが\x01$0人\x1a来たにゅ
+# 先週から\x01$1人\x1aへったにゅ…
+ShowTextBox "!!! 40F84C 22"
+WaitTextBox
+EndScript
+
+
+
+Subscript 20
+ShowChara 3 0 17
+PlaySfx 149
+# 売上は先週より
+# \x03$0円\x1aふえて、
+# お金が\x03$1円\x1aになったにゅ
+ShowTextBox "!!! 40F84C 23"
+WaitTextBox
+EndScript
+
+
+
+Subscript 21
+ShowChara 3 0 17
+# 売上は先週と
+# おなじで、
+# お金は$1円になったにゅ
+ShowTextBox "!!! 40F84C 24"
+WaitTextBox
+EndScript
+
+
+
+Subscript 22
+ShowChara 3 0 20
+# 売上は先週より
+# \x01$0円\x1aへって、
+# お金が\x01$1円\x1aになったにゅ…
+ShowTextBox "!!! 40F84C 25"
+WaitTextBox
+EndScript

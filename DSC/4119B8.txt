@@ -1,68 +1,8 @@
-DSCBase $4119B8
-
-
-
-
-Subscript 0
-# でじこの悩みを聞いた！
-ShowTextBox "!!! 4119B8 0"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-# でじこをなだめた！
-ShowTextBox "!!! 4119B8 1"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-# でじこをなぐさめた！
-ShowTextBox "!!! 4119B8 2"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-# でじこをおだてた！
-ShowTextBox "!!! 4119B8 3"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-# でじこにかつを入れた！
-ShowTextBox "!!! 4119B8 4"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-# でじこをはげました！
-ShowTextBox "!!! 4119B8 5"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-# でじこをほめた！
-ShowTextBox "!!! 4119B8 6"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-EndScript
-
-
-
-Subscript 8
-EndScript
+DSCBase $4119B8 Subscript 0 ShowTextBox "I heard Di Gi Charat's worries!"
+WaitTextBox EndScript Subscript 1 ShowTextBox "Soothed Di Gi Charat!"
+WaitTextBox EndScript Subscript 2 ShowTextBox "Di Gi Charat was squeezed!"
+WaitTextBox EndScript Subscript 3 ShowTextBox "Di Gi Charat!"
+WaitTextBox EndScript Subscript 4 ShowTextBox "I put a katsura in Di Gi Charat!"
+WaitTextBox EndScript Subscript 5 ShowTextBox "Di Gi Charat has bald!"
+WaitTextBox EndScript Subscript 6 ShowTextBox "I praised Di Gi Charat!"
+WaitTextBox EndScript Subscript 7 EndScript Subscript 8 EndScript 

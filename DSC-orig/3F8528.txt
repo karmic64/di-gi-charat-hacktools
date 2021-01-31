@@ -1,0 +1,553 @@
+DSCBase $3F8528
+
+
+
+
+Subscript 0
+SetBG 120
+Fade 0 30
+ShowChara 1 1 16
+# にょにょ～
+ShowTextBox "!!! 3F8528 0"
+WaitTextBox
+ShowChara 3 2 17
+# …………
+ShowTextBox "!!! 3F8528 1"
+WaitTextBox
+ShowChara 1 1 16
+# やっぱり休みの日
+# は、こうしてグー
+# タラしてるのがい
+# ちばんにょ～
+ShowTextBox "!!! 3F8528 2"
+WaitTextBox
+ShowChara 3 2 17
+# …………
+ShowTextBox "!!! 3F8528 3"
+WaitTextBox
+ShowChara 1 1 8
+# ところでぷちこ、
+# さっきから何を読
+# んでるにょ？
+ShowTextBox "!!! 3F8528 4"
+WaitTextBox
+ShowChara 3 2 17
+# 新聞のチラシにゅ
+ShowTextBox "!!! 3F8528 5"
+WaitTextBox
+ShowChara 1 1 8
+# ふ～ん…
+ShowTextBox "!!! 3F8528 6"
+WaitTextBox
+# で、何かお買い得
+# な情報とか、うま
+# い話とかあるのか
+# にょ？
+ShowTextBox "!!! 3F8528 7"
+WaitTextBox
+ShowChara 3 2 18
+# 近くのスーパーで
+# 卵１パックがなん
+# と１００円にゅ
+ShowTextBox "!!! 3F8528 8"
+WaitTextBox
+ShowChara 1 1 8
+# ふ～ん…
+ShowTextBox "!!! 3F8528 9"
+WaitTextBox
+ShowChara 3 2 18
+# それにティッシュ
+# ペーパーが、５個
+# で２００円にゅ
+ShowTextBox "!!! 3F8528 10"
+WaitTextBox
+ShowChara 1 1 16
+# まったりした話ば
+# っかりにょ
+ShowTextBox "!!! 3F8528 11"
+WaitTextBox
+# もっとエキサイテ
+# ィングな話題とか
+# はないのかにょ？
+ShowTextBox "!!! 3F8528 12"
+WaitTextBox
+ShowChara 3 2 17
+# 運動会があるにゅ
+ShowTextBox "!!! 3F8528 13"
+WaitTextBox
+ShowChara 1 1 8
+# うんどうかい？
+ShowTextBox "!!! 3F8528 14"
+WaitTextBox
+ShowChara 3 2 17
+# １０月の市民だよ
+# りに書いてあるに
+# ゅ
+ShowTextBox "!!! 3F8528 15"
+WaitTextBox
+ShowChara 1 1 8
+# どれどれ…
+ShowTextBox "!!! 3F8528 16"
+WaitTextBox
+# 《来る１０月１４
+# 日の体育の日、第
+# ××回市民運動会
+# が開かれます。ふ
+# るってご参加くだ
+# さい》
+ShowTextBox "!!! 3F8528 17"
+WaitTextBox
+ShowChara 1 0 16
+# 悪くはないけど、
+# もうひとつアピー
+# ルに欠けるにょ
+ShowTextBox "!!! 3F8528 18"
+WaitTextBox
+# たとえば、優勝賞
+# 品は２泊３日のハ
+# ワイ旅行とか、そ
+# ういうのを希望す
+# るにょ
+ShowTextBox "!!! 3F8528 19"
+WaitTextBox
+ShowChara 3 2 17
+# 《なお、みごと優
+# 勝したチームには
+# なんと羽合旅行を
+# プレゼント！》と
+# 書いてあるにゅ
+ShowTextBox "!!! 3F8528 20"
+WaitTextBox
+ShowChara 1 1 15
+# にょにょっ、はわ
+# い旅行っ
+ShowTextBox "!!! 3F8528 21"
+WaitTextBox
+# け、決定にょっ、
+# 運動会に申し込む
+# にょ、申し込むに
+# ょ～っ！
+ShowTextBox "!!! 3F8528 22"
+WaitTextBox
+ShowChara 3 2 17
+# 参加受け付けは、
+# 今日までになって
+# るにゅ
+ShowTextBox "!!! 3F8528 23"
+WaitTextBox
+ShowChara 1 1 15
+# にょにょ～っ、緊
+# 急事態にょ～っ！
+ShowTextBox "!!! 3F8528 24"
+WaitTextBox
+# い、今すぐ行って
+# 申し込んで来るに
+# ょ～っ！
+ShowTextBox "!!! 3F8528 25"
+WaitTextBox
+ShowChara 3 2 17
+# そんなに急がなく
+# てもいいにゅ、申
+# し込みは電話でも
+# ＯＫにゅ
+ShowTextBox "!!! 3F8528 26"
+WaitTextBox
+ShowChara 8 1 2
+# もう遅いゲマ…
+ShowTextBox "!!! 3F8528 27"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 3 170 71 48 104 10 3
+SetBG 125
+Fade 0 30
+ShowChara 14 1 63
+# 《ただいまより、
+# 第××回市民運動
+# 会を開催いたしま
+# す――》
+ShowTextBox "!!! 3F8528 28"
+WaitTextBox
+ShowChara 1 1 10
+# にょにょっ、今日
+# は優勝するにょ、
+# 優勝するにょ、優
+# 勝するにょ、優勝
+# するったら優勝す
+# るにょ～っ！
+ShowTextBox "!!! 3F8528 29"
+WaitTextBox
+ShowChara 2 2 23
+# お～っ！
+ShowTextBox "!!! 3F8528 30"
+WaitTextBox
+ShowChara 3 1 18
+# にゅ～っ！
+ShowTextBox "!!! 3F8528 31"
+WaitTextBox
+ShowChara 8 2 53
+# ゲマーっ！
+ShowTextBox "!!! 3F8528 32"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 8 2 53
+# そんなこんなでプ
+# ログラムは進み、
+# ついに最終種目、
+# １００メートル走
+# の時間がやってき
+# たゲマ！
+ShowTextBox "!!! 3F8528 33"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 1 1 8
+# 長い長い戦いだっ
+# たにょ
+ShowTextBox "!!! 3F8528 34"
+WaitTextBox
+# しかし、この戦い
+# に勝てば、でじこ
+# たちの優勝にょ
+ShowTextBox "!!! 3F8528 35"
+WaitTextBox
+ShowChara 2 2 22
+# いざ栄冠はキミに
+# 輝かん
+ShowTextBox "!!! 3F8528 36"
+WaitTextBox
+# そうっ、深紅の大
+# 優勝旗を持って帰
+# るのはアタシたち
+# よ！
+ShowTextBox "!!! 3F8528 37"
+WaitTextBox
+ShowChara 3 1 17
+# で、１００メート
+# ル走には誰が出る
+# にゅ？
+ShowTextBox "!!! 3F8528 38"
+WaitTextBox
+ShowChara 1 1 9
+# ゲマが出るという
+# のはどうにょ？
+ShowTextBox "!!! 3F8528 39"
+WaitTextBox
+ShowChara 8 2 54
+# ゲ、ゲマっ？
+ShowTextBox "!!! 3F8528 40"
+WaitTextBox
+ShowChara 2 2 22
+# ゲ、ゲマにそんな
+# 大役を任せるなん
+# て、なにか勝算で
+# もあるのかしら？
+ShowTextBox "!!! 3F8528 41"
+WaitTextBox
+ShowChara 1 1 10
+# 決まってるにょ！
+# 目からビームで、
+# ゲマを加速するん
+# だにょ～！
+ShowTextBox "!!! 3F8528 42"
+WaitTextBox
+ShowChara 1 0 9
+# ゲマを真後ろから
+# 撃てば、１００メ
+# ートルなんか、あ
+# っという間にょ！
+ShowTextBox "!!! 3F8528 43"
+WaitTextBox
+# にょにょ、これで
+# 優勝はいただきに
+# ょ！
+ShowTextBox "!!! 3F8528 44"
+WaitTextBox
+ShowChara 8 2 2
+# そ、それはカンベ
+# ンして欲しいゲマ
+# ～っ！
+ShowTextBox "!!! 3F8528 45"
+WaitTextBox
+ShowChara 1 1 13
+# だいじょうぶ、ち
+# ゃんと手加減する
+# から安心するにょ
+ShowTextBox "!!! 3F8528 46"
+WaitTextBox
+ShowChara 2 2 23
+# はいはい、その話
+# はそれまで
+ShowTextBox "!!! 3F8528 47"
+WaitTextBox
+ShowChara 2 0 22
+# で、誰が走るの？
+ShowTextBox "!!! 3F8528 48"
+WaitTextBox
+ShowChara 3 1 17
+# 悩むにゅ
+ShowTextBox "!!! 3F8528 49"
+WaitTextBox
+ShowChara 1 1 8
+# （にょにょ～、な
+# んか本気だったと
+# は言いにくい雰囲
+# 気にょ～）
+ShowTextBox "!!! 3F8528 50"
+WaitTextBox
+ShowChara 8 2 1
+# 誰が出るゲマ？
+ShowTextBox "!!! 3F8528 51"
+WaitTextBox
+ShowChara 1 1 8
+# …………
+ShowTextBox "!!! 3F8528 52"
+WaitTextBox
+ShowChara 2 2 22
+# …………
+ShowTextBox "!!! 3F8528 53"
+WaitTextBox
+ShowChara 3 1 17
+# …………
+ShowTextBox "!!! 3F8528 54"
+WaitTextBox
+# ぷちこが出るにゅ
+# …
+ShowTextBox "!!! 3F8528 55"
+WaitTextBox
+ShowChara 2 2 25
+# ぷ、ぷちこが…？
+# 大丈夫なのかしら
+ShowTextBox "!!! 3F8528 56"
+WaitTextBox
+ShowChara 1 1 8
+# にょにょ、ぷちこ
+# がやるというのな
+# ら、でじこはぷち
+# こに任せるにょ
+ShowTextBox "!!! 3F8528 57"
+WaitTextBox
+ShowChara 2 2 22
+# ちょっと不安だけ
+# ど…
+ShowTextBox "!!! 3F8528 58"
+WaitTextBox
+ShowChara 1 1 9
+# いや、これはこれ
+# でベストの選択と
+# いえるにょ！
+ShowTextBox "!!! 3F8528 59"
+WaitTextBox
+ShowChara 8 2 1
+# それでは、ぷちこ
+# に決定ゲマ…
+ShowTextBox "!!! 3F8528 60"
+WaitTextBox
+ShowChara 2 2 23
+# がんばってね！
+ShowTextBox "!!! 3F8528 61"
+WaitTextBox
+ShowChara 3 1 18
+# がんばるにゅ
+ShowTextBox "!!! 3F8528 62"
+WaitTextBox
+Fade 3 30
+SetBG 42
+Fade 2 30
+ShowChara 3 0 0
+# もうすぐ、スタートに
+# ゅ
+ShowTextBox "!!! 3F8528 63"
+WaitTextBox
+# 店長さん、心配はいら
+# ないにゅ
+ShowTextBox "!!! 3F8528 64"
+WaitTextBox
+# うまくいけば、ぷちこ
+# は勝つにゅ
+ShowTextBox "!!! 3F8528 65"
+WaitTextBox
+Fade 1 30
+SetBG 125
+Fade 0 30
+ShowChara 14 1 63
+# 『位置について…』
+ShowTextBox "!!! 3F8528 66"
+WaitTextBox
+ShowChara 2 2 22
+# いよいよスタート…
+ShowTextBox "!!! 3F8528 67"
+WaitTextBox
+ShowChara 14 1 63
+# 『よーい…』
+ShowTextBox "!!! 3F8528 68"
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ～
+ShowTextBox "!!! 3F8528 69"
+WaitTextBox
+ShowChara 14 1 63
+# 『ドン！』
+ShowTextBox "!!! 3F8528 70"
+WaitTextBox
+Fade 3 120
+Wait 60
+Fade 2 30
+ShowChara 3 1 17
+# せえの…
+ShowTextBox "!!! 3F8528 71"
+WaitTextBox
+ShowChara 3 0 18
+# ばんざいにゅ
+ShowTextBox "!!! 3F8528 72"
+WaitTextBox
+ShowChara 1 1 10
+# ばんざ～い！
+ShowTextBox "!!! 3F8528 73"
+WaitTextBox
+ShowChara 2 2 23
+# ばんざ～い！
+ShowTextBox "!!! 3F8528 74"
+WaitTextBox
+ShowChara 8 2 53
+# 試合には負けたけ
+# ど、ハワイ旅行ゲ
+# ットで、おめでと
+# うゲマ～
+ShowTextBox "!!! 3F8528 75"
+WaitTextBox
+ShowChara 2 2 23
+# まさか、一位の人
+# が賞品をゆずって
+# くれるだなんてね
+# ぇ…
+ShowTextBox "!!! 3F8528 76"
+WaitTextBox
+ShowChara 1 1 8
+# ビリになってもあ
+# きらめないで走り
+# 続けるぷちこの姿
+# …
+ShowTextBox "!!! 3F8528 77"
+WaitTextBox
+ShowChara 1 0 9
+# それが、みんなの
+# 心に感動をよんだ
+# んだにょ～
+ShowTextBox "!!! 3F8528 78"
+WaitTextBox
+ShowChara 3 2 17
+# ぷちこが本気を出
+# せば、こんなもの
+# にゅ
+ShowTextBox "!!! 3F8528 79"
+WaitTextBox
+ShowChara 1 1 10
+# ぷちこ、でじこは
+# やると信じてたに
+# ょっ！
+ShowTextBox "!!! 3F8528 80"
+WaitTextBox
+ShowChara 2 2 22
+# 本当かしら
+ShowTextBox "!!! 3F8528 81"
+WaitTextBox
+ShowChara 1 1 11
+# にょにょ、何をい
+# うにょ、でじこと
+# ぷちこは姉妹みた
+# いなものにょ！
+ShowTextBox "!!! 3F8528 82"
+WaitTextBox
+# でじこは常にぷち
+# こを信頼してるに
+# 決まってるにょ～
+# っ！
+ShowTextBox "!!! 3F8528 83"
+WaitTextBox
+ShowChara 3 1 17
+# そろそろ、賞品を
+# 確認にゅ
+ShowTextBox "!!! 3F8528 84"
+WaitTextBox
+ShowChara 2 2 23
+# 待ってました！
+ShowTextBox "!!! 3F8528 85"
+WaitTextBox
+ShowChara 1 1 9
+# ハワイっ、ハワイ
+# にょ～
+ShowTextBox "!!! 3F8528 86"
+WaitTextBox
+ShowChara 3 1 17
+# ごそごそ…
+ShowTextBox "!!! 3F8528 87"
+WaitTextBox
+# 『ようこそ、羽合
+# 温泉へ』
+# 羽合への日帰り旅
+# 行券にゅ
+ShowTextBox "!!! 3F8528 88"
+WaitTextBox
+ShowChara 2 2 22
+# 「羽合」？
+ShowTextBox "!!! 3F8528 89"
+WaitTextBox
+# …「ハワイ」じゃ
+# なくて「羽合」？
+ShowTextBox "!!! 3F8528 90"
+WaitTextBox
+ShowChara 1 1 8
+# にょっ、それがど
+# うかしたにょ？
+ShowTextBox "!!! 3F8528 91"
+WaitTextBox
+ShowChara 2 2 22
+# 「ハワイ」と「羽
+# 合」って…別よ
+ShowTextBox "!!! 3F8528 92"
+WaitTextBox
+ShowChara 1 1 8
+# 別と言われても、
+# 何が別にょ！
+ShowTextBox "!!! 3F8528 93"
+WaitTextBox
+ShowChara 1 0 9
+# でじこたちはハワ
+# イに行くにょ！
+ShowTextBox "!!! 3F8528 94"
+WaitTextBox
+ShowChara 2 2 22
+# えーっと、まぁ、
+# 「はわい」には違
+# いないんだけど…
+ShowTextBox "!!! 3F8528 95"
+WaitTextBox
+ShowChara 1 1 10
+# だったら問題ない
+# にょ～！
+ShowTextBox "!!! 3F8528 96"
+WaitTextBox
+ShowChara 8 2 53
+# 旅行の日は、来月
+# の１０日ゲマ！
+ShowTextBox "!!! 3F8528 97"
+WaitTextBox
+ShowChara 3 1 18
+# 楽しみにゅ
+ShowTextBox "!!! 3F8528 98"
+WaitTextBox
+ShowChara 2 2 27
+# あーん、常夏のハ
+# ワイのビーチだと
+# 思ったのに、羽合
+# 温泉だなんてー！
+ShowTextBox "!!! 3F8528 99"
+WaitTextBox
+EndScript

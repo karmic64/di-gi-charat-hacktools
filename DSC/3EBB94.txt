@@ -1,178 +1,30 @@
-DSCBase $3EBB94
-
-
-
-
-Subscript 0
-ShowChara 12 4 60
-# し、知らないゲバ
-# $1なんてオイラたち食べた事ないゲバっ！！
-ShowTextBox "!!! 3EBB94 0"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 7 4 52
-# まあ聞けよ
-# 実は俺、$1の早食いには自信があるんだ
-ShowTextBox "!!! 3EBB94 1"
-WaitTextBox
-ShowChara 7 0 48
-# エヘン！あの$2にも勝ったんだぜ！
-ShowTextBox "!!! 3EBB94 2"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 7 4 47
-# 店の隣で飼ってる$1がさ、よく俺をにらむんだ
-ShowTextBox "!!! 3EBB94 3"
-WaitTextBox
-ShowChara 7 0 49
-# イヤな感じだぜ…
-ShowTextBox "!!! 3EBB94 4"
-WaitTextBox
-ShowChara 5 4 38
-# そんなことないぞクウ！
-# きっとお前の方に非があるのだ！！
-ShowTextBox "!!! 3EBB94 5"
-WaitTextBox
-ShowChara 7 4 58
-# うそッ！？
-ShowTextBox "!!! 3EBB94 6"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 7 4 52
-# 俺、実は$1より速いんだ！
-ShowTextBox "!!! 3EBB94 7"
-WaitTextBox
-ShowChara 7 0 51
-# この脚は、伊達じゃないぜ！！
-ShowTextBox "!!! 3EBB94 8"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-ShowChara 7 4 47
-# そういえば、リクに言われた『$1』全部読んだぜ
-ShowTextBox "!!! 3EBB94 9"
-WaitTextBox
-ShowChara 5 4 35
-# ほう…感動したろう？
-ShowTextBox "!!! 3EBB94 10"
-WaitTextBox
-ShowChara 7 4 49
-# …ていうか
-ShowTextBox "!!! 3EBB94 11"
-WaitTextBox
-ShowChara 7 0 48
-# 笑えた！
-ShowTextBox "!!! 3EBB94 12"
-WaitTextBox
-ShowChara 5 4 37
-# …………………。
-ShowTextBox "!!! 3EBB94 13"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-ShowChara 7 4 47
-# ところでさ…
-ShowTextBox "!!! 3EBB94 14"
-WaitTextBox
-ShowChara 7 0 48
-# $1って温めると、さらにおいしくなるって本当？
-ShowTextBox "!!! 3EBB94 15"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-ShowChara 7 4 47
-# 今度、店の裏に$1植えようぜ
-ShowTextBox "!!! 3EBB94 16"
-WaitTextBox
-ShowChara 7 0 51
-# 来年になったら、きっとうまそうな実ができる…かな？
-ShowTextBox "!!! 3EBB94 17"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-ShowChara 7 4 47
-# ん…なにか来てる？
-ShowTextBox "!!! 3EBB94 18"
-WaitTextBox
-ShowChara 7 0 58
-# うわッ！？
-# ゲーマーズ$1店から大量の『$2』グッズが来てるぜ
-ShowTextBox "!!! 3EBB94 19"
-WaitTextBox
-ShowChara 6 4 46
-# やられた～！
-# 『$2』グッズはたたき売っても売れ残るグッズです～！
-ShowTextBox "!!! 3EBB94 20"
-WaitTextBox
-ShowChara 5 4 57
-# お…おのれ…デ・ジ・キャラット！！
-ShowTextBox "!!! 3EBB94 21"
-WaitTextBox
-EndScript
-
-
-
-Subscript 8
-ShowChara 7 4 47
-# それじゃ俺も$1でもして、一汗流すか…
-ShowTextBox "!!! 3EBB94 22"
-WaitTextBox
-ShowChara 7 0 48
-# リクも時々は運動しろよ
-ShowTextBox "!!! 3EBB94 23"
-WaitTextBox
-ShowChara 5 4 57
-# ……うっ
-ShowTextBox "!!! 3EBB94 24"
-WaitTextBox
-EndScript
-
-
-
-Subscript 9
-ShowChara 7 4 47
-# 俺も読んだぜ…『$1』
-ShowTextBox "!!! 3EBB94 25"
-WaitTextBox
-ShowChara 7 0 48
-# あれって…なに？
-ShowTextBox "!!! 3EBB94 26"
-WaitTextBox
-EndScript
-
-
-
-Subscript 10
-ShowChara 7 4 47
-# 『$1』に出てる$2って$3が上手いらしいよ
-ShowTextBox "!!! 3EBB94 27"
-WaitTextBox
-ShowChara 7 0 48
-# 今度うちの店にスカウトしようぜ！
-ShowTextBox "!!! 3EBB94 28"
-WaitTextBox
-EndScript
+DSCBase $3EBB94 Subscript 0 ShowChara 12 4 60 ShowTextBox "And I don't know Geba $1 I've never eaten Geba! !!"
+WaitTextBox EndScript Subscript 1 ShowChara 7 4 52 ShowTextBox "Well listen, I'm confident in eating $1 fast"
+WaitTextBox ShowChara 7 0 48 ShowTextBox "Ehen! I won that $2!"
+WaitTextBox EndScript Subscript 2 ShowChara 7 4 47 ShowTextBox "The $1 I keep next to the store often stares at me"
+WaitTextBox ShowChara 7 0 49 ShowTextBox "I don't like it ..."
+WaitTextBox ShowChara 5 4 38 ShowTextBox "That's not true! I'm sure you have a fault! !!"
+WaitTextBox ShowChara 7 4 58 ShowTextBox "Lie! ??"
+WaitTextBox EndScript Subscript 3 ShowChara 7 4 52 ShowTextBox "I'm actually faster than $1!"
+WaitTextBox ShowChara 7 0 51 ShowTextBox "This leg is not Date! !!"
+WaitTextBox EndScript Subscript 4 ShowChara 7 4 47 ShowTextBox "By the way, I read all the \"$1\" that Riku told me."
+WaitTextBox ShowChara 5 4 35 ShowTextBox "Hmm ... were you impressed?"
+WaitTextBox ShowChara 7 4 49 ShowTextBox "…I mean"
+WaitTextBox ShowChara 7 0 48 ShowTextBox "I could laugh!"
+WaitTextBox ShowChara 5 4 37 ShowTextBox "…………………."
+WaitTextBox EndScript Subscript 5 ShowChara 7 4 47 ShowTextBox "By the way ..."
+WaitTextBox ShowChara 7 0 48 ShowTextBox "Is it true that if you warm $1 it will be even more delicious?"
+WaitTextBox EndScript Subscript 6 ShowChara 7 4 47 ShowTextBox "Next time, let's plant $1 behind the store"
+WaitTextBox ShowChara 7 0 51 ShowTextBox "Next year, I'm sure there will be delicious fruits ...?"
+WaitTextBox EndScript Subscript 7 ShowChara 7 4 47 ShowTextBox "Hmm ... is something coming?"
+WaitTextBox ShowChara 7 0 58 ShowTextBox "Wow! ?? A lot of \"$2\" goods are coming from Gamers $1 store"
+WaitTextBox ShowChara 6 4 46 ShowTextBox "It was done! \"$2\" goods are unsold goods even if they are sold by hitting!"
+WaitTextBox ShowChara 5 4 57 ShowTextBox "Oh ... my ... Di Gi Charat! !!"
+WaitTextBox EndScript Subscript 8 ShowChara 7 4 47 ShowTextBox "Then I'll do $1 and sweat ..."
+WaitTextBox ShowChara 7 0 48 ShowTextBox "Riku should also exercise from time to time"
+WaitTextBox ShowChara 5 4 57 ShowTextBox "...... Ugh"
+WaitTextBox EndScript Subscript 9 ShowChara 7 4 47 ShowTextBox "I read it too ... \"$1\""
+WaitTextBox ShowChara 7 0 48 ShowTextBox "What is that ...?"
+WaitTextBox EndScript Subscript 10 ShowChara 7 4 47 ShowTextBox "It seems that $2 in \"$1\" is good at $3."
+WaitTextBox ShowChara 7 0 48 ShowTextBox "Let's scout at our store next time!"
+WaitTextBox EndScript 

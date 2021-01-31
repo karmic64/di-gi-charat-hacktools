@@ -1,178 +1,28 @@
-DSCBase $3E2550
-
-
-
-
-Subscript 0
-ShowChara 6 4 40
-# ここでひとつ豆知識！
-ShowTextBox "!!! 3E2550 0"
-WaitTextBox
-# 『$1』は実は$2が描いた大傑作です！
-ShowTextBox "!!! 3E2550 1"
-WaitTextBox
-ShowChara 6 0 43
-# 主人公$3の生きざまに感動します
-ShowTextBox "!!! 3E2550 2"
-WaitTextBox
-ShowChara 6 0 41
-# お求めはぜひ当店で！
-ShowTextBox "!!! 3E2550 3"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 6 4 40
-# $1…ママの手料理を思い出しますね
-ShowTextBox "!!! 3E2550 4"
-WaitTextBox
-ShowChara 6 0 43
-# …ママ
-ShowTextBox "!!! 3E2550 5"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 6 4 40
-# $1と$2って仲が悪いように見えますけど…
-# 本当は仲がいいんですよ
-ShowTextBox "!!! 3E2550 6"
-WaitTextBox
-ShowChara 6 0 41
-# 自分にはわかります
-ShowTextBox "!!! 3E2550 7"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 6 4 40
-# お店のマスコット
-# にいいですね…$1
-ShowTextBox "!!! 3E2550 8"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-ShowChara 6 4 40
-# $1のお家の庭には$2が一面生えているそうですよ
-ShowTextBox "!!! 3E2550 9"
-WaitTextBox
-# $3の呪いではないかと、近所のもっぱらのウワサです
-ShowTextBox "!!! 3E2550 10"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-ShowChara 6 4 41
-# $1を飲むと$2が食べたくなりません？
-ShowTextBox "!!! 3E2550 11"
-WaitTextBox
-ShowChara 6 0 45
-# あ…別に自分が空腹なわけではありませんよ
-ShowTextBox "!!! 3E2550 12"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-ShowChara 6 4 40
-# $1と言えば、$2出身の人ですよね
-ShowTextBox "!!! 3E2550 13"
-WaitTextBox
-ShowChara 6 0 41
-# 故郷の期待を背負って、$3に励むいい人ですよ
-ShowTextBox "!!! 3E2550 14"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-ShowChara 6 4 40
-# 知ってますか？
-ShowTextBox "!!! 3E2550 15"
-WaitTextBox
-# みなさんが飲んで
-# いる$1は$2のキレイなお水で作られているそうですよ
-ShowTextBox "!!! 3E2550 16"
-WaitTextBox
-EndScript
-
-
-
-Subscript 8
-ShowChara 6 4 40
-# 店長さん、ここだけの話…
-# 自分は$1が苦手です…
-ShowTextBox "!!! 3E2550 17"
-WaitTextBox
-ShowChara 6 0 43
-# 昔、$1していて$2にぶつかりそうになった過去があるんですよ～
-ShowTextBox "!!! 3E2550 18"
-WaitTextBox
-EndScript
-
-
-
-Subscript 9
-ShowChara 6 4 41
-# $1は『$2』で紹介されてから、大勢の人が来るようになったそうです
-ShowTextBox "!!! 3E2550 19"
-WaitTextBox
-# うちのお店も宣伝
-# した方がいいので
-# は？
-ShowTextBox "!!! 3E2550 20"
-WaitTextBox
-EndScript
-
-
-
-Subscript 10
-ShowChara 6 4 40
-# 知ってますか？
-# 『$1』の人気で$2がブームらしいです
-ShowTextBox "!!! 3E2550 21"
-WaitTextBox
-ShowChara 6 0 41
-# まあ一時的なものでしょうけど
-ShowTextBox "!!! 3E2550 22"
-WaitTextBox
-EndScript
-
-
-
-Subscript 11
-ShowChara 6 4 42
-# $1を食べたあとは絶対歯をみがいてください！
-ShowTextBox "!!! 3E2550 23"
-WaitTextBox
-# そうしないと虫歯
-# になること１００パーセントです！！
-ShowTextBox "!!! 3E2550 24"
-WaitTextBox
-EndScript
-
-
-
-Subscript 12
-ShowChara 6 4 40
-# $1は一生虫歯にならないそうですよ
-ShowTextBox "!!! 3E2550 25"
-WaitTextBox
-ShowChara 6 0 41
-# おかげで、歯医者いらずです
-ShowTextBox "!!! 3E2550 26"
-WaitTextBox
-EndScript
+DSCBase $3E2550 Subscript 0 ShowChara 6 4 40 ShowTextBox "One bean knowledge here!"
+WaitTextBox ShowTextBox "\"$1\" is actually a masterpiece drawn by $2!"
+WaitTextBox ShowChara 6 0 43 ShowTextBox "Impressed by the life of the main character $3"
+WaitTextBox ShowChara 6 0 41 ShowTextBox "Please buy it at our shop!"
+WaitTextBox EndScript Subscript 1 ShowChara 6 4 40 ShowTextBox "$1 ... I remember mom's home cooking"
+WaitTextBox ShowChara 6 0 43 ShowTextBox "… Mom"
+WaitTextBox EndScript Subscript 2 ShowChara 6 4 40 ShowTextBox "It looks like $1 and $2 aren't on good terms, but ... they're really on good terms."
+WaitTextBox ShowChara 6 0 41 ShowTextBox "I understand"
+WaitTextBox EndScript Subscript 3 ShowChara 6 4 40 ShowTextBox "Good for the store mascot ... $1"
+WaitTextBox EndScript Subscript 4 ShowChara 6 4 40 ShowTextBox "It seems that $2 is growing all over the garden of the $1 house."
+WaitTextBox ShowTextBox "It's a $3 curse, it's just a rumor in the neighborhood"
+WaitTextBox EndScript Subscript 5 ShowChara 6 4 41 ShowTextBox "Don't you want to eat $2 after drinking $1?"
+WaitTextBox ShowChara 6 0 45 ShowTextBox "Ah ... I'm not hungry"
+WaitTextBox EndScript Subscript 6 ShowChara 6 4 40 ShowTextBox "Speaking of $1, you're from $2, right?"
+WaitTextBox ShowChara 6 0 41 ShowTextBox "He's a good person who carries the expectations of his hometown and works hard at $3."
+WaitTextBox EndScript Subscript 7 ShowChara 6 4 40 ShowTextBox "did you know?"
+WaitTextBox ShowTextBox "It seems that the $1 you are drinking is made from $2 of clean water."
+WaitTextBox EndScript Subscript 8 ShowChara 6 4 40 ShowTextBox "Manager, only here ... I'm not good at $1 ..."
+WaitTextBox ShowChara 6 0 43 ShowTextBox "There was a past when I was $1 and was about to hit $2 ~"
+WaitTextBox EndScript Subscript 9 ShowChara 6 4 41 ShowTextBox "It seems that a lot of people have come since $1 was introduced in \"$2\"."
+WaitTextBox ShowTextBox "Shouldn't we also advertise our store?"
+WaitTextBox EndScript Subscript 10 ShowChara 6 4 40 ShowTextBox "did you know? It seems that $2 is booming due to the popularity of \"$1\""
+WaitTextBox ShowChara 6 0 41 ShowTextBox "Well it's temporary"
+WaitTextBox EndScript Subscript 11 ShowChara 6 4 42 ShowTextBox "Be sure to brush your teeth after eating $1!"
+WaitTextBox ShowTextBox "If you don't, you will get cavities 100%! !!"
+WaitTextBox EndScript Subscript 12 ShowChara 6 4 40 ShowTextBox "It seems that $1 will not cause cavities for the rest of your life."
+WaitTextBox ShowChara 6 0 41 ShowTextBox "Thanks, I don't need a dentist"
+WaitTextBox EndScript 

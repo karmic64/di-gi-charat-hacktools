@@ -1,55 +1,6 @@
-DSCBase $3E17A8
-
-
-
-
-Subscript 0
-ShowChara 5 2 35
-EndScript
-
-
-
-Subscript 1
-HideChara
-EndScript
-
-
-
-Subscript 2
-ShowChara 5 0 35
-# わたくしはピョコラ様
-# の忠実なるしもべ
-ShowTextBox "!!! 3E17A8 0"
-EndScript
-
-
-
-Subscript 3
-# ブラックゲマゲマ団の
-# 元帥（げんすい）リク
-# ＝ハイゼンベルク！
-ShowTextBox "!!! 3E17A8 1"
-EndScript
-
-
-
-Subscript 4
-# すべてはピョコラ様の
-# ために！
-ShowTextBox "!!! 3E17A8 2"
-EndScript
-
-
-
-Subscript 5
-ShowChara 5 0 38
-# ピョコラ様をさしおい
-# てアシスタントを務め
-# るなど言語道断！
-ShowTextBox "!!! 3E17A8 3"
-Wait 60
-# もうしわけないが、お
-# 断りさせていただく
-ShowTextBox "!!! 3E17A8 4"
-Wait 60
-EndScript
+DSCBase $3E17A8 Subscript 0 ShowChara 5 2 35 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowChara 5 0 35 ShowTextBox "I am Pyocola-sama's faithful servant"
+EndScript Subscript 3 ShowTextBox "Marshal Riku Heisenberg of the Black Gemagema Group!"
+EndScript Subscript 4 ShowTextBox "All for Pyocola!"
+EndScript Subscript 5 ShowChara 5 0 38 ShowTextBox "It is outrageous to act as an assistant aside from Pyocola!"
+Wait 60 ShowTextBox "I'm sorry, but I will refuse"
+Wait 60 EndScript 

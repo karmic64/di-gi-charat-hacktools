@@ -1,133 +1,21 @@
-DSCBase $3E35F8
-
-
-
-
-Subscript 0
-ShowChara 5 4 38
-# 今こそ私の知識を見せる時！
-# $1の事なら、この私におまかせだ！
-ShowTextBox "!!! 3E35F8 0"
-WaitTextBox
-ShowChara 5 0 39
-# $1は$2に生息する生物で、$3が大好物なのだ！
-ShowTextBox "!!! 3E35F8 1"
-WaitTextBox
-ShowChara 5 0 36
-# 地球では$4が初めて、そのかわいらしさに気づいたとか…
-ShowTextBox "!!! 3E35F8 2"
-WaitTextBox
-ShowChara 5 0 65
-# 私もその姿を見る
-# と、思わず目じり
-# が下がって…�@
-ShowTextBox "!!! 3E35F8 3"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 5 4 39
-# 知っているか店長
-# ？
-# $1は$2を主食とする生物…
-ShowTextBox "!!! 3E35F8 4"
-WaitTextBox
-ShowChara 5 0 38
-# しかし、そのお茶
-# 目な性格で$3も食べたりするのだ！
-ShowTextBox "!!! 3E35F8 5"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 5 4 35
-# このまえ$1で$2に乗る$3を見かけたのだ
-ShowTextBox "!!! 3E35F8 6"
-WaitTextBox
-ShowChara 5 0 36
-# …かわいかったぞ�@
-ShowTextBox "!!! 3E35F8 7"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 5 4 35
-# $2では$1を『神の使い』として、あがめていたらしい
-ShowTextBox "!!! 3E35F8 8"
-WaitTextBox
-ShowChara 5 0 64
-# （なぜだ…？）
-ShowTextBox "!!! 3E35F8 9"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-ShowChara 5 4 35
-# 最近$1動物園では、$2の子育てに$3を飲ませているという…
-ShowTextBox "!!! 3E35F8 10"
-WaitTextBox
-ShowChara 5 0 39
-# …これが事実なら大問題だ
-ShowTextBox "!!! 3E35F8 11"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-ShowChara 5 4 35
-# $1はペットの$2を連れて、よく$3に行くらしい
-ShowTextBox "!!! 3E35F8 12"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-ShowChara 5 4 57
-# ムッ…誰だ？
-# 私の$1に$2させているのは！？
-ShowTextBox "!!! 3E35F8 13"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-ShowChara 5 4 37
-# 最近、$1はリッチだ…
-ShowTextBox "!!! 3E35F8 14"
-WaitTextBox
-ShowChara 5 0 36
-# 家で飼っている$2に$3までさせているらしい
-ShowTextBox "!!! 3E35F8 15"
-WaitTextBox
-EndScript
-
-
-
-Subscript 8
-ShowChara 5 4 35
-# 先週の『$1』は$2が映っていた
-ShowTextBox "!!! 3E35F8 16"
-WaitTextBox
-# なんでも言葉が分かる$2らしく、『$3』を読んで笑っているのだ！
-ShowTextBox "!!! 3E35F8 17"
-WaitTextBox
-ShowChara 5 0 38
-# これはどう言うことだ、店長！？
-ShowTextBox "!!! 3E35F8 18"
-WaitTextBox
-ShowChara 5 0 39
-# …と、店長にあたってもしかたないか…すまない
-ShowTextBox "!!! 3E35F8 19"
-WaitTextBox
-EndScript
+DSCBase $3E35F8 Subscript 0 ShowChara 5 4 38 ShowTextBox "Now is the time to show my knowledge! If it's $1, leave it to me!"
+WaitTextBox ShowChara 5 0 39 ShowTextBox "$1 is a creature that lives in $2, and $3 is my favorite!"
+WaitTextBox ShowChara 5 0 36 ShowTextBox "For the first time on Earth, $4 noticed its cuteness ..."
+WaitTextBox ShowChara 5 0 65 ShowTextBox "When I saw that figure, my eyes suddenly dropped ..."
+WaitTextBox EndScript Subscript 1 ShowChara 5 4 39 ShowTextBox "Do you know the store manager? $1 is a creature whose staple food is $2 ..."
+WaitTextBox ShowChara 5 0 38 ShowTextBox "However, with that playful personality, he eats as much as $3!"
+WaitTextBox EndScript Subscript 2 ShowChara 5 4 35 ShowTextBox "I saw $3 riding $2 for $1 the other day."
+WaitTextBox ShowChara 5 0 36 ShowTextBox "... it was cute"
+WaitTextBox EndScript Subscript 3 ShowChara 5 4 35 ShowTextBox "At $2, it seems that $1 was praised as a \"god's messenger.\""
+WaitTextBox ShowChara 5 0 64 ShowTextBox "(Why…?)"
+WaitTextBox EndScript Subscript 4 ShowChara 5 4 35 ShowTextBox "Recently, at the $1 zoo, $3 is being given to raise $2 children ..."
+WaitTextBox ShowChara 5 0 39 ShowTextBox "… If this is the case, it's a big problem."
+WaitTextBox EndScript Subscript 5 ShowChara 5 4 35 ShowTextBox "$1 seems to go to $3 often with pet $2"
+WaitTextBox EndScript Subscript 6 ShowChara 5 4 57 ShowTextBox "Mmm ... who? What makes my $1 $2! ??"
+WaitTextBox EndScript Subscript 7 ShowChara 5 4 37 ShowTextBox "Recently, $1 is rich ..."
+WaitTextBox ShowChara 5 0 36 ShowTextBox "It seems that $2 that I keep at home is up to $3"
+WaitTextBox EndScript Subscript 8 ShowChara 5 4 35 ShowTextBox "Last week's \"$1\" showed $2"
+WaitTextBox ShowTextBox "Like $2 who understands everything, he reads \"$3\" and laughs!"
+WaitTextBox ShowChara 5 0 38 ShowTextBox "What does this mean, store manager! ??"
+WaitTextBox ShowChara 5 0 39 ShowTextBox "... and I can't help the store manager ... I'm sorry."
+WaitTextBox EndScript 

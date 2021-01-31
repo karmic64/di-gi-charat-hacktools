@@ -1,230 +1,34 @@
-DSCBase $3FE104
-
-
-
-
-Subscript 0
-SetBG 111
-Fade 0 30
-ShowChara 1 1 14
-# もしもし、ラ・ビ
-# ・アン・ローズさ
-# んや…
-ShowTextBox "!!! 3FE104 0"
-WaitTextBox
-ShowChara 2 2 25
-# な、何よ、そんな
-# 猫なで声出して…
-# 何をたくらんでる
-# の？
-ShowTextBox "!!! 3FE104 1"
-WaitTextBox
-ShowChara 1 1 14
-# ラ・ビ・アン・ロ
-# ーズさんは、２月
-# ８日が何の日か、
-# ごぞんじですかに
-# ょ？
-ShowTextBox "!!! 3FE104 2"
-WaitTextBox
-ShowChara 2 2 22
-# ２月８日？
-ShowTextBox "!!! 3FE104 3"
-WaitTextBox
-# えーっと…
-ShowTextBox "!!! 3FE104 4"
-WaitTextBox
-ShowChara 1 1 9
-# 「た」とか…、
-# 「ん」とか…
-ShowTextBox "!!! 3FE104 5"
-WaitTextBox
-ShowChara 2 2 25
-# えーっと…
-# えーっと…
-ShowTextBox "!!! 3FE104 6"
-WaitTextBox
-ShowChara 1 1 9
-# 「じょ」とか…
-# 「う」とか…
-# 「び」とか…
-ShowTextBox "!!! 3FE104 7"
-WaitTextBox
-ShowChara 2 2 23
-# あっ、そういえば
-# ２月８日って針供
-# 養の日だったわ
-ShowTextBox "!!! 3FE104 8"
-WaitTextBox
-ShowChara 2 0 56
-# 針には、コスチュ
-# ームを作ったりす
-# るときにお世話に
-# なってるから、ち
-# ゃんと供養しなく
-# っちゃね
-ShowTextBox "!!! 3FE104 9"
-WaitTextBox
-ShowChara 1 1 11
-# にょ～っ、でじこ
-# のヒントはまるで
-# 無視かにょ～っ！
-ShowTextBox "!!! 3FE104 10"
-WaitTextBox
-# ぷんぷん、もう、
-# うさだには聞かな
-# いにょっ！
-ShowTextBox "!!! 3FE104 11"
-WaitTextBox
-ShowChara 1 0 9
-# 店長しゃんなら
-# 知ってるにょ、
-# ２月８日が何の日
-# か？
-ShowTextBox "!!! 3FE104 12"
-WaitTextBox
-# でじこの誕生日
-# わからない
-ShowSelMenu09 2 "!!! 3FE104 13"
-JumpOnSelection 2 0 1 0
-Label 0
-ShowChara 1 0 10
-# 店長しゃん、すご
-# いにょ！
-ShowTextBox "!!! 3FE104 14"
-WaitTextBox
-# 店長しゃんは、で
-# じこの誕生日のこ
-# となんか、とっく
-# にお見通しみたい
-# だにょ！
-ShowTextBox "!!! 3FE104 15"
-WaitTextBox
-ShowChara 1 0 8
-# も、もしかしたら
-# 店長しゃんは、で
-# じこが一番よろこ
-# ぶプレゼントが何
-# なのか
-ShowTextBox "!!! 3FE104 16"
-WaitTextBox
-ShowChara 1 0 15
-# それさえもとっく
-# にお見通しなのか
-# もしれないにょ！
-ShowTextBox "!!! 3FE104 17"
-WaitTextBox
-ShowChara 1 0 9
-# でじこの誕生日に
-# いったい店長しゃ
-# んは何をプレゼン
-# トしてくれるのか
-# …
-ShowTextBox "!!! 3FE104 18"
-WaitTextBox
-ShowChara 1 0 10
-# 注目のでじこの誕
-# 生日は、２月８日
-# にょっ…！
-ShowTextBox "!!! 3FE104 19"
-WaitTextBox
-EndScript
-Label 1
-ShowChara 1 0 11
-# わからないとは、
-# どういうことにょ
-# っ！
-ShowTextBox "!!! 3FE104 20"
-WaitTextBox
-# 店長しゃん、でじ
-# この誕生日がいつ
-# かも知らないなん
-# て、これはどうい
-# うことにょっ！
-ShowTextBox "!!! 3FE104 21"
-WaitTextBox
-# もういいにょ！で
-# じこは誕生日プレ
-# ゼントなんかいら
-# ないにょっ！
-ShowTextBox "!!! 3FE104 22"
-WaitTextBox
-# いらないけど、く
-# れるというなら、
-# もらってやるにょ
-# っ！
-ShowTextBox "!!! 3FE104 23"
-WaitTextBox
-ShowChara 2 2 55
-# いるのかいらない
-# のか、どっちなの
-# よう…
-ShowTextBox "!!! 3FE104 24"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-Unk08 1 95 88 8 108 10 3
-SetBG 111
-Fade 0 30
-ShowChara 1 1 9
-# 店長しゃん、おは
-# ようございますに
-# ょ～～っ！
-ShowTextBox "!!! 3FE104 25"
-WaitTextBox
-# さ、店長しゃん、
-# 誕生日プレゼント
-# プレゼントにょ！
-ShowTextBox "!!! 3FE104 26"
-WaitTextBox
-Fade 3 30
-SetBG 2
-Fade 2 30
-ShowChara 1 0 0
-# わ～～い、店長しゃん
-# ありがとうにょっ！
-ShowTextBox "!!! 3FE104 27"
-WaitTextBox
-# 今日店長しゃんがプレ
-# ゼントをくれたこと、
-# 一生忘れないにょっ！
-ShowTextBox "!!! 3FE104 28"
-WaitTextBox
-Fade 1 30
-SetBG 111
-Fade 0 30
-ShowChara 1 1 9
-# にょにょ、店長し
-# ゃんも一生忘れち
-# ゃダメにょ
-ShowTextBox "!!! 3FE104 29"
-WaitTextBox
-ShowChara 1 0 10
-# おぼえとくにょ～
-# ２月８日はでじこ
-# に誕生日プレゼン
-# トをあげる日～、
-# ２月８日はでじこ
-# に誕生日プレゼン
-ShowTextBox "!!! 3FE104 30"
-Wait 1
-# トをあげる日～、
-# ２月８日はでじこ
-# に誕生日プレゼン
-# トをあげる日～、
-# ２月８日はでじこ
-# に誕生日プレゼン
-ShowTextBox "!!! 3FE104 31"
-Wait 1
-Fade 1 120
-SetBG 124
-Fade 0 1
-ShowChara 1 1 14
-# にょにょ、これで
-# 来年も安心にょ
-ShowTextBox "!!! 3FE104 32"
-WaitTextBox
-EndScript
+DSCBase $3FE104 Subscript 0 SetBG 111 Fade 0 30 ShowChara 1 1 14 ShowTextBox "Hello, La Bi Ann Rose ..."
+WaitTextBox ShowChara 2 2 25 ShowTextBox "What, screaming out with such a cat ... What are you planning?"
+WaitTextBox ShowChara 1 1 14 ShowTextBox "La Bi Ann Rose, do you know what day February 8th is?"
+WaitTextBox ShowChara 2 2 22 ShowTextBox "February 8th?"
+WaitTextBox ShowTextBox "Well ..."
+WaitTextBox ShowChara 1 1 9 ShowTextBox "\"Ta\" ..., \"N\" ..."
+WaitTextBox ShowChara 2 2 25 ShowTextBox "Um ... um ..."
+WaitTextBox ShowChara 1 1 9 ShowTextBox "\"Jo\" ... \"U\" ... \"Bi\" ..."
+WaitTextBox ShowChara 2 2 23 ShowTextBox "Oh, by the way, February 8th was the day of the needle memorial service."
+WaitTextBox ShowChara 2 0 56 ShowTextBox "The needles are taken care of when making costumes, so I have to make a memorial service properly."
+WaitTextBox ShowChara 1 1 11 ShowTextBox "Nyo ~, Di Gi Charat's hint is totally ignored!"
+WaitTextBox ShowTextBox "Plump, don't ask Usada anymore!"
+WaitTextBox ShowChara 1 0 9 ShowTextBox "If you're a store manager, you know what day is February 8th?"
+WaitTextBox ShowSelMenu09 2 "I don't know Di Gi Charat's birthday"
+JumpOnSelection 2 0 1 0 Label 0 ShowChara 1 0 10 ShowTextBox "The manager is amazing!"
+WaitTextBox ShowTextBox "The store manager seems to have a good idea of ??Dejiko's birthday!"
+WaitTextBox ShowChara 1 0 8 ShowTextBox "Maybe the store manager is the one who is most happy with Di Gi Charat."
+WaitTextBox ShowChara 1 0 15 ShowTextBox "Even that may be the outlook!"
+WaitTextBox ShowChara 1 0 9 ShowTextBox "What will the store manager give as a gift for Di Gi Charat's birthday?"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "Di Gi Charat's birthday is February 8th ...!"
+WaitTextBox EndScript Label 1 ShowChara 1 0 11 ShowTextBox "What do you mean if you don't understand!"
+WaitTextBox ShowTextBox "Manager, Di Gi Charat, what's the point of not knowing when this birthday is!"
+WaitTextBox ShowTextBox "Already good! Di Gi Charat doesn't need a birthday present!"
+WaitTextBox ShowTextBox "I don't need it, but if you give it to me, I'll get it!"
+WaitTextBox ShowChara 2 2 55 ShowTextBox "I don't know if I'm there or not ..."
+WaitTextBox EndScript Subscript 1 Unk08 1 95 88 8 108 10 3 SetBG 111 Fade 0 30 ShowChara 1 1 9 ShowTextBox "Good morning, store manager!"
+WaitTextBox ShowTextBox "Well, store manager, birthday present!"
+WaitTextBox Fade 3 30 SetBG 2 Fade 2 30 ShowChara 1 0 0 ShowTextBox "Wow, thank you to the manager!"
+WaitTextBox ShowTextBox "I'll never forget that the manager gave me a present today!"
+WaitTextBox Fade 1 30 SetBG 111 Fade 0 30 ShowChara 1 1 9 ShowTextBox "Nyonyo, don't forget the manager for the rest of your life"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "Remember, especially-February 8th is the day to give a birthday present to Di Gi Charat-February 8th is a birthday presentation to Di Gi Charat"
+Wait 1 ShowTextBox "The day to give a birthday gift to Di Gi Charat ~ February 8th is the day to give a birthday present to Di Gi Charat ~ February 8th is a birthday presentation to Di Gi Charat"
+Wait 1 Fade 1 120 SetBG 124 Fade 0 1 ShowChara 1 1 14 ShowTextBox "Nyonyo, this will give you peace of mind next year"
+WaitTextBox EndScript 

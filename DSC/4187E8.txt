@@ -1,99 +1,13 @@
-DSCBase $4187E8
-
-
-
-
-Subscript 0
-ShowChara 1 0 0
-EndScript
-
-
-
-Subscript 1
-HideChara
-EndScript
-
-
-
-Subscript 2
-# どのキャラのお仕事をかえるにょ？
-ShowTextBox "!!! 4187E8 0"
-EndScript
-
-
-
-Subscript 3
-# どのお仕事をさせるにょ？
-ShowTextBox "!!! 4187E8 1"
-EndScript
-
-
-
-Subscript 4
-# レジは、必ず誰かがやらなきゃダメなんだにょ！
-ShowTextBox "!!! 4187E8 2"
-EndScript
-
-
-
-Subscript 5
-# $0が$1するにょ！
-ShowTextBox "!!! 4187E8 3"
-EndScript
-
-
-
-Subscript 6
-# $0と$1がお仕事を入れかわるにょ！
-ShowTextBox "!!! 4187E8 4"
-EndScript
-
-
-
-Subscript 7
-# これでいいかにょ？
-ShowTextBox "!!! 4187E8 5"
-EndScript
-
-
-
-Subscript 8
-# 『レジ』は、お客さんにグッズを売るお仕事にょ！
-ShowTextBox "!!! 4187E8 6"
-EndScript
-
-
-
-Subscript 9
-# 『接客』は、お客さんの手助けをするお仕事にょ
-ShowTextBox "!!! 4187E8 7"
-EndScript
-
-
-
-Subscript 10
-# 『グッズ整理』は、グッズを
-# スロットに並べるお仕事にょ
-ShowTextBox "!!! 4187E8 8"
-EndScript
-
-
-
-Subscript 11
-# 『お掃除』は、お店の中をキレイにするお仕事にょ
-ShowTextBox "!!! 4187E8 9"
-EndScript
-
-
-
-Subscript 12
-# 『偵察』…偵察ってなんにょ？
-ShowTextBox "!!! 4187E8 10"
-EndScript
-
-
-
-Subscript 13
-# キャラのステータスを見るにょ
-ShowTextBox "!!! 4187E8 11"
-EndScript
+DSCBase $4187E8 Subscript 0 ShowChara 1 0 0 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowTextBox "Which character will you change your job?"
+EndScript Subscript 3 ShowTextBox "Which job will you do?"
+EndScript Subscript 4 ShowTextBox "The cashier must be done by someone!"
+EndScript Subscript 5 ShowTextBox "$0 will be $1!"
+EndScript Subscript 6 ShowTextBox "$0 and $1 will swap jobs!"
+EndScript Subscript 7 ShowTextBox "Is this okay?"
+EndScript Subscript 8 ShowTextBox "\"Cash register\" is a job to sell goods to customers!"
+EndScript Subscript 9 ShowTextBox "\"Customer service\" is a job to help customers"
+EndScript Subscript 10 ShowTextBox "\"Goods organization\" is the job of arranging goods in slots."
+EndScript Subscript 11 ShowTextBox "\"Cleaning\" is a job to clean the inside of the store"
+EndScript Subscript 12 ShowTextBox "\"Recon\" ... What is reconnaissance?"
+EndScript Subscript 13 ShowTextBox "See the status of the character"
+EndScript 

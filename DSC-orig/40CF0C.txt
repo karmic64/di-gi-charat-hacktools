@@ -1,0 +1,483 @@
+DSCBase $40CF0C
+
+
+
+
+Subscript 0
+SetBG 113
+Fade 0 30
+ShowChara 4 1 62
+# ぴょぴょぴょぴょ
+# …
+ShowTextBox "!!! 40CF0C 0"
+WaitTextBox
+# ついにこのときが
+# やってきたぴょ…
+ShowTextBox "!!! 40CF0C 1"
+WaitTextBox
+# 今こそ、お姉ちゃ
+# んにギャフンと言
+# わせてやるぴょ！
+ShowTextBox "!!! 40CF0C 2"
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# いらっしゃいませ
+# ゲマ～！
+ShowTextBox "!!! 40CF0C 3"
+WaitTextBox
+ShowChara 8 0 53
+# ＜ゲーマーズ＞へ
+# ようこそゲマ～！
+ShowTextBox "!!! 40CF0C 4"
+WaitTextBox
+ShowChara 8 0 1
+# …え、お客さんじ
+# ゃないゲマか？
+ShowTextBox "!!! 40CF0C 5"
+WaitTextBox
+# 「これを見て」っ
+# て、何ゲマかその
+# 紙は？
+ShowTextBox "!!! 40CF0C 6"
+WaitTextBox
+# えーと、
+# なになに…
+ShowTextBox "!!! 40CF0C 7"
+WaitTextBox
+Unk19 40
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 8 1 54
+# なんと新しい店長
+# さんだったゲマか
+# ！
+ShowTextBox "!!! 40CF0C 8"
+WaitTextBox
+ShowChara 8 0 1
+# それならそうと、
+# はやく言ってくれ
+# たらよかったゲマ
+ShowTextBox "!!! 40CF0C 9"
+WaitTextBox
+# おほん…
+ShowTextBox "!!! 40CF0C 10"
+WaitTextBox
+ShowChara 8 0 53
+# え～、あなたは今
+# 日から１年間、こ
+# のゲーマーズの店
+# 長さんになったん
+# だゲマ！
+ShowTextBox "!!! 40CF0C 11"
+WaitTextBox
+# この１年間で、ゲ
+# ーマーズをよいお
+# 店にするのが…
+ShowTextBox "!!! 40CF0C 12"
+WaitTextBox
+ShowChara 4 2 62
+# ちょっと待つぴょ！
+ShowTextBox "!!! 40CF0C 13"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバーっ！
+ShowTextBox "!!! 40CF0C 14"
+WaitTextBox
+ShowChara 12 1 60
+# ゲバゲバーっ！
+ShowTextBox "!!! 40CF0C 15"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバゲバゲバゲバ
+# ーっ！
+ShowTextBox "!!! 40CF0C 16"
+WaitTextBox
+ShowChara 8 1 54
+# ゲマっ！？
+# 「ブラックゲマゲ
+# マ団」が何の用ゲ
+# マ～っ！
+ShowTextBox "!!! 40CF0C 17"
+WaitTextBox
+ShowChara 5 2 35
+# ふふふ…この店は
+# たった今から我々
+# ブラックゲマゲマ
+# 団がのっとった！
+ShowTextBox "!!! 40CF0C 18"
+WaitTextBox
+ShowChara 6 2 40
+# 今日からこの店の
+# 名前は、「ゲーマ
+# ーズ」ではなく、
+# 「ブラックゲーマ
+# ーズ」だ！
+ShowTextBox "!!! 40CF0C 19"
+WaitTextBox
+ShowChara 7 2 50
+# お前らわかったな
+# ら、ひかえおろー
+# ひかえおろーっ
+ShowTextBox "!!! 40CF0C 20"
+WaitTextBox
+ShowChara 7 0 47
+# ……ってぴよこ、
+# こんな感じでいい
+# か？
+ShowTextBox "!!! 40CF0C 21"
+WaitTextBox
+ShowChara 4 2 29
+# 上出来ぴょ！
+ShowTextBox "!!! 40CF0C 22"
+WaitTextBox
+ShowChara 4 0 28
+# そんなわけでお姉
+# ちゃん、今からこ
+# のゲームの主役は
+# このぴよこ様にな
+# ったぴょ！
+ShowTextBox "!!! 40CF0C 23"
+WaitTextBox
+ShowChara 8 1 54
+# で、でじこ…
+# どーするゲマ！？
+ShowTextBox "!!! 40CF0C 24"
+WaitTextBox
+ShowChara 1 1 16
+# しょうがないにょ
+# ～…やつらの好き
+# にさせるにょ～
+ShowTextBox "!!! 40CF0C 25"
+WaitTextBox
+ShowChara 3 1 17
+# さんせいにゅ…
+ShowTextBox "!!! 40CF0C 26"
+WaitTextBox
+ShowChara 2 1 22
+# まぁ、でじことぷ
+# ちこがそう言うん
+# だったら、いいん
+# じゃないかしら？
+ShowTextBox "!!! 40CF0C 27"
+WaitTextBox
+ShowChara 8 1 54
+# がーん！
+ShowTextBox "!!! 40CF0C 28"
+WaitTextBox
+# みんな、本当にそ
+# れでいいゲマかー
+# っ！
+ShowTextBox "!!! 40CF0C 29"
+WaitTextBox
+# 店長さんもなにか
+# 言って欲しいゲマ
+# ！！
+ShowTextBox "!!! 40CF0C 30"
+WaitTextBox
+# いいんじゃない
+# このお店を守ろう
+ShowSelMenu09 2 "!!! 40CF0C 31"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 4 2 29
+# ぴょぴょ、結論が
+# 出たよーだぴょ
+ShowTextBox "!!! 40CF0C 32"
+WaitTextBox
+ShowChara 4 0 28
+# それじゃ、あとの
+# ことはすべて、こ
+# のぴよこ様におま
+# かせだぴょ！
+ShowTextBox "!!! 40CF0C 33"
+WaitTextBox
+ShowChara 12 1 60
+# ブラックゲマゲマ
+# 団、ばんざーい！
+ShowTextBox "!!! 40CF0C 34"
+WaitTextBox
+ShowChara 12 2 60
+# ブラックゲマゲマ
+# 団首領、ピョコラ
+# ＝アナローグⅢ世
+# 様ばんざーい！
+ShowTextBox "!!! 40CF0C 35"
+WaitTextBox
+ShowChara 1 1 8
+# じゃ、新しい店長
+# さん、あとはよろ
+# しく頼むにょ
+ShowTextBox "!!! 40CF0C 36"
+WaitTextBox
+ShowChara 2 1 23
+# 何か困ったことが
+# あったら、気軽に
+# 相談しに来てね
+ShowTextBox "!!! 40CF0C 37"
+WaitTextBox
+ShowChara 4 2 33
+# ちょ、ちょっと、
+# どこ行くぴょ？
+ShowTextBox "!!! 40CF0C 38"
+WaitTextBox
+ShowChara 1 1 8
+# どこって、ほかの
+# ゲーマーズのお手
+# 伝いに行くんだに
+# ょ？
+ShowTextBox "!!! 40CF0C 39"
+WaitTextBox
+ShowChara 3 1 17
+# ゲーマーズはひと
+# つじゃないにゅ
+ShowTextBox "!!! 40CF0C 40"
+WaitTextBox
+ShowChara 2 1 23
+# ちょうどいそがし
+# いところだったか
+# ら、助かっちゃっ
+# たわね
+ShowTextBox "!!! 40CF0C 41"
+WaitTextBox
+ShowChara 1 1 14
+# じゃ、さらばだに
+# ょ～
+ShowTextBox "!!! 40CF0C 42"
+WaitTextBox
+ShowChara 2 1 23
+# ばいば～い�@
+ShowTextBox "!!! 40CF0C 43"
+WaitTextBox
+ShowChara 3 1 18
+# 失礼するにゅ
+ShowTextBox "!!! 40CF0C 44"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 7 2 58
+# ど、どーする、や
+# つら、行っちゃっ
+# たぜ！？
+ShowTextBox "!!! 40CF0C 45"
+WaitTextBox
+ShowChara 5 2 57
+# ピョ、ピョコラ様
+# …
+ShowTextBox "!!! 40CF0C 46"
+WaitTextBox
+ShowChara 6 2 43
+# なんだか、逆にし
+# てやられてしまっ
+# たような…
+ShowTextBox "!!! 40CF0C 47"
+WaitTextBox
+ShowChara 4 2 31
+# む～っ…
+ShowTextBox "!!! 40CF0C 48"
+WaitTextBox
+# こーなったら、ブ
+# ラックゲマゲマ団
+# のすごさを見せて
+# やるぴょっ！！
+ShowTextBox "!!! 40CF0C 49"
+WaitTextBox
+ShowChara 4 0 29
+# お姉ちゃんよりも
+# よい成績をあげる
+# んだぴょ～！
+ShowTextBox "!!! 40CF0C 50"
+WaitTextBox
+ShowChara 4 0 34
+# とりあえず、店長
+# さんにも、協力し
+# てほしいぴょ！
+# よろしくぴょ！
+ShowTextBox "!!! 40CF0C 51"
+WaitTextBox
+Fade 1 30
+EndScript
+Label 1
+ShowChara 1 1 16
+# でじこ的には、ど
+# うでもいいにょ～
+ShowTextBox "!!! 40CF0C 52"
+WaitTextBox
+# でも、店長さんの
+# 命令ならしょうが
+# ないにょ～
+ShowTextBox "!!! 40CF0C 53"
+WaitTextBox
+ShowChara 3 1 17
+# しかたないにゅ
+ShowTextBox "!!! 40CF0C 54"
+WaitTextBox
+ShowChara 2 1 22
+# まぁ、でじことぷ
+# ちこがそういうん
+# だったら、いいん
+# じゃないかしら？
+ShowTextBox "!!! 40CF0C 55"
+WaitTextBox
+ShowChara 4 2 33
+# ぴょーっ！
+ShowTextBox "!!! 40CF0C 56"
+WaitTextBox
+ShowChara 4 0 31
+# お姉ちゃんたち、
+# それでいいぴょ？
+# ちょっといい加減
+# すぎるぴょーっ！
+ShowTextBox "!!! 40CF0C 57"
+WaitTextBox
+ShowChara 1 1 11
+# まったくもって、
+# よけいなお世話に
+# ょ！
+ShowTextBox "!!! 40CF0C 58"
+WaitTextBox
+ShowChara 1 0 9
+# さ、お帰りはあち
+# らにょ！他のお客
+# さんに迷惑だから
+# とっとと出て行く
+# にょっ！
+ShowTextBox "!!! 40CF0C 59"
+WaitTextBox
+ShowChara 2 1 23
+# 言うこと聞かない
+# と、でじこの目か
+# らビームが出ちゃ
+# うかもしれないわ
+# ね♪
+ShowTextBox "!!! 40CF0C 60"
+WaitTextBox
+ShowChara 3 1 21
+# ぷちこもスタンバ
+# イＯＫにゅ！
+ShowTextBox "!!! 40CF0C 61"
+WaitTextBox
+ShowChara 5 2 57
+# ピョ、ピョコラ様
+# 危険です！ここは
+# ひとまず！！
+ShowTextBox "!!! 40CF0C 62"
+WaitTextBox
+ShowChara 7 2 58
+# に、逃げないと命
+# が危なそうだ！
+ShowTextBox "!!! 40CF0C 63"
+WaitTextBox
+ShowChara 6 2 44
+# て、撤退（てった
+# い）～！！
+ShowTextBox "!!! 40CF0C 64"
+WaitTextBox
+ShowChara 12 2 60
+# ゲ、ゲバ～っ！
+ShowTextBox "!!! 40CF0C 65"
+WaitTextBox
+ShowChara 4 2 31
+# お、お姉ちゃん！
+# きょ、今日のとこ
+# ろはこれくらいに
+# しておいてやるぴ
+# ょっ…！
+ShowTextBox "!!! 40CF0C 66"
+WaitTextBox
+# だけど、お姉ちゃ
+# ん、これだけは言
+# っておくぴょっ！
+ShowTextBox "!!! 40CF0C 67"
+WaitTextBox
+ShowChara 1 1 8
+# 何にょっ？
+ShowTextBox "!!! 40CF0C 68"
+WaitTextBox
+ShowChara 4 2 28
+# さっきの質問で、
+# 「いいんじゃない
+# 」を選ぶとブラッ
+# クゲーマーズ編に
+# なるんだぴょっ！
+ShowTextBox "!!! 40CF0C 69"
+WaitTextBox
+ShowChara 4 0 29
+# だから、ブラック
+# ゲーマーズ編をや
+# りたい人は、もう
+# 一度最初からやり
+# 直すぴょーっ！
+ShowTextBox "!!! 40CF0C 70"
+WaitTextBox
+ShowChara 1 1 12
+# ぴよこ…
+ShowTextBox "!!! 40CF0C 71"
+WaitTextBox
+ShowChara 1 0 12
+# 解説、ごくろうさ
+# んだにょ…
+ShowTextBox "!!! 40CF0C 72"
+WaitTextBox
+ShowChara 1 0 8
+# …さて、ジャマな
+# 人もいなくなった
+# ことだし、いつも
+# の展開に戻るとす
+# るにょっ
+ShowTextBox "!!! 40CF0C 73"
+WaitTextBox
+ShowChara 8 1 1
+# ＯＫゲマ…！
+ShowTextBox "!!! 40CF0C 74"
+WaitTextBox
+# え～っとゲマ…
+ShowTextBox "!!! 40CF0C 75"
+WaitTextBox
+ShowChara 8 0 53
+# では店長さん、
+# ３人の中から、
+# 「アシスタント」
+# をひとり選ぶゲマ
+ShowTextBox "!!! 40CF0C 76"
+WaitTextBox
+# 「アシスタント」
+# になった人は、こ
+# の１年間、特に店
+# 長さんのことを手
+# 伝ってくれるゲマ
+ShowTextBox "!!! 40CF0C 77"
+WaitTextBox
+# だから、よく考え
+# て選ぶゲマ
+ShowTextBox "!!! 40CF0C 78"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 2
+SetBG 112
+Fade 0 30
+ShowChara 4 1 29
+# 店長さん、ぴよこ
+# といっしょにがん
+# ばるぴょ！
+ShowTextBox "!!! 40CF0C 79"
+WaitTextBox
+# お姉ちゃんなんか
+# にはまけないぴょ
+# ！
+ShowTextBox "!!! 40CF0C 80"
+WaitTextBox
+DoorCloseTransition
+EndScript

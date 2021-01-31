@@ -1,0 +1,163 @@
+DSCBase $4076AC
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 12 1 59
+# たいへんゲバ！
+ShowTextBox "!!! 4076AC 0"
+WaitTextBox
+ShowChara 4 2 28
+# いったい、何をそ
+# んなにあわててる
+# ぴょ？
+ShowTextBox "!!! 4076AC 1"
+WaitTextBox
+ShowChara 12 1 59
+# ご報告ゲバ！なに
+# やらデ・ジ・キャ
+# ラットたちにあや
+# しい動きが見られ
+# るゲバ！
+ShowTextBox "!!! 4076AC 2"
+WaitTextBox
+ShowChara 4 2 28
+# あやしい動き…と
+# は何ぴょ？
+ShowTextBox "!!! 4076AC 3"
+WaitTextBox
+ShowChara 12 1 59
+# それが、みんなハ
+# ッピを着て、頭に
+# はハチマキをしめ
+# てるゲバ！
+ShowTextBox "!!! 4076AC 4"
+WaitTextBox
+ShowChara 7 2 52
+# 俺、知ってるぞ！
+# それはオマツリっ
+# てやつだ、オマツ
+# リ！
+ShowTextBox "!!! 4076AC 5"
+WaitTextBox
+ShowChara 6 2 42
+# 少佐、静かに
+# まだ話は終ってな
+# い
+ShowTextBox "!!! 4076AC 6"
+WaitTextBox
+ShowChara 12 1 59
+# そして、ハリセン
+# でお店の品をばん
+# ばん叩くゲバ！
+ShowTextBox "!!! 4076AC 7"
+WaitTextBox
+ShowChara 5 2 57
+# むぅ…大事な商品
+# を粗末にあつかう
+# とはなんと不可解
+# な…
+ShowTextBox "!!! 4076AC 8"
+WaitTextBox
+ShowChara 12 1 59
+# そして、大きな声
+# で道ゆく客に次々
+# と声をかけてゆく
+# ゲバ！
+ShowTextBox "!!! 4076AC 9"
+WaitTextBox
+ShowChara 4 2 28
+# たしかにあやしい
+# ぴょ…
+ShowTextBox "!!! 4076AC 10"
+WaitTextBox
+ShowChara 5 2 36
+# ピョコラ様、私は
+# デ・ジ・キャラッ
+# トたちがヤケを起
+# こしただけなので
+# は…と思います
+ShowTextBox "!!! 4076AC 11"
+WaitTextBox
+ShowChara 7 2 51
+# 俺はやっぱりオマ
+# ツリだと思うな
+ShowTextBox "!!! 4076AC 12"
+WaitTextBox
+ShowChara 6 2 43
+# もうしわけありま
+# せん、ピョコラ様
+# 自分には理解でき
+# ません…
+ShowTextBox "!!! 4076AC 13"
+WaitTextBox
+ShowChara 4 2 31
+# むむむ…お姉ちゃ
+# んはいったい何を
+# たくらんでるとい
+# うのぴょ…？
+ShowTextBox "!!! 4076AC 14"
+WaitTextBox
+ShowChara 4 0 28
+# ぴょ、店長さん、
+# 何か言いたそうな
+# 顔してるぴょ？
+ShowTextBox "!!! 4076AC 15"
+WaitTextBox
+# …ふむふむ
+ShowTextBox "!!! 4076AC 16"
+WaitTextBox
+ShowChara 4 0 33
+# なんと！
+ShowTextBox "!!! 4076AC 17"
+WaitTextBox
+# あれは年度末の決
+# 算セールとかいう
+# 特別な行事なのぴ
+# ょ！？
+ShowTextBox "!!! 4076AC 18"
+WaitTextBox
+ShowChara 4 0 31
+# そうとは知らず、
+# 最後の最後でお姉
+# ちゃんに遅れをと
+# るところだったぴ
+# ょっ！！
+ShowTextBox "!!! 4076AC 19"
+WaitTextBox
+# 何をグズグズして
+# るぴょ！いますぐ
+# ぴよこたちも、決
+# 算セールの準備を
+# 始めるぴょっ！！
+ShowTextBox "!!! 4076AC 20"
+WaitTextBox
+Fade 1 30
+Unk08 4 130 72 60 102 10 3
+SetBG 101
+Fade 0 30
+ShowChara 4 0 0
+# さあさあ、寄っていく
+# ぴょ、見ていくぴょ！
+ShowTextBox "!!! 4076AC 21"
+WaitTextBox
+# ブラックゲーマーズ、
+# 最後の大売出しぴょ！
+ShowTextBox "!!! 4076AC 22"
+WaitTextBox
+# 今を逃すと後は来年ま
+# でおあずけぴょ～っ！
+ShowTextBox "!!! 4076AC 23"
+WaitTextBox
+# 売って売って売りまく
+# るぴょ！
+ShowTextBox "!!! 4076AC 24"
+WaitTextBox
+# 絶対お姉ちゃんには負
+# けないぴょ～っ！
+ShowTextBox "!!! 4076AC 25"
+WaitTextBox
+EndScript

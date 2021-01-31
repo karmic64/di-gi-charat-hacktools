@@ -1,464 +1,61 @@
-DSCBase $416758
-
-
-
-
-Subscript 0
-ShowChara 8 2 1
-# 画面の下に、選ん
-# だスロットにセッ
-# トされているグッ
-# ズの名前と数が出
-# てくるゲマ
-ShowTextBox "!!! 416758 0"
-WaitTextBox
-# グッズアイコンの
-# 下には、グッズの
-# 数がわかる\x04グッズ
-# ゲージ\x1aが出ている
-# ゲマ
-ShowTextBox "!!! 416758 1"
-WaitTextBox
-# これを見て、グッ
-# ズがどれぐらい売
-# れているかを
-# チェックするゲマ
-ShowTextBox "!!! 416758 2"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 1
-ShowChara 8 2 1
-# 画面の下に、選ん
-# だキャラの様子や
-# ヤル気が出てくる
-# ゲマ
-ShowTextBox "!!! 416758 3"
-WaitTextBox
-# キャラアイコンの
-# 下には、キャラの
-# ヤル気がわかる\x04ヤ
-# ル気ゲージ\x1aが出て
-# いるゲマ
-ShowTextBox "!!! 416758 4"
-WaitTextBox
-# ゲージが\x02黄色\x1aや\x01赤
-# 色\x1aになっていたら
-# ヤル気がないゲマ
-ShowTextBox "!!! 416758 5"
-WaitTextBox
-# Ａボタンを押して
-# はげましてあげる
-# ゲマ！
-ShowTextBox "!!! 416758 6"
-WaitTextBox
-# 毎日はげましてあ
-# げると、少しずつ
-# ヤル気が出てくる
-# ゲマ！
-ShowTextBox "!!! 416758 7"
-WaitTextBox
-# ゲージが緑色のと
-# きにＡボタンを押
-# して話しかけると
-# たまに流行グッズ
-# を教えてくれるゲ
-# マ！
-ShowTextBox "!!! 416758 8"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 2
-ShowChara 8 2 54
-# ゲマゲマー！
-ShowTextBox "!!! 416758 9"
-WaitTextBox
-# お仕事をサボって
-# るゲマー！
-ShowTextBox "!!! 416758 10"
-WaitTextBox
-# すぐにＡボタンを
-# 押して\x04はげまして
-# あげる\x1aゲマー！
-ShowTextBox "!!! 416758 11"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 3
-ShowChara 8 2 1
-# やりたいお仕事を
-# していて、とても
-# よろこんでいるゲ
-# マ♪
-ShowTextBox "!!! 416758 12"
-WaitTextBox
-# ヤル気もどんどん
-# 上がってるゲマ！
-ShowTextBox "!!! 416758 13"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 4
-ShowChara 8 2 2
-# やりたくないお仕
-# 事をしていて、ヤ
-# ル気がどんどん下
-# がっているゲマ…
-ShowTextBox "!!! 416758 14"
-WaitTextBox
-ShowChara 8 0 1
-# Ａボタンを押して
-# 話しかけてあげる
-# と、ヤル気がすこ
-# しだけ上がるゲマ
-ShowTextBox "!!! 416758 15"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 5
-ShowChara 8 2 1
-# 聞きたいことを
-# 選ぶゲマ！
-ShowTextBox "!!! 416758 16"
-WaitTextBox
-# スロットのこと
-# キャラのこと
-# お客さんのこと
-# 床のよごれのこと
-# 便利なコマンド
-# やめる
-ShowSelMenu22 6 "!!! 416758 17"
-JumpOnSelection 6 0 1 2 3 4 5 0
-Label 0
-# グッズがどれぐら
-# い売れているかを
-# 見るには、レバー
-# でカーソルを動か
-# してスロットに合
-# わせるゲマ
-ShowTextBox "!!! 416758 18"
-WaitTextBox
-# どれぐらい売れて
-# いるかをすぐに
-# チェックできるゲ
-# マ！
-ShowTextBox "!!! 416758 19"
-WaitTextBox
-HideChara
-EndScript
-Label 1
-# みんなのことを
-# チェックするには
-# レバーでみんなに
-# カーソルを合わせ
-# るゲマ
-ShowTextBox "!!! 416758 20"
-WaitTextBox
-# そのままＡボタン
-# をおすと、お話す
-# ることができるゲ
-# マ
-ShowTextBox "!!! 416758 21"
-WaitTextBox
-ShowChara 8 0 2
-# そうそう、みんな
-# がいつもまじめに
-# お仕事するとは限
-# らないゲマ…
-ShowTextBox "!!! 416758 22"
-WaitTextBox
-# 毎日みんなの気分
-# が変わって、お仕
-# 事をする気になれ
-# ないときがあるゲ
-# マ
-ShowTextBox "!!! 416758 23"
-WaitTextBox
-# みんながしゃがみ
-# こんでいたら、サ
-# ボっているサイン
-# だゲマ
-ShowTextBox "!!! 416758 24"
-WaitTextBox
-ShowChara 8 0 1
-# もしもサボってた
-# ら、話しかけて
-# はげましてあげる
-# ゲマ！
-ShowTextBox "!!! 416758 25"
-WaitTextBox
-# また、カーソルを
-# あわせると、今の
-# ヤル気によって、
-# カーソルの色がか
-# わるゲマ
-ShowTextBox "!!! 416758 26"
-WaitTextBox
-# \x03緑色\x1aだと
-# ヤル気まんまん！
-# \x02黄色\x1aだと
-# ふつうのきぶん、
-# \x01赤色\x1aだと
-# 元気がないゲマ
-ShowTextBox "!!! 416758 27"
-WaitTextBox
-# 話しかけたからと
-# いって、ヤル気が
-# 出てくるとはかぎ
-# らないゲマが、
-ShowTextBox "!!! 416758 28"
-WaitTextBox
-# いっしょにはたら
-# くナカマだゲマ、
-# 元気がなかったら
-# 話しかけてはげま
-# すゲマー！
-ShowTextBox "!!! 416758 29"
-WaitTextBox
-HideChara
-EndScript
-Label 2
-# やってくるお客さ
-# んの頭の上に、変
-# なマークが出るこ
-# とがあるゲマ
-ShowTextBox "!!! 416758 30"
-WaitTextBox
-# 特に重要なマーク
-# を教えるゲマ！
-ShowTextBox "!!! 416758 31"
-WaitTextBox
-# \x04ハートマーク\x1aが
-# 出たときは、お客
-# さんが買ったグッ
-# ズが流行ってるっ
-# てことゲマ
-ShowTextBox "!!! 416758 32"
-WaitTextBox
-# \x04ハートマーク\x1aを
-# ちゃんと見ておけ
-# ば、どのグッズが
-# 流行してるのかが
-# わかるゲマ！
-ShowTextBox "!!! 416758 33"
-WaitTextBox
-# キャラ名や名前で
-# \x04チェイン\x1aになった
-# グッズを買うと、
-# \x04(^-^)マーク\x1aが出
-# るゲマ
-ShowTextBox "!!! 416758 34"
-WaitTextBox
-# お客さんがよろこ
-# んでグッズを買っ
-# てくれてるから、
-# お店のひょうばん
-# が上がるかもしれ
-# ないゲマ～♪
-ShowTextBox "!!! 416758 35"
-WaitTextBox
-ShowChara 8 0 2
-# あと、お店の入口
-# まで来て、すぐに
-# 帰っちゃうお客さ
-# んがいるゲマ
-ShowTextBox "!!! 416758 36"
-WaitTextBox
-# これは、\x04お店がせ
-# まくて中に入れな
-# かったり\x1a
-ShowTextBox "!!! 416758 37"
-WaitTextBox
-# \x04みんなのお仕事レ
-# ベルが低くて、そ
-# のお客さんの相手
-# ができなかった\x1aっ
-# てことゲマ…
-ShowTextBox "!!! 416758 38"
-WaitTextBox
-# それと、だれかが
-# \x04お仕事をサボって
-# しまった\x1aときや…
-ShowTextBox "!!! 416758 39"
-WaitTextBox
-# \x04お客さんが買いた
-# いグッズがなかっ
-# た\x1aときも、すぐに
-# 帰ってしまうゲマ
-# …
-ShowTextBox "!!! 416758 40"
-WaitTextBox
-# お店を広くして、
-# みんなのお仕事レ
-# ベルを上げて、お
-# 客さんをいっぱい
-# 相手できるように
-# なるゲマー！
-ShowTextBox "!!! 416758 41"
-WaitTextBox
-# そして、お客さん
-# の欲しいグッズを
-# 仕入れて、みんな
-# にちゃんと働いて
-# もらうゲマー！
-ShowTextBox "!!! 416758 42"
-WaitTextBox
-HideChara
-EndScript
-Label 3
-# お店が汚れてくる
-# と、\x04床が汚れてく
-# る\x1aゲマ
-ShowTextBox "!!! 416758 43"
-WaitTextBox
-# 床のよごれが
-# めだってきたら、
-# だれかを\x04掃除\x1a係に
-# して、お店をキレ
-# イにするゲマー！
-ShowTextBox "!!! 416758 44"
-WaitTextBox
-HideChara
-EndScript
-Label 4
-# お店の中を見てい
-# るときに、便利な
-# コマンドがあるゲ
-# マ！
-ShowTextBox "!!! 416758 45"
-WaitTextBox
-# \x04Ｒボタン\x1a：
-# Ｒボタンを押して
-# いくと、\x04順番に
-# キャラを切り替え
-# ていく\x1aゲマ
-ShowTextBox "!!! 416758 46"
-WaitTextBox
-# みんなのことをカ
-# ンタンに見ること
-# ができるゲマ～♪
-ShowTextBox "!!! 416758 47"
-WaitTextBox
-# \x04Ｌボタン\x1a：
-# Ｌボタンを押して
-# いると、\x04時間を早
-# く進めることがで
-# きる\x1aゲマッ
-ShowTextBox "!!! 416758 48"
-WaitTextBox
-# \x04スタートボタン\x1a：
-# スタートボタンを
-# 押すと、\x04次の日に
-# 進めることができ
-# る\x1aゲマ！
-ShowTextBox "!!! 416758 49"
-WaitTextBox
-# 早く次の日にした
-# いときに使うとい
-# いゲマ～♪
-ShowTextBox "!!! 416758 50"
-WaitTextBox
-HideChara
-EndScript
-Label 5
-HideChara
-EndScript
-
-
-
-Subscript 6
-ShowChara 8 2 2
-# 今のお仕事にあき
-# てるみたいゲマ…
-# このままだとヤル
-# 気が下がってしま
-# うゲマッ
-ShowTextBox "!!! 416758 51"
-WaitTextBox
-ShowChara 8 0 1
-# やりたいお仕事に
-# してあげるといい
-# ゲマー！
-ShowTextBox "!!! 416758 52"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 7
-ShowChara 8 2 2
-# やりたかったお仕
-# 事ができなくて、
-# ゴキゲンななめゲ
-# マ…
-ShowTextBox "!!! 416758 53"
-WaitTextBox
-# このままだとヤル
-# 気がどんどんなく
-# なっちゃうゲマッ
-ShowTextBox "!!! 416758 54"
-WaitTextBox
-ShowChara 8 0 1
-# できるだけＡボタ
-# ンで話しかけてあ
-# げれば、ヤル気を
-# 出してくれるゲマ
-# ー！
-ShowTextBox "!!! 416758 55"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 8
-ShowChara 8 2 2
-# 自分の名前がつい
-# たグッズがたたき
-# 売られてしまって
-# とても悲しんでい
-# るゲマ…
-ShowTextBox "!!! 416758 56"
-WaitTextBox
-ShowChara 8 0 54
-# ショックでヤル気
-# が下がってしまっ
-# たゲマー！
-ShowTextBox "!!! 416758 57"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 9
-ShowChara 8 2 1
-# 自分の名前がつい
-# たグッズがたくさ
-# んあって、とても
-# よろこんでいるゲ
-# マー！
-ShowTextBox "!!! 416758 58"
-WaitTextBox
-# ヤル気も上がって
-# いるゲマ～♪
-ShowTextBox "!!! 416758 59"
-WaitTextBox
-HideChara
-EndScript
+DSCBase $416758 Subscript 0 ShowChara 8 2 1 ShowTextBox "At the bottom of the screen, the name and number of goods set in the selected slot will appear."
+WaitTextBox ShowTextBox "Below the goods icon, you can see the number of goods \x04Goods gauge \x1a"
+WaitTextBox ShowTextBox "Gema to check how much goods are selling by looking at this"
+WaitTextBox HideChara EndScript Subscript 1 ShowChara 8 2 1 ShowTextBox "At the bottom of the screen, the appearance of the selected character and the gem that makes you feel like"
+WaitTextBox ShowTextBox "Below the character icon, you can see the character's Yaruki \x04Yaruki gauge \x1a."
+WaitTextBox ShowTextBox "If the gauge is \x02yellow \x1aor \x01red \x1a, you don't feel like it."
+WaitTextBox ShowTextBox "Gema who pushes the A button and bald!"
+WaitTextBox ShowTextBox "If you bald every day, you will feel a little sick!"
+WaitTextBox ShowTextBox "When the gauge is green, press the A button and talk to him, and he will occasionally tell you about trendy goods!"
+WaitTextBox HideChara EndScript Subscript 2 ShowChara 8 2 54 ShowTextBox "Gemagema!"
+WaitTextBox ShowTextBox "Gemmer skipping work!"
+WaitTextBox ShowTextBox "Immediately press the A button and I'll bald \x04\x1aGemmer!"
+WaitTextBox HideChara EndScript Subscript 3 ShowChara 8 2 1 ShowTextBox "Gema who is doing the job he wants to do and is very happy ♪"
+WaitTextBox ShowTextBox "Gema who is getting more and more crazy!"
+WaitTextBox HideChara EndScript Subscript 4 ShowChara 8 2 2 ShowTextBox "I'm doing a job I don't want to do, and I'm getting sick of it ..."
+WaitTextBox ShowChara 8 0 1 ShowTextBox "If you press the A button and talk to him, you will feel a little sick."
+WaitTextBox HideChara EndScript Subscript 5 ShowChara 8 2 1 ShowTextBox "Gema who chooses what he wants to hear!"
+WaitTextBox ShowSelMenu22 6 "Slots, characters, customers, dirt on the floor, convenient commands Stop"
+JumpOnSelection 6 0 1 2 3 4 5 0 Label 0 ShowTextBox "To see how much goods are selling, move the cursor with the lever and align it with the slot."
+WaitTextBox ShowTextBox "Gema that you can immediately check how much it is selling!"
+WaitTextBox HideChara EndScript Label 1 ShowTextBox "To check everyone, move the cursor to everyone with the lever."
+WaitTextBox ShowTextBox "If you press the A button as it is, you can talk"
+WaitTextBox ShowChara 8 0 2 ShowTextBox "Oh yeah, not everyone always works seriously ..."
+WaitTextBox ShowTextBox "Gema sometimes changes everyone's mood every day and doesn't feel like working"
+WaitTextBox ShowTextBox "If everyone is crouching, it's a sign of skipping Gema"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "If you skip, I'll talk to you and bald you!"
+WaitTextBox ShowTextBox "Also, when you move the cursor, the color of the cursor will change depending on the current spirit."
+WaitTextBox ShowTextBox "\x03 Green \x1ais crazy! \x02Yellow \x1ais normal, \x01Red \x1ais not healthy"
+WaitTextBox ShowTextBox "Gema, who doesn't always feel like talking to you"
+WaitTextBox ShowTextBox "Gema who works together, Gema who talks to me if I'm not feeling well!"
+WaitTextBox HideChara EndScript Label 2 ShowTextBox "A strange mark may appear on the head of an incoming customer."
+WaitTextBox ShowTextBox "Gema who teaches a particularly important mark!"
+WaitTextBox ShowTextBox "\x04 When the heart mark \x1aappears, it means that the goods bought by the customer are in fashion."
+WaitTextBox ShowTextBox "\x04 If you look at the heart mark \x1aproperly, you can see which goods are in fashion!"
+WaitTextBox ShowTextBox "If you buy a goods that has become \x04chain \x1aby character name or name, \x04(^-^) mark \x1awill appear."
+WaitTextBox ShowTextBox "Customers are happy to buy merchandise, so the store's hail may go up."
+WaitTextBox ShowChara 8 0 2 ShowTextBox "Also, there is a customer who comes to the entrance of the shop and returns immediately."
+WaitTextBox ShowTextBox "This is \x04because the shop is too small to enter \x1a"
+WaitTextBox ShowTextBox "\x04 Everyone's work level was so low that I couldn't deal with that customer \x1a."
+WaitTextBox ShowTextBox "Also, when someone \x04skips work \x1a..."
+WaitTextBox ShowTextBox "\x04 Even when the customer didn't have the goods he wanted to buy \x1a, he would go home soon ..."
+WaitTextBox ShowTextBox "A gamer who will be able to expand the store, raise the work level of everyone, and deal with a lot of customers!"
+WaitTextBox ShowTextBox "And, a gamer who purchases the goods that customers want and has everyone work properly!"
+WaitTextBox HideChara EndScript Label 3 ShowTextBox "When the shop gets dirty, \x04The floor gets dirty \x1aGema"
+WaitTextBox ShowTextBox "If the floor gets dirty, make someone a \x04cleaner \x1aclerk to clean the shop!"
+WaitTextBox HideChara EndScript Label 4 ShowTextBox "Gema with useful commands when looking inside the store!"
+WaitTextBox ShowTextBox "\x04 R button \x1a: Press the R button to switch characters in the order \x04\x1aGema"
+WaitTextBox ShowTextBox "Gema that you can easily see everyone ~ ♪"
+WaitTextBox ShowTextBox "\x04 L button \x1a: If you press the L button, you can advance \x04hours faster \x1aGemat"
+WaitTextBox ShowTextBox "\x04 Start button \x1a: Press the start button to \x04to advance to the next day \x1aGema!"
+WaitTextBox ShowTextBox "Gema that you should use when you want to do it the next day soon ♪"
+WaitTextBox HideChara EndScript Label 5 HideChara EndScript Subscript 6 ShowChara 8 2 2 ShowTextBox "Gema who seems to be tired of his current job ... Gema who feels down at this rate"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "A gamer who should do what he wants to do!"
+WaitTextBox HideChara EndScript Subscript 7 ShowChara 8 2 2 ShowTextBox "I couldn't do the job I wanted to do, so I was licking it ..."
+WaitTextBox ShowTextBox "If you keep this, you'll feel like you're crazy"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "If you talk to him with the A button as much as possible, he will make you feel like a gamer!"
+WaitTextBox HideChara EndScript Subscript 8 ShowChara 8 2 2 ShowTextBox "Gema is very sad because the goods with her name are sold by knocking ..."
+WaitTextBox ShowChara 8 0 54 ShowTextBox "Gemmer who was shocked and depressed!"
+WaitTextBox HideChara EndScript Subscript 9 ShowChara 8 2 1 ShowTextBox "Gemmer is very happy to have a lot of goods with his own name!"
+WaitTextBox ShowTextBox "Gema who is getting excited ~ ♪"
+WaitTextBox HideChara EndScript 

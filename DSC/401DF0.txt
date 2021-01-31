@@ -1,304 +1,49 @@
-DSCBase $401DF0
-
-
-
-
-Subscript 0
-SetBG 112
-Fade 0 30
-ShowChara 4 1 29
-# 夏と言えば、花火
-# ぴょ！
-ShowTextBox "!!! 401DF0 0"
-WaitTextBox
-ShowChara 4 0 28
-# …と言ってはみた
-# ものの、じつはぴ
-# よこは花火にどん
-# なのがあるか、よ
-# く知らないぴょ…
-ShowTextBox "!!! 401DF0 1"
-WaitTextBox
-# じ～～っ…
-ShowTextBox "!!! 401DF0 2"
-WaitTextBox
-ShowChara 4 0 33
-# えっ、店長さん、
-# ぴよこのために花
-# 火を買ってきてく
-# れるぴょ？
-ShowTextBox "!!! 401DF0 3"
-WaitTextBox
-ShowChara 4 0 29
-# わ～～い、店長さ
-# ん、ありがとうぴ
-# ょ～っ！
-ShowTextBox "!!! 401DF0 4"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 5 1 35
-# …ピョコラ様が好
-# きそうな花火？
-ShowTextBox "!!! 401DF0 5"
-WaitTextBox
-# ふむ…ピョコラ様
-# は、ハデで目立つ
-# ものが好きだから
-# …
-ShowTextBox "!!! 401DF0 6"
-WaitTextBox
-# 打ち上げ花火なぞ
-# どうだろう？
-ShowTextBox "!!! 401DF0 7"
-WaitTextBox
-ShowChara 5 0 39
-# …打ち上げ花火は
-# 個人が簡単にあつ
-# かえるものではな
-# いと…？
-ShowTextBox "!!! 401DF0 8"
-WaitTextBox
-ShowChara 5 0 38
-# 店長、そこをなん
-# とかするのが、我
-# 々の務めではない
-# か！
-ShowTextBox "!!! 401DF0 9"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 6 1 40
-# 自分は、線香花火
-# がよいと…
-ShowTextBox "!!! 401DF0 10"
-WaitTextBox
-# なぜって？
-ShowTextBox "!!! 401DF0 11"
-WaitTextBox
-ShowChara 6 0 41
-# 男の子なら、ねず
-# み花火やロケット
-# 花火が好きなので
-# しょうが、ピョコ
-# ラ様は女の子です
-ShowTextBox "!!! 401DF0 12"
-WaitTextBox
-# だから、自分は線
-# 香花火のような静
-# かで優美なものを
-# 喜ばれるのでは…
-# と思います
-ShowTextBox "!!! 401DF0 13"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 7 1 48
-# 俺はねずみ花火か
-# ロケット花火がい
-# いぜ！
-ShowTextBox "!!! 401DF0 14"
-WaitTextBox
-ShowChara 7 0 47
-# …えっ、ひとつだ
-# け？
-ShowTextBox "!!! 401DF0 15"
-WaitTextBox
-ShowChara 7 0 48
-# じゃあ、ねずみ花
-# 火！
-ShowTextBox "!!! 401DF0 16"
-WaitTextBox
-ShowChara 7 0 52
-# …理由？最後にパ
-# ーンって爆発する
-# のがカッコいいだ
-# ろ？
-ShowTextBox "!!! 401DF0 17"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 4 1 28
-# あ、店長さん
-# なんだか、お空が
-# 真っ暗になって来
-# たぴょ！
-ShowTextBox "!!! 401DF0 18"
-WaitTextBox
-# 雨になったら、花
-# 火できなくなるぴ
-# ょ！早く買ってく
-# るぴょ！
-ShowTextBox "!!! 401DF0 19"
-WaitTextBox
-# 打ち上げ花火
-# 線香花火
-# ねずみ花火
-ShowSelMenu09 3 "!!! 401DF0 20"
-Fade 1 30
-SetBG 113
-Fade 0 30
-JumpOnSelection 3 0 1 2 0
-Label 1
-ShowChara 4 1 28
-# ものすごい夕立だ
-# ったぴょ…
-ShowTextBox "!!! 401DF0 21"
-WaitTextBox
-# 店長さん、大丈夫
-# ぴょ？
-ShowTextBox "!!! 401DF0 22"
-WaitTextBox
-ShowChara 4 0 29
-# 何言ってるぴょ、
-# 店長さんじゃなく
-# て、花火のことを
-# 聞いてるぴょ
-ShowTextBox "!!! 401DF0 23"
-WaitTextBox
-Fade 3 30
-Unk08 4 116 82 80 108 10 3
-Unk08 5 46 72 16 96 10 3
-Unk08 6 216 26 108 56 10 3
-Unk08 7 178 54 108 96 10 3
-SetBG 86
-Fade 2 30
-ShowChara 4 0 0
-# 花火って、もっと派手
-# なものと思ってたぴょ
-# …
-ShowTextBox "!!! 401DF0 24"
-WaitTextBox
-# だけど、こーゆーのも
-# 風情があっていいぴょ
-# …
-ShowTextBox "!!! 401DF0 25"
-WaitTextBox
-ShowChara 5 0 0
-# ほう、線香花火ですか
-# …
-ShowTextBox "!!! 401DF0 26"
-WaitTextBox
-ShowChara 7 0 0
-# なんだ、この花火ぜん
-# ぜん弱いぞ！しめって
-# るんじゃないのか？
-ShowTextBox "!!! 401DF0 27"
-WaitTextBox
-ShowChara 6 0 0
-# 少佐、線香花火はこう
-# いうものなんです
-ShowTextBox "!!! 401DF0 28"
-WaitTextBox
-ShowChara 4 0 0
-# ぱちぱち、ぱちぱち…
-# あっ、終わりぴょ…
-ShowTextBox "!!! 401DF0 29"
-WaitTextBox
-EndScript
-Label 0
-ShowChara 4 1 28
-# ものすごい夕立だ
-# ったぴょ…
-ShowTextBox "!!! 401DF0 30"
-WaitTextBox
-# 店長さん、大丈夫
-# ぴょ？
-ShowTextBox "!!! 401DF0 31"
-WaitTextBox
-ShowChara 4 0 29
-# 何いってるぴょ、
-# 店長さんじゃなく
-# て、花火のことを
-# 聞いてるぴょ
-ShowTextBox "!!! 401DF0 32"
-WaitTextBox
-ShowChara 4 0 28
-# …え、打ち上げ花
-# 火、買おうとした
-# けど、買えなかっ
-# たぴょ？
-ShowTextBox "!!! 401DF0 33"
-WaitTextBox
-ShowChara 4 0 30
-# むかーーっ！それ
-# じゃ何の意味もな
-# いぴょ！
-ShowTextBox "!!! 401DF0 34"
-WaitTextBox
-ShowChara 4 0 31
-# もういいぴょ！花
-# 火なんか見なくた
-# って夏は夏ぴょ！
-ShowTextBox "!!! 401DF0 35"
-WaitTextBox
-EndScript
-Label 2
-ShowChara 4 1 28
-# ものすごい夕立だ
-# ったぴょ…
-ShowTextBox "!!! 401DF0 36"
-WaitTextBox
-# 店長さん、大丈夫
-# ぴょ？
-ShowTextBox "!!! 401DF0 37"
-WaitTextBox
-ShowChara 4 0 29
-# 何いってるぴょ、
-# 店長さんじゃなく
-# て、花火のことを
-# 聞いてるぴょ
-ShowTextBox "!!! 401DF0 38"
-WaitTextBox
-ShowChara 4 0 28
-# …無事に、ねずみ
-# 花火を買ってこれ
-# たぴょ？
-ShowTextBox "!!! 401DF0 39"
-WaitTextBox
-ShowChara 4 0 29
-# さすが、店長さん
-# ぴょ！
-ShowTextBox "!!! 401DF0 40"
-WaitTextBox
-# …じゃ、始めるぴ
-# ょ
-ShowTextBox "!!! 401DF0 41"
-WaitTextBox
-ShowChara 4 0 28
-# 輪っかの、飛び出
-# たところに火をつ
-# けて…
-ShowTextBox "!!! 401DF0 42"
-WaitTextBox
-ShowChara 4 0 29
-# 火がついたら、地
-# 面に投げるぴょ！
-ShowTextBox "!!! 401DF0 43"
-WaitTextBox
-ShowChara 4 0 28
-# …あれ、どうした
-# ぴょ、消えちゃっ
-# たぴょ？
-ShowTextBox "!!! 401DF0 44"
-WaitTextBox
-ShowChara 4 0 33
-# ぴょぴょ～、さっ
-# きの夕立で、地面
-# がぬれてるぴょ！
-ShowTextBox "!!! 401DF0 45"
-WaitTextBox
-ShowChara 4 0 30
-# これじゃ、ねずみ
-# 花火はできないぴ
-# ょ…
-ShowTextBox "!!! 401DF0 46"
-WaitTextBox
-# がっくり、ぴょ…
-ShowTextBox "!!! 401DF0 47"
-WaitTextBox
-EndScript
+DSCBase $401DF0 Subscript 0 SetBG 112 Fade 0 30 ShowChara 4 1 29 ShowTextBox "Speaking of summer, fireworks!"
+WaitTextBox ShowChara 4 0 28 ShowTextBox "I tried to say that, but in fact Piyoko doesn't really know what fireworks are like ..."
+WaitTextBox ShowTextBox "Ji ~~~ ..."
+WaitTextBox ShowChara 4 0 33 ShowTextBox "Eh, store manager, will you buy fireworks for Piyoko?"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "Wow, thank you store manager!"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 5 1 35 ShowTextBox "… Fireworks that Pyocola-sama seems to like?"
+WaitTextBox ShowTextBox "Hmm ... Pyocola-sama likes things that stand out in the shadows ..."
+WaitTextBox ShowTextBox "How about a fireworks display?"
+WaitTextBox ShowChara 5 0 39 ShowTextBox "… Fireworks are not something that individuals can easily handle…?"
+WaitTextBox ShowChara 5 0 38 ShowTextBox "Store manager, it's our duty to do something about it!"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 6 1 40 ShowTextBox "I like sparklers ..."
+WaitTextBox ShowTextBox "Why?"
+WaitTextBox ShowChara 6 0 41 ShowTextBox "If you're a boy, you probably like mouse fireworks and rocket fireworks, but Pyocola is a girl."
+WaitTextBox ShowTextBox "Therefore, I think that I will be pleased with something quiet and graceful like sparklers ..."
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 7 1 48 ShowTextBox "I like mouse fireworks or rocket fireworks!"
+WaitTextBox ShowChara 7 0 47 ShowTextBox "… Well, only one?"
+WaitTextBox ShowChara 7 0 48 ShowTextBox "Then, mouse fireworks!"
+WaitTextBox ShowChara 7 0 52 ShowTextBox "…the reason? Isn't it cool to explode in the end?"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 4 1 28 ShowTextBox "Oh, the store manager, the sky is getting dark!"
+WaitTextBox ShowTextBox "If it rains, you won't be able to fireworks! I'll buy it soon!"
+WaitTextBox ShowSelMenu09 3 "Fireworks Sparkler Fireworks Mouse Fireworks"
+Fade 1 30 SetBG 113 Fade 0 30 JumpOnSelection 3 0 1 2 0 Label 1 ShowChara 4 1 28 ShowTextBox "It was a terrible evening rain ..."
+WaitTextBox ShowTextBox "Store manager, are you okay?"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "What are you talking about, not the store manager, but listening to the fireworks?"
+WaitTextBox Fade 3 30 Unk08 4 116 82 80 108 10 3 Unk08 5 46 72 16 96 10 3 Unk08 6 216 26 108 56 10 3 Unk08 7 178 54 108 96 10 3 SetBG 86 Fade 2 30 ShowChara 4 0 0 ShowTextBox "I thought fireworks were more flashy ..."
+WaitTextBox ShowTextBox "However, Koyu's taste is nice ..."
+WaitTextBox ShowChara 5 0 0 ShowTextBox "Is it a sparkler ..."
+WaitTextBox ShowChara 7 0 0 ShowTextBox "What, this fireworks are all weak! Isn't it closed?"
+WaitTextBox ShowChara 6 0 0 ShowTextBox "Major, sparklers are like this"
+WaitTextBox ShowChara 4 0 0 ShowTextBox "Crackling, crackling ... Oh, the end ..."
+WaitTextBox EndScript Label 0 ShowChara 4 1 28 ShowTextBox "It was a terrible evening rain ..."
+WaitTextBox ShowTextBox "Store manager, are you okay?"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "What are you talking about, not the store manager, but listening to the fireworks?"
+WaitTextBox ShowChara 4 0 28 ShowTextBox "... Well, I tried to buy the fireworks, but I couldn't buy it, right?"
+WaitTextBox ShowChara 4 0 30 ShowTextBox "Muka! That doesn't mean anything!"
+WaitTextBox ShowChara 4 0 31 ShowTextBox "Already good! Even if you don't see fireworks, summer is summer!"
+WaitTextBox EndScript Label 2 ShowChara 4 1 28 ShowTextBox "It was a terrible evening rain ..."
+WaitTextBox ShowTextBox "Store manager, are you okay?"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "What are you talking about, not the store manager, but listening to the fireworks?"
+WaitTextBox ShowChara 4 0 28 ShowTextBox "… Is it safe to buy a mouse fireworks?"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "As expected, the store manager!"
+WaitTextBox ShowTextBox "… Then, let's start"
+WaitTextBox ShowChara 4 0 28 ShowTextBox "Ignite the place where it pops out of the ring ..."
+WaitTextBox ShowChara 4 0 29 ShowTextBox "When it catches fire, throw it on the ground!"
+WaitTextBox ShowChara 4 0 28 ShowTextBox "… What happened, did it disappear?"
+WaitTextBox ShowChara 4 0 33 ShowTextBox "Pyo Pyo ~, the ground was wet in the evening rain!"
+WaitTextBox ShowChara 4 0 30 ShowTextBox "With this, you can't do mouse fireworks ..."
+WaitTextBox ShowTextBox "Disappointed, Pyo ..."
+WaitTextBox EndScript 

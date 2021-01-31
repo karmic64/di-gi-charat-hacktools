@@ -1,30 +1,4 @@
-DSCBase $3ED824
-
-
-
-
-Subscript 0
-ShowChara 3 0 19
-# ………バカだにゅ
-ShowTextBox "!!! 3ED824 0"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 3 0 17
-# 聞こえないにゅ
-ShowTextBox "!!! 3ED824 1"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 3 0 20
-# むずかしくて分か
-# らないにゅ
-ShowTextBox "!!! 3ED824 2"
-WaitTextBox
-EndScript
+DSCBase $3ED824 Subscript 0 ShowChara 3 0 19 ShowTextBox "……… Stupid"
+WaitTextBox EndScript Subscript 1 ShowChara 3 0 17 ShowTextBox "I can't hear you"
+WaitTextBox EndScript Subscript 2 ShowChara 3 0 20 ShowTextBox "I don't understand because it's difficult"
+WaitTextBox EndScript 

@@ -7,6 +7,7 @@ word - amount of data offsets
 word - list of data offsets
         the unpacked script data appears to be separated into "subscripts". these are the offsets
         of all subscripts relative to the start of the uncompressed data.
+word - length of uncompressed script data?
 
 
 MBM (bitmap data) format:
@@ -109,9 +110,10 @@ $0a - jump depending on choice ($80484ec)
         - length of following list
         - jump offset, relative to start of the subscript, times 2
         - 0?
-$0b - ? ($8048624)
-        - ?
-        - ?
+$0b - set "permanent" text box size ($8048624)
+        (calls 0x804b318, then)
+        - x-size (scriptinfo + 0xc4, tiles * 2)
+        - y-size (scriptinfo + 0xc6, tiles * 2)
 $0c - ? ($8048640)
         - ?
 $0d - set up counter (used for timing song lyrics) ($8048652)
@@ -122,18 +124,19 @@ $0f - ? ($804867e)
         - ?
 $10 - black out background? ($80486b0)
 $11 - ? ($80486b8)
-        - set scriptinfo + (this*2)....
-        - relative jump offset
-$12 - ? ($80486d4)
-        - ?
-        - ?
+        - set scriptinfo + 0x1ee + (this*2)....
+        - to this relative jump offset
+            (and also scriptinfo+0x1ec to 0)
+$12 - set "permanent" text box character portrait position ($80486d4)
+        - x-position (scriptinfo + 0x20c)
+        - y-position (scriptinfo + 0x20e)
 $13 - open text prompt menu ($8048692)
         - ?
         - length of string
         - description string (text MUST be exclusively in double-byte JIS codes)
-$14 - ? ($80486f0)
-        - ?
-        - ?
+$14 - set "permanent" text box position ($80486f0)
+        - x-position (scriptinfo + 0x210, signed value relative to center?)
+        - y-position (scriptinfo + 0x212, 0 is a little lower than the top of the screen)
 $15 - ? ($804870c)
 $16 - door-closing transition ($8048714)
 $17 - screen sine unwipe ($804871c)
@@ -161,6 +164,13 @@ $22 - create selection menu in text box ($804856c)
         - length of string
         - string, choices separated by newlines
 higher codes are treated as no-ops
+
+some commands just set two consecutive halfwords....
+are they really halfwords, or are they actually just words read as two halfwords to avoid alignment issues?
+seems like this is not the case
+
+"permanent" text boxes seem to be used only in cases where new text should be started without closing the text box and opening another one
+like gema when you fill out your information, or the store management menu, the shop, etc.
 
 
 

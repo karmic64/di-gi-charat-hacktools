@@ -1,232 +1,41 @@
-DSCBase $400ECC
-
-
-
-
-Subscript 0
-SetBG 112
-Fade 0 30
-ShowChara 5 1 39
-# 店長、話があるの
-# だが、少々時間を
-# もらえるか？
-ShowTextBox "!!! 400ECC 0"
-WaitTextBox
-ShowChara 5 0 35
-# 店長、ここに…
-ShowTextBox "!!! 400ECC 1"
-WaitTextBox
-# 遊園地のチケット
-# が２枚ある
-ShowTextBox "!!! 400ECC 2"
-WaitTextBox
-# これでピョコラ様
-# を遊園地につれて
-# 行ってくれまいか
-# ？
-ShowTextBox "!!! 400ECC 3"
-WaitTextBox
-ShowChara 5 0 36
-# 我々のことは気に
-# せず…
-ShowTextBox "!!! 400ECC 4"
-WaitTextBox
-# 大事なのは、ピョ
-# コラ様に楽しんで
-# いただくこと…
-ShowTextBox "!!! 400ECC 5"
-WaitTextBox
-ShowChara 5 0 35
-# 話は以上だ…
-# 店長、よろしく頼
-# んだぞ…
-ShowTextBox "!!! 400ECC 6"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 4 1 30
-# いそがしかったゴ
-# ールデンウィーク
-# も、もうすぐ終わ
-# るぴょ…
-ShowTextBox "!!! 400ECC 7"
-WaitTextBox
-# ただ、どこにも遊
-# びに行けなかった
-# のはちょっと残念
-# ぴょ…
-ShowTextBox "!!! 400ECC 8"
-WaitTextBox
-ShowChara 4 0 28
-# ぴょ？
-ShowTextBox "!!! 400ECC 9"
-WaitTextBox
-# 店長さん、それは
-# 何ぴょ？
-ShowTextBox "!!! 400ECC 10"
-WaitTextBox
-ShowChara 4 0 33
-# これは、遊園地の
-# チケットぴょっ！
-ShowTextBox "!!! 400ECC 11"
-WaitTextBox
-# みんなで行こう！
-# ぴよこと二人で
-ShowSelMenu09 2 "!!! 400ECC 12"
-JumpOnSelection 2 0 1 0
-Label 0
-ShowChara 4 0 29
-# …来週の日曜、み
-# んなで行っていい
-# ぴょ？　店長さん
-# ふとっぱらぴょ！
-ShowTextBox "!!! 400ECC 13"
-WaitTextBox
-ShowChara 6 2 40
-# …「みんなで」？
-ShowTextBox "!!! 400ECC 14"
-WaitTextBox
-ShowChara 7 2 47
-# チケット２枚しか
-# なかったんじゃな
-# いのか？
-ShowTextBox "!!! 400ECC 15"
-WaitTextBox
-ShowChara 4 1 29
-# なに言ってるぴょ
-# ？　ちゃんとお前
-# たちの分まである
-# ぴょ！
-ShowTextBox "!!! 400ECC 16"
-WaitTextBox
-ShowChara 7 2 48
-# やったー！
-# じゃ、ぴよこいっ
-# しょに行こうぜ！
-ShowTextBox "!!! 400ECC 17"
-WaitTextBox
-ShowChara 6 2 41
-# そうですね、みん
-# なで、ゴールデン
-# ウィークを楽しみ
-# ましょう！
-ShowTextBox "!!! 400ECC 18"
-WaitTextBox
-ShowChara 5 1 36
-# 店長、ひとつ借り
-# ができたな…
-ShowTextBox "!!! 400ECC 19"
-WaitTextBox
-EndScript
-Label 1
-ShowChara 4 0 28
-# …だけど、２枚し
-# かないぴょ
-ShowTextBox "!!! 400ECC 20"
-WaitTextBox
-# ぴよこと店長さん
-# の分ぴょ？
-ShowTextBox "!!! 400ECC 21"
-WaitTextBox
-ShowChara 4 0 34
-# …もうしわけない
-# けど、みんなを働
-# かせておいて、ぴ
-# よこひとりが遊ぶ
-# わけにはいかない
-# ぴょ
-ShowTextBox "!!! 400ECC 22"
-WaitTextBox
-# そーゆーわけで、
-# 気持ちだけいただ
-# いておくぴょ
-ShowTextBox "!!! 400ECC 23"
-WaitTextBox
-ShowChara 5 2 37
-# ピョコラ様…
-ShowTextBox "!!! 400ECC 24"
-WaitTextBox
-ShowChara 4 1 29
-# 首領として当然の
-# 判断ぴょ
-ShowTextBox "!!! 400ECC 25"
-WaitTextBox
-ShowChara 12 0 60
-# しゅ、首領、一生
-# ついてゆくゲバ～
-ShowTextBox "!!! 400ECC 26"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-SetBG 113
-Fade 0 30
-ShowChara 4 1 29
-# お前たち、何をし
-# てるぴょー！もた
-# もたしてると置い
-# てくぴょ！
-ShowTextBox "!!! 400ECC 27"
-WaitTextBox
-ShowChara 7 1 48
-# そうだそうだ！
-# 置いてくぜ！
-ShowTextBox "!!! 400ECC 28"
-WaitTextBox
-ShowChara 6 2 44
-# あっピョコラ様ッ
-# お弁当ーっ！
-ShowTextBox "!!! 400ECC 29"
-WaitTextBox
-ShowChara 5 2 35
-# では店長、行って
-# くる！
-ShowTextBox "!!! 400ECC 30"
-WaitTextBox
-Fade 3 30
-Unk08 4 106 124 108 40 10 3
-Unk08 5 90 32 90 48 10 3
-Unk08 6 146 60 8 16 10 3
-Unk08 7 28 84 80 48 10 3
-SetBG 84
-Fade 2 30
-ShowChara 4 0 0
-# 速いぴょ！
-# 速いぴょーっ！
-ShowTextBox "!!! 400ECC 31"
-WaitTextBox
-# ぴよこはこの乗り物が
-# 気に入ったぴょーっ！
-ShowTextBox "!!! 400ECC 32"
-WaitTextBox
-# 決めたぴょっ！
-ShowTextBox "!!! 400ECC 33"
-WaitTextBox
-# 今日はずーっとコレに
-# 乗ってるぴょっ！
-ShowTextBox "!!! 400ECC 34"
-WaitTextBox
-ShowChara 7 0 0
-# 俺もうヤダ～！
-ShowTextBox "!!! 400ECC 35"
-WaitTextBox
-ShowChara 6 0 0
-# さ、さんせい…
-ShowTextBox "!!! 400ECC 36"
-WaitTextBox
-ShowChara 5 0 0
-# ピョ、ピョコラ様がそ
-# うおっしゃるなら…
-ShowTextBox "!!! 400ECC 37"
-WaitTextBox
-# うわーーっ！
-ShowTextBox "!!! 400ECC 38"
-WaitTextBox
-ShowChara 4 0 0
-# 楽しいぴょーっ！
-ShowTextBox "!!! 400ECC 39"
-WaitTextBox
-EndScript
+DSCBase $400ECC Subscript 0 SetBG 112 Fade 0 30 ShowChara 5 1 39 ShowTextBox "Manager, I have a story, can you give me some time?"
+WaitTextBox ShowChara 5 0 35 ShowTextBox "Manager, here ..."
+WaitTextBox ShowTextBox "There are two amusement park tickets"
+WaitTextBox ShowTextBox "Can you take Pyokola to the amusement park with this?"
+WaitTextBox ShowChara 5 0 36 ShowTextBox "Don't worry about us ..."
+WaitTextBox ShowTextBox "The important thing is to have Pyocola enjoy it ..."
+WaitTextBox ShowChara 5 0 35 ShowTextBox "That's all for the story ... Manager, thank you ..."
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 4 1 30 ShowTextBox "The busy Golden Week is about to end ..."
+WaitTextBox ShowTextBox "However, I'm a little disappointed that I couldn't go anywhere ..."
+WaitTextBox ShowChara 4 0 28 ShowTextBox "Pyo?"
+WaitTextBox ShowTextBox "Manager, what is that?"
+WaitTextBox ShowChara 4 0 33 ShowTextBox "This is an amusement park ticket!"
+WaitTextBox ShowSelMenu09 2 "Let's go together! Piyo and two people"
+JumpOnSelection 2 0 1 0 Label 0 ShowChara 4 0 29 ShowTextBox "… Is it okay for everyone to go next Sunday? Manager Futoppara Pyo!"
+WaitTextBox ShowChara 6 2 40 ShowTextBox "…\"with everyone\"?"
+WaitTextBox ShowChara 7 2 47 ShowTextBox "Wasn't there only two tickets?"
+WaitTextBox ShowChara 4 1 29 ShowTextBox "What are you talking about? There is even enough for you guys!"
+WaitTextBox ShowChara 7 2 48 ShowTextBox "Yay! Let's go with Piyoko!"
+WaitTextBox ShowChara 6 2 41 ShowTextBox "Well, let's enjoy Golden Week together!"
+WaitTextBox ShowChara 5 1 36 ShowTextBox "Manager, I was able to borrow one ..."
+WaitTextBox EndScript Label 1 ShowChara 4 0 28 ShowTextBox "… But there are only two"
+WaitTextBox ShowTextBox "Piyoko and the manager's part?"
+WaitTextBox ShowChara 4 0 34 ShowTextBox "... I'm sorry, but I can't let Piyoko play alone with everyone working."
+WaitTextBox ShowTextBox "Soyuwakede, so I'll just give you my feelings"
+WaitTextBox ShowChara 5 2 37 ShowTextBox "Pyocola ..."
+WaitTextBox ShowChara 4 1 29 ShowTextBox "Natural judgment as a chief"
+WaitTextBox ShowChara 12 0 60 ShowTextBox "Shu, Chief, Geba who will follow you for the rest of your life"
+WaitTextBox EndScript Subscript 1 SetBG 113 Fade 0 30 ShowChara 4 1 29 ShowTextBox "What are you guys doing! I'll leave it if I'm leaning!"
+WaitTextBox ShowChara 7 1 48 ShowTextBox "It seems so! Leave it!"
+WaitTextBox ShowChara 6 2 44 ShowTextBox "Apyokora-sama's lunch box!"
+WaitTextBox ShowChara 5 2 35 ShowTextBox "Then the store manager, I'm going!"
+WaitTextBox Fade 3 30 Unk08 4 106 124 108 40 10 3 Unk08 5 90 32 90 48 10 3 Unk08 6 146 60 8 16 10 3 Unk08 7 28 84 80 48 10 3 SetBG 84 Fade 2 30 ShowChara 4 0 0 ShowTextBox "Fast! It's fast!"
+WaitTextBox ShowTextBox "Piyoko liked this vehicle!"
+WaitTextBox ShowTextBox "I decided!"
+WaitTextBox ShowTextBox "I'm riding this all the time today!"
+WaitTextBox ShowChara 7 0 0 ShowTextBox "I'm already crazy!"
+WaitTextBox ShowChara 6 0 0 ShowTextBox "Well, Sansei ..."
+WaitTextBox ShowChara 5 0 0 ShowTextBox "If Pyo and Pyocola say so ..."
+WaitTextBox ShowTextBox "Wow!"
+WaitTextBox ShowChara 4 0 0 ShowTextBox "It's fun!"
+WaitTextBox EndScript 

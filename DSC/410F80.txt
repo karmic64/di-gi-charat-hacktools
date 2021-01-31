@@ -1,62 +1,9 @@
-DSCBase $410F80
-
-
-
-
-Subscript 0
-Fade 0 30
-Unk14 0 16
-ShowChara 8 2 2
-# \x01おかねがなくなって仕入れることが出来ないゲマ…\x1a
-ShowTextBox "!!! 410F80 0"
-WaitTextBox
-# しょうがないゲマ、このおかねを使うゲマ！
-ShowTextBox "!!! 410F80 1"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 1
-Fade 0 30
-Unk14 0 16
-ShowChara 8 2 2
-# \x01おかねがなくなって仕入れることが出来ないゲマ…\x1a
-ShowTextBox "!!! 410F80 2"
-WaitTextBox
-# しょうがないゲマ、このおかねを使うゲマ！
-ShowTextBox "!!! 410F80 3"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 2
-Fade 0 30
-Unk14 0 16
-ShowChara 8 2 2
-# \x01おかねがなくなって仕入れることが出来ないゲマ…\x1a
-ShowTextBox "!!! 410F80 4"
-WaitTextBox
-# しょうがないゲマ、このおかねを使うゲマ！
-ShowTextBox "!!! 410F80 5"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 3
-Fade 0 30
-Unk14 0 16
-ShowChara 8 2 2
-# \x01おかねがなくなって仕入れることが出来ないゲマ…\x1a
-ShowTextBox "!!! 410F80 6"
-WaitTextBox
-# しょうがないゲマ、このおかねを使うゲマ！
-ShowTextBox "!!! 410F80 7"
-WaitTextBox
-HideChara
-EndScript
+DSCBase $410F80 Subscript 0 Fade 0 30 SetPermTextBoxPos 0 16 ShowChara 8 2 2 ShowTextBox "\x01 Gema that can't be purchased due to lack of money ... \x1a"
+WaitTextBox ShowTextBox "Ginger that can't be helped, Ginger that uses this money!"
+WaitTextBox HideChara EndScript Subscript 1 Fade 0 30 SetPermTextBoxPos 0 16 ShowChara 8 2 2 ShowTextBox "\x01 Gema that can't be purchased due to lack of money ... \x1a"
+WaitTextBox ShowTextBox "Ginger that can't be helped, Ginger that uses this money!"
+WaitTextBox HideChara EndScript Subscript 2 Fade 0 30 SetPermTextBoxPos 0 16 ShowChara 8 2 2 ShowTextBox "\x01 Gema that can't be purchased due to lack of money ... \x1a"
+WaitTextBox ShowTextBox "Ginger that can't be helped, Ginger that uses this money!"
+WaitTextBox HideChara EndScript Subscript 3 Fade 0 30 SetPermTextBoxPos 0 16 ShowChara 8 2 2 ShowTextBox "\x01 Gema that can't be purchased due to lack of money ... \x1a"
+WaitTextBox ShowTextBox "Ginger that can't be helped, Ginger that uses this money!"
+WaitTextBox HideChara EndScript 

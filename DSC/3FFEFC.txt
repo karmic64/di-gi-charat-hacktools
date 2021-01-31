@@ -1,50 +1,8 @@
-DSCBase $3FFEFC
-
-
-
-
-Subscript 0
-Unk08 2 142 74 16 100 10 3
-SetBG 111
-Fade 0 30
-ShowChara 2 1 22
-# 早いものね、もう
-# 桜の季節がめぐっ
-# て来たのね…
-ShowTextBox "!!! 3FFEFC 0"
-WaitTextBox
-ShowChara 2 0 23
-# 店長さん、アタシ
-# 最後まで悔いのな
-# いようがんばるわ
-# ！
-ShowTextBox "!!! 3FFEFC 1"
-WaitTextBox
-# きっちり仕事して
-# 新しい一年を迎え
-# るのよ！
-ShowTextBox "!!! 3FFEFC 2"
-WaitTextBox
-Fade 3 30
-SetBG 32
-Fade 2 30
-ShowChara 2 0 0
-# さぁ、今日から決算セ
-# ール開催よーっ！
-ShowTextBox "!!! 3FFEFC 3"
-WaitTextBox
-# ばんばんっ！買ってか
-# ないと、承知しないわ
-# よーっ！
-ShowTextBox "!!! 3FFEFC 4"
-WaitTextBox
-# はいッ！そこの人っ！
-# 目が合ったのも何かの
-# 縁と思いなさい！
-ShowTextBox "!!! 3FFEFC 5"
-WaitTextBox
-# だからぁ、買っていっ
-# てちょうだいね�@
-ShowTextBox "!!! 3FFEFC 6"
-WaitTextBox
-EndScript
+DSCBase $3FFEFC Subscript 0 Unk08 2 142 74 16 100 10 3 SetBG 111 Fade 0 30 ShowChara 2 1 22 ShowTextBox "It's early, the cherry blossom season has come around ..."
+WaitTextBox ShowChara 2 0 23 ShowTextBox "Manager, I'll do my best not to regret until the end!"
+WaitTextBox ShowTextBox "Work hard and have a new year!"
+WaitTextBox Fade 3 30 SetBG 32 Fade 2 30 ShowChara 2 0 0 ShowTextBox "Now, the settlement sale will be held from today!"
+WaitTextBox ShowTextBox "Good luck! If you don't buy it, you won't know!"
+WaitTextBox ShowTextBox "Yes! The person there! Think of it as something that met your eyes!"
+WaitTextBox ShowTextBox "So, please buy it."
+WaitTextBox EndScript 

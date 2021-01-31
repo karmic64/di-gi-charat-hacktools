@@ -1,0 +1,403 @@
+DSCBase $3FE5C4
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 8 1 54
+# て、店長さん、き
+# んきゅうじたいゲ
+# マーっ！！
+ShowTextBox "!!! 3FE5C4 0"
+WaitTextBox
+ShowChara 8 0 2
+# きょ、今日は朝か
+# らお客さんが一人
+# も入ってこないゲ
+# マっ！
+ShowTextBox "!!! 3FE5C4 1"
+WaitTextBox
+ShowChara 8 0 54
+# おまけに、でじこ
+# が、いや、それだ
+# けではなくて、ぷ
+# ちこやうさだまで
+# 姿が見えないゲマ
+# ～～っ！
+ShowTextBox "!!! 3FE5C4 2"
+WaitTextBox
+ShowChara 8 0 2
+# こ、こんなことは
+# 初めてゲマ…
+ShowTextBox "!!! 3FE5C4 3"
+WaitTextBox
+ShowChara 8 0 54
+# ど、どうすればい
+# いゲマーっ！！
+ShowTextBox "!!! 3FE5C4 4"
+WaitTextBox
+ShowChara 2 2 23
+# ただいまーっ
+ShowTextBox "!!! 3FE5C4 5"
+WaitTextBox
+ShowChara 3 2 17
+# いま戻ったにゅ！
+ShowTextBox "!!! 3FE5C4 6"
+WaitTextBox
+ShowChara 1 2 10
+# 店長しゃん、ただ
+# いまにょ～っ！
+ShowTextBox "!!! 3FE5C4 7"
+WaitTextBox
+ShowChara 1 0 8
+# …にょっ、ゲマ、
+# 何をしけた顔して
+# るにょ？
+ShowTextBox "!!! 3FE5C4 8"
+WaitTextBox
+ShowChara 8 1 2
+# 何じゃないゲマ！
+# 朝からお客さんは
+# ゼロだし、でじこ
+# たちはいないし、
+# ゲマはもうゲマゲ
+# マゲマーっ！
+ShowTextBox "!!! 3FE5C4 9"
+WaitTextBox
+ShowChara 1 2 8
+# ほいっ
+ShowTextBox "!!! 3FE5C4 10"
+WaitTextBox
+ShowChara 8 1 1
+# …これは何ゲマ？
+ShowTextBox "!!! 3FE5C4 11"
+WaitTextBox
+ShowChara 2 2 23
+# いやねぇ、バレン
+# タインじゃない！
+ShowTextBox "!!! 3FE5C4 12"
+WaitTextBox
+ShowChara 3 2 17
+# ぷちこからもにゅ
+ShowTextBox "!!! 3FE5C4 13"
+WaitTextBox
+ShowChara 8 1 1
+# あ、ありがとうゲ
+# マ…
+ShowTextBox "!!! 3FE5C4 14"
+WaitTextBox
+ShowChara 2 2 23
+# 最後にアタシから
+# も…
+ShowTextBox "!!! 3FE5C4 15"
+WaitTextBox
+ShowChara 8 1 1
+# うれしいゲマ…
+ShowTextBox "!!! 3FE5C4 16"
+WaitTextBox
+ShowChara 1 2 9
+# にょにょ、義理と
+# はいえ、でじこと
+# ぷちこと、うさだ
+# からにょ！
+ShowTextBox "!!! 3FE5C4 17"
+WaitTextBox
+# 合計３つもチョコ
+# をもらえるなんて
+# ゲマはしあわせも
+# のにょ
+ShowTextBox "!!! 3FE5C4 18"
+WaitTextBox
+ShowChara 8 1 1
+# ところで…
+ShowTextBox "!!! 3FE5C4 19"
+WaitTextBox
+ShowChara 1 2 9
+# 何にょ？
+ShowTextBox "!!! 3FE5C4 20"
+WaitTextBox
+ShowChara 8 1 1
+# バレンタインって
+# 何ゲマ？
+ShowTextBox "!!! 3FE5C4 21"
+WaitTextBox
+ShowChara 1 2 12
+# ずるっ…
+ShowTextBox "!!! 3FE5C4 22"
+WaitTextBox
+ShowChara 2 2 23
+# し、知らずにうれ
+# しがってたの…？
+ShowTextBox "!!! 3FE5C4 23"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 8 1 1
+# なるほど、バレン
+# タインとはそうい
+# う日ゲマか…
+ShowTextBox "!!! 3FE5C4 24"
+WaitTextBox
+ShowChara 1 2 10
+# 世の中の女の子や
+# 男の子にとって、
+# この日は年間を通
+# じての最大のイベ
+# ントにょっ！
+ShowTextBox "!!! 3FE5C4 25"
+WaitTextBox
+ShowChara 2 2 23
+# ある意味、盆や正
+# 月、それどころか
+# クリスマスをもし
+# のぐ日よね…
+ShowTextBox "!!! 3FE5C4 26"
+WaitTextBox
+ShowChara 1 2 8
+# この日ばかりは、
+# 大人も子供も朝か
+# ら気もそぞろで、
+# さっぱり商売にな
+# らないにょ…
+ShowTextBox "!!! 3FE5C4 27"
+WaitTextBox
+ShowChara 2 2 22
+# もちろん、アタシ
+# たちもね…
+ShowTextBox "!!! 3FE5C4 28"
+WaitTextBox
+ShowChara 2 0 23
+# だから、今日は朝
+# から休みをもらっ
+# て思い思いにチョ
+# コを配ってたって
+# わけ
+ShowTextBox "!!! 3FE5C4 29"
+WaitTextBox
+ShowChara 8 1 1
+# う～ん、勉強にな
+# ったゲマ
+ShowTextBox "!!! 3FE5C4 30"
+WaitTextBox
+ShowChara 2 2 22
+# あ～っ、今日はた
+# くさんチョコを配
+# ったからつかれた
+# わ
+ShowTextBox "!!! 3FE5C4 31"
+WaitTextBox
+ShowChara 1 2 8
+# 右に同じにょ…
+# んじゃ、今日は早
+# いけどこのへんで
+# 失礼させてもらう
+# にょ～
+ShowTextBox "!!! 3FE5C4 32"
+WaitTextBox
+ShowChara 3 2 17
+# 帰るにゅ
+ShowTextBox "!!! 3FE5C4 33"
+WaitTextBox
+ShowChara 8 1 1
+# …………
+ShowTextBox "!!! 3FE5C4 34"
+WaitTextBox
+# な、なんかやけに
+# あっさり帰ってい
+# っちゃったゲマ…
+ShowTextBox "!!! 3FE5C4 35"
+WaitTextBox
+# おや、そういえば
+# でじこたちは店長
+# さんにチョコを渡
+# してなかったよう
+# な気がするゲマ…
+ShowTextBox "!!! 3FE5C4 36"
+WaitTextBox
+ShowChara 8 0 53
+# 店長さん、気を落
+# とすことはないゲ
+# マ
+ShowTextBox "!!! 3FE5C4 37"
+WaitTextBox
+# 人生は長いゲマ
+# これから、まだま
+# だチャンスは…え
+# っ、気にしてない
+# ゲマ？
+ShowTextBox "!!! 3FE5C4 38"
+WaitTextBox
+ShowChara 8 0 2
+# こ、これは失礼し
+# たゲマ
+ShowTextBox "!!! 3FE5C4 39"
+WaitTextBox
+Fade 1 120
+EndScript
+
+
+
+Subscript 1
+Unk08 1 103 80 88 108 10 3
+SetBG 113
+Fade 0 30
+ShowChara 1 2 9
+# にょにょっ、これ
+# はこれは店長しゃ
+# ん！
+ShowTextBox "!!! 3FE5C4 40"
+WaitTextBox
+ShowChara 1 0 10
+# こんなところで会
+# うなんて、偶然に
+# ょ
+ShowTextBox "!!! 3FE5C4 41"
+WaitTextBox
+ShowChara 1 0 9
+# そうだ、偶然つい
+# でにこんなものは
+# どうかにょ？
+ShowTextBox "!!! 3FE5C4 42"
+WaitTextBox
+Fade 3 30
+SetBG 7
+Fade 2 30
+ShowChara 1 0 0
+# バレンタインのチョコ
+# レートにょ
+# はいっ、どうぞにょ～
+ShowTextBox "!!! 3FE5C4 43"
+WaitTextBox
+# どーしたにょ、受けと
+# らないのかにょ？
+ShowTextBox "!!! 3FE5C4 44"
+WaitTextBox
+Fade 1 30
+SetBG 113
+Fade 0 30
+ShowChara 1 2 9
+# ちょうど店長しゃ
+# んに出会ってよか
+# ったにょ～
+ShowTextBox "!!! 3FE5C4 45"
+WaitTextBox
+ShowChara 1 0 10
+# やっぱり、でじこ
+# みたいな有名人が
+# そのへんの見知ら
+# ぬ人にチョコをあ
+# げるわけにはいか
+# ないにょ！
+ShowTextBox "!!! 3FE5C4 46"
+WaitTextBox
+ShowChara 1 0 9
+# それじゃ、でじこ
+# はこのへんで失礼
+# するにょ
+ShowTextBox "!!! 3FE5C4 47"
+WaitTextBox
+# あ、店長しゃん、
+# チョコはゆっくり
+# あせらず食べるの
+# がいいにょ～
+ShowTextBox "!!! 3FE5C4 48"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+Unk08 2 90 69 72 100 10 3
+SetBG 113
+Fade 0 30
+ShowChara 2 1 63
+# あっ、店長さん…
+ShowTextBox "!!! 3FE5C4 49"
+WaitTextBox
+# ちょっとお時間い
+# いかしら…？
+ShowTextBox "!!! 3FE5C4 50"
+WaitTextBox
+Fade 3 30
+SetBG 8
+Fade 2 30
+ShowChara 2 0 0
+# はいっ、チョコ！
+ShowTextBox "!!! 3FE5C4 51"
+WaitTextBox
+# いつもお世話になって
+# るから、特別製…手作
+# りよ！
+ShowTextBox "!!! 3FE5C4 52"
+WaitTextBox
+Fade 1 30
+SetBG 113
+Fade 0 30
+ShowChara 2 1 22
+# えっ…、義理チョ
+# コでもうれしいっ
+# て？
+ShowTextBox "!!! 3FE5C4 53"
+WaitTextBox
+# うう～ん…
+ShowTextBox "!!! 3FE5C4 54"
+WaitTextBox
+ShowChara 2 0 23
+# ま、今回はそうい
+# うことにしておく
+# わ…
+ShowTextBox "!!! 3FE5C4 55"
+WaitTextBox
+ShowChara 2 0 56
+# あっ、なんでもな
+# いったら、なんで
+# もないわ！
+ShowTextBox "!!! 3FE5C4 56"
+WaitTextBox
+ShowChara 2 0 23
+# じゃ、店長さん、
+# また明日ねー
+ShowTextBox "!!! 3FE5C4 57"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+Unk08 3 120 97 16 120 10 2
+SetBG 111
+Fade 0 30
+ShowChara 3 1 17
+# 店長さん、ぷちこ
+# にゅ
+ShowTextBox "!!! 3FE5C4 58"
+WaitTextBox
+Fade 3 30
+SetBG 9
+Fade 2 30
+ShowChara 3 0 0
+# はい、チョコにゅ
+ShowTextBox "!!! 3FE5C4 59"
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 1 2 63
+# ぷちこ～、何して
+# るにょ～
+# 遅いにょ～っ！
+ShowTextBox "!!! 3FE5C4 60"
+WaitTextBox
+ShowChara 3 1 18
+# でじこが呼んでる
+# にゅ
+ShowTextBox "!!! 3FE5C4 61"
+WaitTextBox
+# じゃ、もう行くに
+# ゅ
+ShowTextBox "!!! 3FE5C4 62"
+WaitTextBox
+EndScript

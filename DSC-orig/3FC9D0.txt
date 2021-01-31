@@ -1,0 +1,145 @@
+DSCBase $3FC9D0
+
+
+
+
+Subscript 0
+Unk08 1 87 65 80 92 10 3
+SetBG 111
+Fade 0 30
+ShowChara 3 1 17
+# にゅ…
+ShowTextBox "!!! 3FC9D0 0"
+WaitTextBox
+ShowChara 2 2 22
+# あら、どうしたの
+# ぷちこ
+# なんだか元気ない
+# わね？
+ShowTextBox "!!! 3FC9D0 1"
+WaitTextBox
+ShowChara 3 1 17
+# 何でもないにゅ
+ShowTextBox "!!! 3FC9D0 2"
+WaitTextBox
+ShowChara 8 1 1
+# ぷちこは、昨日の
+# イブのパーティで
+# おつかれゲマ
+ShowTextBox "!!! 3FC9D0 3"
+WaitTextBox
+ShowChara 2 2 22
+# まぁ、今日はクリ
+# スマスだっていう
+# のに、お気の毒ね
+ShowTextBox "!!! 3FC9D0 4"
+WaitTextBox
+ShowChara 3 1 17
+# うさだは全然平気
+# にゅ？
+ShowTextBox "!!! 3FC9D0 5"
+WaitTextBox
+ShowChara 2 2 26
+# アタシはアイドル
+# 志望なんだから、
+# パーティくらいで
+# 疲れてちゃ、お話
+# にならないわ
+ShowTextBox "!!! 3FC9D0 6"
+WaitTextBox
+ShowChara 8 1 53
+# うんうん、やっぱ
+# り、人間、元気が
+# 一番ゲマ
+ShowTextBox "!!! 3FC9D0 7"
+WaitTextBox
+# でじこも全然つか
+# れた様子がなく、
+# さっき店長さんと
+# おでかけしたゲマ
+ShowTextBox "!!! 3FC9D0 8"
+WaitTextBox
+ShowChara 2 2 24
+# なんですって！？
+ShowTextBox "!!! 3FC9D0 9"
+WaitTextBox
+ShowChara 8 1 54
+# ど、どうしたゲマ
+ShowTextBox "!!! 3FC9D0 10"
+WaitTextBox
+ShowChara 2 2 24
+# 店長さんはでじこ
+# といっしょにお出
+# かけしたの？
+ShowTextBox "!!! 3FC9D0 11"
+WaitTextBox
+ShowChara 8 1 54
+# そ、そうゲマ…
+ShowTextBox "!!! 3FC9D0 12"
+WaitTextBox
+ShowChara 2 2 27
+# くやし～～いっ！
+# でじこに先を越さ
+# れるなんてっ！
+ShowTextBox "!!! 3FC9D0 13"
+WaitTextBox
+# 今ごろ、高級ホテ
+# ルのレストランで
+# お食事したり、宝
+# 石店でダイヤの指
+# 輪を見たりとかし
+# てるんだわ～！
+ShowTextBox "!!! 3FC9D0 14"
+WaitTextBox
+ShowChara 8 1 2
+# でじこと同じこと
+# 考えてるゲマ…
+ShowTextBox "!!! 3FC9D0 15"
+WaitTextBox
+ShowChara 2 2 24
+# あ～ら、今、何か
+# おっしゃって？
+ShowTextBox "!!! 3FC9D0 16"
+WaitTextBox
+ShowChara 8 1 54
+# た、ただのひとり
+# ごとゲマ…
+ShowTextBox "!!! 3FC9D0 17"
+WaitTextBox
+Fade 1 30
+SetBG 51
+Fade 0 30
+ShowChara 1 0 0
+# へっくしょん！
+ShowTextBox "!!! 3FC9D0 18"
+WaitTextBox
+# う～ん、いま、誰かが
+# でじこのウワサをした
+# みたいにょ
+ShowTextBox "!!! 3FC9D0 19"
+WaitTextBox
+# あっ、店長しゃん。で
+# じこはここのお店がい
+# いと思うにょ
+ShowTextBox "!!! 3FC9D0 20"
+WaitTextBox
+# 見るからに高級レスト
+# ランっていうかんじで
+# もうサイコーだにょ
+ShowTextBox "!!! 3FC9D0 21"
+WaitTextBox
+# にょにょ、うさだのう
+# らやましがる顔が目に
+# 浮かぶようだにょ
+ShowTextBox "!!! 3FC9D0 22"
+WaitTextBox
+# にょっ、あんなところ
+# に宝石店を発見にょ…
+ShowTextBox "!!! 3FC9D0 23"
+WaitTextBox
+# よし、帰りはさりげな
+# く宝石店にお立ち寄り
+# してくにょ～
+ShowTextBox "!!! 3FC9D0 24"
+WaitTextBox
+EndScript

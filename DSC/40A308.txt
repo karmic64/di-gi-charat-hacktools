@@ -1,43 +1,5 @@
-DSCBase $40A308
-
-
-
-
-Subscript 0
-ShowChara 3 0 0
-EndScript
-
-
-
-Subscript 1
-HideChara
-EndScript
-
-
-
-Subscript 2
-# $0
-# 残り$1/$2個にゅ
-ShowTextBox "!!! 40A308 0"
-EndScript
-
-
-
-Subscript 3
-# からっぽにゅ
-ShowTextBox "!!! 40A308 1"
-EndScript
-
-
-
-Subscript 4
-# …もう終わりにゅ？
-ShowTextBox "!!! 40A308 2"
-EndScript
-
-
-
-Subscript 5
-# …買うのやめるにゅ？
-ShowTextBox "!!! 40A308 3"
-EndScript
+DSCBase $40A308 Subscript 0 ShowChara 3 0 0 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowTextBox "$0 Remaining $1 / $2"
+EndScript Subscript 3 ShowTextBox "Empty"
+EndScript Subscript 4 ShowTextBox "… Is it over?"
+EndScript Subscript 5 ShowTextBox "… Do you want to stop buying?"
+EndScript 

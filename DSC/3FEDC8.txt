@@ -1,249 +1,44 @@
-DSCBase $3FEDC8
-
-
-
-
-Subscript 0
-Unk08 1 119 65 24 100 10 3
-SetBG 122
-Fade 0 30
-ShowChara 1 1 9
-# 明日はひな祭りに
-# ょ～
-ShowTextBox "!!! 3FEDC8 0"
-WaitTextBox
-# それで、ひな壇（
-# ひなだん）の準備
-# はＯＫにょ？
-ShowTextBox "!!! 3FEDC8 1"
-WaitTextBox
-ShowChara 3 2 17
-# ＯＫにゅ…
-ShowTextBox "!!! 3FEDC8 2"
-WaitTextBox
-ShowChara 1 1 9
-# あとは明日を待つ
-# ばかりにょ！
-ShowTextBox "!!! 3FEDC8 3"
-WaitTextBox
-ShowChara 1 0 10
-# 明日になったら、
-# あられかじって、
-# 甘酒飲んで、ひし
-# 餅を食べるにょ～
-# っ！
-ShowTextBox "!!! 3FEDC8 4"
-WaitTextBox
-ShowChara 2 2 55
-# 全部、食べること
-# ばっかりね…
-ShowTextBox "!!! 3FEDC8 5"
-WaitTextBox
-ShowChara 1 1 15
-# にょにょっ、ヤボ
-# なツッコミはやめ
-# るにょ、うさだ！
-ShowTextBox "!!! 3FEDC8 6"
-WaitTextBox
-ShowChara 1 0 10
-# そ、それよりも、
-# この見事なひな壇
-# を見るにょ～！
-ShowTextBox "!!! 3FEDC8 7"
-WaitTextBox
-ShowChara 2 2 23
-# へぇ、なかなか立
-# 派なものね
-ShowTextBox "!!! 3FEDC8 8"
-WaitTextBox
-ShowChara 1 1 10
-# どうにょ、ゲマを
-# こきつかって作り
-# 上げた、グレート
-# なひな壇にょ！
-ShowTextBox "!!! 3FEDC8 9"
-WaitTextBox
-ShowChara 8 1 2
-# ゲマがひとりで作
-# った血と汗と涙の
-# 結晶ゲマ…
-ShowTextBox "!!! 3FEDC8 10"
-WaitTextBox
-ShowChara 2 2 25
-# それを聞くと、な
-# んだか汗臭そうな
-# 感じがするわね
-ShowTextBox "!!! 3FEDC8 11"
-WaitTextBox
-ShowChara 3 2 17
-# それは、あくまで
-# たとえにゅ
-ShowTextBox "!!! 3FEDC8 12"
-WaitTextBox
-ShowChara 2 2 23
-# ね、ちょっとさわ
-# っていいかしら…
-# きゃっ！
-ShowTextBox "!!! 3FEDC8 13"
-WaitTextBox
-ShowChara 8 1 3
-# むぎゅっ！
-ShowTextBox "!!! 3FEDC8 14"
-WaitTextBox
-ShowChara 3 2 17
-# うさだがゲマにつ
-# まづいたにゅ！
-ShowTextBox "!!! 3FEDC8 15"
-WaitTextBox
-ShowChara 14 1 63
-# ベキッ…
-ShowTextBox "!!! 3FEDC8 16"
-WaitTextBox
-ShowChara 2 2 24
-# …………！
-ShowTextBox "!!! 3FEDC8 17"
-WaitTextBox
-ShowChara 1 1 11
-# にょにょ～っ、な
-# んてことしてくれ
-# たにょ～っ！
-ShowTextBox "!!! 3FEDC8 18"
-WaitTextBox
-ShowChara 2 2 23
-# ご、ごめんなさい
-# …
-ShowTextBox "!!! 3FEDC8 19"
-WaitTextBox
-ShowChara 3 2 20
-# お内裏さま（おだ
-# いりさま）がぺし
-# ゃんこにゅ…
-ShowTextBox "!!! 3FEDC8 20"
-WaitTextBox
-ShowChara 2 2 25
-# ごめんなさい、べ
-# んしょうする…っ
-# て、そんなお金は
-# ないし…
-ShowTextBox "!!! 3FEDC8 21"
-WaitTextBox
-# ごめん、なんとか
-# して、アタシが修
-# 理するから、かん
-# べんしてっ！
-ShowTextBox "!!! 3FEDC8 22"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 2 2 55
-# とは言ったものの
-# …
-ShowTextBox "!!! 3FEDC8 23"
-WaitTextBox
-# こんなものどうや
-# って修理すればい
-# いのかしら…
-ShowTextBox "!!! 3FEDC8 24"
-WaitTextBox
-# ぶつぶつ…
-ShowTextBox "!!! 3FEDC8 25"
-WaitTextBox
-Fade 3 30
-SetBG 10
-Fade 2 30
-ShowChara 1 0 0
-# こら、さっきからなに
-# をブツブツと文句たれ
-# てるにょっ！
-ShowTextBox "!!! 3FEDC8 26"
-WaitTextBox
-ShowChara 2 1 22
-# なあに、でじこ、
-# その格好…？
-ShowTextBox "!!! 3FEDC8 27"
-WaitTextBox
-ShowChara 1 0 0
-# で…でじ…あたしは、
-# でじこじゃないにょ
-# っ！
-ShowTextBox "!!! 3FEDC8 28"
-WaitTextBox
-# 言うなれば、あたしは
-# 通りすがりのお内裏さ
-# まにょ
-ShowTextBox "!!! 3FEDC8 29"
-WaitTextBox
-ShowChara 2 1 22
-# 通りすがりって…
-ShowTextBox "!!! 3FEDC8 30"
-WaitTextBox
-ShowChara 1 0 0
-# やかましいにょ、そん
-# なの、あたしの勝手に
-# ょっ！
-ShowTextBox "!!! 3FEDC8 31"
-WaitTextBox
-# さぼっとらんで、キリ
-# キリ働くにょっ！
-ShowTextBox "!!! 3FEDC8 32"
-WaitTextBox
-Fade 1 30
-SetBG 122
-Fade 0 30
-ShowChara 2 1 25
-# とほほ、もう何が
-# 何やら…
-ShowTextBox "!!! 3FEDC8 33"
-WaitTextBox
-# せっせ、せっせ…
-ShowTextBox "!!! 3FEDC8 34"
-WaitTextBox
-# う～ん、ここのと
-# ころ、どうなって
-# るのかしら…
-ShowTextBox "!!! 3FEDC8 35"
-WaitTextBox
-# 分からないと直せ
-# ないわ…
-ShowTextBox "!!! 3FEDC8 36"
-WaitTextBox
-Fade 1 30
-SetBG 10
-Fade 0 30
-ShowChara 1 0 0
-# そんなのも分からんの
-# か、そこはこうなって
-# るにょ！
-ShowTextBox "!!! 3FEDC8 37"
-WaitTextBox
-ShowChara 2 1 23
-# あっ、なるほど、
-# こうなってるのね
-# ♪
-ShowTextBox "!!! 3FEDC8 38"
-WaitTextBox
-# 実物があるとよく
-# 分かるわ。ありが
-# とう、でじこ
-ShowTextBox "!!! 3FEDC8 39"
-WaitTextBox
-ShowChara 1 0 0
-# で…でじこじゃなくて
-# あたしは通りすがりの
-# お内裏さまにょっ！
-ShowTextBox "!!! 3FEDC8 40"
-WaitTextBox
-Fade 1 30
-SetBG 122
-Fade 0 30
-ShowChara 2 1 55
-# はいはい…
-ShowTextBox "!!! 3FEDC8 41"
-WaitTextBox
-ShowChara 2 0 23
-# もう、素直じゃな
-# いんだから…
-ShowTextBox "!!! 3FEDC8 42"
-WaitTextBox
-EndScript
+DSCBase $3FEDC8 Subscript 0 Unk08 1 119 65 24 100 10 3 SetBG 122 Fade 0 30 ShowChara 1 1 9 ShowTextBox "Tomorrow is the Doll's Festival ~"
+WaitTextBox ShowTextBox "So, isn't it OK to prepare for Hinadan?"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "OK Nyu ..."
+WaitTextBox ShowChara 1 1 9 ShowTextBox "I'll just wait for tomorrow!"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "Tomorrow, I'll grab a hail, drink amazake, and eat Hishi mochi!"
+WaitTextBox ShowChara 2 2 55 ShowTextBox "All you have to do is eat ..."
+WaitTextBox ShowChara 1 1 15 ShowTextBox "Nyonyo, I'm going to stop the dangerous Tsukkomi, Usa!"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "Well, rather than that, let's see this wonderful chick platform!"
+WaitTextBox ShowChara 2 2 23 ShowTextBox "Hey, it's pretty good."
+WaitTextBox ShowChara 1 1 10 ShowTextBox "How is it, a great chick platform made by using Gema!"
+WaitTextBox ShowChara 8 1 2 ShowTextBox "Blood, sweat, and tear crystals made by Gema alone ..."
+WaitTextBox ShowChara 2 2 25 ShowTextBox "When I hear that, it feels like sweat."
+WaitTextBox ShowChara 3 2 17 ShowTextBox "It's just a parable"
+WaitTextBox ShowChara 2 2 23 ShowTextBox "I wonder if I can touch it for a moment ..."
+WaitTextBox ShowChara 8 1 3 ShowTextBox "Mugyu!"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "It's a rabbit, but I stumbled upon Gema!"
+WaitTextBox ShowChara 14 1 63 ShowTextBox "Beki ..."
+WaitTextBox ShowChara 2 2 24 ShowTextBox "…………!"
+WaitTextBox ShowChara 1 1 11 ShowTextBox "Nyonyo, what did you do!"
+WaitTextBox ShowChara 2 2 23 ShowTextBox "I'm sorry ..."
+WaitTextBox ShowChara 3 2 20 ShowTextBox "The inner back (Odairi-sama) is pechankonyu ..."
+WaitTextBox ShowChara 2 2 25 ShowTextBox "I'm sorry, I'm sorry ... I don't have that kind of money ..."
+WaitTextBox ShowTextBox "I'm sorry, I'll repair it somehow, so I'm sorry!"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 2 2 55 ShowTextBox "That said ..."
+WaitTextBox ShowTextBox "I wonder how to repair this kind of thing ..."
+WaitTextBox ShowTextBox "Mumble ..."
+WaitTextBox Fade 3 30 SetBG 10 Fade 2 30 ShowChara 1 0 0 ShowTextBox "Here, I've been complaining about what I've been talking about since a while ago!"
+WaitTextBox ShowChara 2 1 22 ShowTextBox "What, Di Gi Charat, that look ...?"
+WaitTextBox ShowChara 1 0 0 ShowTextBox "And ... Di Gi ... I'm not Di Gi Charat!"
+WaitTextBox ShowTextBox "So to speak, I'm the insider of the passing"
+WaitTextBox ShowChara 2 1 22 ShowTextBox "Passing by ..."
+WaitTextBox ShowChara 1 0 0 ShowTextBox "It's noisy, that's what I do!"
+WaitTextBox ShowTextBox "Let's take a break and work hard!"
+WaitTextBox Fade 1 30 SetBG 122 Fade 0 30 ShowChara 2 1 25 ShowTextBox "Tohoho, what's the matter ..."
+WaitTextBox ShowTextBox "I'm sorry, I'm sorry ..."
+WaitTextBox ShowTextBox "Hmmm, I wonder what's going on here ..."
+WaitTextBox ShowTextBox "If you don't know, you can't fix it ..."
+WaitTextBox Fade 1 30 SetBG 10 Fade 0 30 ShowChara 1 0 0 ShowTextBox "You don't even know that, it's like this!"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "Oh, I see, it's like this ♪"
+WaitTextBox ShowTextBox "You can see that there is a real thing. Thank you, Di Gi Charat"
+WaitTextBox ShowChara 1 0 0 ShowTextBox "And ... I'm not a big boy, but I'm a passing insider!"
+WaitTextBox Fade 1 30 SetBG 122 Fade 0 30 ShowChara 2 1 55 ShowTextBox "Yes yes ..."
+WaitTextBox ShowChara 2 0 23 ShowTextBox "I'm not honest anymore ..."
+WaitTextBox EndScript 

@@ -1,61 +1,6 @@
-DSCBase $3E1254
-
-
-
-
-Subscript 0
-ShowChara 6 2 40
-EndScript
-
-
-
-Subscript 1
-HideChara
-EndScript
-
-
-
-Subscript 2
-ShowChara 6 0 40
-# 自分はカイ＝シュヴァ
-# イツァー中将、ピョコ
-# ラ様をお守りする者！
-ShowTextBox "!!! 3E1254 0"
-EndScript
-
-
-
-Subscript 3
-ShowChara 6 0 40
-# ブラックゲマゲマ団の
-# みなさん、準備はいい
-# ですか？
-ShowTextBox "!!! 3E1254 1"
-EndScript
-
-
-
-Subscript 4
-ShowChara 6 0 40
-# ひきょうなデ・ジ・
-# キャラットから、ピョ
-# コラ様を守らねば…
-ShowTextBox "!!! 3E1254 2"
-EndScript
-
-
-
-Subscript 5
-ShowChara 6 0 43
-# 自分は中将ですから、
-# アシスタントは引き受
-# けられません
-ShowTextBox "!!! 3E1254 3"
-Wait 60
-ShowChara 6 0 41
-# それに、もっとふさわ
-# しい方がいるじゃない
-# ですか
-ShowTextBox "!!! 3E1254 4"
-Wait 60
-EndScript
+DSCBase $3E1254 Subscript 0 ShowChara 6 2 40 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowChara 6 0 40 ShowTextBox "I am the guardian of General Kai-Schweitzer, Pyokola!"
+EndScript Subscript 3 ShowChara 6 0 40 ShowTextBox "Are you ready, Black Gemagema?"
+EndScript Subscript 4 ShowChara 6 0 40 ShowTextBox "I have to protect Pyocola from the terrible Di Gi Charat ..."
+EndScript Subscript 5 ShowChara 6 0 43 ShowTextBox "I'm a lieutenant, so I can't take on an assistant"
+Wait 60 ShowChara 6 0 41 ShowTextBox "Besides, there are more suitable people, right?"
+Wait 60 EndScript 

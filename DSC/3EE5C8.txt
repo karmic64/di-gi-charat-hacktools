@@ -1,371 +1,59 @@
-DSCBase $3EE5C8
-
-
-
-
-Subscript 0
-SetBG 111
-Fade 0 30
-ShowChara 8 1 1
-# 終了ゲマ～～っ！
-ShowTextBox "!!! 3EE5C8 0"
-WaitTextBox
-ShowChara 1 1 10
-# なんだか、燃え尽
-# きて真っ白な灰に
-# なった気分だにょ
-# ～！
-ShowTextBox "!!! 3EE5C8 1"
-WaitTextBox
-ShowChara 2 1 55
-# どう見ても、元気
-# ハツラツとしてる
-# んだけど…
-ShowTextBox "!!! 3EE5C8 2"
-WaitTextBox
-ShowChara 3 2 17
-# ぷちこは平気にゅ
-ShowTextBox "!!! 3EE5C8 3"
-WaitTextBox
-ShowChara 8 1 1
-# では、結果発表さ
-# せてもらうゲマ！
-ShowTextBox "!!! 3EE5C8 4"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-Unk08 3 121 120 8 16 10 2
-ShowChara 8 0 53
-# おっと、その前に
-# ひとつやることが
-# あったゲマ
-ShowTextBox "!!! 3EE5C8 5"
-WaitTextBox
-# ぷちこ、ちょっと
-# 目を閉じててほし
-# いゲマ
-ShowTextBox "!!! 3EE5C8 6"
-WaitTextBox
-Fade 1 30
-SetBG 124
-Fade 0 1
-ShowChara 3 2 63
-# 閉じたにゅ
-ShowTextBox "!!! 3EE5C8 7"
-WaitTextBox
-# …………
-ShowTextBox "!!! 3EE5C8 8"
-WaitTextBox
-# …………
-ShowTextBox "!!! 3EE5C8 9"
-WaitTextBox
-# …………
-ShowTextBox "!!! 3EE5C8 10"
-WaitTextBox
-Fade 3 30
-SetBG 111
-Fade 2 30
-ShowChara 8 1 53
-# はい、お待たせ、
-# ＯＫゲマ～！
-ShowTextBox "!!! 3EE5C8 11"
-WaitTextBox
-Fade 3 20
-Fade 2 20
-ShowChara 1 1 9
-# ぱちぱちぱち…
-ShowTextBox "!!! 3EE5C8 12"
-WaitTextBox
-Fade 3 20
-Fade 2 20
-ShowChara 2 1 23
-# ぱちぱちぱち…
-ShowTextBox "!!! 3EE5C8 13"
-WaitTextBox
-Fade 3 20
-Fade 2 20
-ShowChara 3 2 17
-# ？？？
-ShowTextBox "!!! 3EE5C8 14"
-WaitTextBox
-ShowChara 8 1 53
-# ぷちこ、おめでと
-# うゲマ～！
-ShowTextBox "!!! 3EE5C8 15"
-WaitTextBox
-# ぷちこは、この一
-# 年で見事、お仕事
-# マスターになった
-# ゲマ！
-ShowTextBox "!!! 3EE5C8 16"
-WaitTextBox
-ShowChara 1 1 9
-# お仕事マスターっ
-# ていうのは
-ShowTextBox "!!! 3EE5C8 17"
-WaitTextBox
-# ・レジ
-# ・接客
-# ・グッズ
-# ・掃除
-ShowTextBox "!!! 3EE5C8 18"
-WaitTextBox
-ShowChara 1 0 10
-# この４つのお仕事
-# をきわめた者に与
-# えられるという、
-# 伝説の称号にょ！
-ShowTextBox "!!! 3EE5C8 19"
-WaitTextBox
-ShowChara 2 1 23
-# ぷちこ、よくがん
-# ばったわね！
-ShowTextBox "!!! 3EE5C8 20"
-WaitTextBox
-ShowChara 3 2 17
-# お仕事マスターに
-# なると何がもらえ
-# るにゅ？
-ShowTextBox "!!! 3EE5C8 21"
-WaitTextBox
-ShowChara 2 1 25
-# えっ、何がって、
-# 特に何も…
-ShowTextBox "!!! 3EE5C8 22"
-WaitTextBox
-ShowChara 1 1 9
-# それを今から教え
-# るにょ！
-ShowTextBox "!!! 3EE5C8 23"
-WaitTextBox
-# お仕事マスターが
-# もらえるもの…そ
-# れは！
-ShowTextBox "!!! 3EE5C8 24"
-WaitTextBox
-ShowChara 3 2 18
-# それはにゅ？
-ShowTextBox "!!! 3EE5C8 25"
-WaitTextBox
-ShowChara 1 1 10
-# 愛と勇気にょ！
-ShowTextBox "!!! 3EE5C8 26"
-WaitTextBox
-Fade 3 30
-SetBG 46
-Fade 2 30
-ShowChara 3 0 0
-# 愛と勇気…いい言葉に
-# ゅ
-ShowTextBox "!!! 3EE5C8 27"
-WaitTextBox
-# １００のプレゼントを
-# もらうより
-ShowTextBox "!!! 3EE5C8 28"
-WaitTextBox
-# ずっと価値のあるもの
-# をもらった気分にゅ
-ShowTextBox "!!! 3EE5C8 29"
-WaitTextBox
-Fade 3 30
-SetBG 111
-Fade 2 30
-ShowChara 1 1 10
-# ぷちこ、分かって
-# くれて、でじこは
-# うれしいにょっ！
-ShowTextBox "!!! 3EE5C8 30"
-WaitTextBox
-ShowChara 3 2 19
-# …なんて、そんな
-# 言葉でごまかされ
-# ないにゅ
-ShowTextBox "!!! 3EE5C8 31"
-WaitTextBox
-# くらうにゅ！
-# めからびーむにゅ
-# ！
-ShowTextBox "!!! 3EE5C8 32"
-WaitTextBox
-Fade 3 20
-Wait 20
-Fade 2 20
-ShowChara 1 1 12
-# にょにょ～っ、何
-# かドロドロしたも
-# のが～～っ、にょ
-# にょ～っ！
-ShowTextBox "!!! 3EE5C8 33"
-WaitTextBox
-ShowChara 8 1 2
-# オホン。では、あ
-# らためまして…結
-# 果発表ゲマ！
-ShowTextBox "!!! 3EE5C8 34"
-WaitTextBox
-Unk19 40
-EndScript
-
-
-
-Subscript 2
-SetBG 111
-Fade 0 30
-Unk08 3 119 74 104 96 10 3
-ShowChara 8 0 53
-# ぷちこ、やったゲ
-# マ、見事な成績ゲ
-# マ！
-ShowTextBox "!!! 3EE5C8 35"
-WaitTextBox
-ShowChara 3 2 21
-# まあまあにゅ
-ShowTextBox "!!! 3EE5C8 36"
-WaitTextBox
-Fade 3 30
-SetBG 68
-Fade 2 30
-ShowChara 3 0 0
-# まだまだ目標にとどい
-# てないにゅ。次はうま
-# くやるにゅ
-ShowTextBox "!!! 3EE5C8 37"
-WaitTextBox
-Fade 3 30
-SetBG 111
-Fade 2 30
-ShowChara 1 1 8
-# そうかにょ？　
-# でじこには十分よ
-# くやってるように
-# 見えたにょ
-ShowTextBox "!!! 3EE5C8 38"
-WaitTextBox
-ShowChara 2 1 23
-# あんたと一緒にし
-# ないの！ぷちこは
-# こころざしが高い
-# のよね
-ShowTextBox "!!! 3EE5C8 39"
-WaitTextBox
-ShowChara 3 2 17
-# その通りにゅ
-ShowTextBox "!!! 3EE5C8 40"
-WaitTextBox
-ShowChara 1 1 12
-# にょにょ～、めざ
-# しだか、こころざ
-# しだか知らないけ
-# れど、でじこだっ
-# て高いものは高い
-# にょ～っ！
-ShowTextBox "!!! 3EE5C8 41"
-WaitTextBox
-ShowChara 8 1 1
-# 勝ってカブトの緒
-# （お）をしめるっ
-# ていう言葉がある
-# ゲマ
-ShowTextBox "!!! 3EE5C8 42"
-WaitTextBox
-# みんな、やる気じ
-# ゅうぶんで、まこ
-# とに頼もしいかぎ
-# りゲマ
-ShowTextBox "!!! 3EE5C8 43"
-WaitTextBox
-ShowChara 8 0 53
-# 店長さん、来年も
-# お店はだいじょう
-# ぶそうみたいゲマ
-# ね…
-ShowTextBox "!!! 3EE5C8 44"
-Wait 60
-Fade 3 120
-EndScript
-
-
-
-Subscript 3
-SetBG 111
-Fade 0 30
-Unk08 3 119 89 104 112 10 3
-ShowChara 8 0 53
-# すごいゲマ！　ま
-# ったくすばらしい
-# 結果だったゲマ！
-ShowTextBox "!!! 3EE5C8 45"
-WaitTextBox
-ShowChara 3 2 18
-# やれることをやっ
-# ただけにゅ
-ShowTextBox "!!! 3EE5C8 46"
-WaitTextBox
-ShowChara 2 1 23
-# いいえ、それが大
-# 事なことなのよ！
-ShowTextBox "!!! 3EE5C8 47"
-WaitTextBox
-ShowChara 8 1 53
-# そうゲマ！
-ShowTextBox "!!! 3EE5C8 48"
-WaitTextBox
-# でじこも、ぷちこ
-# も、うさだも、店
-# 長さんも、そして
-# おいらも
-ShowTextBox "!!! 3EE5C8 49"
-WaitTextBox
-# みんな、自分でや
-# れることをやった
-# だけなんだゲマー
-# っ！
-ShowTextBox "!!! 3EE5C8 50"
-WaitTextBox
-Fade 1 120
-Wait 60
-SetBG 79
-Fade 0 30
-Wait 60
-ShowChara 3 0 0
-# ということは、ぷちこ
-# が一番えらいにゅ
-ShowTextBox "!!! 3EE5C8 51"
-Wait 120
-# でじこもうさだも大き
-# いのに
-ShowTextBox "!!! 3EE5C8 52"
-Wait 120
-# ぷちこと同じくらいし
-# か働いてないにゅ
-ShowTextBox "!!! 3EE5C8 53"
-Wait 120
-# やっぱり、ぷちこが一
-# 番にゅ！
-ShowTextBox "!!! 3EE5C8 54"
-Wait 180
-Fade 1 30
-SetBG 111
-Fade 0 30
-ShowChara 3 1 18
-# 今日もお手伝いす
-# るにゅ
-ShowTextBox "!!! 3EE5C8 55"
-WaitTextBox
-Fade 1 30
-Unk08 3 109 59 100 92 10 3
-SetBG 64
-Fade 0 30
-ShowChara 3 0 0
-# まずはグッズの整理
-# から始めるにゅ
-ShowTextBox "!!! 3EE5C8 56"
-WaitTextBox
-# にゅっ、にゅっ…
-ShowTextBox "!!! 3EE5C8 57"
-Wait 60
-Fade 3 120
-EndScript
+DSCBase $3EE5C8 Subscript 0 SetBG 111 Fade 0 30 ShowChara 8 1 1 ShowTextBox "End Gema ~~!"
+WaitTextBox ShowChara 1 1 10 ShowTextBox "It feels like it's burned out and turned into pure white ash!"
+WaitTextBox ShowChara 2 1 55 ShowTextBox "By all means, I'm fine and lively ..."
+WaitTextBox ShowChara 3 2 17 ShowTextBox "Puchiko is fine"
+WaitTextBox ShowChara 8 1 1 ShowTextBox "Then, let me announce the result!"
+WaitTextBox EndScript Subscript 1 Unk08 3 121 120 8 16 10 2 ShowChara 8 0 53 ShowTextBox "Oops, there was one thing I had to do before that"
+WaitTextBox ShowTextBox "Puchiko, I want you to close your eyes for a moment"
+WaitTextBox Fade 1 30 SetBG 124 Fade 0 1 ShowChara 3 2 63 ShowTextBox "Closed"
+WaitTextBox ShowTextBox "…………"
+WaitTextBox ShowTextBox "…………"
+WaitTextBox ShowTextBox "…………"
+WaitTextBox Fade 3 30 SetBG 111 Fade 2 30 ShowChara 8 1 53 ShowTextBox "Yes, please wait, OK Gema ~!"
+WaitTextBox Fade 3 20 Fade 2 20 ShowChara 1 1 9 ShowTextBox "Crackling ..."
+WaitTextBox Fade 3 20 Fade 2 20 ShowChara 2 1 23 ShowTextBox "Crackling ..."
+WaitTextBox Fade 3 20 Fade 2 20 ShowChara 3 2 17 ShowTextBox "?? ?? ??"
+WaitTextBox ShowChara 8 1 53 ShowTextBox "Puchiko, congratulations!"
+WaitTextBox ShowTextBox "Puchiko has become a work master in the past year!"
+WaitTextBox ShowChara 1 1 9 ShowTextBox "The work master is"
+WaitTextBox ShowTextBox "・ Cash register, customer service, goods, cleaning"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "It's a legendary title that is given to those who have decided on these four jobs!"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "Puchiko, you did your best!"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "What do you get when you become a work master?"
+WaitTextBox ShowChara 2 1 25 ShowTextBox "Well, what's the matter, especially nothing ..."
+WaitTextBox ShowChara 1 1 9 ShowTextBox "I'll teach you that now!"
+WaitTextBox ShowTextBox "What the work master can get ... that is!"
+WaitTextBox ShowChara 3 2 18 ShowTextBox "Is that Nyu?"
+WaitTextBox ShowChara 1 1 10 ShowTextBox "Love and courage!"
+WaitTextBox Fade 3 30 SetBG 46 Fade 2 30 ShowChara 3 0 0 ShowTextBox "Love and courage ... good words"
+WaitTextBox ShowTextBox "Rather than getting 100 presents"
+WaitTextBox ShowTextBox "I feel like I've received something that's always valuable"
+WaitTextBox Fade 3 30 SetBG 111 Fade 2 30 ShowChara 1 1 10 ShowTextBox "Puchiko, I'm glad you understand Di Gi Charat!"
+WaitTextBox ShowChara 3 2 19 ShowTextBox "... I can't be fooled by such words"
+WaitTextBox ShowTextBox "Kuraunyu! Mekarabimunyu!"
+WaitTextBox Fade 3 20 Wait 20 Fade 2 20 ShowChara 1 1 12 ShowTextBox "Nyonyo ~, something muddy ~~~, Nyonyo ~!"
+WaitTextBox ShowChara 8 1 2 ShowTextBox "Ohon. Then again ... Result announcement Gema!"
+WaitTextBox Unk19 40 EndScript Subscript 2 SetBG 111 Fade 0 30 Unk08 3 119 74 104 96 10 3 ShowChara 8 0 53 ShowTextBox "Puchiko, Gema that I did, Gema with excellent results!"
+WaitTextBox ShowChara 3 2 21 ShowTextBox "Okay"
+WaitTextBox Fade 3 30 SetBG 68 Fade 2 30 ShowChara 3 0 0 ShowTextBox "I haven't reached my goal yet. I'll do it well next time"
+WaitTextBox Fade 3 30 SetBG 111 Fade 2 30 ShowChara 1 1 8 ShowTextBox "Is that so? Di Gi Charat seemed to be doing well enough"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "I won't be with you! Puchiko has a high spirit"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "That's right"
+WaitTextBox ShowChara 1 1 12 ShowTextBox "I don't know if it's a goal or a heart, but the ones that are big and expensive are expensive!"
+WaitTextBox ShowChara 8 1 1 ShowTextBox "Gema has the word to win and close the beetle"
+WaitTextBox ShowTextBox "Everyone is motivated and really reliable"
+WaitTextBox ShowChara 8 0 53 ShowTextBox "The store manager, it looks like the store will be fine next year ..."
+Wait 60 Fade 3 120 EndScript Subscript 3 SetBG 111 Fade 0 30 Unk08 3 119 89 104 112 10 3 ShowChara 8 0 53 ShowTextBox "Amazing gema! Gema was a wonderful result!"
+WaitTextBox ShowChara 3 2 18 ShowTextBox "I just did what I could do"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "No, that's important!"
+WaitTextBox ShowChara 8 1 53 ShowTextBox "That's right!"
+WaitTextBox ShowTextBox "Di Gi Charat, Puchiko, Usada, the manager, and I"
+WaitTextBox ShowTextBox "Everyone just did what they could do, Gemmer!"
+WaitTextBox Fade 1 120 Wait 60 SetBG 79 Fade 0 30 Wait 60 ShowChara 3 0 0 ShowTextBox "That means that Puchiko is the best choice"
+Wait 120 ShowTextBox "Even though Di Gi Charat is big"
+Wait 120 ShowTextBox "Nyu who works only as much as Petit"
+Wait 120 ShowTextBox "After all, Puchiko is the best!"
+Wait 180 Fade 1 30 SetBG 111 Fade 0 30 ShowChara 3 1 18 ShowTextBox "I will help you today"
+WaitTextBox Fade 1 30 Unk08 3 109 59 100 92 10 3 SetBG 64 Fade 0 30 ShowChara 3 0 0 ShowTextBox "Let's start by organizing the goods"
+WaitTextBox ShowTextBox "Nyu, Nyu ..."
+Wait 60 Fade 3 120 EndScript 

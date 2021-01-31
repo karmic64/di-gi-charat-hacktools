@@ -1,210 +1,35 @@
-DSCBase $3F2D3C
-
-
-
-
-Subscript 0
-Unk08 3 134 93 8 112 10 3
-SetBG 111
-Fade 0 30
-ShowChara 8 1 1
-# カレンダーを見る
-# と、今週から歯の
-# 健康週間だゲマ
-ShowTextBox "!!! 3F2D3C 0"
-WaitTextBox
-# 店長さん、虫歯っ
-# て何ゲマ…むぎゅ
-# っ！
-ShowTextBox "!!! 3F2D3C 1"
-WaitTextBox
-ShowChara 1 1 8
-# 店長しゃん、今の
-# ゲマの変な質問は
-# 無視するにょ！
-ShowTextBox "!!! 3F2D3C 2"
-WaitTextBox
-ShowChara 2 2 22
-# 芸能人は歯が命っ
-# てよく言うわ
-# 虫歯なんて、とん
-# でもない！
-ShowTextBox "!!! 3F2D3C 3"
-WaitTextBox
-ShowChara 2 0 26
-# もちろん、アタシ
-# は毎日歯を磨いて
-# るから、ぴっかぴ
-# っかよ！
-ShowTextBox "!!! 3F2D3C 4"
-WaitTextBox
-ShowChara 1 1 8
-# にょっ！そんなこ
-# とでいばるなんて
-# こころざしが低い
-# にょ！
-ShowTextBox "!!! 3F2D3C 5"
-WaitTextBox
-ShowChara 2 2 26
-# あ～ら、そういう
-# でじこは虫歯ある
-# んじゃない？
-ShowTextBox "!!! 3F2D3C 6"
-WaitTextBox
-ShowChara 1 1 9
-# つ、都合の悪いこ
-# とは店長しゃんに
-# 振るにょ！
-ShowTextBox "!!! 3F2D3C 7"
-WaitTextBox
-# 正直に答えるにょ
-# っ！店長しゃんは
-# 虫歯あるにょ？
-ShowTextBox "!!! 3F2D3C 8"
-WaitTextBox
-# …ある
-# ない！
-ShowSelMenu09 2 "!!! 3F2D3C 9"
-JumpOnSelection 2 0 1 0
-Label 1
-ShowChara 1 0 10
-# さすが店長しゃん
-# にょ！
-ShowTextBox "!!! 3F2D3C 10"
-WaitTextBox
-# やっぱり歯磨きは
-# 大切にょっ…とい
-# うことで、この話
-# は終わりにするに
-# ょ！
-ShowTextBox "!!! 3F2D3C 11"
-WaitTextBox
-ShowChara 2 2 55
-# その態度、あやし
-# いわ…でじこって
-# ひょっとして、虫
-# 歯があるの？
-ShowTextBox "!!! 3F2D3C 12"
-WaitTextBox
-ShowChara 1 1 15
-# ぎくっ！そんなこ
-# とないにょっ、ほ
-# っとくにょっ！
-ShowTextBox "!!! 3F2D3C 13"
-WaitTextBox
-ShowChara 2 2 55
-# そんなにムキにな
-# らなくてもいいじ
-# ゃない
-ShowTextBox "!!! 3F2D3C 14"
-WaitTextBox
-ShowChara 2 0 26
-# それじゃ、店長さ
-# ん、今日のおやつ
-# はケーキにしまし
-# ょうか？
-ShowTextBox "!!! 3F2D3C 15"
-WaitTextBox
-ShowChara 3 2 18
-# ぷちこには、虫歯
-# はないにゅ！
-ShowTextBox "!!! 3F2D3C 16"
-WaitTextBox
-EndScript
-Label 0
-ShowChara 1 0 10
-# にょにょ、店長し
-# ゃんの歯にも虫歯
-# があるぐらいだか
-# ら
-ShowTextBox "!!! 3F2D3C 17"
-WaitTextBox
-# でじこの歯に虫歯
-# があっても、全然
-# おかしくないにょ
-# ～！
-ShowTextBox "!!! 3F2D3C 18"
-WaitTextBox
-ShowChara 2 2 55
-# ごまかしてる、ご
-# まかしてる…
-ShowTextBox "!!! 3F2D3C 19"
-WaitTextBox
-ShowChara 3 2 21
-# あとで痛い目を見
-# るパターンにゅ
-ShowTextBox "!!! 3F2D3C 20"
-WaitTextBox
-Fade 1 120
-Wait 60
-SetBG 124
-Fade 0 1
-ShowChara 3 0 0
-# 店長さん、起きるにゅ
-ShowTextBox "!!! 3F2D3C 21"
-WaitTextBox
-# …………
-ShowTextBox "!!! 3F2D3C 22"
-WaitTextBox
-# 店長さん、起きるにゅっ！
-ShowTextBox "!!! 3F2D3C 23"
-WaitTextBox
-Fade 1 1
-SetBG 123
-Fade 0 30
-Fade 3 1
-SetBG 22
-Fade 2 30
-# やっと起きたにゅ…
-# よく聞くにゅ！
-ShowTextBox "!!! 3F2D3C 24"
-WaitTextBox
-# ぷちこは天からつかわ
-# された、虫歯の大天使
-# にゅ
-ShowTextBox "!!! 3F2D3C 25"
-WaitTextBox
-# 今から問答無用で虫歯
-# を治すにゅ
-ShowTextBox "!!! 3F2D3C 26"
-WaitTextBox
-# さぁ、覚悟するにゅ！
-ShowTextBox "!!! 3F2D3C 27"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-SetBG 111
-Fade 0 30
-ShowChara 3 1 17
-# 店長さん、おはよ
-# うにゅ
-ShowTextBox "!!! 3F2D3C 28"
-WaitTextBox
-# にゅっ…？
-ShowTextBox "!!! 3F2D3C 29"
-WaitTextBox
-ShowChara 1 2 8
-# にょにょ？なんか
-# 店長しゃんが青い
-# 顔して逃げてくに
-# ょ…？
-ShowTextBox "!!! 3F2D3C 30"
-WaitTextBox
-# ぷちこ、店長しゃ
-# んに何かしたのか
-# にょ？
-ShowTextBox "!!! 3F2D3C 31"
-WaitTextBox
-ShowChara 3 1 17
-# 何もしてないにゅ
-ShowTextBox "!!! 3F2D3C 32"
-WaitTextBox
-ShowChara 1 2 8
-# う～ん、おかしな
-# こともあるにょ～
-ShowTextBox "!!! 3F2D3C 33"
-WaitTextBox
-EndScript
+DSCBase $3F2D3C Subscript 0 Unk08 3 134 93 8 112 10 3 SetBG 111 Fade 0 30 ShowChara 8 1 1 ShowTextBox "Looking at the calendar, it's dental health week from this week."
+WaitTextBox ShowTextBox "Manager, what's the cavities ... Mugyu!"
+WaitTextBox ShowChara 1 1 8 ShowTextBox "Manager, I'll ignore the strange question of Gema now!"
+WaitTextBox ShowChara 2 2 22 ShowTextBox "Celebrities often say that teeth are life-threatening. Caries is ridiculous!"
+WaitTextBox ShowChara 2 0 26 ShowTextBox "Of course, I brush my teeth every day, so it's shiny!"
+WaitTextBox ShowChara 1 1 8 ShowTextBox "Nyo! I don't think I'm going to say that!"
+WaitTextBox ShowChara 2 2 26 ShowTextBox "Ah, isn't that Di Gi Charat having cavities?"
+WaitTextBox ShowChara 1 1 9 ShowTextBox "One thing that is inconvenient is to shake the store manager!"
+WaitTextBox ShowTextBox "I'll answer honestly! The store manager has cavities, right?"
+WaitTextBox ShowSelMenu09 2 "... no!"
+JumpOnSelection 2 0 1 0 Label 1 ShowChara 1 0 10 ShowTextBox "As expected, the store manager!"
+WaitTextBox ShowTextBox "After all, brushing your teeth is important ... So, let's end this story!"
+WaitTextBox ShowChara 2 2 55 ShowTextBox "That attitude is suspicious ... Di Gi Charat may have cavities?"
+WaitTextBox ShowChara 1 1 15 ShowTextBox "Giku! That's not the case, especially!"
+WaitTextBox ShowChara 2 2 55 ShowTextBox "You don't have to be so crazy"
+WaitTextBox ShowChara 2 0 26 ShowTextBox "Then, manager, should I make a cake for today's snack?"
+WaitTextBox ShowChara 3 2 18 ShowTextBox "Puchiko has no cavities!"
+WaitTextBox EndScript Label 0 ShowChara 1 0 10 ShowTextBox "Nyonyo, the manager's teeth also have cavities."
+WaitTextBox ShowTextBox "Even if Di Gi Charat has cavities, it's not strange at all!"
+WaitTextBox ShowChara 2 2 55 ShowTextBox "I'm cheating, I'm cheating ..."
+WaitTextBox ShowChara 3 2 21 ShowTextBox "Pattern to see painful eyes later"
+WaitTextBox Fade 1 120 Wait 60 SetBG 124 Fade 0 1 ShowChara 3 0 0 ShowTextBox "Manager, get up"
+WaitTextBox ShowTextBox "…………"
+WaitTextBox ShowTextBox "Manager, get up!"
+WaitTextBox Fade 1 1 SetBG 123 Fade 0 30 Fade 3 1 SetBG 22 Fade 2 30 ShowTextBox "I finally got up ... I often hear it!"
+WaitTextBox ShowTextBox "Puchiko is an archangel with cavities sent from heaven."
+WaitTextBox ShowTextBox "From now on, no questions asked and heal cavities."
+WaitTextBox ShowTextBox "Now, be prepared!"
+WaitTextBox EndScript Subscript 1 SetBG 111 Fade 0 30 ShowChara 3 1 17 ShowTextBox "Good morning, store manager"
+WaitTextBox ShowTextBox "Nyu ...?"
+WaitTextBox ShowChara 1 2 8 ShowTextBox "Nyonyo? Somehow the store manager has a blue face and runs away ...?"
+WaitTextBox ShowTextBox "Puchiko, what did you do to the manager?"
+WaitTextBox ShowChara 3 1 17 ShowTextBox "I'm not doing anything"
+WaitTextBox ShowChara 1 2 8 ShowTextBox "Hmmm, there are some strange things"
+WaitTextBox EndScript 

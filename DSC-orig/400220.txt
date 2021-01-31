@@ -1,0 +1,308 @@
+DSCBase $400220
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 31
+# む～～っ…
+ShowTextBox "!!! 400220 0"
+WaitTextBox
+ShowChara 5 2 35
+# どうしたというの
+# だろう？先日から
+# ピョコラ様が不機
+# 嫌なご様子…
+ShowTextBox "!!! 400220 1"
+WaitTextBox
+ShowChara 6 2 40
+# 困ったことに、団
+# 員たちもそれが気
+# になって仕事がお
+# ろそかになってい
+# るようです…
+ShowTextBox "!!! 400220 2"
+WaitTextBox
+ShowChara 5 2 35
+# …というわけでク
+# ウ、それとなく探
+# って欲しい
+ShowTextBox "!!! 400220 3"
+WaitTextBox
+ShowChara 7 2 47
+# 分かった！
+ShowTextBox "!!! 400220 4"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 7 2 48
+# おーい、ぴよこ！
+ShowTextBox "!!! 400220 5"
+WaitTextBox
+ShowChara 4 1 31
+# …何ぴょ？
+ShowTextBox "!!! 400220 6"
+WaitTextBox
+ShowChara 7 2 47
+# なんでそんなに不
+# 機嫌そうにしてる
+# んだ？
+ShowTextBox "!!! 400220 7"
+WaitTextBox
+ShowChara 6 2 45
+# （ひぃーっ、まっ
+# すぐすぎる！）
+ShowTextBox "!!! 400220 8"
+WaitTextBox
+ShowChara 5 2 39
+# （落ち着けカイ…
+# こうなったら見守
+# るしかない！）
+ShowTextBox "!!! 400220 9"
+WaitTextBox
+ShowChara 4 1 28
+# ………………
+ShowTextBox "!!! 400220 10"
+WaitTextBox
+ShowChara 7 2 47
+# ………………
+ShowTextBox "!!! 400220 11"
+WaitTextBox
+ShowChara 5 2 35
+# （とりあえず会話
+# は進んでいるよう
+# だ…）
+ShowTextBox "!!! 400220 12"
+WaitTextBox
+ShowChara 4 1 31
+# ………………
+ShowTextBox "!!! 400220 13"
+WaitTextBox
+ShowChara 7 2 48
+# ………………
+ShowTextBox "!!! 400220 14"
+WaitTextBox
+ShowChara 6 2 40
+# （むっ、戻ってき
+# た！）
+ShowTextBox "!!! 400220 15"
+WaitTextBox
+ShowChara 5 2 35
+# で、クウ、ピョコ
+# ラ様は何と？
+ShowTextBox "!!! 400220 16"
+WaitTextBox
+ShowChara 7 1 47
+# “毎日毎日、仕事
+# ばかりでちっとも
+# おもしろくないぴ
+# ょ～～っ！！”…
+# って言ってた
+ShowTextBox "!!! 400220 17"
+WaitTextBox
+ShowChara 6 2 43
+# そんなこと言われ
+# ても、まだ一週間
+# しか経ってないん
+# だけどな…
+ShowTextBox "!!! 400220 18"
+WaitTextBox
+ShowChara 7 1 48
+# だから“どこか外
+# に遊びに行きたい
+# ぴょ～！”…とも
+# 言ってた！
+ShowTextBox "!!! 400220 19"
+WaitTextBox
+ShowChara 5 2 37
+# うむむ…ピョコラ
+# 様にも困ったもの
+# だ…
+ShowTextBox "!!! 400220 20"
+WaitTextBox
+ShowChara 6 2 40
+# しかしリク元帥、
+# ピョコラ様を助け
+# 見守るのがわれら
+# の役目…
+ShowTextBox "!!! 400220 21"
+WaitTextBox
+ShowChara 5 2 39
+# 店長、もうしわけ
+# ないが、ピョコラ
+# 様の願いをかなえ
+# てくれないか…？
+ShowTextBox "!!! 400220 22"
+WaitTextBox
+ShowChara 7 1 48
+# 俺はピクニックが
+# いいと思うな
+# 春だし！
+ShowTextBox "!!! 400220 23"
+WaitTextBox
+ShowChara 6 2 46
+# （こいつ、ひょっ
+# としたら自分が行
+# きたいだけだった
+# り…）
+ShowTextBox "!!! 400220 24"
+WaitTextBox
+# ゆるす
+# だめ！
+ShowSelMenu09 2 "!!! 400220 25"
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 7 1 49
+# えーっ、いいじゃ
+# ないか、ピクニッ
+# クに行こうぜ！
+ShowTextBox "!!! 400220 26"
+WaitTextBox
+ShowChara 6 2 40
+# 店長にも都合があ
+# るんだ、ここはい
+# さぎよくあきらめ
+# るべきです
+ShowTextBox "!!! 400220 27"
+WaitTextBox
+ShowChara 5 2 35
+# 仕方ない、他の策
+# を考えよう…
+ShowTextBox "!!! 400220 28"
+WaitTextBox
+EndScript
+Label 0
+ShowChara 7 1 47
+# よーし、善は急げ
+# だ！
+ShowTextBox "!!! 400220 29"
+WaitTextBox
+ShowChara 7 0 48
+# おーい、ぴよこ～
+# ～っ！
+ShowTextBox "!!! 400220 30"
+WaitTextBox
+ShowChara 6 2 40
+# こういうときは反
+# 応が早いな…
+ShowTextBox "!!! 400220 31"
+WaitTextBox
+ShowChara 5 2 35
+# では店長、準備の
+# 方、頼んだぞ
+ShowTextBox "!!! 400220 32"
+WaitTextBox
+ShowChara 5 0 57
+# ん…準備はイヤだ
+# と？
+# 何を言うのだ店長
+# ！
+ShowTextBox "!!! 400220 33"
+WaitTextBox
+# 私たちは地球に来
+# たばかり！
+# ピクニックの準備
+# などできるわけが
+# ないだろう！？
+ShowTextBox "!!! 400220 34"
+WaitTextBox
+ShowChara 5 0 39
+# …ということで、
+# 店長、よろしくお
+# 願いする！
+ShowTextBox "!!! 400220 35"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 117
+Fade 0 30
+ShowChara 7 1 48
+# も～りへ～
+# ゆきましょう、
+# おじょうさん～♪
+ShowTextBox "!!! 400220 36"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょっぴょ～
+# ぴょっぴょ～っ♪
+ShowTextBox "!!! 400220 37"
+WaitTextBox
+# さーっ、どんどん
+# 行くぴょーっ！
+ShowTextBox "!!! 400220 38"
+WaitTextBox
+ShowChara 7 1 48
+# どんどん行くぞー
+# っ！
+ShowTextBox "!!! 400220 39"
+WaitTextBox
+ShowChara 6 2 44
+# あっ、ピョコラ様
+# 先は長いのですか
+# ら、そんなに急が
+# ずとも…
+ShowTextBox "!!! 400220 40"
+WaitTextBox
+ShowChara 5 1 36
+# まぁ、クウもつい
+# てるし、大丈夫だ
+# ろう…
+ShowTextBox "!!! 400220 41"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 7 1 52
+# あっ…ぴよこ、あ
+# んなところに野イ
+# チゴみっけ！
+ShowTextBox "!!! 400220 42"
+WaitTextBox
+ShowChara 4 2 29
+# いただきぴょ～
+ShowTextBox "!!! 400220 43"
+WaitTextBox
+Fade 3 30
+Unk08 4 110 82 22 108 10 3
+Unk08 7 210 86 108 108 10 3
+SetBG 82
+Fade 2 30
+ShowChara 4 0 0
+# よいしょ
+# よいしょ…
+ShowTextBox "!!! 400220 44"
+WaitTextBox
+ShowChara 7 0 0
+# 俺も採るっ！
+ShowTextBox "!!! 400220 45"
+WaitTextBox
+ShowChara 4 0 0
+# せっせ、せっせ…
+ShowTextBox "!!! 400220 46"
+WaitTextBox
+ShowChara 7 0 0
+# せっせ、せっせ…
+ShowTextBox "!!! 400220 47"
+WaitTextBox
+ShowChara 4 0 0
+# こんなにたくさん野イ
+# チゴが採れたぴょ～！
+ShowTextBox "!!! 400220 48"
+WaitTextBox
+ShowChara 7 0 0
+# よーし、これで今夜は
+# 野イチゴづくしだ！
+ShowTextBox "!!! 400220 49"
+WaitTextBox
+ShowChara 4 0 0
+# うっ、それはちょっと
+# イヤかもぴょ…
+ShowTextBox "!!! 400220 50"
+WaitTextBox
+EndScript

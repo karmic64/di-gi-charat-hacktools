@@ -1,209 +1,34 @@
-DSCBase $3F61CC
-
-
-
-
-Subscript 0
-SetBG 111
-Fade 0 30
-ShowChara 8 1 1
-# おや、店長さん、
-# そんなにたくさん
-# 写真を広げて、い
-# ったい何をやって
-# るところゲマ？
-ShowTextBox "!!! 3F61CC 0"
-WaitTextBox
-# 写真選び…？
-ShowTextBox "!!! 3F61CC 1"
-WaitTextBox
-# ふうむ、来週から
-# 始まる動物愛護週
-# 間の宣伝ポスター
-# ゲマ…
-ShowTextBox "!!! 3F61CC 2"
-WaitTextBox
-ShowChara 8 0 53
-# 店長さんも、いろ
-# いろつきあいが広
-# いゲマ
-ShowTextBox "!!! 3F61CC 3"
-WaitTextBox
-ShowChara 8 0 54
-# えっ、どれを選ん
-# だらいいかって？
-ShowTextBox "!!! 3F61CC 4"
-WaitTextBox
-ShowChara 8 0 53
-# むむむ、ゲマの眼
-# 力にお任せするゲ
-# マ…
-ShowTextBox "!!! 3F61CC 5"
-WaitTextBox
-# 長年でじこのお目
-# 付けをやってるの
-# はダテではないゲ
-# マ…
-ShowTextBox "!!! 3F61CC 6"
-WaitTextBox
-ShowChara 8 0 1
-# …………
-ShowTextBox "!!! 3F61CC 7"
-WaitTextBox
-# …………
-ShowTextBox "!!! 3F61CC 8"
-WaitTextBox
-# ここは奇をてらう
-# より、セオリーど
-# おりにいくのがよ
-# いと思うゲマ…
-ShowTextBox "!!! 3F61CC 9"
-WaitTextBox
-ShowChara 8 0 53
-# …そうすると、こ
-# のぷちこと動物の
-# ツーショット写真
-# なんかがベストと
-# 思うゲマ！
-ShowTextBox "!!! 3F61CC 10"
-WaitTextBox
-# それにする
-# いまいち…
-ShowSelMenu09 2 "!!! 3F61CC 11"
-JumpOnSelection 2 0 1 0
-Label 1
-ShowChara 8 0 54
-# い、いまいち？
-ShowTextBox "!!! 3F61CC 12"
-WaitTextBox
-ShowChara 8 0 2
-# お、お役にたてな
-# くて申しわけない
-# ゲマ…
-ShowTextBox "!!! 3F61CC 13"
-WaitTextBox
-# じゃますると悪い
-# から、ゲマはもう
-# 行くゲマ…
-ShowTextBox "!!! 3F61CC 14"
-WaitTextBox
-EndScript
-Label 0
-# 子供と動物…この
-# ふたつがそろえば
-# 好感度アップ間違
-# いないゲマ！
-ShowTextBox "!!! 3F61CC 15"
-WaitTextBox
-# おまけに、お店の
-# 宣伝にもなって、
-# まったく、いうこ
-# となしゲマ！
-ShowTextBox "!!! 3F61CC 16"
-WaitTextBox
-# ポスターが完成す
-# る来週が楽しみゲ
-# マ～！
-ShowTextBox "!!! 3F61CC 17"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-SetBG 111
-Fade 0 30
-ShowChara 1 1 15
-# にょにょーっ、何
-# にょ、あのポスタ
-# ーはっ！
-ShowTextBox "!!! 3F61CC 18"
-WaitTextBox
-ShowChara 2 2 23
-# あっ、でじこも見
-# たのね！
-ShowTextBox "!!! 3F61CC 19"
-WaitTextBox
-Fade 1 30
-SetBG 30
-Unk08 3 120 99 8 16 10 2
-Fade 0 30
-Wait 60
-ShowChara 3 0 0
-# ふれあい・大切に…
-ShowTextBox "!!! 3F61CC 20"
-WaitTextBox
-Fade 1 30
-SetBG 111
-Fade 0 30
-ShowChara 2 2 23
-# あのポスター、か
-# わいいわよね！
-ShowTextBox "!!! 3F61CC 21"
-WaitTextBox
-# 話を聞いたら、店
-# 長さんが作ったポ
-# スターだそうじゃ
-# ない！
-ShowTextBox "!!! 3F61CC 22"
-WaitTextBox
-# いいセンスね！
-# 店長さん、見直し
-# たわ！
-ShowTextBox "!!! 3F61CC 23"
-WaitTextBox
-ShowChara 1 1 8
-# それで、そのぷち
-# こはどこ行ったに
-# ょ？
-ShowTextBox "!!! 3F61CC 24"
-WaitTextBox
-ShowChara 2 2 22
-# それが店の奥から
-# 出てこないのよ…
-ShowTextBox "!!! 3F61CC 25"
-WaitTextBox
-# さっきから、ポス
-# ターを見たお客さ
-# んが次々やって来
-# てるのに、どうし
-# たのかしら？
-ShowTextBox "!!! 3F61CC 26"
-WaitTextBox
-ShowChara 1 1 9
-# きっと照れてるん
-# だにょ
-ShowTextBox "!!! 3F61CC 27"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 8 1 53
-# ぷちこを見に、お
-# 客さんがたくさん
-# 来てるゲマ！
-ShowTextBox "!!! 3F61CC 28"
-WaitTextBox
-# なのに、どうして
-# そんなところにか
-# くれてるゲマ～？
-ShowTextBox "!!! 3F61CC 29"
-WaitTextBox
-ShowChara 3 2 17
-# ぷ、ぷちこは必要
-# 以上に目立つのは
-# 好きじゃないにゅ
-# …
-ShowTextBox "!!! 3F61CC 30"
-WaitTextBox
-ShowChara 8 1 53
-# そんなに照れなく
-# てもいいゲマ…
-ShowTextBox "!!! 3F61CC 31"
-WaitTextBox
-ShowChara 3 2 17
-# ほ、ほっとくにゅ
-# ーっ…
-ShowTextBox "!!! 3F61CC 32"
-WaitTextBox
-EndScript
+DSCBase $3F61CC Subscript 0 SetBG 111 Fade 0 30 ShowChara 8 1 1 ShowTextBox "Oh, the store manager, what are you doing with so many photos spread out?"
+WaitTextBox ShowTextBox "Choose a photo ...?"
+WaitTextBox ShowTextBox "Hmmm, a promotional poster for Animal Protection Week starting next week ..."
+WaitTextBox ShowChara 8 0 53 ShowTextBox "The store manager also has a wide range of relationships"
+WaitTextBox ShowChara 8 0 54 ShowTextBox "Well, which one should I choose?"
+WaitTextBox ShowChara 8 0 53 ShowTextBox "Hmmm, Gema who leaves it to Gema's eyes ..."
+WaitTextBox ShowTextBox "It's not a bad guy who has been doing this for many years ..."
+WaitTextBox ShowChara 8 0 1 ShowTextBox "…………"
+WaitTextBox ShowTextBox "…………"
+WaitTextBox ShowTextBox "I think it's better to follow the theory here than to get strange ..."
+WaitTextBox ShowChara 8 0 53 ShowTextBox "… Then, I think this two-shot photo of petite and animals is the best!"
+WaitTextBox ShowSelMenu09 2 "Not good enough to do it ..."
+JumpOnSelection 2 0 1 0 Label 1 ShowChara 8 0 54 ShowTextBox "Isn't it good?"
+WaitTextBox ShowChara 8 0 2 ShowTextBox "Oh, I'm sorry I'm not useful ..."
+WaitTextBox ShowTextBox "It's bad to get in the way, so Gema is already going ..."
+WaitTextBox EndScript Label 0 ShowTextBox "Children and animals ... If these two are together, there is no doubt that your liking will increase!"
+WaitTextBox ShowTextBox "In addition, it also serves as a promotion for the store, and there is nothing to say!"
+WaitTextBox ShowTextBox "I'm looking forward to next week when the poster will be completed!"
+WaitTextBox EndScript Subscript 1 SetBG 111 Fade 0 30 ShowChara 1 1 15 ShowTextBox "Nyonyo, what the poster is!"
+WaitTextBox ShowChara 2 2 23 ShowTextBox "Oh, you saw Di Gi Charat too!"
+WaitTextBox Fade 1 30 SetBG 30 Unk08 3 120 99 8 16 10 2 Fade 0 30 Wait 60 ShowChara 3 0 0 ShowTextBox "Contact and cherish ..."
+WaitTextBox Fade 1 30 SetBG 111 Fade 0 30 ShowChara 2 2 23 ShowTextBox "That poster is cute, isn't it?"
+WaitTextBox ShowTextBox "When I heard the story, it wasn't the poster made by the store manager!"
+WaitTextBox ShowTextBox "Good sense! The store manager has reviewed it!"
+WaitTextBox ShowChara 1 1 8 ShowTextBox "So where did that Puchiko go?"
+WaitTextBox ShowChara 2 2 22 ShowTextBox "It doesn't come out from the back of the store ..."
+WaitTextBox ShowTextBox "I wonder what happened when the customers who saw the posters came one after another from a while ago."
+WaitTextBox ShowChara 1 1 9 ShowTextBox "I'm sure you're shy"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 8 1 53 ShowTextBox "A lot of customers are coming to see Puchiko!"
+WaitTextBox ShowTextBox "But why is it hidden in such a place?"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "I don't like Puchiko to stand out more than necessary ..."
+WaitTextBox ShowChara 8 1 53 ShowTextBox "Gema that doesn't have to be so shy ..."
+WaitTextBox ShowChara 3 2 17 ShowTextBox "Ho, hot, especially ..."
+WaitTextBox EndScript 

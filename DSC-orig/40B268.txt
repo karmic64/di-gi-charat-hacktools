@@ -1,0 +1,75 @@
+DSCBase $40B268
+
+
+
+
+Subscript 0
+ShowChara 3 0 17
+# 通信の用意ができたらＡボタンをおすにゅ
+ShowTextBox "!!! 40B268 0"
+EndScript
+
+
+
+Subscript 1
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 2
+# とりやめるにゅ
+ShowTextBox "!!! 40B268 1"
+Wait 60
+EndScript
+
+
+
+Subscript 3
+# 通信待ちにゅ…
+ShowTextBox "!!! 40B268 2"
+EndScript
+
+
+
+Subscript 4
+# 通信中にゅ…
+ShowTextBox "!!! 40B268 3"
+EndScript
+
+
+
+Subscript 5
+# 通信終了にゅ
+# Ａボタンを押して登録するにゅ
+ShowTextBox "!!! 40B268 4"
+EndScript
+
+
+
+Subscript 6
+# 登録したにゅ
+ShowTextBox "!!! 40B268 5"
+WaitTextBox
+# $0店長さんのめいしをすぐ見るにゅ？
+ShowTextBox "!!! 40B268 6"
+WaitTextBox
+# すぐ見る
+# あとで
+ShowSelMenu09 2 "!!! 40B268 7"
+EndScript
+
+
+
+Subscript 7
+# 通信がうまくいかなかったにゅ…
+ShowTextBox "!!! 40B268 8"
+EndScript
+
+
+
+Subscript 8
+# $0店長さんを登録する場所をえらぶにゅ
+ShowTextBox "!!! 40B268 9"
+EndScript

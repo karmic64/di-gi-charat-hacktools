@@ -1,362 +1,57 @@
-DSCBase $3E3970
-
-
-
-
-Subscript 0
-ShowChara 2 4 22
-# $1の$2は隠し味に、$3を使っているそうよ
-ShowTextBox "!!! 3E3970 0"
-WaitTextBox
-# …$1６００年の歴史は伊達じゃないわねぇ
-ShowTextBox "!!! 3E3970 1"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 2 4 22
-# $1さんは裸一貫から、$2で身を立てたのよ
-ShowTextBox "!!! 3E3970 2"
-WaitTextBox
-# リッパよね～♪
-ShowTextBox "!!! 3E3970 3"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 2 4 55
-# ねー、誰か手が空いてたら、$1やってくれない？
-ShowTextBox "!!! 3E3970 4"
-WaitTextBox
-ShowChara 2 0 25
-# アタシ$2で手一杯なの～
-ShowTextBox "!!! 3E3970 5"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 2 4 22
-# アタシね、昔$1を飼ってたのよ
-ShowTextBox "!!! 3E3970 6"
-WaitTextBox
-ShowChara 2 0 23
-# 知ってる？
-# $1って$2が大好物なのよ
-ShowTextBox "!!! 3E3970 7"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-ShowChara 2 4 22
-# 最近$2に、$1の専門店が増えたんですって
-ShowTextBox "!!! 3E3970 8"
-WaitTextBox
-# うちのお店も負けられないわね
-ShowTextBox "!!! 3E3970 9"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-ShowChara 2 4 22
-# $1もいいけど、$2もいいわよね～
-ShowTextBox "!!! 3E3970 10"
-WaitTextBox
-ShowChara 2 0 23
-# アタシって、意外とミーハーかも？
-ShowTextBox "!!! 3E3970 11"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-ShowChara 2 4 22
-# 今度$1と$2のあいだに、新しく$3の路線が開通するそうよ
-ShowTextBox "!!! 3E3970 12"
-WaitTextBox
-ShowChara 2 0 23
-# $4に行くのに、便利になるわね♪
-ShowTextBox "!!! 3E3970 13"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-ShowChara 2 4 22
-# $1さんは『紅い$2』の異名を持っているのよ
-ShowTextBox "!!! 3E3970 14"
-WaitTextBox
-ShowChara 2 0 23
-# 尊敬しちゃうわよね！
-ShowTextBox "!!! 3E3970 15"
-WaitTextBox
-EndScript
-
-
-
-Subscript 8
-ShowChara 2 4 22
-# $1が終ったら、次は$2ね…
-ShowTextBox "!!! 3E3970 16"
-WaitTextBox
-# …はぁ、なんでこんなに忙しいのかしら
-ShowTextBox "!!! 3E3970 17"
-WaitTextBox
-EndScript
-
-
-
-Subscript 9
-ShowChara 2 4 23
-# $1には$2を連れている$3の銅像があるのよ
-ShowTextBox "!!! 3E3970 18"
-WaitTextBox
-EndScript
-
-
-
-Subscript 10
-ShowChara 2 4 27
-# そんなに$1が有名なら、サインもらっておけばよかった～！
-ShowTextBox "!!! 3E3970 19"
-WaitTextBox
-# このあいだ、$2で見かけたのよ～！
-ShowTextBox "!!! 3E3970 20"
-WaitTextBox
-EndScript
-
-
-
-Subscript 11
-ShowChara 2 4 22
-# $1といえば、$2の大食いで有名よね
-ShowTextBox "!!! 3E3970 21"
-WaitTextBox
-EndScript
-
-
-
-Subscript 12
-ShowChara 2 4 22
-# あら『$1』なら、このまえ$2が何冊か買って行ったわよ
-ShowTextBox "!!! 3E3970 22"
-WaitTextBox
-ShowChara 2 0 25
-# ひょっとしてファンなのかしら？
-ShowTextBox "!!! 3E3970 23"
-WaitTextBox
-EndScript
-
-
-
-Subscript 13
-ShowChara 2 4 22
-# 知ってる？
-# $1って、お吸い物に入れるとおいしいんだって
-ShowTextBox "!!! 3E3970 24"
-WaitTextBox
-EndScript
-
-
-
-Subscript 14
-ShowChara 2 4 27
-# あ～！$1が$2と共演したドラマ『となりの$3』見損ねちゃった
-ShowTextBox "!!! 3E3970 25"
-WaitTextBox
-ShowChara 2 0 22
-# あれって、$1が$3の役を演じる、今注目のドラマなの
-ShowTextBox "!!! 3E3970 26"
-WaitTextBox
-# 店長さん、知ってます？
-ShowTextBox "!!! 3E3970 27"
-WaitTextBox
-EndScript
-
-
-
-Subscript 15
-ShowChara 2 4 22
-# 学校で習ったんだ
-# けど、$1のお風呂って$2がたくさん入ってるんですって…
-ShowTextBox "!!! 3E3970 28"
-WaitTextBox
-ShowChara 2 0 25
-# それって健康にいいのかしら？
-ShowTextBox "!!! 3E3970 29"
-WaitTextBox
-EndScript
-
-
-
-Subscript 16
-ShowChara 2 4 23
-# $1か…
-# なつかしいわね
-ShowTextBox "!!! 3E3970 30"
-WaitTextBox
-# 小さい頃、よくやったわ
-ShowTextBox "!!! 3E3970 31"
-WaitTextBox
-EndScript
-
-
-
-Subscript 17
-ShowChara 2 4 22
-# そうそう$1の$2園は今、花が満開らしいわよ
-ShowTextBox "!!! 3E3970 32"
-WaitTextBox
-ShowChara 2 0 23
-# それってステキだ
-# けど…少し季節ハズレよね？
-ShowTextBox "!!! 3E3970 33"
-WaitTextBox
-EndScript
-
-
-
-Subscript 18
-ShowChara 2 4 23
-# $1ね
-# 急いでまじんがっ
-# ぱに、おつかいさせるわ
-ShowTextBox "!!! 3E3970 34"
-WaitTextBox
-ShowChara 9 4 7
-# …………
-ShowTextBox "!!! 3E3970 35"
-WaitTextBox
-ShowChara 2 4 22
-# まじんがっぱ、ゴー！
-ShowTextBox "!!! 3E3970 36"
-WaitTextBox
-EndScript
-
-
-
-Subscript 19
-ShowChara 2 4 22
-# 『$1』の作者って、実は$2なんだって…
-ShowTextBox "!!! 3E3970 37"
-WaitTextBox
-# 知ってた？
-ShowTextBox "!!! 3E3970 38"
-WaitTextBox
-EndScript
-
-
-
-Subscript 20
-ShowChara 2 4 22
-# 『$1』って最近つまんないわよね～
-ShowTextBox "!!! 3E3970 39"
-WaitTextBox
-ShowChara 2 0 55
-# アタシ、見るのやめちゃった
-ShowTextBox "!!! 3E3970 40"
-WaitTextBox
-EndScript
-
-
-
-Subscript 21
-ShowChara 2 4 22
-# まだ放送してたの
-# 『$1』？
-ShowTextBox "!!! 3E3970 41"
-WaitTextBox
-# もうとっくに終っ
-# ちゃったと思って
-# た
-ShowTextBox "!!! 3E3970 42"
-WaitTextBox
-EndScript
-
-
-
-Subscript 22
-ShowChara 2 4 22
-# 『$1』って何巻まで出てたかしら？
-ShowTextBox "!!! 3E3970 43"
-WaitTextBox
-ShowChara 2 0 55
-# あれもすごい人気よね～
-ShowTextBox "!!! 3E3970 44"
-WaitTextBox
-EndScript
-
-
-
-Subscript 23
-ShowChara 2 4 55
-# ふう～
-# この季節、$1するのって疲れるわよね
-ShowTextBox "!!! 3E3970 45"
-WaitTextBox
-ShowChara 2 0 24
-# なにがって、とにかくほこりが目に入って大変なの～
-ShowTextBox "!!! 3E3970 46"
-WaitTextBox
-ShowChara 9 4 7
-# …………
-ShowTextBox "!!! 3E3970 47"
-WaitTextBox
-ShowChara 2 4 25
-# あら、まじんがっ
-# ぱ…どうしたの？
-ShowTextBox "!!! 3E3970 48"
-WaitTextBox
-ShowChara 2 0 23
-# 目薬くれるの？
-# ありがとう♪
-ShowTextBox "!!! 3E3970 49"
-WaitTextBox
-EndScript
-
-
-
-Subscript 24
-ShowChara 2 4 22
-# そういえばこのま
-# え、学校の前に$1が止まってたわ
-ShowTextBox "!!! 3E3970 50"
-WaitTextBox
-# $2が降りて来た時は、ビックリしちゃった
-ShowTextBox "!!! 3E3970 51"
-WaitTextBox
-ShowChara 2 0 55
-# お金ってあるとこ
-# には、あるのね
-ShowTextBox "!!! 3E3970 52"
-WaitTextBox
-EndScript
-
-
-
-Subscript 25
-ShowChara 2 4 56
-# 赤い$1…
-# それに乗った王子様がアタシを迎えに来てくれるの…
-ShowTextBox "!!! 3E3970 53"
-WaitTextBox
-ShowChara 2 0 25
-# それがアタシの夢…
-ShowTextBox "!!! 3E3970 54"
-WaitTextBox
-ShowChara 2 0 55
-# な～んて、そんなわけないか…
-ShowTextBox "!!! 3E3970 55"
-WaitTextBox
-EndScript
+DSCBase $3E3970 Subscript 0 ShowChara 2 4 22 ShowTextBox "It seems that $2 of $1 uses $3 as a secret ingredient."
+WaitTextBox ShowTextBox "… The history of $1600 is not Date"
+WaitTextBox EndScript Subscript 1 ShowChara 2 4 22 ShowTextBox "$1 got up for $2 from being naked"
+WaitTextBox ShowTextBox "It's a ripper ~ ♪"
+WaitTextBox EndScript Subscript 2 ShowChara 2 4 55 ShowTextBox "Hey, if anyone is free, can you give me $1?"
+WaitTextBox ShowChara 2 0 25 ShowTextBox "I'm full with $2 ~"
+WaitTextBox EndScript Subscript 3 ShowChara 2 4 22 ShowTextBox "I used to have $1"
+WaitTextBox ShowChara 2 0 23 ShowTextBox "I know? $1 and $2 are my favorite"
+WaitTextBox EndScript Subscript 4 ShowChara 2 4 22 ShowTextBox "Recently, the number of $1 specialty stores has increased to $2."
+WaitTextBox ShowTextBox "I can't lose to our shop"
+WaitTextBox EndScript Subscript 5 ShowChara 2 4 22 ShowTextBox "$1 is good, but $2 is also good ~"
+WaitTextBox ShowChara 2 0 23 ShowTextBox "Maybe I'm unexpectedly Miha?"
+WaitTextBox EndScript Subscript 6 ShowChara 2 4 22 ShowTextBox "A new $3 line will open between $1 and $2 this time."
+WaitTextBox ShowChara 2 0 23 ShowTextBox "It will be convenient to go to $4 ♪"
+WaitTextBox EndScript Subscript 7 ShowChara 2 4 22 ShowTextBox "$1 has the nickname \"Red $2\""
+WaitTextBox ShowChara 2 0 23 ShowTextBox "I respect you!"
+WaitTextBox EndScript Subscript 8 ShowChara 2 4 22 ShowTextBox "After $1 is over, next is $2 ..."
+WaitTextBox ShowTextBox "... I wonder why I'm so busy"
+WaitTextBox EndScript Subscript 9 ShowChara 2 4 23 ShowTextBox "$1 has a $3 statue with $2"
+WaitTextBox EndScript Subscript 10 ShowChara 2 4 27 ShowTextBox "If $1 is so famous, I should have got a signature!"
+WaitTextBox ShowTextBox "The other day, I saw it for $2 ~!"
+WaitTextBox EndScript Subscript 11 ShowChara 2 4 22 ShowTextBox "Speaking of $1, you're famous for the big eater of $2."
+WaitTextBox EndScript Subscript 12 ShowChara 2 4 22 ShowTextBox "Oh, if it's \"$1\", I bought some $2 books before."
+WaitTextBox ShowChara 2 0 25 ShowTextBox "Maybe you're a fan?"
+WaitTextBox EndScript Subscript 13 ShowChara 2 4 22 ShowTextBox "I know? $1 is delicious when you put it in soup"
+WaitTextBox EndScript Subscript 14 ShowChara 2 4 27 ShowTextBox "Ah! I missed the drama \"My Neighbor $3\" ??where $1 co-starred with $2."
+WaitTextBox ShowChara 2 0 22 ShowTextBox "That's a drama that's getting a lot of attention right now, with $1 playing the role of $3."
+WaitTextBox ShowTextBox "Do you know the manager?"
+WaitTextBox EndScript Subscript 15 ShowChara 2 4 22 ShowTextBox "I learned at school that a $1 bath has a lot of $2 ..."
+WaitTextBox ShowChara 2 0 25 ShowTextBox "Is it good for your health?"
+WaitTextBox EndScript Subscript 16 ShowChara 2 4 23 ShowTextBox "$1 ... I miss you"
+WaitTextBox ShowTextBox "I used to do it when I was little"
+WaitTextBox EndScript Subscript 17 ShowChara 2 4 22 ShowTextBox "Oh yeah $1 $2 garden seems to be in full bloom now"
+WaitTextBox ShowChara 2 0 23 ShowTextBox "That's nice, but ... it's a little seasonal loss, isn't it?"
+WaitTextBox EndScript Subscript 18 ShowChara 2 4 23 ShowTextBox "$1 Hurry up and let me use it"
+WaitTextBox ShowChara 9 4 7 ShowTextBox "…………"
+WaitTextBox ShowChara 2 4 22 ShowTextBox "Seriously, go!"
+WaitTextBox EndScript Subscript 19 ShowChara 2 4 22 ShowTextBox "The author of \"$1\" is actually $2 ..."
+WaitTextBox ShowTextBox "I knew?"
+WaitTextBox EndScript Subscript 20 ShowChara 2 4 22 ShowTextBox "\"$1\" is boring these days ~"
+WaitTextBox ShowChara 2 0 55 ShowTextBox "I stopped seeing"
+WaitTextBox EndScript Subscript 21 ShowChara 2 4 22 ShowTextBox "\"$1\" that was still on the air?"
+WaitTextBox ShowTextBox "I thought it was over"
+WaitTextBox EndScript Subscript 22 ShowChara 2 4 22 ShowTextBox "How many volumes did \"$1\" come out?"
+WaitTextBox ShowChara 2 0 55 ShowTextBox "That is also very popular ~"
+WaitTextBox EndScript Subscript 23 ShowChara 2 4 55 ShowTextBox "Hmmm, I'm tired of spending $1 this season"
+WaitTextBox ShowChara 2 0 24 ShowTextBox "Anyway, it's hard to get dust in my eyes ~"
+WaitTextBox ShowChara 9 4 7 ShowTextBox "…………"
+WaitTextBox ShowChara 2 4 25 ShowTextBox "Oh, seriously ... what's wrong?"
+WaitTextBox ShowChara 2 0 23 ShowTextBox "Can you give me eye drops? Thank you ♪"
+WaitTextBox EndScript Subscript 24 ShowChara 2 4 22 ShowTextBox "By the way, before this, $1 stopped in front of the school."
+WaitTextBox ShowTextBox "I was surprised when $2 came down"
+WaitTextBox ShowChara 2 0 55 ShowTextBox "Where there is money, there is"
+WaitTextBox EndScript Subscript 25 ShowChara 2 4 56 ShowTextBox "Red $1 ... The prince on it will come to pick me up ..."
+WaitTextBox ShowChara 2 0 25 ShowTextBox "That's my dream ..."
+WaitTextBox ShowChara 2 0 55 ShowTextBox "Hmmm, isn't that the case ..."
+WaitTextBox EndScript 

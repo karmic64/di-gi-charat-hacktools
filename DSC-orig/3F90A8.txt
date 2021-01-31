@@ -1,0 +1,568 @@
+DSCBase $3F90A8
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# もうすぐハロウィ
+# ンだけど、ハロウ
+# ィンが何か知って
+# る？
+ShowTextBox "!!! 3F90A8 0"
+WaitTextBox
+ShowChara 1 2 10
+# もちろんにょ！ハ
+# ロウィンっていう
+# のは、人をおどか
+# すと、おかしをも
+# らえるという、お
+# かしな日にょ！
+ShowTextBox "!!! 3F90A8 1"
+WaitTextBox
+ShowChara 2 1 23
+# じゃ、さっそくだ
+# けど、ハロウィン
+# の日に何のかっこ
+# うをするか、会議
+# して決めましょう
+ShowTextBox "!!! 3F90A8 2"
+WaitTextBox
+ShowChara 3 2 17
+# いきなりすぎにゅ
+ShowTextBox "!!! 3F90A8 3"
+WaitTextBox
+ShowChara 1 2 9
+# まぁまぁ、でじこ
+# は賛成にょ
+ShowTextBox "!!! 3F90A8 4"
+WaitTextBox
+ShowChara 2 1 22
+# とりあえず、アタ
+# シが考えたのはこ
+# んなかんじ
+ShowTextBox "!!! 3F90A8 5"
+WaitTextBox
+# １．かぼちゃ頭
+# ２．ドラキュラ
+# ３．魔女
+# ４．ミイラ男
+# ５．フランケン
+# ６．狼男
+ShowTextBox "!!! 3F90A8 6"
+WaitTextBox
+# どう、何か意見あ
+# るかしら？
+ShowTextBox "!!! 3F90A8 7"
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ～、みん
+# なで同じやつをや
+# るのがいいと思う
+# けど、その場合、
+# ゲマが問題になり
+# そうにょ…
+ShowTextBox "!!! 3F90A8 8"
+WaitTextBox
+ShowChara 8 1 1
+# どうしてゲマ？
+ShowTextBox "!!! 3F90A8 9"
+WaitTextBox
+ShowChara 3 2 17
+# その中でまんまる
+# なのはかぼちゃ頭
+# だけにゅ
+ShowTextBox "!!! 3F90A8 10"
+WaitTextBox
+ShowChara 1 2 9
+# つまり、ゲマが選
+# べるのはそれだけ
+# ということにょ！
+ShowTextBox "!!! 3F90A8 11"
+WaitTextBox
+ShowChara 2 1 25
+# 特にミイラ男なん
+# てダメよね。ゲマ
+# を包帯でぐるぐる
+# 巻きとかにしたら
+# …
+ShowTextBox "!!! 3F90A8 12"
+WaitTextBox
+ShowChara 1 2 8
+# う～ん、ただのバ
+# レーボールになっ
+# てしまうにょ
+ShowTextBox "!!! 3F90A8 13"
+WaitTextBox
+ShowChara 2 1 23
+# あ、それでもいい
+# わね
+ShowTextBox "!!! 3F90A8 14"
+WaitTextBox
+ShowChara 1 2 10
+# おもしろそうだか
+# ら、ちょっとやっ
+# てみるにょ！ぷち
+# こ、包帯の用意に
+# ょ！
+ShowTextBox "!!! 3F90A8 15"
+WaitTextBox
+ShowChara 3 2 18
+# すでに準備はＯＫ
+# にゅ
+ShowTextBox "!!! 3F90A8 16"
+WaitTextBox
+ShowChara 8 1 54
+# ゲ、ゲマのことは
+# いいから、話をハ
+# ロウィンの仮装の
+# ことに戻すゲマ！
+ShowTextBox "!!! 3F90A8 17"
+WaitTextBox
+ShowChara 1 2 8
+# にょっ…はろうぃ
+# んのかそう？
+ShowTextBox "!!! 3F90A8 18"
+WaitTextBox
+ShowChara 2 1 23
+# そうそう、そうい
+# えば、その話をし
+# てたんだっけ
+ShowTextBox "!!! 3F90A8 19"
+WaitTextBox
+ShowChara 8 1 2
+# なんだか、どっと
+# 疲れてきたゲマ…
+ShowTextBox "!!! 3F90A8 20"
+WaitTextBox
+ShowChara 1 2 10
+# でじこは魔女にょ
+# ！
+ShowTextBox "!!! 3F90A8 21"
+WaitTextBox
+# ミイラとかフラン
+# ケンだと、でじこ
+# のかわいさが目立
+# たないにょ
+ShowTextBox "!!! 3F90A8 22"
+WaitTextBox
+ShowChara 2 1 23
+# そうね、アタシも
+# 魔女がいいと思う
+# わ
+ShowTextBox "!!! 3F90A8 23"
+WaitTextBox
+ShowChara 3 2 18
+# ぷちこも魔女にな
+# るにゅ！
+ShowTextBox "!!! 3F90A8 24"
+WaitTextBox
+ShowChara 2 1 22
+# じゃ、衣装はそれ
+# ぞれがそろえてく
+# るってことでいい
+# かしら？
+ShowTextBox "!!! 3F90A8 25"
+WaitTextBox
+ShowChara 1 2 9
+# わかったにょ～。
+# では、今日はこれ
+# で解散にょ！
+ShowTextBox "!!! 3F90A8 26"
+WaitTextBox
+ShowChara 8 1 54
+# ちょ、ちょっと待
+# つゲマ。結局、ゲ
+# マは何の仮装をす
+# ればいいゲマ？
+ShowTextBox "!!! 3F90A8 27"
+WaitTextBox
+ShowChara 2 1 23
+# おつかれさま
+ShowTextBox "!!! 3F90A8 28"
+WaitTextBox
+ShowChara 3 2 17
+# さらばにゅ
+ShowTextBox "!!! 3F90A8 29"
+WaitTextBox
+ShowChara 8 1 2
+# ゲ、ゲマは何をす
+# ればいいゲマ～！
+ShowTextBox "!!! 3F90A8 30"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 1 180 66 64 100 10 3
+Unk08 2 69 45 96 78 10 3
+Unk08 3 80 107 68 32 10 3
+Unk08 8 133 102 24 32 10 3
+SetBG 43
+Fade 0 30
+ShowChara 1 0 0
+# とりっく、おあ、とり
+# ーとめんとにょ～
+ShowTextBox "!!! 3F90A8 31"
+WaitTextBox
+ShowChara 2 0 0
+# “とりーとめんと”じ
+# ゃなくて“とりーと”
+# よ…
+ShowTextBox "!!! 3F90A8 32"
+WaitTextBox
+ShowChara 1 0 0
+# にょにょ、とりっく、
+# おあ、とりーとにょ～
+ShowTextBox "!!! 3F90A8 33"
+WaitTextBox
+# イタズラされたくなか
+# ったら、お菓子をよこ
+# すにょ～
+ShowTextBox "!!! 3F90A8 34"
+WaitTextBox
+ShowChara 8 0 0
+# 上出来ゲマ！
+ShowTextBox "!!! 3F90A8 35"
+WaitTextBox
+ShowChara 1 0 0
+# 準備ばんたん、まさに
+# カンペキにょっ！
+ShowTextBox "!!! 3F90A8 36"
+WaitTextBox
+ShowChara 3 0 0
+# ご近所のお菓子は、全
+# 部ぷちこたち、魔女軍
+# 団のものにゅ…
+ShowTextBox "!!! 3F90A8 37"
+WaitTextBox
+ShowChara 8 0 0
+# がんばるゲマ！ゲマは
+# パンプキン、かぼちゃ
+# 頭ゲマ～！
+ShowTextBox "!!! 3F90A8 38"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+Fade 1 30
+SetBG 113
+Fade 0 30
+ShowChara 1 1 10
+# 大漁大漁にょ～！
+# これで当分おやつ
+# に困らないにょ～
+ShowTextBox "!!! 3F90A8 39"
+WaitTextBox
+ShowChara 2 1 22
+# あれっ、向こうか
+# ら誰か来るわ…
+ShowTextBox "!!! 3F90A8 40"
+WaitTextBox
+ShowChara 12 2 59
+# ゲバ～っ！
+ShowTextBox "!!! 3F90A8 41"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバゲバ～っ！
+ShowTextBox "!!! 3F90A8 42"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょぴょっ、お姉
+# ちゃん、待ってた
+# ぴょ！
+ShowTextBox "!!! 3F90A8 43"
+WaitTextBox
+ShowChara 1 1 15
+# にょ！？ぴよこ、
+# いったい何しに来
+# たにょ！
+ShowTextBox "!!! 3F90A8 44"
+WaitTextBox
+ShowChara 4 2 29
+# お姉ちゃんの集め
+# たお菓子を横取り
+# しに決まってるぴ
+# ょっ！
+ShowTextBox "!!! 3F90A8 45"
+WaitTextBox
+# さぁ、お姉ちゃん
+# 集めたお菓子をお
+# となしくこっちに
+# わたすぴょっ！
+ShowTextBox "!!! 3F90A8 46"
+WaitTextBox
+ShowChara 1 1 11
+# イヤだにょ！取れ
+# るものなら取って
+# みろだにょっ！
+ShowTextBox "!!! 3F90A8 47"
+WaitTextBox
+ShowChara 1 0 13
+# くらえ、目からビ
+# ィ～ム…にょっ？
+ShowTextBox "!!! 3F90A8 48"
+WaitTextBox
+ShowChara 5 1 39
+# おっと、そうはい
+# きません
+ShowTextBox "!!! 3F90A8 49"
+WaitTextBox
+ShowChara 3 1 17
+# にゅ！？
+ShowTextBox "!!! 3F90A8 50"
+WaitTextBox
+ShowChara 6 1 41
+# お菓子はいただい
+# て行きます！
+ShowTextBox "!!! 3F90A8 51"
+WaitTextBox
+ShowChara 2 1 24
+# きゃーっ、ちょっ
+# と、それはアタシ
+# のよ！返しなさい
+# よーっ！
+ShowTextBox "!!! 3F90A8 52"
+WaitTextBox
+ShowChara 7 1 52
+# ふん、油断大敵だ
+# ぜ！
+ShowTextBox "!!! 3F90A8 53"
+WaitTextBox
+ShowChara 8 1 54
+# な、なんと、ぴよ
+# こはおとりだった
+# ゲマ！？
+ShowTextBox "!!! 3F90A8 54"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょぴょっ、目的
+# は果たしたぴょ、
+# みな、すみやかに
+# 退くぴょ～～っ！
+ShowTextBox "!!! 3F90A8 55"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバーっ！
+ShowTextBox "!!! 3F90A8 56"
+WaitTextBox
+ShowChara 1 1 12
+# で、でじこのお菓
+# 子がＢＧ団のＵＦ
+# Ｏの中に次々と吸
+# い込まれていくに
+# ょ…
+ShowTextBox "!!! 3F90A8 57"
+WaitTextBox
+ShowChara 8 1 54
+# でじこ、ぽかーん
+# としてる場合じゃ
+# ないゲマっ！
+ShowTextBox "!!! 3F90A8 58"
+WaitTextBox
+ShowChara 1 1 11
+# はっ、そ、そうだ
+# ったにょ。どうに
+# かして、でじこた
+# ちのお菓子を取り
+# 戻すにょっ！
+ShowTextBox "!!! 3F90A8 59"
+WaitTextBox
+ShowChara 2 1 26
+# よーし、ここはア
+# タシにまかせて！
+# 絶対に取り戻して
+# みせるんだから！
+ShowTextBox "!!! 3F90A8 60"
+WaitTextBox
+Unk1B 2 40
+EndScript
+
+
+
+Subscript 3
+PlayMusic 17
+SetBG 113
+Fade 2 30
+ShowChara 2 1 26
+# ざっと、こんなも
+# のね！
+ShowTextBox "!!! 3F90A8 61"
+WaitTextBox
+ShowChara 1 1 10
+# やったにょ、うさ
+# だ、お手柄にょ！
+ShowTextBox "!!! 3F90A8 62"
+WaitTextBox
+ShowChara 5 2 37
+# ま、まさか、お菓
+# 子を全部取り戻さ
+# れてしまうとは…
+ShowTextBox "!!! 3F90A8 63"
+WaitTextBox
+ShowChara 6 2 43
+# ピョ、ピョコラ様
+# 、残念ながら、作
+# 戦は失敗のようで
+# す…
+ShowTextBox "!!! 3F90A8 64"
+WaitTextBox
+ShowChara 7 2 50
+# 空を飛ぶなんて、
+# 反則だぞ！
+ShowTextBox "!!! 3F90A8 65"
+WaitTextBox
+ShowChara 4 2 30
+# とほほ、これでこ
+# の冬はおやつ抜き
+# ぴょ
+ShowTextBox "!!! 3F90A8 66"
+WaitTextBox
+ShowChara 2 1 22
+# ねえ、あなたたち
+ShowTextBox "!!! 3F90A8 67"
+WaitTextBox
+ShowChara 4 2 31
+# な、何ぴょ。もう
+# 返すものはないは
+# ずぴょ！
+ShowTextBox "!!! 3F90A8 68"
+WaitTextBox
+ShowChara 2 1 23
+# なんだかかわいそ
+# うだから、お菓子
+# を少しわけてあげ
+# るわ
+ShowTextBox "!!! 3F90A8 69"
+WaitTextBox
+ShowChara 4 2 33
+# ほ、ほんとうぴょ
+# っ！？
+ShowTextBox "!!! 3F90A8 70"
+WaitTextBox
+ShowChara 2 1 22
+# ねぇ、でじこにぷ
+# ちこ。ちょっとぐ
+# らいなら、わけて
+# あげてもいいでし
+# ょ？
+ShowTextBox "!!! 3F90A8 71"
+WaitTextBox
+ShowChara 1 1 9
+# うさだがそういう
+# なら、しかたない
+# にょ
+ShowTextBox "!!! 3F90A8 72"
+WaitTextBox
+ShowChara 3 1 17
+# 感謝しながら食べ
+# るにゅ
+ShowTextBox "!!! 3F90A8 73"
+WaitTextBox
+ShowChara 4 2 34
+# うれしいぴょ！あ
+# りがとうぴょっ！
+ShowTextBox "!!! 3F90A8 74"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバ～っ…これで
+# 冬が越せそうゲバ
+# ～！
+ShowTextBox "!!! 3F90A8 75"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+PlayMusic 17
+SetBG 113
+Fade 0 30
+ShowChara 2 1 25
+# ダメだわ、回収し
+# きれなかった…
+ShowTextBox "!!! 3F90A8 76"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょぴょっ、それ
+# では、ごきげんよ
+# うぴょ！
+ShowTextBox "!!! 3F90A8 77"
+WaitTextBox
+ShowChara 1 1 12
+# で、でじこのお菓
+# 子が、お空のかな
+# たへ…
+ShowTextBox "!!! 3F90A8 78"
+WaitTextBox
+ShowChara 2 1 25
+# ごめんなさい、ア
+# タシのせいで
+ShowTextBox "!!! 3F90A8 79"
+WaitTextBox
+ShowChara 3 1 17
+# うさだのせいじゃ
+# ないにゅ
+ShowTextBox "!!! 3F90A8 80"
+WaitTextBox
+ShowChara 2 1 25
+# でも…
+ShowTextBox "!!! 3F90A8 81"
+WaitTextBox
+ShowChara 1 1 9
+# そうにょ。うさだ
+# のせいじゃないん
+# だから、全然気に
+# しなくていいにょ
+ShowTextBox "!!! 3F90A8 82"
+WaitTextBox
+ShowChara 2 1 23
+# そういってもらえ
+# ると、助かるわ
+ShowTextBox "!!! 3F90A8 83"
+WaitTextBox
+ShowChara 1 1 8
+# じゃ、気をとりな
+# おしてもう一度、
+# お菓子をもらいに
+# いくにょ！
+ShowTextBox "!!! 3F90A8 84"
+WaitTextBox
+ShowChara 2 1 22
+# ええっ、またやる
+# の？
+ShowTextBox "!!! 3F90A8 85"
+WaitTextBox
+ShowChara 1 1 15
+# にょにょっ、何か
+# 不服でもあるのか
+# にょ、うさだ！？
+ShowTextBox "!!! 3F90A8 86"
+WaitTextBox
+ShowChara 2 1 25
+# い、いいえ…
+ShowTextBox "!!! 3F90A8 87"
+WaitTextBox
+# （これは絶対根に
+# 持ってるわ…）
+ShowTextBox "!!! 3F90A8 88"
+WaitTextBox
+ShowChara 1 1 9
+# 何か言ったにょ？
+ShowTextBox "!!! 3F90A8 89"
+WaitTextBox
+ShowChara 2 1 25
+# な、何も…
+ShowTextBox "!!! 3F90A8 90"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+EndScript

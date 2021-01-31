@@ -1,0 +1,198 @@
+DSCBase $403D3C
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 29
+# ひらめいたぴょ！
+ShowTextBox "!!! 403D3C 0"
+WaitTextBox
+ShowChara 7 2 47
+# どーしたぴよこ？
+ShowTextBox "!!! 403D3C 1"
+WaitTextBox
+ShowChara 4 1 29
+# ふっふっふ…今、
+# ぴよこはよいこと
+# を思いついたぴょ
+# ！
+ShowTextBox "!!! 403D3C 2"
+WaitTextBox
+ShowChara 7 2 47
+# …だから、何を？
+ShowTextBox "!!! 403D3C 3"
+WaitTextBox
+ShowChara 4 1 29
+# またひとつ、お姉
+# ちゃんへのイヤガ
+# ラセを思いついた
+# ぴょっ！
+ShowTextBox "!!! 403D3C 4"
+WaitTextBox
+ShowChara 7 2 47
+# なーんだ…
+ShowTextBox "!!! 403D3C 5"
+WaitTextBox
+ShowChara 4 1 31
+# むかっ…その反応
+# は何ぴょ！今なん
+# かちょっとむかっ
+# ときたぴょっ！
+ShowTextBox "!!! 403D3C 6"
+WaitTextBox
+ShowChara 7 2 51
+# えー、なんかさ－
+# 今日は寒くってさ
+# ー、なんか元気出
+# なくってさー…
+ShowTextBox "!!! 403D3C 7"
+WaitTextBox
+ShowChara 4 1 31
+# もういいぴょ！
+# クウには頼まない
+# から、そこでダラ
+# ダラと昼寝でもし
+# てるといいぴょ！
+ShowTextBox "!!! 403D3C 8"
+WaitTextBox
+ShowChara 7 2 47
+# そんなに急がなく
+# ても、もう少しし
+# たらリクとカイが
+# 戻って…
+ShowTextBox "!!! 403D3C 9"
+WaitTextBox
+# …行っちゃったよ
+ShowTextBox "!!! 403D3C 10"
+WaitTextBox
+Fade 1 30
+SetBG 113
+Fade 0 30
+ShowChara 4 1 28
+# ぴょっ…
+ShowTextBox "!!! 403D3C 11"
+WaitTextBox
+ShowChara 4 0 30
+# そ、外がこんなに
+# 寒くなってるなん
+# て反則ぴょ…
+ShowTextBox "!!! 403D3C 12"
+WaitTextBox
+ShowChara 4 0 31
+# ぴょぴょーっ、根
+# 性ぴょ、根性だぴ
+# ょーっ！
+ShowTextBox "!!! 403D3C 13"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 4 1 28
+# うー、さぶさぶ…
+# やっとゲーマーズ
+# に到着したぴょ…
+ShowTextBox "!!! 403D3C 14"
+WaitTextBox
+ShowChara 4 0 29
+# これでやっと、暖
+# かいところでぬく
+# ぬくできるぴょ…
+ShowTextBox "!!! 403D3C 15"
+WaitTextBox
+ShowChara 4 0 31
+# って違うぴょ！
+ShowTextBox "!!! 403D3C 16"
+WaitTextBox
+# あくまで、ぴよこ
+# のねらいはでじこ
+# お姉ちゃんへのイ
+# ヤガラセ攻撃ぴょ
+# っ！
+ShowTextBox "!!! 403D3C 17"
+WaitTextBox
+ShowChara 4 0 28
+# えー、あー、オホ
+# ン…
+ShowTextBox "!!! 403D3C 18"
+WaitTextBox
+ShowChara 4 0 29
+# あーあーでじこお
+# 姉ちゃん、でじこ
+# お姉ちゃん、いる
+# なら返事するぴょ
+# ーっ！
+ShowTextBox "!!! 403D3C 19"
+WaitTextBox
+# ちょっと話がある
+# から、中に入れる
+# ぴょっ！
+ShowTextBox "!!! 403D3C 20"
+WaitTextBox
+# なお、温かい飲み
+# 物にはココアがい
+# いぴょ！くり返す
+# ぴょ、温かいココ
+# アだぴょっ！
+ShowTextBox "!!! 403D3C 21"
+WaitTextBox
+ShowChara 4 0 28
+# …………
+ShowTextBox "!!! 403D3C 22"
+WaitTextBox
+# おかしいぴょ、反
+# 応がないぴょ…
+ShowTextBox "!!! 403D3C 23"
+WaitTextBox
+# きょろきょろ…
+ShowTextBox "!!! 403D3C 24"
+WaitTextBox
+# ぴょ、こんなとこ
+# ろにハリガミが…
+# どれどれ、読んで
+# みるぴょ…
+ShowTextBox "!!! 403D3C 25"
+WaitTextBox
+# “オイッス、でじ
+# こだにょ！”
+ShowTextBox "!!! 403D3C 26"
+WaitTextBox
+# “にょにょー、今
+# でじこたちは温泉
+# に行っているんだ
+# にょー”
+ShowTextBox "!!! 403D3C 27"
+WaitTextBox
+# “うらやましいか
+# にょ、うらやまし
+# いかにょ？じゃ、
+# ２，３日留守にす
+# るからよろしくだ
+# にょ！”
+ShowTextBox "!!! 403D3C 28"
+WaitTextBox
+ShowChara 4 0 33
+# がーん、お、お姉
+# ちゃん、い、いな
+# いぴょ？
+ShowTextBox "!!! 403D3C 29"
+WaitTextBox
+Fade 1 30
+Unk08 4 56 100 96 80 10 3
+SetBG 91
+Fade 0 30
+ShowChara 4 0 0
+# はっくしゅん…！
+ShowTextBox "!!! 403D3C 30"
+WaitTextBox
+# ぴょ～、な、なんか、
+# ダメダメだぴょ～
+ShowTextBox "!!! 403D3C 31"
+WaitTextBox
+# 今日は、もう帰って
+# 寝るぴょ…
+ShowTextBox "!!! 403D3C 32"
+WaitTextBox
+EndScript

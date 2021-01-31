@@ -1,68 +1,8 @@
-DSCBase $41375C
-
-
-
-
-Subscript 0
-# ぴよこの悩みを聞いた！
-ShowTextBox "!!! 41375C 0"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-# ぴよこをなだめた！
-ShowTextBox "!!! 41375C 1"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-# ぴよこをなぐさめた！
-ShowTextBox "!!! 41375C 2"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-# ぴよこをおだてた！
-ShowTextBox "!!! 41375C 3"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-# ぴよこにかつを入れた！
-ShowTextBox "!!! 41375C 4"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-# ぴよこをはげました！
-ShowTextBox "!!! 41375C 5"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-# ぴよこをほめた！
-ShowTextBox "!!! 41375C 6"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-EndScript
-
-
-
-Subscript 8
-EndScript
+DSCBase $41375C Subscript 0 ShowTextBox "I heard Piyoko's troubles!"
+WaitTextBox EndScript Subscript 1 ShowTextBox "Soothed Piyoko!"
+WaitTextBox EndScript Subscript 2 ShowTextBox "I squeezed Piyoko!"
+WaitTextBox EndScript Subscript 3 ShowTextBox "I've flirted with Piyoko!"
+WaitTextBox EndScript Subscript 4 ShowTextBox "I put Katsura in Piyoko!"
+WaitTextBox EndScript Subscript 5 ShowTextBox "I bald Piyoko!"
+WaitTextBox EndScript Subscript 6 ShowTextBox "I praised Piyoko!"
+WaitTextBox EndScript Subscript 7 EndScript Subscript 8 EndScript 

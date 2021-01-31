@@ -1,44 +1,5 @@
-DSCBase $41160C
-
-
-
-
-Subscript 0
-ShowChara 2 0 0
-EndScript
-
-
-
-Subscript 1
-HideChara
-EndScript
-
-
-
-Subscript 2
-# $0
-# 残り$1/$2個よ
-ShowTextBox "!!! 41160C 0"
-EndScript
-
-
-
-Subscript 3
-# Ａボタンを押して、このスロット
-# に入れるグッズを買ってね
-ShowTextBox "!!! 41160C 1"
-EndScript
-
-
-
-Subscript 4
-# もう仕入れは終わりかしら？
-ShowTextBox "!!! 41160C 2"
-EndScript
-
-
-
-Subscript 5
-# お店情報を見るの？
-ShowTextBox "!!! 41160C 3"
-EndScript
+DSCBase $41160C Subscript 0 ShowChara 2 0 0 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowTextBox "$0 Remaining $1 / $2"
+EndScript Subscript 3 ShowTextBox "Press the A button and buy the goods you want to put in this slot"
+EndScript Subscript 4 ShowTextBox "Is the purchase finished?"
+EndScript Subscript 5 ShowTextBox "Do you see the store information?"
+EndScript 

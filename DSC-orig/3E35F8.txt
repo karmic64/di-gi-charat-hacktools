@@ -1,0 +1,133 @@
+DSCBase $3E35F8
+
+
+
+
+Subscript 0
+ShowChara 5 4 38
+# 今こそ私の知識を見せる時！
+# $1の事なら、この私におまかせだ！
+ShowTextBox "!!! 3E35F8 0"
+WaitTextBox
+ShowChara 5 0 39
+# $1は$2に生息する生物で、$3が大好物なのだ！
+ShowTextBox "!!! 3E35F8 1"
+WaitTextBox
+ShowChara 5 0 36
+# 地球では$4が初めて、そのかわいらしさに気づいたとか…
+ShowTextBox "!!! 3E35F8 2"
+WaitTextBox
+ShowChara 5 0 65
+# 私もその姿を見る
+# と、思わず目じり
+# が下がって…�@
+ShowTextBox "!!! 3E35F8 3"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 5 4 39
+# 知っているか店長
+# ？
+# $1は$2を主食とする生物…
+ShowTextBox "!!! 3E35F8 4"
+WaitTextBox
+ShowChara 5 0 38
+# しかし、そのお茶
+# 目な性格で$3も食べたりするのだ！
+ShowTextBox "!!! 3E35F8 5"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 5 4 35
+# このまえ$1で$2に乗る$3を見かけたのだ
+ShowTextBox "!!! 3E35F8 6"
+WaitTextBox
+ShowChara 5 0 36
+# …かわいかったぞ�@
+ShowTextBox "!!! 3E35F8 7"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 5 4 35
+# $2では$1を『神の使い』として、あがめていたらしい
+ShowTextBox "!!! 3E35F8 8"
+WaitTextBox
+ShowChara 5 0 64
+# （なぜだ…？）
+ShowTextBox "!!! 3E35F8 9"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 5 4 35
+# 最近$1動物園では、$2の子育てに$3を飲ませているという…
+ShowTextBox "!!! 3E35F8 10"
+WaitTextBox
+ShowChara 5 0 39
+# …これが事実なら大問題だ
+ShowTextBox "!!! 3E35F8 11"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 5 4 35
+# $1はペットの$2を連れて、よく$3に行くらしい
+ShowTextBox "!!! 3E35F8 12"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+ShowChara 5 4 57
+# ムッ…誰だ？
+# 私の$1に$2させているのは！？
+ShowTextBox "!!! 3E35F8 13"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+ShowChara 5 4 37
+# 最近、$1はリッチだ…
+ShowTextBox "!!! 3E35F8 14"
+WaitTextBox
+ShowChara 5 0 36
+# 家で飼っている$2に$3までさせているらしい
+ShowTextBox "!!! 3E35F8 15"
+WaitTextBox
+EndScript
+
+
+
+Subscript 8
+ShowChara 5 4 35
+# 先週の『$1』は$2が映っていた
+ShowTextBox "!!! 3E35F8 16"
+WaitTextBox
+# なんでも言葉が分かる$2らしく、『$3』を読んで笑っているのだ！
+ShowTextBox "!!! 3E35F8 17"
+WaitTextBox
+ShowChara 5 0 38
+# これはどう言うことだ、店長！？
+ShowTextBox "!!! 3E35F8 18"
+WaitTextBox
+ShowChara 5 0 39
+# …と、店長にあたってもしかたないか…すまない
+ShowTextBox "!!! 3E35F8 19"
+WaitTextBox
+EndScript

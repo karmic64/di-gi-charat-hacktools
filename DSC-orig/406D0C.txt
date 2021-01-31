@@ -1,0 +1,431 @@
+DSCBase $406D0C
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 29
+# 今日は楽しいひな
+# 祭りぴょ～っ！
+ShowTextBox "!!! 406D0C 0"
+WaitTextBox
+ShowChara 4 0 28
+# ひな人形がないか
+# ら、ちょっとさみ
+# しいぴょ…
+ShowTextBox "!!! 406D0C 1"
+WaitTextBox
+ShowChara 5 2 37
+# ううっ、ピョコラ
+# 様、もうしわけあ
+# りません…
+ShowTextBox "!!! 406D0C 2"
+WaitTextBox
+ShowChara 6 2 43
+# 自分たちがふがい
+# ないばかりに、ピ
+# ョコラ様に悲しい
+# 思いをさせてしま
+# って…
+ShowTextBox "!!! 406D0C 3"
+WaitTextBox
+ShowChara 7 2 49
+# 俺も悲しいぜ…
+ShowTextBox "!!! 406D0C 4"
+WaitTextBox
+ShowChara 4 1 33
+# そ、そんなにおお
+# げさに嘆かなくて
+# もいいぴょ
+ShowTextBox "!!! 406D0C 5"
+WaitTextBox
+ShowChara 5 2 38
+# かくなるうえは、
+# 私がこの身をもっ
+# て、ひな人形の代
+# わりとなりましょ
+# う！
+ShowTextBox "!!! 406D0C 6"
+WaitTextBox
+ShowChara 6 2 42
+# ならば、リク元帥
+# がおびなさまに…
+# 自分はめびなさま
+# になります！
+ShowTextBox "!!! 406D0C 7"
+WaitTextBox
+ShowChara 4 1 30
+# そんなおひな様は
+# イヤぴょ…
+ShowTextBox "!!! 406D0C 8"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 6 2 41
+# ピョコラ様、あら
+# れはいかがですか
+# ？
+ShowTextBox "!!! 406D0C 9"
+WaitTextBox
+ShowChara 4 1 29
+# 当然、食べるぴょ
+# ～っ！
+ShowTextBox "!!! 406D0C 10"
+WaitTextBox
+ShowChara 4 0 28
+# ぼりぼり、ぼりぼ
+# り…
+ShowTextBox "!!! 406D0C 11"
+WaitTextBox
+ShowChara 4 0 30
+# んむっ！むぐぐ…
+# の、のどが…
+ShowTextBox "!!! 406D0C 12"
+WaitTextBox
+ShowChara 6 2 44
+# だ、だいじょうぶ
+# ですか、ピョコラ
+# 様っ！
+ShowTextBox "!!! 406D0C 13"
+WaitTextBox
+ShowChara 7 2 58
+# はやく水、水っ！
+# あられがのどに引
+# っかかったんだ！
+ShowTextBox "!!! 406D0C 14"
+WaitTextBox
+ShowChara 4 1 30
+# むぐぐ…
+ShowTextBox "!!! 406D0C 15"
+WaitTextBox
+ShowChara 5 2 35
+# ピョコラ様、これ
+# をっ…！
+ShowTextBox "!!! 406D0C 16"
+WaitTextBox
+ShowChara 4 1 30
+# ごく、ごく…
+ShowTextBox "!!! 406D0C 17"
+WaitTextBox
+# ぷはーっ、助かっ
+# たぴょ…
+ShowTextBox "!!! 406D0C 18"
+WaitTextBox
+ShowChara 4 0 29
+# って、あれっ、何
+# だか頭がくらくら
+# するぴょ～っ…
+ShowTextBox "!!! 406D0C 19"
+WaitTextBox
+ShowChara 7 2 47
+# おーい、ぴよこ…
+# なんだか、目を回
+# しちゃったみたい
+# だぜ…
+ShowTextBox "!!! 406D0C 20"
+WaitTextBox
+ShowChara 6 2 40
+# リク元帥、ピョコ
+# ラ様に何を飲ませ
+# たのです？
+ShowTextBox "!!! 406D0C 21"
+WaitTextBox
+ShowChara 5 2 35
+# むっ、いかん！こ
+# れはひな祭りには
+# つきものの甘酒で
+# はないか…
+ShowTextBox "!!! 406D0C 22"
+WaitTextBox
+# ううむ、緊急事態
+# とはいえ、少々う
+# かつであった…
+ShowTextBox "!!! 406D0C 23"
+WaitTextBox
+ShowChara 5 0 39
+# 誤って未成年者が
+# 口にしないよう、
+# この場の大人を代
+# 表して、私が全部
+# 飲んでしまおう…
+ShowTextBox "!!! 406D0C 24"
+WaitTextBox
+ShowChara 5 0 35
+# ごくごく…
+ShowTextBox "!!! 406D0C 25"
+WaitTextBox
+# ごくごく…
+ShowTextBox "!!! 406D0C 26"
+WaitTextBox
+ShowChara 5 0 37
+# ふ～っまだ、だい
+# ぶ残っているな…
+# 店長、残りを手伝
+# ってもらえないか
+# ？
+ShowTextBox "!!! 406D0C 27"
+WaitTextBox
+# おっと、その前に
+# 尋ねておかなくて
+# は…店長はお酒が
+# 飲める年齢か？
+ShowTextBox "!!! 406D0C 28"
+WaitTextBox
+ShowChara 7 2 48
+# ２０歳以上かどう
+# かを聞いているん
+# だぞ！
+ShowTextBox "!!! 406D0C 29"
+WaitTextBox
+# ２０歳未満だ
+# じつは２０歳以上
+ShowSelMenu09 2 "!!! 406D0C 30"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 5 2 37
+# しかたない…残り
+# も私ひとりで飲ん
+# でしまおう
+ShowTextBox "!!! 406D0C 31"
+WaitTextBox
+# ごくごく…
+ShowTextBox "!!! 406D0C 32"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 6 2 43
+# ピョコラ様、ピョ
+# コラ様っ、起きて
+# くださいっ！
+ShowTextBox "!!! 406D0C 33"
+WaitTextBox
+ShowChara 4 1 34
+# ぴょぴょ～なんか
+# 頭がズキズキする
+# ぴょ～
+ShowTextBox "!!! 406D0C 34"
+WaitTextBox
+ShowChara 7 2 50
+# ぴよこ、寝ぼけて
+# るどころじゃない
+# ぞ！リクが大変な
+# ことに…
+ShowTextBox "!!! 406D0C 35"
+WaitTextBox
+ShowChara 4 1 29
+# ぴょっ、リクが大
+# 変？？？
+ShowTextBox "!!! 406D0C 36"
+WaitTextBox
+Unk08 4 237 22 108 54 10 3
+Unk08 5 126 72 44 96 10 3
+Unk08 12 94 55 12 79 10 3
+Fade 3 30
+SetBG 99
+Fade 2 30
+ShowChara 4 0 0
+# ぴょぴょ～っ、リクが
+# 酔っぱらいさんになっ
+# てるぴょ～！
+ShowTextBox "!!! 406D0C 37"
+WaitTextBox
+ShowChara 5 0 0
+# ひっく…まったく最近
+# のペットの飼い主とき
+# たらけしからん…
+ShowTextBox "!!! 406D0C 38"
+WaitTextBox
+# ぶつぶつ…動物を愛し
+# てない者がペットを飼
+# うなんて許せん！
+ShowTextBox "!!! 406D0C 39"
+WaitTextBox
+# 店長、貴様もそう思
+# うだろう？
+ShowTextBox "!!! 406D0C 40"
+WaitTextBox
+# はい
+# その通り
+# 同意する
+ShowSelMenu09 3 "!!! 406D0C 41"
+ShowChara 5 0 0
+# うんうん、全くその通
+# りだ…ところで店長、
+# もっと飲むだろう？
+ShowTextBox "!!! 406D0C 42"
+WaitTextBox
+# はい
+# その通り
+# 同意する
+ShowSelMenu09 3 "!!! 406D0C 43"
+ShowChara 5 0 0
+# 店長がそういうならし
+# かたない…
+# 飲むしかないな
+ShowTextBox "!!! 406D0C 44"
+WaitTextBox
+# ところで店長、動物さ
+# んたちは好きか？
+ShowTextBox "!!! 406D0C 45"
+WaitTextBox
+# はい
+# その通り
+# 同意する
+ShowSelMenu09 3 "!!! 406D0C 46"
+ShowChara 5 0 0
+# うむ、その通りだ！店
+# 長、私も動物さんたち
+# が大好きだ
+ShowTextBox "!!! 406D0C 47"
+WaitTextBox
+# いや、愛していると言
+# ってもいいッ！
+# 動物さんたちを…！！
+ShowTextBox "!!! 406D0C 48"
+WaitTextBox
+Fade 1 30
+SetBG 112
+Fade 0 30
+ShowChara 6 2 43
+# どうしましょう、
+# ピョコラ様？
+ShowTextBox "!!! 406D0C 49"
+WaitTextBox
+ShowChara 4 1 31
+# う～ん…
+ShowTextBox "!!! 406D0C 50"
+WaitTextBox
+ShowChara 7 2 49
+# どうする、ぴよこ
+# ？
+ShowTextBox "!!! 406D0C 51"
+WaitTextBox
+ShowChara 4 1 31
+# う～ん…
+ShowTextBox "!!! 406D0C 52"
+WaitTextBox
+ShowChara 4 0 29
+# ま、ほうっておけ
+# ば、そのうちなん
+# とかなるぴょ！
+ShowTextBox "!!! 406D0C 53"
+WaitTextBox
+ShowChara 7 2 48
+# そうだな、ははは
+# …
+ShowTextBox "!!! 406D0C 54"
+WaitTextBox
+ShowChara 6 2 41
+# そうですね、はは
+# は…
+ShowTextBox "!!! 406D0C 55"
+WaitTextBox
+ShowChara 6 0 43
+# （店長、すみませ
+# ん…）
+ShowTextBox "!!! 406D0C 56"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 5 2 36
+# では店長、まずは
+# おひとつ…
+ShowTextBox "!!! 406D0C 57"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 5 2 36
+# よし、これで一安
+# 心だ！甘酒は全部
+# なくなったぞ
+ShowTextBox "!!! 406D0C 58"
+WaitTextBox
+ShowChara 4 1 34
+# うう～ん…なんだ
+# か知らないけれど
+# 急にくらくらきて
+# 眠ってしまったぴ
+# ょ…
+ShowTextBox "!!! 406D0C 59"
+WaitTextBox
+ShowChara 6 2 41
+# ピョコラ様、ご安
+# 心ください！危険
+# は取り除かれまし
+# た
+ShowTextBox "!!! 406D0C 60"
+WaitTextBox
+ShowChara 4 1 28
+# 危険？
+# 何のことぴょ？
+ShowTextBox "!!! 406D0C 61"
+WaitTextBox
+ShowChara 4 0 29
+# まぁいいぴょ
+# ひな祭りを続ける
+# ぴょ
+ShowTextBox "!!! 406D0C 62"
+WaitTextBox
+ShowChara 7 2 48
+# ぴよこ、あられ食
+# うか？
+ShowTextBox "!!! 406D0C 63"
+WaitTextBox
+ShowChara 4 1 29
+# 食べるぴょ～っ！
+ShowTextBox "!!! 406D0C 64"
+WaitTextBox
+# ぼりぼり、ぼりぼ
+# り…
+ShowTextBox "!!! 406D0C 65"
+WaitTextBox
+ShowChara 4 0 34
+# ぴょっ？どうして
+# みんな、ぴよこに
+# 注目してるぴょ？
+ShowTextBox "!!! 406D0C 66"
+WaitTextBox
+ShowChara 5 2 36
+# い、いいえ、なん
+# となく
+ShowTextBox "!!! 406D0C 67"
+WaitTextBox
+ShowChara 6 2 41
+# な、なんでもあり
+# ません
+ShowTextBox "!!! 406D0C 68"
+WaitTextBox
+ShowChara 7 2 48
+# 俺も食おっと
+# ぼりぼりぼりぼり
+# …
+ShowTextBox "!!! 406D0C 69"
+WaitTextBox
+ShowChara 7 0 50
+# うっ！
+ShowTextBox "!!! 406D0C 70"
+WaitTextBox
+ShowChara 6 2 44
+# なにっ、こっちか
+# っ！
+ShowTextBox "!!! 406D0C 71"
+WaitTextBox
+ShowChara 7 2 50
+# ううっ…
+ShowTextBox "!!! 406D0C 72"
+WaitTextBox
+ShowChara 5 2 35
+# おい、クウどうし
+# た！
+ShowTextBox "!!! 406D0C 73"
+WaitTextBox
+ShowChara 7 2 48
+# うまい！
+ShowTextBox "!!! 406D0C 74"
+WaitTextBox
+EndScript

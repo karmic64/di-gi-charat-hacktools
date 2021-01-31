@@ -1,484 +1,77 @@
-DSCBase $3EECF4
-
-
-
-
-Subscript 0
-SetBG 112
-Fade 0 30
-ShowChara 5 1 36
-# ピョコラ様、終了
-# です。この一年、
-# 本当にお疲れさま
-# でした…
-ShowTextBox "!!! 3EECF4 0"
-WaitTextBox
-ShowChara 6 1 41
-# 立派です、ピョコ
-# ラ様！　自分は感
-# 動です！
-ShowTextBox "!!! 3EECF4 1"
-WaitTextBox
-ShowChara 7 1 48
-# ブラックゲマゲマ
-# 団、ばんざーい、
-# ばんざーい…！
-ShowTextBox "!!! 3EECF4 2"
-WaitTextBox
-ShowChara 4 2 31
-# ばんざいするのは
-# まだ早いぴょ
-ShowTextBox "!!! 3EECF4 3"
-WaitTextBox
-# 大事なのは、あく
-# まで結果ぴょっ！
-ShowTextBox "!!! 3EECF4 4"
-WaitTextBox
-# がんばったとか、
-# 努力したとかいう
-# のは、はっきりい
-# って、お子ちゃま
-# の言い草ぴょっ！
-ShowTextBox "!!! 3EECF4 5"
-WaitTextBox
-ShowChara 7 1 49
-# がーん…
-ShowTextBox "!!! 3EECF4 6"
-WaitTextBox
-ShowChara 5 1 39
-# ピョコラ様、大人
-# になられましたな
-# …
-ShowTextBox "!!! 3EECF4 7"
-WaitTextBox
-ShowChara 6 1 43
-# これで、毎日歯を
-# 磨いてくれるよう
-# になったら、自分
-# には思い残すこと
-# はありません…
-ShowTextBox "!!! 3EECF4 8"
-WaitTextBox
-ShowChara 4 2 29
-# それでは、発表に
-# 移らせてもらうぴ
-# ょっ！
-ShowTextBox "!!! 3EECF4 9"
-WaitTextBox
-ShowChara 4 0 28
-# 準備ＯＫぴょ？
-# 謎ゲマ？
-ShowTextBox "!!! 3EECF4 10"
-WaitTextBox
-ShowChara 11 1 5
-# …………
-ShowTextBox "!!! 3EECF4 11"
-WaitTextBox
-ShowChara 4 2 31
-# 黙ってちゃ分から
-# ないぴょ！
-ShowTextBox "!!! 3EECF4 12"
-WaitTextBox
-ShowChara 11 1 5
-# …………
-ShowTextBox "!!! 3EECF4 13"
-WaitTextBox
-ShowChara 5 1 35
-# ピョコラ様、謎ゲ
-# マでは司会になり
-# ません
-ShowTextBox "!!! 3EECF4 14"
-WaitTextBox
-# 今回は特別に、ゲ
-# マを借りてまいり
-# ました
-ShowTextBox "!!! 3EECF4 15"
-WaitTextBox
-ShowChara 6 1 44
-# おおっ、さすがリ
-# ク元帥、準備がい
-# い！
-ShowTextBox "!!! 3EECF4 16"
-WaitTextBox
-ShowChara 8 1 2
-# よ、よろしくゲマ
-# …
-ShowTextBox "!!! 3EECF4 17"
-WaitTextBox
-ShowChara 8 0 1
-# えー、ではさっそ
-# く発表させていた
-# だこうと思うゲマ
-# …
-ShowTextBox "!!! 3EECF4 18"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-Unk08 4 123 120 8 16 10 3
-ShowChara 8 0 53
-# おっと、その前に
-# ひとつやることが
-# あったゲマ
-ShowTextBox "!!! 3EECF4 19"
-WaitTextBox
-ShowChara 4 2 28
-# 何ぴょ？
-ShowTextBox "!!! 3EECF4 20"
-WaitTextBox
-ShowChara 8 1 53
-# おめでとうゲマ！
-# みなさんはこの一
-# 年で見事、お仕事
-# マスターになった
-# ゲマ！
-ShowTextBox "!!! 3EECF4 21"
-WaitTextBox
-ShowChara 8 0 1
-# ちなみに、お仕事
-# マスターっていう
-# のは
-ShowTextBox "!!! 3EECF4 22"
-WaitTextBox
-# ・レジ
-# ・接客
-# ・グッズ
-# ・掃除
-ShowTextBox "!!! 3EECF4 23"
-WaitTextBox
-ShowChara 8 0 53
-# この４つのお仕事
-# をきわめた者に与
-# えられるという、
-# 伝説の称号ゲマ！
-ShowTextBox "!!! 3EECF4 24"
-WaitTextBox
-Fade 3 30
-SetBG 72
-Fade 2 30
-ShowChara 4 0 0
-# ぴょぴょ～、お仕事マ
-# スター…
-ShowTextBox "!!! 3EECF4 25"
-WaitTextBox
-# なんともぴよこにふさ
-# わしい称号ぴょ～！
-ShowTextBox "!!! 3EECF4 26"
-WaitTextBox
-# で、賞品は何ぴょ？　
-# 何をプレゼントしてく
-# れるぴょっ？
-ShowTextBox "!!! 3EECF4 27"
-WaitTextBox
-Fade 3 30
-SetBG 112
-Fade 2 30
-ShowChara 8 1 2
-# ざ、残念ながら、
-# そういうのはない
-# ゲマ…
-ShowTextBox "!!! 3EECF4 28"
-WaitTextBox
-ShowChara 4 2 31
-# むかっ！それじゃ
-# 意味ないぴょっ！
-# お仕事マスターな
-# んて、こんなもの
-# 要らないぴょっ！
-ShowTextBox "!!! 3EECF4 29"
-WaitTextBox
-ShowChara 5 1 36
-# ピョコラ様、落ち
-# 着いて、落ち着い
-# て…
-ShowTextBox "!!! 3EECF4 30"
-WaitTextBox
-ShowChara 6 1 41
-# 受けておいて、損
-# になるものではあ
-# りませんし…
-ShowTextBox "!!! 3EECF4 31"
-WaitTextBox
-ShowChara 7 1 48
-# はい、発表の方を
-# 続けて、続けて！
-ShowTextBox "!!! 3EECF4 32"
-WaitTextBox
-ShowChara 8 1 1
-# オホン。では、あ
-# らためまして…結
-# 果発表ゲマ！
-ShowTextBox "!!! 3EECF4 33"
-WaitTextBox
-Unk19 40
-EndScript
-
-
-
-Subscript 2
-SetBG 112
-Fade 0 30
-Unk08 4 113 86 104 112 10 3
-ShowChara 8 0 53
-# えー、ブラックゲ
-# マゲマ団のみなさ
-# ん、見事な成績だ
-# ったゲマ
-ShowTextBox "!!! 3EECF4 34"
-WaitTextBox
-ShowChara 4 2 29
-# やったぴょ～っ！
-ShowTextBox "!!! 3EECF4 35"
-WaitTextBox
-Fade 3 30
-SetBG 69
-Fade 2 30
-ShowChara 4 0 0
-# やっぱり、ぴよこにお
-# まかせぴょっ！
-ShowTextBox "!!! 3EECF4 36"
-WaitTextBox
-# 物事は、すべてぴよこ
-# におまかせすれば
-ShowTextBox "!!! 3EECF4 37"
-WaitTextBox
-# うまく行くようになっ
-# てるに違いないぴょっ
-# …！
-ShowTextBox "!!! 3EECF4 38"
-WaitTextBox
-Fade 3 30
-SetBG 112
-Fade 2 30
-ShowChara 4 2 29
-# お前たち、今後も
-# ぴよこの言うこと
-# をよく聞くぴょ！
-ShowTextBox "!!! 3EECF4 39"
-WaitTextBox
-ShowChara 5 1 36
-# はっ、承知いたし
-# ております…
-ShowTextBox "!!! 3EECF4 40"
-WaitTextBox
-ShowChara 6 1 41
-# ピョコラ様のおお
-# せのままに…
-ShowTextBox "!!! 3EECF4 41"
-WaitTextBox
-ShowChara 7 1 48
-# これからも、ぴよ
-# こに変わらない忠
-# 誠を誓うぜ！
-ShowTextBox "!!! 3EECF4 42"
-WaitTextBox
-ShowChara 12 1 60
-# 我々も、みんな、
-# 同じ気持ちゲバ～
-# っ！
-ShowTextBox "!!! 3EECF4 43"
-WaitTextBox
-ShowChara 4 2 29
-# ぴょぴょぴょぴょ
-# ぴょ～～っ！
-ShowTextBox "!!! 3EECF4 44"
-WaitTextBox
-Fade 1 120
-Wait 60
-Fade 0 30
-ShowChara 5 1 35
-# おお、ゲマ殿。い
-# やいや、すばらし
-# い発表でしたぞ
-ShowTextBox "!!! 3EECF4 45"
-WaitTextBox
-ShowChara 8 2 1
-# い、いや、めっそ
-# うもない、ろくに
-# お役に立てず申し
-# わけないゲマ…
-ShowTextBox "!!! 3EECF4 46"
-WaitTextBox
-ShowChara 5 1 39
-# ふっ、ご謙遜（け
-# んそん）を…
-ShowTextBox "!!! 3EECF4 47"
-WaitTextBox
-ShowChara 8 2 1
-# はははゲマ…
-ShowTextBox "!!! 3EECF4 48"
-WaitTextBox
-ShowChara 8 0 2
-# （う～ん、じつは
-# たいした成績じゃ
-# ないって、言いそ
-# びれたゲマ…）
-ShowTextBox "!!! 3EECF4 49"
-WaitTextBox
-ShowChara 8 0 53
-# （というわけで、
-# 店長さん、次はう
-# まくやってほしい
-# ゲマ！）
-ShowTextBox "!!! 3EECF4 50"
-Wait 60
-Fade 3 120
-EndScript
-
-
-
-Subscript 3
-SetBG 112
-Fade 0 30
-Unk08 4 104 77 108 100 10 3
-ShowChara 8 0 53
-# すごいゲマ！　ま
-# ったくすばらしい
-# 結果だったゲマ！
-ShowTextBox "!!! 3EECF4 51"
-WaitTextBox
-ShowChara 4 2 29
-# ぴょぴょ、当然ぴ
-# ょ～。あまりにも
-# 当然すぎて、喜ぶ
-# 気にもならないぴ
-# ょ～
-ShowTextBox "!!! 3EECF4 52"
-WaitTextBox
-Fade 3 30
-SetBG 80
-Fade 2 30
-Wait 60
-ShowChara 4 0 0
-# このままブラックゲマ
-# ゲマ団のお店を
-ShowTextBox "!!! 3EECF4 53"
-Wait 120
-# どんどん大きくしてゆ
-# くことが、ぴよこの野
-# 望ぴょっ！
-ShowTextBox "!!! 3EECF4 54"
-Wait 120
-# ぴょぴょっ、このペー
-# スだと、あっという間
-# に達成しそうぴょ
-ShowTextBox "!!! 3EECF4 55"
-Wait 120
-# でじこお姉ちゃんの店
-# なんて、まったく目じ
-# ゃないぴょ～
-ShowTextBox "!!! 3EECF4 56"
-Wait 120
-# …って、あれ？ぴよこ
-# の目的って、そーいう
-# ことだったかぴょ？
-ShowTextBox "!!! 3EECF4 57"
-Wait 120
-# たしか、でじこお姉ち
-# ゃんを捕まえて、身代
-# 金を取るとかぴょ…
-ShowTextBox "!!! 3EECF4 58"
-Wait 180
-Fade 3 30
-SetBG 112
-Fade 2 30
-ShowChara 5 1 35
-# ピョコラ様、急に
-# 黙られて、いかが
-# なさいました？
-ShowTextBox "!!! 3EECF4 59"
-WaitTextBox
-ShowChara 4 2 28
-# ぴょっ？
-ShowTextBox "!!! 3EECF4 60"
-WaitTextBox
-ShowChara 7 1 52
-# このままいけば、
-# すべてＯＫって感
-# じだよな、ぴよこ
-# ！
-ShowTextBox "!!! 3EECF4 61"
-WaitTextBox
-ShowChara 4 2 29
-# そ、そうぴょ！
-ShowTextBox "!!! 3EECF4 62"
-WaitTextBox
-ShowChara 6 1 41
-# ブラックゲマゲマ
-# 団員のみなさん、
-# 今日は特別です！
-ShowTextBox "!!! 3EECF4 63"
-WaitTextBox
-# 思う存分、楽しん
-# でください！
-ShowTextBox "!!! 3EECF4 64"
-WaitTextBox
-ShowChara 12 1 60
-# ブラックゲマゲマ
-# 団、ばんざいゲバ
-# ーっ！
-ShowTextBox "!!! 3EECF4 65"
-WaitTextBox
-ShowChara 12 2 60
-# われらが首領、ピ
-# ョコラ＝アナロー
-# グⅢ世に栄光あれ
-# ゲバーっ！
-ShowTextBox "!!! 3EECF4 66"
-WaitTextBox
-Fade 3 30
-Unk08 4 157 42 24 88 10 2
-SetBG 71
-Fade 2 30
-ShowChara 4 0 0
-# まっ、終わりよければ
-# すべてよしぴょっ！
-ShowTextBox "!!! 3EECF4 67"
-WaitTextBox
-# この調子で、ガンガン
-# いくぴょっ！
-ShowTextBox "!!! 3EECF4 68"
-WaitTextBox
-# 来年こそ、でじこお姉
-# ちゃんを捕まえて
-ShowTextBox "!!! 3EECF4 69"
-WaitTextBox
-# 貧乏とおさらばするぴ
-# ょっ！
-ShowTextBox "!!! 3EECF4 70"
-WaitTextBox
-Fade 1 120
-Wait 60
-SetBG 124
-Fade 0 10
-ShowChara 8 1 1
-# あ、どうもゲマ
-# ゲマですゲマ
-ShowTextBox "!!! 3EECF4 71"
-WaitTextBox
-# 店長さん、大変お
-# 疲れさまだったゲ
-# マ
-ShowTextBox "!!! 3EECF4 72"
-WaitTextBox
-# またいつか、ヒマ
-# になったときでい
-# いから、オイラや
-# でじこたちと一緒
-# に、お店をやって
-# 欲しいゲマ
-ShowTextBox "!!! 3EECF4 73"
-WaitTextBox
-ShowChara 8 0 53
-# じゃ、さよならじ
-# ゃなくて、またね
-# でお別れするゲマ
-ShowTextBox "!!! 3EECF4 74"
-WaitTextBox
-# またね～ゲマ！
-ShowTextBox "!!! 3EECF4 75"
-Wait 60
-Fade 3 120
-EndScript
+DSCBase $3EECF4 Subscript 0 SetBG 112 Fade 0 30 ShowChara 5 1 36 ShowTextBox "Mr. Pyocola, it's over. Thank you so much for the past year ..."
+WaitTextBox ShowChara 6 1 41 ShowTextBox "Great, Pyokora-sama! I am impressed!"
+WaitTextBox ShowChara 7 1 48 ShowTextBox "Black Gemagema Dan, Banzai, Banzai ...!"
+WaitTextBox ShowChara 4 2 31 ShowTextBox "It's too early to get rid of"
+WaitTextBox ShowTextBox "The important thing is the result!"
+WaitTextBox ShowTextBox "To be clear, to say that you did your best or made an effort is what your child says!"
+WaitTextBox ShowChara 7 1 49 ShowTextBox "Gan ..."
+WaitTextBox ShowChara 5 1 39 ShowTextBox "Pyocola-sama, you've grown up ..."
+WaitTextBox ShowChara 6 1 43 ShowTextBox "Now that you brush your teeth every day, you'll never forget ..."
+WaitTextBox ShowChara 4 2 29 ShowTextBox "Well then, let me move on to the announcement!"
+WaitTextBox ShowChara 4 0 28 ShowTextBox "Ready? Mysterious gema?"
+WaitTextBox ShowChara 11 1 5 ShowTextBox "…………"
+WaitTextBox ShowChara 4 2 31 ShowTextBox "I don't know if I shut up!"
+WaitTextBox ShowChara 11 1 5 ShowTextBox "…………"
+WaitTextBox ShowChara 5 1 35 ShowTextBox "Pyocola-sama, I will not be the moderator in the mysterious gema"
+WaitTextBox ShowTextBox "This time I borrowed a special gema"
+WaitTextBox ShowChara 6 1 44 ShowTextBox "Oh, Marshal Riku, you're ready!"
+WaitTextBox ShowChara 8 1 2 ShowTextBox "Regards, Gema ..."
+WaitTextBox ShowChara 8 0 1 ShowTextBox "Well, I'm going to let you announce it right away ..."
+WaitTextBox EndScript Subscript 1 Unk08 4 123 120 8 16 10 3 ShowChara 8 0 53 ShowTextBox "Oops, there was one thing I had to do before that"
+WaitTextBox ShowChara 4 2 28 ShowTextBox "What?"
+WaitTextBox ShowChara 8 1 53 ShowTextBox "Congratulations Gema! Everyone has become a work master in the past year!"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "By the way, the work master is"
+WaitTextBox ShowTextBox "・ Cash register, customer service, goods, cleaning"
+WaitTextBox ShowChara 8 0 53 ShowTextBox "The legendary title Gema, which is given to those who have determined these four jobs!"
+WaitTextBox Fade 3 30 SetBG 72 Fade 2 30 ShowChara 4 0 0 ShowTextBox "Pyo Pyo ~, work master ..."
+WaitTextBox ShowTextBox "The title that is suitable for Piyoko!"
+WaitTextBox ShowTextBox "So what are the prizes? What will you give me as a gift?"
+WaitTextBox Fade 3 30 SetBG 112 Fade 2 30 ShowChara 8 1 2 ShowTextBox "Unfortunately, there is no such thing ..."
+WaitTextBox ShowChara 4 2 31 ShowTextBox "Muka! That doesn't make sense! You don't need a work master like this!"
+WaitTextBox ShowChara 5 1 36 ShowTextBox "Pyocola-sama, calm down, calm down ..."
+WaitTextBox ShowChara 6 1 41 ShowTextBox "It doesn't hurt to take it ..."
+WaitTextBox ShowChara 7 1 48 ShowTextBox "Yes, continue with the announcement, continue!"
+WaitTextBox ShowChara 8 1 1 ShowTextBox "Ohon. Then again ... Result announcement Gema!"
+WaitTextBox Unk19 40 EndScript Subscript 2 SetBG 112 Fade 0 30 Unk08 4 113 86 104 112 10 3 ShowChara 8 0 53 ShowTextBox "Well, everyone in the Black Gemagema group, Gemma who had a wonderful result"
+WaitTextBox ShowChara 4 2 29 ShowTextBox "I did it!"
+WaitTextBox Fade 3 30 SetBG 69 Fade 2 30 ShowChara 4 0 0 ShowTextBox "After all, leave it to Piyoko!"
+WaitTextBox ShowTextBox "If you leave everything to Piyoko"
+WaitTextBox ShowTextBox "It must be going well ...!"
+WaitTextBox Fade 3 30 SetBG 112 Fade 2 30 ShowChara 4 2 29 ShowTextBox "You guys will continue to listen to Piyoko!"
+WaitTextBox ShowChara 5 1 36 ShowTextBox "I know ..."
+WaitTextBox ShowChara 6 1 41 ShowTextBox "As Pyocola-sama's grace ..."
+WaitTextBox ShowChara 7 1 48 ShowTextBox "I will continue to pledge allegiance to Piyoko!"
+WaitTextBox ShowChara 12 1 60 ShowTextBox "We all have the same feelings!"
+WaitTextBox ShowChara 4 2 29 ShowTextBox "Pyo Pyo Pyo Pyo Pyo ~~!"
+WaitTextBox Fade 1 120 Wait 60 Fade 0 30 ShowChara 5 1 35 ShowTextBox "Oh, Gema. No, it was a wonderful announcement"
+WaitTextBox ShowChara 8 2 1 ShowTextBox "No, no, it's not so good, I'm sorry it's useless ..."
+WaitTextBox ShowChara 5 1 39 ShowTextBox "Hmmm, humility ..."
+WaitTextBox ShowChara 8 2 1 ShowTextBox "Hahaha Gema ..."
+WaitTextBox ShowChara 8 0 2 ShowTextBox "(Hmm, I didn't say that it wasn't really a big grade ...)"
+WaitTextBox ShowChara 8 0 53 ShowTextBox "(That's why, store manager, I want you to do well next time!)"
+Wait 60 Fade 3 120 EndScript Subscript 3 SetBG 112 Fade 0 30 Unk08 4 104 77 108 100 10 3 ShowChara 8 0 53 ShowTextBox "Amazing gema! Gema was a wonderful result!"
+WaitTextBox ShowChara 4 2 29 ShowTextBox "Pyo Pyo, of course Pyo ~. It's so natural that I don't feel like being happy ~"
+WaitTextBox Fade 3 30 SetBG 80 Fade 2 30 Wait 60 ShowChara 4 0 0 ShowTextBox "As it is, the shop of the Black Gemagema group"
+Wait 120 ShowTextBox "Making it bigger and bigger is Piyoko's ambition!"
+Wait 120 ShowTextBox "Pyo Pyo, at this pace, it seems to be achieved in no time"
+Wait 120 ShowTextBox "Di Gi Charat's shop isn't my eyes at all ~"
+Wait 120 ShowTextBox "What is that? Did Piyoko's purpose mean that?"
+Wait 120 ShowTextBox "Certainly, if you catch Di Gi Charat and take the ransom ..."
+Wait 180 Fade 3 30 SetBG 112 Fade 2 30 ShowChara 5 1 35 ShowTextBox "Pyocola-sama, how did you feel when you were suddenly shut up?"
+WaitTextBox ShowChara 4 2 28 ShowTextBox "Pyo?"
+WaitTextBox ShowChara 7 1 52 ShowTextBox "If you keep going like this, everything will be OK, Piyoko!"
+WaitTextBox ShowChara 4 2 29 ShowTextBox "That's right!"
+WaitTextBox ShowChara 6 1 41 ShowTextBox "Black Gemagema members, today is special!"
+WaitTextBox ShowTextBox "Enjoy it to your heart's content!"
+WaitTextBox ShowChara 12 1 60 ShowTextBox "Black Gemagema Dan, Banzai Geber!"
+WaitTextBox ShowChara 12 2 60 ShowTextBox "Glory to our leader, Pyokola-Analog III!"
+WaitTextBox Fade 3 30 Unk08 4 157 42 24 88 10 2 SetBG 71 Fade 2 30 ShowChara 4 0 0 ShowTextBox "Well, if it's over, everything is fine!"
+WaitTextBox ShowTextBox "With this condition, I'm crazy!"
+WaitTextBox ShowTextBox "Next year, catch Di Gi Charat"
+WaitTextBox ShowTextBox "Farewell to poverty!"
+WaitTextBox Fade 1 120 Wait 60 SetBG 124 Fade 0 10 ShowChara 8 1 1 ShowTextBox "Oh, it's Gema Gema."
+WaitTextBox ShowTextBox "Manager, Gema who was very tired"
+WaitTextBox ShowTextBox "I want you to open a shop with Oila and Di Gi Charat, because it's okay if you get free someday."
+WaitTextBox ShowChara 8 0 53 ShowTextBox "Well then, not goodbye, Gema to say goodbye again"
+WaitTextBox ShowTextBox "See you ~ Gema!"
+Wait 60 Fade 3 120 EndScript 

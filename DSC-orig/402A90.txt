@@ -1,0 +1,267 @@
+DSCBase $402A90
+
+
+
+
+Subscript 0
+Unk08 4 140 50 74 80 10 3
+Unk08 1 203 114 32 108 10 3
+SetBG 112
+Fade 0 30
+ShowChara 7 2 50
+# おーい、ぴよこ、
+# 大変だーっ！
+ShowTextBox "!!! 402A90 0"
+WaitTextBox
+ShowChara 4 1 28
+# クウ、そんなにあ
+# わててどうしたぴ
+# ょ？
+ShowTextBox "!!! 402A90 1"
+WaitTextBox
+ShowChara 7 2 50
+# そ、そこの公園で
+# …
+ShowTextBox "!!! 402A90 2"
+WaitTextBox
+ShowChara 4 1 29
+# 公園で？
+ShowTextBox "!!! 402A90 3"
+WaitTextBox
+ShowChara 7 2 50
+# 運動会やってるん
+# だ！
+ShowTextBox "!!! 402A90 4"
+WaitTextBox
+ShowChara 4 1 30
+# …期待して損した
+# ぴょ
+ShowTextBox "!!! 402A90 5"
+WaitTextBox
+ShowChara 7 2 50
+# 違う違う！　そう
+# じゃなくて、デ・
+# ジ・キャラットた
+# ちが出てるんだ！
+ShowTextBox "!!! 402A90 6"
+WaitTextBox
+ShowChara 4 1 33
+# …でじこお姉ちゃ
+# んが？
+ShowTextBox "!!! 402A90 7"
+WaitTextBox
+ShowChara 4 0 31
+# どーして、それを
+# 先に言わないぴょ
+# っ～！
+ShowTextBox "!!! 402A90 8"
+WaitTextBox
+Fade 1 30
+SetBG 125
+Fade 0 30
+ShowChara 4 1 31
+# なんと…！？現在
+# でじこお姉ちゃん
+# たちのチームがト
+# ップぴょっ！
+ShowTextBox "!!! 402A90 9"
+WaitTextBox
+ShowChara 5 2 38
+# これは見過ごせま
+# せんな
+ShowTextBox "!!! 402A90 10"
+WaitTextBox
+ShowChara 6 2 42
+# まったくです！
+ShowTextBox "!!! 402A90 11"
+WaitTextBox
+ShowChara 4 1 31
+# お前たち、何か手
+# を打つぴょ！
+ShowTextBox "!!! 402A90 12"
+WaitTextBox
+ShowChara 5 2 39
+# お任せください、
+# ピョコラ様
+ShowTextBox "!!! 402A90 13"
+WaitTextBox
+ShowChara 6 2 41
+# 必ずや、デ・ジ・
+# キャラットに、ほ
+# えづらをかかせて
+# やりましょう
+ShowTextBox "!!! 402A90 14"
+WaitTextBox
+ShowChara 7 2 52
+# ふふ…見てろよ！
+ShowTextBox "!!! 402A90 15"
+WaitTextBox
+Fade 1 120
+Wait 60
+Fade 0 30
+ShowChara 1 1 9
+# にょにょ～、つい
+# に最後の種目、１
+# ００メートル走の
+# 時間だにょ～
+ShowTextBox "!!! 402A90 16"
+WaitTextBox
+ShowChara 2 1 23
+# えー、今の点数だ
+# と…やったあ、３
+# 位以上なら、アタ
+# シたちの優勝よ！
+ShowTextBox "!!! 402A90 17"
+WaitTextBox
+ShowChara 3 1 18
+# もう勝ったも同然
+# にゅ
+ShowTextBox "!!! 402A90 18"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょっぴょっぴょ
+# っ…それはどーか
+# なぴょっ！
+ShowTextBox "!!! 402A90 19"
+WaitTextBox
+ShowChara 1 1 15
+# にょっ、ぴよこ、
+# 何しに来たにょ！
+ShowTextBox "!!! 402A90 20"
+WaitTextBox
+ShowChara 4 2 29
+# 決まってるぴょ、
+# でじこお姉ちゃん
+# のジャマしにきた
+# ぴょ！
+ShowTextBox "!!! 402A90 21"
+WaitTextBox
+ShowChara 2 1 55
+# そこまできっぱり
+# 言われると、かえ
+# ってすがすがしい
+# 気持ちになるわ…
+ShowTextBox "!!! 402A90 22"
+WaitTextBox
+ShowChara 5 2 36
+# ふっふっふ…なん
+# と言っても、我々
+# ブラックゲマゲマ
+# 団は悪ですからな
+# ！
+ShowTextBox "!!! 402A90 23"
+WaitTextBox
+ShowChara 6 2 40
+# さて…では、自分
+# たちがどういうジ
+# ャマをしたか、説
+# 明しましょう
+ShowTextBox "!!! 402A90 24"
+WaitTextBox
+ShowChara 1 1 16
+# よろしくお願いす
+# るにょ
+ShowTextBox "!!! 402A90 25"
+WaitTextBox
+ShowChara 6 2 40
+# 最終種目の１００
+# メートル走が変更
+# になりました
+ShowTextBox "!!! 402A90 26"
+WaitTextBox
+ShowChara 2 1 22
+# 変更って、何に変
+# わったの？
+ShowTextBox "!!! 402A90 27"
+WaitTextBox
+ShowChara 5 2 35
+# 走者４名による、
+# ４００メートルリ
+# レーです
+ShowTextBox "!!! 402A90 28"
+WaitTextBox
+ShowChara 3 1 17
+# …普通にゅ
+ShowTextBox "!!! 402A90 29"
+WaitTextBox
+ShowChara 7 2 48
+# あまい、あまい、
+# あま～い、あます
+# ぎる！　驚け、な
+# んとこの種目の得
+# 点は…
+ShowTextBox "!!! 402A90 30"
+WaitTextBox
+ShowChara 4 2 29
+# １０億点ぴょっ！
+ShowTextBox "!!! 402A90 31"
+WaitTextBox
+ShowChara 1 1 12
+# にょにょ～、そん
+# なのデタラメにょ
+# ～！
+ShowTextBox "!!! 402A90 32"
+WaitTextBox
+ShowChara 2 1 24
+# これまでの得点が
+# まるっきり関係な
+# くなっちゃうじゃ
+# ない！
+ShowTextBox "!!! 402A90 33"
+WaitTextBox
+ShowChara 5 2 36
+# デタラメ？ふっ、
+# けっこう！
+ShowTextBox "!!! 402A90 34"
+WaitTextBox
+ShowChara 6 2 41
+# なぜなら、我々ブ
+# ラックゲマゲマ団
+# は『悪』ですから
+# な～
+ShowTextBox "!!! 402A90 35"
+WaitTextBox
+ShowChara 7 2 48
+# おとなしく俺たち
+# と勝負しな！そし
+# て、負けな！
+ShowTextBox "!!! 402A90 36"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょっぴょっぴょ
+# っ！
+ShowTextBox "!!! 402A90 37"
+WaitTextBox
+Fade 1 120
+Wait 60
+SetBG 123
+Fade 0 30
+Wait 60
+Fade 3 1
+SetBG 89
+Fade 2 30
+ShowChara 4 0 0
+# ゴ～～～～～～～～ル
+# ぴょ～～～～～！！！
+ShowTextBox "!!! 402A90 38"
+WaitTextBox
+# ぴょぴょっ、勝つって
+# 気持ちいいぴょ～～！
+ShowTextBox "!!! 402A90 39"
+WaitTextBox
+ShowChara 1 0 0
+# いんちきにょ、でたら
+# めにょ、サギにょ！
+ShowTextBox "!!! 402A90 40"
+WaitTextBox
+# こんなやり方で勝って
+# 恥ずかしくないのかに
+# ょ！
+ShowTextBox "!!! 402A90 41"
+WaitTextBox
+ShowChara 4 0 0
+# 何とでも言えばいいぴ
+# ょ～！
+ShowTextBox "!!! 402A90 42"
+WaitTextBox
+EndScript

@@ -1,75 +1,11 @@
-DSCBase $40B528
-
-
-
-
-Subscript 0
-ShowChara 2 0 22
-# 通信の用意ができたらＡボタンをおしてね！
-ShowTextBox "!!! 40B528 0"
-EndScript
-
-
-
-Subscript 1
-Fade 1 15
-HideChara
-EndScript
-
-
-
-Subscript 2
-# やめるのね？
-ShowTextBox "!!! 40B528 1"
-Wait 60
-EndScript
-
-
-
-Subscript 3
-# 通信待ちよ…
-ShowTextBox "!!! 40B528 2"
-EndScript
-
-
-
-Subscript 4
-# ただいま通信中…
-ShowTextBox "!!! 40B528 3"
-EndScript
-
-
-
-Subscript 5
-# 通信終了！
-# Ａボタンを押して登録してね！
-ShowTextBox "!!! 40B528 4"
-EndScript
-
-
-
-Subscript 6
-# 登録したわ！
-ShowTextBox "!!! 40B528 5"
-WaitTextBox
-# $0店長さんのめいしをすぐ見るの？
-ShowTextBox "!!! 40B528 6"
-WaitTextBox
-# すぐ見る
-# あとで
-ShowSelMenu09 2 "!!! 40B528 7"
-EndScript
-
-
-
-Subscript 7
-# 通信がうまくいかなかったわ…
-ShowTextBox "!!! 40B528 8"
-EndScript
-
-
-
-Subscript 8
-# $0店長さんを登録する場所をえらんでね！
-ShowTextBox "!!! 40B528 9"
-EndScript
+DSCBase $40B528 Subscript 0 ShowChara 2 0 22 ShowTextBox "When you are ready to communicate, press the A button!"
+EndScript Subscript 1 Fade 1 15 HideChara EndScript Subscript 2 ShowTextBox "Are you quitting?"
+Wait 60 EndScript Subscript 3 ShowTextBox "Wait for communication ..."
+EndScript Subscript 4 ShowTextBox "Communicating now ..."
+EndScript Subscript 5 ShowTextBox "Communication ends! Press the A button to register!"
+EndScript Subscript 6 ShowTextBox "I registered!"
+WaitTextBox ShowTextBox "$0 Do you see the manager's niece right away?"
+WaitTextBox ShowSelMenu09 2 "See you soon"
+EndScript Subscript 7 ShowTextBox "Communication didn't work ..."
+EndScript Subscript 8 ShowTextBox "$0 Choose a place to register the manager!"
+EndScript 

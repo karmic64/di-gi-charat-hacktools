@@ -1,339 +1,39 @@
-DSCBase $409298
-
-
-
-
-Subscript 0
-ShowChara 2 4 23
-# $2さん、ステキよね
-ShowTextBox "!!! 409298 0"
-Wait 60
-EndScript
-
-
-
-Subscript 1
-ShowChara 2 4 56
-# $2っておいしくって、食べ過ぎが恐いわよね
-ShowTextBox "!!! 409298 1"
-Wait 60
-EndScript
-
-
-
-Subscript 2
-ShowChara 2 4 23
-# $2って、本当はすごく安いのよね
-ShowTextBox "!!! 409298 2"
-Wait 60
-EndScript
-
-
-
-Subscript 3
-ShowChara 2 4 23
-# $2ってかわいいわね
-# そう思わない？
-ShowTextBox "!!! 409298 3"
-Wait 60
-EndScript
-
-
-
-Subscript 4
-ShowChara 2 4 23
-# お部屋に$2の鉢植があると、ぐっと雰囲気がよくなるのよね
-ShowTextBox "!!! 409298 4"
-Wait 60
-EndScript
-
-
-
-Subscript 5
-ShowChara 2 4 25
-# $2…なつかしい名前ね…
-ShowTextBox "!!! 409298 5"
-Wait 60
-EndScript
-
-
-
-Subscript 6
-ShowChara 2 4 23
-# うちのお店も$2に新しいお店を出すの、どうかしら？
-ShowTextBox "!!! 409298 6"
-Wait 60
-EndScript
-
-
-
-Subscript 7
-ShowChara 2 4 23
-# $2のコツは愛情よ
-# ていねいにね
-ShowTextBox "!!! 409298 7"
-Wait 60
-EndScript
-
-
-
-Subscript 8
-ShowChara 2 4 23
-# アタシもいつか『$2』に出られるよう、がんばろうっと♪
-ShowTextBox "!!! 409298 8"
-Wait 60
-EndScript
-
-
-
-Subscript 9
-ShowChara 2 4 23
-# 今月は『$2』のコミックスがよく売れたわね
-ShowTextBox "!!! 409298 9"
-Wait 60
-EndScript
-
-
-
-Subscript 10
-ShowChara 2 4 56
-# いつか$2の助手席に乗せてくれるステキな人、現れないかなぁ
-ShowTextBox "!!! 409298 10"
-Wait 60
-EndScript
-
-
-
-Subscript 11
-ShowChara 2 4 23
-# 休みの日に公園で$2してる人、よくいるわよね
-ShowTextBox "!!! 409298 11"
-Wait 60
-EndScript
-
-
-
-Subscript 12
-ShowChara 2 4 23
-# 今度$2さんをお店に呼んで、講演会を開いてみたらどうかしら？
-ShowTextBox "!!! 409298 12"
-Wait 60
-EndScript
-
-
-
-Subscript 13
-ShowChara 2 4 23
-# あとでみんなで$2を食べながら、お茶にしましょう
-ShowTextBox "!!! 409298 13"
-Wait 60
-EndScript
-
-
-
-Subscript 14
-ShowChara 2 4 23
-# 夏の暑い日、運動した後のコップ一杯の$2、たまらないわね
-ShowTextBox "!!! 409298 14"
-Wait 60
-EndScript
-
-
-
-Subscript 15
-ShowChara 2 4 22
-# お店に$2のぬいぐるみとか置いたら売れないかしら？
-ShowTextBox "!!! 409298 15"
-Wait 60
-EndScript
-
-
-
-Subscript 16
-ShowChara 2 4 56
-# 今度、$2エキスを配合したクリームが新発売されるんですって
-ShowTextBox "!!! 409298 16"
-Wait 60
-EndScript
-
-
-
-Subscript 17
-ShowChara 2 4 23
-# $2には$2の良さがあるのよね
-ShowTextBox "!!! 409298 17"
-Wait 60
-EndScript
-
-
-
-Subscript 18
-ShowChara 2 4 23
-# $2なら昨日遊びに行ってきたばっかりよ
-ShowTextBox "!!! 409298 18"
-Wait 60
-EndScript
-
-
-
-Subscript 19
-ShowChara 2 4 25
-# ここのところ$2で忙しくって肩がこっちゃう
-ShowTextBox "!!! 409298 19"
-Wait 60
-EndScript
-
-
-
-Subscript 20
-ShowChara 2 4 23
-# 昨日の『$2』、楽しかったわね
-ShowTextBox "!!! 409298 20"
-Wait 60
-EndScript
-
-
-
-Subscript 21
-ShowChara 2 4 56
-# 次の号の『$2』楽しみね
-# はやく読みたくない？
-ShowTextBox "!!! 409298 21"
-Wait 60
-EndScript
-
-
-
-Subscript 22
-ShowChara 2 4 23
-# 来週、人力$2の大会があるんですって
-# みんなで見に行きましょうか？
-ShowTextBox "!!! 409298 22"
-Wait 60
-EndScript
-
-
-
-Subscript 23
-ShowChara 2 4 23
-# うちの近所に$2のすごい得意なおじいさんが住んでるのよ
-ShowTextBox "!!! 409298 23"
-Wait 60
-# 若いわよね
-ShowTextBox "!!! 409298 24"
-Wait 60
-EndScript
-
-
-
-Subscript 24
-ShowChara 2 4 23
-# $2さん、最近有名になっちゃったわね
-# 昔からのファンとしてはちょっと複雑な気分…
-ShowTextBox "!!! 409298 25"
-Wait 60
-EndScript
-
-
-
-Subscript 25
-ShowChara 2 4 24
-# …お店に一週間置きっぱなしだった$2、あなたの仕業じゃないでしょうね！？
-ShowTextBox "!!! 409298 26"
-Wait 60
-EndScript
-
-
-
-Subscript 26
-ShowChara 2 4 23
-# そういえば$2まだ冷蔵庫に入ってたわね
-ShowTextBox "!!! 409298 27"
-Wait 60
-EndScript
-
-
-
-Subscript 27
-ShowChara 2 4 23
-# 『$2の里』って言うテーマパークがあるんですって
-# 一度行ってみたいわね
-ShowTextBox "!!! 409298 28"
-Wait 60
-EndScript
-
-
-
-Subscript 28
-ShowChara 2 4 22
-# $2の花言葉ってなんだったかしら？
-ShowTextBox "!!! 409298 29"
-Wait 60
-EndScript
-
-
-
-Subscript 29
-ShowChara 2 4 23
-# $2に東京タワーより高い電波塔が建つって噂、本当かしら？
-ShowTextBox "!!! 409298 30"
-Wait 60
-EndScript
-
-
-
-Subscript 30
-ShowChara 2 4 23
-# $2は美味しい御飯屋さんがたくさんあっていいわよね
-ShowTextBox "!!! 409298 31"
-Wait 60
-EndScript
-
-
-
-Subscript 31
-ShowChara 2 4 23
-# さ、しりとりが終わったら、びしばし$2するわよ
-ShowTextBox "!!! 409298 32"
-Wait 60
-EndScript
-
-
-
-Subscript 32
-ShowChara 2 4 56
-# 『$2』って実は40年前に白黒で放映されてるのよ
-# 今のはリメイクなの
-ShowTextBox "!!! 409298 33"
-Wait 60
-# 知ってた？
-ShowTextBox "!!! 409298 34"
-Wait 60
-EndScript
-
-
-
-Subscript 33
-ShowChara 2 4 25
-# 『$2』の新刊、自分の分とっておくの忘れちゃった…
-ShowTextBox "!!! 409298 35"
-Wait 60
-EndScript
-
-
-
-Subscript 34
-ShowChara 2 4 23
-# 小さい頃、デパートの屋上で$2に乗ったりしたわねー
-ShowTextBox "!!! 409298 36"
-Wait 60
-EndScript
-
-
-
-Subscript 35
-ShowChara 2 4 23
-# 駅前で$2をしているパフォーマーの人、たまに見かけるわね
-ShowTextBox "!!! 409298 37"
-Wait 60
-EndScript
+DSCBase $409298 Subscript 0 ShowChara 2 4 23 ShowTextBox "$2, isn't it?"
+Wait 60 EndScript Subscript 1 ShowChara 2 4 56 ShowTextBox "$2 is delicious and I'm afraid to overeat"
+Wait 60 EndScript Subscript 2 ShowChara 2 4 23 ShowTextBox "$2 is really very cheap, isn't it?"
+Wait 60 EndScript Subscript 3 ShowChara 2 4 23 ShowTextBox "$2 is cute, don't you think?"
+Wait 60 EndScript Subscript 4 ShowChara 2 4 23 ShowTextBox "If you have a $2 potted plant in your room, the atmosphere will be much better."
+Wait 60 EndScript Subscript 5 ShowChara 2 4 25 ShowTextBox "$2 ... a nostalgic name ..."
+Wait 60 EndScript Subscript 6 ShowChara 2 4 23 ShowTextBox "I wonder if our store will also open a new store for $2?"
+Wait 60 EndScript Subscript 7 ShowChara 2 4 23 ShowTextBox "The trick of $2 is love"
+Wait 60 EndScript Subscript 8 ShowChara 2 4 23 ShowTextBox "I'll do my best so that I can appear in \"$2\" someday ♪"
+Wait 60 EndScript Subscript 9 ShowChara 2 4 23 ShowTextBox "The \"$2\" comics sold well this month."
+Wait 60 EndScript Subscript 10 ShowChara 2 4 56 ShowTextBox "I wonder if there will be a nice person who will put me in the passenger seat for $2 someday."
+Wait 60 EndScript Subscript 11 ShowChara 2 4 23 ShowTextBox "There are many people who spend $2 in the park on their days off."
+Wait 60 EndScript Subscript 12 ShowChara 2 4 23 ShowTextBox "Why don't you invite $2 to the store and hold a lecture?"
+Wait 60 EndScript Subscript 13 ShowChara 2 4 23 ShowTextBox "Let's make tea while eating $2 together later"
+Wait 60 EndScript Subscript 14 ShowChara 2 4 23 ShowTextBox "On a hot summer day, a glass of $2 after exercising is irresistible"
+Wait 60 EndScript Subscript 15 ShowChara 2 4 22 ShowTextBox "Wouldn't it sell if I put a $2 stuffed animal in the store?"
+Wait 60 EndScript Subscript 16 ShowChara 2 4 56 ShowTextBox "This time, a new cream containing $2 extract will be released."
+Wait 60 EndScript Subscript 17 ShowChara 2 4 23 ShowTextBox "$2 has the goodness of $2, right?"
+Wait 60 EndScript Subscript 18 ShowChara 2 4 23 ShowTextBox "For $2, I just went to play yesterday"
+Wait 60 EndScript Subscript 19 ShowChara 2 4 25 ShowTextBox "I've been busy for $2 lately and my shoulders are stiff"
+Wait 60 EndScript Subscript 20 ShowChara 2 4 23 ShowTextBox "Yesterday's \"$2\" was fun"
+Wait 60 EndScript Subscript 21 ShowChara 2 4 56 ShowTextBox "I'm looking forward to the next issue of \"$2\". Don't you want to read it soon?"
+Wait 60 EndScript Subscript 22 ShowChara 2 4 23 ShowTextBox "Let's all go see the $2 human-powered tournament next week."
+Wait 60 EndScript Subscript 23 ShowChara 2 4 23 ShowTextBox "There's a $2 grandfather living in my neighborhood"
+Wait 60 ShowTextBox "You're young"
+Wait 60 EndScript Subscript 24 ShowChara 2 4 23 ShowTextBox "$2, you've become famous lately, it feels a bit complicated for an old fan ..."
+Wait 60 EndScript Subscript 25 ShowChara 2 4 24 ShowTextBox "… $2, which was left in the store for a week, isn't your job! ??"
+Wait 60 EndScript Subscript 26 ShowChara 2 4 23 ShowTextBox "Speaking of which, $2 was still in the fridge"
+Wait 60 EndScript Subscript 27 ShowChara 2 4 23 ShowTextBox "There is a theme park called \"$2 Village\", so I'd like to go there once."
+Wait 60 EndScript Subscript 28 ShowChara 2 4 22 ShowTextBox "What was the $2 flower language?"
+Wait 60 EndScript Subscript 29 ShowChara 2 4 23 ShowTextBox "Is it true that there is a rumor that a radio tower higher than Tokyo Tower will be built for $2?"
+Wait 60 EndScript Subscript 30 ShowChara 2 4 23 ShowTextBox "It's okay to have a lot of delicious rice shops for $2"
+Wait 60 EndScript Subscript 31 ShowChara 2 4 23 ShowTextBox "Well, when the shiritori is over, I'll spend $2 for a while."
+Wait 60 EndScript Subscript 32 ShowChara 2 4 56 ShowTextBox "\"$2\" was actually aired in black and white 40 years ago, and now it's a remake"
+Wait 60 ShowTextBox "I knew?"
+Wait 60 EndScript Subscript 33 ShowChara 2 4 25 ShowTextBox "I forgot to save my own new issue of \"$2\" ..."
+Wait 60 EndScript Subscript 34 ShowChara 2 4 23 ShowTextBox "When I was little, I used to ride $2 on the rooftop of a department store."
+Wait 60 EndScript Subscript 35 ShowChara 2 4 23 ShowTextBox "I sometimes see performers who are spending $2 in front of the station."
+Wait 60 EndScript 

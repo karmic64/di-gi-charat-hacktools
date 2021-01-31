@@ -1,0 +1,167 @@
+DSCBase $4142F8
+
+
+
+
+Subscript 0
+ShowChara 6 0 0
+EndScript
+
+
+
+Subscript 1
+# カイは\x02仕事に飽きているようだ\x1a
+ShowTextBox "!!! 4142F8 0"
+EndScript
+
+
+
+Subscript 2
+# 「他の仕事にも力を入れた方がいいと思われます」
+ShowTextBox "!!! 4142F8 1"
+EndScript
+
+
+
+Subscript 3
+ShowChara 6 0 0
+EndScript
+
+
+
+Subscript 4
+# カイは\x02やりたい仕事を他の人にとられて不機嫌なようだ\x1a
+ShowTextBox "!!! 4142F8 2"
+EndScript
+
+
+
+Subscript 5
+# 「えこひいきとは納得いたしかねます」
+ShowTextBox "!!! 4142F8 3"
+EndScript
+
+
+
+Subscript 6
+ShowChara 6 0 0
+EndScript
+
+
+
+Subscript 7
+# カイは\x02自分のグッズが叩き売られて悲しいようだ\x1a
+ShowTextBox "!!! 4142F8 4"
+EndScript
+
+
+
+Subscript 8
+# 「私のグッズが叩き売られています…」
+ShowTextBox "!!! 4142F8 5"
+EndScript
+
+
+
+Subscript 9
+ShowChara 6 0 0
+EndScript
+
+
+
+Subscript 10
+# カイは\x03自分のグッズがたくさんあってうれしいようだ\x1a
+ShowTextBox "!!! 4142F8 6"
+EndScript
+
+
+
+Subscript 11
+# 「私のグッズでいっぱいにすればお店は繁盛する道理です」
+ShowTextBox "!!! 4142F8 7"
+EndScript
+
+
+
+Subscript 12
+ShowChara 6 0 0
+EndScript
+
+
+
+Subscript 13
+# $0カイは\x01仕事がうまくいっていないようだ\x1a
+ShowTextBox "!!! 4142F8 8"
+EndScript
+
+
+
+Subscript 14
+# 「うぅ、このままではいけない…」
+ShowTextBox "!!! 4142F8 9"
+EndScript
+
+
+
+Subscript 15
+ShowChara 6 0 0
+EndScript
+
+
+
+Subscript 16
+# $0\x02カイの調子はあまりよくないようだ\x1a
+ShowTextBox "!!! 4142F8 10"
+EndScript
+
+
+
+Subscript 17
+# 「自分としては、がんばっているつもりなのですが…」
+ShowTextBox "!!! 4142F8 11"
+EndScript
+
+
+
+Subscript 18
+ShowChara 6 0 0
+EndScript
+
+
+
+Subscript 19
+# $0カイは問題無く仕事をしているようだ
+ShowTextBox "!!! 4142F8 12"
+EndScript
+
+
+
+Subscript 20
+# 「何の問題もありません、ご安心ください」
+ShowTextBox "!!! 4142F8 13"
+EndScript
+
+
+
+Subscript 21
+ShowChara 6 0 0
+EndScript
+
+
+
+Subscript 22
+# $0カイは\x03はりきって仕事をしているようだ\x1a
+ShowTextBox "!!! 4142F8 14"
+EndScript
+
+
+
+Subscript 23
+# 「自分はピョコラ様のため、仕事に全力を尽くしております！」
+ShowTextBox "!!! 4142F8 15"
+EndScript
+
+
+
+Subscript 24
+EndScript

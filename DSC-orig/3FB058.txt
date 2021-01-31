@@ -1,0 +1,693 @@
+DSCBase $3FB058
+
+
+
+
+Subscript 0
+Unk08 1 110 73 48 108 10 3
+Unk08 2 160 80 88 108 10 3
+Unk08 3 42 94 8 124 10 2
+Unk08 14 120 80 60 108 10 3
+PlayMusic 18
+SetBG 111
+Fade 0 30
+ShowChara 1 1 9
+# 鈴を鳴らすにょ～
+# 鈴を鳴らすにょ～
+# しゃんしゃんと、
+# 鈴を鳴らすにょ～
+ShowTextBox "!!! 3FB058 0"
+WaitTextBox
+ShowChara 3 1 17
+# 今日は楽しいクリ
+# スマスイブにゅ～
+ShowTextBox "!!! 3FB058 1"
+WaitTextBox
+ShowChara 2 2 23
+# パーティーの準備
+# も終わったから、
+# あとは盛り上がる
+# だけね
+ShowTextBox "!!! 3FB058 2"
+WaitTextBox
+ShowChara 1 1 11
+# 鈴を鳴らすだけじ
+# ゃ、つまらないに
+# ょ！
+ShowTextBox "!!! 3FB058 3"
+WaitTextBox
+ShowChara 3 1 17
+# なにか、歌を歌う
+# にゅ
+ShowTextBox "!!! 3FB058 4"
+WaitTextBox
+ShowChara 2 2 26
+# じゃーん、そうい
+# うと思って、みん
+# なで歌える歌を用
+# 意してきたの！
+ShowTextBox "!!! 3FB058 5"
+WaitTextBox
+ShowChara 1 1 10
+# うさだ、それはナ
+# イスにょ！
+ShowTextBox "!!! 3FB058 6"
+WaitTextBox
+ShowChara 3 1 17
+# なんて歌にゅ？
+ShowTextBox "!!! 3FB058 7"
+WaitTextBox
+ShowChara 2 2 22
+# 『ＰＡＲＴＹ☆Ｎ
+# ＩＧＨＴ』（パー
+# ティーナイト）っ
+# て言うんだけど…
+ShowTextBox "!!! 3FB058 8"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 2 2 22
+# どう？　ご感想を
+# うかがってもよろ
+# しいかしら？
+ShowTextBox "!!! 3FB058 9"
+WaitTextBox
+ShowChara 1 1 9
+# う～ん、いい歌に
+# ょ～
+ShowTextBox "!!! 3FB058 10"
+WaitTextBox
+ShowChara 3 1 18
+# 気に入ったにゅ
+ShowTextBox "!!! 3FB058 11"
+WaitTextBox
+ShowChara 1 1 10
+# 決めたにょ！　こ
+# の歌をマスターし
+# て今夜はミニコン
+# サートにょ！
+ShowTextBox "!!! 3FB058 12"
+WaitTextBox
+# にょにょ、今日は
+# 大女優でじこサマ
+# の記念すべきファ
+# ーストコンサート
+# の日にょっ！
+ShowTextBox "!!! 3FB058 13"
+WaitTextBox
+ShowChara 3 1 18
+# 今夜は伝説となる
+# にゅ
+ShowTextBox "!!! 3FB058 14"
+WaitTextBox
+ShowChara 2 2 23
+# な、なんだか、妙
+# にやる気になって
+# るわね…
+ShowTextBox "!!! 3FB058 15"
+WaitTextBox
+ShowChara 2 0 22
+# 気に入ってくれた
+# のはうれしいけれ
+# ど、いきなりコン
+# サートだなんて…
+ShowTextBox "!!! 3FB058 16"
+WaitTextBox
+# 第一、もうあんま
+# り時間がないわよ
+ShowTextBox "!!! 3FB058 17"
+WaitTextBox
+ShowChara 1 1 12
+# ううっ、痛いとこ
+# ろをつかれたにょ
+ShowTextBox "!!! 3FB058 18"
+WaitTextBox
+ShowChara 1 0 8
+# このままでは、歌
+# 詞をおぼえる時間
+# もないにょ～
+ShowTextBox "!!! 3FB058 19"
+WaitTextBox
+ShowChara 3 1 17
+# 店長さんに手伝っ
+# てもらうにゅ
+ShowTextBox "!!! 3FB058 20"
+WaitTextBox
+ShowChara 1 1 10
+# にょにょっ、ぷち
+# こ、それだにょ！
+# ナイスアイディア
+# だにょ～！
+ShowTextBox "!!! 3FB058 21"
+WaitTextBox
+# 店長しゃん、でじ
+# こがステージで歌
+# 詞を忘れそうにな
+# ったら、そんとき
+# はサポートよろし
+# くにょ！
+ShowTextBox "!!! 3FB058 22"
+WaitTextBox
+ShowChara 2 2 55
+# 平たく言うと、店
+# 長さんをカンニン
+# グペーパーにする
+# わけね
+ShowTextBox "!!! 3FB058 23"
+WaitTextBox
+ShowChara 1 1 8
+# ステージが成功す
+# るか失敗するか、
+# すべて店長しゃん
+# のサポートしだい
+# だにょっ！
+ShowTextBox "!!! 3FB058 24"
+WaitTextBox
+ShowChara 1 0 9
+# 店長しゃん、やっ
+# てくれるにょ？
+ShowTextBox "!!! 3FB058 25"
+WaitTextBox
+# まかせろ！
+# ちょっと無理…
+ShowSelMenu09 2 "!!! 3FB058 26"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 1 0 10
+# さすが店長しゃん
+# にょ！
+ShowTextBox "!!! 3FB058 27"
+WaitTextBox
+# 店長しゃんは店長
+# しゃんのカガミ、
+# 店長しゃんこそは
+# 店長しゃんの中の
+# 店長しゃんにょ！
+ShowTextBox "!!! 3FB058 28"
+WaitTextBox
+ShowChara 3 1 19
+# ややこしいにゅ
+ShowTextBox "!!! 3FB058 29"
+WaitTextBox
+ShowChara 2 2 23
+# それじゃ、店長さ
+# ん、歌詞カードを
+# 渡すから、ちゃん
+# と見ておいてね
+ShowTextBox "!!! 3FB058 30"
+WaitTextBox
+ShowChara 1 1 11
+# でじこたちは歌の
+# 練習、いや、特訓
+# にょ～
+ShowTextBox "!!! 3FB058 31"
+WaitTextBox
+ShowChara 8 2 53
+# さて、それでは店
+# 長さん、これから
+# ゲマが歌詞カード
+# の見方を説明する
+# ゲマ
+ShowTextBox "!!! 3FB058 32"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 8 2 1
+# え～、この後出る
+# 選択肢で、「歌詞
+# カードを見る」を
+# 選ぶと、
+ShowTextBox "!!! 3FB058 33"
+WaitTextBox
+# 『ＰＡＲＴＹ☆Ｎ
+# ＩＧＨＴ』（パー
+# ティーナイト）が
+# 一回流れるゲマ
+ShowTextBox "!!! 3FB058 34"
+WaitTextBox
+# 店長さんはそれを
+# 見て、だいたいで
+# いいから、歌詞を
+# おぼえるゲマ
+ShowTextBox "!!! 3FB058 35"
+WaitTextBox
+ShowChara 8 0 53
+# 店長さんの役目は
+# あくまで、でじこ
+# の手助けだから、
+# カンペキに暗記す
+# る必要はないゲマ
+ShowTextBox "!!! 3FB058 36"
+WaitTextBox
+JumpOnSelection 1 2 0
+Label 2
+ShowChara 8 0 1
+# さて、歌詞カード
+# を見るゲマ？それ
+# とも、もう十分だ
+# から本番へ進むゲ
+# マ？
+ShowTextBox "!!! 3FB058 37"
+WaitTextBox
+# 歌詞カードを見る
+# 本番へ進む
+ShowSelMenu09 2 "!!! 3FB058 38"
+JumpOnSelection 2 3 4 0
+Label 3
+SetUpCounter 0
+ActivateUpCounter
+StopMusic
+PlayMusic 0
+ShowChara 14 2 63
+# 『ＰＡＲＴＹ☆Ｎ
+# ＩＧＨＴ』（パー
+# ティーナイト）
+ShowTextBox "!!! 3FB058 39"
+WaitUpCounter 750
+# 合唱：
+# ホールド・ミー・
+# ベイベー
+# 踊ろうよサンデー
+ShowTextBox "!!! 3FB058 40"
+WaitUpCounter 1140
+# 合唱：
+# タッチ・ミー
+# ・ベイベー
+# 気分はホリデー
+ShowTextBox "!!! 3FB058 41"
+WaitUpCounter 1520
+# でじこ：
+# イヤな事
+# 全部忘れちゃおう
+ShowTextBox "!!! 3FB058 42"
+WaitUpCounter 1890
+# でじこ：
+# 一晩眠って目ざめたら
+# ハッピーガール
+ShowTextBox "!!! 3FB058 43"
+WaitUpCounter 2300
+# うさだ：
+# 夢の途中で
+# 出会う不思議
+ShowTextBox "!!! 3FB058 44"
+WaitUpCounter 2670
+# うさだ：
+# 悪夢を食べてる
+# バクたちも
+# グッドフレンズ
+ShowTextBox "!!! 3FB058 45"
+WaitUpCounter 3060
+# ぷちこ：
+# いつもならば
+# おしゃべりもしない
+ShowTextBox "!!! 3FB058 46"
+WaitUpCounter 3440
+# ぷちこ：
+# きゅうくつな人
+ShowTextBox "!!! 3FB058 47"
+WaitUpCounter 3640
+# でじこ：
+# 陽気な
+ShowTextBox "!!! 3FB058 48"
+WaitUpCounter 3730
+# 合唱：
+# リズムで変身
+ShowTextBox "!!! 3FB058 49"
+WaitUpCounter 4020
+# 合唱：
+# ホールド・ミー
+# ・ベイベー
+# ウキウキレイディ
+ShowTextBox "!!! 3FB058 50"
+WaitUpCounter 4210
+# うさだ：
+# ストレスは
+# ためないで
+ShowTextBox "!!! 3FB058 51"
+WaitUpCounter 4410
+# 合唱：
+# タッチ・ミー
+# ・ベイベー
+# キラキラボディ
+ShowTextBox "!!! 3FB058 52"
+WaitUpCounter 4600
+# でじこ：
+# リフレッシュ
+# しよう
+ShowTextBox "!!! 3FB058 53"
+WaitUpCounter 4800
+# 合唱：
+# ホールド・ミー
+# ・ベイベー
+# 踊ろうよサンデー
+ShowTextBox "!!! 3FB058 54"
+WaitUpCounter 4980
+# ぷちこ：
+# こころにも
+# 栄養を
+ShowTextBox "!!! 3FB058 55"
+WaitUpCounter 5180
+# 合唱：
+# タッチ・ミー
+# ・ベイベー
+# 気分はホリディ
+ShowTextBox "!!! 3FB058 56"
+WaitUpCounter 5370
+# でじこ：
+# 星空の
+# メロディ
+ShowTextBox "!!! 3FB058 57"
+WaitUpCounter 5660
+SetUpCounter 3
+FadeOutMusic 60
+ShowChara 8 2 53
+# う～ん、何度聴い
+# てもいい歌ゲマ…
+ShowTextBox "!!! 3FB058 58"
+WaitTextBox
+JumpOnSelection 1 2 0
+Label 4
+# でじこ、そっちは
+# どうゲマ？
+ShowTextBox "!!! 3FB058 59"
+WaitTextBox
+ShowChara 1 1 9
+# ＯＫにょ～
+ShowTextBox "!!! 3FB058 60"
+WaitTextBox
+ShowChara 8 2 1
+# こっちもＯＫゲマ
+ShowTextBox "!!! 3FB058 61"
+WaitTextBox
+ShowChara 8 0 53
+# さて、それでは本
+# 番にＧＯゲマっ！
+ShowTextBox "!!! 3FB058 62"
+WaitTextBox
+Fade 3 30
+SetBG 54
+Fade 2 30
+SetUpCounter 0
+ActivateUpCounter
+PlayMusic 0
+WaitUpCounter 750
+ShowChara 14 0 0
+# ホールド・ミー・
+# ベイベー
+# 踊ろうよサンデー
+ShowTextBox "!!! 3FB058 63"
+WaitUpCounter 1140
+ShowChara 14 0 0
+# タッチ・ミー
+# ・ベイベー
+# 気分はホリデー
+ShowTextBox "!!! 3FB058 64"
+WaitUpCounter 1520
+ShowChara 1 0 0
+# イヤな事
+# 全部忘れちゃおう
+ShowTextBox "!!! 3FB058 65"
+WaitUpCounter 1890
+ShowChara 1 0 0
+# 一晩眠って
+# 目ざめたら
+# ハッピーガール
+ShowTextBox "!!! 3FB058 66"
+WaitUpCounter 2300
+ShowChara 2 0 0
+# 夢の途中で
+# 出会う不思議
+ShowTextBox "!!! 3FB058 67"
+WaitUpCounter 2670
+ShowChara 2 0 0
+# 悪夢を食べてる
+# バクたちも
+# グッドフレンズ
+ShowTextBox "!!! 3FB058 68"
+WaitUpCounter 3060
+ShowChara 3 0 0
+# いつもならば
+# おしゃべりもしない
+ShowTextBox "!!! 3FB058 69"
+WaitUpCounter 3440
+ShowChara 3 0 0
+# きゅうくつな人
+ShowTextBox "!!! 3FB058 70"
+WaitUpCounter 3640
+ShowChara 1 0 0
+# 陽気な
+ShowTextBox "!!! 3FB058 71"
+WaitUpCounter 3730
+ShowChara 14 0 0
+# リズムで変身
+ShowTextBox "!!! 3FB058 72"
+WaitUpCounter 4020
+Fade 1 30
+SetBG 111
+Fade 0 30
+SetUpCounter 3
+FadeOutMusic 60
+ShowChara 1 1 12
+# にょにょ～？
+# つ、次の歌詞は何
+# だったかにょっ？
+ShowTextBox "!!! 3FB058 73"
+WaitTextBox
+# 「ホールド・ミー
+# ・ベイベー」で…
+ShowTextBox "!!! 3FB058 74"
+WaitTextBox
+ShowChara 8 2 53
+JumpOnSelection 1 5 0
+Label 5
+ShowChara 8 0 53
+# 店長さん、出番ゲ
+# マ！　次の中から
+# 正しい歌詞を選ぶ
+# ゲマ！
+ShowTextBox "!!! 3FB058 75"
+WaitTextBox
+# 踊ろうよサンデー
+# ウキウキレイディ
+# キラキラボディ
+ShowSelMenu09 3 "!!! 3FB058 76"
+JumpOnSelection 3 6 7 6 0
+Label 6
+ShowChara 8 0 1
+# 本当にそれでいい
+# ゲマ？
+ShowTextBox "!!! 3FB058 77"
+WaitTextBox
+# もっとよく考えて
+# みるゲマ！
+ShowTextBox "!!! 3FB058 78"
+WaitTextBox
+JumpOnSelection 1 5 0
+Label 7
+ShowChara 1 1 10
+# 思い出したにょ！
+ShowTextBox "!!! 3FB058 79"
+WaitTextBox
+# 次の歌詞は「ホー
+# ルド・ミー・ベイ
+# ベー、ウキウキレ
+# イディ」にょ！
+ShowTextBox "!!! 3FB058 80"
+WaitTextBox
+# それじゃもう一回
+# はじめから歌うに
+# ょ！
+ShowTextBox "!!! 3FB058 81"
+WaitTextBox
+Fade 1 30
+SetBG 54
+Fade 0 30
+SetUpCounter 0
+ActivateUpCounter
+PlayMusic 0
+WaitUpCounter 750
+ShowChara 14 0 0
+# ホールド・ミー・
+# ベイベー
+# 踊ろうよサンデー
+ShowTextBox "!!! 3FB058 82"
+WaitUpCounter 1140
+ShowChara 14 0 0
+# タッチ・ミー
+# ・ベイベー
+# 気分はホリデー
+ShowTextBox "!!! 3FB058 83"
+WaitUpCounter 1520
+ShowChara 1 0 0
+# イヤな事
+# 全部忘れちゃおう
+ShowTextBox "!!! 3FB058 84"
+WaitUpCounter 1890
+ShowChara 1 0 0
+# 一晩眠って
+# 目ざめたら
+# ハッピーガール
+ShowTextBox "!!! 3FB058 85"
+WaitUpCounter 2300
+ShowChara 2 0 0
+# 夢の途中で
+# 出会う不思議
+ShowTextBox "!!! 3FB058 86"
+WaitUpCounter 2670
+ShowChara 2 0 0
+# 悪夢を食べてる
+# バクたちも
+# グッドフレンズ
+ShowTextBox "!!! 3FB058 87"
+WaitUpCounter 3060
+ShowChara 3 0 0
+# いつもならば
+# おしゃべりもしない
+ShowTextBox "!!! 3FB058 88"
+WaitUpCounter 3440
+ShowChara 3 0 0
+# きゅうくつな人
+ShowTextBox "!!! 3FB058 89"
+WaitUpCounter 3640
+ShowChara 1 0 0
+# 陽気な
+ShowTextBox "!!! 3FB058 90"
+WaitUpCounter 3730
+ShowChara 14 0 0
+# リズムで変身
+ShowTextBox "!!! 3FB058 91"
+WaitUpCounter 4020
+ShowChara 14 0 0
+# ホールド・ミー
+# ・ベイベー
+# ウキウキレイディ
+ShowTextBox "!!! 3FB058 92"
+WaitUpCounter 4210
+ShowChara 2 0 0
+# ストレスは
+# ためないで
+ShowTextBox "!!! 3FB058 93"
+WaitUpCounter 4410
+ShowChara 14 0 0
+# タッチ・ミー
+# ・バイベー
+# キラキラボディ
+ShowTextBox "!!! 3FB058 94"
+WaitUpCounter 4600
+ShowChara 1 0 0
+# リフレッシュ
+# しよう
+ShowTextBox "!!! 3FB058 95"
+WaitUpCounter 4800
+ShowChara 14 0 0
+# ホールド・ミー
+# ・ベイベー
+# 踊ろうよサンデー
+ShowTextBox "!!! 3FB058 96"
+WaitUpCounter 4980
+ShowChara 3 0 0
+# こころにも
+# 栄養を
+ShowTextBox "!!! 3FB058 97"
+WaitUpCounter 5180
+ShowChara 14 0 0
+# タッチ・ミー
+# ・ベイベー
+# 気分はホリディ
+ShowTextBox "!!! 3FB058 98"
+WaitUpCounter 5370
+ShowChara 1 0 0
+# 星空の
+# メロディ～♪
+ShowTextBox "!!! 3FB058 99"
+WaitUpCounter 5660
+SetUpCounter 3
+Fade 3 120
+SetBG 111
+Fade 2 30
+ShowChara 8 2 53
+# ひゅーひゅーっ！
+# でじこ、うさだ、
+# ぷちこ、最高ゲマ
+# ーっ！
+ShowTextBox "!!! 3FB058 100"
+WaitTextBox
+ShowChara 3 1 18
+# なんか照れるにゅ
+ShowTextBox "!!! 3FB058 101"
+WaitTextBox
+ShowChara 2 1 23
+# みんなー、聴いて
+# くれてありがとー
+ShowTextBox "!!! 3FB058 102"
+WaitTextBox
+ShowChara 1 1 10
+# 無事に歌えたのは
+# 店長しゃんのおか
+# げにょ！　店長し
+# ゃ～ん、ありがと
+# うにょ～！
+ShowTextBox "!!! 3FB058 103"
+WaitTextBox
+ShowChara 8 2 53
+# 大成功、お客さん
+# にもウケてるゲマ
+# ～！
+ShowTextBox "!!! 3FB058 104"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 1 0 12
+# 仕方ない、残念だ
+# けど歌うのはやめ
+# にして、ＢＧＭで
+# 流すだけにしとく
+# にょ～
+ShowTextBox "!!! 3FB058 105"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 1 1 8
+# ホールド・ミー・
+# ベイベー
+# 気分はホリデー…
+ShowTextBox "!!! 3FB058 106"
+WaitTextBox
+ShowChara 2 2 22
+# ちょっと間違って
+# ない？
+ShowTextBox "!!! 3FB058 107"
+WaitTextBox
+ShowChara 3 1 21
+# 「ホールド・ミー
+# ・ベイベー、踊ろ
+# うよサンデー」が
+# 正解にゅ
+ShowTextBox "!!! 3FB058 108"
+WaitTextBox
+ShowChara 1 1 12
+# め、めんぼくない
+# にょ…
+ShowTextBox "!!! 3FB058 109"
+WaitTextBox
+ShowChara 1 0 11
+# このくやしさは、
+# きっと、来年のク
+# リスマスでリベン
+# ジしてやるにょ！
+ShowTextBox "!!! 3FB058 110"
+WaitTextBox
+ShowChara 8 2 1
+# おおっ、でじこが
+# 燃えてるゲマ！
+ShowTextBox "!!! 3FB058 111"
+WaitTextBox
+ShowChara 3 1 17
+# あんまりイブっぽ
+# くない誓いにゅ
+ShowTextBox "!!! 3FB058 112"
+WaitTextBox
+EndScript

@@ -1,334 +1,55 @@
-DSCBase $3FA8B8
-
-
-
-
-Subscript 0
-SetBG 111
-Fade 0 30
-ShowChara 2 1 22
-# 気がつけば、もう
-# １２月の半ば…
-ShowTextBox "!!! 3FA8B8 0"
-WaitTextBox
-# さすが師走（しわ
-# す）というだけあ
-# って、時間が経つ
-# のが早いわね
-ShowTextBox "!!! 3FA8B8 1"
-WaitTextBox
-ShowChara 1 2 8
-# クリスマスへむけ
-# て、大忙しの毎日
-# だにょ
-ShowTextBox "!!! 3FA8B8 2"
-WaitTextBox
-ShowChara 8 1 1
-# くつろいでるとこ
-# ろ悪いけど、店長
-# さんからの差し入
-# れゲマ～
-ShowTextBox "!!! 3FA8B8 3"
-WaitTextBox
-ShowChara 1 2 9
-# 店長しゃんからの
-# 差し入れ？…にょ
-# にょ～、さっそく
-# 開けるにょ～
-ShowTextBox "!!! 3FA8B8 4"
-WaitTextBox
-ShowChara 2 1 22
-# ずいぶん大きな包
-# みだけど、何かし
-# ら？
-ShowTextBox "!!! 3FA8B8 5"
-WaitTextBox
-ShowChara 1 2 8
-# 赤と白のコートみ
-# たいなものが入っ
-# てるにょ
-ShowTextBox "!!! 3FA8B8 6"
-WaitTextBox
-ShowChara 2 1 22
-# これって、サンタ
-# の服ね！
-ShowTextBox "!!! 3FA8B8 7"
-WaitTextBox
-ShowChara 3 2 21
-# サンタの服は、サ
-# ンタ１頭から１着
-# 分しかとれないた
-# め、とても貴重な
-# 品にゅ
-ShowTextBox "!!! 3FA8B8 8"
-WaitTextBox
-ShowChara 1 2 15
-# にょにょっ、そう
-# なのかにょっ！？
-# ぷちこは物知りだ
-# にょ～
-ShowTextBox "!!! 3FA8B8 9"
-WaitTextBox
-ShowChara 2 1 23
-# こらこら、知らな
-# い人をだましちゃ
-# ダメじゃない…
-ShowTextBox "!!! 3FA8B8 10"
-WaitTextBox
-ShowChara 8 1 2
-# 知らないって、罪
-# ゲマ～
-ShowTextBox "!!! 3FA8B8 11"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 2 1 22
-# えーっと、これは
-# サンタの格好をし
-# て街を歩いて、お
-# 店の宣伝をしろっ
-# てことね
-ShowTextBox "!!! 3FA8B8 12"
-WaitTextBox
-ShowChara 3 2 17
-# でも、サンタの服
-# は１着しかないに
-# ゅ
-ShowTextBox "!!! 3FA8B8 13"
-WaitTextBox
-ShowChara 1 2 15
-# ということは、１
-# 着の服を３人で着
-# なきゃならないに
-# ょ？
-ShowTextBox "!!! 3FA8B8 14"
-WaitTextBox
-# むむむ、これは難
-# 問にょ…
-ShowTextBox "!!! 3FA8B8 15"
-WaitTextBox
-ShowChara 3 2 18
-# うさだがでじこを
-# 肩車して、でじこ
-# がぷちこを肩車し
-# て
-ShowTextBox "!!! 3FA8B8 16"
-WaitTextBox
-# そして、その上か
-# らサンタの服をは
-# おればいいにゅ！
-ShowTextBox "!!! 3FA8B8 17"
-WaitTextBox
-ShowChara 2 1 24
-# どこの世界に、そ
-# んなあやしいサン
-# タクロースがいる
-# のよ！
-ShowTextBox "!!! 3FA8B8 18"
-WaitTextBox
-ShowChara 1 2 12
-# あいかわらず、う
-# さだはノリが悪い
-# にょ
-ShowTextBox "!!! 3FA8B8 19"
-WaitTextBox
-ShowChara 2 1 22
-# はいはい、誰がサ
-# ンタの役をやるの
-# か、さっさとじゃ
-# んけんで決めまし
-# ょ？
-ShowTextBox "!!! 3FA8B8 20"
-WaitTextBox
-ShowChara 1 2 8
-# 最初はグーでいく
-# にょ！
-ShowTextBox "!!! 3FA8B8 21"
-WaitTextBox
-ShowChara 2 1 22
-# わかったわ
-ShowTextBox "!!! 3FA8B8 22"
-WaitTextBox
-ShowChara 1 2 9
-# じゃ、いくにょ！
-# さーいしょはグー
-ShowTextBox "!!! 3FA8B8 23"
-WaitTextBox
-ShowChara 1 2 10
-# じゃんけん、ぽん
-# にょっ！
-ShowTextBox "!!! 3FA8B8 24"
-WaitTextBox
-Fade 3 30
-Wait 60
-EndScript
-
-
-
-Subscript 1
-Unk08 1 86 72 84 108 10 3
-SetBG 48
-Fade 2 30
-ShowChara 1 0 0
-# にょにょ～、でじこ…
-# じゃなくて、サンタさ
-# んだにょ～っ！
-ShowTextBox "!!! 3FA8B8 25"
-WaitTextBox
-# 全国のよい子のみんな
-# 今年のプレゼントはお
-# 決まりですかにょ？
-ShowTextBox "!!! 3FA8B8 26"
-WaitTextBox
-# まだなら、お父さんお
-# 母さんを連れて、でじ
-# このお店に来るにょ！
-ShowTextBox "!!! 3FA8B8 27"
-WaitTextBox
-# でじこがいっしょにお
-# ねだりしてあげるにょ
-# ～！
-ShowTextBox "!!! 3FA8B8 28"
-WaitTextBox
-# …だいたいこんなもん
-# かにょ
-# じゃ行って来るにょ～
-ShowTextBox "!!! 3FA8B8 29"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-Unk08 2 169 72 16 84 10 3
-Fade 2 30
-ShowChara 2 1 25
-# うっ、負けちゃっ
-# た…
-ShowTextBox "!!! 3FA8B8 30"
-WaitTextBox
-ShowChara 1 2 9
-# じゃ、あとはよろ
-# しくにょ～
-ShowTextBox "!!! 3FA8B8 31"
-WaitTextBox
-ShowChara 3 2 17
-# よろしくにゅ
-ShowTextBox "!!! 3FA8B8 32"
-WaitTextBox
-ShowChara 2 1 25
-# ふぅ…仕方ないわ
-# ね
-ShowTextBox "!!! 3FA8B8 33"
-WaitTextBox
-Fade 3 30
-SetBG 49
-Fade 2 30
-ShowChara 2 0 0
-# みなさ～ん、当店は明
-# 日からクリスマスセー
-# ルを開催しまーす！
-ShowTextBox "!!! 3FA8B8 34"
-WaitTextBox
-# ぜひ、いらっしゃって
-# くださいね～♪
-ShowTextBox "!!! 3FA8B8 35"
-WaitTextBox
-# （はぁはぁ…この袋を
-# 担いで回るのって、け
-# っこう大変だわ…）
-ShowTextBox "!!! 3FA8B8 36"
-WaitTextBox
-# （だけど、ここでくじ
-# けちゃダメよ、ラ・ビ
-# ・アン・ローズ…）
-ShowTextBox "!!! 3FA8B8 37"
-WaitTextBox
-# （だって、アタシはラ
-# ・ビ・アン・ローズな
-# んですものっ…！）
-ShowTextBox "!!! 3FA8B8 38"
-WaitTextBox
-# 明日からクリスマスセ
-# ール、クリスマスセー
-# ルでーす、
-ShowTextBox "!!! 3FA8B8 39"
-WaitTextBox
-# みんな、一度でいいか
-# ら遊びに来てねーっ
-# にこっ♪
-ShowTextBox "!!! 3FA8B8 40"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-Unk08 3 123 84 8 112 10 3
-Fade 2 30
-ShowChara 3 2 20
-# ぷちこ、負けたに
-# ゅ？
-ShowTextBox "!!! 3FA8B8 41"
-WaitTextBox
-ShowChara 1 2 8
-# はい、サンタ帽子
-# にょ
-ShowTextBox "!!! 3FA8B8 42"
-WaitTextBox
-ShowChara 2 1 22
-# それにサンタ袋ね
-ShowTextBox "!!! 3FA8B8 43"
-WaitTextBox
-ShowChara 3 2 20
-# にゅにゅ…重いに
-# ゅ
-ShowTextBox "!!! 3FA8B8 44"
-WaitTextBox
-ShowChara 2 1 25
-# だいじょうぶ？無
-# 理そうなら、代わ
-# ってあげるけど…
-ShowTextBox "!!! 3FA8B8 45"
-WaitTextBox
-ShowChara 3 2 17
-# だいじょうぶにゅ
-# ぷちこ、がんばる
-# にゅ！
-ShowTextBox "!!! 3FA8B8 46"
-WaitTextBox
-Fade 3 30
-SetBG 50
-Fade 2 30
-ShowChara 3 0 0
-# といったものの、ちょ
-# っと無茶だったかもに
-# ゅ
-ShowTextBox "!!! 3FA8B8 47"
-WaitTextBox
-# ふー、ちょっと、
-# ひと休みにゅ
-ShowTextBox "!!! 3FA8B8 48"
-WaitTextBox
-# ……
-ShowTextBox "!!! 3FA8B8 49"
-WaitTextBox
-# …………
-ShowTextBox "!!! 3FA8B8 50"
-WaitTextBox
-# にゅっ、店長さん、ど
-# うしてこんなころにい
-# るにゅ？
-ShowTextBox "!!! 3FA8B8 51"
-WaitTextBox
-# ぷちこを迎えにきてく
-# れたにゅ？ありがとに
-# ゅ…助かったにゅ
-ShowTextBox "!!! 3FA8B8 52"
-WaitTextBox
-# 今年はいいクリスマス
-# になりそうにゅ！
-ShowTextBox "!!! 3FA8B8 53"
-WaitTextBox
-EndScript
+DSCBase $3FA8B8 Subscript 0 SetBG 111 Fade 0 30 ShowChara 2 1 22 ShowTextBox "If you notice, it's already mid-December ..."
+WaitTextBox ShowTextBox "As expected, it's just December, so time goes by quickly."
+WaitTextBox ShowChara 1 2 8 ShowTextBox "It's a busy day for Christmas."
+WaitTextBox ShowChara 8 1 1 ShowTextBox "It's a bad place to relax, but it's a gem from the store manager ~"
+WaitTextBox ShowChara 1 2 9 ShowTextBox "Insertion from the store manager? ... Nyonyo ~, I'll open it right away ~"
+WaitTextBox ShowChara 2 1 22 ShowTextBox "It's a big package, but what is it?"
+WaitTextBox ShowChara 1 2 8 ShowTextBox "It has something like a red and white coat"
+WaitTextBox ShowChara 2 1 22 ShowTextBox "This is Santa's clothes!"
+WaitTextBox ShowChara 3 2 21 ShowTextBox "Santa's clothes can only be taken from one Santa, so it's a very valuable item."
+WaitTextBox ShowChara 1 2 15 ShowTextBox "Nyonyo, is that so! ?? Puchiko knows a lot ~"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "Don't be fooled by strangers ..."
+WaitTextBox ShowChara 8 1 2 ShowTextBox "I don't know, sin gema ~"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 2 1 22 ShowTextBox "Well, this is to dress up as Santa and walk around the city to promote the store."
+WaitTextBox ShowChara 3 2 17 ShowTextBox "But there is only one Santa's clothes"
+WaitTextBox ShowChara 1 2 15 ShowTextBox "So you have to wear one outfit for three people, right?"
+WaitTextBox ShowTextBox "Hmmm, this is a difficult problem ..."
+WaitTextBox ShowChara 3 2 18 ShowTextBox "Usada Di Gi Charat, Di Gi Charat Puchiko"
+WaitTextBox ShowTextBox "And you just have to put Santa's clothes on it!"
+WaitTextBox ShowChara 2 1 24 ShowTextBox "Where in the world is such a suspicious Santa Claus!"
+WaitTextBox ShowChara 1 2 12 ShowTextBox "As usual, Usada has a bad taste."
+WaitTextBox ShowChara 2 1 22 ShowTextBox "Yes, let's quickly decide who will play the role of Santa with rock-paper-scissors, right?"
+WaitTextBox ShowChara 1 2 8 ShowTextBox "Let's go goo at first!"
+WaitTextBox ShowChara 2 1 22 ShowTextBox "I got it"
+WaitTextBox ShowChara 1 2 9 ShowTextBox "Let's go! Saisho is goo"
+WaitTextBox ShowChara 1 2 10 ShowTextBox "Rock-paper-scissors, ponyo!"
+WaitTextBox Fade 3 30 Wait 60 EndScript Subscript 1 Unk08 1 86 72 84 108 10 3 SetBG 48 Fade 2 30 ShowChara 1 0 0 ShowTextBox "Nyonyo, Di Gi Charat ... not Santa!"
+WaitTextBox ShowTextBox "Good boys all over the country Have you decided on this year's gifts?"
+WaitTextBox ShowTextBox "If you haven't done so already, come to Di Gi Charat's shop with your dad and mom!"
+WaitTextBox ShowTextBox "Di Gi Charat will beg you together!"
+WaitTextBox ShowTextBox "... I'm going to go there like this ~"
+WaitTextBox EndScript Subscript 2 Unk08 2 169 72 16 84 10 3 Fade 2 30 ShowChara 2 1 25 ShowTextBox "Uh, I lost ..."
+WaitTextBox ShowChara 1 2 9 ShowTextBox "Well then, nice to meet you ~"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "Nice to meet you"
+WaitTextBox ShowChara 2 1 25 ShowTextBox "Hmm ... I can't help it"
+WaitTextBox Fade 3 30 SetBG 49 Fade 2 30 ShowChara 2 0 0 ShowTextBox "Minasa-n, our shop will hold a Christmas sale from tomorrow!"
+WaitTextBox ShowTextBox "Please come by all means ~ ♪"
+WaitTextBox ShowTextBox "(Hah ... It's quite difficult to carry this bag around ...)"
+WaitTextBox ShowTextBox "(But don't be discouraged here, La Bi Ann Rose ...)"
+WaitTextBox ShowTextBox "(Because I'm La Bi Ann Rose ...!)"
+WaitTextBox ShowTextBox "Christmas sale, Christmas sale from tomorrow,"
+WaitTextBox ShowTextBox "Everyone, come visit us once, so come on!"
+WaitTextBox EndScript Subscript 3 Unk08 3 123 84 8 112 10 3 Fade 2 30 ShowChara 3 2 20 ShowTextBox "Puchiko, lost?"
+WaitTextBox ShowChara 1 2 8 ShowTextBox "Yes, Santa hat"
+WaitTextBox ShowChara 2 1 22 ShowTextBox "And a Santa bag"
+WaitTextBox ShowChara 3 2 20 ShowTextBox "Nyunyu ... Heavy Nyu"
+WaitTextBox ShowChara 2 1 25 ShowTextBox "Are you okay? If that's not possible, I'll take over ..."
+WaitTextBox ShowChara 3 2 17 ShowTextBox "All right, Puchiko, do your best!"
+WaitTextBox Fade 3 30 SetBG 50 Fade 2 30 ShowChara 3 0 0 ShowTextBox "However, it may have been a little unreasonable"
+WaitTextBox ShowTextBox "Hmm, take a break"
+WaitTextBox ShowTextBox "......"
+WaitTextBox ShowTextBox "…………"
+WaitTextBox ShowTextBox "Nyu, store manager, why are you around this time?"
+WaitTextBox ShowTextBox "Did you come to pick up Puchiko? Thank you ... I was saved"
+WaitTextBox ShowTextBox "This year is going to be a good Christmas!"
+WaitTextBox EndScript 

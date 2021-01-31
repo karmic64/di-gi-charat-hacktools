@@ -1,344 +1,66 @@
-DSCBase $3EC49C
-
-
-
-
-Subscript 0
-ShowChara 4 4 28
-# $1の夕暮れはロマンチックで最高ぴょ！
-ShowTextBox "!!! 3EC49C 0"
-WaitTextBox
-ShowChara 5 4 57
-# ピョコラ様、そのようなこといったいどこで？
-ShowTextBox "!!! 3EC49C 1"
-WaitTextBox
-ShowChara 4 4 29
-# お客さんが言ってたぴょ！
-ShowTextBox "!!! 3EC49C 2"
-WaitTextBox
-ShowChara 5 4 64
-# ………お客さん？
-ShowTextBox "!!! 3EC49C 3"
-WaitTextBox
-ShowChara 5 0 39
-# （今日来たお客は$2と$3…そして$4）
-ShowTextBox "!!! 3EC49C 4"
-WaitTextBox
-ShowChara 5 0 37
-# （その中でそんな事を言うのは…）
-# ブツブツ…
-ShowTextBox "!!! 3EC49C 5"
-WaitTextBox
-ShowChara 4 4 34
-# ところでロマンチックって何ぴょ？
-# …食べれるぴょ？
-ShowTextBox "!!! 3EC49C 6"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 4 4 28
-# $1は近所でよく見かけるぴょ！
-ShowTextBox "!!! 3EC49C 7"
-WaitTextBox
-# 自称『$2』ファンらしいぴょ
-ShowTextBox "!!! 3EC49C 8"
-WaitTextBox
-ShowChara 4 0 29
-# いい大人が恥ずか
-# しいぴょ！
-ShowTextBox "!!! 3EC49C 9"
-WaitTextBox
-ShowChara 5 4 35
-# ピョコラ様の言うとおり！
-ShowTextBox "!!! 3EC49C 10"
-WaitTextBox
-ShowChara 5 0 39
-# みっともなさすぎ
-# 生きる恥さらし…
-# ですな
-ShowTextBox "!!! 3EC49C 11"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 4 4 28
-# さっきお店に来てた$1が$2のチケット落としていったぴょ
-ShowTextBox "!!! 3EC49C 12"
-WaitTextBox
-ShowChara 4 0 29
-# 今度みんなで遊びに行くぴょ！
-ShowTextBox "!!! 3EC49C 13"
-WaitTextBox
-ShowChara 6 4 41
-# そうですね、$3と$4を持って…
-# 店長さんもぜひ！
-ShowTextBox "!!! 3EC49C 14"
-WaitTextBox
-ShowChara 4 4 33
-# ぴょ！？
-# 店長さん、なに言
-# ってるぴょ！！
-# 交番に届けるぴょ
-# ？
-ShowTextBox "!!! 3EC49C 15"
-WaitTextBox
-ShowChara 4 0 31
-# そんなことしたら
-# 『悪』じゃないぴょ！
-ShowTextBox "!!! 3EC49C 16"
-WaitTextBox
-ShowChara 4 0 29
-# ぴよこ達はブラッ
-# クゲマゲマ団！
-# 『一日一悪』だぴ
-# ょ！！
-ShowTextBox "!!! 3EC49C 17"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 4 4 29
-# $1は『$2』でも読むべきぴょ
-ShowTextBox "!!! 3EC49C 18"
-WaitTextBox
-# 読んであの性格を直した方がいいぴょ！
-ShowTextBox "!!! 3EC49C 19"
-WaitTextBox
-ShowChara 4 0 28
-# リク！
-ShowTextBox "!!! 3EC49C 20"
-WaitTextBox
-ShowChara 5 4 35
-# ハッ…ピョコラ様
-ShowTextBox "!!! 3EC49C 21"
-WaitTextBox
-ShowChara 4 4 29
-# $1に現金着払いで『$2』を全巻送りつけるぴょ！
-ShowTextBox "!!! 3EC49C 22"
-WaitTextBox
-# それで、人生勉強してもらうぴょ！
-ShowTextBox "!!! 3EC49C 23"
-WaitTextBox
-ShowChara 5 4 36
-# なるほど…流石です、ピョコラ様
-ShowTextBox "!!! 3EC49C 24"
-WaitTextBox
-ShowChara 4 4 34
-# ブラックゲマゲマ
-# 団は『一日一悪』ぴょ！
-ShowTextBox "!!! 3EC49C 25"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-ShowChara 4 4 28
-# でじこお姉ちゃん
-# この前$1に乗ったって言ってたぴょ！
-ShowTextBox "!!! 3EC49C 26"
-WaitTextBox
-ShowChara 4 0 31
-# ぴよこは$1より速い$2に乗ってみせるぴょ！
-ShowTextBox "!!! 3EC49C 27"
-WaitTextBox
-# 負けないぴょ！
-ShowTextBox "!!! 3EC49C 28"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-ShowChara 4 4 33
-# ぴょっ！？
-ShowTextBox "!!! 3EC49C 29"
-WaitTextBox
-ShowChara 4 0 31
-# 急におなかが痛く
-# なってきたぴょ…
-# さっき食べた$1がいけなかったぴょ？
-ShowTextBox "!!! 3EC49C 30"
-WaitTextBox
-ShowChara 7 4 52
-# $1と$2…
-# 実は食い合わせが悪いんだ
-ShowTextBox "!!! 3EC49C 31"
-WaitTextBox
-ShowChara 7 0 48
-# みんなも気をつけてな
-ShowTextBox "!!! 3EC49C 32"
-WaitTextBox
-ShowChara 7 0 47
-# ほら、ぴよこ
-# お薬…
-ShowTextBox "!!! 3EC49C 33"
-WaitTextBox
-ShowChara 4 4 29
-# クウ、ありがとぴょ♪
-ShowTextBox "!!! 3EC49C 34"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-ShowChara 4 4 31
-# でじこお姉ちゃん
-# のお店で『$1』のグッズが大人気ぴょ！
-ShowTextBox "!!! 3EC49C 35"
-WaitTextBox
-# ぴよこ達も負けてられないぴょ
-ShowTextBox "!!! 3EC49C 36"
-WaitTextBox
-ShowChara 4 0 29
-# 『$2』グッズを大量に仕入れて、売りまくるぴょ！
-ShowTextBox "!!! 3EC49C 37"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-ShowChara 4 4 28
-# ウワサで聞いたぴょ
-ShowTextBox "!!! 3EC49C 38"
-WaitTextBox
-# うさだお姉ちゃん
-# に『$1』からスカウトの話が来たらしいんだぴょ
-ShowTextBox "!!! 3EC49C 39"
-WaitTextBox
-ShowChara 4 0 28
-# でも、断ったらしいぴょ
-ShowTextBox "!!! 3EC49C 40"
-WaitTextBox
-ShowChara 4 0 34
-# どうしてぴょ？
-# ぴよこには分からないぴょ
-ShowTextBox "!!! 3EC49C 41"
-WaitTextBox
-EndScript
-
-
-
-Subscript 8
-ShowChara 4 4 29
-# 店長さんのおかげ
-# で、ぴよこ$1が上手になったぴょ
-ShowTextBox "!!! 3EC49C 42"
-WaitTextBox
-# 次は$2にも挑戦ぴょ！
-ShowTextBox "!!! 3EC49C 43"
-WaitTextBox
-EndScript
-
-
-
-Subscript 9
-ShowChara 4 4 29
-# お店の裏にある$1に実がなってたぴょ
-ShowTextBox "!!! 3EC49C 44"
-WaitTextBox
-ShowChara 4 0 28
-# これって…食べれるぴょ？
-ShowTextBox "!!! 3EC49C 45"
-WaitTextBox
-ShowChara 7 4 58
-# やめとけ、ぴよこ！
-ShowTextBox "!!! 3EC49C 46"
-WaitTextBox
-ShowChara 7 0 52
-# $1の実を食べると、おなか痛くなるぜ！
-ShowTextBox "!!! 3EC49C 47"
-WaitTextBox
-ShowChara 4 4 34
-# そうぴょ？
-ShowTextBox "!!! 3EC49C 48"
-WaitTextBox
-ShowChara 7 4 51
-# …もう実験済みだ
-ShowTextBox "!!! 3EC49C 49"
-WaitTextBox
-EndScript
-
-
-
-Subscript 10
-ShowChara 4 4 31
-# む～～～～！！
-# 思い出したぴょ！
-ShowTextBox "!!! 3EC49C 50"
-WaitTextBox
-# でじこお姉ちゃん
-# がよく『$1風呂』に入ってるぴょ！
-# 健康にいいらしいぴょ
-ShowTextBox "!!! 3EC49C 51"
-WaitTextBox
-ShowChara 4 0 30
-# ぴよこも入りたいぴょ～
-ShowTextBox "!!! 3EC49C 52"
-WaitTextBox
-ShowChara 5 4 35
-# おまかせください
-# ピョコラ様！
-ShowTextBox "!!! 3EC49C 53"
-WaitTextBox
-ShowChara 5 0 39
-# 『$1風呂』はムリとして『$2風呂』をご用意しました！
-ShowTextBox "!!! 3EC49C 54"
-WaitTextBox
-ShowChara 6 0 41
-# $3の花びらも散らして、ゴージャスです！
-ShowTextBox "!!! 3EC49C 55"
-WaitTextBox
-ShowChara 4 4 29
-# わ～～～い！
-# うれしいぴょ！！
-ShowTextBox "!!! 3EC49C 56"
-WaitTextBox
-ShowChara 7 4 49
-# …マジかよ、おまえら
-ShowTextBox "!!! 3EC49C 57"
-WaitTextBox
-EndScript
-
-
-
-Subscript 11
-ShowChara 4 4 28
-# そういえば最近、$1には『$2ランド』ができたぴょ！
-ShowTextBox "!!! 3EC49C 58"
-WaitTextBox
-# …リク、うれしいぴょ？
-ShowTextBox "!!! 3EC49C 59"
-WaitTextBox
-ShowChara 5 4 65
-# 当然ですピョコラ
-# 様！！
-# この胸の高鳴りおさえきれません！
-ShowTextBox "!!! 3EC49C 60"
-WaitTextBox
-ShowChara 4 4 29
-# それじゃ今すぐ行ってみるぴょ？
-ShowTextBox "!!! 3EC49C 61"
-WaitTextBox
-ShowChara 4 0 28
-# $3に乗って行けばすぐ着くぴょ！
-ShowTextBox "!!! 3EC49C 62"
-WaitTextBox
-ShowChara 5 4 39
-# ハッ…さっそく手配いたします！
-ShowTextBox "!!! 3EC49C 63"
-WaitTextBox
-ShowChara 5 0 38
-# 店長、運転はまかせるぞ！
-ShowTextBox "!!! 3EC49C 64"
-WaitTextBox
-EndScript
+DSCBase $3EC49C Subscript 0 ShowChara 4 4 28 ShowTextBox "The $1 dusk is romantic and awesome!"
+WaitTextBox ShowChara 5 4 57 ShowTextBox "Pyocola-sama, where is that kind of thing?"
+WaitTextBox ShowChara 4 4 29 ShowTextBox "The customer said it!"
+WaitTextBox ShowChara 5 4 64 ShowTextBox "………customer?"
+WaitTextBox ShowChara 5 0 39 ShowTextBox "(Customers who came today are $2 and $3 ... and $4)"
+WaitTextBox ShowChara 5 0 37 ShowTextBox "(That's what I say ...)"
+WaitTextBox ShowChara 4 4 34 ShowTextBox "By the way, what is romantic? ... can you eat it?"
+WaitTextBox EndScript Subscript 1 ShowChara 4 4 28 ShowTextBox "$1 is often seen in the neighborhood!"
+WaitTextBox ShowTextBox "Self-proclaimed \"$2\" fan-like Pyo"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "A good adult is embarrassed!"
+WaitTextBox ShowChara 5 4 35 ShowTextBox "As Pyocola says!"
+WaitTextBox ShowChara 5 0 39 ShowTextBox "It's a shame to live too ugly ..."
+WaitTextBox EndScript Subscript 2 ShowChara 4 4 28 ShowTextBox "The $1 ticket that came to the store just dropped the $2 ticket."
+WaitTextBox ShowChara 4 0 29 ShowTextBox "Let's all go play next time!"
+WaitTextBox ShowChara 6 4 41 ShowTextBox "Well, with $3 and $4 ... the store manager is definitely welcome!"
+WaitTextBox ShowChara 4 4 33 ShowTextBox "Pyo! ?? Manager, what are you talking about! !! Pyo to deliver to the police box?"
+WaitTextBox ShowChara 4 0 31 ShowTextBox "If that happens, it's not \"evil\"!"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "Piyoko and the others are Black Gemagema! \"One evil a day\"! !!"
+WaitTextBox EndScript Subscript 3 ShowChara 4 4 29 ShowTextBox "$1 should be read in \"$2\""
+WaitTextBox ShowTextBox "You should read and correct your personality!"
+WaitTextBox ShowChara 4 0 28 ShowTextBox "Riku!"
+WaitTextBox ShowChara 5 4 35 ShowTextBox "Hah ... Pyocola"
+WaitTextBox ShowChara 4 4 29 ShowTextBox "Send the whole volume of \"$2\" to $1 by cash payment!"
+WaitTextBox ShowTextBox "So, let's study life!"
+WaitTextBox ShowChara 5 4 36 ShowTextBox "I see ... It's a stone, Pyokora-sama"
+WaitTextBox ShowChara 4 4 34 ShowTextBox "The Black Gemagema troupe is \"one evil a day\"!"
+WaitTextBox EndScript Subscript 4 ShowChara 4 4 28 ShowTextBox "Di Gi Charat said he got on $1 the other day!"
+WaitTextBox ShowChara 4 0 31 ShowTextBox "Piyoko will ride $2 faster than $1!"
+WaitTextBox ShowTextBox "I won't lose!"
+WaitTextBox EndScript Subscript 5 ShowChara 4 4 33 ShowTextBox "Pyo! ??"
+WaitTextBox ShowChara 4 0 31 ShowTextBox "Suddenly my stomach hurts ... I couldn't afford the $1 I ate earlier?"
+WaitTextBox ShowChara 7 4 52 ShowTextBox "$1 and $2 ... Actually, it's a bad match"
+WaitTextBox ShowChara 7 0 48 ShowTextBox "Everyone should be careful"
+WaitTextBox ShowChara 7 0 47 ShowTextBox "You see, Piyoko medicine ..."
+WaitTextBox ShowChara 4 4 29 ShowTextBox "Ku, thank you ♪"
+WaitTextBox EndScript Subscript 6 ShowChara 4 4 31 ShowTextBox "\"$1\" goods are very popular at Di Gi Charat's shop!"
+WaitTextBox ShowTextBox "Piyoko can't lose"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "Buy a lot of \"$2\" goods and sell them!"
+WaitTextBox EndScript Subscript 7 ShowChara 4 4 28 ShowTextBox "I heard it in rumor"
+WaitTextBox ShowTextBox "It seems that the story of a scout came from \"$1\" to Usada-neechan."
+WaitTextBox ShowChara 4 0 28 ShowTextBox "But he seems to have refused"
+WaitTextBox ShowChara 4 0 34 ShowTextBox "Why? Piyoko doesn't understand Pyo"
+WaitTextBox EndScript Subscript 8 ShowChara 4 4 29 ShowTextBox "Thanks to the manager, Piyoko $1 has improved."
+WaitTextBox ShowTextBox "Next time, try $2!"
+WaitTextBox EndScript Subscript 9 ShowChara 4 4 29 ShowTextBox "The $1 on the back of the shop was fruitful"
+WaitTextBox ShowChara 4 0 28 ShowTextBox "This is ... can you eat it?"
+WaitTextBox ShowChara 7 4 58 ShowTextBox "Stop it, Piyoko!"
+WaitTextBox ShowChara 7 0 52 ShowTextBox "Eating $1 fruit will hurt your stomach!"
+WaitTextBox ShowChara 4 4 34 ShowTextBox "That's right?"
+WaitTextBox ShowChara 7 4 51 ShowTextBox "... already experimented"
+WaitTextBox EndScript Subscript 10 ShowChara 4 4 31 ShowTextBox "Mu ~~~~! !! I remembered it!"
+WaitTextBox ShowTextBox "Di Gi Charat often takes a \"$1 bath\"! It seems to be good for your health"
+WaitTextBox ShowChara 4 0 30 ShowTextBox "I want to enter Piyoko too ~"
+WaitTextBox ShowChara 5 4 35 ShowTextBox "Please leave it to us, Pyocola!"
+WaitTextBox ShowChara 5 0 39 ShowTextBox "\"$1 bath\" is available as \"$2 bath\"!"
+WaitTextBox ShowChara 6 0 41 ShowTextBox "It's gorgeous with $3 petals scattered around!"
+WaitTextBox ShowChara 4 4 29 ShowTextBox "Wow! I'm happy! !!"
+WaitTextBox ShowChara 7 4 49 ShowTextBox "… Seriously, you guys"
+WaitTextBox EndScript Subscript 11 ShowChara 4 4 28 ShowTextBox "By the way, recently, \"$2 Land\" was created for $1!"
+WaitTextBox ShowTextBox "... Riku, are you happy?"
+WaitTextBox ShowChara 5 4 65 ShowTextBox "Naturally, Pyocola-sama! !! I can't stop this throbbing!"
+WaitTextBox ShowChara 4 4 29 ShowTextBox "Then why don't you go right now?"
+WaitTextBox ShowChara 4 0 28 ShowTextBox "Get on the $3 and you'll be there!"
+WaitTextBox ShowChara 5 4 39 ShowTextBox "Hmm ... I'll arrange it right away!"
+WaitTextBox ShowChara 5 0 38 ShowTextBox "Store manager, I'll leave the driving to you!"
+WaitTextBox EndScript 

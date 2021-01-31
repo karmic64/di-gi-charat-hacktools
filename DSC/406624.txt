@@ -1,352 +1,62 @@
-DSCBase $406624
-
-
-
-
-Subscript 0
-SetBG 112
-Fade 0 30
-ShowChara 5 1 37
-# ううむ…
-ShowTextBox "!!! 406624 0"
-WaitTextBox
-ShowChara 7 2 47
-# どうしたんだ、リ
-# ク？
-ShowTextBox "!!! 406624 1"
-WaitTextBox
-ShowChara 6 2 40
-# うかない顔ですね
-# …
-ShowTextBox "!!! 406624 2"
-WaitTextBox
-ShowChara 5 1 35
-# 先ほど、ピョコラ
-# 様からご命令があ
-# ったのだが…
-ShowTextBox "!!! 406624 3"
-WaitTextBox
-ShowChara 7 2 47
-# 命令？
-ShowTextBox "!!! 406624 4"
-WaitTextBox
-ShowChara 5 1 35
-# バレンタインの日
-# に、団員にチョコ
-# を配るので、人数
-# 分を用意しておく
-# ように…とおおせ
-# だ
-ShowTextBox "!!! 406624 5"
-WaitTextBox
-ShowChara 7 2 48
-# なーんだ、団員た
-# ちが妙にソワソワ
-# してるなって思っ
-# たら、そういうわ
-# けだったのか
-ShowTextBox "!!! 406624 6"
-WaitTextBox
-# 別にいいんじゃな
-# いの？
-ShowTextBox "!!! 406624 7"
-WaitTextBox
-ShowChara 6 2 40
-# クウ、分かってい
-# ませんね…
-ShowTextBox "!!! 406624 8"
-WaitTextBox
-ShowChara 7 2 47
-# えっ？
-ShowTextBox "!!! 406624 9"
-WaitTextBox
-ShowChara 5 1 37
-# ひょっとすると、
-# 我々も団員と同じ
-# 扱いになるのかも
-# しれんのだ…
-ShowTextBox "!!! 406624 10"
-WaitTextBox
-ShowChara 6 2 43
-# ようするに、自分
-# たちも義理チョコ
-# しかもらえないか
-# も…ということで
-# す
-ShowTextBox "!!! 406624 11"
-WaitTextBox
-ShowChara 7 2 50
-# お、俺はちゃんと
-# もらえるって、信
-# じてるぞー！
-ShowTextBox "!!! 406624 12"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-SetBG 112
-Fade 0 30
-ShowChara 4 2 29
-# 今日はおまえたち
-# にプレゼントがあ
-# るぴょ！
-ShowTextBox "!!! 406624 13"
-WaitTextBox
-ShowChara 12 1 59
-# か、感激ゲバ！ピ
-# ョコラ様からプレ
-# ゼントをいただけ
-# るなんてー！
-ShowTextBox "!!! 406624 14"
-WaitTextBox
-ShowChara 12 1 60
-# 同感ゲバー！
-ShowTextBox "!!! 406624 15"
-WaitTextBox
-ShowChara 4 2 29
-# 一列に並ぶぴょ！
-ShowTextBox "!!! 406624 16"
-WaitTextBox
-ShowChara 12 1 59
-# は～い、ゲバ！
-ShowTextBox "!!! 406624 17"
-WaitTextBox
-ShowChara 12 1 60
-# 並ぶゲバ！
-ShowTextBox "!!! 406624 18"
-WaitTextBox
-ShowChara 4 2 29
-# ほいっ…
-ShowTextBox "!!! 406624 19"
-WaitTextBox
-ShowChara 12 1 59
-# やったゲバー
-ShowTextBox "!!! 406624 20"
-WaitTextBox
-ShowChara 4 2 29
-# ほいっ…
-ShowTextBox "!!! 406624 21"
-WaitTextBox
-ShowChara 12 1 59
-# う、嬉しいゲバー
-ShowTextBox "!!! 406624 22"
-WaitTextBox
-ShowChara 4 2 29
-# ほいっ…
-ShowTextBox "!!! 406624 23"
-WaitTextBox
-ShowChara 12 1 59
-# うひょー、ゲバー
-ShowTextBox "!!! 406624 24"
-WaitTextBox
-Fade 1 120
-Wait 60
-Fade 0 30
-ShowChara 5 1 35
-# チョコを配り終え
-# たようだ…
-ShowTextBox "!!! 406624 25"
-WaitTextBox
-ShowChara 6 1 43
-# どきどき…はたし
-# て、自分たちはピ
-# ョコラ様からチョ
-# コをもらえるので
-# しょうか…
-ShowTextBox "!!! 406624 26"
-WaitTextBox
-ShowChara 4 2 63
-# お～い、リク、カ
-# イ、クウ、ちょっ
-# とこっちに来るぴ
-# ょ～っ！
-ShowTextBox "!!! 406624 27"
-WaitTextBox
-ShowChara 7 1 58
-# よ、呼んでる！
-ShowTextBox "!!! 406624 28"
-WaitTextBox
-ShowChara 5 1 39
-# 行きましょう
-ShowTextBox "!!! 406624 29"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-EndScript
-
-
-
-Subscript 2
-ShowChara 4 2 28
-# お前たちに渡すも
-# のがあるぴょ
-ShowTextBox "!!! 406624 30"
-WaitTextBox
-ShowChara 5 1 39
-# と、言いますと…
-ShowTextBox "!!! 406624 31"
-WaitTextBox
-ShowChara 4 2 29
-# チョコを受け取る
-# ぴょ！
-ShowTextBox "!!! 406624 32"
-WaitTextBox
-ShowChara 7 1 48
-# やったー！ありが
-# とうよ、ぴよこ！
-ShowTextBox "!!! 406624 33"
-WaitTextBox
-ShowChara 6 1 41
-# 感激です、ピョコ
-# ラ様！
-ShowTextBox "!!! 406624 34"
-WaitTextBox
-ShowChara 4 2 29
-# そのチョコは、ぴ
-# よこの誕生日プレ
-# ゼントのお返しぴ
-# ょ
-ShowTextBox "!!! 406624 35"
-WaitTextBox
-ShowChara 5 1 36
-# ピョコラ様、あり
-# がとうございます
-ShowTextBox "!!! 406624 36"
-WaitTextBox
-ShowChara 4 2 29
-# そして、店長さん
-# にもぴょ
-ShowTextBox "!!! 406624 37"
-WaitTextBox
-ShowChara 4 0 34
-# これはいつもお世
-# 話になってるお礼
-# にぴょ
-ShowTextBox "!!! 406624 38"
-WaitTextBox
-ShowChara 7 1 51
-# いいな、店長のが
-# 一番大きいぞ…
-ShowTextBox "!!! 406624 39"
-WaitTextBox
-ShowChara 4 2 29
-# ホワイトデーのお
-# 返しは、あげたチ
-# ョコの大きさに比
-# 例するものを要求
-# するぴょっ！
-ShowTextBox "!!! 406624 40"
-WaitTextBox
-ShowChara 7 1 58
-# えっ！？じゃあ、
-# 大きくなくてよか
-# ったかも…
-ShowTextBox "!!! 406624 41"
-WaitTextBox
-ShowChara 4 2 29
-# ぴょぴょ、ただの
-# 冗談ぴょ～！
-ShowTextBox "!!! 406624 42"
-WaitTextBox
-ShowChara 5 1 37
-# （ピョコラ様…一
-# 瞬、目が本気でし
-# た…）
-ShowTextBox "!!! 406624 43"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 4 2 34
-# ふう、チョコ配り
-# も楽じゃないぴょ
-ShowTextBox "!!! 406624 44"
-WaitTextBox
-ShowChara 6 1 40
-# そ、そうですね
-ShowTextBox "!!! 406624 45"
-WaitTextBox
-ShowChara 4 2 28
-# みんなもそう思う
-# ぴょ？
-ShowTextBox "!!! 406624 46"
-WaitTextBox
-ShowChara 5 1 39
-# ―して、ピョコラ
-# 様、ご用は何でし
-# ょうか？
-ShowTextBox "!!! 406624 47"
-WaitTextBox
-ShowChara 4 2 29
-# あとかたづけと、
-# そうじを頼むぴょ
-ShowTextBox "!!! 406624 48"
-WaitTextBox
-ShowChara 7 1 49
-# ちぇっ…
-ShowTextBox "!!! 406624 49"
-WaitTextBox
-ShowChara 4 2 28
-# ん、どうしたぴょ
-# ？
-ShowTextBox "!!! 406624 50"
-WaitTextBox
-ShowChara 6 1 41
-# い、いいえ、何で
-# もありません
-ShowTextBox "!!! 406624 51"
-WaitTextBox
-ShowChara 5 1 37
-# クウ少佐、しっか
-# りしろ…また来年
-# があるではないか
-# …
-ShowTextBox "!!! 406624 52"
-WaitTextBox
-ShowChara 7 1 49
-# う～ん、チョコレ
-# ート食いたかった
-# なー…
-ShowTextBox "!!! 406624 53"
-WaitTextBox
-ShowChara 4 2 28
-# そうだ、ひとつ言
-# い忘れてたことが
-# あったぴょ
-ShowTextBox "!!! 406624 54"
-WaitTextBox
-ShowChara 4 0 29
-# チョコレート！
-ShowTextBox "!!! 406624 55"
-WaitTextBox
-ShowChara 7 1 48
-# ！！！
-ShowTextBox "!!! 406624 56"
-WaitTextBox
-ShowChara 4 2 29
-# 少し余ってるから
-# 残りは３人で分け
-# るといいぴょ！
-ShowTextBox "!!! 406624 57"
-WaitTextBox
-ShowChara 7 1 49
-# もひとつ、がっく
-# り…
-ShowTextBox "!!! 406624 58"
-WaitTextBox
-ShowChara 5 1 37
-# ク、クウ少佐、気
-# を確かに…
-ShowTextBox "!!! 406624 59"
-WaitTextBox
-ShowChara 6 1 43
-# ピョコラ様…あん
-# まりです
-ShowTextBox "!!! 406624 60"
-WaitTextBox
-EndScript
+DSCBase $406624 Subscript 0 SetBG 112 Fade 0 30 ShowChara 5 1 37 ShowTextBox "Umm ..."
+WaitTextBox ShowChara 7 2 47 ShowTextBox "What's wrong, Riku?"
+WaitTextBox ShowChara 6 2 40 ShowTextBox "It's a lonely face ..."
+WaitTextBox ShowChara 5 1 35 ShowTextBox "Earlier, there was an order from Mr. Pyocola ..."
+WaitTextBox ShowChara 7 2 47 ShowTextBox "order?"
+WaitTextBox ShowChara 5 1 35 ShowTextBox "On Valentine's Day, we will distribute chocolates to the members, so be sure to prepare for the number of people ..."
+WaitTextBox ShowChara 7 2 48 ShowTextBox "Well, when I thought that the members were strangely sloppy, was that the case?"
+WaitTextBox ShowTextBox "Isn't it okay?"
+WaitTextBox ShowChara 6 2 40 ShowTextBox "Ku, I don't know ..."
+WaitTextBox ShowChara 7 2 47 ShowTextBox "eh?"
+WaitTextBox ShowChara 5 1 37 ShowTextBox "Perhaps we will be treated the same as the members ..."
+WaitTextBox ShowChara 6 2 43 ShowTextBox "In other words, we may only get chocolate-in-law ..."
+WaitTextBox ShowChara 7 2 50 ShowTextBox "Oh, I believe I can get it!"
+WaitTextBox EndScript Subscript 1 SetBG 112 Fade 0 30 ShowChara 4 2 29 ShowTextBox "I have a present for you today!"
+WaitTextBox ShowChara 12 1 59 ShowTextBox "Or, inspiring Geba! You can get a present from Pyocola!"
+WaitTextBox ShowChara 12 1 60 ShowTextBox "I agree with you!"
+WaitTextBox ShowChara 4 2 29 ShowTextBox "Pyo lined up in a row!"
+WaitTextBox ShowChara 12 1 59 ShowTextBox "Yeah, Geba!"
+WaitTextBox ShowChara 12 1 60 ShowTextBox "Geba lined up!"
+WaitTextBox ShowChara 4 2 29 ShowTextBox "Hoi ..."
+WaitTextBox ShowChara 12 1 59 ShowTextBox "I did Geber"
+WaitTextBox ShowChara 4 2 29 ShowTextBox "Hoi ..."
+WaitTextBox ShowChara 12 1 59 ShowTextBox "Uh, happy Geber"
+WaitTextBox ShowChara 4 2 29 ShowTextBox "Hoi ..."
+WaitTextBox ShowChara 12 1 59 ShowTextBox "Uhhh, Geber"
+WaitTextBox Fade 1 120 Wait 60 Fade 0 30 ShowChara 5 1 35 ShowTextBox "It looks like you've finished distributing the chocolates ..."
+WaitTextBox ShowChara 6 1 43 ShowTextBox "Pounding ... Will we get chocolate from Pyocola-sama ..."
+WaitTextBox ShowChara 4 2 63 ShowTextBox "Hey, Riku, Kai, Ku, come over here for a moment!"
+WaitTextBox ShowChara 7 1 58 ShowTextBox "I'm calling!"
+WaitTextBox ShowChara 5 1 39 ShowTextBox "let's go"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 EndScript Subscript 2 ShowChara 4 2 28 ShowTextBox "I have something to give you"
+WaitTextBox ShowChara 5 1 39 ShowTextBox "When I say ..."
+WaitTextBox ShowChara 4 2 29 ShowTextBox "Receive chocolate!"
+WaitTextBox ShowChara 7 1 48 ShowTextBox "Yay! Thank you, Piyoko!"
+WaitTextBox ShowChara 6 1 41 ShowTextBox "I'm thrilled, Pyocola!"
+WaitTextBox ShowChara 4 2 29 ShowTextBox "The chocolate is the return of Piyoko's birthday present."
+WaitTextBox ShowChara 5 1 36 ShowTextBox "Thank you, Pyocola"
+WaitTextBox ShowChara 4 2 29 ShowTextBox "And also to the store manager"
+WaitTextBox ShowChara 4 0 34 ShowTextBox "This is a thank you for always being indebted"
+WaitTextBox ShowChara 7 1 51 ShowTextBox "Good, the store manager is the biggest ..."
+WaitTextBox ShowChara 4 2 29 ShowTextBox "In return for White Day, you need something that is proportional to the size of the chocolate you gave!"
+WaitTextBox ShowChara 7 1 58 ShowTextBox "eh! ?? Then maybe I shouldn't have been big ..."
+WaitTextBox ShowChara 4 2 29 ShowTextBox "Pyo Pyo, just a joke!"
+WaitTextBox ShowChara 5 1 37 ShowTextBox "(Pyocola-sama ... I was serious about my eyes for a moment ...)"
+WaitTextBox EndScript Subscript 3 ShowChara 4 2 34 ShowTextBox "Hmm, it's not easy to distribute chocolate."
+WaitTextBox ShowChara 6 1 40 ShowTextBox "Well, that's right"
+WaitTextBox ShowChara 4 2 28 ShowTextBox "Do you think so too?"
+WaitTextBox ShowChara 5 1 39 ShowTextBox "-So, Pyokora-sama, what do you need?"
+WaitTextBox ShowChara 4 2 29 ShowTextBox "Clean up and ask for cleaning"
+WaitTextBox ShowChara 7 1 49 ShowTextBox "Hey ..."
+WaitTextBox ShowChara 4 2 28 ShowTextBox "Hmm, what's wrong?"
+WaitTextBox ShowChara 6 1 41 ShowTextBox "No, no, nothing"
+WaitTextBox ShowChara 5 1 37 ShowTextBox "Major Ku, be firm ... there will be another year ..."
+WaitTextBox ShowChara 7 1 49 ShowTextBox "Hmmm, I wanted to eat chocolate ..."
+WaitTextBox ShowChara 4 2 28 ShowTextBox "Yes, I had forgotten to say one thing"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "chocolate!"
+WaitTextBox ShowChara 7 1 48 ShowTextBox "!! !! !!"
+WaitTextBox ShowChara 4 2 29 ShowTextBox "There is a little left over, so it's a good idea to divide the rest among three people!"
+WaitTextBox ShowChara 7 1 49 ShowTextBox "I was disappointed ..."
+WaitTextBox ShowChara 5 1 37 ShowTextBox "Ku, Major Ku, surely ..."
+WaitTextBox ShowChara 6 1 43 ShowTextBox "Pyocola-sama ... not much"
+WaitTextBox EndScript 

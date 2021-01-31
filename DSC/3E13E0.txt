@@ -1,63 +1,7 @@
-DSCBase $3E13E0
-
-
-
-
-Subscript 0
-ShowChara 7 2 48
-EndScript
-
-
-
-Subscript 1
-HideChara
-EndScript
-
-
-
-Subscript 2
-ShowChara 7 0 48
-# 俺はクウ＝エアハルト
-ShowTextBox "!!! 3E13E0 0"
-EndScript
-
-
-
-Subscript 3
-# ぴよことは小さいとき
-# からいっしょで、まぁ
-# 妹みたいなもんだな
-ShowTextBox "!!! 3E13E0 1"
-EndScript
-
-
-
-Subscript 4
-# あっ、言い忘れてたけ
-# ど、俺はブラックゲマ
-# ゲマ団少佐だ！
-ShowTextBox "!!! 3E13E0 2"
-EndScript
-
-
-
-Subscript 5
-ShowChara 7 0 47
-# おーい、ぴよこ、俺が
-# アシスタントやれって
-# 言われたんだけど…
-ShowTextBox "!!! 3E13E0 3"
-Wait 60
-ShowChara 4 2 31
-# ダメぴょ！　アシスタ
-# ントはぴよこがやるぴ
-# ょっ！
-ShowTextBox "!!! 3E13E0 4"
-Wait 60
-ShowChara 7 2 50
-# うわぁ、ぴよこのやつ
-# 怒ってる…ということ
-# で、パス！
-ShowTextBox "!!! 3E13E0 5"
-Wait 60
-EndScript
+DSCBase $3E13E0 Subscript 0 ShowChara 7 2 48 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowChara 7 0 48 ShowTextBox "I'm Ku-Ehrhard"
+EndScript Subscript 3 ShowTextBox "Piyoko has been with me since I was little, and I'm like my sister."
+EndScript Subscript 4 ShowTextBox "Oh, I forgot to say that I'm Major Black Gemagema!"
+EndScript Subscript 5 ShowChara 7 0 47 ShowTextBox "Hey, Piyoko, I was told to be an assistant ..."
+Wait 60 ShowChara 4 2 31 ShowTextBox "No! The assistant is Piyoko!"
+Wait 60 ShowChara 7 2 50 ShowTextBox "Wow, Piyoko's guy is angry ... So pass!"
+Wait 60 EndScript 

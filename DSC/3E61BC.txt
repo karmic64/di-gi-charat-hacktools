@@ -1,372 +1,67 @@
-DSCBase $3E61BC
-
-
-
-
-Subscript 0
-ShowChara 4 1 28
-# 店長さん、$1って見たことあるぴょ？
-ShowTextBox "!!! 3E61BC 0"
-WaitTextBox
-ShowChara 4 0 29
-# ぴよこ見たことな
-# いから、ぜひ１度
-# 見てみたいぴょ
-ShowTextBox "!!! 3E61BC 1"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 4 2 29
-# ぴょぴょぴょ♪
-# 今日の『$1』は楽しみだぴょ
-ShowTextBox "!!! 3E61BC 2"
-WaitTextBox
-# $2が鼻から$3を飲みまくるらしいぴょ！
-ShowTextBox "!!! 3E61BC 3"
-WaitTextBox
-ShowChara 4 0 28
-# 病気にならないぴょ？
-ShowTextBox "!!! 3E61BC 4"
-WaitTextBox
-ShowChara 7 1 48
-# だいじょうぶだぜ
-# ぴよこ！
-ShowTextBox "!!! 3E61BC 5"
-WaitTextBox
-ShowChara 7 0 52
-# だって$2は$4の生まれかわりだからな
-ShowTextBox "!!! 3E61BC 6"
-WaitTextBox
-ShowChara 4 2 33
-# そうなのかぴょ？
-# 知らなかったぴょ！！
-ShowTextBox "!!! 3E61BC 7"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 4 1 30
-# ぴょぴょぴょ…
-ShowTextBox "!!! 3E61BC 8"
-WaitTextBox
-ShowChara 5 4 57
-# ピョコラ様いった
-# いどうなされたの
-# ですか？
-ShowTextBox "!!! 3E61BC 9"
-WaitTextBox
-ShowChara 4 4 30
-# 『$1』を読んで感動したぴょ
-ShowTextBox "!!! 3E61BC 10"
-WaitTextBox
-ShowChara 5 4 37
-# 『$1』ですか…
-# 私も一度ならず、
-# 何十回と涙しまし
-# た…
-ShowTextBox "!!! 3E61BC 11"
-WaitTextBox
-ShowChara 5 0 65
-# $2の$3への愛に、深く心をうたれずには…
-ShowTextBox "!!! 3E61BC 12"
-WaitTextBox
-ShowChara 4 4 31
-# $3なんか出てたぴょ？
-ShowTextBox "!!! 3E61BC 13"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 4 2 33
-# た、たいへんだぴょ！
-# お店に$1がいるぴょ！！
-ShowTextBox "!!! 3E61BC 14"
-WaitTextBox
-ShowChara 5 1 35
-# ピョコラ様、ここ
-# は不肖ながら私に
-# お任せを…
-ShowTextBox "!!! 3E61BC 15"
-WaitTextBox
-ShowChara 5 0 57
-# うっ！？
-ShowTextBox "!!! 3E61BC 16"
-WaitTextBox
-ShowChara 4 2 31
-# リ、リク…どうし
-# たぴょ？
-ShowTextBox "!!! 3E61BC 17"
-WaitTextBox
-ShowChara 5 1 65
-# か、可愛すぎて…
-# さわれません！！
-ShowTextBox "!!! 3E61BC 18"
-WaitTextBox
-ShowChara 4 2 28
-# かわいいならお店で飼うぴょ
-ShowTextBox "!!! 3E61BC 19"
-WaitTextBox
-ShowChara 4 0 29
-# きっといいマスコットになるぴょ！
-ShowTextBox "!!! 3E61BC 20"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-ShowChara 4 1 32
-# 口からバズーカっ
-# ！！
-ShowTextBox "!!! 3E61BC 21"
-WaitTextBox
-ShowChara 6 4 44
-# うわッ！ピョコラ
-# 様いったい？
-ShowTextBox "!!! 3E61BC 22"
-WaitTextBox
-ShowChara 4 1 31
-# $1がお店に来てたぴょ！
-ShowTextBox "!!! 3E61BC 23"
-WaitTextBox
-# しかも『$2』グッズを買おうとしてたんだぴょ！
-ShowTextBox "!!! 3E61BC 24"
-WaitTextBox
-ShowChara 4 0 30
-# 信じられないぴょ
-# イメージが崩れた
-# ぴょ～
-ShowTextBox "!!! 3E61BC 25"
-WaitTextBox
-ShowChara 6 4 45
-# し、しかし…それ
-# は我々にとってい
-# いことでは？
-ShowTextBox "!!! 3E61BC 26"
-WaitTextBox
-ShowChara 4 1 33
-# ぴょっっ…！！
-# そ、そうだったぴょ
-ShowTextBox "!!! 3E61BC 27"
-WaitTextBox
-# ぴよこ達、お金
-# もうけしなくちゃ
-# いけなかったぴょ
-# ！
-ShowTextBox "!!! 3E61BC 28"
-WaitTextBox
-ShowChara 4 0 34
-# ごめんぴょ！
-ShowTextBox "!!! 3E61BC 29"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-ShowChara 4 1 34
-# 店長さん、ちょっ
-# と教えてほしいこ
-# とがあるぴょ
-ShowTextBox "!!! 3E61BC 30"
-WaitTextBox
-ShowChara 4 0 28
-# $1と$2が親子って、本当ぴょ？
-ShowTextBox "!!! 3E61BC 31"
-WaitTextBox
-ShowChara 6 2 44
-# まっまさかっ！？
-ShowTextBox "!!! 3E61BC 32"
-WaitTextBox
-ShowChara 7 1 58
-# マジっ！？
-ShowTextBox "!!! 3E61BC 33"
-WaitTextBox
-ShowChara 5 2 57
-# そ、そのような事
-# が事実ならば、医
-# 学界に激震が…
-ShowTextBox "!!! 3E61BC 34"
-WaitTextBox
-ShowChara 4 1 31
-# おまえ達に聞いて
-# るんじゃないぴょ
-# ！
-ShowTextBox "!!! 3E61BC 35"
-WaitTextBox
-ShowChara 4 0 34
-# 店長さんに聞いて
-# るんだぴょ
-ShowTextBox "!!! 3E61BC 36"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-ShowChara 4 2 30
-# るるる～
-ShowTextBox "!!! 3E61BC 37"
-WaitTextBox
-ShowChara 7 1 50
-# ぴよこ、どうした
-# ？
-# 誰かにいじめられ
-# たのか！？
-ShowTextBox "!!! 3E61BC 38"
-WaitTextBox
-ShowChara 4 2 30
-# ちがうぴょ～
-ShowTextBox "!!! 3E61BC 39"
-WaitTextBox
-# せっかく後で食べ
-# ようと残しておい
-# た$1が無くなってるんだぴょ～
-ShowTextBox "!!! 3E61BC 40"
-WaitTextBox
-ShowChara 7 1 58
-# $1！？
-ShowTextBox "!!! 3E61BC 41"
-WaitTextBox
-ShowChara 7 0 48
-# じゃあ、あとで俺が代わりに$2を買ってきてやるよ
-ShowTextBox "!!! 3E61BC 42"
-WaitTextBox
-ShowChara 4 2 28
-# ほんとうぴょ！？
-ShowTextBox "!!! 3E61BC 43"
-WaitTextBox
-ShowChara 7 1 52
-# おう、まかせとけ！
-ShowTextBox "!!! 3E61BC 44"
-WaitTextBox
-ShowChara 4 2 31
-# でも、ぴよこの$1はどこいったんだぴょ？
-ShowTextBox "!!! 3E61BC 45"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-ShowChara 4 2 33
-# ぴょっ！？
-ShowTextBox "!!! 3E61BC 46"
-WaitTextBox
-ShowChara 7 1 50
-# どうした、ぴよこ？
-ShowTextBox "!!! 3E61BC 47"
-WaitTextBox
-ShowChara 4 2 30
-# 『$1』が終ってしまったぴょ！
-ShowTextBox "!!! 3E61BC 48"
-WaitTextBox
-# 毎週欠かさずに読んでたぴょ…
-ShowTextBox "!!! 3E61BC 49"
-WaitTextBox
-EndScript
-
-
-
-Subscript 8
-ShowChara 4 2 28
-# ぴょ！？
-# へんなものがお店
-# の前に止まったぴ
-# ょ
-ShowTextBox "!!! 3E61BC 50"
-WaitTextBox
-ShowChara 4 0 33
-# あれはハデな$1！
-# いったい誰が乗っ
-# てるんだぴょ？
-ShowTextBox "!!! 3E61BC 51"
-WaitTextBox
-EndScript
-
-
-
-Subscript 9
-ShowChara 4 2 29
-# たのしみだぴょ～
-# たのしみだぴょ～
-# ♪
-# 今夜は$1だぴょ～♪
-ShowTextBox "!!! 3E61BC 52"
-WaitTextBox
-ShowChara 4 0 28
-# 店長さん、$1って食べたことあるぴょ？
-ShowTextBox "!!! 3E61BC 53"
-WaitTextBox
-EndScript
-
-
-
-Subscript 10
-ShowChara 4 2 28
-# 店長さん、$1の花を見たことあるぴょ？
-ShowTextBox "!!! 3E61BC 54"
-WaitTextBox
-# とってもキレイな花らしいぴょ
-ShowTextBox "!!! 3E61BC 55"
-WaitTextBox
-ShowChara 4 0 34
-# ぴよこ、今度見てみたいぴょ
-ShowTextBox "!!! 3E61BC 56"
-WaitTextBox
-EndScript
-
-
-
-Subscript 11
-ShowChara 4 2 31
-# む～～～～～～
-ShowTextBox "!!! 3E61BC 57"
-WaitTextBox
-ShowChara 5 1 35
-# いかがなされまし
-# た？ピョコラ様
-ShowTextBox "!!! 3E61BC 58"
-WaitTextBox
-ShowChara 4 2 31
-# でじこお姉ちゃんのお店で$1がサイン会してたぴょ！
-ShowTextBox "!!! 3E61BC 59"
-WaitTextBox
-# たくさん人が集まって、もうかってたぴょ！
-ShowTextBox "!!! 3E61BC 60"
-WaitTextBox
-ShowChara 5 1 39
-# ふっ…それならば
-# 当店は$2を呼んでサイン会をいたしましょう
-ShowTextBox "!!! 3E61BC 61"
-WaitTextBox
-ShowChara 4 2 29
-# なるほど！
-# ナイスアイディアだぴょ！
-ShowTextBox "!!! 3E61BC 62"
-WaitTextBox
-EndScript
-
-
-
-Subscript 12
-ShowChara 4 2 28
-# 店長さん！店長さ
-# ん！
-ShowTextBox "!!! 3E61BC 63"
-WaitTextBox
-# 店長さんは$1に乗ったことあるぴょ？
-ShowTextBox "!!! 3E61BC 64"
-WaitTextBox
-ShowChara 4 0 29
-# ぴよこも地球に来たからには、１度は$1に乗ってみたいぴょ！
-ShowTextBox "!!! 3E61BC 65"
-WaitTextBox
-EndScript
+DSCBase $3E61BC Subscript 0 ShowChara 4 1 28 ShowTextBox "Manager, have you seen $1?"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "I've never seen Piyoko, so I definitely want to see it once"
+WaitTextBox EndScript Subscript 1 ShowChara 4 2 29 ShowTextBox "Pyo Pyo Pyo ♪ I'm looking forward to today's \"$1\""
+WaitTextBox ShowTextBox "It seems that $2 will swallow $3 from your nose!"
+WaitTextBox ShowChara 4 0 28 ShowTextBox "Don't you get sick?"
+WaitTextBox ShowChara 7 1 48 ShowTextBox "It's okay, Piyoko!"
+WaitTextBox ShowChara 7 0 52 ShowTextBox "Because $2 is a rebirth of $4"
+WaitTextBox ShowChara 4 2 33 ShowTextBox "Is that so? I didn't know! !!"
+WaitTextBox EndScript Subscript 2 ShowChara 4 1 30 ShowTextBox "Pyo Pyo Pyo ..."
+WaitTextBox ShowChara 5 4 57 ShowTextBox "What was Pyocola-sama doing?"
+WaitTextBox ShowChara 4 4 30 ShowTextBox "I was impressed by reading \"$1\""
+WaitTextBox ShowChara 5 4 37 ShowTextBox "Is it \"$1\" ... I cried more than once, dozens of times ..."
+WaitTextBox ShowChara 5 0 65 ShowTextBox "Don't be deeply moved by the love of $2 for $3 ..."
+WaitTextBox ShowChara 4 4 31 ShowTextBox "Did you get $3?"
+WaitTextBox EndScript Subscript 3 ShowChara 4 2 33 ShowTextBox "It's hard! There is $1 in the shop! !!"
+WaitTextBox ShowChara 5 1 35 ShowTextBox "Pyocola-sama, leave it to me, though it's unfortunate ..."
+WaitTextBox ShowChara 5 0 57 ShowTextBox "Ugh! ??"
+WaitTextBox ShowChara 4 2 31 ShowTextBox "Li, Riku ... What's wrong?"
+WaitTextBox ShowChara 5 1 65 ShowTextBox "Or it's too cute ... I can't touch it! !!"
+WaitTextBox ShowChara 4 2 28 ShowTextBox "If it's cute, keep it in the store"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "I'm sure it will be a good mascot!"
+WaitTextBox EndScript Subscript 4 ShowChara 4 1 32 ShowTextBox "Bazooka from your mouth! !!"
+WaitTextBox ShowChara 6 4 44 ShowTextBox "Wow! What is Pyocola?"
+WaitTextBox ShowChara 4 1 31 ShowTextBox "$1 is coming to the store!"
+WaitTextBox ShowTextBox "Besides, I was trying to buy \"$2\" goods!"
+WaitTextBox ShowChara 4 0 30 ShowTextBox "Incredible Pyo image collapsed Pyo ~"
+WaitTextBox ShowChara 6 4 45 ShowTextBox "But ... is that good for us?"
+WaitTextBox ShowChara 4 1 33 ShowTextBox "Pyo ...! !! That's right"
+WaitTextBox ShowTextBox "Piyokos, I had to make some money!"
+WaitTextBox ShowChara 4 0 34 ShowTextBox "I'm sorry!"
+WaitTextBox EndScript Subscript 5 ShowChara 4 1 34 ShowTextBox "Manager, I have something to tell you"
+WaitTextBox ShowChara 4 0 28 ShowTextBox "Is it true that $1 and $2 are parents and children?"
+WaitTextBox ShowChara 6 2 44 ShowTextBox "No way! ??"
+WaitTextBox ShowChara 7 1 58 ShowTextBox "Seriously! ??"
+WaitTextBox ShowChara 5 2 57 ShowTextBox "Well, if such a thing is true, there will be a tremor in the medical world ..."
+WaitTextBox ShowChara 4 1 31 ShowTextBox "I'm not asking you guys!"
+WaitTextBox ShowChara 4 0 34 ShowTextBox "I'm asking the store manager"
+WaitTextBox EndScript Subscript 6 ShowChara 4 2 30 ShowTextBox "Rururu ~"
+WaitTextBox ShowChara 7 1 50 ShowTextBox "What's wrong with Piyoko? Have you been bullied by someone! ??"
+WaitTextBox ShowChara 4 2 30 ShowTextBox "Different"
+WaitTextBox ShowTextBox "The $1 I left to eat later is gone ~"
+WaitTextBox ShowChara 7 1 58 ShowTextBox "$1! ??"
+WaitTextBox ShowChara 7 0 48 ShowTextBox "Then I'll buy $2 for you later"
+WaitTextBox ShowChara 4 2 28 ShowTextBox "Really up! ??"
+WaitTextBox ShowChara 7 1 52 ShowTextBox "Oh, leave it to me!"
+WaitTextBox ShowChara 4 2 31 ShowTextBox "But where was Piyoko's $1?"
+WaitTextBox EndScript Subscript 7 ShowChara 4 2 33 ShowTextBox "Pyo! ??"
+WaitTextBox ShowChara 7 1 50 ShowTextBox "What's wrong, Piyoko?"
+WaitTextBox ShowChara 4 2 30 ShowTextBox "\"$1\" is over!"
+WaitTextBox ShowTextBox "I read it every week ..."
+WaitTextBox EndScript Subscript 8 ShowChara 4 2 28 ShowTextBox "Pyo! ?? A strange thing stopped in front of the shop"
+WaitTextBox ShowChara 4 0 33 ShowTextBox "That's a bad $1! Who on earth is on board?"
+WaitTextBox EndScript Subscript 9 ShowChara 4 2 29 ShowTextBox "Enjoyment Dapyo ~ Enjoyment Dapyo ~ ♪ Tonight is $1 ~ ♪"
+WaitTextBox ShowChara 4 0 28 ShowTextBox "Manager, have you ever eaten $1?"
+WaitTextBox EndScript Subscript 10 ShowChara 4 2 28 ShowTextBox "Manager, have you seen a $1 flower?"
+WaitTextBox ShowTextBox "It looks like a very beautiful flower"
+WaitTextBox ShowChara 4 0 34 ShowTextBox "Piyoko, I want to see it next time"
+WaitTextBox EndScript Subscript 11 ShowChara 4 2 31 ShowTextBox "Mu ~~~~~~"
+WaitTextBox ShowChara 5 1 35 ShowTextBox "How was it done? Pyocola"
+WaitTextBox ShowChara 4 2 31 ShowTextBox "$1 was autographed at Di Gi Charat's shop!"
+WaitTextBox ShowTextBox "A lot of people got together and it was lucrative!"
+WaitTextBox ShowChara 5 1 39 ShowTextBox "Hmm ... Then we'll call $2 and have an autograph session"
+WaitTextBox ShowChara 4 2 29 ShowTextBox "I see! Nice idea!"
+WaitTextBox EndScript Subscript 12 ShowChara 4 2 28 ShowTextBox "Store manager! Store manager!"
+WaitTextBox ShowTextBox "The store manager has been on $1?"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "Since Piyoko also came to Earth, I want to ride $1 once!"
+WaitTextBox EndScript 

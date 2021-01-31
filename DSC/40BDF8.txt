@@ -1,92 +1,11 @@
-DSCBase $40BDF8
-
-
-
-
-Subscript 0
-ShowChara 2 0 22
-EndScript
-
-
-
-Subscript 1
-HideChara
-EndScript
-
-
-
-Subscript 2
-ShowChara 2 2 22
-EndScript
-
-
-
-Subscript 3
-# 見るめいしを選択してね！
-ShowTextBox "!!! 40BDF8 0"
-EndScript
-
-
-
-Subscript 4
-EndScript
-
-
-
-Subscript 5
-EndScript
-
-
-
-Subscript 6
-# いれかえるの？それとも、けすのかしら？
-ShowTextBox "!!! 40BDF8 1"
-WaitTextBox
-# いれかえ
-# けす
-ShowSelMenu09 2 "!!! 40BDF8 2"
-EndScript
-
-
-
-Subscript 7
-# ほんとうにけしていいの？
-ShowTextBox "!!! 40BDF8 3"
-WaitTextBox
-# やっぱりけさない
-# けす！
-ShowSelMenu09 2 "!!! 40BDF8 4"
-JumpOnSelection 2 0 1 0
-Label 0
-# やっぱりのこしておくわね
-ShowTextBox "!!! 40BDF8 5"
-WaitTextBox
-EndScript
-Label 1
-# けすわね！
-ShowTextBox "!!! 40BDF8 6"
-WaitTextBox
-EndScript
-
-
-
-Subscript 8
-# いれかえさきをえらんでね！
-ShowTextBox "!!! 40BDF8 7"
-EndScript
-
-
-
-Subscript 9
-# いれかえたわ！
-ShowTextBox "!!! 40BDF8 8"
-Wait 60
-EndScript
-
-
-
-Subscript 10
-# やっぱりいれかえないわね
-ShowTextBox "!!! 40BDF8 9"
-Wait 60
-EndScript
+DSCBase $40BDF8 Subscript 0 ShowChara 2 0 22 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowChara 2 2 22 EndScript Subscript 3 ShowTextBox "Please select the one you want to see!"
+EndScript Subscript 4 EndScript Subscript 5 EndScript Subscript 6 ShowTextBox "Do you want to change it? Or is it a head?"
+WaitTextBox ShowSelMenu09 2 "Refill"
+EndScript Subscript 7 ShowTextBox "Is it really okay to take it?"
+WaitTextBox ShowSelMenu09 2 "After all it is a cage!"
+JumpOnSelection 2 0 1 0 Label 0 ShowTextBox "After all I'll leave it"
+WaitTextBox EndScript Label 1 ShowTextBox "I'm sorry!"
+WaitTextBox EndScript Subscript 8 ShowTextBox "Please choose a replacement!"
+EndScript Subscript 9 ShowTextBox "I changed it!"
+Wait 60 EndScript Subscript 10 ShowTextBox "After all it can not be replaced"
+Wait 60 EndScript 

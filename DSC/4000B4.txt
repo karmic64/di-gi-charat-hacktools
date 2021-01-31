@@ -1,63 +1,12 @@
-DSCBase $4000B4
-
-
-
-
-Subscript 0
-Unk08 3 98 63 88 100 10 3
-Unk08 10 185 80 48 108 10 3
-SetBG 111
-Fade 0 30
-ShowChara 3 1 17
-# まもなく店長さん
-# ともお別れにゅ
-ShowTextBox "!!! 4000B4 0"
-WaitTextBox
-# だけど、ぷちこは
-# 気にしないにゅ
-ShowTextBox "!!! 4000B4 1"
-WaitTextBox
-ShowChara 3 0 18
-# すぐに、新しい１
-# 年が始まるからに
-# ゅ！
-ShowTextBox "!!! 4000B4 2"
-WaitTextBox
-# ぷちこはぷちこら
-# しく、マイペース
-# でいくにゅ
-ShowTextBox "!!! 4000B4 3"
-WaitTextBox
-Fade 3 30
-SetBG 33
-Fade 2 30
-ShowChara 3 0 0
-# いらっしゃいにゅ
-ShowTextBox "!!! 4000B4 4"
-WaitTextBox
-ShowChara 10 0 0
-# ニャー
-ShowTextBox "!!! 4000B4 5"
-WaitTextBox
-ShowChara 3 0 0
-# いらっしゃいにゅ！
-ShowTextBox "!!! 4000B4 6"
-WaitTextBox
-ShowChara 10 0 0
-# ニャー
-ShowTextBox "!!! 4000B4 7"
-WaitTextBox
-ShowChara 3 0 0
-# お客さん、何かお探し
-# にゅ？
-ShowTextBox "!!! 4000B4 8"
-WaitTextBox
-ShowChara 3 0 0
-# ぷちこが案内するにゅ
-ShowTextBox "!!! 4000B4 9"
-WaitTextBox
-ShowChara 10 0 0
-# ニャー
-ShowTextBox "!!! 4000B4 10"
-WaitTextBox
-EndScript
+DSCBase $4000B4 Subscript 0 Unk08 3 98 63 88 100 10 3 Unk08 10 185 80 48 108 10 3 SetBG 111 Fade 0 30 ShowChara 3 1 17 ShowTextBox "Soon, farewell to the store manager"
+WaitTextBox ShowTextBox "But I don't care about Puchiko"
+WaitTextBox ShowChara 3 0 18 ShowTextBox "A new year will start soon!"
+WaitTextBox ShowTextBox "Puchiko is like Puchiko and goes at your own pace"
+WaitTextBox Fade 3 30 SetBG 33 Fade 2 30 ShowChara 3 0 0 ShowTextBox "Welcome"
+WaitTextBox ShowChara 10 0 0 ShowTextBox "Meow"
+WaitTextBox ShowChara 3 0 0 ShowTextBox "Welcome!"
+WaitTextBox ShowChara 10 0 0 ShowTextBox "Meow"
+WaitTextBox ShowChara 3 0 0 ShowTextBox "Customers, are you looking for something?"
+WaitTextBox ShowChara 3 0 0 ShowTextBox "Puchiko will guide you"
+WaitTextBox ShowChara 10 0 0 ShowTextBox "Meow"
+WaitTextBox EndScript 

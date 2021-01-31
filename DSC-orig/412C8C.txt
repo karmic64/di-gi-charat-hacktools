@@ -1,0 +1,167 @@
+DSCBase $412C8C
+
+
+
+
+Subscript 0
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 1
+# ぷちこは\x02仕事に飽きているようだ\x1a
+ShowTextBox "!!! 412C8C 0"
+EndScript
+
+
+
+Subscript 2
+# 「もうこんな仕事ヤダにゅ！」
+ShowTextBox "!!! 412C8C 1"
+EndScript
+
+
+
+Subscript 3
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 4
+# ぷちこは\x02やりたい仕事を他の人にとられてすねているようだ\x1a
+ShowTextBox "!!! 412C8C 2"
+EndScript
+
+
+
+Subscript 5
+# 「えこひいきはずるいにゅ」
+ShowTextBox "!!! 412C8C 3"
+EndScript
+
+
+
+Subscript 6
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 7
+# ぷちこは\x02自分のグッズが叩き売られて悲しいようだ\x1a
+ShowTextBox "!!! 412C8C 4"
+EndScript
+
+
+
+Subscript 8
+# 「資本主義はきびしいにゅ…」
+ShowTextBox "!!! 412C8C 5"
+EndScript
+
+
+
+Subscript 9
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 10
+# ぷちこは\x03自分のグッズがたくさんあってうれしいようだ\x1a
+ShowTextBox "!!! 412C8C 6"
+EndScript
+
+
+
+Subscript 11
+# 「需要の多いグッズをたくさん置けばお客さんは大満足にゅ」
+ShowTextBox "!!! 412C8C 7"
+EndScript
+
+
+
+Subscript 12
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 13
+# $0ぷちこは\x01仕事がうまくいっていないようだ\x1a
+ShowTextBox "!!! 412C8C 8"
+EndScript
+
+
+
+Subscript 14
+# 「こんなことやってられないにゅ…」
+ShowTextBox "!!! 412C8C 9"
+EndScript
+
+
+
+Subscript 15
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 16
+# $0\x02ぷちこの調子はあまりよくないようだ\x1a
+ShowTextBox "!!! 412C8C 10"
+EndScript
+
+
+
+Subscript 17
+# 「やる気がでないにゅ」
+ShowTextBox "!!! 412C8C 11"
+EndScript
+
+
+
+Subscript 18
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 19
+# $0ぷちこは問題無く仕事をしているようだ
+ShowTextBox "!!! 412C8C 12"
+EndScript
+
+
+
+Subscript 20
+# 「今日も一日平穏無事にゅ」
+ShowTextBox "!!! 412C8C 13"
+EndScript
+
+
+
+Subscript 21
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 22
+# $0ぷちこは\x03はりきって仕事をしているようだ\x1a
+ShowTextBox "!!! 412C8C 14"
+EndScript
+
+
+
+Subscript 23
+# 「たまには頑張るのもいいにゅ」
+ShowTextBox "!!! 412C8C 15"
+EndScript
+
+
+
+Subscript 24
+EndScript

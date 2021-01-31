@@ -1,0 +1,185 @@
+DSCBase $40C53C
+
+
+
+
+Subscript 0
+ShowChara 4 2 28
+EndScript
+
+
+
+Subscript 1
+HideChara
+Unk1A
+EndScript
+
+
+
+Subscript 2
+ShowChara 4 0 28
+# ゲームをあそぶぴょ
+ShowTextBox "!!! 40C53C 0"
+EndScript
+
+
+
+Subscript 3
+ShowChara 4 0 28
+# 通信ケーブルを使って
+# みんなでいっしょにあ
+# そぶぴょ
+ShowTextBox "!!! 40C53C 1"
+EndScript
+
+
+
+Subscript 4
+ShowChara 4 0 28
+# ゲームのあそび方を説
+# 明するぴょ
+ShowTextBox "!!! 40C53C 2"
+EndScript
+
+
+
+Subscript 5
+ShowChara 4 0 28
+# ゲームのハイスコアを
+# 見るぴょ
+ShowTextBox "!!! 40C53C 3"
+EndScript
+
+
+
+Subscript 6
+ShowChara 4 0 28
+# あけてみてのお楽しみ
+# ぴょ
+ShowTextBox "!!! 40C53C 4"
+EndScript
+
+
+
+Subscript 7
+ShowChara 4 0 28
+# お客さんからおつりを
+# もらってぴったり金額
+# を合わせるぴょ
+ShowTextBox "!!! 40C53C 5"
+EndScript
+
+
+
+Subscript 8
+ShowChara 4 0 28
+# お店の前でお客さんに
+# 声をかけてたくさん連
+# れて来るぴょ
+ShowTextBox "!!! 40C53C 6"
+EndScript
+
+
+
+Subscript 9
+ShowChara 4 0 28
+# 倉庫から言われた通り
+# の荷物を覚えて運び出
+# すぴょ
+ShowTextBox "!!! 40C53C 7"
+EndScript
+
+
+
+Subscript 10
+ShowChara 4 0 28
+# お店中のよごれをお掃
+# 除してぴっかぴかにす
+# るぴょ
+ShowTextBox "!!! 40C53C 8"
+EndScript
+
+
+
+Subscript 11
+ShowChara 4 0 28
+# トランプのポーカーを
+# するぴょ
+ShowTextBox "!!! 40C53C 9"
+EndScript
+
+
+
+Subscript 12
+ShowChara 4 0 28
+# トランプの大富豪をす
+# るぴょ
+ShowTextBox "!!! 40C53C 10"
+EndScript
+
+
+
+Subscript 13
+ShowChara 4 0 28
+# トランプの７ならべを
+# するぴょ
+ShowTextBox "!!! 40C53C 11"
+EndScript
+
+
+
+Subscript 14
+ShowChara 4 0 28
+# トランプのスピードを
+# するぴょ
+ShowTextBox "!!! 40C53C 12"
+EndScript
+
+
+
+Subscript 15
+ShowChara 4 0 28
+# お姉ちゃんがお猿さん
+# を追いかけてさらわれ
+# たゲマを取り戻すぴょ
+ShowTextBox "!!! 40C53C 13"
+EndScript
+
+
+
+Subscript 16
+ShowChara 4 0 28
+# うさだが空を飛んでブ
+# ラゲマ団に取られたお
+# 菓子を取り返すぴょ
+ShowTextBox "!!! 40C53C 14"
+EndScript
+
+
+
+Subscript 17
+ShowChara 4 0 28
+# ぷちこが毛虫をよけな
+# がらさくらの花びらを
+# 集めるぴょ
+ShowTextBox "!!! 40C53C 15"
+EndScript
+
+
+
+Subscript 18
+ShowChara 4 0 28
+# ぴよこがブラゲマ団員
+# に豆をぶつけて節分の
+# 練習をするぴょ
+ShowTextBox "!!! 40C53C 16"
+EndScript
+
+
+
+Subscript 19
+ShowChara 4 0 28
+# みんなでしりとりをす
+# るぴょ
+ShowTextBox "!!! 40C53C 17"
+EndScript

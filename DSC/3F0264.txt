@@ -1,508 +1,82 @@
-DSCBase $3F0264
-
-
-
-
-Subscript 0
-SetBG 111
-Fade 0 30
-ShowChara 2 1 23
-# ねぇ、店長さん
-# 今度の日曜って、
-# おヒマかしら？
-ShowTextBox "!!! 3F0264 0"
-WaitTextBox
-# 桜前線も近づいて
-# きたことだし…
-ShowTextBox "!!! 3F0264 1"
-WaitTextBox
-ShowChara 2 0 23
-# みんなでお花見な
-# んかどうかなぁ…
-# って思ったの
-ShowTextBox "!!! 3F0264 2"
-WaitTextBox
-# よかったら考えて
-# てちょうだいね
-# じゃあ！
-ShowTextBox "!!! 3F0264 3"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 1 1 14
-# 聞いたにょ、聞い
-# たにょ…
-ShowTextBox "!!! 3F0264 4"
-WaitTextBox
-# うさだがなにやら
-# 企んでるのを、で
-# じこは目撃してし
-# まったにょ
-ShowTextBox "!!! 3F0264 5"
-WaitTextBox
-ShowChara 8 2 1
-# あれは「お花見」
-# の相談をしてたん
-# だゲマ
-ShowTextBox "!!! 3F0264 6"
-WaitTextBox
-ShowChara 1 1 8
-# 「お花見」って、
-# 何にょ？
-ShowTextBox "!!! 3F0264 7"
-WaitTextBox
-ShowChara 8 2 53
-# 地球では、桜が咲
-# いたら、それを見
-# 物する習慣がある
-# ゲマ
-ShowTextBox "!!! 3F0264 8"
-WaitTextBox
-# みんなで、飲んだ
-# り、食べたり、カ
-# ラオケしたりする
-# ゲマ
-ShowTextBox "!!! 3F0264 9"
-WaitTextBox
-ShowChara 1 1 11
-# 分かったにょ！
-ShowTextBox "!!! 3F0264 10"
-WaitTextBox
-# きっと、うさだは
-# でじこをのけ者に
-# して
-ShowTextBox "!!! 3F0264 11"
-WaitTextBox
-# 自分たちだけでう
-# まいものを食べる
-# つもりに違いない
-# にょ～っ！
-ShowTextBox "!!! 3F0264 12"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-SetBG 111
-Fade 0 30
-Unk08 1 47 71 95 80 10 3
-Unk08 2 118 54 18 88 10 3
-ShowChara 2 1 22
-# 店長さん、このあ
-# いだのこと、考え
-# ておいてくれたか
-# しら？
-ShowTextBox "!!! 3F0264 13"
-WaitTextBox
-# なんのことって、
-# ほら、お花見のこ
-# と！
-ShowTextBox "!!! 3F0264 14"
-WaitTextBox
-# もちろんＯＫ！
-# 何のことだっけ？
-ShowSelMenu09 2 "!!! 3F0264 15"
-JumpOnSelection 2 0 1 0
-Label 1
-ShowChara 2 0 25
-# が～ん…！
-ShowTextBox "!!! 3F0264 16"
-WaitTextBox
-# ひっ、ひどいわっ
-# …せっかく楽しみ
-# にしてたのに…
-ShowTextBox "!!! 3F0264 17"
-WaitTextBox
-ShowChara 2 0 24
-# もう、店長さんな
-# んか知らないっ！
-ShowTextBox "!!! 3F0264 18"
-WaitTextBox
-EndScript
-Label 0
-ShowChara 2 0 23
-# やったーっ！それ
-# じゃ、さっそく行
-# きましょ！
-ShowTextBox "!!! 3F0264 19"
-WaitTextBox
-ShowChara 1 2 14
-# ちょっと待つにょ
-# ！
-ShowTextBox "!!! 3F0264 20"
-WaitTextBox
-ShowChara 2 1 22
-# あら、でじこ…
-# どうしたの？
-ShowTextBox "!!! 3F0264 21"
-WaitTextBox
-ShowChara 1 2 10
-# じゃーん、これを
-# 見るにょ！でじこ
-# 特製、お花見団子
-# にょ～っ！
-ShowTextBox "!!! 3F0264 22"
-WaitTextBox
-# にょにょ、このお
-# 団子が欲しかった
-# ら、でじこもお花
-# 見につれて行くに
-# ょ～っ！
-ShowTextBox "!!! 3F0264 23"
-WaitTextBox
-ShowChara 2 1 23
-# あら、準備いいじ
-# ゃない、でじこ！
-# アタシはお弁当作
-# ってきたから、ち
-# ょうどいいわ！
-ShowTextBox "!!! 3F0264 24"
-WaitTextBox
-ShowChara 1 2 8
-# にょっ…？
-ShowTextBox "!!! 3F0264 25"
-WaitTextBox
-ShowChara 2 1 23
-# じゃ、みんなで行
-# きましょ！
-ShowTextBox "!!! 3F0264 26"
-WaitTextBox
-ShowChara 1 2 15
-# ちょ、ちょっと待
-# つにょ、うさだ！
-# でじこをのけ者に
-# するつもりじゃな
-# かったのかにょ？
-ShowTextBox "!!! 3F0264 27"
-WaitTextBox
-ShowChara 2 1 22
-# えっ…何の話？
-ShowTextBox "!!! 3F0264 28"
-WaitTextBox
-ShowChara 1 2 8
-# にょにょっ…
-ShowTextBox "!!! 3F0264 29"
-WaitTextBox
-ShowChara 8 1 2
-# どうやら、でじこ
-# の早とちりだった
-# みたいゲマ
-ShowTextBox "!!! 3F0264 30"
-WaitTextBox
-Fade 3 30
-SetBG 17
-Fade 2 30
-ShowChara 2 0 0
-# 桜も満開、天気も良好
-# だし、まさに絶好の花
-# 見日和ね！
-ShowTextBox "!!! 3F0264 31"
-WaitTextBox
-# じゃ、まずは一曲歌わ
-# せてもらおうかしら♪
-ShowTextBox "!!! 3F0264 32"
-WaitTextBox
-ShowChara 1 0 0
-# にょっ！こ、こいつ
-# ＭＹマイクを持ってる
-# にょ～っ！
-ShowTextBox "!!! 3F0264 33"
-WaitTextBox
-PlayMusic 3
-Fade 3 160
-Wait 60
-SetBG 117
-Fade 2 30
-ShowChara 1 1 12
-# にょ～っ…
-ShowTextBox "!!! 3F0264 34"
-WaitTextBox
-# うさだが一度マイ
-# クを握ったら離さ
-# ない人とは知らな
-# かったにょ…
-ShowTextBox "!!! 3F0264 35"
-WaitTextBox
-ShowChara 2 2 23
-# うふふ、やぁね、
-# 恥ずかしいから、
-# そんなにほめない
-# でちょうだい�@
-ShowTextBox "!!! 3F0264 36"
-WaitTextBox
-ShowChara 1 1 11
-# ほめてないにょ～
-# ～～～っ！
-ShowTextBox "!!! 3F0264 37"
-WaitTextBox
-ShowChara 2 2 26
-# では、熱烈なアン
-# コールにお応えし
-# て、もう３，４曲
-# 歌うわね♪
-ShowTextBox "!!! 3F0264 38"
-WaitTextBox
-ShowChara 1 1 12
-# にょにょ～っ…
-ShowTextBox "!!! 3F0264 39"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-Unk08 1 47 71 95 80 10 3
-Unk08 2 118 54 18 88 10 3
-SetBG 111
-Fade 0 30
-ShowChara 2 1 22
-# 店長さん、このあ
-# いだのこと、考え
-# ておいてくれたか
-# しら？
-ShowTextBox "!!! 3F0264 40"
-WaitTextBox
-# なんのことって、
-# ほら、お花見のこ
-# と！
-ShowTextBox "!!! 3F0264 41"
-WaitTextBox
-# もちろんＯＫ！
-# 何のことだっけ？
-ShowSelMenu09 2 "!!! 3F0264 42"
-JumpOnSelection 2 2 3 0
-Label 3
-ShowChara 2 0 25
-# が～ん…！
-ShowTextBox "!!! 3F0264 43"
-WaitTextBox
-# ひどいわ、店長！
-# せっかく楽しみに
-# してたのにーっ！
-ShowTextBox "!!! 3F0264 44"
-WaitTextBox
-ShowChara 2 0 24
-# もう、店長さんな
-# んか知らないっ！
-ShowTextBox "!!! 3F0264 45"
-WaitTextBox
-EndScript
-Label 2
-ShowChara 2 0 23
-# やったーっ！それ
-# じゃ、さっそく行
-# きましょ！
-ShowTextBox "!!! 3F0264 46"
-WaitTextBox
-ShowChara 1 2 14
-# ちょっと待つにょ
-# ！
-ShowTextBox "!!! 3F0264 47"
-WaitTextBox
-ShowChara 2 1 22
-# あら、でじこ…
-# どうしたの？
-ShowTextBox "!!! 3F0264 48"
-WaitTextBox
-ShowChara 1 2 10
-# じゃーん、これを
-# 見るにょ！でじこ
-# 特製、お花見団子
-# にょ～っ！
-ShowTextBox "!!! 3F0264 49"
-WaitTextBox
-# にょにょ、このお
-# 団子が欲しかった
-# ら、でじこもお花
-# 見につれて行くに
-# ょ～っ！
-ShowTextBox "!!! 3F0264 50"
-WaitTextBox
-ShowChara 2 1 23
-# あら、準備いいじ
-# ゃない、でじこ！
-# アタシはお弁当作
-# ってきたから、ち
-# ょうどいいわ！
-ShowTextBox "!!! 3F0264 51"
-WaitTextBox
-ShowChara 1 2 8
-# にょっ…？
-ShowTextBox "!!! 3F0264 52"
-WaitTextBox
-ShowChara 2 1 23
-# じゃ、みんなで行
-# きましょ！
-ShowTextBox "!!! 3F0264 53"
-WaitTextBox
-ShowChara 1 2 15
-# ちょ、ちょっと待
-# つにょ、うさだ！
-# でじこをのけ者に
-# するつもりじゃな
-# かったのかにょ？
-ShowTextBox "!!! 3F0264 54"
-WaitTextBox
-ShowChara 2 1 22
-# えっ…何の話？
-ShowTextBox "!!! 3F0264 55"
-WaitTextBox
-ShowChara 1 2 8
-# にょにょっ…
-ShowTextBox "!!! 3F0264 56"
-WaitTextBox
-ShowChara 8 1 2
-# どうやら、でじこ
-# の早とちりだった
-# みたいゲマ
-ShowTextBox "!!! 3F0264 57"
-WaitTextBox
-Fade 3 30
-SetBG 17
-Fade 2 30
-ShowChara 2 0 0
-# 桜も満開、天気も良好
-# だし、まさに絶好の花
-# 見日和ね！
-ShowTextBox "!!! 3F0264 58"
-WaitTextBox
-# じゃ、まずは一曲歌わ
-# せてもらおうかしら♪
-ShowTextBox "!!! 3F0264 59"
-WaitTextBox
-ShowChara 1 0 0
-# にょっ！こ、こいつ
-# ＭＹマイクを持ってる
-# にょ～っ！
-ShowTextBox "!!! 3F0264 60"
-WaitTextBox
-PlayMusic 3
-Fade 3 160
-Wait 120
-SetBG 117
-Fade 2 30
-ShowChara 1 1 12
-# にょにょ～っ…
-ShowTextBox "!!! 3F0264 61"
-WaitTextBox
-# うさだが一度マイ
-# クを握ったら離さ
-# ない人とは知らな
-# かったにょ～
-ShowTextBox "!!! 3F0264 62"
-WaitTextBox
-ShowChara 3 2 18
-# ぷちこは静かに花
-# を愛でるにゅ…
-ShowTextBox "!!! 3F0264 63"
-WaitTextBox
-ShowChara 1 1 12
-# さすがはぷち…
-ShowTextBox "!!! 3F0264 64"
-WaitTextBox
-ShowChara 1 0 15
-# にょにょっ、ぷち
-# こ、気をつけるに
-# ょっ！！
-ShowTextBox "!!! 3F0264 65"
-WaitTextBox
-# うさだのカラオケ
-# で、上から毛虫さ
-# んたちがどんどん
-# 落ちてくるにょ～
-# っ！
-ShowTextBox "!!! 3F0264 66"
-WaitTextBox
-Unk1B 3 40
-EndScript
-
-
-
-Subscript 3
-PlayMusic 15
-SetBG 117
-Fade 2 30
-ShowChara 3 1 18
-# 正義は勝つにゅ…
-ShowTextBox "!!! 3F0264 67"
-WaitTextBox
-ShowChara 2 2 22
-# ん、どうしたの？
-ShowTextBox "!!! 3F0264 68"
-WaitTextBox
-ShowChara 2 0 23
-# わぁ、キレイ、花
-# びらを集めたのね
-ShowTextBox "!!! 3F0264 69"
-WaitTextBox
-ShowChara 2 0 25
-# 桜って、どうして
-# こんなに早く散っ
-# てしまうのかしら
-ShowTextBox "!!! 3F0264 70"
-WaitTextBox
-ShowChara 1 1 16
-# まったく、うさだ
-# の歌のせいで、え
-# らい目にあったに
-# ょ…
-ShowTextBox "!!! 3F0264 71"
-WaitTextBox
-# 気をつけるがいい
-# にょ！
-# うさだっ！！
-ShowTextBox "!!! 3F0264 72"
-WaitTextBox
-ShowChara 2 2 27
-# きぃーーっ、なに
-# よ、それーーっ！
-ShowTextBox "!!! 3F0264 73"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-PlayMusic 15
-SetBG 117
-Fade 0 30
-ShowChara 3 1 20
-# ひどい目にあった
-# にゅ…
-ShowTextBox "!!! 3F0264 74"
-WaitTextBox
-ShowChara 2 2 22
-# ん、どうしたの？
-ShowTextBox "!!! 3F0264 75"
-WaitTextBox
-ShowChara 2 0 23
-# わぁ、キレイ、花
-# びらを集めたのね
-ShowTextBox "!!! 3F0264 76"
-WaitTextBox
-ShowChara 2 0 25
-# 桜って、どうして
-# こんなに早く散っ
-# てしまうのかしら
-ShowTextBox "!!! 3F0264 77"
-WaitTextBox
-ShowChara 1 1 16
-# まったく、うさだ
-# の歌のせいで、え
-# らい目にあったに
-# ょ…
-ShowTextBox "!!! 3F0264 78"
-WaitTextBox
-# 気をつけるがいい
-# にょ！
-# うさだっ！！
-ShowTextBox "!!! 3F0264 79"
-WaitTextBox
-ShowChara 2 2 27
-# きぃーーっ、なに
-# よ、それーーっ！
-ShowTextBox "!!! 3F0264 80"
-WaitTextBox
-EndScript
+DSCBase $3F0264 Subscript 0 SetBG 111 Fade 0 30 ShowChara 2 1 23 ShowTextBox "Hey, store manager, are you free for this Sunday?"
+WaitTextBox ShowTextBox "The cherry blossom front is also approaching ..."
+WaitTextBox ShowChara 2 0 23 ShowTextBox "I wondered if everyone would see cherry blossoms ..."
+WaitTextBox ShowTextBox "Please think about it if you like!"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 1 1 14 ShowTextBox "I heard it, I heard it ..."
+WaitTextBox ShowTextBox "Di Gi Charat has witnessed something he's trying to do."
+WaitTextBox ShowChara 8 2 1 ShowTextBox "That was a consultation about \"cherry blossom viewing\" Gema"
+WaitTextBox ShowChara 1 1 8 ShowTextBox "What is \"cherry blossom viewing\"?"
+WaitTextBox ShowChara 8 2 53 ShowTextBox "On the earth, when a cherry blossom blooms, it is customary to see it."
+WaitTextBox ShowTextBox "Gema to drink, eat and karaoke together"
+WaitTextBox ShowChara 1 1 11 ShowTextBox "You see!"
+WaitTextBox ShowTextBox "I'm sure Usada will make Di Gi Charat an outcast"
+WaitTextBox ShowTextBox "We must be going to eat delicious food by ourselves!"
+WaitTextBox EndScript Subscript 1 SetBG 111 Fade 0 30 Unk08 1 47 71 95 80 10 3 Unk08 2 118 54 18 88 10 3 ShowChara 2 1 22 ShowTextBox "Store manager, did you think about this time?"
+WaitTextBox ShowTextBox "What the hell is that cherry blossom viewing!"
+WaitTextBox ShowSelMenu09 2 "Of course OK! What are you talking about?"
+JumpOnSelection 2 0 1 0 Label 1 ShowChara 2 0 25 ShowTextBox "Gan ...!"
+WaitTextBox ShowTextBox "It's terrible ... I was looking forward to it ..."
+WaitTextBox ShowChara 2 0 24 ShowTextBox "I don't know the store manager anymore!"
+WaitTextBox EndScript Label 0 ShowChara 2 0 23 ShowTextBox "I did it! Well then, let's go!"
+WaitTextBox ShowChara 1 2 14 ShowTextBox "Wait a minute!"
+WaitTextBox ShowChara 2 1 22 ShowTextBox "Oh, Di Gi Charat ... what's wrong?"
+WaitTextBox ShowChara 1 2 10 ShowTextBox "Well, let's see this! Dejiko's specially made cherry-blossom dumplings!"
+WaitTextBox ShowTextBox "If you want this dumpling, I'll go with Di Gi Charat to see the cherry blossoms!"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "Oh, I'm not ready, Di Gi Charat! I've made a lunch box, so it's just right!"
+WaitTextBox ShowChara 1 2 8 ShowTextBox "Nyo ...?"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "Let's all go together!"
+WaitTextBox ShowChara 1 2 15 ShowTextBox "Hey, wait a minute, Usa! Di Gi Charat didn't mean to be an outcast?"
+WaitTextBox ShowChara 2 1 22 ShowTextBox "Eh ... what are you talking about?"
+WaitTextBox ShowChara 1 2 8 ShowTextBox "Nyonyo ..."
+WaitTextBox ShowChara 8 1 2 ShowTextBox "Apparently, Di Gi Charat's early dust"
+WaitTextBox Fade 3 30 SetBG 17 Fade 2 30 ShowChara 2 0 0 ShowTextBox "The cherry blossoms are in full bloom, the weather is good, and it's a perfect day for cherry blossom viewing!"
+WaitTextBox ShowTextBox "Then, I wonder if I can sing one song first ♪"
+WaitTextBox ShowChara 1 0 0 ShowTextBox "Nyo! This guy has a MY microphone!"
+WaitTextBox PlayMusic 3 Fade 3 160 Wait 60 SetBG 117 Fade 2 30 ShowChara 1 1 12 ShowTextBox "Nyo ..."
+WaitTextBox ShowTextBox "It's a rabbit, but you didn't know that once you grabbed the mic, you wouldn't let go ..."
+WaitTextBox ShowChara 2 2 23 ShowTextBox "Ufufu, hey, it's embarrassing, so don't praise me so much."
+WaitTextBox ShowChara 1 1 11 ShowTextBox "I don't praise you ~~~~!"
+WaitTextBox ShowChara 2 2 26 ShowTextBox "Then, in response to the enthusiastic encore, I'll sing three or four more songs ♪"
+WaitTextBox ShowChara 1 1 12 ShowTextBox "Nyonyo ..."
+WaitTextBox EndScript Subscript 2 Unk08 1 47 71 95 80 10 3 Unk08 2 118 54 18 88 10 3 SetBG 111 Fade 0 30 ShowChara 2 1 22 ShowTextBox "Store manager, did you think about this time?"
+WaitTextBox ShowTextBox "What the hell is that cherry blossom viewing!"
+WaitTextBox ShowSelMenu09 2 "Of course OK! What are you talking about?"
+JumpOnSelection 2 2 3 0 Label 3 ShowChara 2 0 25 ShowTextBox "Gan ...!"
+WaitTextBox ShowTextBox "It's terrible, the store manager! I was looking forward to it!"
+WaitTextBox ShowChara 2 0 24 ShowTextBox "I don't know the store manager anymore!"
+WaitTextBox EndScript Label 2 ShowChara 2 0 23 ShowTextBox "I did it! Well then, let's go!"
+WaitTextBox ShowChara 1 2 14 ShowTextBox "Wait a minute!"
+WaitTextBox ShowChara 2 1 22 ShowTextBox "Oh, Di Gi Charat ... what's wrong?"
+WaitTextBox ShowChara 1 2 10 ShowTextBox "Well, let's see this! Dejiko's specially made cherry-blossom dumplings!"
+WaitTextBox ShowTextBox "If you want this dumpling, I'll go with Di Gi Charat to see the cherry blossoms!"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "Oh, I'm not ready, Di Gi Charat! I've made a lunch box, so it's just right!"
+WaitTextBox ShowChara 1 2 8 ShowTextBox "Nyo ...?"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "Let's all go together!"
+WaitTextBox ShowChara 1 2 15 ShowTextBox "Hey, wait a minute, Usa! Di Gi Charat didn't mean to be an outcast?"
+WaitTextBox ShowChara 2 1 22 ShowTextBox "Eh ... what are you talking about?"
+WaitTextBox ShowChara 1 2 8 ShowTextBox "Nyonyo ..."
+WaitTextBox ShowChara 8 1 2 ShowTextBox "Apparently, Di Gi Charat's early dust"
+WaitTextBox Fade 3 30 SetBG 17 Fade 2 30 ShowChara 2 0 0 ShowTextBox "The cherry blossoms are in full bloom, the weather is good, and it's a perfect day for cherry blossom viewing!"
+WaitTextBox ShowTextBox "Then, I wonder if I can sing one song first ♪"
+WaitTextBox ShowChara 1 0 0 ShowTextBox "Nyo! This guy has a MY microphone!"
+WaitTextBox PlayMusic 3 Fade 3 160 Wait 120 SetBG 117 Fade 2 30 ShowChara 1 1 12 ShowTextBox "Nyonyo ..."
+WaitTextBox ShowTextBox "It's a rabbit, but I didn't know that once you grabbed the microphone, you wouldn't let go."
+WaitTextBox ShowChara 3 2 18 ShowTextBox "Puchiko quietly loves flowers ..."
+WaitTextBox ShowChara 1 1 12 ShowTextBox "As expected, Petit ..."
+WaitTextBox ShowChara 1 0 15 ShowTextBox "Nyonyo, Puchiko, be careful! !!"
+WaitTextBox ShowTextBox "At Usada's karaoke, caterpillars are falling from the top!"
+WaitTextBox Unk1B 3 40 EndScript Subscript 3 PlayMusic 15 SetBG 117 Fade 2 30 ShowChara 3 1 18 ShowTextBox "Justice wins ..."
+WaitTextBox ShowChara 2 2 22 ShowTextBox "Hmm, what's wrong?"
+WaitTextBox ShowChara 2 0 23 ShowTextBox "Wow, you collected beautiful petals"
+WaitTextBox ShowChara 2 0 25 ShowTextBox "I wonder why cherry blossoms disperse so quickly"
+WaitTextBox ShowChara 1 1 16 ShowTextBox "It was a big hit because of Usada's song ..."
+WaitTextBox ShowTextBox "Be careful! It's a rabbit! !!"
+WaitTextBox ShowChara 2 2 27 ShowTextBox "Kee, what's that!"
+WaitTextBox EndScript Subscript 4 PlayMusic 15 SetBG 117 Fade 0 30 ShowChara 3 1 20 ShowTextBox "I had a terrible eye ..."
+WaitTextBox ShowChara 2 2 22 ShowTextBox "Hmm, what's wrong?"
+WaitTextBox ShowChara 2 0 23 ShowTextBox "Wow, you collected beautiful petals"
+WaitTextBox ShowChara 2 0 25 ShowTextBox "I wonder why cherry blossoms disperse so quickly"
+WaitTextBox ShowChara 1 1 16 ShowTextBox "It was a big hit because of Usada's song ..."
+WaitTextBox ShowTextBox "Be careful! It's a rabbit! !!"
+WaitTextBox ShowChara 2 2 27 ShowTextBox "Kee, what's that!"
+WaitTextBox EndScript 

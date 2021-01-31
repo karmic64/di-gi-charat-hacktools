@@ -526,6 +526,8 @@ int main(int argc, char* argv[])
             }
             write16(labelreftbl[i].ptr, (labeltbl[foundlabel].offs - subscripttbl[labelreftbl[i].subscript])/2);
         }
+        /* align script end to 4-bytes */
+        while (scriptlen % 4) scriptlen++;
         /* inject new script into rom */
         uint8_t *dscptr = inbuf + dscbase;
         uint32_t realsubs = get32(dscptr+0x0c);
@@ -538,9 +540,8 @@ int main(int argc, char* argv[])
         {
             write32(dscptr+0x10+(i*4), subscripttbl[i]);
         }
+        write32(dscptr+0x10+(subscripts*4), scriptlen);
         write32(dscptr+0x08, fsize | MAPBASE);
-        /* align script end to 4-bytes */
-        while (scriptlen % 4) scriptlen++;
         size_t newfsize = fsize + scriptlen + 0x18;
         inbuf = realloc(inbuf, newfsize);
         uint8_t *mcmptr = inbuf + fsize;

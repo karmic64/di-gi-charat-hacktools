@@ -1,0 +1,167 @@
+DSCBase $412140
+
+
+
+
+Subscript 0
+ShowChara 2 0 0
+EndScript
+
+
+
+Subscript 1
+# うさだは\x02仕事に飽きているようだ\x1a
+ShowTextBox "!!! 412140 0"
+EndScript
+
+
+
+Subscript 2
+# 「もうこんな仕事、つまんないわねー」
+ShowTextBox "!!! 412140 1"
+EndScript
+
+
+
+Subscript 3
+ShowChara 2 0 0
+EndScript
+
+
+
+Subscript 4
+# うさだは\x02やりたい仕事を他の人にとられてすねているようだ\x1a
+ShowTextBox "!!! 412140 2"
+EndScript
+
+
+
+Subscript 5
+# 「えこひいきなんてずるいわね～」
+ShowTextBox "!!! 412140 3"
+EndScript
+
+
+
+Subscript 6
+ShowChara 2 0 0
+EndScript
+
+
+
+Subscript 7
+# うさだは\x02自分のグッズが叩き売られて悲しいようだ\x1a
+ShowTextBox "!!! 412140 4"
+EndScript
+
+
+
+Subscript 8
+# 「アタシのグッズが叩き売られるなんて…」
+ShowTextBox "!!! 412140 5"
+EndScript
+
+
+
+Subscript 9
+ShowChara 2 0 0
+EndScript
+
+
+
+Subscript 10
+# うさだは\x03自分のグッズがたくさんあってうれしいようだ\x1a
+ShowTextBox "!!! 412140 6"
+EndScript
+
+
+
+Subscript 11
+# 「アタシのグッズでいっぱいにすればお客さんも大満足ね！」
+ShowTextBox "!!! 412140 7"
+EndScript
+
+
+
+Subscript 12
+ShowChara 2 0 0
+EndScript
+
+
+
+Subscript 13
+# $0うさだは\x01仕事がうまくいっていないようだ\x1a
+ShowTextBox "!!! 412140 8"
+EndScript
+
+
+
+Subscript 14
+# 「はあ…どうしたらいいのかしら…」
+ShowTextBox "!!! 412140 9"
+EndScript
+
+
+
+Subscript 15
+ShowChara 2 0 0
+EndScript
+
+
+
+Subscript 16
+# $0\x02うさだの調子はあまりよくないようだ\x1a
+ShowTextBox "!!! 412140 10"
+EndScript
+
+
+
+Subscript 17
+# 「うーん、どうもうまくいかないわねー」
+ShowTextBox "!!! 412140 11"
+EndScript
+
+
+
+Subscript 18
+ShowChara 2 0 0
+EndScript
+
+
+
+Subscript 19
+# $0うさだは問題無く仕事をしているようだ
+ShowTextBox "!!! 412140 12"
+EndScript
+
+
+
+Subscript 20
+# 「ふふ、今日もいい調子だわ！」
+ShowTextBox "!!! 412140 13"
+EndScript
+
+
+
+Subscript 21
+ShowChara 2 0 0
+EndScript
+
+
+
+Subscript 22
+# $0うさだは\x03はりきって仕事をしているようだ\x1a
+ShowTextBox "!!! 412140 14"
+EndScript
+
+
+
+Subscript 23
+# 「ラ・ビ・アン・ローズあるかぎり、ゲーマーズは不滅よ！」
+ShowTextBox "!!! 412140 15"
+EndScript
+
+
+
+Subscript 24
+EndScript

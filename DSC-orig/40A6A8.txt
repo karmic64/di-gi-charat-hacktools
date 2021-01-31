@@ -1,0 +1,195 @@
+DSCBase $40A6A8
+
+
+
+
+Subscript 0
+SetPermTextBoxPos 0 16
+ShowChara 1 2 8
+EndScript
+
+
+
+Subscript 1
+ShowChara 1 0 8
+# お店を開けるにょ～！
+ShowTextBox "!!! 40A6A8 0"
+EndScript
+
+
+
+Subscript 2
+ShowChara 1 0 8
+# グッズを仕入れるにょ
+# ～！
+ShowTextBox "!!! 40A6A8 1"
+EndScript
+
+
+
+Subscript 3
+ShowChara 1 0 8
+# 誰がどのお仕事をする
+# か、決めるにょ！
+ShowTextBox "!!! 40A6A8 2"
+EndScript
+
+
+
+Subscript 4
+ShowChara 1 0 8
+# 棚の中身をじっくり見
+# るにょ！
+ShowTextBox "!!! 40A6A8 3"
+EndScript
+
+
+
+Subscript 5
+ShowChara 1 0 8
+# 何か買うにょ！
+ShowTextBox "!!! 40A6A8 4"
+EndScript
+
+
+
+Subscript 6
+ShowChara 1 0 8
+# でじこたちの装備品を
+# 買うにょ！
+ShowTextBox "!!! 40A6A8 5"
+EndScript
+
+
+
+Subscript 7
+ShowChara 1 0 8
+# バーゲンをやって、お
+# 客さんをたくさん呼ぶ
+# にょ！
+ShowTextBox "!!! 40A6A8 6"
+EndScript
+
+
+
+Subscript 8
+ShowChara 1 0 8
+# ビラを配って、お店の
+# 宣伝をするにょ！
+ShowTextBox "!!! 40A6A8 7"
+EndScript
+
+
+
+Subscript 9
+ShowChara 1 0 8
+# お店にスロットを増や
+# すにょ！
+ShowTextBox "!!! 40A6A8 8"
+EndScript
+
+
+
+Subscript 10
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 1 0 10
+# 今週もがんばって、お
+# 仕事するにょ！
+ShowTextBox "!!! 40A6A8 9"
+EndScript
+
+
+
+Subscript 12
+EndScript
+
+
+
+Subscript 13
+ShowChara 1 0 12
+# すまないにょ、まだ出
+# 来ないにょ
+ShowTextBox "!!! 40A6A8 10"
+EndScript
+
+
+
+Subscript 14
+ShowChara 1 0 8
+# $0円かかるけど、やるにょ？
+ShowTextBox "!!! 40A6A8 11"
+EndScript
+
+
+
+Subscript 15
+ShowChara 1 0 12
+# お金がないから、でき
+# ないにょ～
+ShowTextBox "!!! 40A6A8 12"
+EndScript
+
+
+
+Subscript 16
+ShowChara 1 0 10
+# これでお仕事１００倍
+# できるにょ！
+ShowTextBox "!!! 40A6A8 13"
+EndScript
+
+
+
+Subscript 17
+ShowChara 1 0 10
+# バーゲンするにょ！
+ShowTextBox "!!! 40A6A8 14"
+EndScript
+
+
+
+Subscript 18
+ShowChara 1 0 10
+# ビラ配りするにょ！
+ShowTextBox "!!! 40A6A8 15"
+EndScript
+
+
+
+Subscript 19
+ShowChara 1 0 10
+# お店を広くするにょ！
+# 工事は来週の日曜日に
+# やるにょ！
+ShowTextBox "!!! 40A6A8 16"
+EndScript
+
+
+
+Subscript 20
+ShowChara 1 0 8
+# 誰かのフェアをやって
+# お客さんを呼ぶにょ！
+ShowTextBox "!!! 40A6A8 17"
+EndScript
+
+
+
+Subscript 21
+ShowChara 1 0 10
+# $1フェアの始まりにょ！
+ShowTextBox "!!! 40A6A8 18"
+EndScript
+
+
+
+Subscript 22
+ShowChara 1 0 8
+# $1のフェアをやるにょ！
+ShowTextBox "!!! 40A6A8 19"
+EndScript

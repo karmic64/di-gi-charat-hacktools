@@ -1,8 +1,1 @@
-DSCBase $411704
-
-
-
-
-Subscript 0
-HideChara
-EndScript
+DSCBase $411704 Subscript 0 HideChara EndScript 

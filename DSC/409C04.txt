@@ -1,100 +1,11 @@
-DSCBase $409C04
-
-
-
-
-Subscript 0
-Unk14 0 16
-ShowChara 1 2 8
-EndScript
-
-
-
-Subscript 1
-HideChara
-EndScript
-
-
-
-Subscript 2
-ShowChara 1 0 8
-# âΩÇîÉÇ§Ç…ÇÂÅH
-ShowTextBox "!!! 409C04 0"
-EndScript
-
-
-
-Subscript 3
-ShowChara 1 0 8
-# ëSïîîÑÇÍÇÈÇ∆ÅA
-# $0â~Ç…Ç»ÇÈÇ…ÇÂ
-ShowTextBox "!!! 409C04 1"
-EndScript
-
-
-
-Subscript 4
-ShowChara 1 0 12
-# Ç®ã‡Ç™ë´ÇËÇ»Ç¢Ç…ÇÂÅ`
-# Å`Å`Å`Å`Å`Å`Å`Å`Ç¡ÅI
-ShowTextBox "!!! 409C04 2"
-EndScript
-
-
-
-Subscript 5
-ShowChara 1 0 12
-# ÇªÇÍÇÕÇ‡Ç§Ç®ìXÇ…Ç†ÇÈ
-# ÇØÇ«Ç‹ÇæîÉÇ§Ç…ÇÂÅH
-ShowTextBox "!!! 409C04 3"
-EndScript
-
-
-
-Subscript 6
-ShowChara 1 0 8
-# Ç¢Ç≠Ç¬îÉÇ§Ç…ÇÂÅH
-ShowTextBox "!!! 409C04 4"
-EndScript
-
-
-
-Subscript 7
-ShowChara 1 0 8
-# $0å¬îÉÇ§ÇÃÇ…ÅA
-# $1â~Ç©Ç©ÇÈÇ…ÇÂ
-ShowTextBox "!!! 409C04 5"
-EndScript
-
-
-
-Subscript 8
-ShowChara 1 0 8
-# îÉÇ§ÇÃÇ‚ÇﬂÇÈÇ…ÇÂÅH
-ShowTextBox "!!! 409C04 6"
-EndScript
-
-
-
-Subscript 9
-ShowChara 1 0 8
-# å©Ç‚Ç∑Ç¢ÇÊÇ§Ç…ÅAÉOÉb
-# ÉYÇÇ»ÇÁÇ—Ç©Ç¶ÇÈÇ…ÇÂ
-ShowTextBox "!!! 409C04 7"
-EndScript
-
-
-
-Subscript 10
-ShowChara 1 0 8
-# ñ{ìñÇ…îÉÇ§Ç…ÇÂÅH
-ShowTextBox "!!! 409C04 8"
-EndScript
-
-
-
-Subscript 11
-ShowChara 1 0 8
-# $3ÇÃ$1Ç™$2è„éËÇ…Ç»ÇÈÇ…ÇÂÅI
-ShowTextBox "!!! 409C04 9"
-EndScript
+DSCBase $409C04 Subscript 0 SetPermTextBoxPos 0 16 ShowChara 1 2 8 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowChara 1 0 8 ShowTextBox "What are you going to buy?"
+EndScript Subscript 3 ShowChara 1 0 8 ShowTextBox "If you sell them all, it will be $0 yen."
+EndScript Subscript 4 ShowChara 1 0 12 ShowTextBox "I don't have enough money ~~~~~~~~~~!"
+EndScript Subscript 5 ShowChara 1 0 12 ShowTextBox "It's already in the store, but you still buy it, right?"
+EndScript Subscript 6 ShowChara 1 0 8 ShowTextBox "How many will you buy?"
+EndScript Subscript 7 ShowChara 1 0 8 ShowTextBox "It costs $1 to buy $0"
+EndScript Subscript 8 ShowChara 1 0 8 ShowTextBox "You should stop buying it, right?"
+EndScript Subscript 9 ShowChara 1 0 8 ShowTextBox "Goods are lined up for easy viewing"
+EndScript Subscript 10 ShowChara 1 0 8 ShowTextBox "Do you really buy it?"
+EndScript Subscript 11 ShowChara 1 0 8 ShowTextBox "$1 of $3 will be good at $2!"
+EndScript 

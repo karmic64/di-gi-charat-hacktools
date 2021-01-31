@@ -1,13 +1,2 @@
-DSCBase $3ED70C
-
-
-
-
-Subscript 0
-ShowChara 6 0 43
-# そのような言葉、
-# ぴよこ様には聞か
-# せられません！
-ShowTextBox "!!! 3ED70C 0"
-WaitTextBox
-EndScript
+DSCBase $3ED70C Subscript 0 ShowChara 6 0 43 ShowTextBox "Such words cannot be heard by Piyoko-sama!"
+WaitTextBox EndScript 

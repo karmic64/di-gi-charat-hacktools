@@ -1,211 +1,36 @@
-DSCBase $3EB67C
-
-
-
-
-Subscript 0
-ShowChara 6 4 40
-# $1は$2嫌いで有名です
-ShowTextBox "!!! 3EB67C 0"
-WaitTextBox
-# お店の常連客$1を失わないためにも、お店で$2は飼えませんね
-ShowTextBox "!!! 3EB67C 1"
-WaitTextBox
-ShowChara 5 4 38
-# そんなことないぞ
-# カイ！
-ShowTextBox "!!! 3EB67C 2"
-WaitTextBox
-ShowChara 5 0 64
-# キチンと話さえすれば、我が店でも飼えるはずだ…
-ShowTextBox "!!! 3EB67C 3"
-WaitTextBox
-ShowChara 5 0 38
-# そうだろう？
-ShowTextBox "!!! 3EB67C 4"
-WaitTextBox
-ShowChara 6 4 46
-# だって$1は一日にたくさんグッズを買ってくれてるんですよ！
-ShowTextBox "!!! 3EB67C 5"
-WaitTextBox
-# ダメですったらダ
-# メです！
-# $2は絶対ダメダメダメーーッ！！
-ShowTextBox "!!! 3EB67C 6"
-WaitTextBox
-ShowChara 5 4 57
-# 逆ギレっ！？
-ShowTextBox "!!! 3EB67C 7"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 6 4 40
-# つまり…
-ShowTextBox "!!! 3EB67C 8"
-WaitTextBox
-ShowChara 6 0 41
-# $1には気をつけた方がいいです
-ShowTextBox "!!! 3EB67C 9"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 6 4 40
-# 自分も$1にはぜひ乗りたいですね
-ShowTextBox "!!! 3EB67C 10"
-WaitTextBox
-ShowChara 6 0 41
-# チャンスがあったら教えてください
-ShowTextBox "!!! 3EB67C 11"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 6 4 40
-# お店でも$1や$2を売ってみますか？
-ShowTextBox "!!! 3EB67C 12"
-WaitTextBox
-ShowChara 7 4 50
-# おい、待てよカイ
-# それじゃレストラ
-# ンになっちまうだろ
-ShowTextBox "!!! 3EB67C 13"
-WaitTextBox
-ShowChara 6 4 41
-# $3くらい、もうかるかもしれませよ
-ShowTextBox "!!! 3EB67C 14"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-ShowChara 6 4 42
-# …店長さん、もう
-# $1の話は結構ですので、そろそろ仕事にもどりましょうか…
-ShowTextBox "!!! 3EB67C 15"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-ShowChara 6 4 40
-# $1か…
-# アナローグ星を思い出します
-ShowTextBox "!!! 3EB67C 16"
-WaitTextBox
-ShowChara 6 0 41
-# $1とはちょっと違いますけど、似た花があるのです
-ShowTextBox "!!! 3EB67C 17"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-ShowChara 6 4 46
-# 大変です！
-# ピョコラ様！！
-ShowTextBox "!!! 3EB67C 18"
-WaitTextBox
-ShowChara 6 0 44
-# デ・ジ・キャラッ
-# ト達が今度$1にお店を出すらしいです
-ShowTextBox "!!! 3EB67C 19"
-WaitTextBox
-ShowChara 6 0 42
-# ブラックゲーマー
-# ズも負けていられ
-# ません！
-ShowTextBox "!!! 3EB67C 20"
-WaitTextBox
-ShowChara 6 0 41
-# 思い切って$2に出店するのはどうでしょう？
-ShowTextBox "!!! 3EB67C 21"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-ShowChara 6 4 40
-# ああ見えて実は$1は$2のプロです
-ShowTextBox "!!! 3EB67C 22"
-WaitTextBox
-# 『$3』から出演依頼も来てるらしいです
-ShowTextBox "!!! 3EB67C 23"
-WaitTextBox
-ShowChara 6 0 41
-# 頼もしいですね♪
-ShowTextBox "!!! 3EB67C 24"
-WaitTextBox
-EndScript
-
-
-
-Subscript 8
-ShowChara 6 4 43
-# 自分も『$1』を読みました
-ShowTextBox "!!! 3EB67C 25"
-WaitTextBox
-ShowChara 6 0 46
-# 自分にはどこがおもしろいのか分かりませ～ん！！
-ShowTextBox "!!! 3EB67C 26"
-WaitTextBox
-EndScript
-
-
-
-Subscript 9
-ShowChara 6 4 40
-# …$1は疲れます
-ShowTextBox "!!! 3EB67C 27"
-WaitTextBox
-ShowChara 6 0 43
-# まだ終ってないので、自分がやってきます
-ShowTextBox "!!! 3EB67C 28"
-WaitTextBox
-EndScript
-
-
-
-Subscript 10
-ShowChara 6 4 40
-# $1…一度行ってみたいです
-ShowTextBox "!!! 3EB67C 29"
-WaitTextBox
-ShowChara 6 0 42
-# $1でハミガキできたらサイコーです！
-ShowTextBox "!!! 3EB67C 30"
-WaitTextBox
-EndScript
-
-
-
-Subscript 11
-ShowChara 6 4 40
-# リク元帥、そろそろ時間です…
-ShowTextBox "!!! 3EB67C 31"
-WaitTextBox
-ShowChara 5 4 35
-# うむ…店長、我々は少し出かけてくる
-ShowTextBox "!!! 3EB67C 32"
-WaitTextBox
-ShowChara 6 4 41
-# $1の飼っている$2が腹痛と虫歯で苦しんでるらしいのです
-ShowTextBox "!!! 3EB67C 33"
-WaitTextBox
-ShowChara 5 4 39
-# ブラックゲマゲマ
-# 団といえ、$2が苦しんでいるのは見すごせないのだ！
-ShowTextBox "!!! 3EB67C 34"
-WaitTextBox
-EndScript
+DSCBase $3EB67C Subscript 0 ShowChara 6 4 40 ShowTextBox "$1 is famous for hating $2"
+WaitTextBox ShowTextBox "You can't keep $2 at the store so you don't lose $1 for regular customers."
+WaitTextBox ShowChara 5 4 38 ShowTextBox "That's not true Kai!"
+WaitTextBox ShowChara 5 0 64 ShowTextBox "If you talk to Chitin, you should be able to keep it in our store ..."
+WaitTextBox ShowChara 5 0 38 ShowTextBox "It would be so?"
+WaitTextBox ShowChara 6 4 46 ShowTextBox "Because $1 buys a lot of goods a day!"
+WaitTextBox ShowTextBox "If it doesn't work, it doesn't work! $2 is absolutely useless! !!"
+WaitTextBox ShowChara 5 4 57 ShowTextBox "Reverse guile! ??"
+WaitTextBox EndScript Subscript 1 ShowChara 6 4 40 ShowTextBox "In other words ..."
+WaitTextBox ShowChara 6 0 41 ShowTextBox "You should be careful about $1"
+WaitTextBox EndScript Subscript 2 ShowChara 6 4 40 ShowTextBox "I definitely want to ride $1"
+WaitTextBox ShowChara 6 0 41 ShowTextBox "Please let me know if you have a chance"
+WaitTextBox EndScript Subscript 3 ShowChara 6 4 40 ShowTextBox "Would you like to sell $1 or $2 at the store?"
+WaitTextBox ShowChara 7 4 50 ShowTextBox "Hey, wait, Kai Then it's going to be a restaurant"
+WaitTextBox ShowChara 6 4 41 ShowTextBox "It might be lucrative for about $3"
+WaitTextBox EndScript Subscript 4 ShowChara 6 4 42 ShowTextBox "… Mr. Manager, it's okay to talk about $1, so let's get back to work soon…"
+WaitTextBox EndScript Subscript 5 ShowChara 6 4 40 ShowTextBox "$1 ... I remember the analog star"
+WaitTextBox ShowChara 6 0 41 ShowTextBox "It's a little different from $1, but it has similar flowers."
+WaitTextBox EndScript Subscript 6 ShowChara 6 4 46 ShowTextBox "It's hard! Pyocola-sama! !!"
+WaitTextBox ShowChara 6 0 44 ShowTextBox "Di Gi Charat and others will open a store for $1 next time"
+WaitTextBox ShowChara 6 0 42 ShowTextBox "Black Gamers are not defeated either!"
+WaitTextBox ShowChara 6 0 41 ShowTextBox "How about taking the plunge and opening a store for $2?"
+WaitTextBox EndScript Subscript 7 ShowChara 6 4 40 ShowTextBox "Oh look, $1 is actually a $2 pro"
+WaitTextBox ShowTextBox "It seems that a request for appearance has come from \"$3\""
+WaitTextBox ShowChara 6 0 41 ShowTextBox "It's reliable ♪"
+WaitTextBox EndScript Subscript 8 ShowChara 6 4 43 ShowTextBox "I also read \"$1\""
+WaitTextBox ShowChara 6 0 46 ShowTextBox "I don't know what's interesting! !!"
+WaitTextBox EndScript Subscript 9 ShowChara 6 4 40 ShowTextBox "… $1 gets tired"
+WaitTextBox ShowChara 6 0 43 ShowTextBox "It's not over yet, so I'm coming"
+WaitTextBox EndScript Subscript 10 ShowChara 6 4 40 ShowTextBox "$1 ... I want to go once"
+WaitTextBox ShowChara 6 0 42 ShowTextBox "If you can brush for $1, it's great!"
+WaitTextBox EndScript Subscript 11 ShowChara 6 4 40 ShowTextBox "Marshal Riku, it's about time ..."
+WaitTextBox ShowChara 5 4 35 ShowTextBox "Hmm ... Manager, we're going out a little"
+WaitTextBox ShowChara 6 4 41 ShowTextBox "It seems that $1's $2 is suffering from abdominal pain and tooth decay."
+WaitTextBox ShowChara 5 4 39 ShowTextBox "Even the Black Gemagema troupe can't see the $2 suffering!"
+WaitTextBox EndScript 

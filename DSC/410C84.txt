@@ -1,78 +1,9 @@
-DSCBase $410C84
-
-
-
-
-Subscript 0
-SetBG 111
-Fade 0 30
-ShowChara 1 0 10
-# バーゲンセールで
-# お客さんを集める
-# にょ
-ShowTextBox "!!! 410C84 0"
-WaitTextBox
-# 全品１割引
-# バーゲン開始にょ
-ShowTextBox "!!! 410C84 1"
-WaitTextBox
-Fade 1 30
-HideChara
-EndScript
-
-
-
-Subscript 1
-SetBG 111
-Fade 0 30
-ShowChara 2 0 23
-# バーゲンセールで
-# お客さんを集める
-# わ
-ShowTextBox "!!! 410C84 2"
-WaitTextBox
-# 全品１割引
-# バーゲン開始よ
-ShowTextBox "!!! 410C84 3"
-WaitTextBox
-Fade 1 30
-HideChara
-EndScript
-
-
-
-Subscript 2
-SetBG 111
-Fade 0 30
-ShowChara 3 0 18
-# バーゲンセールで
-# お客さんを集める
-# にゅ
-ShowTextBox "!!! 410C84 4"
-WaitTextBox
-# 全品１割引
-# バーゲン開始にゅ
-ShowTextBox "!!! 410C84 5"
-WaitTextBox
-Fade 1 30
-HideChara
-EndScript
-
-
-
-Subscript 3
-SetBG 111
-Fade 0 30
-ShowChara 4 0 29
-# バーゲンセールで
-# お客さんを集める
-# ぴょ
-ShowTextBox "!!! 410C84 6"
-WaitTextBox
-# 全品１割引
-# バーゲン開始ぴょ
-ShowTextBox "!!! 410C84 7"
-WaitTextBox
-Fade 1 30
-HideChara
-EndScript
+DSCBase $410C84 Subscript 0 SetBG 111 Fade 0 30 ShowChara 1 0 10 ShowTextBox "Gather customers at a bargain sale"
+WaitTextBox ShowTextBox "All items 1 discount bargain start"
+WaitTextBox Fade 1 30 HideChara EndScript Subscript 1 SetBG 111 Fade 0 30 ShowChara 2 0 23 ShowTextBox "I'm gonna get customers at a bargain sale"
+WaitTextBox ShowTextBox "1 discount bargain for all items starts"
+WaitTextBox Fade 1 30 HideChara EndScript Subscript 2 SetBG 111 Fade 0 30 ShowChara 3 0 18 ShowTextBox "Gather customers at a bargain sale"
+WaitTextBox ShowTextBox "All items 1 discount bargain start"
+WaitTextBox Fade 1 30 HideChara EndScript Subscript 3 SetBG 111 Fade 0 30 ShowChara 4 0 29 ShowTextBox "Gather customers at a bargain sale"
+WaitTextBox ShowTextBox "All items 1 discount bargain start Pyo"
+WaitTextBox Fade 1 30 HideChara EndScript 

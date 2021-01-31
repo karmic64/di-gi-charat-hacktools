@@ -1,203 +1,37 @@
-DSCBase $3F1EF0
-
-
-
-
-Subscript 0
-SetBG 111
-Fade 0 30
-ShowChara 3 1 17
-# 右のものを左へ…
-ShowTextBox "!!! 3F1EF0 0"
-WaitTextBox
-ShowChara 3 2 17
-# 左のものを右へ…
-ShowTextBox "!!! 3F1EF0 1"
-WaitTextBox
-ShowChara 3 1 17
-# ふう…
-ShowTextBox "!!! 3F1EF0 2"
-WaitTextBox
-# 荷物の整理はつか
-# れるにゅ
-ShowTextBox "!!! 3F1EF0 3"
-WaitTextBox
-ShowChara 10 2 6
-# にゃ～
-ShowTextBox "!!! 3F1EF0 4"
-WaitTextBox
-ShowChara 3 1 18
-# おまえもそう思う
-# にゅ…？
-ShowTextBox "!!! 3F1EF0 5"
-WaitTextBox
-ShowChara 10 2 6
-# にゃ～！
-ShowTextBox "!!! 3F1EF0 6"
-WaitTextBox
-ShowChara 3 1 17
-# ごそごそ…
-ShowTextBox "!!! 3F1EF0 7"
-WaitTextBox
-# にゅ…？
-ShowTextBox "!!! 3F1EF0 8"
-WaitTextBox
-# 何か出てきたにゅ
-# …
-ShowTextBox "!!! 3F1EF0 9"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 8 1 1
-# どーしたゲマ、ぷ
-# ちこ？
-ShowTextBox "!!! 3F1EF0 10"
-WaitTextBox
-# ふむふむ、見てほ
-# しいものがあるゲ
-# マか…
-ShowTextBox "!!! 3F1EF0 11"
-WaitTextBox
-ShowChara 8 0 53
-# ゲマでよければ、
-# 手をかすゲマ
-ShowTextBox "!!! 3F1EF0 12"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 10 2 6
-# にゃ？
-ShowTextBox "!!! 3F1EF0 13"
-WaitTextBox
-ShowChara 8 1 1
-# むむ、これは「五
-# 月人形」ゲマ
-ShowTextBox "!!! 3F1EF0 14"
-WaitTextBox
-# 「子どもの日」は
-# むかしは「端午の
-# 節句（たんごのせ
-# っく）」といった
-# ゲマ
-ShowTextBox "!!! 3F1EF0 15"
-WaitTextBox
-# この日は、よろい
-# かぶとや武者人形
-# などを飾ったり、
-# こいのぼりをあげ
-# たりする習慣があ
-# るゲマ
-ShowTextBox "!!! 3F1EF0 16"
-WaitTextBox
-# 店長さんに頼めば
-# 飾ってくれるかも
-# しれないゲマ
-ShowTextBox "!!! 3F1EF0 17"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 3 1 17
-# ということで、お
-# 願いにゅ
-ShowTextBox "!!! 3F1EF0 18"
-WaitTextBox
-# わかった
-# いそがしい
-ShowSelMenu09 2 "!!! 3F1EF0 19"
-JumpOnSelection 2 0 1 0
-Label 1
-# にゅ…
-ShowTextBox "!!! 3F1EF0 20"
-WaitTextBox
-# 仕方ないにゅ、あ
-# きらめるにゅ…
-ShowTextBox "!!! 3F1EF0 21"
-WaitTextBox
-ShowChara 10 2 6
-# …………
-ShowTextBox "!!! 3F1EF0 22"
-WaitTextBox
-# にゃ～…
-ShowTextBox "!!! 3F1EF0 23"
-WaitTextBox
-ShowChara 8 1 2
-# わ、わからないゲ
-# マ…ひょっとして
-# 怒ってる…ゲマ？
-ShowTextBox "!!! 3F1EF0 24"
-WaitTextBox
-EndScript
-Label 0
-ShowChara 3 0 18
-# 楽しみに待ってる
-# にゅ
-ShowTextBox "!!! 3F1EF0 25"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-SetBG 111
-Fade 0 30
-ShowChara 3 1 17
-# どうにゅ…？
-ShowTextBox "!!! 3F1EF0 26"
-WaitTextBox
-ShowChara 10 2 6
-# にゃにゃ～
-ShowTextBox "!!! 3F1EF0 27"
-WaitTextBox
-ShowChara 8 1 53
-# ばっちりゲマ！
-# 昨日、店長さんと
-# 遅くまでかかって
-# 準備したかいがあ
-# るゲマ～
-ShowTextBox "!!! 3F1EF0 28"
-WaitTextBox
-Fade 3 30
-Unk08 3 130 64 20 100 10 3
-Unk08 10 226 114 64 120 10 2
-SetBG 19
-Fade 2 30
-ShowChara 3 0 0
-# ものども、であえ、で
-# あえにゅっ！
-ShowTextBox "!!! 3F1EF0 29"
-WaitTextBox
-ShowChara 10 0 0
-# にゃ～！
-ShowTextBox "!!! 3F1EF0 30"
-WaitTextBox
-ShowChara 3 0 0
-# わが主力を決勝点に投
-# 入にゅっ！
-ShowTextBox "!!! 3F1EF0 31"
-WaitTextBox
-ShowChara 10 0 0
-# にゃっにゃあ～！
-ShowTextBox "!!! 3F1EF0 32"
-WaitTextBox
-ShowChara 3 0 0
-# とにかくカラテは全身
-# これ凶器にゅっ！
-ShowTextBox "!!! 3F1EF0 33"
-WaitTextBox
-ShowChara 10 0 0
-# にゃにゃにゃ～！
-ShowTextBox "!!! 3F1EF0 34"
-WaitTextBox
-Fade 1 30
-SetBG 111
-Fade 0 30
-ShowChara 8 1 53
-# よかったゲマ、と
-# りあえず喜んでる
-# みたいゲマ！
-ShowTextBox "!!! 3F1EF0 35"
-WaitTextBox
-EndScript
+DSCBase $3F1EF0 Subscript 0 SetBG 111 Fade 0 30 ShowChara 3 1 17 ShowTextBox "Turn the right one to the left ..."
+WaitTextBox ShowChara 3 2 17 ShowTextBox "The one on the left to the right ..."
+WaitTextBox ShowChara 3 1 17 ShowTextBox "Hmm ..."
+WaitTextBox ShowTextBox "You can organize your luggage"
+WaitTextBox ShowChara 10 2 6 ShowTextBox "Nya ~"
+WaitTextBox ShowChara 3 1 18 ShowTextBox "You think so too ...?"
+WaitTextBox ShowChara 10 2 6 ShowTextBox "Nya ~!"
+WaitTextBox ShowChara 3 1 17 ShowTextBox "I'm sorry ..."
+WaitTextBox ShowTextBox "Nyu ...?"
+WaitTextBox ShowTextBox "Something came out ..."
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 8 1 1 ShowTextBox "Dude Gema, Puchiko?"
+WaitTextBox ShowTextBox "Hmmm, is there something I want you to see ..."
+WaitTextBox ShowChara 8 0 53 ShowTextBox "If you don't mind gema, gema"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 10 2 6 ShowTextBox "Nya?"
+WaitTextBox ShowChara 8 1 1 ShowTextBox "Hmmm, this is the \"May Doll\" Gema"
+WaitTextBox ShowTextBox "\"Children's Day\" used to be a gem like \"Tango no Sekku\""
+WaitTextBox ShowTextBox "On this day, Gema has a habit of decorating armor and samurai dolls and raising carp streamers."
+WaitTextBox ShowTextBox "Gema that may decorate if you ask the store manager"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 3 1 17 ShowTextBox "So please"
+WaitTextBox ShowSelMenu09 2 "I want to understand"
+JumpOnSelection 2 0 1 0 Label 1 ShowTextBox "Nyu ..."
+WaitTextBox ShowTextBox "It can't be helped, I give up ..."
+WaitTextBox ShowChara 10 2 6 ShowTextBox "…………"
+WaitTextBox ShowTextBox "Nya ..."
+WaitTextBox ShowChara 8 1 2 ShowTextBox "Wow, I don't know Gema ... Maybe I'm angry ... Gema?"
+WaitTextBox EndScript Label 0 ShowChara 3 0 18 ShowTextBox "I'm looking forward to it"
+WaitTextBox EndScript Subscript 1 SetBG 111 Fade 0 30 ShowChara 3 1 17 ShowTextBox "How ...?"
+WaitTextBox ShowChara 10 2 6 ShowTextBox "Nyanya ~"
+WaitTextBox ShowChara 8 1 53 ShowTextBox "Perfectly gema! Yesterday, I had to wait late with the store manager to prepare."
+WaitTextBox Fade 3 30 Unk08 3 130 64 20 100 10 3 Unk08 10 226 114 64 120 10 2 SetBG 19 Fade 2 30 ShowChara 3 0 0 ShowTextBox "Deae deae, deae deae!"
+WaitTextBox ShowChara 10 0 0 ShowTextBox "Nya ~!"
+WaitTextBox ShowChara 3 0 0 ShowTextBox "Put my main force into the finals!"
+WaitTextBox ShowChara 10 0 0 ShowTextBox "Nya Nyaa ~!"
+WaitTextBox ShowChara 3 0 0 ShowTextBox "Anyway, Karate is a weapon for the whole body!"
+WaitTextBox ShowChara 10 0 0 ShowTextBox "Nyanyanya ~!"
+WaitTextBox Fade 1 30 SetBG 111 Fade 0 30 ShowChara 8 1 53 ShowTextBox "Good Gema, Gema who seems to be happy for the time being!"
+WaitTextBox EndScript 

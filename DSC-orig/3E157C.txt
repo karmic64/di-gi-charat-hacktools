@@ -1,0 +1,49 @@
+DSCBase $3E157C
+
+
+
+
+Subscript 0
+ShowChara 3 2 17
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# ぷちこにゅ
+ShowTextBox "!!! 3E157C 0"
+EndScript
+
+
+
+Subscript 3
+# 得意なことは、めから
+# びーむにゅ
+ShowTextBox "!!! 3E157C 1"
+EndScript
+
+
+
+Subscript 4
+# 本当のことをいうと、
+# じつは、まだびーむは
+# よく出ないにゅ
+ShowTextBox "!!! 3E157C 2"
+EndScript
+
+
+
+Subscript 5
+ShowChara 3 0 18
+# ぷちこのこと、よろし
+# くにゅ
+ShowTextBox "!!! 3E157C 3"
+Wait 60
+HideChara
+EndScript

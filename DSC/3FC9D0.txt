@@ -1,145 +1,26 @@
-DSCBase $3FC9D0
-
-
-
-
-Subscript 0
-Unk08 1 87 65 80 92 10 3
-SetBG 111
-Fade 0 30
-ShowChara 3 1 17
-# にゅ…
-ShowTextBox "!!! 3FC9D0 0"
-WaitTextBox
-ShowChara 2 2 22
-# あら、どうしたの
-# ぷちこ
-# なんだか元気ない
-# わね？
-ShowTextBox "!!! 3FC9D0 1"
-WaitTextBox
-ShowChara 3 1 17
-# 何でもないにゅ
-ShowTextBox "!!! 3FC9D0 2"
-WaitTextBox
-ShowChara 8 1 1
-# ぷちこは、昨日の
-# イブのパーティで
-# おつかれゲマ
-ShowTextBox "!!! 3FC9D0 3"
-WaitTextBox
-ShowChara 2 2 22
-# まぁ、今日はクリ
-# スマスだっていう
-# のに、お気の毒ね
-ShowTextBox "!!! 3FC9D0 4"
-WaitTextBox
-ShowChara 3 1 17
-# うさだは全然平気
-# にゅ？
-ShowTextBox "!!! 3FC9D0 5"
-WaitTextBox
-ShowChara 2 2 26
-# アタシはアイドル
-# 志望なんだから、
-# パーティくらいで
-# 疲れてちゃ、お話
-# にならないわ
-ShowTextBox "!!! 3FC9D0 6"
-WaitTextBox
-ShowChara 8 1 53
-# うんうん、やっぱ
-# り、人間、元気が
-# 一番ゲマ
-ShowTextBox "!!! 3FC9D0 7"
-WaitTextBox
-# でじこも全然つか
-# れた様子がなく、
-# さっき店長さんと
-# おでかけしたゲマ
-ShowTextBox "!!! 3FC9D0 8"
-WaitTextBox
-ShowChara 2 2 24
-# なんですって！？
-ShowTextBox "!!! 3FC9D0 9"
-WaitTextBox
-ShowChara 8 1 54
-# ど、どうしたゲマ
-ShowTextBox "!!! 3FC9D0 10"
-WaitTextBox
-ShowChara 2 2 24
-# 店長さんはでじこ
-# といっしょにお出
-# かけしたの？
-ShowTextBox "!!! 3FC9D0 11"
-WaitTextBox
-ShowChara 8 1 54
-# そ、そうゲマ…
-ShowTextBox "!!! 3FC9D0 12"
-WaitTextBox
-ShowChara 2 2 27
-# くやし～～いっ！
-# でじこに先を越さ
-# れるなんてっ！
-ShowTextBox "!!! 3FC9D0 13"
-WaitTextBox
-# 今ごろ、高級ホテ
-# ルのレストランで
-# お食事したり、宝
-# 石店でダイヤの指
-# 輪を見たりとかし
-# てるんだわ～！
-ShowTextBox "!!! 3FC9D0 14"
-WaitTextBox
-ShowChara 8 1 2
-# でじこと同じこと
-# 考えてるゲマ…
-ShowTextBox "!!! 3FC9D0 15"
-WaitTextBox
-ShowChara 2 2 24
-# あ～ら、今、何か
-# おっしゃって？
-ShowTextBox "!!! 3FC9D0 16"
-WaitTextBox
-ShowChara 8 1 54
-# た、ただのひとり
-# ごとゲマ…
-ShowTextBox "!!! 3FC9D0 17"
-WaitTextBox
-Fade 1 30
-SetBG 51
-Fade 0 30
-ShowChara 1 0 0
-# へっくしょん！
-ShowTextBox "!!! 3FC9D0 18"
-WaitTextBox
-# う～ん、いま、誰かが
-# でじこのウワサをした
-# みたいにょ
-ShowTextBox "!!! 3FC9D0 19"
-WaitTextBox
-# あっ、店長しゃん。で
-# じこはここのお店がい
-# いと思うにょ
-ShowTextBox "!!! 3FC9D0 20"
-WaitTextBox
-# 見るからに高級レスト
-# ランっていうかんじで
-# もうサイコーだにょ
-ShowTextBox "!!! 3FC9D0 21"
-WaitTextBox
-# にょにょ、うさだのう
-# らやましがる顔が目に
-# 浮かぶようだにょ
-ShowTextBox "!!! 3FC9D0 22"
-WaitTextBox
-# にょっ、あんなところ
-# に宝石店を発見にょ…
-ShowTextBox "!!! 3FC9D0 23"
-WaitTextBox
-# よし、帰りはさりげな
-# く宝石店にお立ち寄り
-# してくにょ～
-ShowTextBox "!!! 3FC9D0 24"
-WaitTextBox
-EndScript
+DSCBase $3FC9D0 Subscript 0 Unk08 1 87 65 80 92 10 3 SetBG 111 Fade 0 30 ShowChara 3 1 17 ShowTextBox "Nyu ..."
+WaitTextBox ShowChara 2 2 22 ShowTextBox "Oh, what's wrong with Puchiko?"
+WaitTextBox ShowChara 3 1 17 ShowTextBox "Nothing"
+WaitTextBox ShowChara 8 1 1 ShowTextBox "Puchiko got tired of yesterday's Eve party"
+WaitTextBox ShowChara 2 2 22 ShowTextBox "Well, I'm sorry that it's Christmas today"
+WaitTextBox ShowChara 3 1 17 ShowTextBox "Is Usada all right?"
+WaitTextBox ShowChara 2 2 26 ShowTextBox "I'm an idol aspirant, so I'm tired of having a party, so I can't talk about it."
+WaitTextBox ShowChara 8 1 53 ShowTextBox "Yeah, after all, human beings and energy are the best"
+WaitTextBox ShowTextBox "Di Gi Charat didn't seem to be tired at all, so he went out with the store manager a while ago."
+WaitTextBox ShowChara 2 2 24 ShowTextBox "What was that! ??"
+WaitTextBox ShowChara 8 1 54 ShowTextBox "What's wrong with Gema"
+WaitTextBox ShowChara 2 2 24 ShowTextBox "Did the store manager go out with Di Gi Charat?"
+WaitTextBox ShowChara 8 1 54 ShowTextBox "Yeah, that's right ..."
+WaitTextBox ShowChara 2 2 27 ShowTextBox "I'm sorry! Di Gi Charat can get ahead!"
+WaitTextBox ShowTextBox "By now, I'm eating at a restaurant in a luxury hotel or looking at a diamond ring at a jewelry store!"
+WaitTextBox ShowChara 8 1 2 ShowTextBox "Di Gi Charat is thinking about the same thing ..."
+WaitTextBox ShowChara 2 2 24 ShowTextBox "Oh, what are you talking about now?"
+WaitTextBox ShowChara 8 1 54 ShowTextBox "Also, just one person is gema ..."
+WaitTextBox Fade 1 30 SetBG 51 Fade 0 30 ShowChara 1 0 0 ShowTextBox "Hexon!"
+WaitTextBox ShowTextBox "Hmmm, it looks like someone has made a rumor about Di Gi Charat"
+WaitTextBox ShowTextBox "Oh, the store manager. Di Gi Charat would like this shop"
+WaitTextBox ShowTextBox "As you can see, it's already a high-class restaurant."
+WaitTextBox ShowTextBox "Nyonyo, the enviable face of Usada seems to come to my eyes."
+WaitTextBox ShowTextBox "Nyo, I found a jewelry store in such a place ..."
+WaitTextBox ShowTextBox "Alright, I'll casually drop in at a jewelry store on my way home ~"
+WaitTextBox EndScript 

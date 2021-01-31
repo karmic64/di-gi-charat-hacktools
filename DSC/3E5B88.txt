@@ -1,342 +1,61 @@
-DSCBase $3E5B88
-
-
-
-
-Subscript 0
-ShowChara 3 1 17
-# ただいまにゅ
-ShowTextBox "!!! 3E5B88 0"
-WaitTextBox
-# さっき$1が外を歩いてたにゅ
-ShowTextBox "!!! 3E5B88 1"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 8 2 1
-# ぷちこ、何の本を読んでるゲマ？
-ShowTextBox "!!! 3E5B88 2"
-WaitTextBox
-ShowChara 3 1 17
-# 『$1動物大図鑑』にゅ
-ShowTextBox "!!! 3E5B88 3"
-WaitTextBox
-ShowChara 3 0 18
-# $2の生態に迫る必読書にゅ
-ShowTextBox "!!! 3E5B88 4"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 3 1 17
-# にゅ…
-ShowTextBox "!!! 3E5B88 5"
-WaitTextBox
-# ぷちこ、$1はイマイチ苦手にゅ
-ShowTextBox "!!! 3E5B88 6"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 3 1 17
-# …ただいまにゅ
-ShowTextBox "!!! 3E5B88 7"
-WaitTextBox
-# 屋台で$1を買ってきたにゅ
-ShowTextBox "!!! 3E5B88 8"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-ShowChara 3 1 19
-# …………
-ShowTextBox "!!! 3E5B88 9"
-WaitTextBox
-ShowChara 8 2 2
-# ぷちこは$2の仕事で$1まで行かされて、ゴキゲンななめゲマ
-ShowTextBox "!!! 3E5B88 10"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-ShowChara 3 1 17
-# おなか空いたにゅもう２日も食べてないにゅ
-ShowTextBox "!!! 3E5B88 11"
-WaitTextBox
-ShowChara 3 0 20
-# $1でもいいから、食べたいにゅ…
-ShowTextBox "!!! 3E5B88 12"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-ShowChara 3 1 18
-# ビックリにゅ
-# $1がお店に来てるにゅ
-ShowTextBox "!!! 3E5B88 13"
-WaitTextBox
-# サインでも、もらっとくにゅ？
-ShowTextBox "!!! 3E5B88 14"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-ShowChara 3 1 17
-# このまえ、$1で$2を見かけたにゅ
-ShowTextBox "!!! 3E5B88 15"
-WaitTextBox
-# きっと$3しに来てたんだにゅ
-ShowTextBox "!!! 3E5B88 16"
-WaitTextBox
-EndScript
-
-
-
-Subscript 8
-ShowChara 3 1 17
-# 今日実写版『$1』の映画が封切りされるにゅ
-ShowTextBox "!!! 3E5B88 17"
-WaitTextBox
-ShowChara 8 4 2
-# なんでも$2がヒロイン役を演じる異色作らしいゲマ～
-ShowTextBox "!!! 3E5B88 18"
-WaitTextBox
-ShowChara 3 4 18
-# おもしろそうにゅ
-# ぷちこ観てみたいにゅ！
-ShowTextBox "!!! 3E5B88 19"
-WaitTextBox
-EndScript
-
-
-
-Subscript 9
-ShowChara 3 1 19
-# …疲れたにゅ
-# もう$1なんて、やってられないにゅ…
-ShowTextBox "!!! 3E5B88 20"
-WaitTextBox
-ShowChara 3 0 20
-# ぷちこ、$2に行って骨休みしたいにゅ～
-ShowTextBox "!!! 3E5B88 21"
-WaitTextBox
-EndScript
-
-
-
-Subscript 10
-ShowChara 3 1 17
-# 今日はいいお天気にゅ
-ShowTextBox "!!! 3E5B88 22"
-WaitTextBox
-ShowChara 3 0 21
-# こんな日は、お外で$1といっしょに$2するに限るにゅ
-ShowTextBox "!!! 3E5B88 23"
-WaitTextBox
-EndScript
-
-
-
-Subscript 11
-ShowChara 3 1 17
-# この間、$1に会ったにゅ
-ShowTextBox "!!! 3E5B88 24"
-WaitTextBox
-# $2に乗って、$3まで遊びに行くって言ってたにゅ
-ShowTextBox "!!! 3E5B88 25"
-WaitTextBox
-ShowChara 3 0 20
-# すこし、うらやましいにゅ
-ShowTextBox "!!! 3E5B88 26"
-WaitTextBox
-EndScript
-
-
-
-Subscript 12
-ShowChara 3 2 17
-# こないだ小耳にはさんだにゅ
-ShowTextBox "!!! 3E5B88 27"
-WaitTextBox
-# $1が$2の飲みすぎでダウンしたそうにゅ
-ShowTextBox "!!! 3E5B88 28"
-WaitTextBox
-ShowChara 3 0 21
-# 腹八分目は大切にゅ
-ShowTextBox "!!! 3E5B88 29"
-WaitTextBox
-EndScript
-
-
-
-Subscript 13
-ShowChara 3 2 17
-# このまえ小耳にはさんだにゅ
-ShowTextBox "!!! 3E5B88 30"
-WaitTextBox
-# $1が新しい$2を買って見せびらかしてるらしいにゅ
-ShowTextBox "!!! 3E5B88 31"
-WaitTextBox
-ShowChara 3 0 18
-# ブームにも乗せられて、哀れだにゅ
-ShowTextBox "!!! 3E5B88 32"
-WaitTextBox
-EndScript
-
-
-
-Subscript 14
-ShowChara 3 1 17
-# 店長さん
-# ぷちこ、昨日テレビで『$1』を見たにゅ
-ShowTextBox "!!! 3E5B88 33"
-WaitTextBox
-# $2が$3とたわむれて、なごんだにゅ…
-ShowTextBox "!!! 3E5B88 34"
-WaitTextBox
-# きっとヤツラは
-# “いやし系”だにゅ
-ShowTextBox "!!! 3E5B88 35"
-WaitTextBox
-EndScript
-
-
-
-Subscript 15
-ShowChara 3 2 17
-# 今度『$1』の本が出るにゅ
-ShowTextBox "!!! 3E5B88 36"
-WaitTextBox
-ShowChara 3 0 21
-# 売れるかどうか心配にゅ
-ShowTextBox "!!! 3E5B88 37"
-WaitTextBox
-EndScript
-
-
-
-Subscript 16
-ShowChara 3 1 17
-# 道すがら、$1がいっぱい咲いてたにゅ
-ShowTextBox "!!! 3E5B88 38"
-WaitTextBox
-ShowChara 3 0 21
-# きれいだったにゅ～
-ShowTextBox "!!! 3E5B88 39"
-WaitTextBox
-EndScript
-
-
-
-Subscript 17
-ShowChara 10 1 6
-# にゃ～～～
-ShowTextBox "!!! 3E5B88 40"
-WaitTextBox
-ShowChara 3 4 18
-# なるほど、ナットクにゅ
-ShowTextBox "!!! 3E5B88 41"
-WaitTextBox
-ShowChara 10 1 6
-# にゃ～～～
-ShowTextBox "!!! 3E5B88 42"
-WaitTextBox
-ShowChara 3 4 17
-# ふむふむにゅ
-ShowTextBox "!!! 3E5B88 43"
-WaitTextBox
-ShowChara 10 1 6
-# にや～～～
-ShowTextBox "!!! 3E5B88 44"
-WaitTextBox
-ShowChara 3 4 21
-# 店長さん、ほっけみりんが店長さんの前世は$1に間違いないと言ってるにゅ
-ShowTextBox "!!! 3E5B88 45"
-WaitTextBox
-ShowChara 3 0 18
-# $2じゃなくて、良かったにゅ！
-ShowTextBox "!!! 3E5B88 46"
-WaitTextBox
-EndScript
-
-
-
-Subscript 18
-ShowChara 3 1 17
-# ノド渇いたにゅ
-ShowTextBox "!!! 3E5B88 47"
-WaitTextBox
-# ちょっと$1でも買ってきていいかにゅ？
-ShowTextBox "!!! 3E5B88 48"
-WaitTextBox
-ShowChara 10 4 6
-# にゃー
-ShowTextBox "!!! 3E5B88 49"
-WaitTextBox
-ShowChara 3 4 17
-# ほっけみりんは$2が飲みたいって言ってるにゅ
-ShowTextBox "!!! 3E5B88 50"
-WaitTextBox
-EndScript
-
-
-
-Subscript 19
-ShowChara 3 1 17
-# そろそろ$1の季節にゅ
-ShowTextBox "!!! 3E5B88 51"
-WaitTextBox
-ShowChara 3 0 18
-# ぷちこ、$1の花がお気に入りにゅ
-ShowTextBox "!!! 3E5B88 52"
-WaitTextBox
-ShowChara 3 0 21
-# いい香りがするにゅ～♪
-ShowTextBox "!!! 3E5B88 53"
-WaitTextBox
-EndScript
-
-
-
-Subscript 20
-ShowChara 10 2 6
-# にゃ～
-ShowTextBox "!!! 3E5B88 54"
-WaitTextBox
-ShowChara 3 4 18
-# それはすごいにゅ！
-ShowTextBox "!!! 3E5B88 55"
-WaitTextBox
-ShowChara 3 0 17
-# ほっけみりんが$1で$2してる$3を見たらしいにゅ！
-ShowTextBox "!!! 3E5B88 56"
-WaitTextBox
-ShowChara 10 4 6
-# にゃ～～～
-ShowTextBox "!!! 3E5B88 57"
-WaitTextBox
-ShowChara 3 4 18
-# さっそくテレビ局に知らせに行くらしいにゅ
-ShowTextBox "!!! 3E5B88 58"
-WaitTextBox
-ShowChara 3 0 21
-# きっと今晩の『$4』で放送されるにゅ！
-# みんなで見るにゅ
-ShowTextBox "!!! 3E5B88 59"
-WaitTextBox
-EndScript
+DSCBase $3E5B88 Subscript 0 ShowChara 3 1 17 ShowTextBox "I'm home"
+WaitTextBox ShowTextBox "A while ago $1 was walking outside"
+WaitTextBox EndScript Subscript 1 ShowChara 8 2 1 ShowTextBox "Puchiko, what book are you reading?"
+WaitTextBox ShowChara 3 1 17 ShowTextBox "\"$1 Animal Encyclopedia\" Nyu"
+WaitTextBox ShowChara 3 0 18 ShowTextBox "A must-read book that approaches the ecology of $2"
+WaitTextBox EndScript Subscript 2 ShowChara 3 1 17 ShowTextBox "Nyu ..."
+WaitTextBox ShowTextBox "Puchiko, $1 is not good"
+WaitTextBox EndScript Subscript 3 ShowChara 3 1 17 ShowTextBox "... I'm home"
+WaitTextBox ShowTextBox "I bought $1 at a food stall"
+WaitTextBox EndScript Subscript 4 ShowChara 3 1 19 ShowTextBox "…………"
+WaitTextBox ShowChara 8 2 2 ShowTextBox "Puchiko was sent to $1 for a $2 job and was licked by Gokigen."
+WaitTextBox EndScript Subscript 5 ShowChara 3 1 17 ShowTextBox "I'm hungry I haven't eaten for 2 days"
+WaitTextBox ShowChara 3 0 20 ShowTextBox "$1 is fine, I want to eat ..."
+WaitTextBox EndScript Subscript 6 ShowChara 3 1 18 ShowTextBox "Surprised Nyu $1 is coming to the store"
+WaitTextBox ShowTextBox "Even if it's an autograph, is it especially good?"
+WaitTextBox EndScript Subscript 7 ShowChara 3 1 17 ShowTextBox "The other day, I saw $2 for $1."
+WaitTextBox ShowTextBox "I'm sure you came for $3"
+WaitTextBox EndScript Subscript 8 ShowChara 3 1 17 ShowTextBox "The live-action version of the movie \"$1\" will be released today"
+WaitTextBox ShowChara 8 4 2 ShowTextBox "Gema that seems to be a unique work in which $2 plays the role of a heroine"
+WaitTextBox ShowChara 3 4 18 ShowTextBox "It looks interesting, I want to see Puchiko!"
+WaitTextBox EndScript Subscript 9 ShowChara 3 1 19 ShowTextBox "... I'm tired, I can't do $1 anymore ..."
+WaitTextBox ShowChara 3 0 20 ShowTextBox "Puchiko, I want to go to $2 and have a bone break ~"
+WaitTextBox EndScript Subscript 10 ShowChara 3 1 17 ShowTextBox "Good weather today"
+WaitTextBox ShowChara 3 0 21 ShowTextBox "On a day like this, you can only spend $2 outside with $1."
+WaitTextBox EndScript Subscript 11 ShowChara 3 1 17 ShowTextBox "I met $1 the other day"
+WaitTextBox ShowTextBox "He said he would ride $2 and go play up to $3."
+WaitTextBox ShowChara 3 0 20 ShowTextBox "A little enviable Nyu"
+WaitTextBox EndScript Subscript 12 ShowChara 3 2 17 ShowTextBox "I'm caught in my ear"
+WaitTextBox ShowTextBox "$1 went down due to drinking too much $2."
+WaitTextBox ShowChara 3 0 21 ShowTextBox "The eighth part of the belly is important"
+WaitTextBox EndScript Subscript 13 ShowChara 3 2 17 ShowTextBox "Before this, I was caught in my ear"
+WaitTextBox ShowTextBox "It seems that $1 is buying a new $2 and showing off."
+WaitTextBox ShowChara 3 0 18 ShowTextBox "It's pathetic to be on the boom"
+WaitTextBox EndScript Subscript 14 ShowChara 3 1 17 ShowTextBox "Manager Puchiko, I saw \"$1\" on TV yesterday"
+WaitTextBox ShowTextBox "$2 bends to $3, and it's soothing ..."
+WaitTextBox ShowTextBox "I'm sure he's a \"healing\""
+WaitTextBox EndScript Subscript 15 ShowChara 3 2 17 ShowTextBox "The book \"$1\" will be released next time"
+WaitTextBox ShowChara 3 0 21 ShowTextBox "I'm worried if it will sell"
+WaitTextBox EndScript Subscript 16 ShowChara 3 1 17 ShowTextBox "Along the way, a lot of $1 was in bloom"
+WaitTextBox ShowChara 3 0 21 ShowTextBox "It was beautiful"
+WaitTextBox EndScript Subscript 17 ShowChara 10 1 6 ShowTextBox "Nya ~~~"
+WaitTextBox ShowChara 3 4 18 ShowTextBox "I see, Natuk Nyu"
+WaitTextBox ShowChara 10 1 6 ShowTextBox "Nya ~~~"
+WaitTextBox ShowChara 3 4 17 ShowTextBox "Fum Fum Nyu"
+WaitTextBox ShowChara 10 1 6 ShowTextBox "Niya ~~~"
+WaitTextBox ShowChara 3 4 21 ShowTextBox "The store manager, Hokke Mirin, says that the store manager's previous life must be $1."
+WaitTextBox ShowChara 3 0 18 ShowTextBox "I'm glad it wasn't $2!"
+WaitTextBox EndScript Subscript 18 ShowChara 3 1 17 ShowTextBox "Thirsty"
+WaitTextBox ShowTextBox "Why don't you buy even a little $1?"
+WaitTextBox ShowChara 10 4 6 ShowTextBox "Meow"
+WaitTextBox ShowChara 3 4 17 ShowTextBox "Hokke Mirin says he wants to drink $2."
+WaitTextBox EndScript Subscript 19 ShowChara 3 1 17 ShowTextBox "It's about time for the $1 season"
+WaitTextBox ShowChara 3 0 18 ShowTextBox "Puchiko, $1 flower is my favorite"
+WaitTextBox ShowChara 3 0 21 ShowTextBox "It smells good!"
+WaitTextBox EndScript Subscript 20 ShowChara 10 2 6 ShowTextBox "Nya ~"
+WaitTextBox ShowChara 3 4 18 ShowTextBox "That's amazing!"
+WaitTextBox ShowChara 3 0 17 ShowTextBox "It seems that Hokke Mirin saw $3 for $1 and $2!"
+WaitTextBox ShowChara 10 4 6 ShowTextBox "Nya ~~~"
+WaitTextBox ShowChara 3 4 18 ShowTextBox "It seems that he will go to the TV station to inform him immediately."
+WaitTextBox ShowChara 3 0 21 ShowTextBox "I'm sure it will be broadcast on \"$4\" tonight! Nyu to see with everyone"
+WaitTextBox EndScript 

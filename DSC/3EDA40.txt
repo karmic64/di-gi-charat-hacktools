@@ -1,38 +1,4 @@
-DSCBase $3EDA40
-
-
-
-
-Subscript 0
-ShowChara 2 0 24
-# いくら店長さんで
-# も、言っていいこ
-# とと悪いことがあ
-# るわ！
-ShowTextBox "!!! 3EDA40 0"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 2 0 25
-# あっ、ごめんなさ
-# い！　今、ちょっ
-# とウサ耳の調子が
-# 悪くって…
-ShowTextBox "!!! 3EDA40 1"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 2 0 23
-# おほほほほ、店長
-# さんったら、ご冗
-# 談がうまいんだか
-# ら…
-ShowTextBox "!!! 3EDA40 2"
-WaitTextBox
-EndScript
+DSCBase $3EDA40 Subscript 0 ShowChara 2 0 24 ShowTextBox "No matter how much the store manager has, there are good and bad things to say!"
+WaitTextBox EndScript Subscript 1 ShowChara 2 0 25 ShowTextBox "Oh, I'm sorry! Now, my ears are a little sick ..."
+WaitTextBox EndScript Subscript 2 ShowChara 2 0 23 ShowTextBox "Cheeks, cheeks, the store manager is good at joking ..."
+WaitTextBox EndScript 

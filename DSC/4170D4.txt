@@ -1,950 +1,172 @@
-DSCBase $4170D4
-
-
-
-
-Subscript 0
-Unk14 0 16
-ShowChara 8 2 1
-EndScript
-
-
-
-Subscript 1
-# ゲマゲマー！
-# 今日から１年間
-# よろしくゲマー！
-ShowTextBox "!!! 4170D4 0"
-WaitTextBox
-# 新しい店長さんにいろ
-# んなことを教えるゲマ
-# ー！
-ShowTextBox "!!! 4170D4 1"
-WaitTextBox
-# こまかい説明をゲマか
-# ら聞くゲマ？
-ShowTextBox "!!! 4170D4 2"
-Wait 1
-EndScript
-
-
-
-Subscript 2
-# わかったゲマ！
-# もしもわからないこと
-# があったら、
-ShowTextBox "!!! 4170D4 3"
-WaitTextBox
-# そこを選んで\x04セレクト
-# ボタン\x1aを押すゲマ！
-ShowTextBox "!!! 4170D4 4"
-WaitTextBox
-# それじゃ、あとはよろ
-# しくゲマー！
-ShowTextBox "!!! 4170D4 5"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 3
-# おっほん、
-# それでは始めるゲマッ
-ShowTextBox "!!! 4170D4 6"
-WaitTextBox
-# 店長さんのお仕事は
-# ２つあるゲマ
-ShowTextBox "!!! 4170D4 7"
-WaitTextBox
-# ・\x04グッズを仕入れる\x1a
-# ・\x04みんなを働かせる\x1a
-# の２つゲマ
-ShowTextBox "!!! 4170D4 8"
-WaitTextBox
-# 売れるグッズを仕入れ
-# て、お客さんにたくさ
-# ん買ってもらえれば、
-ShowTextBox "!!! 4170D4 9"
-WaitTextBox
-# どんどんお金がもうか
-# って、すごいお店にな
-# るゲマ！
-ShowTextBox "!!! 4170D4 10"
-WaitTextBox
-# そして、みんなにバッ
-# チリ働いてもらえば、
-ShowTextBox "!!! 4170D4 11"
-WaitTextBox
-# さらにお金がもうかっ
-# て、もっとすごいお店
-# になるゲマーッ！
-ShowTextBox "!!! 4170D4 12"
-WaitTextBox
-ShowChara 8 0 2
-# だけど、売れないグッ
-# ズばかり仕入れたり、
-ShowTextBox "!!! 4170D4 13"
-WaitTextBox
-# みんなにちゃんとお仕
-# 事をさせないと…
-ShowTextBox "!!! 4170D4 14"
-WaitTextBox
-ShowChara 8 0 54
-# ぜんぜんお金がもうか
-# らなくて、大変なこと
-# になるゲマー！
-ShowTextBox "!!! 4170D4 15"
-WaitTextBox
-# そんなことにならない
-# よう、気をつけてほし
-# いゲマ！
-ShowTextBox "!!! 4170D4 16"
-WaitTextBox
-ShowChara 8 0 1
-# あ、そうそう、
-# みんなとたくさんお話
-# してほしいゲマッ
-ShowTextBox "!!! 4170D4 17"
-WaitTextBox
-# ときどきみんながなに
-# か聞いてくることもあ
-# るから、
-ShowTextBox "!!! 4170D4 18"
-WaitTextBox
-# どんどん教えてあげて
-# ほしいゲマ！
-ShowTextBox "!!! 4170D4 19"
-WaitTextBox
-# みんながナイスなコト
-# を教えてくれるかもし
-# れないゲマ
-ShowTextBox "!!! 4170D4 20"
-WaitTextBox
-# それじゃあ、さっそく
-# お仕事してみるゲマ！
-ShowTextBox "!!! 4170D4 21"
-WaitTextBox
-# いま見ている画面は
-# \x04お店メニュー\x1aゲマ
-ShowTextBox "!!! 4170D4 22"
-WaitTextBox
-# グッズを仕入れたり、
-# みんなのお仕事を変え
-# たりできるゲマ！
-ShowTextBox "!!! 4170D4 23"
-WaitTextBox
-# それでは、グッズの仕
-# 入れと、みんなのお仕
-# 事を変えてみるゲマ
-ShowTextBox "!!! 4170D4 24"
-WaitTextBox
-# 左下にアイコンが出て
-# いるゲマ
-ShowTextBox "!!! 4170D4 25"
-WaitTextBox
-# レバーの←→でアイコ
-# ンを選んで、Ａボタン
-# で決めるゲマ
-ShowTextBox "!!! 4170D4 26"
-WaitTextBox
-# グッズを仕入れるには
-# \x01しいれ\x1aアイコンを、
-ShowTextBox "!!! 4170D4 27"
-WaitTextBox
-# みんなのお仕事を変え
-# るには\x03おしごと\x1aアイコ
-# ンを選ぶゲマ！
-ShowTextBox "!!! 4170D4 28"
-WaitTextBox
-# \x01しいれ\x1aと\x03おしごと\x1aが
-# 終わったら、\x05開店\x1aアイ
-# コンを選ぶゲマー！
-ShowTextBox "!!! 4170D4 29"
-WaitTextBox
-# お店を開いて、お客さ
-# んにグッズを買っても
-# らうゲマ！
-ShowTextBox "!!! 4170D4 30"
-WaitTextBox
-# それでは始めるゲマ！
-ShowTextBox "!!! 4170D4 31"
-WaitTextBox
-ShowChara 8 0 54
-# あっ！
-# 大事なことをわすれて
-# いたゲマ！
-ShowTextBox "!!! 4170D4 32"
-WaitTextBox
-ShowChara 8 0 1
-# いろんなところを選ん
-# で\x04セレクトボタン\x1aを
-# 押すと、
-ShowTextBox "!!! 4170D4 33"
-WaitTextBox
-# おいらがもっとくわし
-# く教えるゲマ！
-ShowTextBox "!!! 4170D4 34"
-WaitTextBox
-# 「これはなんだろ？」
-# って思ったら、
-ShowTextBox "!!! 4170D4 35"
-WaitTextBox
-# そこを選んで\x04セレクト
-# ボタン\x1aを押すゲマー！
-ShowTextBox "!!! 4170D4 36"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 4
-Unk12 22 18
-Unk14 -84 116
-ShowChara 8 1 1
-# ここは\x04スロットメニュー\x1aゲマ！
-ShowTextBox "!!! 4170D4 37"
-WaitTextBox
-# どのスロットにどんなグッズを
-# 置くのかを決めるところゲマ！
-ShowTextBox "!!! 4170D4 38"
-WaitTextBox
-# あ、グッズをおく場所のことを
-# \x04スロット\x1aというゲマ
-ShowTextBox "!!! 4170D4 39"
-WaitTextBox
-# それじゃ、まずどのスロットに
-# グッズをおくかをきめるゲマ！
-ShowTextBox "!!! 4170D4 40"
-WaitTextBox
-# レバーでスロットをえらんで、
-# Ａボタンを押すゲマ！
-ShowTextBox "!!! 4170D4 41"
-WaitTextBox
-# ではやってみるゲマー！
-ShowTextBox "!!! 4170D4 42"
-WaitTextBox
-Unk14 0 0
-Unk12 0 0
-EndScript
-
-
-
-Subscript 5
-# \x04グッズメニュー\x1aゲマ！
-ShowTextBox "!!! 4170D4 43"
-WaitTextBox
-# ここで、さっき選んだ
-# スロットにどのグッズ
-# をおくかを決めるゲマ
-ShowTextBox "!!! 4170D4 44"
-WaitTextBox
-# 画面の左側には
-# \x04グッズパネル\x1a
-# が出ているゲマ
-ShowTextBox "!!! 4170D4 45"
-WaitTextBox
-# グッズの名前、必要な
-# お金、数、そしてもう
-# け度が書いてあるゲマ
-ShowTextBox "!!! 4170D4 46"
-WaitTextBox
-# 右上には、今のお店の
-# お金が出ているゲマ
-ShowTextBox "!!! 4170D4 47"
-WaitTextBox
-# お店のお金を使って、
-# グッズを仕入れること
-# ができるゲマ
-ShowTextBox "!!! 4170D4 48"
-WaitTextBox
-ShowChara 8 0 2
-# ただし…
-ShowTextBox "!!! 4170D4 49"
-WaitTextBox
-ShowChara 8 0 54
-# お店のお金がなくなる
-# と、グッズが仕入れら
-# れなくなるゲマ…！
-ShowTextBox "!!! 4170D4 50"
-WaitTextBox
-# お金の使いすぎには気
-# をつけるゲマー！
-ShowTextBox "!!! 4170D4 51"
-WaitTextBox
-ShowChara 8 0 1
-# レバーの↑↓でグッズ
-# を選んで、Ａボタンで
-# 買うゲマー！
-ShowTextBox "!!! 4170D4 52"
-WaitTextBox
-# グッズを選んだら、
-# レバーの↑↓で数を変
-# えることができるゲマ
-ShowTextBox "!!! 4170D4 53"
-WaitTextBox
-# たくさん仕入れたい時
-# には数をふやすゲマ！
-ShowTextBox "!!! 4170D4 54"
-WaitTextBox
-# スロットメニューに戻
-# りたいときは、Ｂボタ
-# ンを押すゲマ
-ShowTextBox "!!! 4170D4 55"
-WaitTextBox
-# わからないところが
-# あったら、
-ShowTextBox "!!! 4170D4 56"
-WaitTextBox
-# そこを選んで\x04セレクト
-# ボタン\x1aをおすゲマ！
-ShowTextBox "!!! 4170D4 57"
-WaitTextBox
-# それではやってみてゲ
-# マ！
-ShowTextBox "!!! 4170D4 58"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 6
-ShowChara 8 1 1
-# \x04おしごとメニュー\x1aゲマ！
-ShowTextBox "!!! 4170D4 59"
-WaitTextBox
-# みんなにどのお仕事をしてもらう
-# かを決めるところゲマ！
-ShowTextBox "!!! 4170D4 60"
-WaitTextBox
-# レバーの←→でキャラを選んで、
-# Ａボタンをおすゲマッ
-ShowTextBox "!!! 4170D4 61"
-WaitTextBox
-# キャラを選んだら、次にどのお仕
-# 事をやってもらうか決めるゲマ
-ShowTextBox "!!! 4170D4 62"
-WaitTextBox
-# レバーの←→でお仕事を選んで、
-# Ａボタンをおすゲマー！
-ShowTextBox "!!! 4170D4 63"
-WaitTextBox
-# そうそう、みんなの上に
-# \x04(^-^)マーク\x1aが出ていたら、
-ShowTextBox "!!! 4170D4 64"
-WaitTextBox
-# 今のお仕事が、やりたいお仕事に
-# なっているってことゲマ
-ShowTextBox "!!! 4170D4 65"
-WaitTextBox
-# できるだけ、みんなのやりたい
-# お仕事をさせてあげるゲマー！
-ShowTextBox "!!! 4170D4 66"
-WaitTextBox
-# みんなに\x04(^-^)マーク\x1aが出ていた
-# ら、それが一番いいゲマ～♪
-ShowTextBox "!!! 4170D4 67"
-WaitTextBox
-# お仕事の説明をみたいときには
-# お仕事のアイコンに合わせて、
-ShowTextBox "!!! 4170D4 68"
-WaitTextBox
-# \x04セレクトボタン\x1aをおすゲマ！
-ShowTextBox "!!! 4170D4 69"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 7
-ShowChara 8 2 1
-# ゲマゲマー！
-# \x04スペシャルコマンド\x1a
-# にようこそゲマ！
-ShowTextBox "!!! 4170D4 70"
-WaitTextBox
-# \x04スペシャルコマンド\x1a
-# は、お店のお金を
-# 使って、
-ShowTextBox "!!! 4170D4 71"
-WaitTextBox
-# お店やみんなをパワー
-# アップしたいときや、
-ShowTextBox "!!! 4170D4 72"
-WaitTextBox
-# グッズをたくさん売り
-# たいときに使うものゲ
-# マ！
-ShowTextBox "!!! 4170D4 73"
-WaitTextBox
-# 使ってばかりいると
-# すぐにお金がなくなっ
-# ちゃうから
-ShowTextBox "!!! 4170D4 74"
-WaitTextBox
-# 計画をたてて使うよう
-# にするゲマー！
-ShowTextBox "!!! 4170D4 75"
-WaitTextBox
-# それぞれのコマンドの
-# 説明を見たいときは、
-ShowTextBox "!!! 4170D4 76"
-WaitTextBox
-# コマンドをえらんで
-# セレクトボタンをおす
-# ゲマー！
-ShowTextBox "!!! 4170D4 77"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 8
-ShowChara 8 2 54
-# ま、まだ何も買って無
-# いゲマよ！？
-ShowTextBox "!!! 4170D4 78"
-WaitTextBox
-# このままお店を開いて
-# もグッズが無いからお
-# 金は増えないゲマ
-ShowTextBox "!!! 4170D4 79"
-WaitTextBox
-# 何か買うには\x01しいれ\x1aア
-# イコンを選んでやるゲ
-# マ！
-ShowTextBox "!!! 4170D4 80"
-WaitTextBox
-ShowChara 8 0 2
-# それともこのままグッ
-# ズなしでお店を始める
-# ゲマ？
-ShowTextBox "!!! 4170D4 81"
-Wait 1
-EndScript
-
-
-
-Subscript 9
-# みんながやりたいお仕
-# 事は、コロコロ変わる
-# ゲマッ
-ShowTextBox "!!! 4170D4 82"
-WaitTextBox
-# すぐに、他のお仕事を
-# やりたくなるキャラも
-# いれば、
-ShowTextBox "!!! 4170D4 83"
-WaitTextBox
-# １ヶ月ぐらい同じお仕
-# 事をやりたいキャラも
-# いるゲマ
-ShowTextBox "!!! 4170D4 84"
-WaitTextBox
-# 毎週\x04おしごとメニュー\x1a
-# をチェックして、
-ShowTextBox "!!! 4170D4 85"
-WaitTextBox
-# できるだけ、みんなが
-# やりたいお仕事にして
-# あげるゲマー！
-ShowTextBox "!!! 4170D4 86"
-WaitTextBox
-# さっそく
-# \x04おしごとメニュー\x1aを
-# 見てみるゲマ！
-ShowTextBox "!!! 4170D4 87"
-WaitTextBox
-# でじこのやりたいお仕
-# 事が変わっているはず
-# ゲマ
-ShowTextBox "!!! 4170D4 88"
-WaitTextBox
-ShowChara 8 0 2
-# （でじこはすぐに他の
-# お仕事がしたくなるみ
-# たいゲマ…）
-ShowTextBox "!!! 4170D4 89"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 10
-# 仕入れてから１ヶ月
-# たっても売れ残ってし
-# まったグッズは、
-ShowTextBox "!!! 4170D4 90"
-WaitTextBox
-ShowChara 8 0 54
-# アシスタントキャラが
-# \x01たたきうり\x1a
-# してしまうゲマ…！
-ShowTextBox "!!! 4170D4 91"
-WaitTextBox
-# \x01たたきうり\x1aになると、
-# そのグッズを\x01半額で
-# 売ってしまう\x1aゲマ！
-ShowTextBox "!!! 4170D4 92"
-WaitTextBox
-ShowChara 8 0 2
-# ぜんぜんもうからなく
-# て、お店のお金がなく
-# なっちゃうゲマ…
-ShowTextBox "!!! 4170D4 93"
-WaitTextBox
-ShowChara 8 0 1
-# \x01たたきうり\x1aにならない
-# よう、よく売れるグッ
-# ズを仕入れるゲマ！
-ShowTextBox "!!! 4170D4 94"
-WaitTextBox
-# あ、\x04バーゲン\x1aをやるの
-# もいいゲマね♪
-ShowTextBox "!!! 4170D4 95"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 11
-# みんなのお仕事レベル
-# を上げやすくする方法
-# を教えるゲマッ！
-ShowTextBox "!!! 4170D4 96"
-WaitTextBox
-# やりたいお仕事させて
-# あげるとレベルが上が
-# りやすいゲマ～♪
-ShowTextBox "!!! 4170D4 97"
-WaitTextBox
-# やりたくないお仕事だ
-# とレベルが上がりにく
-# くなるから、
-ShowTextBox "!!! 4170D4 98"
-WaitTextBox
-# できるだけ、やりたい
-# お仕事をやらせてあげ
-# るゲマ～！
-ShowTextBox "!!! 4170D4 99"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 12
-# スロットにグッズをお
-# くときのコツを教える
-# ゲマー！
-ShowTextBox "!!! 4170D4 100"
-WaitTextBox
-# 同じ\x04キャラ名\x1aや\x04名前\x1aの
-# グッズを並べておくと、
-ShowTextBox "!!! 4170D4 101"
-WaitTextBox
-# \x04チェイン\x1aがおこるゲマ
-# ー！
-ShowTextBox "!!! 4170D4 102"
-WaitTextBox
-# \x04チェイン\x1aがおこると、
-# そのグッズが売れやす
-# くなるゲマッ！
-ShowTextBox "!!! 4170D4 103"
-WaitTextBox
-# たとえば、
-ShowTextBox "!!! 4170D4 104"
-WaitTextBox
-# \x04でじこボールペン\x1aと
-# \x04でじこピンズ\x1aを
-# 並べておいたら、
-ShowTextBox "!!! 4170D4 105"
-WaitTextBox
-# 「\x04でじこ\x1a」で
-# チェインがおこるゲマ！
-ShowTextBox "!!! 4170D4 106"
-WaitTextBox
-# \x04でじこボールペン\x1aと
-# \x04うさだボールペン\x1aを
-# 並べておいたら、
-ShowTextBox "!!! 4170D4 107"
-WaitTextBox
-# 「\x04ボールペン\x1a」で
-# チェインがおこるゲマ！
-ShowTextBox "!!! 4170D4 108"
-WaitTextBox
-# チェインをおこして、
-# グッズをたくさん売る
-# ゲマー！
-ShowTextBox "!!! 4170D4 109"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 13
-# ゲマゲマー！
-ShowTextBox "!!! 4170D4 110"
-WaitTextBox
-# スペシャルコマンドに
-# 「\x04スロットをふやす\x1a」
-# コマンドが出たゲマ！
-ShowTextBox "!!! 4170D4 111"
-WaitTextBox
-# このコマンドを使うと
-# スロットがふえてお店
-# が広くなるゲマ！
-ShowTextBox "!!! 4170D4 112"
-WaitTextBox
-# くわしいことは、
-# 「\x04スロットをふやす\x1a」
-# コマンドを選んで、
-ShowTextBox "!!! 4170D4 113"
-WaitTextBox
-# セレクトボタンをおし
-# てみるゲマー！
-ShowTextBox "!!! 4170D4 114"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 14
-# みんながお仕事をサボ
-# らずにキチンと働いて
-# いて、
-ShowTextBox "!!! 4170D4 115"
-WaitTextBox
-# そしてお客さんの欲し
-# いグッズを仕入れてお
-# くと、
-ShowTextBox "!!! 4170D4 116"
-WaitTextBox
-# お店の\x04ひょうばん\x1aが
-# 上がっていくゲマー！
-ShowTextBox "!!! 4170D4 117"
-WaitTextBox
-# \x04ひょうばん\x1aが上がれば
-# お客さんがたくさん来
-# るようになるゲマ！
-ShowTextBox "!!! 4170D4 118"
-WaitTextBox
-# いっぱい来てもらって
-# たくさんグッズを買っ
-# てもらうゲマー！
-ShowTextBox "!!! 4170D4 119"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 15
-# お客さん来てるゲマ？
-ShowTextBox "!!! 4170D4 120"
-WaitTextBox
-# もしも、お客さんがあ
-# まり来てくれないとき
-# には、
-ShowTextBox "!!! 4170D4 121"
-WaitTextBox
-# スペシャルコマンドの
-# \x04ビラくばり\x1aコマンドを
-# やってみるゲマ！
-ShowTextBox "!!! 4170D4 122"
-WaitTextBox
-# １週間だけ、お客さん
-# がたくさん来るように
-# なるゲマ～♪
-ShowTextBox "!!! 4170D4 123"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 16
-# グッズは売れているゲ
-# マ？
-ShowTextBox "!!! 4170D4 124"
-WaitTextBox
-# グッズが売れなくて、
-# \x01たたきうり\x1aになりそう
-# になったら、
-ShowTextBox "!!! 4170D4 125"
-WaitTextBox
-# スペシャルコマンドの
-# \x04バーゲン\x1aをやってみる
-# ゲマー！
-ShowTextBox "!!! 4170D4 126"
-WaitTextBox
-# 全部のグッズを\x0410％安
-# くして売る\x1aから、あま
-# りもうからないけど、
-ShowTextBox "!!! 4170D4 127"
-WaitTextBox
-# お客さんが喜んでくれ
-# るゲマ～♪
-ShowTextBox "!!! 4170D4 128"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 17
-# お店の中はキレイに
-# なってるゲマ？
-ShowTextBox "!!! 4170D4 129"
-WaitTextBox
-ShowChara 8 0 2
-# お店の\x04きれいさ\x1aが低く
-# なると…
-ShowTextBox "!!! 4170D4 130"
-WaitTextBox
-ShowChara 8 0 54
-# \x01お客さんが来なくなる\x1a
-# ゲマー！
-ShowTextBox "!!! 4170D4 131"
-WaitTextBox
-ShowChara 8 0 1
-# お客さんがたくさん来
-# ると、すぐに\x04きれいさ\x1a
-# が下がるゲマ
-ShowTextBox "!!! 4170D4 132"
-WaitTextBox
-# \x04きれいさ\x1aが下がったら
-# だれかを\x04掃除係\x1aにする
-# ゲマ！
-ShowTextBox "!!! 4170D4 133"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 18
-# お店を開いているとき
-# に、仕入れたグッズが
-# 全部売れたら、
-ShowTextBox "!!! 4170D4 134"
-WaitTextBox
-ShowChara 8 0 53
-# 完売ゲマ！
-# やったゲマー！
-ShowTextBox "!!! 4170D4 135"
-WaitTextBox
-ShowChara 8 0 2
-# ってことにはならない
-# ゲマ…
-ShowTextBox "!!! 4170D4 136"
-WaitTextBox
-ShowChara 8 0 54
-# お店の中のグッズが全
-# 部売れたあとも、お客
-# さんがやってくるゲマ
-ShowTextBox "!!! 4170D4 137"
-WaitTextBox
-# 「せっかく買いにきた
-# のに、なにもないじゃ
-# ないか！」って
-ShowTextBox "!!! 4170D4 138"
-WaitTextBox
-# 怒って帰っちゃうゲマ
-# …！　お店のひょうば
-# んが下がるゲマー！！
-ShowTextBox "!!! 4170D4 139"
-WaitTextBox
-ShowChara 8 0 1
-# できるだけ、土曜日ま
-# でグッズが残っている
-# ように、
-ShowTextBox "!!! 4170D4 140"
-WaitTextBox
-# よく売れるグッズとか
-# は多めに仕入れておく
-# といいゲマッ！
-ShowTextBox "!!! 4170D4 141"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 19
-# みんなは、自分の名前
-# がついたグッズがたく
-# さんあると、
-ShowTextBox "!!! 4170D4 142"
-WaitTextBox
-# 喜んでお仕事をするよ
-# うになるゲマ！
-# ヤル気アップゲマー！
-ShowTextBox "!!! 4170D4 143"
-WaitTextBox
-# あ、みんなのグッズが
-# 同じぐらいおいてあっ
-# たら効果０ゲマよ
-ShowTextBox "!!! 4170D4 144"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 20
-# アシスタントキャラは
-# \x04とくぎ\x1aが使えるゲマ！
-ShowTextBox "!!! 4170D4 145"
-WaitTextBox
-# くわしいことは、\x03おし
-# ごと\x1aメニューの\x04情報\x1aア
-# イコンを選んで、
-ShowTextBox "!!! 4170D4 146"
-WaitTextBox
-# \x04セレクトボタン\x1aを押し
-# てみてゲマー！
-ShowTextBox "!!! 4170D4 147"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 21
-# いろんなグッズが出て
-# きてるゲマが、
-ShowTextBox "!!! 4170D4 148"
-WaitTextBox
-# たまに\x04スペシャルグッ
-# ズ\x1aが出てくることがあ
-# るゲマー！
-ShowTextBox "!!! 4170D4 149"
-WaitTextBox
-# グッズメニューで\x03緑色
-# のパネルのグッズ\x1aが\x04ス
-# ペシャルグッズ\x1aゲマ！
-ShowTextBox "!!! 4170D4 150"
-WaitTextBox
-# もうけ度が高いから、
-# たくさんお金をもうけ
-# るチャンスゲマー！
-ShowTextBox "!!! 4170D4 151"
-WaitTextBox
-ShowChara 8 0 2
-# だけど…
-ShowTextBox "!!! 4170D4 152"
-WaitTextBox
-# たくさん売れるときも
-# あれば、ぜんぜん売れ
-# ないときもあるゲマ…
-ShowTextBox "!!! 4170D4 153"
-WaitTextBox
-ShowChara 8 0 1
-# クジ引きだと思って仕
-# 入れてみるといいゲマ
-# ー！
-ShowTextBox "!!! 4170D4 154"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 22
-# たった１週間でたくさ
-# んもうける方法を教え
-# るゲマ！
-ShowTextBox "!!! 4170D4 155"
-WaitTextBox
-# 全部のスロットにだれ
-# かのグッズだけを仕入
-# れておいて、
-ShowTextBox "!!! 4170D4 156"
-WaitTextBox
-# さらに\x04フェア\x1aをやるゲ
-# マー！
-ShowTextBox "!!! 4170D4 157"
-WaitTextBox
-# たとえば、
-# \x04でじこのグッズ\x1aをたく
-# さんスロットにおいて
-ShowTextBox "!!! 4170D4 158"
-WaitTextBox
-# \x04でじこフェア\x1aを開くと
-# …
-ShowTextBox "!!! 4170D4 159"
-WaitTextBox
-ShowChara 8 0 54
-# …！
-ShowTextBox "!!! 4170D4 160"
-WaitTextBox
-ShowChara 8 0 1
-# あとはやってみてのお
-# 楽しみゲマ～♪
-ShowTextBox "!!! 4170D4 161"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 23
-# みんなのお仕事レベル
-# が上がるほど、
-ShowTextBox "!!! 4170D4 162"
-WaitTextBox
-# たくさんのお客さんが
-# お店に入ってくれるよ
-# うになるゲマッ
-ShowTextBox "!!! 4170D4 163"
-WaitTextBox
-# お仕事レベルが上がれ
-# ば、お仕事がうまくな
-# るゲマ～♪
-ShowTextBox "!!! 4170D4 164"
-WaitTextBox
-# お仕事がヘタだと、お
-# 客さんをたくさん相手
-# できないけれど、
-ShowTextBox "!!! 4170D4 165"
-WaitTextBox
-# お仕事がうまくなれば
-# たくさんのお客さんを
-# 相手できるゲマ！
-ShowTextBox "!!! 4170D4 166"
-WaitTextBox
-# みんなを\x04おしごとマス
-# ター\x1aにして、すごいお
-# 店にするゲマー！
-ShowTextBox "!!! 4170D4 167"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 24
-# みんなはちゃんとお仕
-# 事してるゲマ～？
-ShowTextBox "!!! 4170D4 168"
-WaitTextBox
-# みんなにお仕事用の
-# \x04アイテム\x1aを買ってあげ
-# ると、
-ShowTextBox "!!! 4170D4 169"
-WaitTextBox
-# レベルアップしやすく
-# なるゲマ～♪
-ShowTextBox "!!! 4170D4 170"
-WaitTextBox
-HideChara
-EndScript
+DSCBase $4170D4 Subscript 0 SetPermTextBoxPos 0 16 ShowChara 8 2 1 EndScript Subscript 1 ShowTextBox "Gemagema! Best regards for one year from today!"
+WaitTextBox ShowTextBox "Gemmer who teaches various things to the new store manager!"
+WaitTextBox ShowTextBox "Gema listening to a detailed explanation from Gema?"
+Wait 1 EndScript Subscript 2 ShowTextBox "I understand Gema! If you have any questions,"
+WaitTextBox ShowTextBox "Select it and press the \x04select button \x1a!"
+WaitTextBox ShowTextBox "Well then, nice to meet you, Gemmer!"
+WaitTextBox HideChara EndScript Subscript 3 ShowTextBox "Oops, let's get started"
+WaitTextBox ShowTextBox "The manager has two jobs"
+WaitTextBox ShowTextBox "・ \x04Purchasing goods \x1a・ \x04Two gema of \x1ato make everyone work"
+WaitTextBox ShowTextBox "If you buy good goods that sell well and have customers buy a lot,"
+WaitTextBox ShowTextBox "Gema will become a great shop with more and more money!"
+WaitTextBox ShowTextBox "And if everyone works perfectly,"
+WaitTextBox ShowTextBox "Gemma will be a great shop with even more money!"
+WaitTextBox ShowChara 8 0 2 ShowTextBox "However, I buy only unsold goods,"
+WaitTextBox ShowTextBox "I have to get everyone to work properly ..."
+WaitTextBox ShowChara 8 0 54 ShowTextBox "Gemmer who has no money at all and will be in trouble!"
+WaitTextBox ShowTextBox "I want you to be careful not to do that!"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "Oh yeah, I want you to talk a lot with everyone"
+WaitTextBox ShowTextBox "Sometimes everyone asks me something,"
+WaitTextBox ShowTextBox "Gema I want you to teach me more and more!"
+WaitTextBox ShowTextBox "Gema that everyone may tell you nice things"
+WaitTextBox ShowTextBox "Well then, Gema who will try to work at once!"
+WaitTextBox ShowTextBox "The screen you are looking at is \x04Shop menu \x1aGema"
+WaitTextBox ShowTextBox "Gema that can purchase goods and change everyone's work!"
+WaitTextBox ShowTextBox "Let's buy goods and change everyone's work."
+WaitTextBox ShowTextBox "Gema with an icon in the lower left"
+WaitTextBox ShowTextBox "Select the icon with ← → of the lever and decide with the A button"
+WaitTextBox ShowTextBox "To purchase goods, use the \x01Shire \x1aicon."
+WaitTextBox ShowTextBox "To change everyone's work \x03Work \x1aChoose an icon Gema!"
+WaitTextBox ShowTextBox "\x01 Shire \x1aand \x03Work \x1aWhen you're done, \x05Open \x1aSelect the icon Gemmer!"
+WaitTextBox ShowTextBox "Gema who opens a shop and asks customers to buy goods!"
+WaitTextBox ShowTextBox "Let's get started!"
+WaitTextBox ShowChara 8 0 54 ShowTextBox "Ah! Gema who forgot the important thing!"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "If you select various places and press the \x04select button \x1a,"
+WaitTextBox ShowTextBox "Gema that I teach in more detail!"
+WaitTextBox ShowTextBox "When I thought, \"What is this?\""
+WaitTextBox ShowTextBox "Select it and press the \x04select button \x1aGemmer!"
+WaitTextBox HideChara EndScript Subscript 4 SetPermTextBoxCharPos 22 18 SetPermTextBoxPos -84 116 ShowChara 8 1 1 ShowTextBox "This is \x04slot menu \x1aGema!"
+WaitTextBox ShowTextBox "Gema where you decide what kind of goods to put in which slot!"
+WaitTextBox ShowTextBox "Ah, the place to put the goods is \x04slot \x1a"
+WaitTextBox ShowTextBox "Then, first of all, Gema decides which slot to put the goods in!"
+WaitTextBox ShowTextBox "Select a slot with the lever and press the A button!"
+WaitTextBox ShowTextBox "Let's try Gemmer!"
+WaitTextBox SetPermTextBoxPos 0 0 SetPermTextBoxCharPos 0 0 EndScript Subscript 5 ShowTextBox "\x04 Goods menu \x1aGema!"
+WaitTextBox ShowTextBox "Here, Gema who decides which goods to put in the slot selected earlier"
+WaitTextBox ShowTextBox "Gema with \x04goods panel \x1aon the left side of the screen"
+WaitTextBox ShowTextBox "Gema with the name of the goods, the amount of money needed, the number, and the profitability"
+WaitTextBox ShowTextBox "In the upper right, the money of the current shop is out"
+WaitTextBox ShowTextBox "Gema who can purchase goods using the money of the shop"
+WaitTextBox ShowChara 8 0 2 ShowTextBox "However ..."
+WaitTextBox ShowChara 8 0 54 ShowTextBox "If you run out of money in the store, you won't be able to buy goods ...!"
+WaitTextBox ShowTextBox "Gemmer who is careful not to spend too much money!"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "Select goods with ↑ ↓ on the lever and buy with the A button!"
+WaitTextBox ShowTextBox "Once you have selected the goods, you can change the number with the lever ↑ ↓"
+WaitTextBox ShowTextBox "If you want to buy a lot, increase the number!"
+WaitTextBox ShowTextBox "If you want to return to the slot menu, press the B button."
+WaitTextBox ShowTextBox "If you have any questions,"
+WaitTextBox ShowTextBox "Select it and press the \x04select button \x1a!"
+WaitTextBox ShowTextBox "Let's try it!"
+WaitTextBox HideChara EndScript Subscript 6 ShowChara 8 1 1 ShowTextBox "\x04 Work menu \x1aGema!"
+WaitTextBox ShowTextBox "Gema where you decide which job you want everyone to do!"
+WaitTextBox ShowTextBox "Select a character with ← → on the lever and press the A button."
+WaitTextBox ShowTextBox "After choosing a character, Gema decides which job to do next"
+WaitTextBox ShowTextBox "Select a job with ← → on the lever and press the A button!"
+WaitTextBox ShowTextBox "Oh yeah, if there is a \x04(^-^) mark \x1aon everyone,"
+WaitTextBox ShowTextBox "That your current job is what you want to do"
+WaitTextBox ShowTextBox "Gemmer who will let you do the work you want to do as much as possible!"
+WaitTextBox ShowTextBox "If everyone sees the \x04(^-^) mark \x1a, that's the best gema ~ ♪"
+WaitTextBox ShowTextBox "When you want to explain the work, match the icon of the work"
+WaitTextBox ShowTextBox "\x04 Select button \x1aGema!"
+WaitTextBox HideChara EndScript Subscript 7 ShowChara 8 2 1 ShowTextBox "Gemagema! \x04Welcome to the special command \x1aGema!"
+WaitTextBox ShowTextBox "\x04 Special command \x1auses the money of the shop,"
+WaitTextBox ShowTextBox "When you want to power up your shop or everyone,"
+WaitTextBox ShowTextBox "Gema used when you want to sell a lot of goods!"
+WaitTextBox ShowTextBox "If you keep using it, you will run out of money immediately"
+WaitTextBox ShowTextBox "Gemmer to plan and use!"
+WaitTextBox ShowTextBox "If you want to see the explanation of each command,"
+WaitTextBox ShowTextBox "Gemmer who selects a command and presses the select button!"
+WaitTextBox HideChara EndScript Subscript 8 ShowChara 8 2 54 ShowTextBox "Well, I haven't bought anything yet! ??"
+WaitTextBox ShowTextBox "Even if you open the shop as it is, you will not increase your money because there are no goods"
+WaitTextBox ShowTextBox "To buy something \x01Shire \x1aSelect the icon Gema!"
+WaitTextBox ShowChara 8 0 2 ShowTextBox "Or is it Gema who starts the shop without goods as it is?"
+Wait 1 EndScript Subscript 9 ShowTextBox "The work that everyone wants to do is changing"
+WaitTextBox ShowTextBox "Some characters want to do other work right away,"
+WaitTextBox ShowTextBox "Gema with some characters who want to do the same job for about a month"
+WaitTextBox ShowTextBox "Check \x04work menu \x1aevery week"
+WaitTextBox ShowTextBox "Gemmer who will do the work that everyone wants to do as much as possible!"
+WaitTextBox ShowTextBox "Let's take a look at \x04work menu \x1a!"
+WaitTextBox ShowTextBox "Di Gi Charat's job should have changed"
+WaitTextBox ShowChara 8 0 2 ShowTextBox "(Di Gi Charat seems to want to do another job soon ...)"
+WaitTextBox HideChara EndScript Subscript 10 ShowTextBox "Goods that have remained unsold even one month after they were purchased"
+WaitTextBox ShowChara 8 0 54 ShowTextBox "Gema that the assistant character is \x01tapping \x1a...!"
+WaitTextBox ShowTextBox "\x01 Tatakiuri \x1asells the goods at half price \x1aGema!"
+WaitTextBox ShowChara 8 0 2 ShowTextBox "Gema who runs out of money in the store because he doesn't have any more ..."
+WaitTextBox ShowChara 8 0 1 ShowTextBox "\x01 Tatakiuri \x1aGema to buy good-selling goods so that it doesn't become x1a!"
+WaitTextBox ShowTextBox "Oh, it's a good idea to do \x04bargain \x1a♪"
+WaitTextBox HideChara EndScript Subscript 11 ShowTextBox "Gemat teaches how to make it easier for everyone to raise their work level!"
+WaitTextBox ShowTextBox "If you let me do the work you want to do, the level will rise easily ~ ♪"
+WaitTextBox ShowTextBox "If it's a job you don't want to do, it's difficult to raise your level."
+WaitTextBox ShowTextBox "Gema will let you do the work you want to do as much as possible!"
+WaitTextBox HideChara EndScript Subscript 12 ShowTextBox "Gemmer who teaches tips for putting goods in slots!"
+WaitTextBox ShowTextBox "If you line up the goods with the same \x04character name \x1aor \x04name \x1a,"
+WaitTextBox ShowTextBox "\x04 Chain \x1ais a gamer!"
+WaitTextBox ShowTextBox "\x04 Chain \x1amakes it easier to sell the goods!"
+WaitTextBox ShowTextBox "For example"
+WaitTextBox ShowTextBox "If you put the Jiko Ballpoint Pen \x1aat \x04and the Jiko Pins \x1aat \x04,"
+WaitTextBox ShowTextBox "Gema that a chain occurs at \"\x04 Di Gi Charat \x1a\"!"
+WaitTextBox ShowTextBox "If you put the Jiko ballpoint pen \x1aand \x04Usada ballpoint pen \x1aside by side at \x04,"
+WaitTextBox ShowTextBox "Gema that a chain occurs with \"\x04 ballpoint pen \x1a\"!"
+WaitTextBox ShowTextBox "A gamer who creates a chain and sells a lot of goods!"
+WaitTextBox HideChara EndScript Subscript 13 ShowTextBox "Gemagema!"
+WaitTextBox ShowTextBox "Gema who issued the \"\x04 slot expansion \x1a\" command as a special command!"
+WaitTextBox ShowTextBox "If you use this command, the slots will increase and the store will expand!"
+WaitTextBox ShowTextBox "For more information, select the \"\x04 slot expansion \x1a\" command and select"
+WaitTextBox ShowTextBox "Gemmer trying to press the select button!"
+WaitTextBox HideChara EndScript Subscript 14 ShowTextBox "Everyone is working hard without skipping work,"
+WaitTextBox ShowTextBox "And if you purchase the goods that the customer wants,"
+WaitTextBox ShowTextBox "The shop's \x04Hyoban \x1ais going up!"
+WaitTextBox ShowTextBox "\x04 Hyoban \\If x1a goes up, a lot of customers will come!"
+WaitTextBox ShowTextBox "Gemmer who has a lot of people come and buy a lot of goods!"
+WaitTextBox HideChara EndScript Subscript 15 ShowTextBox "Gema that customers are coming?"
+WaitTextBox ShowTextBox "If customers don't come very often"
+WaitTextBox ShowTextBox "Try the special command \x04Villa Kubari \x1acommand!"
+WaitTextBox ShowTextBox "Gema that many customers will come for only one week ~ ♪"
+WaitTextBox HideChara EndScript Subscript 16 ShowTextBox "Are the goods selling?"
+WaitTextBox ShowTextBox "If the goods aren't selling and it's about to become \x01Tatakiuri \x1a,"
+WaitTextBox ShowTextBox "Gemmer trying the special command \x04bargain \x1a!"
+WaitTextBox ShowTextBox "I don't know much from \x1a, which sells all goods at a discount of \x0410%,"
+WaitTextBox ShowTextBox "Gema that customers will be pleased with ~ ♪"
+WaitTextBox HideChara EndScript Subscript 17 ShowTextBox "Is the inside of the shop beautiful?"
+WaitTextBox ShowChara 8 0 2 ShowTextBox "When the shop \x04cleanliness \x1abecomes low ..."
+WaitTextBox ShowChara 8 0 54 ShowTextBox "\x01 Customers will not come \x1aGemmer!"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "As soon as a lot of customers come, \x04cleanliness \x1agoes down."
+WaitTextBox ShowTextBox "\x04 Cleanliness \\If x1a goes down, make someone \x04Cleaner \x1a!"
+WaitTextBox HideChara EndScript Subscript 18 ShowTextBox "If all the purchased goods are sold while the shop is open,"
+WaitTextBox ShowChara 8 0 53 ShowTextBox "Sold out Gema! Gemmer did it!"
+WaitTextBox ShowChara 8 0 2 ShowTextBox "Gema that doesn't mean ..."
+WaitTextBox ShowChara 8 0 54 ShowTextBox "Even after all the goods in the store are sold, customers will come to Gema"
+WaitTextBox ShowTextBox "\"I came here to buy it, but there is nothing!\""
+WaitTextBox ShowTextBox "Gema who gets angry and goes home ...! Gemmer whose shop's hail goes down! !!"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "As much as possible, so that the goods remain until Saturday"
+WaitTextBox ShowTextBox "It's a good idea to purchase a lot of good-selling goods!"
+WaitTextBox HideChara EndScript Subscript 19 ShowTextBox "Everyone says that there are a lot of goods with their own name"
+WaitTextBox ShowTextBox "Gema who will be happy to work! Yaruki upgemer!"
+WaitTextBox ShowTextBox "Oh, if everyone's goods are about the same, the effect is 0"
+WaitTextBox HideChara EndScript Subscript 20 ShowTextBox "The assistant character is a gema that can use \x04and Tokugi \x1a!"
+WaitTextBox ShowTextBox "For more information, select the \x03work \x1amenu \x04information \x1aicon."
+WaitTextBox ShowTextBox "\x04 Select button \x1aPress the gamer!"
+WaitTextBox HideChara EndScript Subscript 21 ShowTextBox "Gema, where various goods are coming out,"
+WaitTextBox ShowTextBox "A gamer who sometimes comes out with \x04special goods \x1a!"
+WaitTextBox ShowTextBox "In the goods menu, \x03Green panel goods \x1ais \x04Special goods \x1aGema!"
+WaitTextBox ShowTextBox "Because it makes a lot of money, it's a chance to make a lot of money!"
+WaitTextBox ShowChara 8 0 2 ShowTextBox "However…"
+WaitTextBox ShowTextBox "Sometimes it sells a lot, sometimes it doesn't sell at all ..."
+WaitTextBox ShowChara 8 0 1 ShowTextBox "It's a good gamer to buy it because you think it's a lottery!"
+WaitTextBox HideChara EndScript Subscript 22 ShowTextBox "Gema teaches you how to make a lot in just one week!"
+WaitTextBox ShowTextBox "Put only someone's goods in all the slots"
+WaitTextBox ShowTextBox "In addition, a gamer who will do \x04fair \x1a!"
+WaitTextBox ShowTextBox "For example, \x04Di Gi Charat goods \x1ain lots of slots"
+WaitTextBox ShowTextBox "When you open the Jiko Fair \x1aat \x04..."
+WaitTextBox ShowChara 8 0 54 ShowTextBox "…!"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "After that, it's fun to try it ~ ♪"
+WaitTextBox HideChara EndScript Subscript 23 ShowTextBox "The higher the work level of everyone, the more"
+WaitTextBox ShowTextBox "Gemat that many customers will come to the store"
+WaitTextBox ShowTextBox "If your work level goes up, your work will get better ~ ♪"
+WaitTextBox ShowTextBox "I can't deal with a lot of customers if my work is poor,"
+WaitTextBox ShowTextBox "If your work goes well, you can deal with many customers!"
+WaitTextBox ShowTextBox "Gemmer who makes everyone \x04work master \x1aand makes it a great shop!"
+WaitTextBox HideChara EndScript Subscript 24 ShowTextBox "Gema that everyone is working properly ~?"
+WaitTextBox ShowTextBox "If you buy \x04item \x1afor work,"
+WaitTextBox ShowTextBox "Gema that makes it easier to level up ♪"
+WaitTextBox HideChara EndScript 

@@ -1,42 +1,5 @@
-DSCBase $3E4384
-
-
-
-
-Subscript 0
-ShowChara 3 0 17
-# よくない言葉言っ
-# てしまったにゅ？
-ShowTextBox "!!! 3E4384 0"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 3 0 17
-# ごめんにゅ…
-# 忘れるにゅ
-ShowTextBox "!!! 3E4384 1"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 3 0 17
-# そうかにゅ…
-ShowTextBox "!!! 3E4384 2"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 3 0 19
-# ぷちこにおしゃべ
-# りするな…と言う
-# にゅ？
-ShowTextBox "!!! 3E4384 3"
-WaitTextBox
-EndScript
+DSCBase $3E4384 Subscript 0 ShowChara 3 0 17 ShowTextBox "Did you say bad words?"
+WaitTextBox EndScript Subscript 1 ShowChara 3 0 17 ShowTextBox "I'm sorry ... I forget"
+WaitTextBox EndScript Subscript 2 ShowChara 3 0 17 ShowTextBox "That's right ..."
+WaitTextBox EndScript Subscript 3 ShowChara 3 0 19 ShowTextBox "Don't talk to Puchiko ..."
+WaitTextBox EndScript 

@@ -1,75 +1,11 @@
-DSCBase $40B3C4
-
-
-
-
-Subscript 0
-ShowChara 4 0 28
-# 通信の用意ができたらＡボタンをおすぴょ！
-ShowTextBox "!!! 40B3C4 0"
-EndScript
-
-
-
-Subscript 1
-Fade 1 15
-HideChara
-EndScript
-
-
-
-Subscript 2
-# とりやめるぴょ
-ShowTextBox "!!! 40B3C4 1"
-Wait 60
-EndScript
-
-
-
-Subscript 3
-# 通信待ちぴょ…
-ShowTextBox "!!! 40B3C4 2"
-EndScript
-
-
-
-Subscript 4
-# 通信中ぴょ…
-ShowTextBox "!!! 40B3C4 3"
-EndScript
-
-
-
-Subscript 5
-# 通信終了ぴょ！
-# Ａボタンを押して登録するぴょ！
-ShowTextBox "!!! 40B3C4 4"
-EndScript
-
-
-
-Subscript 6
-# 登録したぴょ！
-ShowTextBox "!!! 40B3C4 5"
-WaitTextBox
-# $0店長さんのめいしをすぐ見るぴょ？
-ShowTextBox "!!! 40B3C4 6"
-WaitTextBox
-# すぐ見る
-# あとで
-ShowSelMenu09 2 "!!! 40B3C4 7"
-EndScript
-
-
-
-Subscript 7
-# 通信がうまくいかなかったぴょ…
-ShowTextBox "!!! 40B3C4 8"
-EndScript
-
-
-
-Subscript 8
-# $0店長さんを登録する場所をえらぶぴょ！
-ShowTextBox "!!! 40B3C4 9"
-EndScript
+DSCBase $40B3C4 Subscript 0 ShowChara 4 0 28 ShowTextBox "When you are ready to communicate, press the A button!"
+EndScript Subscript 1 Fade 1 15 HideChara EndScript Subscript 2 ShowTextBox "Cancel Pyo"
+Wait 60 EndScript Subscript 3 ShowTextBox "Waiting for communication ..."
+EndScript Subscript 4 ShowTextBox "Communicating ..."
+EndScript Subscript 5 ShowTextBox "Communication ends! Press the A button to register!"
+EndScript Subscript 6 ShowTextBox "Registered Pyo!"
+WaitTextBox ShowTextBox "$0 See the manager's niece right away, right?"
+WaitTextBox ShowSelMenu09 2 "See you soon"
+EndScript Subscript 7 ShowTextBox "Communication didn't go well ..."
+EndScript Subscript 8 ShowTextBox "$0 Choose a place to register the manager!"
+EndScript 

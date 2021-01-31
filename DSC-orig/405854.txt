@@ -1,0 +1,244 @@
+DSCBase $405854
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 12 2 59
+# 首領、言われたと
+# おりにそばを買っ
+# てきたゲバっ
+ShowTextBox "!!! 405854 0"
+WaitTextBox
+ShowChara 4 1 29
+# ごくろうぴょ
+ShowTextBox "!!! 405854 1"
+WaitTextBox
+ShowChara 12 2 59
+# では、これにて失
+# 礼ゲバ
+ShowTextBox "!!! 405854 2"
+WaitTextBox
+ShowChara 4 1 29
+# 待つぴょ！これは
+# お前たちのために
+# 買ったものぴょ
+ShowTextBox "!!! 405854 3"
+WaitTextBox
+ShowChara 12 2 59
+# ゲバ？
+ShowTextBox "!!! 405854 4"
+WaitTextBox
+ShowChara 4 1 29
+# 地球では年越しに
+# そばを食べる習慣
+# があるって店長さ
+# んが言ってたぴょ
+ShowTextBox "!!! 405854 5"
+WaitTextBox
+ShowChara 12 2 59
+# じ～ん…首領のあ
+# たたかいお心づか
+# い、感動ゲバ…
+ShowTextBox "!!! 405854 6"
+WaitTextBox
+# さっそく、他のも
+# のにこの感動を伝
+# えるゲバ～っ！
+ShowTextBox "!!! 405854 7"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 4 1 29
+# さて、ぴよこは外
+# にそばを食べに行
+# くぴょ！
+ShowTextBox "!!! 405854 8"
+WaitTextBox
+ShowChara 7 2 48
+# ぴよこ、俺もつい
+# て行っていいか？
+ShowTextBox "!!! 405854 9"
+WaitTextBox
+ShowChara 4 1 29
+# ＯＫぴょ
+ShowTextBox "!!! 405854 10"
+WaitTextBox
+ShowChara 6 2 41
+# ピョコラ様が行く
+# のなら自分も…
+ShowTextBox "!!! 405854 11"
+WaitTextBox
+ShowChara 5 2 36
+# 同じく、私も
+ShowTextBox "!!! 405854 12"
+WaitTextBox
+ShowChara 4 1 28
+# …店長さんもいっ
+# しょに行くぴょ？
+ShowTextBox "!!! 405854 13"
+WaitTextBox
+# 行こうかな
+# 行かない
+ShowSelMenu09 2 "!!! 405854 14"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 5 2 36
+# さすが店長、つき
+# あいがいいな
+ShowTextBox "!!! 405854 15"
+WaitTextBox
+ShowChara 7 2 48
+# えっ、なに、店長
+# がおごってくれる
+# って？
+ShowTextBox "!!! 405854 16"
+WaitTextBox
+ShowChara 6 2 41
+# 本当ですか、店長
+# ！？
+ShowTextBox "!!! 405854 17"
+WaitTextBox
+ShowChara 4 1 29
+# わ～い、それじゃ
+# ぴよこは遠慮なく
+# 注文させてもらう
+# ぴょっ！
+ShowTextBox "!!! 405854 18"
+WaitTextBox
+# ぴよこは天ぷらそ
+# ば、しかも、特上
+# を頼むぴょっ！
+ShowTextBox "!!! 405854 19"
+WaitTextBox
+# 加えて、デザート
+# にアイスクリーム
+# と白玉も注文する
+# ぴょっ！
+ShowTextBox "!!! 405854 20"
+WaitTextBox
+ShowChara 7 2 48
+# あっ、俺もそれ頼
+# むっ！
+ShowTextBox "!!! 405854 21"
+WaitTextBox
+ShowChara 6 2 41
+# 自分はごもくそば
+# と鉄火丼…それに
+# ちゃわんむしを…
+ShowTextBox "!!! 405854 22"
+WaitTextBox
+ShowChara 5 2 36
+# 私はたぬきそばと
+# きつねそば、それ
+# に、カモ南蛮と…
+ShowTextBox "!!! 405854 23"
+WaitTextBox
+ShowChara 4 1 29
+# う～ん、動物好き
+# なリクらしい注文
+# ぴょ
+ShowTextBox "!!! 405854 24"
+WaitTextBox
+ShowChara 6 2 43
+# それは何か違うよ
+# うな…
+ShowTextBox "!!! 405854 25"
+WaitTextBox
+ShowChara 5 2 36
+# では、そろそろ出
+# 発しましょうか！
+ShowTextBox "!!! 405854 26"
+WaitTextBox
+ShowChara 7 2 48
+# おーっ！
+ShowTextBox "!!! 405854 27"
+WaitTextBox
+ShowChara 4 1 28
+# ぴょっ…？店長さ
+# ん、サイフの中を
+# のぞいたりしてど
+# うしたぴょ？
+ShowTextBox "!!! 405854 28"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 4 0 28
+# じゃ、店長さん、
+# ぴよこたちは行っ
+# てくるぴょ！
+ShowTextBox "!!! 405854 29"
+WaitTextBox
+ShowChara 5 2 35
+# では店長、留守番
+# をよろしくお願い
+# する
+ShowTextBox "!!! 405854 30"
+WaitTextBox
+ShowChara 6 2 40
+# 店長、帰りにお土
+# 産にそばを買って
+# きますね
+ShowTextBox "!!! 405854 31"
+WaitTextBox
+ShowChara 7 2 48
+# 店長、それじゃよ
+# いお年を！って、
+# まだ早いか…
+ShowTextBox "!!! 405854 32"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 12 2 59
+# あっ、店長！
+# てっきり首領たち
+# とお出かけしたと
+# 思ってたゲバ
+ShowTextBox "!!! 405854 33"
+WaitTextBox
+# 首領からいただい
+# たおそば、まだ余
+# ってるけど、どう
+# ゲバ、店長？
+ShowTextBox "!!! 405854 34"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 12 2 59
+# ずるずるずる…
+ShowTextBox "!!! 405854 35"
+WaitTextBox
+ShowChara 12 1 59
+# ずるずるずる…
+ShowTextBox "!!! 405854 36"
+WaitTextBox
+ShowChara 12 2 59
+# うまいゲバ…こん
+# なごちそう、何年
+# ぶりか思い出せな
+# いゲバ…
+ShowTextBox "!!! 405854 37"
+WaitTextBox
+# えっ、店長さん、
+# 自分はもうおなか
+# いっぱいだから代
+# りに食っていいゲ
+# バ？
+ShowTextBox "!!! 405854 38"
+WaitTextBox
+# 店長さん、ありが
+# とうゲバ！
+ShowTextBox "!!! 405854 39"
+WaitTextBox
+# ううっ、人の温か
+# さが身にしみる…
+# 地球に来て本当に
+# よかったゲバ…！
+ShowTextBox "!!! 405854 40"
+WaitTextBox
+EndScript

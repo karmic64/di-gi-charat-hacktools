@@ -1,50 +1,7 @@
-DSCBase $415034
-
-
-
-
-Subscript 0
-ShowChara 7 1 47
-# お客さんからいいことを聞いたぜ！
-ShowTextBox "!!! 415034 0"
-WaitTextBox
-ShowChara 7 0 48
-# 最近は、\x02$0関連のグッズ\x1aが流行っているんだってさ
-# たくさん仕入れて
-# 大儲けしようぜ！
-ShowTextBox "!!! 415034 1"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 1
-ShowChara 7 1 47
-# お客さんからいいことを聞いたぜ！
-ShowTextBox "!!! 415034 2"
-WaitTextBox
-ShowChara 7 0 48
-# 最近は\x02$0\x1aが流行っているんだってさ
-# たくさん仕入れて
-# 大儲けしようぜ！
-ShowTextBox "!!! 415034 3"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 2
-ShowChara 7 1 47
-# お客さんからいいことを聞いたぜ！
-ShowTextBox "!!! 415034 4"
-WaitTextBox
-ShowChara 7 0 48
-# 最近は\x02$0\x1aがすごく流行っているんだってさ
-# たくさん仕入れて
-# 大儲けしようぜ！
-ShowTextBox "!!! 415034 5"
-WaitTextBox
-HideChara
-EndScript
+DSCBase $415034 Subscript 0 ShowChara 7 1 47 ShowTextBox "I heard good things from customers!"
+WaitTextBox ShowChara 7 0 48 ShowTextBox "These days, \x02$0 related goods \x1aare popular, so let's buy a lot and make a lot of money!"
+WaitTextBox HideChara EndScript Subscript 1 ShowChara 7 1 47 ShowTextBox "I heard good things from customers!"
+WaitTextBox ShowChara 7 0 48 ShowTextBox "\x02 $0 \x1ais popular these days, so buy a lot and make a lot of money!"
+WaitTextBox HideChara EndScript Subscript 2 ShowChara 7 1 47 ShowTextBox "I heard good things from customers!"
+WaitTextBox ShowChara 7 0 48 ShowTextBox "\x02 $0 \x1ais very popular these days, so buy a lot and make a lot of money!"
+WaitTextBox HideChara EndScript 

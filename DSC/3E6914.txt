@@ -1,292 +1,48 @@
-DSCBase $3E6914
-
-
-
-
-Subscript 0
-ShowChara 5 1 64
-# うう…む
-# 我々はこのままでよいのだろうか？
-ShowTextBox "!!! 3E6914 0"
-WaitTextBox
-# 毎日$1と水だけで過ごさなければならないとは…
-ShowTextBox "!!! 3E6914 1"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 5 1 35
-# …店長、ちょっと
-# 個人的に相談した
-# いのだが、いいだ
-# ろうか？
-ShowTextBox "!!! 3E6914 2"
-WaitTextBox
-ShowChara 5 0 37
-# ピョコラ様にぬい
-# ぐるみをプレゼン
-# トしようと思うの
-# だが…
-ShowTextBox "!!! 3E6914 3"
-WaitTextBox
-ShowChara 5 0 57
-# ズバリっ！！
-# $1と$2…どちらがかわいいと思う？
-ShowTextBox "!!! 3E6914 4"
-WaitTextBox
-ShowChara 5 0 65
-# 私としては甲乙つけがたいのだ…
-ShowTextBox "!!! 3E6914 5"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 5 1 37
-# …ふう～
-ShowTextBox "!!! 3E6914 6"
-WaitTextBox
-ShowChara 6 2 40
-# どうしたのですか
-# リク元帥？
-# ため息なんかついて
-ShowTextBox "!!! 3E6914 7"
-WaitTextBox
-ShowChara 5 1 64
-# いや…
-# $1動物園の$2達の事が気になって…
-ShowTextBox "!!! 3E6914 8"
-WaitTextBox
-ShowChara 6 2 45
-# …そうですか
-ShowTextBox "!!! 3E6914 9"
-WaitTextBox
-ShowChara 5 1 57
-# カイ、教えてくれ
-# ！
-# 私はどうしたらよいのだ？
-ShowTextBox "!!! 3E6914 10"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 5 2 35
-# ムッ…あれは$1…
-ShowTextBox "!!! 3E6914 11"
-WaitTextBox
-ShowChara 5 0 37
-# たしか、こよなく
-# $2を愛しつづけるトップブリーダー…
-ShowTextBox "!!! 3E6914 12"
-WaitTextBox
-ShowChara 5 0 39
-# ……私の勝ちだな
-ShowTextBox "!!! 3E6914 13"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-ShowChara 5 2 64
-# しまった！
-# 私としたことが…
-# 夕食の$1と$2のカンづめを買いまちがえてしまった…
-ShowTextBox "!!! 3E6914 14"
-WaitTextBox
-ShowChara 5 0 37
-# こういう時は…
-ShowTextBox "!!! 3E6914 15"
-WaitTextBox
-ShowChara 5 0 38
-# ブラックゲマゲマ団員のみなさん！！
-ShowTextBox "!!! 3E6914 16"
-WaitTextBox
-ShowChara 12 1 60
-# ゲバーッ！！
-ShowTextBox "!!! 3E6914 17"
-WaitTextBox
-ShowChara 5 2 39
-# 今日のみなさんの夕食は$2のカンづめです
-ShowTextBox "!!! 3E6914 18"
-WaitTextBox
-ShowChara 12 1 60
-# うれしいゲバ～
-ShowTextBox "!!! 3E6914 19"
-WaitTextBox
-ShowChara 5 2 36
-# …ありがたく食べてください！
-ShowTextBox "!!! 3E6914 20"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-ShowChara 5 2 38
-# 店長、知ってるか！？
-ShowTextBox "!!! 3E6914 21"
-WaitTextBox
-ShowChara 5 0 37
-# 近頃$1では$2の数が減っているそうだ…
-ShowTextBox "!!! 3E6914 22"
-WaitTextBox
-ShowChara 5 0 35
-# 私は獣医として、
-# どうすればいいの
-# だ？
-ShowTextBox "!!! 3E6914 23"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-ShowChara 5 2 39
-# ふふふ…店長
-# 昨日の『$1』を見たか？
-ShowTextBox "!!! 3E6914 24"
-WaitTextBox
-# 地球人どもは今頃
-# $2のかわいらしさに気づいてるのだ…
-ShowTextBox "!!! 3E6914 25"
-WaitTextBox
-ShowChara 5 0 64
-# …おそい、おそい
-# おそすぎるッ！
-ShowTextBox "!!! 3E6914 26"
-WaitTextBox
-ShowChara 5 0 38
-# 私など生まれるまえから…！！
-ShowTextBox "!!! 3E6914 27"
-WaitTextBox
-ShowChara 4 4 31
-# リク、うるさいぴ
-# ょ！
-# いいかげん仕事す
-# るぴょ！
-ShowTextBox "!!! 3E6914 28"
-WaitTextBox
-ShowChara 5 4 57
-# …ハッ！
-# 申しわけありませ
-# ん、ピョコラ様
-ShowTextBox "!!! 3E6914 29"
-WaitTextBox
-ShowChara 5 0 37
-# 店長、この件はま
-# たあとで…
-ShowTextBox "!!! 3E6914 30"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-ShowChara 5 1 38
-# 店長！
-# 今日はさっさと家に帰って『$1』を見るがいい！
-ShowTextBox "!!! 3E6914 31"
-WaitTextBox
-ShowChara 5 0 57
-# なんと$2の特集をするのだ！
-# 一見の価値アリ！
-ShowTextBox "!!! 3E6914 32"
-WaitTextBox
-EndScript
-
-
-
-Subscript 8
-ShowChara 5 1 37
-# ふ～～～
-ShowTextBox "!!! 3E6914 33"
-WaitTextBox
-ShowChara 5 0 35
-# おや、店長…
-# なに疲れてるのか
-# って？
-ShowTextBox "!!! 3E6914 34"
-WaitTextBox
-ShowChara 5 0 39
-# 先ほど道路で$1にひかれそうになった$2の親子を助けたのだ
-ShowTextBox "!!! 3E6914 35"
-WaitTextBox
-ShowChara 5 0 65
-# 今夜はよい夢が見れそうだ…♪
-ShowTextBox "!!! 3E6914 36"
-WaitTextBox
-EndScript
-
-
-
-Subscript 9
-ShowChara 5 1 38
-# 店長、私は今日の
-# ように素敵な日に
-# は…
-ShowTextBox "!!! 3E6914 37"
-WaitTextBox
-ShowChara 5 0 57
-# $1動物園に$2を見に行くべきだと進言したいッ！！
-ShowTextBox "!!! 3E6914 38"
-WaitTextBox
-ShowChara 5 0 39
-# きっと店長も$2のとりこになるだろう…
-ShowTextBox "!!! 3E6914 39"
-WaitTextBox
-EndScript
-
-
-
-Subscript 10
-ShowChara 5 2 37
-# なんてことだ
-# 信じられない…！
-ShowTextBox "!!! 3E6914 40"
-WaitTextBox
-ShowChara 5 0 38
-# 店長、聞いてくれ
-# $1では$2に$3をさせているらしいのだ！
-ShowTextBox "!!! 3E6914 41"
-WaitTextBox
-ShowChara 5 0 37
-# ひどい…あまりに
-# もひどすぎる…
-ShowTextBox "!!! 3E6914 42"
-WaitTextBox
-EndScript
-
-
-
-Subscript 11
-ShowChara 5 0 39
-# ふ…いささか$1の疲れが出たようだ…
-ShowTextBox "!!! 3E6914 43"
-WaitTextBox
-ShowChara 5 0 35
-# 店長、どうだ？
-# $2でも飲みに行くか？
-ShowTextBox "!!! 3E6914 44"
-WaitTextBox
-EndScript
-
-
-
-Subscript 12
-ShowChara 5 0 39
-# う～む、分からん
-# なぜこんなに『$1』が人気あるのか…謎だ
-ShowTextBox "!!! 3E6914 45"
-WaitTextBox
-ShowChara 5 0 64
-# 私なら『$2』の方が、好みなのだが…
-# 店長はどうだ？
-ShowTextBox "!!! 3E6914 46"
-WaitTextBox
-EndScript
+DSCBase $3E6914 Subscript 0 ShowChara 5 1 64 ShowTextBox "Hmm ... Mmm, can we stay like this?"
+WaitTextBox ShowTextBox "You have to spend $1 and water every day ..."
+WaitTextBox EndScript Subscript 1 ShowChara 5 1 35 ShowTextBox "… The store manager, I'd like to talk to you personally, is that okay?"
+WaitTextBox ShowChara 5 0 37 ShowTextBox "I'm thinking of giving Pyocola a stuffed animal as a gift ..."
+WaitTextBox ShowChara 5 0 57 ShowTextBox "Zubari! !! $1 or $2 ... Which do you think is cute?"
+WaitTextBox ShowChara 5 0 65 ShowTextBox "It's hard for me to put it on ..."
+WaitTextBox EndScript Subscript 2 ShowChara 5 1 37 ShowTextBox "… Huh ~"
+WaitTextBox ShowChara 6 2 40 ShowTextBox "What's wrong with Marshal Riku? With a sigh"
+WaitTextBox ShowChara 5 1 64 ShowTextBox "No ... $1 I'm worried about the $2 at the zoo ..."
+WaitTextBox ShowChara 6 2 45 ShowTextBox "…Is that so"
+WaitTextBox ShowChara 5 1 57 ShowTextBox "Kai, tell me! What should i do?"
+WaitTextBox EndScript Subscript 3 ShowChara 5 2 35 ShowTextBox "Mmm ... that's $1 ..."
+WaitTextBox ShowChara 5 0 37 ShowTextBox "Certainly, a top breeder who continues to love $2 ..."
+WaitTextBox ShowChara 5 0 39 ShowTextBox "...... I won"
+WaitTextBox EndScript Subscript 4 ShowChara 5 2 64 ShowTextBox "Oops! What I did ... I made a mistake buying the $1 and $2 supper ..."
+WaitTextBox ShowChara 5 0 37 ShowTextBox "At times like this ..."
+WaitTextBox ShowChara 5 0 38 ShowTextBox "Black Gemagema members! !!"
+WaitTextBox ShowChara 12 1 60 ShowTextBox "Geba! !!"
+WaitTextBox ShowChara 5 2 39 ShowTextBox "Today's supper is $2"
+WaitTextBox ShowChara 12 1 60 ShowTextBox "Happy Geba ~"
+WaitTextBox ShowChara 5 2 36 ShowTextBox "… Thank you for eating!"
+WaitTextBox EndScript Subscript 5 ShowChara 5 2 38 ShowTextBox "Do you know the store manager! ??"
+WaitTextBox ShowChara 5 0 37 ShowTextBox "It seems that the number of $2 has decreased in $1 these days ..."
+WaitTextBox ShowChara 5 0 35 ShowTextBox "What should I do as a veterinarian?"
+WaitTextBox EndScript Subscript 6 ShowChara 5 2 39 ShowTextBox "Fufufu ... Manager Did you see \"$1\" yesterday?"
+WaitTextBox ShowTextBox "Earthlings are now aware of the cuteness of $2 ..."
+WaitTextBox ShowChara 5 0 64 ShowTextBox "… Slow, too slow!"
+WaitTextBox ShowChara 5 0 38 ShowTextBox "Before I was born ...! !!"
+WaitTextBox ShowChara 4 4 31 ShowTextBox "Riku, noisy! I'll work hard!"
+WaitTextBox ShowChara 5 4 57 ShowTextBox "… Huh! I'm sorry, Mr. Pyocola"
+WaitTextBox ShowChara 5 0 37 ShowTextBox "Manager, this matter will come later ..."
+WaitTextBox EndScript Subscript 7 ShowChara 5 1 38 ShowTextBox "Store manager! Go home and watch \"$1\" today!"
+WaitTextBox ShowChara 5 0 57 ShowTextBox "What a $2 feature! An ant worth a look!"
+WaitTextBox EndScript Subscript 8 ShowChara 5 1 37 ShowTextBox "Hmm ~~~"
+WaitTextBox ShowChara 5 0 35 ShowTextBox "Oh, the store manager ... what are you tired of?"
+WaitTextBox ShowChara 5 0 39 ShowTextBox "I helped a $2 parent and child who were about to be run over by $1 on the road."
+WaitTextBox ShowChara 5 0 65 ShowTextBox "I think I can have a good dream tonight ... ♪"
+WaitTextBox EndScript Subscript 9 ShowChara 5 1 38 ShowTextBox "Manager, I have a nice day like today ..."
+WaitTextBox ShowChara 5 0 57 ShowTextBox "I want to advise you to go to the $1 zoo to see $2! !!"
+WaitTextBox ShowChara 5 0 39 ShowTextBox "I'm sure the store manager will be captivated by $2 ..."
+WaitTextBox EndScript Subscript 10 ShowChara 5 2 37 ShowTextBox "I can't believe it ...!"
+WaitTextBox ShowChara 5 0 38 ShowTextBox "Manager, ask me, $1 seems to make $2 cost $3!"
+WaitTextBox ShowChara 5 0 37 ShowTextBox "Terrible ... too terrible ..."
+WaitTextBox EndScript Subscript 11 ShowChara 5 0 39 ShowTextBox "Hmm ... I think I'm a little tired of $1 ..."
+WaitTextBox ShowChara 5 0 35 ShowTextBox "How about the store manager? Would you like to go drinking for $2?"
+WaitTextBox EndScript Subscript 12 ShowChara 5 0 39 ShowTextBox "Hmmm, I don't know why \"$1\" is so popular ... it's a mystery"
+WaitTextBox ShowChara 5 0 64 ShowTextBox "I prefer \"$2\" ... How about the store manager?"
+WaitTextBox EndScript 

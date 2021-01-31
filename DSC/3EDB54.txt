@@ -1,487 +1,81 @@
-DSCBase $3EDB54
-
-
-
-
-Subscript 0
-SetBG 111
-Fade 0 30
-ShowChara 8 1 1
-# 終了ゲマ～～っ！
-ShowTextBox "!!! 3EDB54 0"
-WaitTextBox
-ShowChara 1 1 9
-# なんだか、あっと
-# いう間の一年間だ
-# ったにょ！
-ShowTextBox "!!! 3EDB54 1"
-WaitTextBox
-ShowChara 2 1 23
-# 店長さん、おつか
-# れさま！　とりあ
-# えず、ゆっくり休
-# んでね♪
-ShowTextBox "!!! 3EDB54 2"
-WaitTextBox
-ShowChara 3 1 17
-# ぷちこも休みたい
-# にゅ
-ShowTextBox "!!! 3EDB54 3"
-WaitTextBox
-ShowChara 8 1 1
-# では、結果発表さ
-# せてもらうゲマ！
-ShowTextBox "!!! 3EDB54 4"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-Unk08 1 121 119 8 16 10 3
-Unk08 8 236 144 110 108 10 3
-Unk08 2 3 143 12 100 10 3
-ShowChara 8 0 53
-# おっと、その前に
-# ひとつやることが
-# あったゲマ
-ShowTextBox "!!! 3EDB54 5"
-WaitTextBox
-# でじこ、ちょっと
-# 目を閉じててほし
-# いゲマ
-ShowTextBox "!!! 3EDB54 6"
-WaitTextBox
-ShowChara 1 2 8
-# にょにょ、いった
-# い何をするつもり
-# にょ？
-ShowTextBox "!!! 3EDB54 7"
-WaitTextBox
-ShowChara 1 0 9
-# まぁ、ここは素直
-# に言われた通りに
-# するにょ
-ShowTextBox "!!! 3EDB54 8"
-WaitTextBox
-Fade 1 30
-SetBG 124
-Fade 0 1
-ShowChara 1 2 63
-# 目を閉じたにょ～
-ShowTextBox "!!! 3EDB54 9"
-WaitTextBox
-# …………
-ShowTextBox "!!! 3EDB54 10"
-WaitTextBox
-# …………
-ShowTextBox "!!! 3EDB54 11"
-WaitTextBox
-# まだかにょ？
-ShowTextBox "!!! 3EDB54 12"
-WaitTextBox
-Fade 3 30
-SetBG 111
-Fade 2 30
-ShowChara 8 1 53
-# ＯＫゲマ～！
-ShowTextBox "!!! 3EDB54 13"
-WaitTextBox
-Fade 3 20
-Fade 2 20
-ShowChara 2 1 23
-# ぱちぱちぱち…
-ShowTextBox "!!! 3EDB54 14"
-WaitTextBox
-Fade 3 20
-Fade 2 20
-ShowChara 3 1 18
-# ぱちぱちぱち…
-ShowTextBox "!!! 3EDB54 15"
-WaitTextBox
-Fade 3 20
-Fade 2 20
-ShowChara 1 2 15
-# にょにょ、いった
-# い、これは何のさ
-# わぎにょ？
-ShowTextBox "!!! 3EDB54 16"
-WaitTextBox
-ShowChara 8 1 53
-# でじこ、おめでと
-# うゲマ～！
-ShowTextBox "!!! 3EDB54 17"
-WaitTextBox
-# でじこは、この一
-# 年で見事、お仕事
-# マスターになった
-# ゲマ！
-ShowTextBox "!!! 3EDB54 18"
-WaitTextBox
-ShowChara 2 1 23
-# お仕事マスターっ
-# ていうのは
-ShowTextBox "!!! 3EDB54 19"
-WaitTextBox
-# ・レジ
-# ・接客
-# ・グッズ
-# ・掃除
-ShowTextBox "!!! 3EDB54 20"
-WaitTextBox
-# この４つのお仕事
-# をきわめた者に与
-# えられるという、
-# 伝説の称号よ！
-ShowTextBox "!!! 3EDB54 21"
-WaitTextBox
-ShowChara 1 2 10
-# にょにょ～、なん
-# だか、すごそうな
-# 称号だにょっ！
-ShowTextBox "!!! 3EDB54 22"
-WaitTextBox
-ShowChara 1 0 8
-# で、その称号をも
-# らえると、どんな
-# いいことがあるに
-# ょ？
-ShowTextBox "!!! 3EDB54 23"
-WaitTextBox
-ShowChara 2 1 23
-# えっ？特に何もな
-# いけど…
-ShowTextBox "!!! 3EDB54 24"
-WaitTextBox
-ShowChara 1 2 12
-# にょ～！
-ShowTextBox "!!! 3EDB54 25"
-WaitTextBox
-Fade 3 30
-SetBG 44
-Fade 2 30
-ShowChara 1 0 0
-# 店長しゃ～ん、この貸
-# し、きっと高くつくに
-# ょ～
-ShowTextBox "!!! 3EDB54 26"
-WaitTextBox
-# にょにょ、な～んて、
-# 冗談にょ
-ShowTextBox "!!! 3EDB54 27"
-WaitTextBox
-# 「情けは人のためなら
-# ず」にょ！
-ShowTextBox "!!! 3EDB54 28"
-WaitTextBox
-Fade 3 30
-SetBG 111
-Fade 2 30
-ShowChara 8 1 1
-# オホン。では、あ
-# らためまして…結
-# 果発表ゲマ！
-ShowTextBox "!!! 3EDB54 29"
-WaitTextBox
-Unk19 40
-EndScript
-
-
-
-Subscript 2
-Unk08 1 111 73 104 96 10 3
-SetBG 111
-Fade 0 30
-ShowChara 8 1 53
-# でじこ、やったゲ
-# マ、見事な成績ゲ
-# マ！
-ShowTextBox "!!! 3EDB54 30"
-WaitTextBox
-ShowChara 1 2 10
-# やったにょ～っ！
-ShowTextBox "!!! 3EDB54 31"
-WaitTextBox
-Fade 3 30
-SetBG 66
-Fade 2 30
-ShowChara 1 0 0
-# ま、このでじこさまの
-# 実力からすれば、当然
-# の結果ですにょっ！
-ShowTextBox "!!! 3EDB54 32"
-WaitTextBox
-# にょにょ～、でじこが
-# いれば、あと百年は一
-# 人勝ち状態に決定にょ
-ShowTextBox "!!! 3EDB54 33"
-WaitTextBox
-Fade 3 30
-SetBG 111
-Fade 2 30
-ShowChara 2 1 55
-# 言う言う…
-ShowTextBox "!!! 3EDB54 34"
-WaitTextBox
-ShowChara 3 1 17
-# まさに有頂天にゅ
-ShowTextBox "!!! 3EDB54 35"
-WaitTextBox
-ShowChara 8 1 1
-# あの～、でじこ、
-# ちょっといいゲマ
-# か？
-ShowTextBox "!!! 3EDB54 36"
-WaitTextBox
-ShowChara 1 2 10
-# にょにょ～、この
-# 商売王でじこ様に
-# 何の用かにょ、ゲ
-# マくん？
-ShowTextBox "!!! 3EDB54 37"
-WaitTextBox
-ShowChara 8 1 2
-# でじこの成績、正
-# 直言って、そこま
-# で良い成績じゃな
-# いゲマ…
-ShowTextBox "!!! 3EDB54 38"
-WaitTextBox
-ShowChara 1 2 8
-# にょ…にょっ？
-ShowTextBox "!!! 3EDB54 39"
-WaitTextBox
-ShowChara 8 1 2
-# う～ん…まぁ、並
-# といったところゲ
-# マ…
-ShowTextBox "!!! 3EDB54 40"
-WaitTextBox
-ShowChara 1 2 15
-# は、初めに「見事
-# な成績」だって言
-# ったにょ！？
-ShowTextBox "!!! 3EDB54 41"
-WaitTextBox
-ShowChara 8 1 1
-# それは言葉のアヤ
-# ゲマ
-ShowTextBox "!!! 3EDB54 42"
-WaitTextBox
-ShowChara 2 1 23
-# なぁ～んだ、やっ
-# ぱりね
-ShowTextBox "!!! 3EDB54 43"
-WaitTextBox
-ShowChara 1 2 11
-# やっぱりとは何に
-# ょ、うさだ～っ！
-ShowTextBox "!!! 3EDB54 44"
-WaitTextBox
-ShowChara 3 1 21
-# にゅっ…
-ShowTextBox "!!! 3EDB54 45"
-WaitTextBox
-ShowChara 1 2 12
-# ぷ、ぷちこまで…
-ShowTextBox "!!! 3EDB54 46"
-WaitTextBox
-ShowChara 1 0 11
-# こうなったら、次
-# を見てるがいいに
-# ょ！
-ShowTextBox "!!! 3EDB54 47"
-WaitTextBox
-# 次こそは、でじこ
-# の本気の本気とい
-# うやつを見せてや
-# るにょ！
-ShowTextBox "!!! 3EDB54 48"
-WaitTextBox
-ShowChara 2 1 23
-# その意気、その意
-# 気♪
-ShowTextBox "!!! 3EDB54 49"
-WaitTextBox
-ShowChara 3 1 18
-# がんばれにゅ
-ShowTextBox "!!! 3EDB54 50"
-WaitTextBox
-ShowChara 8 1 1
-# 店長さん、どうや
-# ら、来年もさわが
-# しくなりそうな気
-# 配ゲマ…
-ShowTextBox "!!! 3EDB54 51"
-WaitTextBox
-ShowChara 8 0 53
-# というわけで、店
-# 長さん、次もまた
-# よろしくゲマ！
-ShowTextBox "!!! 3EDB54 52"
-Wait 60
-Fade 3 120
-EndScript
-
-
-
-Subscript 3
-Unk08 1 108 83 104 100 10 3
-SetBG 111
-Fade 0 30
-ShowChara 8 1 53
-# すごいゲマ！　ま
-# ったくすばらしい
-# 結果だったゲマ！
-ShowTextBox "!!! 3EDB54 53"
-WaitTextBox
-ShowChara 1 2 9
-# にょにょ、それと
-# いうのも、すべて
-# 店長しゃんの指導
-# と、でじこの働き
-# のおかげにょ！
-ShowTextBox "!!! 3EDB54 54"
-WaitTextBox
-# 自分でいうのも何
-# だけど、でじこの
-# 働きにはもう脱帽
-# って感じだったに
-# ょ～
-ShowTextBox "!!! 3EDB54 55"
-WaitTextBox
-ShowChara 2 1 22
-# でじこの自画自賛
-# はともかく…
-ShowTextBox "!!! 3EDB54 56"
-WaitTextBox
-ShowChara 2 0 56
-# 確かに、アタシた
-# ちだけだったら、
-# とてもこうはいか
-# なかったと思うわ
-ShowTextBox "!!! 3EDB54 57"
-WaitTextBox
-ShowChara 3 1 18
-# 店長さん、えらい
-# にゅ
-ShowTextBox "!!! 3EDB54 58"
-WaitTextBox
-Fade 1 120
-Wait 60
-SetBG 77
-Fade 0 30
-Wait 60
-ShowChara 1 0 0
-# デ・ジ・キャラット星
-# のお父さまお母さま、
-# お元気ですかにょ？
-ShowTextBox "!!! 3EDB54 59"
-Wait 120
-# でじこはとっても元気
-# にょ！
-# ま、当然にょ！
-ShowTextBox "!!! 3EDB54 60"
-Wait 120
-# でじこは、デ・ジ・キ
-# ャラット星から遠く離
-# れたこの地球で
-ShowTextBox "!!! 3EDB54 61"
-Wait 120
-# 今日も大女優目指して
-# がんばってますにょ
-ShowTextBox "!!! 3EDB54 62"
-Wait 120
-# でじこの感触だと、で
-# じこが大女優になる日
-# はもう目の前なので
-ShowTextBox "!!! 3EDB54 63"
-Wait 120
-# 歓迎パーティの用意を
-# 今からやっておくべき
-# だと
-ShowTextBox "!!! 3EDB54 64"
-Wait 120
-# そう、でじこは思って
-# るにょ！ま、これまた
-# 当然にょ！
-ShowTextBox "!!! 3EDB54 65"
-Wait 120
-# 話は変わるけど、新し
-# い店長しゃんが来て、
-# 一年が過ぎたにょ
-ShowTextBox "!!! 3EDB54 66"
-Wait 120
-# それからというもの、
-# お店は大繁盛、大忙し
-# の毎日だったにょ
-ShowTextBox "!!! 3EDB54 67"
-Wait 120
-# 原因は、このでじこ様
-# の人気のおかげにょ！
-ShowTextBox "!!! 3EDB54 68"
-Wait 120
-# にょにょ、またまた当
-# 然なことを書いてしま
-# ったにょ
-ShowTextBox "!!! 3EDB54 69"
-Wait 120
-# まったく、人気者はつ
-# らいですにょ～
-ShowTextBox "!!! 3EDB54 70"
-Wait 120
-# この調子で来年もがん
-# ばっていきたいと、思
-# ってますにょ
-ShowTextBox "!!! 3EDB54 71"
-Wait 120
-# あっ、なんだか店長し
-# ゃんがでじこを呼んで
-# るみたいなので
-ShowTextBox "!!! 3EDB54 72"
-Wait 120
-# とりあえず、これで失
-# 礼しますにょ
-ShowTextBox "!!! 3EDB54 73"
-Wait 120
-# また、ヒマが出来たら
-# お便りするにょ　それ
-# じゃにょ！　　でじこ
-ShowTextBox "!!! 3EDB54 74"
-Wait 180
-Fade 1 30
-Wait 60
-SetBG 111
-Fade 0 30
-ShowChara 1 1 9
-# 店長しゃん！　今
-# 日はでじこは何を
-# すればいいにょ？
-ShowTextBox "!!! 3EDB54 75"
-WaitTextBox
-ShowChara 1 0 8
-# まずは掃除から？
-ShowTextBox "!!! 3EDB54 76"
-WaitTextBox
-ShowChara 1 0 10
-# ＯＫにょ！　すべ
-# て、でじこにまか
-# せるにょ～！
-ShowTextBox "!!! 3EDB54 77"
-WaitTextBox
-Fade 1 30
-Unk08 1 95 73 88 88 10 3
-SetBG 58
-Fade 0 30
-ShowChara 1 0 0
-# このでじこ様がいる限
-# り、チリひとつ残さな
-# いにょ～
-ShowTextBox "!!! 3EDB54 78"
-WaitTextBox
-# さっ、今日も一日、が
-# んばるにょ～！
-ShowTextBox "!!! 3EDB54 79"
-Wait 60
-Fade 3 120
-EndScript
+DSCBase $3EDB54 Subscript 0 SetBG 111 Fade 0 30 ShowChara 8 1 1 ShowTextBox "End Gema ~~!"
+WaitTextBox ShowChara 1 1 9 ShowTextBox "It was a year in a blink of an eye!"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "Store manager, thank you! For the time being, take a rest ♪"
+WaitTextBox ShowChara 3 1 17 ShowTextBox "Puchiko is like a holiday"
+WaitTextBox ShowChara 8 1 1 ShowTextBox "Then, let me announce the result!"
+WaitTextBox EndScript Subscript 1 Unk08 1 121 119 8 16 10 3 Unk08 8 236 144 110 108 10 3 Unk08 2 3 143 12 100 10 3 ShowChara 8 0 53 ShowTextBox "Oops, there was one thing I had to do before that"
+WaitTextBox ShowTextBox "Di Gi Charat, I want you to close your eyes for a moment"
+WaitTextBox ShowChara 1 2 8 ShowTextBox "What on earth are you going to do?"
+WaitTextBox ShowChara 1 0 9 ShowTextBox "Well, I'll do exactly what I was told here"
+WaitTextBox Fade 1 30 SetBG 124 Fade 0 1 ShowChara 1 2 63 ShowTextBox "I closed my eyes ~"
+WaitTextBox ShowTextBox "…………"
+WaitTextBox ShowTextBox "…………"
+WaitTextBox ShowTextBox "Is it still?"
+WaitTextBox Fade 3 30 SetBG 111 Fade 2 30 ShowChara 8 1 53 ShowTextBox "OK Gema ~!"
+WaitTextBox Fade 3 20 Fade 2 20 ShowChara 2 1 23 ShowTextBox "Crackling ..."
+WaitTextBox Fade 3 20 Fade 2 20 ShowChara 3 1 18 ShowTextBox "Crackling ..."
+WaitTextBox Fade 3 20 Fade 2 20 ShowChara 1 2 15 ShowTextBox "What the hell is this?"
+WaitTextBox ShowChara 8 1 53 ShowTextBox "Di Gi Charat, congratulations!"
+WaitTextBox ShowTextBox "Di Gi Charat has become a work master in the past year!"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "The work master is"
+WaitTextBox ShowTextBox "・ Cash register, customer service, goods, cleaning"
+WaitTextBox ShowTextBox "It's a legendary title given to those who have done these four jobs!"
+WaitTextBox ShowChara 1 2 10 ShowTextBox "Nyonyo ~, it's a title that looks amazing!"
+WaitTextBox ShowChara 1 0 8 ShowTextBox "So what good is it when you get that title?"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "eh? There is nothing in particular ..."
+WaitTextBox ShowChara 1 2 12 ShowTextBox "Nyo ~!"
+WaitTextBox Fade 3 30 SetBG 44 Fade 2 30 ShowChara 1 0 0 ShowTextBox "Manager, this rental will surely be expensive ~"
+WaitTextBox ShowTextBox "Nyonyo, hey, joking"
+WaitTextBox ShowTextBox "\"Pity is not good for people\"!"
+WaitTextBox Fade 3 30 SetBG 111 Fade 2 30 ShowChara 8 1 1 ShowTextBox "Ohon. Then again ... Result announcement Gema!"
+WaitTextBox Unk19 40 EndScript Subscript 2 Unk08 1 111 73 104 96 10 3 SetBG 111 Fade 0 30 ShowChara 8 1 53 ShowTextBox "Di Gi Charat, Gema who did it, Gema with excellent results!"
+WaitTextBox ShowChara 1 2 10 ShowTextBox "I did it!"
+WaitTextBox Fade 3 30 SetBG 66 Fade 2 30 ShowChara 1 0 0 ShowTextBox "Well, given the power of Di Gi Charat, it's a natural result!"
+WaitTextBox ShowTextBox "If you have Di Gi Charat, you will be the winner for another 100 years."
+WaitTextBox Fade 3 30 SetBG 111 Fade 2 30 ShowChara 2 1 55 ShowTextBox "Say say ..."
+WaitTextBox ShowChara 3 1 17 ShowTextBox "Exactly ecstatic"
+WaitTextBox ShowChara 8 1 1 ShowTextBox "Um, Di Gi Charat, is it a good game?"
+WaitTextBox ShowChara 1 2 10 ShowTextBox "Nyonyo, what is this business king doing for Jiko-sama, Gema-kun?"
+WaitTextBox ShowChara 8 1 2 ShowTextBox "Di Gi Charat's grade, to be honest, Gema isn't that good ..."
+WaitTextBox ShowChara 1 2 8 ShowTextBox "Nyo ... Nyo?"
+WaitTextBox ShowChara 8 1 2 ShowTextBox "Hmm ... well, it's a normal place ..."
+WaitTextBox ShowChara 1 2 15 ShowTextBox "Did you say \"superb grades\" at the beginning! ??"
+WaitTextBox ShowChara 8 1 1 ShowTextBox "It's the word Ayagema"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "Hmmm, after all"
+WaitTextBox ShowChara 1 2 11 ShowTextBox "After all, what is it, Usa!"
+WaitTextBox ShowChara 3 1 21 ShowTextBox "Nyu ..."
+WaitTextBox ShowChara 1 2 12 ShowTextBox "To Puchiko ..."
+WaitTextBox ShowChara 1 0 11 ShowTextBox "If this happens, you should look at the next one!"
+WaitTextBox ShowTextBox "Next time, I'll show you Di Gi Charat's seriousness!"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "That spirit, that spirit ♪"
+WaitTextBox ShowChara 3 1 18 ShowTextBox "Good luck"
+WaitTextBox ShowChara 8 1 1 ShowTextBox "Manager, apparently, it looks like it will be refreshing next year ..."
+WaitTextBox ShowChara 8 0 53 ShowTextBox "So, store manager, thank you again next time!"
+Wait 60 Fade 3 120 EndScript Subscript 3 Unk08 1 108 83 104 100 10 3 SetBG 111 Fade 0 30 ShowChara 8 1 53 ShowTextBox "Amazing gema! Gema was a wonderful result!"
+WaitTextBox ShowChara 1 2 9 ShowTextBox "Nyonyo, because of the guidance of the store manager and the work of Di Gi Charat!"
+WaitTextBox ShowTextBox "Whatever I say by myself, I felt like I had already taken off my hat for Di Gi Charat's work ~"
+WaitTextBox ShowChara 2 1 22 ShowTextBox "Aside from the self-praise of Di Gi Charat ..."
+WaitTextBox ShowChara 2 0 56 ShowTextBox "Certainly, I think it wouldn't have been possible if we were the only ones."
+WaitTextBox ShowChara 3 1 18 ShowTextBox "Manager, Erai Nyu"
+WaitTextBox Fade 1 120 Wait 60 SetBG 77 Fade 0 30 Wait 60 ShowChara 1 0 0 ShowTextBox "Di Gi Charat's father and mother, how are you?"
+Wait 120 ShowTextBox "Di Gi Charat is very fine! Well, of course!"
+Wait 120 ShowTextBox "Dejiko is on this earth far from Di Gi Charat."
+Wait 120 ShowTextBox "I'm trying my best to be a big actress today"
+Wait 120 ShowTextBox "With the feeling of Di Gi Charat, the day when Di Gi Charat becomes a big actress is just around the corner."
+Wait 120 ShowTextBox "We should prepare for the party now"
+Wait 120 ShowTextBox "Yes, Di Gi Charat is thinking! Well, this is also natural!"
+Wait 120 ShowTextBox "The story changes, but it's been a year since the new store manager came."
+Wait 120 ShowTextBox "Since then, the shop has been very prosperous and busy every day."
+Wait 120 ShowTextBox "The cause is due to the popularity of Di Gi Charat!"
+Wait 120 ShowTextBox "Nyonyo, I wrote something of course again"
+Wait 120 ShowTextBox "It's really hard for popular people ~"
+Wait 120 ShowTextBox "I want to do my best next year with this condition."
+Wait 120 ShowTextBox "Oh, it seems that the store manager is calling Di Gi Charat"
+Wait 120 ShowTextBox "For the time being, I'm sorry for this."
+Wait 120 ShowTextBox "Also, if you have a free time, I'll write to you! Di Gi Charat"
+Wait 180 Fade 1 30 Wait 60 SetBG 111 Fade 0 30 ShowChara 1 1 9 ShowTextBox "Manager! What should Di Gi Charat do today?"
+WaitTextBox ShowChara 1 0 8 ShowTextBox "First of all, cleaning?"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "OK! Let's leave everything to Di Gi Charat ~!"
+WaitTextBox Fade 1 30 Unk08 1 95 73 88 88 10 3 SetBG 58 Fade 0 30 ShowChara 1 0 0 ShowTextBox "As long as this Di Gi Charat is there, I won't leave a single chili ~"
+WaitTextBox ShowTextBox "Well, I'll do my best today as well!"
+Wait 60 Fade 3 120 EndScript 

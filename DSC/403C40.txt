@@ -1,45 +1,6 @@
-DSCBase $403C40
-
-
-
-
-Subscript 0
-SetBG 111
-Fade 0 30
-ShowChara 4 1 28
-# イベントNo.317の
-# ハロウィン1
-# ぴょ
-ShowTextBox "!!! 403C40 0"
-WaitTextBox
-# はい
-# いいえ
-ShowSelMenu09 2 "!!! 403C40 1"
-JumpOnSelection 2 0 1 0
-Label 0
-# フラグを立てました
-ShowTextBox "!!! 403C40 2"
-WaitTextBox
-JumpOnSelection 1 2 0
-Label 1
-# フラグは立てません
-ShowTextBox "!!! 403C40 3"
-WaitTextBox
-JumpOnSelection 1 2 0
-Label 2
-Fade 1 30
-EndScript
-
-
-
-Subscript 1
-SetBG 90
-Unk08 4 200 112 8 96 10 3
-Fade 0 30
-ShowChara 4 0 0
-# イベントNo.318の
-# 「ハロウィン2」ぴょ
-ShowTextBox "!!! 403C40 4"
-WaitTextBox
-Fade 1 30
-EndScript
+DSCBase $403C40 Subscript 0 SetBG 111 Fade 0 30 ShowChara 4 1 28 ShowTextBox "Event No.317 Halloween 1 Pyo"
+WaitTextBox ShowSelMenu09 2 "Yes, No"
+JumpOnSelection 2 0 1 0 Label 0 ShowTextBox "Flagged"
+WaitTextBox JumpOnSelection 1 2 0 Label 1 ShowTextBox "Do not flag"
+WaitTextBox JumpOnSelection 1 2 0 Label 2 Fade 1 30 EndScript Subscript 1 SetBG 90 Unk08 4 200 112 8 96 10 3 Fade 0 30 ShowChara 4 0 0 ShowTextBox "Event No. 318 \"Halloween 2\" Pyo"
+WaitTextBox Fade 1 30 EndScript 

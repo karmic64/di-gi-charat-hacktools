@@ -1,0 +1,256 @@
+DSCBase $40461C
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 5 1 35
+# ううむ…年末はい
+# そがしい…
+ShowTextBox "!!! 40461C 0"
+WaitTextBox
+# クリスマスに大晦
+# 日、年が明けても
+# すぐ正月…
+ShowTextBox "!!! 40461C 1"
+WaitTextBox
+# 休む間もないとは
+# このことか…
+ShowTextBox "!!! 40461C 2"
+WaitTextBox
+ShowChara 6 2 40
+# 元帥、とりあえず
+# 目の前の仕事から
+# 順に片づけていき
+# ましょう…
+ShowTextBox "!!! 40461C 3"
+WaitTextBox
+ShowChara 5 1 39
+# うむ、では最初の
+# 議題だ
+ShowTextBox "!!! 40461C 4"
+WaitTextBox
+# どうやってクリス
+# マスセール用のサ
+# ンタクロースの衣
+# 装を３着も用意す
+# るか、だ…
+ShowTextBox "!!! 40461C 5"
+WaitTextBox
+ShowChara 7 2 47
+# ぴよこに用意した
+# ヤツってどうなっ
+# た？
+ShowTextBox "!!! 40461C 6"
+WaitTextBox
+ShowChara 6 2 43
+# それが…
+ShowTextBox "!!! 40461C 7"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 6 2 41
+# ピョコラ様、いか
+# がですか、この衣
+# 装は？
+ShowTextBox "!!! 40461C 8"
+WaitTextBox
+ShowChara 4 1 28
+# 外に出るのは寒い
+# からイヤぴょ
+ShowTextBox "!!! 40461C 9"
+WaitTextBox
+ShowChara 12 2 59
+# うわ、わがまま
+# ゲバ…
+ShowTextBox "!!! 40461C 10"
+WaitTextBox
+ShowChara 4 1 31
+# …なんか言ったぴ
+# ょ？
+ShowTextBox "!!! 40461C 11"
+WaitTextBox
+ShowChara 12 2 59
+# な、なにも言って
+# ないゲバっ！
+ShowTextBox "!!! 40461C 12"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 6 2 43
+# というわけで、ム
+# ダになってしまっ
+# たのだ…
+ShowTextBox "!!! 40461C 13"
+WaitTextBox
+ShowChara 7 2 52
+# ぴよこのサイズな
+# ら、俺、無理すれ
+# ば着れるかもしれ
+# ないぜ？
+ShowTextBox "!!! 40461C 14"
+WaitTextBox
+ShowChara 6 2 43
+# そういう問題じゃ
+# ないだろ…
+ShowTextBox "!!! 40461C 15"
+WaitTextBox
+ShowChara 5 1 37
+# サンタのいないク
+# リスマスというの
+# もさびしいものだ
+# …
+ShowTextBox "!!! 40461C 16"
+WaitTextBox
+ShowChara 5 0 35
+# しかたがない…面
+# 倒だが、我々の手
+# で作り上げる他あ
+# るまい…
+ShowTextBox "!!! 40461C 17"
+WaitTextBox
+# というわけで…
+ShowTextBox "!!! 40461C 18"
+WaitTextBox
+ShowChara 5 0 39
+# カイ＝シュヴァイ
+# ツァー中将、元帥
+# として命令する！
+ShowTextBox "!!! 40461C 19"
+WaitTextBox
+# 本日中にサンタ服
+# を３着用意せよ！
+ShowTextBox "!!! 40461C 20"
+WaitTextBox
+ShowChara 6 2 44
+# うっ…自分がです
+# かッ！？
+ShowTextBox "!!! 40461C 21"
+WaitTextBox
+ShowChara 5 1 38
+# カイ＝シュヴァイ
+# ツァー中将、返事
+# は！
+ShowTextBox "!!! 40461C 22"
+WaitTextBox
+ShowChara 6 2 45
+# 本日中にサンタ服
+# を３着用意します
+# ！
+ShowTextBox "!!! 40461C 23"
+WaitTextBox
+ShowChara 5 1 35
+# よろしい！
+ShowTextBox "!!! 40461C 24"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 6 2 46
+# （まいったな…
+# どうしよう…）
+ShowTextBox "!!! 40461C 25"
+WaitTextBox
+ShowChara 6 0 41
+# （そうだ！）
+ShowTextBox "!!! 40461C 26"
+WaitTextBox
+ShowChara 6 0 40
+# クウ＝エアハルト
+# 少佐、中将として
+# 命令する！
+ShowTextBox "!!! 40461C 27"
+WaitTextBox
+ShowChara 7 1 58
+# えっ？
+ShowTextBox "!!! 40461C 28"
+WaitTextBox
+ShowChara 6 2 40
+# 本日中にサンタ服
+# を３着用意せよ！
+ShowTextBox "!!! 40461C 29"
+WaitTextBox
+ShowChara 7 1 58
+# そ、そんなーっ！
+ShowTextBox "!!! 40461C 30"
+WaitTextBox
+ShowChara 6 2 40
+# クウ＝エアハルト
+# 少佐、返事は！
+ShowTextBox "!!! 40461C 31"
+WaitTextBox
+ShowChara 7 1 50
+# ちぇっ…本日中に
+# サンタ服を３着用
+# 意しまーすっ！
+ShowTextBox "!!! 40461C 32"
+WaitTextBox
+ShowChara 6 2 41
+# よろしい！
+ShowTextBox "!!! 40461C 33"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 7 1 49
+# （まいったなぁ…
+# どうしよう…）
+ShowTextBox "!!! 40461C 34"
+WaitTextBox
+ShowChara 7 0 48
+# （そうだ！）
+ShowTextBox "!!! 40461C 35"
+WaitTextBox
+ShowChara 7 0 47
+# おい、お前ら！
+ShowTextBox "!!! 40461C 36"
+WaitTextBox
+ShowChara 12 2 59
+# …ゲバ？
+ShowTextBox "!!! 40461C 37"
+WaitTextBox
+ShowChara 7 1 48
+# ふっふっふ…
+ShowTextBox "!!! 40461C 38"
+WaitTextBox
+# 俺、クウ＝エアハ
+# ルト少佐様の命令
+# だ！
+ShowTextBox "!!! 40461C 39"
+WaitTextBox
+# 本日中に…以下略
+# だ！
+ShowTextBox "!!! 40461C 40"
+WaitTextBox
+ShowChara 12 2 59
+# ゲバーっ、そんな
+# の無茶ゲバーっ！
+ShowTextBox "!!! 40461C 41"
+WaitTextBox
+ShowChara 7 1 50
+# いーからやれっ！
+# 返事はどうした！
+ShowTextBox "!!! 40461C 42"
+WaitTextBox
+ShowChara 12 2 59
+# イ、イエッサー、
+# ゲバ…
+ShowTextBox "!!! 40461C 43"
+WaitTextBox
+ShowChara 7 1 48
+# よろしい
+ShowTextBox "!!! 40461C 44"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 12 2 59
+# とほほ…下っぱは
+# つらすぎるゲバ…
+ShowTextBox "!!! 40461C 45"
+WaitTextBox
+EndScript

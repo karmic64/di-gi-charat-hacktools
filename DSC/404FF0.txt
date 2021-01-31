@@ -1,392 +1,71 @@
-DSCBase $404FF0
-
-
-
-
-Subscript 0
-SetBG 112
-Fade 0 30
-ShowChara 4 1 29
-# 今日もクリスマス
-# ぴょ！
-ShowTextBox "!!! 404FF0 0"
-WaitTextBox
-# お祝い続きで、何
-# となくお得な気分
-# ぴょ！
-ShowTextBox "!!! 404FF0 1"
-WaitTextBox
-ShowChara 4 0 28
-# ところで、クリス
-# マスって何の日ぴ
-# ょ？
-ShowTextBox "!!! 404FF0 2"
-WaitTextBox
-ShowChara 7 2 47
-# なんだぴよこ、知
-# らずに祝ってたの
-# か？
-ShowTextBox "!!! 404FF0 3"
-WaitTextBox
-ShowChara 4 1 31
-# むかっ、そういう
-# クウは何の日か知
-# ってるぴょ？
-ShowTextBox "!!! 404FF0 4"
-WaitTextBox
-ShowChara 7 2 52
-# ぴよこが知らない
-# ものを俺が知って
-# るわけないだろ、
-# エヘン！
-ShowTextBox "!!! 404FF0 5"
-WaitTextBox
-ShowChara 6 2 43
-# いばるなって…
-ShowTextBox "!!! 404FF0 6"
-WaitTextBox
-ShowChara 5 1 35
-# ふふ…こんなこと
-# もあろうかと、こ
-# のリク、すでに調
-# 査を終えておりま
-# す…
-ShowTextBox "!!! 404FF0 7"
-WaitTextBox
-ShowChara 4 1 29
-# さすがリクぴょ！
-ShowTextBox "!!! 404FF0 8"
-WaitTextBox
-ShowChara 7 2 47
-# クリスマスって、
-# 誰かの誕生日じゃ
-# なかったっけ？
-ShowTextBox "!!! 404FF0 9"
-WaitTextBox
-ShowChara 6 2 40
-# どこかで聞いたこ
-# とがあるような…
-ShowTextBox "!!! 404FF0 10"
-WaitTextBox
-# クリスト…ファー
-# …なんとか？
-ShowTextBox "!!! 404FF0 11"
-WaitTextBox
-ShowChara 4 1 28
-# たぶん、それは別
-# の人と思うぴょ…
-ShowTextBox "!!! 404FF0 12"
-WaitTextBox
-ShowChara 5 1 39
-# 正解は…
-ShowTextBox "!!! 404FF0 13"
-WaitTextBox
-ShowChara 1 2 10
-# おい～っす、メリ
-# ークリスマスだに
-# ょ～っ！
-ShowTextBox "!!! 404FF0 14"
-WaitTextBox
-ShowChara 5 1 37
-# ああっ、いま、言
-# おうとしたのに…
-ShowTextBox "!!! 404FF0 15"
-WaitTextBox
-ShowChara 1 2 9
-# にょにょ、ブラッ
-# クゲーマーズのし
-# ょくん
-ShowTextBox "!!! 404FF0 16"
-WaitTextBox
-# そこででじこにセ
-# リフをとられて泣
-# いている人をふく
-# め、元気でやっと
-# るかにょ？
-ShowTextBox "!!! 404FF0 17"
-WaitTextBox
-ShowChara 1 0 10
-# でじこの方は、い
-# つもどーり、はて
-# しなく元気にょ！
-ShowTextBox "!!! 404FF0 18"
-WaitTextBox
-ShowChara 4 1 31
-# でじこお姉ちゃん
-# なにしに来たぴょ
-# ！？
-ShowTextBox "!!! 404FF0 19"
-WaitTextBox
-# 残念ながら、クリ
-# スマスケーキはも
-# う全部食べてしま
-# った後ぴょっ！
-ShowTextBox "!!! 404FF0 20"
-WaitTextBox
-ShowChara 1 2 14
-# にょにょ～、甘い
-# にょ～、大甘だに
-# ょ～
-ShowTextBox "!!! 404FF0 21"
-WaitTextBox
-# でじこの狙いはも
-# っと別なところに
-# あるにょ～
-ShowTextBox "!!! 404FF0 22"
-WaitTextBox
-ShowChara 4 1 31
-# ぴょっ…ぴよこに
-# 何をする気ぴょ？
-ShowTextBox "!!! 404FF0 23"
-WaitTextBox
-ShowChara 1 2 14
-# くっくっく…でじ
-# こは、ぴよこに大
-# きなプレゼントを
-# 用意して来たんだ
-# にょ～
-ShowTextBox "!!! 404FF0 24"
-WaitTextBox
-# これをくれてやる
-# にょ～っ！
-ShowTextBox "!!! 404FF0 25"
-WaitTextBox
-ShowChara 4 1 30
-# ぴょ～っ、お、お
-# 助けぴょ～っ！！
-ShowTextBox "!!! 404FF0 26"
-WaitTextBox
-ShowChara 1 2 9
-# はい、ぴよこにク
-# リスマスプレゼン
-# トにょ！
-ShowTextBox "!!! 404FF0 27"
-WaitTextBox
-ShowChara 4 1 33
-# ぴょ…っ？
-ShowTextBox "!!! 404FF0 28"
-WaitTextBox
-ShowChara 1 2 10
-# いつまでもハトが
-# 豆鉄砲くらったよ
-# うな顔してる場合
-# じゃないにょ！早
-# くうけとるにょ！
-ShowTextBox "!!! 404FF0 29"
-WaitTextBox
-ShowChara 4 1 28
-# あ、ありがとうぴ
-# ょ…
-ShowTextBox "!!! 404FF0 30"
-WaitTextBox
-ShowChara 1 2 10
-# にょにょ、それで
-# はブラックゲーマ
-# ーズのしょくん、
-# サラバにょ！
-ShowTextBox "!!! 404FF0 31"
-WaitTextBox
-# でじこは用がすん
-# だから、そそくさ
-# と帰らせてもらう
-# にょ～っ…
-ShowTextBox "!!! 404FF0 32"
-WaitTextBox
-ShowChara 6 1 46
-# 中には何が…？
-ShowTextBox "!!! 404FF0 33"
-WaitTextBox
-ShowChara 7 1 48
-# 開けてみようぜ、
-# 開けてみようぜ！
-ShowTextBox "!!! 404FF0 34"
-WaitTextBox
-ShowChara 5 2 35
-# ん、なぜデ・ジ・
-# キャラットはあん
-# なに急いで帰るの
-# だ…？
-ShowTextBox "!!! 404FF0 35"
-WaitTextBox
-# …………
-ShowTextBox "!!! 404FF0 36"
-WaitTextBox
-ShowChara 5 0 57
-# はっ、まさか！
-ShowTextBox "!!! 404FF0 37"
-WaitTextBox
-ShowChara 4 1 29
-# オープンぴょ～！
-ShowTextBox "!!! 404FF0 38"
-WaitTextBox
-ShowChara 5 2 57
-# 危ないっ、それを
-# 開けてはいけなー
-# い！
-ShowTextBox "!!! 404FF0 39"
-WaitTextBox
-ShowChara 4 1 28
-# ぴょ？
-ShowTextBox "!!! 404FF0 40"
-WaitTextBox
-Fade 3 30
-SetBG 113
-Fade 2 30
-ShowChara 1 1 14
-# どっか～～～～～
-# ～～～～～～～～
-# ～～～～～～～～
-# ～～～～～～～～
-# ～～～～～～ん！
-ShowTextBox "!!! 404FF0 41"
-WaitTextBox
-ShowChara 1 0 9
-# なんと、箱の中身
-# は高性能の爆弾だ
-# ったのだにょっ…
-# て、さすがにそれ
-# はマンガの読みす
-# ぎにょ～
-ShowTextBox "!!! 404FF0 42"
-WaitTextBox
-# でじこがプレゼン
-# トしたのは、もっ
-# と味なモノをなん
-# だにょ～
-ShowTextBox "!!! 404FF0 43"
-WaitTextBox
-# にょにょ、どうい
-# う結果になるか楽
-# しみだにょ～っ
-ShowTextBox "!!! 404FF0 44"
-WaitTextBox
-Fade 1 30
-SetBG 112
-Fade 0 30
-ShowChara 10 2 6
-# にゃ～～～
-ShowTextBox "!!! 404FF0 45"
-WaitTextBox
-ShowChara 6 1 46
-# な、なんだ？
-ShowTextBox "!!! 404FF0 46"
-WaitTextBox
-ShowChara 7 1 47
-# たしか、ほっけみ
-# りんとか言ったっ
-# け…？
-ShowTextBox "!!! 404FF0 47"
-WaitTextBox
-ShowChara 10 2 6
-# にゃ！
-ShowTextBox "!!! 404FF0 48"
-WaitTextBox
-ShowChara 4 1 33
-# ど、どうやって、
-# こんな小さな箱の
-# 中にひそんでいた
-# ぴょ？
-ShowTextBox "!!! 404FF0 49"
-WaitTextBox
-ShowChara 10 2 6
-# にゃ～
-ShowTextBox "!!! 404FF0 50"
-WaitTextBox
-ShowChara 6 1 40
-# クウ、ゆけっ！
-ShowTextBox "!!! 404FF0 51"
-WaitTextBox
-ShowChara 7 1 49
-# いやだーっ！
-# こんな２本足で歩
-# くネコ、いやだー
-# ッ！！
-ShowTextBox "!!! 404FF0 52"
-WaitTextBox
-ShowChara 4 1 30
-# ぴょぴょーっ…！
-# ブラックゲマゲマ
-# 団、最大のピンチ
-# だぴょーっ！
-ShowTextBox "!!! 404FF0 53"
-WaitTextBox
-ShowChara 5 1 39
-# ピョコラ様、ここ
-# は私にお任せを…
-ShowTextBox "!!! 404FF0 54"
-WaitTextBox
-ShowChara 6 1 43
-# リ、リク元帥、キ
-# ケンですっ！
-ShowTextBox "!!! 404FF0 55"
-WaitTextBox
-ShowChara 5 1 39
-# 一見そうは見えな
-# くても、相手は動
-# 物…
-ShowTextBox "!!! 404FF0 56"
-WaitTextBox
-# ゆえに、心を開い
-# て近づくなら、必
-# ず理解しあえるは
-# ず！
-ShowTextBox "!!! 404FF0 57"
-WaitTextBox
-ShowChara 7 1 49
-# リクーっ！
-ShowTextBox "!!! 404FF0 58"
-WaitTextBox
-ShowChara 10 2 6
-# ……ニャ？
-ShowTextBox "!!! 404FF0 59"
-WaitTextBox
-ShowChara 5 1 65
-# ほーら、怖くない
-# 怖くない…
-ShowTextBox "!!! 404FF0 60"
-WaitTextBox
-ShowChara 10 2 6
-# ニャ…
-ShowTextBox "!!! 404FF0 61"
-WaitTextBox
-ShowChara 5 1 65
-# おいでおいで…
-ShowTextBox "!!! 404FF0 62"
-WaitTextBox
-ShowChara 10 2 6
-# ニャー
-ShowTextBox "!!! 404FF0 63"
-WaitTextBox
-ShowChara 5 1 65
-# おー、よしよし…
-ShowTextBox "!!! 404FF0 64"
-WaitTextBox
-ShowChara 4 1 33
-# ぴょっ…
-ShowTextBox "!!! 404FF0 65"
-WaitTextBox
-ShowChara 6 1 41
-# 奇跡だ…リク元帥
-# の心がほっけみり
-# んにとどいたんだ
-# …
-ShowTextBox "!!! 404FF0 66"
-WaitTextBox
-ShowChara 5 1 65
-# ふふ…うふふふふ
-# …ああ…幸せだな
-# ぁ…
-ShowTextBox "!!! 404FF0 67"
-WaitTextBox
-ShowChara 4 1 29
-# クリスマスにふさ
-# わしい、愛の奇跡
-# の物語ぴょっ…！
-ShowTextBox "!!! 404FF0 68"
-WaitTextBox
-ShowChara 7 1 49
-# えー、俺はちょっ
-# とイヤかも…
-ShowTextBox "!!! 404FF0 69"
-WaitTextBox
-EndScript
+DSCBase $404FF0 Subscript 0 SetBG 112 Fade 0 30 ShowChara 4 1 29 ShowTextBox "Christmas Pyo today too!"
+WaitTextBox ShowTextBox "The celebration continues, and it feels like a great deal!"
+WaitTextBox ShowChara 4 0 28 ShowTextBox "By the way, what day is Christmas?"
+WaitTextBox ShowChara 7 2 47 ShowTextBox "What was Piyoko, did you celebrate without knowing it?"
+WaitTextBox ShowChara 4 1 31 ShowTextBox "Hmmm, do you know what day such Ku is?"
+WaitTextBox ShowChara 7 2 52 ShowTextBox "I don't know what Piyoko doesn't know, Ehen!"
+WaitTextBox ShowChara 6 2 43 ShowTextBox "Ibaru ..."
+WaitTextBox ShowChara 5 1 35 ShowTextBox "Fufu ... I wonder if this might happen, this Riku has already completed the investigation ..."
+WaitTextBox ShowChara 4 1 29 ShowTextBox "As expected, Rikupyo!"
+WaitTextBox ShowChara 7 2 47 ShowTextBox "Wasn't Christmas someone's birthday?"
+WaitTextBox ShowChara 6 2 40 ShowTextBox "I've heard it somewhere ..."
+WaitTextBox ShowTextBox "Christ ... Far ... Somehow?"
+WaitTextBox ShowChara 4 1 28 ShowTextBox "Maybe it's another person ..."
+WaitTextBox ShowChara 5 1 39 ShowTextBox "The correct answer is ..."
+WaitTextBox ShowChara 1 2 10 ShowTextBox "Hey, it's Merry Christmas!"
+WaitTextBox ShowChara 5 1 37 ShowTextBox "Oh, I was trying to say it now ..."
+WaitTextBox ShowChara 1 2 9 ShowTextBox "Nyonyo, Black Gamers Shokun"
+WaitTextBox ShowTextBox "Do you want to do it well, including those who are crying because of Di Gi Charat's lines?"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "Di Gi Charat is always in good spirits!"
+WaitTextBox ShowChara 4 1 31 ShowTextBox "Di Gi Charat, what did you come to? ??"
+WaitTextBox ShowTextBox "Unfortunately, after I've already eaten all the Christmas cakes!"
+WaitTextBox ShowChara 1 2 14 ShowTextBox "Nyonyo ~, Sweet Nyo ~, Great Sweet Nyo ~"
+WaitTextBox ShowTextBox "Di Gi Charat's aim is in a different place ~"
+WaitTextBox ShowChara 4 1 31 ShowTextBox "Pyo ... What are you going to do with Piyoko?"
+WaitTextBox ShowChara 1 2 14 ShowTextBox "Di Gi Charat has prepared a big present for Piyoko ~"
+WaitTextBox ShowTextBox "I'll give you this!"
+WaitTextBox ShowChara 4 1 30 ShowTextBox "Pyo, oh, help me! !!"
+WaitTextBox ShowChara 1 2 9 ShowTextBox "Yes, it's a Christmas present for Piyoko!"
+WaitTextBox ShowChara 4 1 33 ShowTextBox "Pyo ...?"
+WaitTextBox ShowChara 1 2 10 ShowTextBox "It's not the case when pigeons look like peashooters forever! I'll get it soon!"
+WaitTextBox ShowChara 4 1 28 ShowTextBox "Oh, thank you ..."
+WaitTextBox ShowChara 1 2 10 ShowTextBox "Nyonyo, then Black Gamers' Shokun, Saraba Nyo!"
+WaitTextBox ShowTextBox "Di Gi Charat is no longer needed, so I'll let him go home soon ..."
+WaitTextBox ShowChara 6 1 46 ShowTextBox "What's inside ...?"
+WaitTextBox ShowChara 7 1 48 ShowTextBox "Let's open it, let's open it!"
+WaitTextBox ShowChara 5 2 35 ShowTextBox "Hmm, why is Di Gi Charat going home so quickly ...?"
+WaitTextBox ShowTextBox "…………"
+WaitTextBox ShowChara 5 0 57 ShowTextBox "No way!"
+WaitTextBox ShowChara 4 1 29 ShowTextBox "Open Pyo!"
+WaitTextBox ShowChara 5 2 57 ShowTextBox "Dangerous, don't open it!"
+WaitTextBox ShowChara 4 1 28 ShowTextBox "Pyo?"
+WaitTextBox Fade 3 30 SetBG 113 Fade 2 30 ShowChara 1 1 14 ShowTextBox "Somewhere ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~!"
+WaitTextBox ShowChara 1 0 9 ShowTextBox "What, the contents of the box was a high-performance bomb ... Well, it's just reading too much manga ~"
+WaitTextBox ShowTextBox "What did Di Gi Charat give as a gift?"
+WaitTextBox ShowTextBox "I'm looking forward to seeing what the result will be."
+WaitTextBox Fade 1 30 SetBG 112 Fade 0 30 ShowChara 10 2 6 ShowTextBox "Nya ~~~"
+WaitTextBox ShowChara 6 1 46 ShowTextBox "What is it?"
+WaitTextBox ShowChara 7 1 47 ShowTextBox "Did you say Hokke Mirin ...?"
+WaitTextBox ShowChara 10 2 6 ShowTextBox "Nya!"
+WaitTextBox ShowChara 4 1 33 ShowTextBox "How did you hide in such a small box?"
+WaitTextBox ShowChara 10 2 6 ShowTextBox "Nya ~"
+WaitTextBox ShowChara 6 1 40 ShowTextBox "Ku, go!"
+WaitTextBox ShowChara 7 1 49 ShowTextBox "No! I don't like a cat walking on two legs like this! !!"
+WaitTextBox ShowChara 4 1 30 ShowTextBox "Pyo Pyo ...! Black Gemagema Dan, the biggest pinch!"
+WaitTextBox ShowChara 5 1 39 ShowTextBox "Pyocola, leave it to me ..."
+WaitTextBox ShowChara 6 1 43 ShowTextBox "Li, Marshal Riku, Kiken!"
+WaitTextBox ShowChara 5 1 39 ShowTextBox "Even if it doesn't look like it at first glance, the other party is an animal ..."
+WaitTextBox ShowTextBox "Therefore, if you open your heart and approach, you will surely understand each other!"
+WaitTextBox ShowChara 7 1 49 ShowTextBox "Riku!"
+WaitTextBox ShowChara 10 2 6 ShowTextBox "...... Nya?"
+WaitTextBox ShowChara 5 1 65 ShowTextBox "Hey, not scary, not scary ..."
+WaitTextBox ShowChara 10 2 6 ShowTextBox "Nya ..."
+WaitTextBox ShowChara 5 1 65 ShowTextBox "Come on ..."
+WaitTextBox ShowChara 10 2 6 ShowTextBox "Meow"
+WaitTextBox ShowChara 5 1 65 ShowTextBox "Oh, good ..."
+WaitTextBox ShowChara 4 1 33 ShowTextBox "Pyo ..."
+WaitTextBox ShowChara 6 1 41 ShowTextBox "It's a miracle ... Marshal Riku's heart has reached Hokke Mirin ..."
+WaitTextBox ShowChara 5 1 65 ShowTextBox "Fufu ... Ufufufufu ... Oh ... I'm happy ..."
+WaitTextBox ShowChara 4 1 29 ShowTextBox "A miracle story of love, suitable for Christmas ...!"
+WaitTextBox ShowChara 7 1 49 ShowTextBox "Well, I don't like it ..."
+WaitTextBox EndScript 

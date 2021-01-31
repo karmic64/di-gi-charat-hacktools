@@ -1,379 +1,70 @@
-DSCBase $3F7D80
-
-
-
-
-Subscript 0
-SetBG 111
-Fade 0 30
-ShowChara 2 1 22
-# えっ、アタシに電
-# 話？　いったい、
-# 誰からかしら…
-ShowTextBox "!!! 3F7D80 0"
-WaitTextBox
-ShowChara 2 0 23
-# はい、ただいま、
-# お電話替わりまし
-# た…
-ShowTextBox "!!! 3F7D80 1"
-WaitTextBox
-ShowChara 2 0 22
-# なぁんだ、でじこ
-# じゃない
-ShowTextBox "!!! 3F7D80 2"
-WaitTextBox
-# どうしたの、急ぎ
-# の用事？
-ShowTextBox "!!! 3F7D80 3"
-WaitTextBox
-# ふーん、体育の日
-# の運動会に出るこ
-# とにしたんだ
-ShowTextBox "!!! 3F7D80 4"
-WaitTextBox
-# 来週の月曜日だっ
-# け？　いいんじゃ
-# ない、体育の日な
-# んだし
-ShowTextBox "!!! 3F7D80 5"
-WaitTextBox
-# えっ、アタシも出
-# るって何？
-ShowTextBox "!!! 3F7D80 6"
-WaitTextBox
-ShowChara 2 0 24
-# ちょっと待って、
-# もう申し込みは済
-# ませたって何のこ
-# とよ！
-ShowTextBox "!!! 3F7D80 7"
-WaitTextBox
-ShowChara 2 0 22
-# もしもし、もしも
-# しっ！　…切れち
-# ゃった
-ShowTextBox "!!! 3F7D80 8"
-WaitTextBox
-ShowChara 2 0 24
-# ねぇ店長さん、聞
-# いてっ！
-ShowTextBox "!!! 3F7D80 9"
-WaitTextBox
-# でじこったら、ア
-# タシに一言も相談
-# しないで、運動会
-# に出るって決めた
-# のよーっ！
-ShowTextBox "!!! 3F7D80 10"
-WaitTextBox
-# いいんじゃないの
-# って、店長さん、
-# よくないわよー！
-ShowTextBox "!!! 3F7D80 11"
-WaitTextBox
-# だってアタシにも
-# 予定とかいろいろ
-# …えっ、優勝した
-# らハワイ旅行！？
-ShowTextBox "!!! 3F7D80 12"
-WaitTextBox
-ShowChara 2 0 22
-# …………
-ShowTextBox "!!! 3F7D80 13"
-WaitTextBox
-# いいかも…
-ShowTextBox "!!! 3F7D80 14"
-WaitTextBox
-ShowChara 2 0 23
-# もしもし、あっ、
-# でじこ、アタシよ
-# アタシ！
-ShowTextBox "!!! 3F7D80 15"
-WaitTextBox
-# さっきの話だけど
-# よろこんで参加さ
-# せてもらうわ！
-ShowTextBox "!!! 3F7D80 16"
-WaitTextBox
-ShowChara 2 0 26
-# 目指すはハワイ…
-# じゃなくて、優勝
-# っ！
-ShowTextBox "!!! 3F7D80 17"
-WaitTextBox
-# おほほほほ、それ
-# じゃあね！
-ShowTextBox "!!! 3F7D80 18"
-WaitTextBox
-# さーて、気合入れ
-# ていかなくっちゃ
-# ーっ！
-ShowTextBox "!!! 3F7D80 19"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-Unk08 2 148 56 32 84 10 3
-SetBG 125
-Fade 0 30
-ShowChara 14 1 63
-# 《ただいまより、
-# 第××回市民運動
-# 会を開催いたしま
-# す――》
-ShowTextBox "!!! 3F7D80 20"
-WaitTextBox
-ShowChara 2 2 26
-# 目指すは優勝っ、
-# はりきっていきま
-# しょう！
-ShowTextBox "!!! 3F7D80 21"
-WaitTextBox
-ShowChara 1 1 10
-# にょ～っ！
-ShowTextBox "!!! 3F7D80 22"
-WaitTextBox
-ShowChara 3 1 18
-# にゅ～っ
-ShowTextBox "!!! 3F7D80 23"
-WaitTextBox
-ShowChara 8 2 53
-# ゲマーっ！
-ShowTextBox "!!! 3F7D80 24"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 8 2 53
-# そんなこんなでプ
-# ログラムは進み、
-# ついに最終種目、
-# １００メートル走
-# の時間がやってき
-# たゲマ！
-ShowTextBox "!!! 3F7D80 25"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 1 1 8
-# 長い長い戦いだっ
-# たにょ
-ShowTextBox "!!! 3F7D80 26"
-WaitTextBox
-# しかし…この戦い
-# に勝てば、でじこ
-# たちの優勝にょ
-ShowTextBox "!!! 3F7D80 27"
-WaitTextBox
-ShowChara 2 2 26
-# いざ栄冠はキミに
-# 輝かん
-ShowTextBox "!!! 3F7D80 28"
-WaitTextBox
-# そうっ、あの大優
-# 勝旗を持って帰る
-# のはアタシたちよ
-# ！
-ShowTextBox "!!! 3F7D80 29"
-WaitTextBox
-ShowChara 3 1 17
-# で、１００メート
-# ル走には誰が出る
-# にゅ？
-ShowTextBox "!!! 3F7D80 30"
-WaitTextBox
-ShowChara 2 2 26
-# アタシが出るわ！
-ShowTextBox "!!! 3F7D80 31"
-WaitTextBox
-# この中で一番足が
-# 早いのってアタシ
-# だもの！
-ShowTextBox "!!! 3F7D80 32"
-WaitTextBox
-ShowChara 1 1 8
-# いつになく本気だ
-# にょ～
-ShowTextBox "!!! 3F7D80 33"
-WaitTextBox
-ShowChara 3 1 17
-# まかせたにゅ
-ShowTextBox "!!! 3F7D80 34"
-WaitTextBox
-ShowChara 8 2 53
-# それでは、うさだ
-# が走ることに決ま
-# りゲマ…
-ShowTextBox "!!! 3F7D80 35"
-WaitTextBox
-Fade 3 30
-SetBG 41
-Fade 2 30
-ShowChara 2 0 0
-# 最後に靴のチェック…
-ShowTextBox "!!! 3F7D80 36"
-WaitTextBox
-# 念入りに念入りに…
-ShowTextBox "!!! 3F7D80 37"
-WaitTextBox
-# よしっ、準備ＯＫっ、
-# いくわよーっ！
-ShowTextBox "!!! 3F7D80 38"
-WaitTextBox
-Fade 1 30
-SetBG 125
-Fade 0 30
-ShowChara 14 1 63
-# 『位置について…』
-ShowTextBox "!!! 3F7D80 39"
-WaitTextBox
-ShowChara 3 2 17
-# スタートにゅ…
-ShowTextBox "!!! 3F7D80 40"
-WaitTextBox
-ShowChara 14 1 63
-# 『よーい…』
-ShowTextBox "!!! 3F7D80 41"
-WaitTextBox
-ShowChara 1 2 8
-# にょにょ～、うさ
-# だのやつ、本気と
-# 書いてマジと読む
-# 状態だにょ～
-ShowTextBox "!!! 3F7D80 42"
-WaitTextBox
-ShowChara 14 1 63
-# 『ドン！』
-ShowTextBox "!!! 3F7D80 43"
-WaitTextBox
-Fade 3 120
-Wait 60
-Fade 2 30
-ShowChara 2 2 26
-# おほほほほ、優勝
-# よ、優勝っ！
-ShowTextBox "!!! 3F7D80 44"
-WaitTextBox
-ShowChara 1 1 9
-# ぱちぱちぱち
-ShowTextBox "!!! 3F7D80 45"
-WaitTextBox
-ShowChara 3 1 18
-# ぱちぱちぱち
-ShowTextBox "!!! 3F7D80 46"
-WaitTextBox
-ShowChara 1 1 9
-# 今回は、本気なう
-# さだの本気な走り
-# がすべてだったに
-# ょ～
-ShowTextBox "!!! 3F7D80 47"
-WaitTextBox
-ShowChara 8 2 53
-# いや～最初っから
-# 最後までぶっちぎ
-# りの文句なしの快
-# 勝ゲマ！
-ShowTextBox "!!! 3F7D80 48"
-WaitTextBox
-ShowChara 3 1 17
-# ちょっと大人気な
-# いぐらいだったに
-# ゅ
-ShowTextBox "!!! 3F7D80 49"
-WaitTextBox
-ShowChara 2 2 26
-# うふふ、もっとほ
-# めてー！
-ShowTextBox "!!! 3F7D80 50"
-WaitTextBox
-ShowChara 1 1 9
-# えらいにょ～
-ShowTextBox "!!! 3F7D80 51"
-WaitTextBox
-ShowChara 3 1 18
-# えらいにゅ
-ShowTextBox "!!! 3F7D80 52"
-WaitTextBox
-ShowChara 2 2 23
-# さーて、じゃぁ、
-# 賞品のハワイ旅行
-# をみなで拝もうか
-# しら
-ShowTextBox "!!! 3F7D80 53"
-WaitTextBox
-# じゃ～ん、これが
-# 夢にまでに見た、
-# ハワイのチケット
-# …
-ShowTextBox "!!! 3F7D80 54"
-WaitTextBox
-ShowChara 2 0 22
-# あれっ？
-ShowTextBox "!!! 3F7D80 55"
-WaitTextBox
-ShowChara 8 2 53
-# どうしたゲマ？
-ShowTextBox "!!! 3F7D80 56"
-WaitTextBox
-ShowChara 2 2 22
-# 『ようこそ、羽合
-# 温泉へ』…？
-ShowTextBox "!!! 3F7D80 57"
-WaitTextBox
-ShowChara 2 0 25
-# なにこれ、「ハワ
-# イ」じゃなくて、
-# 「羽合」じゃない
-# の！
-ShowTextBox "!!! 3F7D80 58"
-WaitTextBox
-ShowChara 1 1 8
-# にょっ…？
-ShowTextBox "!!! 3F7D80 59"
-WaitTextBox
-ShowChara 3 1 17
-# にゅっ…？
-ShowTextBox "!!! 3F7D80 60"
-WaitTextBox
-ShowChara 2 2 27
-# だまされたーっ！
-ShowTextBox "!!! 3F7D80 61"
-WaitTextBox
-ShowChara 1 1 8
-# う、うさだは何を
-# 騒いでるにょ？
-ShowTextBox "!!! 3F7D80 62"
-WaitTextBox
-ShowChara 3 1 17
-# 分からないにゅ
-ShowTextBox "!!! 3F7D80 63"
-WaitTextBox
-ShowChara 2 2 25
-# ぐすん…まるでバ
-# カみたい…
-ShowTextBox "!!! 3F7D80 64"
-WaitTextBox
-ShowChara 8 2 53
-# えーと、羽合旅行
-# は来月の１０日ゲ
-# マ！
-ShowTextBox "!!! 3F7D80 65"
-WaitTextBox
-ShowChara 1 1 9
-# 楽しみだにょっ！
-ShowTextBox "!!! 3F7D80 66"
-WaitTextBox
-ShowChara 3 1 18
-# 待ち遠しいにゅ
-ShowTextBox "!!! 3F7D80 67"
-WaitTextBox
-ShowChara 2 2 25
-# アタシのハワイ…
-ShowTextBox "!!! 3F7D80 68"
-WaitTextBox
-EndScript
+DSCBase $3F7D80 Subscript 0 SetBG 111 Fade 0 30 ShowChara 2 1 22 ShowTextBox "Eh, call me? Who on earth is it from ..."
+WaitTextBox ShowChara 2 0 23 ShowTextBox "Yes, I just changed the phone ..."
+WaitTextBox ShowChara 2 0 22 ShowTextBox "Hey, it's not big"
+WaitTextBox ShowTextBox "What's wrong, urgent business?"
+WaitTextBox ShowTextBox "Hmmm, I decided to attend an athletic meet on Health and Sports Day"
+WaitTextBox ShowTextBox "Is it next Monday? It's not good, it's Health and Sports Day."
+WaitTextBox ShowTextBox "Well, what is it that I also come out?"
+WaitTextBox ShowChara 2 0 24 ShowTextBox "Wait a minute, what does it mean that you have already applied!"
+WaitTextBox ShowChara 2 0 22 ShowTextBox "Hello, hello! … It has expired"
+WaitTextBox ShowChara 2 0 24 ShowTextBox "Hey store manager, listen!"
+WaitTextBox ShowTextBox "If I get stuck, I decided to go to the athletic meet without consulting with me!"
+WaitTextBox ShowTextBox "It's not good, store manager, it's not good!"
+WaitTextBox ShowTextBox "Because I have a lot of plans ... Well, if I win, I'll travel to Hawaii! ??"
+WaitTextBox ShowChara 2 0 22 ShowTextBox "…………"
+WaitTextBox ShowTextBox "Maybe ..."
+WaitTextBox ShowChara 2 0 23 ShowTextBox "Hello, Di Gi Charat, I am!"
+WaitTextBox ShowTextBox "As I said earlier, I'm happy to participate!"
+WaitTextBox ShowChara 2 0 26 ShowTextBox "The aim is Hawaii ... not the victory!"
+WaitTextBox ShowTextBox "Cheeks, cheeks, that's it!"
+WaitTextBox ShowTextBox "Well, I have to get excited!"
+WaitTextBox EndScript Subscript 1 Unk08 2 148 56 32 84 10 3 SetBG 125 Fade 0 30 ShowChara 14 1 63 ShowTextBox "<< We will hold the XXth Citizens' Athletic Meet from now on-- >>"
+WaitTextBox ShowChara 2 2 26 ShowTextBox "Aim to win, let's do our best!"
+WaitTextBox ShowChara 1 1 10 ShowTextBox "Nyo!"
+WaitTextBox ShowChara 3 1 18 ShowTextBox "Nyu ~"
+WaitTextBox ShowChara 8 2 53 ShowTextBox "Gemmer!"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 8 2 53 ShowTextBox "With that, the program went on, and finally the final event, the 100-meter dash time, came!"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 1 1 8 ShowTextBox "It was a long and long battle"
+WaitTextBox ShowTextBox "But ... if you win this battle, Di Gi Charat will win."
+WaitTextBox ShowChara 2 2 26 ShowTextBox "The crown shines on you"
+WaitTextBox ShowTextBox "Well, we are the ones who bring that big championship flag home!"
+WaitTextBox ShowChara 3 1 17 ShowTextBox "So who will be in the 100-meter dash?"
+WaitTextBox ShowChara 2 2 26 ShowTextBox "I'll come out!"
+WaitTextBox ShowTextBox "I'm the fastest of these!"
+WaitTextBox ShowChara 1 1 8 ShowTextBox "It's more serious than ever ~"
+WaitTextBox ShowChara 3 1 17 ShowTextBox "I left it to you"
+WaitTextBox ShowChara 8 2 53 ShowTextBox "Well then, it's a rabbit, but it's decided to run."
+WaitTextBox Fade 3 30 SetBG 41 Fade 2 30 ShowChara 2 0 0 ShowTextBox "Finally check the shoes ..."
+WaitTextBox ShowTextBox "Carefully and carefully ..."
+WaitTextBox ShowTextBox "Alright, preparation is OK, let's go!"
+WaitTextBox Fade 1 30 SetBG 125 Fade 0 30 ShowChara 14 1 63 ShowTextBox "\"About the position ...\""
+WaitTextBox ShowChara 3 2 17 ShowTextBox "Start ..."
+WaitTextBox ShowChara 14 1 63 ShowTextBox "\"Yeah ...\""
+WaitTextBox ShowChara 1 2 8 ShowTextBox "Nyonyo ~, Usada's guy, I'm in a state where I write it seriously and read it seriously ~"
+WaitTextBox ShowChara 14 1 63 ShowTextBox "\"Don!\""
+WaitTextBox Fade 3 120 Wait 60 Fade 2 30 ShowChara 2 2 26 ShowTextBox "Cheeks, cheeks, win, win!"
+WaitTextBox ShowChara 1 1 9 ShowTextBox "Crackling crackling"
+WaitTextBox ShowChara 3 1 18 ShowTextBox "Crackling crackling"
+WaitTextBox ShowChara 1 1 9 ShowTextBox "This time, it was all about the serious running of the serious rabbit ~"
+WaitTextBox ShowChara 8 2 53 ShowTextBox "No, it's a perfect victory game from the beginning to the end!"
+WaitTextBox ShowChara 3 1 17 ShowTextBox "It wasn't very popular"
+WaitTextBox ShowChara 2 2 26 ShowTextBox "Ufufu, praise more!"
+WaitTextBox ShowChara 1 1 9 ShowTextBox "Great!"
+WaitTextBox ShowChara 3 1 18 ShowTextBox "Great Nyu"
+WaitTextBox ShowChara 2 2 23 ShowTextBox "Well then, I wonder if everyone can worship the prize trip to Hawaii."
+WaitTextBox ShowTextBox "Well, this is the Hawaiian ticket I dreamed of ..."
+WaitTextBox ShowChara 2 0 22 ShowTextBox "What?"
+WaitTextBox ShowChara 8 2 53 ShowTextBox "What's wrong?"
+WaitTextBox ShowChara 2 2 22 ShowTextBox "\"Welcome to Hawaionsen\" ...?"
+WaitTextBox ShowChara 2 0 25 ShowTextBox "What is this, not \"Hawaii\", not \"Hawai\"!"
+WaitTextBox ShowChara 1 1 8 ShowTextBox "Nyo ...?"
+WaitTextBox ShowChara 3 1 17 ShowTextBox "Nyu ...?"
+WaitTextBox ShowChara 2 2 27 ShowTextBox "I was fooled!"
+WaitTextBox ShowChara 1 1 8 ShowTextBox "Uh, what is Usada making noise?"
+WaitTextBox ShowChara 3 1 17 ShowTextBox "I don't know"
+WaitTextBox ShowChara 2 2 25 ShowTextBox "Gusun ... It's like an idiot ..."
+WaitTextBox ShowChara 8 2 53 ShowTextBox "Well, the Hawai trip will be on the 10th of next month!"
+WaitTextBox ShowChara 1 1 9 ShowTextBox "I'm looking forward to it!"
+WaitTextBox ShowChara 3 1 18 ShowTextBox "I can't wait"
+WaitTextBox ShowChara 2 2 25 ShowTextBox "My Hawaii ..."
+WaitTextBox EndScript 

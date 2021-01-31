@@ -1,132 +1,18 @@
-DSCBase $4184A0
-
-
-
-
-Subscript 0
-ShowChara 8 1 1
-# ゲマゲマー！
-# ここがお店の中ゲ
-# マー！
-ShowTextBox "!!! 4184A0 0"
-WaitTextBox
-# お客さんが買い物
-# をするようすや、
-# みんなのはたらく
-# ようすを見ること
-# ができるゲマ！
-ShowTextBox "!!! 4184A0 1"
-WaitTextBox
-# 月曜から土曜日ま
-# で、ここでお店の
-# ようすをチェック
-# するゲマ
-ShowTextBox "!!! 4184A0 2"
-WaitTextBox
-# みんなにカーソル
-# を合わせて、Ａボ
-# タンを押すと話す
-# ことができるゲマ
-ShowTextBox "!!! 4184A0 3"
-WaitTextBox
-# わからないところ
-# があったら、そこ
-# にカーソルを動か
-# して、セレクトボ
-# タンを押すゲマ！
-ShowTextBox "!!! 4184A0 4"
-WaitTextBox
-# それじゃあ
-# ゲーマーズ開店ゲ
-# マー！
-ShowTextBox "!!! 4184A0 5"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 1
-ShowChara 8 2 1
-# 店長さん、みんな
-# お仕事をサボって
-# ないゲマ？
-ShowTextBox "!!! 4184A0 6"
-WaitTextBox
-ShowChara 8 0 54
-# もしも\x04レジ係\x1aと
-# \x04接客係\x1aがサボって
-# しまうと…
-ShowTextBox "!!! 4184A0 7"
-WaitTextBox
-# お客さんの相手が
-# できなくて、\x01お客
-# さんが来なくなる\x1a
-# ゲマー！
-ShowTextBox "!!! 4184A0 8"
-WaitTextBox
-ShowChara 8 0 1
-# \x04レジ係\x1aと\x04接客係\x1aの
-# ヤル気が下がって
-# いたら、Ａボタン
-# を押してはげまし
-# てあげるゲマー！
-ShowTextBox "!!! 4184A0 9"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 2
-ShowChara 8 2 1
-# みんなのやりたい
-# お仕事が重なるこ
-# とがあるゲマね
-ShowTextBox "!!! 4184A0 10"
-WaitTextBox
-# やりたいお仕事に
-# なった方はヤル気
-# が上がるけど
-ShowTextBox "!!! 4184A0 11"
-WaitTextBox
-# やりたくないお仕
-# 事になった方は、
-# ヤル気が下がって
-# しまうゲマ…
-ShowTextBox "!!! 4184A0 12"
-WaitTextBox
-# そんなときは、毎
-# 日話しかけてあげ
-# るゲマ
-ShowTextBox "!!! 4184A0 13"
-WaitTextBox
-# 店長さんに話しか
-# けてもらえば、少
-# しだけヤル気が出
-# るゲマ～！
-ShowTextBox "!!! 4184A0 14"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 3
-ShowChara 8 2 1
-# みんなが\x04ヤル気ま
-# んまんな時に話し
-# かける\x1aと、お客さ
-# んから\x04流行グッズ
-# を聞いてくること
-# がある\x1aゲマ！
-ShowTextBox "!!! 4184A0 15"
-WaitTextBox
-# 次の仕入れで、そ
-# のグッズを仕入れ
-# たらたくさん売れ
-# るゲマ！
-ShowTextBox "!!! 4184A0 16"
-WaitTextBox
-HideChara
-EndScript
+DSCBase $4184A0 Subscript 0 ShowChara 8 1 1 ShowTextBox "Gemagema! This is the gamer inside the store!"
+WaitTextBox ShowTextBox "Gema where you can see how customers work and how everyone works!"
+WaitTextBox ShowTextBox "Gema to check the shop here from Monday to Saturday"
+WaitTextBox ShowTextBox "Gema that you can talk by moving the cursor to everyone and pressing the A button"
+WaitTextBox ShowTextBox "If there is something you don't understand, move the cursor there and press the select button."
+WaitTextBox ShowTextBox "Then Gamers opened Gamers!"
+WaitTextBox HideChara EndScript Subscript 1 ShowChara 8 2 1 ShowTextBox "Store manager, isn't everyone skipping work?"
+WaitTextBox ShowChara 8 0 54 ShowTextBox "If \x04cashier \x1aand \x04waiter \x1askip ..."
+WaitTextBox ShowTextBox "\x01 Customers will not come because I can't deal with customers \x1aGemmer!"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "\x04 Cashier \x1aand \x04Waitress \x1aIf you're feeling down, press the A button to bald!"
+WaitTextBox HideChara EndScript Subscript 2 ShowChara 8 2 1 ShowTextBox "The work that everyone wants to do may overlap"
+WaitTextBox ShowTextBox "If you get the job you want to do, you'll feel better"
+WaitTextBox ShowTextBox "If you have a job that you don't want to do, you'll feel down."
+WaitTextBox ShowTextBox "In such a case, I will talk to you every day."
+WaitTextBox ShowTextBox "If you talk to the store manager, you'll feel a little sick!"
+WaitTextBox HideChara EndScript Subscript 3 ShowChara 8 2 1 ShowTextBox "\x04 \x1athat everyone talks to when they're at ease, and \x1athat sometimes asks customers for trendy goods \x1aGema!"
+WaitTextBox ShowTextBox "In the next purchase, if you purchase the goods, you can sell a lot!"
+WaitTextBox HideChara EndScript 

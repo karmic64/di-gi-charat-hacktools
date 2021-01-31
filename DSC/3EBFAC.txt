@@ -1,262 +1,40 @@
-DSCBase $3EBFAC
-
-
-
-
-Subscript 0
-ShowChara 3 4 17
-# ぷちこ、昨日$1が$2で、$3してたの見たにゅ
-ShowTextBox "!!! 3EBFAC 0"
-WaitTextBox
-ShowChara 3 0 21
-# さびしそうだったにゅ
-ShowTextBox "!!! 3EBFAC 1"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 3 4 17
-# $1でも教えれば、$2くらいできるにゅ
-ShowTextBox "!!! 3EBFAC 2"
-WaitTextBox
-# 馬鹿にしたもんじゃないにゅ
-ShowTextBox "!!! 3EBFAC 3"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 3 4 18
-# $1は本場$2産に限るにゅ
-ShowTextBox "!!! 3EBFAC 4"
-WaitTextBox
-# 今度いっしょに食べるにゅ！
-ShowTextBox "!!! 3EBFAC 5"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 3 4 17
-# $1は$2に乗って、故郷に帰ったにゅ
-ShowTextBox "!!! 3EBFAC 6"
-WaitTextBox
-ShowChara 3 0 21
-# 落ちぶれたもんにゅ
-ShowTextBox "!!! 3EBFAC 7"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-ShowChara 3 4 21
-# その話を聞いて、$1もきっと救われるにゅ
-ShowTextBox "!!! 3EBFAC 8"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-ShowChara 3 4 18
-# 思い出は大切にゅ
-ShowTextBox "!!! 3EBFAC 9"
-WaitTextBox
-ShowChara 3 0 21
-# $1のあの笑顔を忘れないにゅ…
-ShowTextBox "!!! 3EBFAC 10"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-ShowChara 3 4 21
-# ぷちこ、いつか$1に乗って、お空を飛びたいにゅ
-ShowTextBox "!!! 3EBFAC 11"
-WaitTextBox
-ShowChara 3 0 17
-# ムリにゅ？
-ShowTextBox "!!! 3EBFAC 12"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-ShowChara 3 4 17
-# ぷちこ、１度でいいから$1をさわってみたいにゅ
-ShowTextBox "!!! 3EBFAC 13"
-WaitTextBox
-# この際、$2でもいいにゅ
-ShowTextBox "!!! 3EBFAC 14"
-WaitTextBox
-EndScript
-
-
-
-Subscript 8
-ShowChara 3 4 21
-# ぷちこ、昨日お店の裏で$1の花を見つけたにゅ
-ShowTextBox "!!! 3EBFAC 15"
-WaitTextBox
-# 風流にゅ…
-ShowTextBox "!!! 3EBFAC 16"
-WaitTextBox
-EndScript
-
-
-
-Subscript 9
-ShowChara 3 4 17
-# おかげさまで『$1』グッズは大人気にゅ
-ShowTextBox "!!! 3EBFAC 17"
-WaitTextBox
-ShowChara 3 0 18
-# 今年のビッグヒット商品にゅ！
-ShowTextBox "!!! 3EBFAC 18"
-WaitTextBox
-EndScript
-
-
-
-Subscript 10
-ShowChara 3 4 21
-# 人生楽ありゃ苦もあるんだにゅ
-ShowTextBox "!!! 3EBFAC 19"
-WaitTextBox
-ShowChara 3 0 18
-# $1、えんやこらにゅ
-ShowTextBox "!!! 3EBFAC 20"
-WaitTextBox
-EndScript
-
-
-
-Subscript 11
-ShowChara 3 4 18
-# それって『すてきなデフレスパイラル』にゅ？
-ShowTextBox "!!! 3EBFAC 21"
-WaitTextBox
-ShowChara 8 4 2
-# ぷちこ、言ってる意味分かってないゲマ
-ShowTextBox "!!! 3EBFAC 22"
-WaitTextBox
-EndScript
-
-
-
-Subscript 12
-ShowChara 3 4 17
-# …$1
-# ぷちこのオススメ
-# ドリンクにゅ！
-ShowTextBox "!!! 3EBFAC 23"
-WaitTextBox
-ShowChara 3 0 18
-# 店長さんも気に入
-# ると思うにゅ！
-ShowTextBox "!!! 3EBFAC 24"
-WaitTextBox
-EndScript
-
-
-
-Subscript 13
-ShowChara 3 4 21
-# おなかが空いた時
-# 頭の中で$1を思い浮かべるにゅ
-ShowTextBox "!!! 3EBFAC 25"
-WaitTextBox
-ShowChara 3 0 20
-# …そうすれば少し
-# だけ元気になれる
-# にゅ
-ShowTextBox "!!! 3EBFAC 26"
-WaitTextBox
-EndScript
-
-
-
-Subscript 14
-ShowChara 3 4 17
-# $1で今度『$2』のイベントショーがあるにゅ！
-ShowTextBox "!!! 3EBFAC 27"
-WaitTextBox
-ShowChara 3 0 18
-# ぷちこ、店長さん
-# におねだりしてい
-# いかにゅ？
-ShowTextBox "!!! 3EBFAC 28"
-WaitTextBox
-ShowChara 3 0 19
-# ちょっとは気を使
-# えにゅ！
-ShowTextBox "!!! 3EBFAC 29"
-WaitTextBox
-EndScript
-
-
-
-Subscript 15
-ShowChara 3 4 17
-# $1は今若者に人気あるお仕事にゅ
-ShowTextBox "!!! 3EBFAC 30"
-WaitTextBox
-ShowChara 3 0 21
-# でも、ぷちこはお
-# 部屋でのんびり$2してたいにゅ
-ShowTextBox "!!! 3EBFAC 31"
-WaitTextBox
-EndScript
-
-
-
-Subscript 16
-ShowChara 3 4 17
-# 仕事が終ったら、
-# $1で「おつかれさ～ん」にゅ
-ShowTextBox "!!! 3EBFAC 32"
-WaitTextBox
-ShowChara 3 0 21
-# ゆとりある職場っ
-# てステキにゅ
-ShowTextBox "!!! 3EBFAC 33"
-WaitTextBox
-EndScript
-
-
-
-Subscript 17
-ShowChara 3 4 18
-# ぷちこに『$1』から出演依頼が来たにゅ
-ShowTextBox "!!! 3EBFAC 34"
-WaitTextBox
-ShowChara 3 0 17
-# でも、ぷちこはお
-# 店が大切にゅ
-# きっぱり断ったにゅ！
-ShowTextBox "!!! 3EBFAC 35"
-WaitTextBox
-EndScript
-
-
-
-Subscript 18
-ShowChara 3 4 18
-# ミス$1の優勝商品は豪華クルージングツアーにゅ
-ShowTextBox "!!! 3EBFAC 36"
-WaitTextBox
-# $2に乗って$3まで行くにゅ
-ShowTextBox "!!! 3EBFAC 37"
-WaitTextBox
-ShowChara 3 0 17
-# それってリッチにゅ？
-ShowTextBox "!!! 3EBFAC 38"
-WaitTextBox
-EndScript
+DSCBase $3EBFAC Subscript 0 ShowChara 3 4 17 ShowTextBox "Puchiko, I saw that $1 was $2 and $3 yesterday"
+WaitTextBox ShowChara 3 0 21 ShowTextBox "It looked lonely"
+WaitTextBox EndScript Subscript 1 ShowChara 3 4 17 ShowTextBox "If you tell me even $1, you can do about $2."
+WaitTextBox ShowTextBox "I'm not a fool"
+WaitTextBox EndScript Subscript 2 ShowChara 3 4 18 ShowTextBox "$1 is limited to genuine $2 production"
+WaitTextBox ShowTextBox "I'll eat it together next time!"
+WaitTextBox EndScript Subscript 3 ShowChara 3 4 17 ShowTextBox "$1 got on $2 and went home"
+WaitTextBox ShowChara 3 0 21 ShowTextBox "Fallen Monnyu"
+WaitTextBox EndScript Subscript 4 ShowChara 3 4 21 ShowTextBox "Hearing that story, $1 will surely be saved."
+WaitTextBox EndScript Subscript 5 ShowChara 3 4 18 ShowTextBox "Memories are important"
+WaitTextBox ShowChara 3 0 21 ShowTextBox "I will never forget that smile of $1 ..."
+WaitTextBox EndScript Subscript 6 ShowChara 3 4 21 ShowTextBox "Puchiko, someday I want to ride $1 and fly in the sky"
+WaitTextBox ShowChara 3 0 17 ShowTextBox "Muri Nyu?"
+WaitTextBox EndScript Subscript 7 ShowChara 3 4 17 ShowTextBox "Puchiko, I want to touch $1 because it's okay to do it once"
+WaitTextBox ShowTextBox "At this time, $2 is fine"
+WaitTextBox EndScript Subscript 8 ShowChara 3 4 21 ShowTextBox "Puchiko, I found a $1 flower in the back of the shop yesterday"
+WaitTextBox ShowTextBox "Fuyu Nyu ..."
+WaitTextBox EndScript Subscript 9 ShowChara 3 4 17 ShowTextBox "Thanks to you, \"$1\" goods are mature"
+WaitTextBox ShowChara 3 0 18 ShowTextBox "This year's big hit product Nyu!"
+WaitTextBox EndScript Subscript 10 ShowChara 3 4 21 ShowTextBox "If life is easy, there will be pain."
+WaitTextBox ShowChara 3 0 18 ShowTextBox "$1, Enya Koranyu"
+WaitTextBox EndScript Subscript 11 ShowChara 3 4 18 ShowTextBox "Is that a \"nice deflationary spiral\"?"
+WaitTextBox ShowChara 8 4 2 ShowTextBox "Puchiko, I don't understand what you mean"
+WaitTextBox EndScript Subscript 12 ShowChara 3 4 17 ShowTextBox "… $1 Petit This recommended drink Nyu!"
+WaitTextBox ShowChara 3 0 18 ShowTextBox "I think the store manager will like it too!"
+WaitTextBox EndScript Subscript 13 ShowChara 3 4 21 ShowTextBox "When I'm hungry, I think of $1 in my head"
+WaitTextBox ShowChara 3 0 20 ShowTextBox "… Then you can get a little better"
+WaitTextBox EndScript Subscript 14 ShowChara 3 4 17 ShowTextBox "There will be a \"$2\" event show for $1!"
+WaitTextBox ShowChara 3 0 18 ShowTextBox "Puchiko, can I ask the store manager?"
+WaitTextBox ShowChara 3 0 19 ShowTextBox "Take care a little!"
+WaitTextBox EndScript Subscript 15 ShowChara 3 4 17 ShowTextBox "$1 is now a popular job for young people"
+WaitTextBox ShowChara 3 0 21 ShowTextBox "But Puchiko wants to spend $2 leisurely in the room"
+WaitTextBox EndScript Subscript 16 ShowChara 3 4 17 ShowTextBox "When you're done with your work, you can pay $1 for \"Otsukare-san\""
+WaitTextBox ShowChara 3 0 21 ShowTextBox "A comfortable workplace is wonderful"
+WaitTextBox EndScript Subscript 17 ShowChara 3 4 18 ShowTextBox "Puchiko received a request to appear from \"$1\""
+WaitTextBox ShowChara 3 0 17 ShowTextBox "However, Puchiko was carefully refused by the shop!"
+WaitTextBox EndScript Subscript 18 ShowChara 3 4 18 ShowTextBox "Miss $1 winning product is a luxury cruising tour"
+WaitTextBox ShowTextBox "Take $2 and go to $3"
+WaitTextBox ShowChara 3 0 17 ShowTextBox "Is that rich?"
+WaitTextBox EndScript 

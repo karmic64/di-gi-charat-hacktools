@@ -1,160 +1,27 @@
-DSCBase $402680
-
-
-
-
-Subscript 0
-SetBG 112
-Fade 0 30
-ShowChara 4 1 28
-# 今、「どうぶつあ
-# いごしゅうかん」
-# と聞いたぴょ
-ShowTextBox "!!! 402680 0"
-WaitTextBox
-# なんでも動物をか
-# わいがらないと、
-# キツ～イお仕置き
-# をされるらしいぴ
-# ょ～
-ShowTextBox "!!! 402680 1"
-WaitTextBox
-ShowChara 4 0 30
-# ぶるぶる、地球は
-# 怖いところぴょ…
-ShowTextBox "!!! 402680 2"
-WaitTextBox
-# 黙って見てる
-# それは間違ってる
-ShowSelMenu09 2 "!!! 402680 3"
-JumpOnSelection 2 0 1 0
-Label 0
-ShowChara 4 0 28
-# ということで、ぴ
-# よこは一生懸命に
-# 動物をかわいがる
-# ぴょ
-ShowTextBox "!!! 402680 4"
-WaitTextBox
-ShowChara 5 2 36
-# ピョコラ様、準備
-# が整いました
-ShowTextBox "!!! 402680 5"
-WaitTextBox
-ShowChara 4 1 29
-# ごくろうぴょ…そ
-# れでは「動物とな
-# かよし作戦」…
-# 開始ぴょっ！
-ShowTextBox "!!! 402680 6"
-WaitTextBox
-Fade 3 30
-Unk08 4 132 84 108 108 10 3
-Unk08 5 36 38 8 56 10 3
-Unk08 6 206 56 60 20 10 3
-Unk08 7 20 123 58 100 10 3
-SetBG 88
-Fade 2 30
-ShowChara 4 0 0
-# パンダだぴょ、パンダ
-# だぴょ～！
-ShowTextBox "!!! 402680 7"
-WaitTextBox
-ShowChara 4 0 0
-# なでなで…
-ShowTextBox "!!! 402680 8"
-WaitTextBox
-ShowChara 7 0 0
-# 俺もなでなで…
-ShowTextBox "!!! 402680 9"
-WaitTextBox
-ShowChara 5 0 0
-# ふふふふふ、パンダで
-# すか…
-ShowTextBox "!!! 402680 10"
-WaitTextBox
-ShowChara 5 0 0
-# ぬいぐるみとはいえ、
-# 動物は動物…
-ShowTextBox "!!! 402680 11"
-WaitTextBox
-ShowChara 5 0 0
-# 私もなでなでしたい…
-ShowTextBox "!!! 402680 12"
-WaitTextBox
-ShowChara 6 0 0
-# ピョコラ様、記念写真
-# を撮りましょう！
-ShowTextBox "!!! 402680 13"
-WaitTextBox
-ShowChara 4 0 0
-# ＯＫぴょ！
-ShowTextBox "!!! 402680 14"
-WaitTextBox
-ShowChara 6 0 0
-# …はい、チーズ！
-ShowTextBox "!!! 402680 15"
-WaitTextBox
-ShowChara 4 0 0
-# ぴょっ�@
-ShowTextBox "!!! 402680 16"
-WaitTextBox
-EndScript
-Label 1
-ShowChara 4 0 33
-# …えっ、そーじゃ
-# ないって？
-ShowTextBox "!!! 402680 17"
-WaitTextBox
-ShowChara 4 0 31
-# そんなはずないぴ
-# ょ！　ちゃんとも
-# のの本に書いてあ
-# ったぴょ！
-ShowTextBox "!!! 402680 18"
-WaitTextBox
-ShowChara 4 0 28
-# …それは大昔のこ
-# とだと店長さんは
-# いうぴょ？
-ShowTextBox "!!! 402680 19"
-WaitTextBox
-ShowChara 4 0 29
-# ぴょぴょ、ぴよこ
-# はそれを聞いて安
-# 心したぴょ…
-ShowTextBox "!!! 402680 20"
-WaitTextBox
-# ということで、作
-# 戦は中止ぴょっ！
-ShowTextBox "!!! 402680 21"
-WaitTextBox
-ShowChara 5 2 35
-# 「いま、動物の鳴
-# き声か何かが聞こ
-# えなかったか」で
-# すと…？
-ShowTextBox "!!! 402680 22"
-WaitTextBox
-ShowChara 5 0 36
-# はっはっは、気の
-# せいですよ店長、
-# 気のせい、気のせ
-# い…
-ShowTextBox "!!! 402680 23"
-WaitTextBox
-ShowChara 7 1 48
-# いけね－な、ひょ
-# っとして疲れてん
-# じゃないのか、店
-# 長？
-ShowTextBox "!!! 402680 24"
-WaitTextBox
-ShowChara 6 2 41
-# ささ、店長、早く
-# 帰って休んでくだ
-# さい…大事なお体
-# なんですから…
-ShowTextBox "!!! 402680 25"
-WaitTextBox
-EndScript
+DSCBase $402680 Subscript 0 SetBG 112 Fade 0 30 ShowChara 4 1 28 ShowTextBox "I just heard \"Animal Aigoshukan\""
+WaitTextBox ShowTextBox "If you don't pet animals for anything, you'll be punished."
+WaitTextBox ShowChara 4 0 30 ShowTextBox "Blurring, the earth is a scary place ..."
+WaitTextBox ShowSelMenu09 2 "I'm watching silently It's wrong"
+JumpOnSelection 2 0 1 0 Label 0 ShowChara 4 0 28 ShowTextBox "So, Piyoko loves animals very hard."
+WaitTextBox ShowChara 5 2 36 ShowTextBox "Pyocola, you're ready"
+WaitTextBox ShowChara 4 1 29 ShowTextBox "Gokuroupyo ... Then, \"Animal and friendship strategy\" ... Start!"
+WaitTextBox Fade 3 30 Unk08 4 132 84 108 108 10 3 Unk08 5 36 38 8 56 10 3 Unk08 6 206 56 60 20 10 3 Unk08 7 20 123 58 100 10 3 SetBG 88 Fade 2 30 ShowChara 4 0 0 ShowTextBox "Panda Dapyo, Panda Dapyo ~!"
+WaitTextBox ShowChara 4 0 0 ShowTextBox "Stroke ..."
+WaitTextBox ShowChara 7 0 0 ShowTextBox "I also stroked ..."
+WaitTextBox ShowChara 5 0 0 ShowTextBox "Fufufufufu, is it a panda ..."
+WaitTextBox ShowChara 5 0 0 ShowTextBox "Even though it's a stuffed animal, animals are animals ..."
+WaitTextBox ShowChara 5 0 0 ShowTextBox "I also want to stroke ..."
+WaitTextBox ShowChara 6 0 0 ShowTextBox "Pyocola, let's take a commemorative photo!"
+WaitTextBox ShowChara 4 0 0 ShowTextBox "OK Pyo!"
+WaitTextBox ShowChara 6 0 0 ShowTextBox "…Yes, cheese!"
+WaitTextBox ShowChara 4 0 0 ShowTextBox "Pyo ・"
+WaitTextBox EndScript Label 1 ShowChara 4 0 33 ShowTextBox "… Well, is n't it?"
+WaitTextBox ShowChara 4 0 31 ShowTextBox "That shouldn't be the case! It was written in the proper book!"
+WaitTextBox ShowChara 4 0 28 ShowTextBox "… The store manager says it was a long time ago, right?"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "Pyo Pyo, Piyoko was relieved to hear that ..."
+WaitTextBox ShowTextBox "So, the operation is canceled!"
+WaitTextBox ShowChara 5 2 35 ShowTextBox "\"Did you hear the animal barking or something?\" ...?"
+WaitTextBox ShowChara 5 0 36 ShowTextBox "Hahaha, it's because of my mind, the manager, because of my mind, because of my mind ..."
+WaitTextBox ShowChara 7 1 48 ShowTextBox "I don't know, maybe you're tired, the store manager?"
+WaitTextBox ShowChara 6 2 41 ShowTextBox "Now, store manager, please go home early and take a rest ... because it's an important body ..."
+WaitTextBox EndScript 

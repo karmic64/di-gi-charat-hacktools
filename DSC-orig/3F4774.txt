@@ -1,0 +1,263 @@
+DSCBase $3F4774
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# ねぇ１５日のお祭
+# り、どうしようか
+# しら？
+ShowTextBox "!!! 3F4774 0"
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ～
+ShowTextBox "!!! 3F4774 1"
+WaitTextBox
+ShowChara 1 0 9
+# でじこ的には、店
+# を出して夏のボー
+# ナスを稼ぐのも、
+# ひとつの手だと思
+# うにょ～
+ShowTextBox "!!! 3F4774 2"
+WaitTextBox
+ShowChara 2 1 23
+# アタシも、でじこ
+# に賛成！…ぷちこ
+# はどう？
+ShowTextBox "!!! 3F4774 3"
+WaitTextBox
+ShowChara 3 2 18
+# 金魚をすくってみ
+# たいにゅ…
+ShowTextBox "!!! 3F4774 4"
+WaitTextBox
+ShowChara 2 1 22
+# あれって、コツが
+# あるのよね…アタ
+# シは全然ダメなん
+# だけど…
+ShowTextBox "!!! 3F4774 5"
+WaitTextBox
+ShowChara 1 2 9
+# 金魚すくいなんて
+# 簡単にょ～
+ShowTextBox "!!! 3F4774 6"
+WaitTextBox
+ShowChara 2 1 22
+# どうやるの、教え
+# て？
+ShowTextBox "!!! 3F4774 7"
+WaitTextBox
+ShowChara 1 2 10
+# 水中に目からビー
+# ムを打ち込むと、
+# 金魚がぷかぷか浮
+# いてくるにょ！
+ShowTextBox "!!! 3F4774 8"
+WaitTextBox
+# あとはまったくの
+# 取り放題だにょ～
+ShowTextBox "!!! 3F4774 9"
+WaitTextBox
+ShowChara 2 1 24
+# よい子はまねしち
+# ゃダメーっ！
+ShowTextBox "!!! 3F4774 10"
+WaitTextBox
+ShowChara 1 2 9
+# 心配しなくても、
+# よい子は目からビ
+# ームが出せないか
+# ら大丈夫にょ～
+ShowTextBox "!!! 3F4774 11"
+WaitTextBox
+ShowChara 2 1 55
+# そりゃぁ、そうだ
+# けども…えーと、
+# 何を話してたんだ
+# っけ？
+ShowTextBox "!!! 3F4774 12"
+WaitTextBox
+ShowChara 3 2 19
+# ぷちこが金魚すく
+# いをしたいという
+# 話だったにゅ
+ShowTextBox "!!! 3F4774 13"
+WaitTextBox
+ShowChara 2 1 55
+# 脱線させちゃって
+# ごめんなさい…
+ShowTextBox "!!! 3F4774 14"
+WaitTextBox
+ShowChara 1 2 8
+# でじこはお店で忙
+# しいから、ぷちこ
+# の引率は店長しゃ
+# んにお願いしたい
+# にょ
+ShowTextBox "!!! 3F4774 15"
+WaitTextBox
+# 引き受ける
+# ことわる
+ShowSelMenu09 2 "!!! 3F4774 16"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 3 2 18
+# 恩に着るにゅ…
+ShowTextBox "!!! 3F4774 17"
+WaitTextBox
+ShowChara 1 2 10
+# じゃ、でじこは出
+# 店の準備に取りか
+# かるにょ～
+ShowTextBox "!!! 3F4774 18"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 3 2 17
+# ちょっと言ってみ
+# ただけだから、別
+# にいいにゅ…
+ShowTextBox "!!! 3F4774 19"
+WaitTextBox
+ShowChara 2 1 22
+# ところで、ぷちこ
+# はどうして金魚す
+# くいをやってみた
+# かったの？
+ShowTextBox "!!! 3F4774 20"
+WaitTextBox
+ShowChara 3 2 17
+# 特にないにゅ…
+ShowTextBox "!!! 3F4774 21"
+WaitTextBox
+# しいていうと、昨
+# 日、お魚を食べた
+# からにゅ…
+ShowTextBox "!!! 3F4774 22"
+WaitTextBox
+ShowChara 2 1 55
+# ど、どういう意味
+# かしら…
+ShowTextBox "!!! 3F4774 23"
+WaitTextBox
+ShowChara 1 2 8
+# 聞かない方がいい
+# にょ～
+ShowTextBox "!!! 3F4774 24"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 3 118 87 16 112 10 2
+SetBG 111
+Fade 0 30
+ShowChara 1 1 9
+# 今日も快晴、絶好
+# のお祭り日和って
+# やつにょ…
+ShowTextBox "!!! 3F4774 25"
+WaitTextBox
+ShowChara 1 0 10
+# にょにょ～っ、燃
+# えてきたにょ～っ
+ShowTextBox "!!! 3F4774 26"
+WaitTextBox
+ShowChara 2 2 23
+# あっ、そうだ！出
+# かける前に、ぷち
+# こに渡すものがあ
+# るんだった
+ShowTextBox "!!! 3F4774 27"
+WaitTextBox
+# はい、これ
+ShowTextBox "!!! 3F4774 28"
+WaitTextBox
+ShowChara 3 1 17
+# 浴衣にゅ…
+ShowTextBox "!!! 3F4774 29"
+WaitTextBox
+ShowChara 2 2 23
+# そう、アタシがぷ
+# ちこくらいのとき
+# に着てた浴衣！
+ShowTextBox "!!! 3F4774 30"
+WaitTextBox
+# 遠慮なく使ってね
+ShowTextBox "!!! 3F4774 31"
+WaitTextBox
+Fade 3 30
+SetBG 36
+Fade 2 30
+ShowChara 3 0 0
+# どきどき…
+ShowTextBox "!!! 3F4774 32"
+WaitTextBox
+# はじめての金魚すくい
+# にゅ…
+ShowTextBox "!!! 3F4774 33"
+WaitTextBox
+# …………
+ShowTextBox "!!! 3F4774 34"
+WaitTextBox
+# すくうにゅっ！
+ShowTextBox "!!! 3F4774 35"
+WaitTextBox
+Fade 1 120
+SetBG 111
+Fade 0 30
+ShowChara 1 1 9
+# おかえりにょ～
+ShowTextBox "!!! 3F4774 36"
+WaitTextBox
+ShowChara 2 1 23
+# おかえりなさい、
+# ぷちこに店長さん
+ShowTextBox "!!! 3F4774 37"
+WaitTextBox
+# 金魚はうまくすく
+# えたかしら？
+ShowTextBox "!!! 3F4774 38"
+WaitTextBox
+ShowChara 1 0 9
+# にょにょ、ちなみ
+# に、でじこたちの
+# 方は大成功だった
+# にょ～っ
+ShowTextBox "!!! 3F4774 39"
+WaitTextBox
+ShowChara 3 2 20
+# 力無き正義は無力
+# にゅ…
+ShowTextBox "!!! 3F4774 40"
+WaitTextBox
+ShowChara 2 1 22
+# あらー…
+# 残念だったみたい
+# ね…
+ShowTextBox "!!! 3F4774 41"
+WaitTextBox
+ShowChara 1 1 9
+# これにめげず、精
+# 進を重ねるにょ！
+ShowTextBox "!!! 3F4774 42"
+WaitTextBox
+ShowChara 1 0 10
+# 努力すれば、いつ
+# かは目からビーム
+# がうまく出るよう
+# になるにょっ！
+ShowTextBox "!!! 3F4774 43"
+WaitTextBox
+ShowChara 2 1 55
+# そうじゃないでし
+# ょ…
+ShowTextBox "!!! 3F4774 44"
+WaitTextBox
+EndScript

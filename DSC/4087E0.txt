@@ -1,336 +1,38 @@
-DSCBase $4087E0
-
-
-
-
-Subscript 0
-ShowChara 3 4 17
-# $2のサインって高く売れるにゅ？
-ShowTextBox "!!! 4087E0 0"
-Wait 60
-EndScript
-
-
-
-Subscript 1
-ShowChara 3 4 17
-# $2はごはんの最後にとっておくにゅ
-ShowTextBox "!!! 4087E0 1"
-Wait 60
-EndScript
-
-
-
-Subscript 2
-ShowChara 3 4 17
-# $2は冷凍庫でキンキンに冷やすのがおいしいにゅ
-ShowTextBox "!!! 4087E0 2"
-Wait 60
-EndScript
-
-
-
-Subscript 3
-ShowChara 3 4 19
-# $2はかわいいわりに臭うにゅ！
-ShowTextBox "!!! 4087E0 3"
-Wait 60
-EndScript
-
-
-
-Subscript 4
-ShowChara 3 4 17
-# $2のおひたしは、なかなおいしいにゅ
-ShowTextBox "!!! 4087E0 4"
-Wait 60
-EndScript
-
-
-
-Subscript 5
-ShowChara 3 4 17
-# $2は、はじめて一輪車が走った場所にゅ
-ShowTextBox "!!! 4087E0 5"
-Wait 60
-EndScript
-
-
-
-Subscript 6
-ShowChara 3 4 18
-# $2…行ってみたいにゅ
-ShowTextBox "!!! 4087E0 6"
-Wait 60
-EndScript
-
-
-
-Subscript 7
-ShowChara 3 4 17
-# $2、$2、えんやこらにゅ
-ShowTextBox "!!! 4087E0 7"
-Wait 60
-EndScript
-
-
-
-Subscript 8
-ShowChara 3 4 20
-# 夜の３時、もう終ってるテレビで、何故か『$2』を放送してたにゅ
-ShowTextBox "!!! 4087E0 8"
-Wait 60
-EndScript
-
-
-
-Subscript 9
-ShowChara 3 4 18
-# 『$2』のコミックの１２ページの５コマ目に、こっそりぷちこが描いてあるのはヒミツにゅ
-ShowTextBox "!!! 4087E0 9"
-Wait 60
-EndScript
-
-
-
-Subscript 10
-ShowChara 3 4 17
-# $2の免許は大人になってからにゅ
-ShowTextBox "!!! 4087E0 10"
-Wait 60
-EndScript
-
-
-
-Subscript 11
-ShowChara 3 4 19
-# $2…胸はってするにゅ！
-# プライド大切にゅ！
-ShowTextBox "!!! 4087E0 11"
-Wait 60
-EndScript
-
-
-
-Subscript 12
-ShowChara 3 4 17
-# $2はたいしたやつにゅ
-ShowTextBox "!!! 4087E0 12"
-Wait 60
-EndScript
-
-
-
-Subscript 13
-ShowChara 3 4 17
-# おなかへったにゅ
-# 誰か$2買ってこいにゅ
-ShowTextBox "!!! 4087E0 13"
-Wait 60
-EndScript
-
-
-
-Subscript 14
-ShowChara 3 4 17
-# お店の向かいに新しく$2屋ができたにゅ
-ShowTextBox "!!! 4087E0 14"
-Wait 60
-EndScript
-
-
-
-Subscript 15
-ShowChara 3 4 17
-# $2の生活は、まだまだたくさんの謎につつまれているにゅ
-ShowTextBox "!!! 4087E0 15"
-Wait 60
-EndScript
-
-
-
-Subscript 16
-ShowChara 3 4 17
-# $2からは特上の$2紙が作られているにゅ
-ShowTextBox "!!! 4087E0 16"
-Wait 60
-EndScript
-
-
-
-Subscript 17
-ShowChara 3 4 20
-# $2砂漠にゅ
-# 都会はきびしいにゅ
-ShowTextBox "!!! 4087E0 17"
-Wait 60
-EndScript
-
-
-
-Subscript 18
-ShowChara 3 4 17
-# $2は夜もねむらないにゅ
-ShowTextBox "!!! 4087E0 18"
-Wait 60
-EndScript
-
-
-
-Subscript 19
-ShowChara 3 4 17
-# $2はおまえがやれにゅ
-ShowTextBox "!!! 4087E0 19"
-Wait 60
-EndScript
-
-
-
-Subscript 20
-ShowChara 3 4 17
-# 来週から『$2』の再放送がはじまるにゅ
-ShowTextBox "!!! 4087E0 20"
-Wait 60
-EndScript
-
-
-
-Subscript 21
-ShowChara 3 4 20
-# さっきお店で『$2』の次回の原稿の忘れ物見つけたにゅ
-# どうすればいいにゅ？
-ShowTextBox "!!! 4087E0 21"
-Wait 60
-EndScript
-
-
-
-Subscript 22
-ShowChara 3 4 17
-# $2レーシング、いよいよ来週から開幕にゅ
-ShowTextBox "!!! 4087E0 22"
-Wait 60
-EndScript
-
-
-
-Subscript 23
-ShowChara 3 4 17
-# $2の道は、１に練習、２に練習、練習あるのみにゅ
-ShowTextBox "!!! 4087E0 23"
-Wait 60
-EndScript
-
-
-
-Subscript 24
-ShowChara 3 4 18
-# $2の伝記、とてもたのしかったにゅ
-ShowTextBox "!!! 4087E0 24"
-Wait 60
-EndScript
-
-
-
-Subscript 25
-ShowChara 3 4 19
-# $2はぷちこの隠しおやつにゅ
-# なんで知ってるにゅ？
-ShowTextBox "!!! 4087E0 25"
-Wait 60
-EndScript
-
-
-
-Subscript 26
-ShowChara 3 4 17
-# $2をお水で割って$2水にゅ
-ShowTextBox "!!! 4087E0 26"
-Wait 60
-EndScript
-
-
-
-Subscript 27
-ShowChara 3 4 17
-# ぷちこ実は$2に育てられた$2少女にゅ
-ShowTextBox "!!! 4087E0 27"
-Wait 60
-# …と言うのはウソにゅ
-ShowTextBox "!!! 4087E0 28"
-Wait 60
-EndScript
-
-
-
-Subscript 28
-ShowChara 3 4 20
-# $2の種を食べるとヤバイらしいにゅ
-ShowTextBox "!!! 4087E0 29"
-Wait 60
-EndScript
-
-
-
-Subscript 29
-ShowChara 3 4 17
-# そういえばそろそろ$2祭りの季節にゅ
-ShowTextBox "!!! 4087E0 30"
-Wait 60
-EndScript
-
-
-
-Subscript 30
-ShowChara 3 4 17
-# $2に連れていけにゅ
-# にゅ！
-# にゅ！！
-ShowTextBox "!!! 4087E0 31"
-Wait 60
-EndScript
-
-
-
-Subscript 31
-ShowChara 3 4 17
-# $2楽勝にゅ
-ShowTextBox "!!! 4087E0 32"
-Wait 60
-EndScript
-
-
-
-Subscript 32
-ShowChara 3 4 17
-# 『$2』スペシャルが２４時間特番でやるにゅ
-ShowTextBox "!!! 4087E0 33"
-Wait 60
-EndScript
-
-
-
-Subscript 33
-ShowChara 3 4 17
-# 『$2』は知る人ぞ知る名作にゅ
-ShowTextBox "!!! 4087E0 34"
-Wait 60
-EndScript
-
-
-
-Subscript 34
-ShowChara 3 4 17
-# $2は本当は空も飛ぶことができるらしいにゅ
-ShowTextBox "!!! 4087E0 35"
-Wait 60
-EndScript
-
-
-
-Subscript 35
-ShowChara 3 4 17
-# $2は１日１時間まで…にゅ
-ShowTextBox "!!! 4087E0 36"
-Wait 60
-EndScript
+DSCBase $4087E0 Subscript 0 ShowChara 3 4 17 ShowTextBox "Does the $2 sign sell well?"
+Wait 60 EndScript Subscript 1 ShowChara 3 4 17 ShowTextBox "Save $2 at the end of the rice"
+Wait 60 EndScript Subscript 2 ShowChara 3 4 17 ShowTextBox "$2 is delicious to cool in the freezer"
+Wait 60 EndScript Subscript 3 ShowChara 3 4 19 ShowTextBox "$2 is cute but smells!"
+Wait 60 EndScript Subscript 4 ShowChara 3 4 17 ShowTextBox "The $2 Ohitashi is quite delicious"
+Wait 60 EndScript Subscript 5 ShowChara 3 4 17 ShowTextBox "$2 is where the unicycle ran for the first time"
+Wait 60 EndScript Subscript 6 ShowChara 3 4 18 ShowTextBox "$2 ... I want to go"
+Wait 60 EndScript Subscript 7 ShowChara 3 4 17 ShowTextBox "$2, $2, Enya Koranyu"
+Wait 60 EndScript Subscript 8 ShowChara 3 4 20 ShowTextBox "At 3 o'clock in the evening, I was broadcasting \"$2\" on the TV that was already over for some reason."
+Wait 60 EndScript Subscript 9 ShowChara 3 4 18 ShowTextBox "In the 5th frame on page 12 of the \"$2\" comic, Puchiko is secretly drawn in secret."
+Wait 60 EndScript Subscript 10 ShowChara 3 4 17 ShowTextBox "The $2 license is only available as an adult"
+Wait 60 EndScript Subscript 11 ShowChara 3 4 19 ShowTextBox "$2 ... I'm so excited! Pride is important!"
+Wait 60 EndScript Subscript 12 ShowChara 3 4 17 ShowTextBox "$2 is a big guy"
+Wait 60 EndScript Subscript 13 ShowChara 3 4 17 ShowTextBox "I'm hungry Someone buy $2"
+Wait 60 EndScript Subscript 14 ShowChara 3 4 17 ShowTextBox "A new $2 store has opened across from the store"
+Wait 60 EndScript Subscript 15 ShowChara 3 4 17 ShowTextBox "Life of $2 is still surrounded by many mysteries"
+Wait 60 EndScript Subscript 16 ShowChara 3 4 17 ShowTextBox "Special $2 paper is made from $2"
+Wait 60 EndScript Subscript 17 ShowChara 3 4 20 ShowTextBox "$2 Desert Nyu The city is harsh"
+Wait 60 EndScript Subscript 18 ShowChara 3 4 17 ShowTextBox "$2 doesn't sleep at night"
+Wait 60 EndScript Subscript 19 ShowChara 3 4 17 ShowTextBox "$2 is for you"
+Wait 60 EndScript Subscript 20 ShowChara 3 4 17 ShowTextBox "Rebroadcast of \"$2\" will start next week"
+Wait 60 EndScript Subscript 21 ShowChara 3 4 20 ShowTextBox "I just found something left behind in the next manuscript of \"$2\" at the store. What should I do?"
+Wait 60 EndScript Subscript 22 ShowChara 3 4 17 ShowTextBox "$2 Racing will finally start next week"
+Wait 60 EndScript Subscript 23 ShowChara 3 4 17 ShowTextBox "The $2 road is only practice 1 and practice 2"
+Wait 60 EndScript Subscript 24 ShowChara 3 4 18 ShowTextBox "The $2 biography was very fun"
+Wait 60 EndScript Subscript 25 ShowChara 3 4 19 ShowTextBox "$2 is Petitko's hidden snack, why do you know it?"
+Wait 60 EndScript Subscript 26 ShowChara 3 4 17 ShowTextBox "Divide $2 by water to get $2 water"
+Wait 60 EndScript Subscript 27 ShowChara 3 4 17 ShowTextBox "Puchiko Actually, a $2 girl who was raised for $2"
+Wait 60 ShowTextBox "... is a lie"
+Wait 60 EndScript Subscript 28 ShowChara 3 4 20 ShowTextBox "Eating $2 seeds seems to be dangerous"
+Wait 60 EndScript Subscript 29 ShowChara 3 4 17 ShowTextBox "Speaking of which, it's about time for the $2 festival season"
+Wait 60 EndScript Subscript 30 ShowChara 3 4 17 ShowTextBox "Take me to $2! Nyu! !!"
+Wait 60 EndScript Subscript 31 ShowChara 3 4 17 ShowTextBox "$2 Easy victory"
+Wait 60 EndScript Subscript 32 ShowChara 3 4 17 ShowTextBox "\"$2\" special will be a 24-hour special"
+Wait 60 EndScript Subscript 33 ShowChara 3 4 17 ShowTextBox "\"$2\" is a masterpiece known to those in the know"
+Wait 60 EndScript Subscript 34 ShowChara 3 4 17 ShowTextBox "It seems that $2 can actually fly in the sky"
+Wait 60 EndScript Subscript 35 ShowChara 3 4 17 ShowTextBox "$2 up to 1 hour a day ..."
+Wait 60 EndScript 

@@ -1,324 +1,50 @@
-DSCBase $40D98C
-
-
-
-
-Subscript 0
-SetBG 111
-Fade 0 30
-ShowChara 8 1 1
-# いらっしゃいませ
-# ゲマ～！
-ShowTextBox "!!! 40D98C 0"
-WaitTextBox
-ShowChara 8 0 53
-# ＜ゲーマーズ＞へ
-# ようこそゲマ～！
-ShowTextBox "!!! 40D98C 1"
-WaitTextBox
-ShowChara 8 0 1
-# …え、お客さんじ
-# ゃないゲマか？
-ShowTextBox "!!! 40D98C 2"
-WaitTextBox
-# 「これを見て」っ
-# て、何ゲマかその
-# 紙は？
-ShowTextBox "!!! 40D98C 3"
-WaitTextBox
-# えーと、
-# なになに…
-ShowTextBox "!!! 40D98C 4"
-WaitTextBox
-Unk19 40
-EndScript
-
-
-
-Subscript 1
-SetBG 111
-Fade 0 30
-ShowChara 8 1 54
-# なんと新しい店長
-# さんだったゲマか
-# ！
-ShowTextBox "!!! 40D98C 5"
-WaitTextBox
-ShowChara 8 0 1
-# それならそうと、
-# はやく言ってくれ
-# たらよかったゲマ
-ShowTextBox "!!! 40D98C 6"
-WaitTextBox
-# おほん…
-ShowTextBox "!!! 40D98C 7"
-WaitTextBox
-ShowChara 8 0 53
-# え～、あなたは今
-# 日から１年間、こ
-# のゲーマーズの店
-# 長さんになったん
-# だゲマ！
-ShowTextBox "!!! 40D98C 8"
-WaitTextBox
-# この１年間で、ゲ
-# ーマーズをよいお
-# 店にするのが仕事
-# だゲマ
-ShowTextBox "!!! 40D98C 9"
-WaitTextBox
-# お客さんがよろこ
-# ぶような、よいお
-# 店になるよう、が
-# んばってほしいゲ
-# マ
-ShowTextBox "!!! 40D98C 10"
-WaitTextBox
-ShowChara 8 0 1
-# それでは次に、お
-# 店を手伝ってくれ
-# る、３人をしょう
-# かいするゲマ
-ShowTextBox "!!! 40D98C 11"
-WaitTextBox
-ShowChara 1 2 10
-PlaySfx 130
-# でじこだにょ！
-ShowTextBox "!!! 40D98C 12"
-WaitTextBox
-ShowChara 1 0 8
-# う～ん、とくいな
-# ことは「目からビ
-# ーム」だにょ！
-ShowTextBox "!!! 40D98C 13"
-WaitTextBox
-ShowChara 1 0 10
-# じゃ、ちょっとや
-# ってみるから、見
-# とくんだにょ！
-ShowTextBox "!!! 40D98C 14"
-WaitTextBox
-ShowChara 1 0 13
-PlaySfx 137
-# 目からビーム！
-ShowTextBox "!!! 40D98C 15"
-WaitTextBox
-Fade 3 30
-Unk08 8 30 70 20 80 6 1
-SetBG 59
-Fade 2 30
-ShowChara 8 0 0
-PlaySfx 193
-# ゲマぁ～っ！
-ShowTextBox "!!! 40D98C 16"
-WaitTextBox
-Fade 1 30
-SetBG 111
-Fade 0 30
-ShowChara 8 1 4
-# ……………………
-ShowTextBox "!!! 40D98C 17"
-WaitTextBox
-ShowChara 1 2 10
-# えっへん。ざっと
-# こんなもんにょ！
-ShowTextBox "!!! 40D98C 18"
-WaitTextBox
-ShowChara 2 1 55
-# もう…、なにやっ
-# てるのよ…
-ShowTextBox "!!! 40D98C 19"
-WaitTextBox
-ShowChara 2 0 23
-# いつものことなん
-# で、気にしないで
-# くださいね
-ShowTextBox "!!! 40D98C 20"
-WaitTextBox
-ShowChara 2 0 22
-PlaySfx 138
-# アタシは、ラ・ビ
-# ・アン・ローズ…
-ShowTextBox "!!! 40D98C 21"
-WaitTextBox
-ShowChara 1 2 16
-# 気軽に「うさだ」
-# って呼ぶがいいに
-# ょ～！
-ShowTextBox "!!! 40D98C 22"
-WaitTextBox
-ShowChara 2 1 24
-PlaySfx 145
-# 「うさだ」じゃな
-# くて「ラ・ビ・ア
-# ン・ローズ」よ！
-ShowTextBox "!!! 40D98C 23"
-WaitTextBox
-ShowChara 8 1 1
-# まぁまぁ、おちつ
-# くゲマ
-ShowTextBox "!!! 40D98C 24"
-WaitTextBox
-ShowChara 8 0 53
-# ラ・ビ・アン・ロ
-# ーズは、ほんとは
-# 「うさだヒカル」
-# という名前ゲマ
-ShowTextBox "!!! 40D98C 25"
-WaitTextBox
-ShowChara 8 0 2
-# だけど、うさだは
-# 「ラ・ビ・アン・
-# ローズ」と呼ばな
-# いと怒るゲマ
-ShowTextBox "!!! 40D98C 26"
-WaitTextBox
-# だから、本人の前
-# で、うさだって呼
-# ばない方がいいゲ
-# マ
-ShowTextBox "!!! 40D98C 27"
-WaitTextBox
-ShowChara 8 0 1
-# では、最後の３人
-# 目ゲマ
-ShowTextBox "!!! 40D98C 28"
-WaitTextBox
-ShowChara 3 2 17
-# …………
-ShowTextBox "!!! 40D98C 29"
-WaitTextBox
-ShowChara 3 0 18
-PlaySfx 146
-# ぷちこにゅ
-ShowTextBox "!!! 40D98C 30"
-WaitTextBox
-ShowChara 8 1 2
-# え、えーと、ぷち
-# こは小さいから、
-# あんまりおしゃべ
-# りが好きじゃない
-# ゲマ
-ShowTextBox "!!! 40D98C 31"
-WaitTextBox
-ShowChara 8 0 1
-# だけど、言うとき
-# は言うゲマ！
-# 気をつけるゲマ！
-ShowTextBox "!!! 40D98C 32"
-WaitTextBox
-ShowChara 3 2 19
-# 子ども扱いするな
-# にゅ…
-ShowTextBox "!!! 40D98C 33"
-WaitTextBox
-ShowChara 8 1 53
-# では店長さん、こ
-# の３人の中から、
-# 「アシスタント」
-# をひとり選ぶゲマ
-ShowTextBox "!!! 40D98C 34"
-WaitTextBox
-# 「アシスタント」
-# になった人は、こ
-# の１年間、特に店
-# 長さんのことを手
-# 伝ってくれるゲマ
-ShowTextBox "!!! 40D98C 35"
-WaitTextBox
-# だから、よく考え
-# て選ぶゲマ
-ShowTextBox "!!! 40D98C 36"
-WaitTextBox
-Fade 1 30
-EndScript
-
-
-
-Subscript 2
-SetBG 111
-Fade 0 30
-ShowChara 8 1 53
-# 「アシスタント」を選ぶゲマ！
-ShowTextBox "!!! 40D98C 37"
-WaitTextBox
-# でじこ
-# うさだ
-# ぷちこ
-ShowSelMenu09 3 "!!! 40D98C 38"
-Fade 1 30
-EndScript
-
-
-
-Subscript 3
-SetBG 111
-Fade 0 30
-ShowChara 1 2 9
-# にょにょ～、さす
-# が新しい店長しゃ
-# んにょ！
-ShowTextBox "!!! 40D98C 39"
-WaitTextBox
-# でじこといっしょ
-# にがんばるにょ！
-ShowTextBox "!!! 40D98C 40"
-WaitTextBox
-ShowChara 1 0 10
-# このでじこさまが
-# いれば怖いものな
-# し、あっというま
-# にゲーマーズは世
-# 界一だにょ～！
-ShowTextBox "!!! 40D98C 41"
-WaitTextBox
-DoorCloseTransition
-EndScript
-
-
-
-Subscript 4
-SetBG 111
-Fade 0 30
-ShowChara 2 2 23
-# ま、当然、アタシ
-# を選ぶわよね
-ShowTextBox "!!! 40D98C 42"
-WaitTextBox
-ShowChara 2 0 22
-# いっしょうけんめ
-# いがんばって、す
-# てきなお店にしま
-# しょうね�@
-ShowTextBox "!!! 40D98C 43"
-WaitTextBox
-ShowChara 2 0 23
-# よろしくね、新し
-# い店長さん
-ShowTextBox "!!! 40D98C 44"
-WaitTextBox
-DoorCloseTransition
-EndScript
-
-
-
-Subscript 5
-SetBG 111
-Fade 0 30
-ShowChara 3 2 18
-# がんばるにゅ
-ShowTextBox "!!! 40D98C 45"
-WaitTextBox
-ShowChara 3 0 17
-# …………
-ShowTextBox "!!! 40D98C 46"
-WaitTextBox
-# …………
-ShowTextBox "!!! 40D98C 47"
-WaitTextBox
-# にゅ…？
-# それだけにゅ
-ShowTextBox "!!! 40D98C 48"
-WaitTextBox
-DoorCloseTransition
-EndScript
+DSCBase $40D98C Subscript 0 SetBG 111 Fade 0 30 ShowChara 8 1 1 ShowTextBox "Welcome!"
+WaitTextBox ShowChara 8 0 53 ShowTextBox "Welcome to <Gamers> Gema ~!"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "… Well, is n't it a customer?"
+WaitTextBox ShowTextBox "What kind of paper is \"Look at this\"?"
+WaitTextBox ShowTextBox "Well, what ..."
+WaitTextBox Unk19 40 EndScript Subscript 1 SetBG 111 Fade 0 30 ShowChara 8 1 54 ShowTextBox "What a new store manager, Gema!"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "If so, I wish I had told you quickly"
+WaitTextBox ShowTextBox "Really ..."
+WaitTextBox ShowChara 8 0 53 ShowTextBox "Well, you've been the manager of this Gamers for a year from today, Gema!"
+WaitTextBox ShowTextBox "It's my job to make Gamers a good store in the last year"
+WaitTextBox ShowTextBox "Gema I want you to do your best to make the store happy and good for customers"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "Next, Gema who will help the shop with three people"
+WaitTextBox ShowChara 1 2 10 PlaySfx 130 ShowTextBox "Di Gi Charat!"
+WaitTextBox ShowChara 1 0 8 ShowTextBox "Hmmm, the most important thing is \"beam from the eyes\"!"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "Well then, I'll give it a try, so I'll take a look!"
+WaitTextBox ShowChara 1 0 13 PlaySfx 137 ShowTextBox "Beam from the eyes!"
+WaitTextBox Fade 3 30 Unk08 8 30 70 20 80 6 1 SetBG 59 Fade 2 30 ShowChara 8 0 0 PlaySfx 193 ShowTextBox "Gema!"
+WaitTextBox Fade 1 30 SetBG 111 Fade 0 30 ShowChara 8 1 4 ShowTextBox "……………………"
+WaitTextBox ShowChara 1 2 10 ShowTextBox "Eh. Roughly like this!"
+WaitTextBox ShowChara 2 1 55 ShowTextBox "Already ... what are you doing ..."
+WaitTextBox ShowChara 2 0 23 ShowTextBox "As always, don't worry"
+WaitTextBox ShowChara 2 0 22 PlaySfx 138 ShowTextBox "I'm La Bi Ann Rose ..."
+WaitTextBox ShowChara 1 2 16 ShowTextBox "Feel free to call it \"Usada\"!"
+WaitTextBox ShowChara 2 1 24 PlaySfx 145 ShowTextBox "It's not “Usada” but “La Bi Ann Rose”!"
+WaitTextBox ShowChara 8 1 1 ShowTextBox "Well, it's a calming gema"
+WaitTextBox ShowChara 8 0 53 ShowTextBox "La Bi Ann Rose is really a gema named \"Usada Hikaru\""
+WaitTextBox ShowChara 8 0 2 ShowTextBox "However, Usada gets angry if he doesn't call him \"La Bi Ann Rose\"."
+WaitTextBox ShowTextBox "Therefore, it is better not to call a rabbit in front of him."
+WaitTextBox ShowChara 8 0 1 ShowTextBox "Then, the last third gema"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "…………"
+WaitTextBox ShowChara 3 0 18 PlaySfx 146 ShowTextBox "Puchiko Nyu"
+WaitTextBox ShowChara 8 1 2 ShowTextBox "Well, um, Puchiko is small, so I don't really like talking."
+WaitTextBox ShowChara 8 0 1 ShowTextBox "But when I say it, I say it! Gema to be careful!"
+WaitTextBox ShowChara 3 2 19 ShowTextBox "Don't treat me as a child ..."
+WaitTextBox ShowChara 8 1 53 ShowTextBox "Then, the manager, Gema who chooses one \"assistant\" from these three people"
+WaitTextBox ShowTextBox "The person who became an \"assistant\" has been a gema who has helped the store manager in particular for the past year."
+WaitTextBox ShowTextBox "So, think carefully and choose"
+WaitTextBox Fade 1 30 EndScript Subscript 2 SetBG 111 Fade 0 30 ShowChara 8 1 53 ShowTextBox "Gema to choose \"assistant\"!"
+WaitTextBox ShowSelMenu09 3 "Di Gi Charat Puchiko"
+Fade 1 30 EndScript Subscript 3 SetBG 111 Fade 0 30 ShowChara 1 2 9 ShowTextBox "Nyonyo ~, as expected, the new store manager Shannyo!"
+WaitTextBox ShowTextBox "Let's do our best together with Di Gi Charat!"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "There is nothing scary if there is this Di Gi Charat, and Gamers is the best in the world in no time!"
+WaitTextBox DoorCloseTransition EndScript Subscript 4 SetBG 111 Fade 0 30 ShowChara 2 2 23 ShowTextBox "Well, of course, I'll choose me"
+WaitTextBox ShowChara 2 0 22 ShowTextBox "Let's do our best to make it a nice shop."
+WaitTextBox ShowChara 2 0 23 ShowTextBox "Nice to meet you, new store manager"
+WaitTextBox DoorCloseTransition EndScript Subscript 5 SetBG 111 Fade 0 30 ShowChara 3 2 18 ShowTextBox "Good luck"
+WaitTextBox ShowChara 3 0 17 ShowTextBox "…………"
+WaitTextBox ShowTextBox "…………"
+WaitTextBox ShowTextBox "Nyu ...? That's it"
+WaitTextBox DoorCloseTransition EndScript 

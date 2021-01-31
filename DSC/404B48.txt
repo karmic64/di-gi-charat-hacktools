@@ -1,202 +1,33 @@
-DSCBase $404B48
-
-
-
-
-Subscript 0
-Unk08 4 79 76 104 88 10 3
-SetBG 73
-Fade 0 30
-ShowChara 4 0 0
-# じゃーん、今日のため
-# に用意したコスチュー
-# ムぴょ！
-ShowTextBox "!!! 404B48 0"
-WaitTextBox
-# どうぴょ、似合ってる
-# ぴょ？
-ShowTextBox "!!! 404B48 1"
-WaitTextBox
-# 団員たちが夜なべして
-# つくった、愛のこもっ
-# た一品ぴょ…
-ShowTextBox "!!! 404B48 2"
-WaitTextBox
-# さあ店長さん、ぴよこ
-# といっしょにステキな
-# イブを過ごすぴょっ！
-ShowTextBox "!!! 404B48 3"
-WaitTextBox
-Fade 1 30
-SetBG 112
-Fade 0 30
-ShowChara 7 1 48
-# メリー・クリスマ
-# ース！
-ShowTextBox "!!! 404B48 4"
-WaitTextBox
-ShowChara 12 2 60
-# わ～～っ、メリー
-# ・クリスマス、ゲ
-# バ～っ！
-ShowTextBox "!!! 404B48 5"
-WaitTextBox
-ShowChara 7 1 48
-# それじゃ、みんな
-# で盛り上がるぞー
-# っ！
-ShowTextBox "!!! 404B48 6"
-WaitTextBox
-ShowChara 12 2 60
-# ぱちぱちぱち…
-ShowTextBox "!!! 404B48 7"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 5 1 35
-# ううむ、クリスマ
-# スパーティ、いま
-# いち盛り上がらな
-# いようだ…
-ShowTextBox "!!! 404B48 8"
-WaitTextBox
-# ケーキがないのも
-# さることながら、
-# やはり、ピョコラ
-# 様がいらっしゃら
-# ないのが最大の原
-# 因か…
-ShowTextBox "!!! 404B48 9"
-WaitTextBox
-ShowChara 6 1 43
-# はぁ…。
-# 今ごろ、ピョコラ
-# 様は店長といっし
-# ょに…
-ShowTextBox "!!! 404B48 10"
-WaitTextBox
-# リク元帥、自分も
-# 店長のように、ピ
-# ョコラ様と二人で
-# イブの街へお出か
-# けしたかったです
-# っ！
-ShowTextBox "!!! 404B48 11"
-WaitTextBox
-ShowChara 5 1 35
-# カイ、ピョコラ様
-# がそうするのだと
-# おっしゃったのだ
-# ぞ…
-ShowTextBox "!!! 404B48 12"
-WaitTextBox
-ShowChara 6 1 43
-# 分かってはいるの
-# ですが…
-ShowTextBox "!!! 404B48 13"
-WaitTextBox
-ShowChara 5 1 37
-# とはいえ、正直に
-# いうと、自分も同
-# じ気分だが…
-ShowTextBox "!!! 404B48 14"
-WaitTextBox
-ShowChara 4 2 29
-# ただいまぴょ～
-ShowTextBox "!!! 404B48 15"
-WaitTextBox
-ShowChara 6 1 44
-# あれ、ピョコラ様？
-ShowTextBox "!!! 404B48 16"
-WaitTextBox
-ShowChara 5 1 57
-# ピョコラ様、ずい
-# ぶんお早いお帰り
-# ですね…途中、何
-# か変わったことで
-# も？
-ShowTextBox "!!! 404B48 17"
-WaitTextBox
-ShowChara 4 2 28
-# 変わったこと？
-# 特にないぴょ…
-ShowTextBox "!!! 404B48 18"
-WaitTextBox
-ShowChara 4 0 29
-# それより、みんな
-# にケーキを買って
-# きたんだぴょ～っ
-# ！
-ShowTextBox "!!! 404B48 19"
-WaitTextBox
-ShowChara 7 1 48
-# ああっ、ケーキ！
-ShowTextBox "!!! 404B48 20"
-WaitTextBox
-ShowChara 4 2 29
-# クウ、ケーキを切
-# って、みんなで食
-# べるぴょっ！
-ShowTextBox "!!! 404B48 21"
-WaitTextBox
-ShowChara 7 1 48
-# よーし、じゃ、さ
-# っそく…
-ShowTextBox "!!! 404B48 22"
-WaitTextBox
-ShowChara 12 2 60
-# わ、我々も手伝う
-# ゲバーっ！
-ShowTextBox "!!! 404B48 23"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 7 1 48
-# それでは、あらた
-# めまして…メリー
-# ・クリスマース！
-ShowTextBox "!!! 404B48 24"
-WaitTextBox
-ShowChara 5 2 36
-# メリー・クリスマ
-# ス！
-ShowTextBox "!!! 404B48 25"
-WaitTextBox
-ShowChara 6 1 41
-# メリー・クリスマ
-# ス！
-ShowTextBox "!!! 404B48 26"
-WaitTextBox
-ShowChara 12 2 60
-# わ～～っ、メリー
-# ・クリスマス、ゲ
-# バ～っ！
-ShowTextBox "!!! 404B48 27"
-WaitTextBox
-ShowChara 12 1 60
-# クリスマス、おめ
-# でとうゲバ～っ、
-# そして、ピョコラ
-# 様、ばんざいゲバ
-# ～っ！
-ShowTextBox "!!! 404B48 28"
-WaitTextBox
-ShowChara 4 2 28
-# （店長さん、店長
-# さん…）
-ShowTextBox "!!! 404B48 29"
-WaitTextBox
-ShowChara 4 0 29
-# （店長さんのいっ
-# たとおりだったぴ
-# ょ）
-ShowTextBox "!!! 404B48 30"
-WaitTextBox
-# （やっぱり、みん
-# なといっしょの方
-# が楽しいぴょ…）
-ShowTextBox "!!! 404B48 31"
-WaitTextBox
-EndScript
+DSCBase $404B48 Subscript 0 Unk08 4 79 76 104 88 10 3 SetBG 73 Fade 0 30 ShowChara 4 0 0 ShowTextBox "Well, the costume I prepared for today!"
+WaitTextBox ShowTextBox "How do you look good?"
+WaitTextBox ShowTextBox "A love-filled dish made by the members at night ..."
+WaitTextBox ShowTextBox "Come on, store manager, spend a wonderful eve with Piyo!"
+WaitTextBox Fade 1 30 SetBG 112 Fade 0 30 ShowChara 7 1 48 ShowTextBox "Mary Chris Mars!"
+WaitTextBox ShowChara 12 2 60 ShowTextBox "Wow, Merry Christmas, Geba!"
+WaitTextBox ShowChara 7 1 48 ShowTextBox "Well then, everyone will be excited!"
+WaitTextBox ShowChara 12 2 60 ShowTextBox "Crackling ..."
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 5 1 35 ShowTextBox "Hmmm, Christmas party, it doesn't seem to be exciting ..."
+WaitTextBox ShowTextBox "Not only is there no cake, but the biggest reason is that Pyokora isn't there ..."
+WaitTextBox ShowChara 6 1 43 ShowTextBox "Hmm ... By this time, Pyokora is with the store manager ..."
+WaitTextBox ShowTextBox "Marshal Riku, like the store manager, wanted to go out to the city of Eve with Pyokora!"
+WaitTextBox ShowChara 5 1 35 ShowTextBox "Kai, you said that Pyokora would do that ..."
+WaitTextBox ShowChara 6 1 43 ShowTextBox "I know ..."
+WaitTextBox ShowChara 5 1 37 ShowTextBox "But to be honest, I feel the same ..."
+WaitTextBox ShowChara 4 2 29 ShowTextBox "I'm home ~"
+WaitTextBox ShowChara 6 1 44 ShowTextBox "Is that Pyocola-sama?"
+WaitTextBox ShowChara 5 1 57 ShowTextBox "Pyocola-sama, it's a very early return ... Anything changed on the way?"
+WaitTextBox ShowChara 4 2 28 ShowTextBox "What has changed? Nothing in particular ..."
+WaitTextBox ShowChara 4 0 29 ShowTextBox "Rather, I bought a cake for everyone!"
+WaitTextBox ShowChara 7 1 48 ShowTextBox "Ah, cake!"
+WaitTextBox ShowChara 4 2 29 ShowTextBox "Ku, cut the cake and eat it together!"
+WaitTextBox ShowChara 7 1 48 ShowTextBox "Alright, then ..."
+WaitTextBox ShowChara 12 2 60 ShowTextBox "Wow, Geber to help us too!"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 7 1 48 ShowTextBox "Well then ... again ... Mary Chris Mars!"
+WaitTextBox ShowChara 5 2 36 ShowTextBox "Merry Christmas!"
+WaitTextBox ShowChara 6 1 41 ShowTextBox "Merry Christmas!"
+WaitTextBox ShowChara 12 2 60 ShowTextBox "Wow, Merry Christmas, Geba!"
+WaitTextBox ShowChara 12 1 60 ShowTextBox "Congratulations on Christmas, and Pyocola-sama, Banzai Geba!"
+WaitTextBox ShowChara 4 2 28 ShowTextBox "(Manager, store manager ...)"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "(It was exactly as the store manager said)"
+WaitTextBox ShowTextBox "(After all, it's more fun to be with everyone ...)"
+WaitTextBox EndScript 

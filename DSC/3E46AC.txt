@@ -1,45 +1,5 @@
-DSCBase $3E46AC
-
-
-
-
-Subscript 0
-ShowChara 2 0 22
-# あら、いけない事
-# 言っちゃったかし
-# ら？
-ShowTextBox "!!! 3E46AC 0"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 2 0 25
-# ごめんなさい
-# 次から気をつけま
-# す
-ShowTextBox "!!! 3E46AC 1"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 2 0 23
-# ああ、よかった
-ShowTextBox "!!! 3E46AC 2"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 2 0 25
-# え、でも…これが
-# ダメだとおしゃべ
-# りできなくなるん
-# だけど…
-ShowTextBox "!!! 3E46AC 3"
-WaitTextBox
-EndScript
+DSCBase $3E46AC Subscript 0 ShowChara 2 0 22 ShowTextBox "Oh, did you say something wrong?"
+WaitTextBox EndScript Subscript 1 ShowChara 2 0 25 ShowTextBox "I'm sorry I will be careful from the next"
+WaitTextBox EndScript Subscript 2 ShowChara 2 0 23 ShowTextBox "Oh good"
+WaitTextBox EndScript Subscript 3 ShowChara 2 0 25 ShowTextBox "Yeah, but ... I can't talk if this isn't good ..."
+WaitTextBox EndScript 

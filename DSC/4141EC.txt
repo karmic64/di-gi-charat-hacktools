@@ -1,50 +1,7 @@
-DSCBase $4141EC
-
-
-
-
-Subscript 0
-ShowChara 5 1 35
-# お客さんからよいことを聞いたぞ
-ShowTextBox "!!! 4141EC 0"
-WaitTextBox
-ShowChara 5 0 36
-# 最近は\x02$0関連のグッズ\x1aが流行っているそうだ
-# たくさん仕入れて
-# 大儲けするぞ！
-ShowTextBox "!!! 4141EC 1"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 1
-ShowChara 5 1 35
-# お客さんからよいことを聞いたぞ
-ShowTextBox "!!! 4141EC 2"
-WaitTextBox
-ShowChara 5 0 36
-# 最近は\x02$0\x1aが流行っているそうだ
-# たくさん仕入れて
-# 大儲けするぞ！
-ShowTextBox "!!! 4141EC 3"
-WaitTextBox
-HideChara
-EndScript
-
-
-
-Subscript 2
-ShowChara 5 1 35
-# お客さんからよいことを聞いたぞ
-ShowTextBox "!!! 4141EC 4"
-WaitTextBox
-ShowChara 5 0 36
-# 最近は\x02$0\x1aが大変流行っているそうだ
-# たくさん仕入れて
-# 大儲けするぞ！
-ShowTextBox "!!! 4141EC 5"
-WaitTextBox
-HideChara
-EndScript
+DSCBase $4141EC Subscript 0 ShowChara 5 1 35 ShowTextBox "I heard good things from customers"
+WaitTextBox ShowChara 5 0 36 ShowTextBox "It seems that \x02$0 related goods \x1aare popular these days. I will buy a lot and make a lot of money!"
+WaitTextBox HideChara EndScript Subscript 1 ShowChara 5 1 35 ShowTextBox "I heard good things from customers"
+WaitTextBox ShowChara 5 0 36 ShowTextBox "It seems that \x02$0 \x1ais popular these days. I'll buy a lot and make a lot of money!"
+WaitTextBox HideChara EndScript Subscript 2 ShowChara 5 1 35 ShowTextBox "I heard good things from customers"
+WaitTextBox ShowChara 5 0 36 ShowTextBox "It seems that \x02$0 \x1ais very popular these days. I will buy a lot and make a lot of money!"
+WaitTextBox HideChara EndScript 

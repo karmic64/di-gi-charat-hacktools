@@ -1,0 +1,431 @@
+DSCBase $3E84A4
+
+
+
+
+Subscript 0
+ShowChara 6 4 41
+# 『$1』といえば、人気作品ですよ
+ShowTextBox "!!! 3E84A4 0"
+WaitTextBox
+ShowChara 6 0 40
+# 作者って誰でしたっけ？
+ShowTextBox "!!! 3E84A4 1"
+WaitTextBox
+# $1の作者
+ShowTextPrompt 0 "\J!!! 3E84A4 2"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 6 0 41
+# そうそう$9です
+# さすが店長さんで
+# す
+ShowTextBox "!!! 3E84A4 3"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 6 0 40
+# 店長も知らないな
+# ら、ダメですね…
+# 『$1』
+ShowTextBox "!!! 3E84A4 4"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 6 4 41
+# そんな$1がレギュラーの番組がありましたよね
+ShowTextBox "!!! 3E84A4 5"
+WaitTextBox
+# テレビばんぐみ
+ShowTextPrompt 8 "\J!!! 3E84A4 6"
+JumpOnSelection 2 2 3 0
+Label 2
+ShowChara 6 0 43
+# もうすぐ終っちゃ
+# うらしいんです…
+# 『$9』
+ShowTextBox "!!! 3E84A4 7"
+WaitTextBox
+ShowChara 6 0 41
+# でも$1ならまた新しい番組が始まりますよね
+ShowTextBox "!!! 3E84A4 8"
+WaitTextBox
+EndScript
+Label 3
+ShowChara 6 0 46
+# なんだったかなー
+# なんだったかなー
+# う～～～～～ん…
+# 思い出せなーい！
+ShowTextBox "!!! 3E84A4 9"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 6 4 41
+# 自分もリク元帥の
+# ように勉強してみ
+# ました
+ShowTextBox "!!! 3E84A4 10"
+WaitTextBox
+ShowChara 6 0 40
+# $1は主に暑い地域に生息してるんです
+ShowTextBox "!!! 3E84A4 11"
+WaitTextBox
+ShowChara 6 0 46
+# あ、あれ…？
+# どこだったっけ？
+ShowTextBox "!!! 3E84A4 12"
+WaitTextBox
+# あついところ
+ShowTextPrompt 5 "\J!!! 3E84A4 13"
+JumpOnSelection 2 4 5 0
+Label 4
+ShowChara 6 0 44
+# そ、そう！
+# $9です
+ShowTextBox "!!! 3E84A4 14"
+WaitTextBox
+ShowChara 6 0 45
+# 店長、意外とやりますね
+ShowTextBox "!!! 3E84A4 15"
+WaitTextBox
+EndScript
+Label 5
+ShowChara 6 0 43
+# すみません…
+# まだまだ勉強不足でした
+ShowTextBox "!!! 3E84A4 16"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 6 4 41
+# $1おつかれさまです
+# 団員に飲み物を買って来させましょう
+ShowTextBox "!!! 3E84A4 17"
+WaitTextBox
+ShowChara 6 0 40
+# なにがいいです？
+ShowTextBox "!!! 3E84A4 18"
+WaitTextBox
+# のみもの
+ShowTextPrompt 2 "\J!!! 3E84A4 19"
+JumpOnSelection 2 6 7 0
+Label 6
+ShowChara 6 0 40
+# 店長は…$9と
+ShowTextBox "!!! 3E84A4 20"
+WaitTextBox
+ShowChara 6 0 41
+# $9おいしいですよね
+ShowTextBox "!!! 3E84A4 21"
+WaitTextBox
+EndScript
+Label 7
+ShowChara 6 0 40
+# いらないのですか？
+ShowTextBox "!!! 3E84A4 22"
+WaitTextBox
+# じゃ、みんなまと
+# めて$2にしましょう
+ShowTextBox "!!! 3E84A4 23"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 6 4 40
+# そういえば知ってます？
+ShowTextBox "!!! 3E84A4 24"
+WaitTextBox
+ShowChara 6 0 41
+# 今$1で話題の遊び…
+ShowTextBox "!!! 3E84A4 25"
+WaitTextBox
+# あそび
+ShowTextPrompt 11 "\J!!! 3E84A4 26"
+JumpOnSelection 2 8 9 0
+Label 8
+ShowChara 6 0 41
+# そう$9なんです
+ShowTextBox "!!! 3E84A4 27"
+WaitTextBox
+ShowChara 6 0 40
+# …でも、わざわざ$1に行ってするような遊びじゃないですよ
+ShowTextBox "!!! 3E84A4 28"
+WaitTextBox
+EndScript
+Label 9
+ShowChara 6 0 40
+# 知らないんですか？
+ShowTextBox "!!! 3E84A4 29"
+WaitTextBox
+ShowChara 6 0 45
+# …意外と遅れてるんですね
+ShowTextBox "!!! 3E84A4 30"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 12 4 60
+# 店長、$1完了したゲバ
+ShowTextBox "!!! 3E84A4 31"
+WaitTextBox
+ShowChara 12 4 60
+# まだお仕事あるゲバ？
+ShowTextBox "!!! 3E84A4 32"
+WaitTextBox
+# しごと
+ShowTextPrompt 7 "\J!!! 3E84A4 33"
+JumpOnSelection 2 10 11 0
+Label 10
+ShowChara 12 0 60
+# 我々団員、力をあわせれば$9なんて、あっという間ゲバ～
+ShowTextBox "!!! 3E84A4 34"
+WaitTextBox
+ShowChara 12 4 60
+# それ、開始するゲバ～！！
+ShowTextBox "!!! 3E84A4 35"
+WaitTextBox
+EndScript
+Label 11
+ShowChara 12 0 60
+# 今日の任務は終了ゲバ！
+ShowTextBox "!!! 3E84A4 36"
+WaitTextBox
+ShowChara 12 4 60
+# 全員解散ゲバっ！
+ShowTextBox "!!! 3E84A4 37"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+ShowChara 6 4 40
+# 店長、ゲーマーズ
+# が『$1』フェアを行なうようです
+ShowTextBox "!!! 3E84A4 38"
+WaitTextBox
+# 我らがブラックゲーマーズも負けてられません！
+ShowTextBox "!!! 3E84A4 39"
+WaitTextBox
+ShowChara 6 0 42
+# なにかフェアを行ないましょう
+# 『$1』より人気のあるフェアを！！
+ShowTextBox "!!! 3E84A4 40"
+WaitTextBox
+# マンガ
+ShowTextPrompt 9 "\J!!! 3E84A4 41"
+JumpOnSelection 2 12 13 0
+Label 12
+ShowChara 6 0 41
+# なるほど『$9』フェアですか
+ShowTextBox "!!! 3E84A4 42"
+WaitTextBox
+# ナイスです！
+ShowTextBox "!!! 3E84A4 43"
+WaitTextBox
+EndScript
+Label 13
+ShowChara 6 0 46
+# 何も無いんですか？
+# そんな事でどうするんです！？
+ShowTextBox "!!! 3E84A4 44"
+WaitTextBox
+ShowChara 6 0 42
+# 店長としてもっと自覚を持ってください！
+ShowTextBox "!!! 3E84A4 45"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+ShowChara 6 4 40
+# $1はリク元帥の大好きな動物です
+ShowTextBox "!!! 3E84A4 46"
+WaitTextBox
+ShowChara 6 0 41
+# 店長さんの好きな動物ってなんですか？
+ShowTextBox "!!! 3E84A4 47"
+WaitTextBox
+# 好きなどうぶつ
+ShowTextPrompt 3 "\J!!! 3E84A4 48"
+JumpOnSelection 2 14 15 0
+Label 14
+ShowChara 6 0 44
+# $9ですか！？
+# リク元帥に怒られますよ！
+ShowTextBox "!!! 3E84A4 49"
+WaitTextBox
+ShowChara 6 0 41
+# $9は３番目にお気に入りですから
+ShowTextBox "!!! 3E84A4 50"
+WaitTextBox
+EndScript
+Label 15
+ShowChara 6 0 40
+# 動物きらいなんですか？
+ShowTextBox "!!! 3E84A4 51"
+WaitTextBox
+ShowChara 6 0 43
+# …そうだとしても
+# リク元帥と仲良く
+# してくださいね
+ShowTextBox "!!! 3E84A4 52"
+WaitTextBox
+EndScript
+
+
+
+Subscript 8
+ShowChara 6 4 40
+# $1の$2はサイコーです
+ShowTextBox "!!! 3E84A4 53"
+WaitTextBox
+ShowChara 6 0 41
+# あの味を体験した
+# ら、他のものは食
+# べられません
+ShowTextBox "!!! 3E84A4 54"
+WaitTextBox
+# 店長さんの好物は
+# なんですか？
+ShowTextBox "!!! 3E84A4 55"
+WaitTextBox
+# たべもの
+ShowTextPrompt 1 "\J!!! 3E84A4 56"
+JumpOnSelection 2 16 17 0
+Label 16
+ShowChara 6 0 44
+# $9…！？
+# アナローグ星まぼ
+# ろしのメニューと
+# 言われる$9ですか？
+ShowTextBox "!!! 3E84A4 57"
+WaitTextBox
+EndScript
+Label 17
+ShowChara 6 0 46
+# うわあ～！
+# $2のこと話していたら、急に食べたくなってきた～！！
+ShowTextBox "!!! 3E84A4 58"
+WaitTextBox
+EndScript
+
+
+
+Subscript 9
+ShowChara 6 4 46
+# リク元帥、もう$1がありません！
+# どうしましょう？
+ShowTextBox "!!! 3E84A4 59"
+WaitTextBox
+ShowChara 5 4 64
+# なにか、よい手は
+# ないだろうか…？
+ShowTextBox "!!! 3E84A4 60"
+WaitTextBox
+# 食べれるしょくぶつ
+ShowTextPrompt 4 "\J!!! 3E84A4 61"
+JumpOnSelection 2 18 19 0
+Label 18
+ShowChara 6 4 45
+# $9…それって食べれるんですか？
+ShowTextBox "!!! 3E84A4 62"
+WaitTextBox
+ShowChara 6 0 40
+# 背に腹は変えられません
+# それでなんとかしのぎましょう！
+ShowTextBox "!!! 3E84A4 63"
+WaitTextBox
+EndScript
+Label 19
+ShowChara 5 0 37
+# 打つ手なしか…
+ShowTextBox "!!! 3E84A4 64"
+WaitTextBox
+ShowChara 5 0 35
+# しかたない、カイ
+# $2に向かうぞ
+ShowTextBox "!!! 3E84A4 65"
+WaitTextBox
+ShowChara 6 4 41
+# そうか！$2で$3の実を採ってくるんですね
+ShowTextBox "!!! 3E84A4 66"
+WaitTextBox
+EndScript
+
+
+
+Subscript 10
+ShowChara 6 4 41
+# $1には、かの有名な$2があるらしいです
+ShowTextBox "!!! 3E84A4 67"
+WaitTextBox
+# 店長さん…他になにか知ってます？
+ShowTextBox "!!! 3E84A4 68"
+WaitTextBox
+# テーマパーク
+ShowTextPrompt 6 "\J!!! 3E84A4 69"
+JumpOnSelection 2 20 21 0
+Label 20
+ShowChara 6 0 41
+# $9ですか？
+# そっちにも一度行ってみたいですね
+ShowTextBox "!!! 3E84A4 70"
+WaitTextBox
+EndScript
+Label 21
+ShowChara 6 0 41
+# 今度、みんなで$2に行きましょう
+# ちょっとしたバカンスで…
+ShowTextBox "!!! 3E84A4 71"
+WaitTextBox
+EndScript
+
+
+
+Subscript 11
+ShowChara 6 4 41
+# $1の$2はある乗り物に乗れるそうですよ
+# 知ってます？
+ShowTextBox "!!! 3E84A4 72"
+WaitTextBox
+# のりもの
+ShowTextPrompt 10 "\J!!! 3E84A4 73"
+JumpOnSelection 2 22 23 0
+Label 22
+# そう、$9です
+# スゴイですね！
+ShowTextBox "!!! 3E84A4 74"
+WaitTextBox
+ShowChara 6 0 42
+# ある意味、嫉妬してしまいます！
+ShowTextBox "!!! 3E84A4 75"
+WaitTextBox
+EndScript
+Label 23
+ShowChara 6 0 46
+# 聞いて驚いてくだ
+# さい！
+# なんと$3ですよ！
+ShowTextBox "!!! 3E84A4 76"
+WaitTextBox
+ShowChara 6 0 45
+# ある意味$1の$2達がかわいそうです…
+ShowTextBox "!!! 3E84A4 77"
+WaitTextBox
+EndScript

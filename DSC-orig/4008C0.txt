@@ -1,0 +1,260 @@
+DSCBase $4008C0
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 28
+# 今日からゴールデ
+# ンウィークに突入
+# ぴょ！
+ShowTextBox "!!! 4008C0 0"
+WaitTextBox
+ShowChara 4 0 29
+# たくさんお客さん
+# が来るから、しっ
+# かり働くぴょ！
+ShowTextBox "!!! 4008C0 1"
+WaitTextBox
+ShowChara 5 2 36
+# 承知しました
+ShowTextBox "!!! 4008C0 2"
+WaitTextBox
+ShowChara 6 2 41
+# 身を粉にして働き
+# ます
+ShowTextBox "!!! 4008C0 3"
+WaitTextBox
+ShowChara 7 2 48
+# 働くぜーっ！
+ShowTextBox "!!! 4008C0 4"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバーーっ！
+ShowTextBox "!!! 4008C0 5"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 4 1 28
+# さて…
+ShowTextBox "!!! 4008C0 6"
+WaitTextBox
+# それじゃ、ぴよこ
+# は一休みぴょ…
+ShowTextBox "!!! 4008C0 7"
+WaitTextBox
+HideChara
+Wait 60
+ShowChara 4 1 28
+# ん、店長さん、何
+# か用ぴょ？
+ShowTextBox "!!! 4008C0 8"
+WaitTextBox
+# ぴよこはリーダー
+# だから、あんまり
+# うろうろしない方
+# がいいと思ったぴ
+# ょ…
+ShowTextBox "!!! 4008C0 9"
+WaitTextBox
+# それとも、もっと
+# お客さんが来るよ
+# うに、もうひと工
+# 夫するほうがいい
+# ぴょ？
+ShowTextBox "!!! 4008C0 10"
+WaitTextBox
+# もうひと工夫する
+# しなくてよい
+ShowSelMenu09 2 "!!! 4008C0 11"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 4 0 29
+# わかったぴょ
+# 明日までに考えと
+# くぴょ！
+ShowTextBox "!!! 4008C0 12"
+WaitTextBox
+EndScript
+Label 1
+# 細かいことは団員
+# たちの仕事ぴょ
+ShowTextBox "!!! 4008C0 13"
+WaitTextBox
+ShowChara 4 0 29
+# リーダーのつとめ
+# は、部下の働きを
+# 暖かく見守ること
+# ぴょ
+ShowTextBox "!!! 4008C0 14"
+WaitTextBox
+# それじゃ、明日か
+# ら気合入れていく
+# ぴょ！
+ShowTextBox "!!! 4008C0 15"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 112
+Fade 0 30
+ShowChara 7 1 58
+# うわっ、何だ！？
+# 今日はやたらとお
+# 客さんが来てるぞ
+ShowTextBox "!!! 4008C0 16"
+WaitTextBox
+ShowChara 6 1 41
+# まだ開店したばか
+# りだというのに、
+# こんなにたくさん
+# お客さんがいます
+# …
+ShowTextBox "!!! 4008C0 17"
+WaitTextBox
+ShowChara 5 1 35
+# ピョコラ様、いっ
+# たい、何をなさっ
+# たのです？
+ShowTextBox "!!! 4008C0 18"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょぴょぴょ、簡
+# 単なことぴょっ！
+ShowTextBox "!!! 4008C0 19"
+WaitTextBox
+# 今日から一週間、
+# 超スペシャルウル
+# トラスーパー特別
+# セールだって宣伝
+# したぴょ～！
+ShowTextBox "!!! 4008C0 20"
+WaitTextBox
+ShowChara 7 1 48
+# なんかすごそうだ
+# な…俺も行きたく
+# なったぜ！
+ShowTextBox "!!! 4008C0 21"
+WaitTextBox
+ShowChara 4 2 29
+# 予想通り、お客さ
+# んが山のようにや
+# ってきたぴょ
+ShowTextBox "!!! 4008C0 22"
+WaitTextBox
+# やっぱり人は「超
+# 」とか「特別」と
+# かいう言葉に弱い
+# ぴょ～
+ShowTextBox "!!! 4008C0 23"
+WaitTextBox
+ShowChara 5 1 36
+# おお、ピョコラ様
+# お見事です！
+ShowTextBox "!!! 4008C0 24"
+WaitTextBox
+ShowChara 6 1 41
+# で、何をサービス
+# するんですか？
+ShowTextBox "!!! 4008C0 25"
+WaitTextBox
+ShowChara 4 2 28
+# 何をって…
+ShowTextBox "!!! 4008C0 26"
+WaitTextBox
+ShowChara 4 0 33
+# しまったぴょ、そ
+# こまでは考えてな
+# かったぴょ
+ShowTextBox "!!! 4008C0 27"
+WaitTextBox
+ShowChara 7 1 49
+# ああっ、なんだか
+# 潮が引くように、
+# お客さんが減って
+# いく…
+ShowTextBox "!!! 4008C0 28"
+WaitTextBox
+ShowChara 6 1 43
+# 結局、いつもと同
+# じくらいに戻って
+# しまいました…
+ShowTextBox "!!! 4008C0 29"
+WaitTextBox
+ShowChara 4 2 30
+# ぴょぴょ…ひょっ
+# として、これって
+# 失敗ぴょ？
+ShowTextBox "!!! 4008C0 30"
+WaitTextBox
+ShowChara 5 1 38
+# ええい、ブラック
+# ゲマゲマ団員のみ
+# なさん！お客さん
+# たちを引きとめる
+# のです！
+ShowTextBox "!!! 4008C0 31"
+WaitTextBox
+ShowChara 6 1 40
+# ついでにお店の宣
+# 伝もするのです！
+ShowTextBox "!!! 4008C0 32"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバーっ！
+ShowTextBox "!!! 4008C0 33"
+WaitTextBox
+ShowChara 7 1 48
+# ぴよこ、気を落と
+# すな…なんとかな
+# りそうだぞ
+ShowTextBox "!!! 4008C0 34"
+WaitTextBox
+ShowChara 4 2 34
+# みんな…
+ShowTextBox "!!! 4008C0 35"
+WaitTextBox
+ShowChara 7 1 48
+# やっぱり、リーダ
+# ーが頼りないとき
+# は、部下がしっか
+# りしないとな！
+ShowTextBox "!!! 4008C0 36"
+WaitTextBox
+ShowChara 4 2 30
+# がーん…今のぴよ
+# こにその言葉はあ
+# んまりぴょ～っ！
+ShowTextBox "!!! 4008C0 37"
+WaitTextBox
+ShowChara 6 1 44
+# ああっ、ピョコラ
+# 様、どこへ行かれ
+# るのですっ！
+ShowTextBox "!!! 4008C0 38"
+WaitTextBox
+ShowChara 5 1 38
+# クウ、先ほどのセ
+# リフはあんまりで
+# すぞ！
+ShowTextBox "!!! 4008C0 39"
+WaitTextBox
+ShowChara 5 0 38
+# ピョコラ様が傷つ
+# いて、どこかに走
+# り去って行ったで
+# はないか！
+ShowTextBox "!!! 4008C0 40"
+WaitTextBox
+ShowChara 7 1 58
+# えっ！？お、俺、
+# 何か悪いこと言っ
+# た？
+ShowTextBox "!!! 4008C0 41"
+WaitTextBox
+EndScript

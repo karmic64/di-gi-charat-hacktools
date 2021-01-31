@@ -1,98 +1,13 @@
-DSCBase $418D0C
-
-
-
-
-Subscript 0
-ShowChara 2 0 0
-EndScript
-
-
-
-Subscript 1
-HideChara
-EndScript
-
-
-
-Subscript 2
-# おしごとをかえたいキャラを選んでＡボタンを押してね
-ShowTextBox "!!! 418D0C 0"
-EndScript
-
-
-
-Subscript 3
-# 新しいおしごとを選んでＡボタンを押してね
-ShowTextBox "!!! 418D0C 1"
-EndScript
-
-
-
-Subscript 4
-# レジにはだれかいないとお仕事ができないわ
-ShowTextBox "!!! 418D0C 2"
-EndScript
-
-
-
-Subscript 5
-# $0が$1をするわ
-ShowTextBox "!!! 418D0C 3"
-EndScript
-
-
-
-Subscript 6
-# $0と$1がお仕事を交代よ
-ShowTextBox "!!! 418D0C 4"
-EndScript
-
-
-
-Subscript 7
-# お仕事はこれで決まりかしら？
-ShowTextBox "!!! 418D0C 5"
-EndScript
-
-
-
-Subscript 8
-# 『レジ』は、お客様にグッズを売るお仕事よ
-ShowTextBox "!!! 418D0C 6"
-EndScript
-
-
-
-Subscript 9
-# 『接客』は、こまっているお客様を手助けするお仕事よ
-ShowTextBox "!!! 418D0C 7"
-EndScript
-
-
-
-Subscript 10
-# 『グッズ整理』は、グッズをスロットに並べるお仕事よ
-ShowTextBox "!!! 418D0C 8"
-EndScript
-
-
-
-Subscript 11
-# 『お掃除』は、お店の中をキレイにするお仕事よ
-ShowTextBox "!!! 418D0C 9"
-EndScript
-
-
-
-Subscript 12
-# 『偵察』…偵察って何の事？
-ShowTextBox "!!! 418D0C 10"
-EndScript
-
-
-
-Subscript 13
-# キャラのステータスを見るわ
-ShowTextBox "!!! 418D0C 11"
-EndScript
+DSCBase $418D0C Subscript 0 ShowChara 2 0 0 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowTextBox "Select the character you want to change your work on and press the A button."
+EndScript Subscript 3 ShowTextBox "Select a new job and press the A button"
+EndScript Subscript 4 ShowTextBox "I can't work without someone at the cash register"
+EndScript Subscript 5 ShowTextBox "$0 will do $1"
+EndScript Subscript 6 ShowTextBox "$0 and $1 take turns"
+EndScript Subscript 7 ShowTextBox "Is this your job?"
+EndScript Subscript 8 ShowTextBox "\"Cash register\" is a job to sell goods to customers"
+EndScript Subscript 9 ShowTextBox "\"Customer service\" is a job to help customers who are busy"
+EndScript Subscript 10 ShowTextBox "\"Organizing goods\" is the job of arranging goods in slots."
+EndScript Subscript 11 ShowTextBox "\"Cleaning\" is a job to clean the inside of the store"
+EndScript Subscript 12 ShowTextBox "\"Recon\" ... What is reconnaissance?"
+EndScript Subscript 13 ShowTextBox "I'll see the status of the characte"
+EndScript 

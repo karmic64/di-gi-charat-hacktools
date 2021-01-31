@@ -1,51 +1,8 @@
-DSCBase $40A568
-
-
-
-
-Subscript 0
-SetBG 111
-Fade 0 15
-ShowChara 8 1 1
-# これまでの店長さんのおもいでをぜんぶ消して、
-ShowTextBox "!!! 40A568 0"
-WaitTextBox
-# カートリッジを初期化してしまうゲマ？
-ShowTextBox "!!! 40A568 1"
-WaitTextBox
-# やっぱり消さない
-# 消す！
-ShowSelMenu09 2 "!!! 40A568 2"
-EndScript
-
-
-
-Subscript 1
-ShowChara 8 0 54
-# ほ、ほんとうにぜんぶ消してしまうゲマ！？
-ShowTextBox "!!! 40A568 3"
-WaitTextBox
-# やっぱり消さない
-# けす！！
-ShowSelMenu09 2 "!!! 40A568 4"
-EndScript
-
-
-
-Subscript 2
-ShowChara 8 0 1
-# いままでの店長さんのおもいではみんな消えてしまったゲマ！
-ShowTextBox "!!! 40A568 5"
-WaitTextBox
-Fade 3 15
-EndScript
-
-
-
-Subscript 3
-ShowChara 8 0 1
-# やっぱりのこしておくゲマ！
-ShowTextBox "!!! 40A568 6"
-WaitTextBox
-Fade 3 15
-EndScript
+DSCBase $40A568 Subscript 0 SetBG 111 Fade 0 15 ShowChara 8 1 1 ShowTextBox "Erase all the thoughts of the store manager so far"
+WaitTextBox ShowTextBox "Gema that initializes the cartridge?"
+WaitTextBox ShowSelMenu09 2 "After all it does not erase!"
+EndScript Subscript 1 ShowChara 8 0 54 ShowTextBox "Really, Gema that erases everything! ??"
+WaitTextBox ShowSelMenu09 2 "After all it will not be erased! !!"
+EndScript Subscript 2 ShowChara 8 0 1 ShowTextBox "Gema has disappeared from the store manager's thoughts so far!"
+WaitTextBox Fade 3 15 EndScript Subscript 3 ShowChara 8 0 1 ShowTextBox "After all it is a gema to leave!"
+WaitTextBox Fade 3 15 EndScript 

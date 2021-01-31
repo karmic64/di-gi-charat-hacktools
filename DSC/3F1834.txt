@@ -1,330 +1,59 @@
-DSCBase $3F1834
-
-
-
-
-Subscript 0
-SetBG 111
-Fade 0 30
-ShowChara 2 1 23
-# さて、ついにゴー
-# ルデンウィークに
-# 突入ね…
-ShowTextBox "!!! 3F1834 0"
-WaitTextBox
-# ところで、でじこ
-# って、ゴールデン
-# ウィークが何か、
-# 知ってる？
-ShowTextBox "!!! 3F1834 1"
-WaitTextBox
-ShowChara 1 2 10
-# もちろん、知って
-# るにょ！
-ShowTextBox "!!! 3F1834 2"
-WaitTextBox
-# ゴールデンウィー
-# クは春の大型連休
-# のことにょっ！
-ShowTextBox "!!! 3F1834 3"
-WaitTextBox
-# ちなみに、今年の
-# ゴールデンウィー
-# クは、今日４月２
-# ８日から、来週の
-# ５月５日までにょ
-# ～っ！
-ShowTextBox "!!! 3F1834 4"
-WaitTextBox
-ShowChara 2 1 23
-# へぇ、よく知って
-# るじゃない！
-ShowTextBox "!!! 3F1834 5"
-WaitTextBox
-ShowChara 1 2 12
-# だけど、お店の手
-# 伝いがあるから、
-# でじこにはあんま
-# り関係ないにょ～
-ShowTextBox "!!! 3F1834 6"
-WaitTextBox
-ShowChara 2 1 25
-# …そうね
-ShowTextBox "!!! 3F1834 7"
-WaitTextBox
-ShowChara 3 2 17
-# がんばるにゅ！
-# 稼ぎ時にゅ
-ShowTextBox "!!! 3F1834 8"
-WaitTextBox
-ShowChara 8 1 1
-# そうゲマっ、ぷち
-# この言うとおりゲ
-# マ！
-ShowTextBox "!!! 3F1834 9"
-WaitTextBox
-ShowChara 8 0 53
-# ゴールデンウィー
-# クは、他のお店は
-# セールとかやって
-# お客さんをたくさ
-# ん集めるゲマ！
-ShowTextBox "!!! 3F1834 10"
-WaitTextBox
-# 他のお店に負けな
-# いよう、うちの店
-# もお客さんを呼ぶ
-# アイディアを考え
-# るゲマ！
-ShowTextBox "!!! 3F1834 11"
-WaitTextBox
-ShowChara 2 1 23
-# そうね！みんなで
-# 考えて、アイディ
-# ア出してみましょ
-ShowTextBox "!!! 3F1834 12"
-WaitTextBox
-ShowChara 1 2 16
-# え～、なんだか気
-# がすすまないにょ
-# ～
-# 納得いかないにょ
-# ～
-ShowTextBox "!!! 3F1834 13"
-WaitTextBox
-ShowChara 8 1 2
-# だまって考えるゲ
-# マ！
-ShowTextBox "!!! 3F1834 14"
-WaitTextBox
-ShowChara 3 2 17
-# 考えるにゅ…
-ShowTextBox "!!! 3F1834 15"
-WaitTextBox
-Fade 1 120
-Wait 60
-Fade 0 30
-ShowChara 8 1 2
-# う～ん…
-ShowTextBox "!!! 3F1834 16"
-WaitTextBox
-ShowChara 1 2 12
-# にょ～～っ、何も
-# 思いつかないにょ
-# ～～！
-ShowTextBox "!!! 3F1834 17"
-WaitTextBox
-# 休憩したら…
-# いや、根性だ…
-ShowSelMenu09 2 "!!! 3F1834 18"
-JumpOnSelection 2 0 1 0
-Label 1
-ShowChara 1 0 9
-# にょっ、今、店長
-# しゃんが良いこと
-# を言ったにょっ！
-ShowTextBox "!!! 3F1834 19"
-WaitTextBox
-ShowChara 3 2 17
-# 根性にゅっ！
-ShowTextBox "!!! 3F1834 20"
-WaitTextBox
-ShowChara 1 2 11
-# そうにょっ！こん
-# なときこそ、みん
-# なで根性出してが
-# んばるにょっ！
-ShowTextBox "!!! 3F1834 21"
-WaitTextBox
-ShowChara 2 1 25
-# うーん、もっとも
-# だけど…
-ShowTextBox "!!! 3F1834 22"
-WaitTextBox
-ShowChara 8 1 1
-# 結論ゲマっ！
-ShowTextBox "!!! 3F1834 23"
-WaitTextBox
-# ゴールデンウィー
-# クは、みんな根性
-# 出してがんばるゲ
-# マっ！
-ShowTextBox "!!! 3F1834 24"
-WaitTextBox
-ShowChara 14 2 63
-# おーっ！
-ShowTextBox "!!! 3F1834 25"
-WaitTextBox
-ShowChara 8 1 1
-# 声が小さいゲマぁ
-# ～～っ！
-ShowTextBox "!!! 3F1834 26"
-WaitTextBox
-ShowChara 14 2 63
-# おおーーーーっ！
-ShowTextBox "!!! 3F1834 27"
-WaitTextBox
-ShowChara 1 2 10
-# にょにょ！なんか
-# やれる気になって
-# きたにょ！
-ShowTextBox "!!! 3F1834 28"
-WaitTextBox
-ShowChara 2 1 25
-# やれる気がするだ
-# けかも…
-ShowTextBox "!!! 3F1834 29"
-WaitTextBox
-ShowChara 3 2 21
-# それは言わない約
-# 束にゅ
-ShowTextBox "!!! 3F1834 30"
-WaitTextBox
-ShowChara 8 1 53
-# さあ、開店するゲ
-# マ！
-ShowTextBox "!!! 3F1834 31"
-WaitTextBox
-EndScript
-Label 0
-ShowChara 8 1 2
-# 店長さんも、ああ
-# 言ってるゲマ
-# ちょっと休憩する
-# ゲマ…
-ShowTextBox "!!! 3F1834 32"
-WaitTextBox
-ShowChara 3 2 17
-# 賛成にゅ
-ShowTextBox "!!! 3F1834 33"
-WaitTextBox
-ShowChara 1 2 12
-# にょにょ～、考え
-# すぎで、お腹が減
-# ったにょ～
-ShowTextBox "!!! 3F1834 34"
-WaitTextBox
-ShowChara 2 1 23
-# ねぇ、何か食べま
-# しょ？
-ShowTextBox "!!! 3F1834 35"
-WaitTextBox
-ShowChara 3 2 17
-# 賛成にゅ
-ShowTextBox "!!! 3F1834 36"
-WaitTextBox
-ShowChara 1 2 10
-# でじこは外に食べ
-# に行きたいにょ！
-# ファミレスとかが
-# いいにょっ！
-ShowTextBox "!!! 3F1834 37"
-WaitTextBox
-ShowChara 2 1 25
-# え～っ、ファミレ
-# ス？高いわよ～
-ShowTextBox "!!! 3F1834 38"
-WaitTextBox
-ShowChara 3 2 17
-# …………
-ShowTextBox "!!! 3F1834 39"
-WaitTextBox
-ShowChara 2 1 22
-# あらっ、ぷちこ、
-# どうしたの？
-ShowTextBox "!!! 3F1834 40"
-WaitTextBox
-ShowChara 1 2 8
-# ぷちこはお腹減っ
-# てないのかにょ？
-ShowTextBox "!!! 3F1834 41"
-WaitTextBox
-ShowChara 3 2 18
-# いいアイディアを
-# 思いついたにゅ
-ShowTextBox "!!! 3F1834 42"
-WaitTextBox
-# 店長さん、耳を貸
-# すにゅ
-ShowTextBox "!!! 3F1834 43"
-WaitTextBox
-# ごにょごにょ…
-ShowTextBox "!!! 3F1834 44"
-WaitTextBox
-ShowChara 8 1 1
-# むう…いったい、
-# ぷちこは何を思い
-# ついたゲマ…？
-ShowTextBox "!!! 3F1834 45"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-Unk08 3 75 69 68 100 10 3
-SetBG 25
-Fade 0 30
-ShowChara 3 0 0
-# いらっしゃいませにゅ
-# ！
-ShowTextBox "!!! 3F1834 46"
-WaitTextBox
-# 欲しいものがあったら
-# ぷちこに教えるにゅ！
-ShowTextBox "!!! 3F1834 47"
-WaitTextBox
-# ぴっぴっぴっ…
-ShowTextBox "!!! 3F1834 48"
-WaitTextBox
-# それなら在庫があるに
-# ゅ…
-ShowTextBox "!!! 3F1834 49"
-WaitTextBox
-# 今、係の者が持ってく
-# るにゅ
-ShowTextBox "!!! 3F1834 50"
-WaitTextBox
-Fade 1 30
-SetBG 111
-Fade 0 30
-ShowChara 1 1 9
-# まいどあり！持っ
-# てきたにょーっ！
-ShowTextBox "!!! 3F1834 51"
-WaitTextBox
-ShowChara 3 2 63
-# 注文の商品にゅ
-ShowTextBox "!!! 3F1834 52"
-WaitTextBox
-ShowChara 1 1 8
-# あのファミレスみ
-# たいな制服にした
-# とたん、お客さん
-# が次々やって来る
-# ようになったにょ
-ShowTextBox "!!! 3F1834 53"
-WaitTextBox
-ShowChara 1 0 15
-# 謎にょ、どうして
-# にょ？
-ShowTextBox "!!! 3F1834 54"
-WaitTextBox
-ShowChara 2 1 23
-# 何言ってるの、ぷ
-# ちこ、似合ってる
-# じゃない
-ShowTextBox "!!! 3F1834 55"
-WaitTextBox
-# ほら、お客さんの
-# 人気も上々だし、
-# 良いことづくめね
-# ！
-ShowTextBox "!!! 3F1834 56"
-WaitTextBox
-ShowChara 8 2 1
-# う～ん、馬子にも
-# 衣装ゲマ
-ShowTextBox "!!! 3F1834 57"
-WaitTextBox
-EndScript
+DSCBase $3F1834 Subscript 0 SetBG 111 Fade 0 30 ShowChara 2 1 23 ShowTextBox "Well, finally we are in Golden Week ..."
+WaitTextBox ShowTextBox "By the way, do you know what Golden Week is?"
+WaitTextBox ShowChara 1 2 10 ShowTextBox "Of course you know!"
+WaitTextBox ShowTextBox "Golden Week is a big spring holiday!"
+WaitTextBox ShowTextBox "By the way, this year's Golden Week is from April 28th today to May 5th next week!"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "Hey, you know it well!"
+WaitTextBox ShowChara 1 2 12 ShowTextBox "However, with the help of the shop, it doesn't really matter to Di Gi Charat ~"
+WaitTextBox ShowChara 2 1 25 ShowTextBox "… Yeah"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "Good luck! At the time of earning"
+WaitTextBox ShowChara 8 1 1 ShowTextBox "That's right, Petit, as this says, Gema!"
+WaitTextBox ShowChara 8 0 53 ShowTextBox "During Golden Week, other shops are selling and gathering a lot of customers!"
+WaitTextBox ShowTextBox "Gema who thinks about ideas to attract customers so that our store will not lose to other stores!"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "Yeah! Let's think together and come up with ideas"
+WaitTextBox ShowChara 1 2 16 ShowTextBox "Eh, I'm sorry for some reason-I'm not convinced-"
+WaitTextBox ShowChara 8 1 2 ShowTextBox "Gema thinking about it!"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "Think ..."
+WaitTextBox Fade 1 120 Wait 60 Fade 0 30 ShowChara 8 1 2 ShowTextBox "Hmm ..."
+WaitTextBox ShowChara 1 2 12 ShowTextBox "Nyo ~~, I can't think of anything ~~!"
+WaitTextBox ShowSelMenu09 2 "If you take a break ... no, it's guts ..."
+JumpOnSelection 2 0 1 0 Label 1 ShowChara 1 0 9 ShowTextBox "Hey, the store manager said something good now!"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "Guts!"
+WaitTextBox ShowChara 1 2 11 ShowTextBox "That's right! At times like this, everyone will do their best with guts!"
+WaitTextBox ShowChara 2 1 25 ShowTextBox "Well, that's right ..."
+WaitTextBox ShowChara 8 1 1 ShowTextBox "Conclusion Gema!"
+WaitTextBox ShowTextBox "During Golden Week, everyone will do their best with guts!"
+WaitTextBox ShowChara 14 2 63 ShowTextBox "Oh!"
+WaitTextBox ShowChara 8 1 1 ShowTextBox "Gema with a small voice!"
+WaitTextBox ShowChara 14 2 63 ShowTextBox "Ohhhhh!"
+WaitTextBox ShowChara 1 2 10 ShowTextBox "Nyonyo! I feel like I can do something!"
+WaitTextBox ShowChara 2 1 25 ShowTextBox "I just feel like I can do it ..."
+WaitTextBox ShowChara 3 2 21 ShowTextBox "It's a promise not to say"
+WaitTextBox ShowChara 8 1 53 ShowTextBox "Gema to open!"
+WaitTextBox EndScript Label 0 ShowChara 8 1 2 ShowTextBox "The store manager also says that, Gema, Gema who takes a break ..."
+WaitTextBox ShowChara 3 2 17 ShowTextBox "Agree"
+WaitTextBox ShowChara 1 2 12 ShowTextBox "Nyonyo ~, I'm hungry because I think too much ~"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "Hey, should I eat something?"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "Agree"
+WaitTextBox ShowChara 1 2 10 ShowTextBox "Di Gi Charat wants to go out to eat! Family restaurant is good!"
+WaitTextBox ShowChara 2 1 25 ShowTextBox "Eh, family restaurant? It's expensive ~"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "…………"
+WaitTextBox ShowChara 2 1 22 ShowTextBox "Oh, Puchiko, what's wrong?"
+WaitTextBox ShowChara 1 2 8 ShowTextBox "Isn't Puchiko hungry?"
+WaitTextBox ShowChara 3 2 18 ShowTextBox "Nyu came up with a good idea"
+WaitTextBox ShowTextBox "Store manager, listen to me"
+WaitTextBox ShowTextBox "Gonyo Gonyo ..."
+WaitTextBox ShowChara 8 1 1 ShowTextBox "Mmm ... what on earth did Puchiko come up with ...?"
+WaitTextBox EndScript Subscript 1 Unk08 3 75 69 68 100 10 3 SetBG 25 Fade 0 30 ShowChara 3 0 0 ShowTextBox "Welcome!"
+WaitTextBox ShowTextBox "If you have something you want, tell Puchiko!"
+WaitTextBox ShowTextBox "Pippi Pippi ..."
+WaitTextBox ShowTextBox "Then it's in stock ..."
+WaitTextBox ShowTextBox "The person in charge will bring it now"
+WaitTextBox Fade 1 30 SetBG 111 Fade 0 30 ShowChara 1 1 9 ShowTextBox "There is a maido! I brought it!"
+WaitTextBox ShowChara 3 2 63 ShowTextBox "Ordered product Nyu"
+WaitTextBox ShowChara 1 1 8 ShowTextBox "As soon as I made a uniform like that family restaurant, customers came one after another."
+WaitTextBox ShowChara 1 0 15 ShowTextBox "Mystery, why?"
+WaitTextBox ShowChara 2 1 23 ShowTextBox "What are you saying, Puchiko, you look good"
+WaitTextBox ShowTextBox "You see, the popularity of the customers is great, and it's a good thing!"
+WaitTextBox ShowChara 8 2 1 ShowTextBox "Hmmm, costume gema for horses"
+WaitTextBox EndScript 

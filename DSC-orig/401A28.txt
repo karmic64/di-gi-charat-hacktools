@@ -1,0 +1,150 @@
+DSCBase $401A28
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 28
+# 今日から夏休みぴ
+# ょ…
+ShowTextBox "!!! 401A28 0"
+WaitTextBox
+# う～ん、ぴよこも
+# 何か夏らしいこと
+# をやってみたいぴ
+# ょ…
+ShowTextBox "!!! 401A28 1"
+WaitTextBox
+ShowChara 4 0 29
+# そうだ、いいこと
+# 思いついたぴょ！
+ShowTextBox "!!! 401A28 2"
+WaitTextBox
+ShowChara 4 0 34
+# 店長さん、ちょっ
+# と時間あるぴょ？
+ShowTextBox "!!! 401A28 3"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 4 1 29
+# ♪う～み～は～
+# こわいぴょ
+# おっかないぴょ～
+ShowTextBox "!!! 401A28 4"
+WaitTextBox
+# ふ～ねはしずむし
+# しおから～い～
+ShowTextBox "!!! 401A28 5"
+WaitTextBox
+# ぴょぴょ～っ、今
+# 帰ったぴょ～っ！
+ShowTextBox "!!! 401A28 6"
+WaitTextBox
+ShowChara 5 2 36
+# おかえりなさいま
+# せ、ピョコラ様…
+# それに店長
+ShowTextBox "!!! 401A28 7"
+WaitTextBox
+ShowChara 6 2 40
+# ずいぶん急なお出
+# かけでしたが…
+ShowTextBox "!!! 401A28 8"
+WaitTextBox
+ShowChara 7 2 47
+# なぁ、どこに行っ
+# てたんだ？
+ShowTextBox "!!! 401A28 9"
+WaitTextBox
+ShowChara 4 1 28
+# ぴょぴょ、ゴメン
+# ゴメンぴょ…
+ShowTextBox "!!! 401A28 10"
+WaitTextBox
+# 店長さんといっし
+# ょに、ちょっと海
+# まで行って、暑中
+# 見舞い用の写真を
+# 撮ってきたぴょ…
+ShowTextBox "!!! 401A28 11"
+WaitTextBox
+ShowChara 7 2 47
+# 暑中見舞い？
+ShowTextBox "!!! 401A28 12"
+WaitTextBox
+Fade 3 30
+Unk08 4 83 59 80 94 10 3
+SetBG 76
+Fade 2 30
+ShowChara 4 0 0
+# じゃーん、これがその
+# 写真ぴょっ！
+ShowTextBox "!!! 401A28 13"
+WaitTextBox
+# どうぴょ、この夏、店
+# で出す暑中見舞いには
+# この写真を使うぴょ！
+ShowTextBox "!!! 401A28 14"
+WaitTextBox
+Fade 1 30
+SetBG 112
+Fade 0 30
+ShowChara 5 2 36
+# ううむ、すばらし
+# い！
+ShowTextBox "!!! 401A28 15"
+WaitTextBox
+# 海のおさかなさん
+# たちにも負けない
+# かわいらしさです
+# ピョコラ様…
+ShowTextBox "!!! 401A28 16"
+WaitTextBox
+ShowChara 6 2 41
+# 自分も同感です！
+ShowTextBox "!!! 401A28 17"
+WaitTextBox
+# ピョコラ様のイメ
+# ージにぴったりだ
+# と思いました…
+ShowTextBox "!!! 401A28 18"
+WaitTextBox
+ShowChara 7 2 48
+# いいなぁ、楽しか
+# ったか、ぴよこ？
+ShowTextBox "!!! 401A28 19"
+WaitTextBox
+# 俺もいっしょに行
+# きたかったなぁ…
+ShowTextBox "!!! 401A28 20"
+WaitTextBox
+ShowChara 4 1 34
+# すまないぴょ、急
+# な思いつきだった
+# から、そのときに
+# は気が回らなかっ
+# たぴょ…
+ShowTextBox "!!! 401A28 21"
+WaitTextBox
+ShowChara 4 0 29
+# あっ、でも店長さ
+# んが、今度はみん
+# なで海に行こう…
+# と言ってたぴょ！
+ShowTextBox "!!! 401A28 22"
+WaitTextBox
+ShowChara 5 2 36
+# ついてくるなと言
+# われても、ついて
+# 行きますよ…
+ShowTextBox "!!! 401A28 23"
+WaitTextBox
+ShowChara 6 2 41
+# まったくです…
+ShowTextBox "!!! 401A28 24"
+WaitTextBox
+EndScript

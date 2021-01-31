@@ -1,0 +1,98 @@
+DSCBase $4189B0
+
+
+
+
+Subscript 0
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# どのキャラのお仕事をかえるにゅ？
+ShowTextBox "!!! 4189B0 0"
+EndScript
+
+
+
+Subscript 3
+# どのお仕事をさせるにゅ？
+ShowTextBox "!!! 4189B0 1"
+EndScript
+
+
+
+Subscript 4
+# レジは外せないにゅ
+ShowTextBox "!!! 4189B0 2"
+EndScript
+
+
+
+Subscript 5
+# $0が$1をするにゅ
+ShowTextBox "!!! 4189B0 3"
+EndScript
+
+
+
+Subscript 6
+# $0と$1がお仕事を入れかわるにゅ
+ShowTextBox "!!! 4189B0 4"
+EndScript
+
+
+
+Subscript 7
+# これでいいにゅ？
+ShowTextBox "!!! 4189B0 5"
+EndScript
+
+
+
+Subscript 8
+# 『レジ』…レジをうつにゅ
+ShowTextBox "!!! 4189B0 6"
+EndScript
+
+
+
+Subscript 9
+# 『接客』…お客さんをあんないするにゅ
+ShowTextBox "!!! 4189B0 7"
+EndScript
+
+
+
+Subscript 10
+# 『グッズ整理』…グッズをキレイに並べるにゅ
+ShowTextBox "!!! 4189B0 8"
+EndScript
+
+
+
+Subscript 11
+# 『お掃除』…お店の中をキレイにするにゅ
+ShowTextBox "!!! 4189B0 9"
+EndScript
+
+
+
+Subscript 12
+# 『偵察』…なんにゅ？
+ShowTextBox "!!! 4189B0 10"
+EndScript
+
+
+
+Subscript 13
+# キャラのステータスを見るにゅ
+ShowTextBox "!!! 4189B0 11"
+EndScript

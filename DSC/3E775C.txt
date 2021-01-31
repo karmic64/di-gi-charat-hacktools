@@ -1,697 +1,129 @@
-DSCBase $3E775C
-
-
-
-
-Subscript 0
-ShowChara 1 4 8
-# $1でつかれた時は甘い物を食べるといいにょ！
-ShowTextBox "!!! 3E775C 0"
-WaitTextBox
-ShowChara 1 0 9
-# 店長しゃんは何を食べたいにょ？
-ShowTextBox "!!! 3E775C 1"
-WaitTextBox
-# 甘いもの
-ShowTextPrompt 1 "\J!!! 3E775C 2"
-JumpOnSelection 2 0 1 0
-Label 0
-ShowChara 1 0 10
-# なるほど$9かにょ？
-# おいしそうだにょ～
-ShowTextBox "!!! 3E775C 3"
-WaitTextBox
-EndScript
-Label 1
-ShowChara 1 0 14
-# 店長しゃんって、ケチだにょ～
-# ひとりでコッソリ食べる気にょ？
-ShowTextBox "!!! 3E775C 4"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 1 4 8
-# にょ、店長しゃんのお使いにょ？
-ShowTextBox "!!! 3E775C 5"
-WaitTextBox
-# $1かにょ？
-# どこに行けばいいにょ？
-ShowTextBox "!!! 3E775C 6"
-WaitTextBox
-# $1する場所
-ShowTextPrompt 6 "\J!!! 3E775C 7"
-JumpOnSelection 2 2 3 0
-Label 2
-ShowChara 1 0 10
-# ＯＫにょ！
-# でじこ、$9に行ってくるにょ！
-ShowTextBox "!!! 3E775C 8"
-WaitTextBox
-# がんばって$1してくるにょ！
-ShowTextBox "!!! 3E775C 9"
-WaitTextBox
-EndScript
-Label 3
-ShowChara 1 0 8
-# …思い出せないにょ？
-ShowTextBox "!!! 3E775C 10"
-WaitTextBox
-ShowChara 1 0 14
-# ケッケッケッ…
-# それじゃあ、でじこはひとやすみするにょ～
-ShowTextBox "!!! 3E775C 11"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 1 4 10
-# 突然ですが、ここで連想ゲームですにょ！
-ShowTextBox "!!! 3E775C 12"
-WaitTextBox
-ShowChara 1 0 9
-# $1と言えば、誰を思い浮かべるにょ？
-ShowTextBox "!!! 3E775C 13"
-WaitTextBox
-# 人の名前
-ShowTextPrompt 0 "\J!!! 3E775C 14"
-JumpOnSelection 2 4 5 0
-Label 4
-ShowChara 1 0 10
-# 大正解にょ～！
-ShowTextBox "!!! 3E775C 15"
-WaitTextBox
-EndScript
-Label 5
-ShowChara 1 0 14
-# ブブー！
-# 時間切れにょ～！
-ShowTextBox "!!! 3E775C 16"
-WaitTextBox
-# 店長しゃんの負けにょ～！
-ShowTextBox "!!! 3E775C 17"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 1 4 10
-# さあ、$1を食べるにょ！
-ShowTextBox "!!! 3E775C 18"
-WaitTextBox
-ShowChara 1 0 8
-# もぐもぐもぐもぐ
-# もぐもぐもぐもぐ
-# もぐもぐもぐもぐ
-# もぐもぐもぐ……
-ShowTextBox "!!! 3E775C 19"
-WaitTextBox
-# もぐもぐもぐもぐ
-# もぐもぐもぐもぐ
-# もぐもぐもぐもぐ
-# もぐもぐもぐ……
-ShowTextBox "!!! 3E775C 20"
-WaitTextBox
-ShowChara 8 4 53
-# おいしそうゲマ
-# ゲマにも分けて欲しいゲマ
-ShowTextBox "!!! 3E775C 21"
-WaitTextBox
-ShowChara 1 4 11
-# これは、でじこの分だにょ！
-ShowTextBox "!!! 3E775C 22"
-WaitTextBox
-ShowChara 8 4 2
-# 少しくらいいいゲ
-# マ…意地汚いゲマ
-ShowTextBox "!!! 3E775C 23"
-WaitTextBox
-ShowChara 8 0 1
-# たしかこんな様子を表すことわざがあったゲマ
-ShowTextBox "!!! 3E775C 24"
-WaitTextBox
-# 『○○のようにガツガツしている』…なんだったゲマ？
-ShowTextBox "!!! 3E775C 25"
-WaitTextBox
-# ガツガツしてるどうぶつ
-ShowTextPrompt 3 "\J!!! 3E775C 26"
-JumpOnSelection 2 6 7 0
-Label 6
-ShowChara 8 0 53
-# そう、それゲマ！
-ShowTextBox "!!! 3E775C 27"
-WaitTextBox
-# 店長さんは物知りゲマね
-ShowTextBox "!!! 3E775C 28"
-WaitTextBox
-ShowChara 1 4 11
-# もぐもぐもぐもぐ
-# もぐもぐもぐもぐ
-# もぐもぐもぐもぐ
-# もぐもぐもぐ……
-ShowTextBox "!!! 3E775C 29"
-WaitTextBox
-ShowChara 8 4 2
-# そして、でじこは
-# 『$9のようにガツガツしている』ゲマ…
-ShowTextBox "!!! 3E775C 30"
-WaitTextBox
-EndScript
-Label 7
-ShowChara 1 4 11
-# もぐもぐもぐもぐ
-# もぐもぐもぐもぐ
-# もぐもぐもぐもぐ
-# もぐもぐもぐ……
-ShowTextBox "!!! 3E775C 31"
-WaitTextBox
-ShowChara 8 4 2
-# まあ、それがわか
-# ってもでじこの意
-# 地汚さが治るわけ
-# ではないから、い
-# いゲマ
-ShowTextBox "!!! 3E775C 32"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-ShowChara 1 4 8
-# $1といえば、ペットにオススメにょ
-# 店長しゃんはどんな動物、飼ってみたいにょ？
-ShowTextBox "!!! 3E775C 33"
-WaitTextBox
-# ペットにしたいどうぶつ
-ShowTextPrompt 3 "\J!!! 3E775C 34"
-JumpOnSelection 2 8 9 0
-Label 8
-ShowChara 1 0 15
-# にょにょ～！？
-# $9かにょ
-ShowTextBox "!!! 3E775C 35"
-WaitTextBox
-ShowChara 1 0 10
-# それはリッチにょ！ゴージャスにょ！１００匹くらい飼いたいにょ！！
-ShowTextBox "!!! 3E775C 36"
-WaitTextBox
-EndScript
-Label 9
-ShowChara 1 0 9
-# ペットはいらないにょ？
-ShowTextBox "!!! 3E775C 37"
-WaitTextBox
-ShowChara 1 0 16
-# さみしい人だにょ…
-# 心にゆとりがないにょ～
-ShowTextBox "!!! 3E775C 38"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-ShowChara 1 4 16
-# そういえば、$1で生まれ育った人がいたにょ
-ShowTextBox "!!! 3E775C 39"
-WaitTextBox
-# 誰だったかにょ？
-ShowTextBox "!!! 3E775C 40"
-WaitTextBox
-# じんぶつ
-ShowTextPrompt 0 "\J!!! 3E775C 41"
-JumpOnSelection 2 10 11 0
-Label 10
-ShowChara 1 0 8
-# そうだったにょ、$9にょ
-ShowTextBox "!!! 3E775C 42"
-WaitTextBox
-ShowChara 1 0 9
-# ウワサでは$9は、負け知らずのつわものだったらしいにょ
-ShowTextBox "!!! 3E775C 43"
-WaitTextBox
-ShowChara 1 0 12
-# 逆らったらヤバイらしいにょ！気をつけるにょ！！
-ShowTextBox "!!! 3E775C 44"
-WaitTextBox
-EndScript
-Label 11
-ShowChara 1 0 12
-# にょ～…知らないのかにょ～
-ShowTextBox "!!! 3E775C 45"
-WaitTextBox
-ShowChara 1 0 11
-# 無知にょ！無知すぎるにょ！もっと勉強するがいいにょ！
-ShowTextBox "!!! 3E775C 46"
-WaitTextBox
-ShowChara 1 0 14
-# でないと、人生マックラだにょ～
-ShowTextBox "!!! 3E775C 47"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-ShowChara 1 4 12
-# $1でつかれたにょ～
-ShowTextBox "!!! 3E775C 48"
-WaitTextBox
-ShowChara 1 0 10
-# でも、お休みになったらおもいきり遊ぶにょ～！
-ShowTextBox "!!! 3E775C 49"
-WaitTextBox
-ShowChara 1 0 8
-# にょ？
-# 店長しゃんは何して遊ぶにょ？
-ShowTextBox "!!! 3E775C 50"
-WaitTextBox
-# あそび
-ShowTextPrompt 11 "\J!!! 3E775C 51"
-JumpOnSelection 2 12 13 0
-Label 12
-ShowChara 1 0 15
-# $9にょ！？
-# 店長しゃん、$9を知ってるなんてなかなか通にょ！！
-ShowTextBox "!!! 3E775C 52"
-WaitTextBox
-ShowChara 1 0 9
-# $9なら、でじこもいっしょにするにょ！
-# 約束にょ！
-ShowTextBox "!!! 3E775C 53"
-WaitTextBox
-EndScript
-Label 13
-ShowChara 1 0 12
-# にょ～～お休みは
-# ないのかにょ～？
-# つらすぎにょ…
-ShowTextBox "!!! 3E775C 54"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-ShowChara 1 4 9
-# $1と聞くと、なぜかノドが渇くにょ！
-# なにか飲み物欲しいにょ！
-ShowTextBox "!!! 3E775C 55"
-WaitTextBox
-# のみもの
-ShowTextPrompt 2 "\J!!! 3E775C 56"
-JumpOnSelection 2 14 15 0
-Label 14
-ShowChara 1 0 10
-# $9はナイスな選択だにょ！
-ShowTextBox "!!! 3E775C 57"
-WaitTextBox
-ShowChara 1 0 8
-# さっそくゲマがみんなの分を買ってくるがいいにょ！
-ShowTextBox "!!! 3E775C 58"
-WaitTextBox
-ShowChara 8 4 2
-# え～～～…ひどい
-# ゲマ～～～
-# どうしてゲマが…
-ShowTextBox "!!! 3E775C 59"
-WaitTextBox
-ShowChara 1 4 13
-# うるさいにょ！
-# さっさと行くがいいにょ！！
-# 目からビームッ！
-ShowTextBox "!!! 3E775C 60"
-WaitTextBox
-ShowChara 8 4 4
-# ………………ひっ
-# ひどすぎるゲマ
-ShowTextBox "!!! 3E775C 61"
-WaitTextBox
-EndScript
-Label 15
-ShowChara 1 0 12
-# にょ～…おごって
-# くれないかにょ～
-# 店長しゃんは、心
-# の貧しい人だにょ
-ShowTextBox "!!! 3E775C 62"
-WaitTextBox
-# 悲しいにょ～～～
-ShowTextBox "!!! 3E775C 63"
-WaitTextBox
-EndScript
-
-
-
-Subscript 8
-ShowChara 1 4 10
-# $1といえば、ハイキングにょ！
-# さっそくみんなで
-# でかけるにょ！
-ShowTextBox "!!! 3E775C 64"
-WaitTextBox
-ShowChara 1 0 8
-# なにに乗って行くにょ？
-ShowTextBox "!!! 3E775C 65"
-WaitTextBox
-# のりもの
-ShowTextPrompt 10 "\J!!! 3E775C 66"
-JumpOnSelection 2 16 17 0
-Label 16
-ShowChara 1 0 16
-# $9かにょ？
-# ちょっとしょっぱ
-# いにょ～
-ShowTextBox "!!! 3E775C 67"
-WaitTextBox
-EndScript
-Label 17
-ShowChara 1 0 9
-# 思いつかないにょ？
-ShowTextBox "!!! 3E775C 68"
-WaitTextBox
-ShowChara 1 0 10
-# せっかくのハイキ
-# ングにょ！
-# だから歩いていく
-# にょ！
-ShowTextBox "!!! 3E775C 69"
-WaitTextBox
-EndScript
-
-
-
-Subscript 9
-ShowChara 1 4 8
-# 店長しゃん店長しゃん…
-ShowTextBox "!!! 3E775C 70"
-WaitTextBox
-# $1で有名な観光地って知ってるかにょ？
-ShowTextBox "!!! 3E775C 71"
-WaitTextBox
-# ゆうめいなばしょ
-ShowTextPrompt 6 "\J!!! 3E775C 72"
-JumpOnSelection 2 18 19 0
-Label 18
-ShowChara 1 0 10
-# $9にょ？
-# でじこは行ったこ
-# とないにょ！
-# ぜひ行ってみたい
-# にょ！
-ShowTextBox "!!! 3E775C 73"
-WaitTextBox
-EndScript
-Label 19
-ShowChara 1 0 10
-# 観光地もないなん
-# て、さみしいとこ
-# だにょ！
-ShowTextBox "!!! 3E775C 74"
-WaitTextBox
-EndScript
-
-
-
-Subscript 10
-ShowChara 1 4 8
-# そういえば今度$1がテレビに出るって言ってたにょ
-ShowTextBox "!!! 3E775C 75"
-WaitTextBox
-# なんて番組だったにょ？
-ShowTextBox "!!! 3E775C 76"
-WaitTextBox
-# テレビばんぐみ
-ShowTextPrompt 8 "\J!!! 3E775C 77"
-JumpOnSelection 2 20 21 0
-Label 20
-ShowChara 1 0 10
-# そう『$9』にょ！
-ShowTextBox "!!! 3E775C 78"
-WaitTextBox
-ShowChara 1 0 14
-# でじこより先にテ
-# レビに出るなんて
-# 生意気にょ
-ShowTextBox "!!! 3E775C 79"
-WaitTextBox
-ShowChara 1 0 13
-# ケッケッケッ…
-# 思い知らせてやる
-# にょ…
-ShowTextBox "!!! 3E775C 80"
-WaitTextBox
-EndScript
-Label 21
-ShowChara 1 0 16
-# 店長しゃんも知らない番組かにょ～
-ShowTextBox "!!! 3E775C 81"
-WaitTextBox
-# しょせん$1は三流芸人だにょ～
-# ほっとくにょ～…
-ShowTextBox "!!! 3E775C 82"
-WaitTextBox
-EndScript
-
-
-
-Subscript 11
-ShowChara 1 4 8
-# $1が愛読してるマンガがあったにょ
-# なんてタイトルだ
-# ったかにょ？
-ShowTextBox "!!! 3E775C 83"
-WaitTextBox
-# マンガ
-ShowTextPrompt 9 "\J!!! 3E775C 84"
-JumpOnSelection 2 22 23 0
-Label 22
-ShowChara 1 0 14
-# そうにょ！
-# 『$9』にょ！
-ShowTextBox "!!! 3E775C 85"
-WaitTextBox
-# 『$9』を読むなんて、かなりのマニアにょ～
-ShowTextBox "!!! 3E775C 86"
-WaitTextBox
-EndScript
-Label 23
-ShowChara 1 0 16
-# 店長さんが知らな
-# いなら、でじこに
-# も関係ないことだ
-# にょ～
-ShowTextBox "!!! 3E775C 87"
-WaitTextBox
-# さっさとお仕事に
-# 戻りますかにょ～
-ShowTextBox "!!! 3E775C 88"
-WaitTextBox
-EndScript
-
-
-
-Subscript 12
-ShowChara 1 4 8
-# $1で今流行ってる遊びがあるらしいにょ～
-ShowTextBox "!!! 3E775C 89"
-WaitTextBox
-# あそび
-ShowTextPrompt 11 "\J!!! 3E775C 90"
-JumpOnSelection 2 24 25 0
-Label 24
-ShowChara 1 0 15
-# $9が流行ってるのかにょ！？
-# グレイトにょ！！
-ShowTextBox "!!! 3E775C 91"
-WaitTextBox
-ShowChara 1 0 10
-# でじこもブームに乗り遅れないよう$9するにょ！
-ShowTextBox "!!! 3E775C 92"
-WaitTextBox
-# ビバ！$9にょ！！
-ShowTextBox "!!! 3E775C 93"
-WaitTextBox
-EndScript
-Label 25
-ShowChara 1 0 8
-# 店長しゃん、知らないにょ？
-ShowTextBox "!!! 3E775C 94"
-WaitTextBox
-ShowChara 1 0 16
-# このでじこ様がチェックする必要もないにょ～
-ShowTextBox "!!! 3E775C 95"
-WaitTextBox
-EndScript
-
-
-
-Subscript 13
-ShowChara 1 4 8
-# $1には、花のタネが隠し味に使われてるにょ！
-ShowTextBox "!!! 3E775C 96"
-WaitTextBox
-ShowChara 1 0 9
-# 何の花かにょ？
-ShowTextBox "!!! 3E775C 97"
-WaitTextBox
-# しょくぶつ
-ShowTextPrompt 4 "\J!!! 3E775C 98"
-JumpOnSelection 2 26 27 0
-Label 26
-ShowChara 1 0 15
-# $9のタネだったかにょ～！！
-ShowTextBox "!!! 3E775C 99"
-WaitTextBox
-# でじこ、知らなかったにょ！
-# びっくりにょ！！
-ShowTextBox "!!! 3E775C 100"
-WaitTextBox
-ShowChara 1 0 8
-# 次からはあまり食べないようにするにょ
-ShowTextBox "!!! 3E775C 101"
-WaitTextBox
-ShowChara 1 0 9
-# おなかから、$9の花が咲いたら、たいへんだにょ！
-# 店長しゃんも気をつけるにょ！
-ShowTextBox "!!! 3E775C 102"
-WaitTextBox
-EndScript
-Label 27
-ShowChara 1 0 8
-# 知らないにょ？
-ShowTextBox "!!! 3E775C 103"
-WaitTextBox
-ShowChara 1 0 9
-# あのリッチな風味が何のタネなのか調べてみる必要があるにょ～
-ShowTextBox "!!! 3E775C 104"
-WaitTextBox
-# 今日から１日１回$1を食べるにょ～
-ShowTextBox "!!! 3E775C 105"
-WaitTextBox
-ShowChara 1 0 10
-# ビバ！$1にょ！！
-ShowTextBox "!!! 3E775C 106"
-WaitTextBox
-EndScript
-
-
-
-Subscript 14
-ShowChara 1 4 9
-# $1は働きものと聞くにょ
-ShowTextBox "!!! 3E775C 107"
-WaitTextBox
-ShowChara 1 0 8
-# でも、なにをして働くのかにょ？
-ShowTextBox "!!! 3E775C 108"
-WaitTextBox
-# しごと
-ShowTextPrompt 7 "\J!!! 3E775C 109"
-JumpOnSelection 2 28 29 0
-Label 28
-ShowChara 1 0 15
-# $9にょ！！
-ShowTextBox "!!! 3E775C 110"
-WaitTextBox
-ShowChara 1 0 16
-# それはごくろうさまだにょ…
-# おつかれにょ
-ShowTextBox "!!! 3E775C 111"
-WaitTextBox
-EndScript
-Label 29
-ShowChara 1 0 9
-# 店長しゃんでも知
-# らないことあるん
-# だにょ
-ShowTextBox "!!! 3E775C 112"
-WaitTextBox
-ShowChara 1 0 10
-# 気にすることない
-# にょ
-# $1に聞けばいいことだにょ
-ShowTextBox "!!! 3E775C 113"
-WaitTextBox
-EndScript
-
-
-
-Subscript 15
-ShowChara 1 4 8
-# $1の人たちが、毎日欠かさず食べてるものがあるにょ
-ShowTextBox "!!! 3E775C 114"
-WaitTextBox
-# 何か知ってるかにょ？
-ShowTextBox "!!! 3E775C 115"
-WaitTextBox
-# たべもの
-ShowTextPrompt 1 "\J!!! 3E775C 116"
-JumpOnSelection 2 30 31 0
-Label 30
-ShowChara 1 0 9
-# そうにょ！
-# $9にょ！
-ShowTextBox "!!! 3E775C 117"
-WaitTextBox
-ShowChara 1 0 10
-# でじこも毎日$9を食べて長生きするにょ！
-ShowTextBox "!!! 3E775C 118"
-WaitTextBox
-EndScript
-Label 31
-ShowChara 1 0 12
-# なんでも、長生き
-# できる食べ物らし
-# いにょ
-ShowTextBox "!!! 3E775C 119"
-WaitTextBox
-ShowChara 1 0 14
-# こっそり調べて、
-# ひとりで食べるに
-# ょ～
-ShowTextBox "!!! 3E775C 120"
-WaitTextBox
-EndScript
-
-
-
-Subscript 16
-ShowChara 1 4 8
-# $1がサイコーにおいしい場所があるにょ
-ShowTextBox "!!! 3E775C 121"
-WaitTextBox
-# どこか知ってるかにょ？
-ShowTextBox "!!! 3E775C 122"
-WaitTextBox
-# $1の名産地
-ShowTextPrompt 5 "\J!!! 3E775C 123"
-JumpOnSelection 2 32 33 0
-Label 32
-ShowChara 1 0 9
-# $9かにょ！
-# でじこ、$9は旅行で行ったことあるにょ！
-ShowTextBox "!!! 3E775C 124"
-WaitTextBox
-ShowChara 1 0 10
-# $2もあって、ゴージャスなところだったにょ！
-ShowTextBox "!!! 3E775C 125"
-WaitTextBox
-ShowChara 1 0 14
-# 店長しゃんもお金があったら、行くがいいにょ～
-ShowTextBox "!!! 3E775C 126"
-WaitTextBox
-EndScript
-Label 33
-ShowChara 1 0 12
-# でじこも覚えてな
-# いにょ
-ShowTextBox "!!! 3E775C 127"
-WaitTextBox
-EndScript
+DSCBase $3E775C Subscript 0 ShowChara 1 4 8 ShowTextBox "If you get tired for $1, you should eat sweets!"
+WaitTextBox ShowChara 1 0 9 ShowTextBox "What does the manager want to eat?"
+WaitTextBox ShowTextPrompt 1 "Sweet stuff"
+JumpOnSelection 2 0 1 0 Label 0 ShowChara 1 0 10 ShowTextBox "I see $9? It looks delicious ~"
+WaitTextBox EndScript Label 1 ShowChara 1 0 14 ShowTextBox "The store manager is stingy-do you feel like eating alone?"
+WaitTextBox EndScript Subscript 1 ShowChara 1 4 8 ShowTextBox "Nyo, the store manager, right?"
+WaitTextBox ShowTextBox "$1? Where should I go?"
+WaitTextBox ShowTextPrompt 6 "Where to $1"
+JumpOnSelection 2 2 3 0 Label 2 ShowChara 1 0 10 ShowTextBox "OK! Di Gi Charat, I'm going to $9!"
+WaitTextBox ShowTextBox "Good luck and you'll get $1!"
+WaitTextBox EndScript Label 3 ShowChara 1 0 8 ShowTextBox "... can't you remember?"
+WaitTextBox ShowChara 1 0 14 ShowTextBox "Di Gi Charat ... Then, Di Gi Charat will take a rest ~"
+WaitTextBox EndScript Subscript 2 ShowChara 1 4 10 ShowTextBox "Suddenly, here is an associative game!"
+WaitTextBox ShowChara 1 0 9 ShowTextBox "Who do you think of when you think of $1?"
+WaitTextBox ShowTextPrompt 0 "Person's name"
+JumpOnSelection 2 4 5 0 Label 4 ShowChara 1 0 10 ShowTextBox "Great answer!"
+WaitTextBox EndScript Label 5 ShowChara 1 0 14 ShowTextBox "Boooo! Time runs out!"
+WaitTextBox ShowTextBox "The store manager loses!"
+WaitTextBox EndScript Subscript 3 ShowChara 1 4 10 ShowTextBox "Let's eat $1!"
+WaitTextBox ShowChara 1 0 8 ShowTextBox "Mogumogumogumogumogumogumogumogumogumogumogumogumogumogumogu ..."
+WaitTextBox ShowTextBox "Mogumogumogumogumogumogumogumogumogumogumogumogumogumogumogu ..."
+WaitTextBox ShowChara 8 4 53 ShowTextBox "Gema that looks delicious I want you to divide it into Gema Gema"
+WaitTextBox ShowChara 1 4 11 ShowTextBox "This is a big deal!"
+WaitTextBox ShowChara 8 4 2 ShowTextBox "A little nice gema ... nasty gema"
+WaitTextBox ShowChara 8 0 1 ShowTextBox "Gema who had a saying to express such a situation"
+WaitTextBox ShowTextBox "\"It's rugged like XX\" ... What was it?"
+WaitTextBox ShowTextPrompt 3 "Rugged animal"
+JumpOnSelection 2 6 7 0 Label 6 ShowChara 8 0 53 ShowTextBox "Yes, that's Gema!"
+WaitTextBox ShowTextBox "The store manager is a knowledgeable person"
+WaitTextBox ShowChara 1 4 11 ShowTextBox "Mogumogumogumogumogumogumogumogumogumogumogumogumogumogumogu ..."
+WaitTextBox ShowChara 8 4 2 ShowTextBox "And Di Gi Charat is \"stiff like $9\" Gema ..."
+WaitTextBox EndScript Label 7 ShowChara 1 4 11 ShowTextBox "Mogumogumogumogumogumogumogumogumogumogumogumogumogumogumogu ..."
+WaitTextBox ShowChara 8 4 2 ShowTextBox "Well, even if you know that, Di Gi Charat's nastyness will not be cured, so it's a good gema"
+WaitTextBox EndScript Subscript 4 ShowChara 1 4 8 ShowTextBox "Speaking of $1, it's recommended for pets. What kind of animal do you want to keep?"
+WaitTextBox ShowTextPrompt 3 "Animals you want to pet"
+JumpOnSelection 2 8 9 0 Label 8 ShowChara 1 0 15 ShowTextBox "Nyonyo ~! ?? $9"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "It's rich! Gorgeous! I want to keep about 100! !!"
+WaitTextBox EndScript Label 9 ShowChara 1 0 9 ShowTextBox "You don't need a pet, right?"
+WaitTextBox ShowChara 1 0 16 ShowTextBox "You're a lonely person ... I don't have room in my heart ~"
+WaitTextBox EndScript Subscript 5 ShowChara 1 4 16 ShowTextBox "By the way, there was a person who was born and raised for $1."
+WaitTextBox ShowTextBox "Who was it?"
+WaitTextBox ShowTextPrompt 0 "Jinbutsu"
+JumpOnSelection 2 10 11 0 Label 10 ShowChara 1 0 8 ShowTextBox "That's right, $9"
+WaitTextBox ShowChara 1 0 9 ShowTextBox "It seems that $9 was an unbeatable sword in rumor."
+WaitTextBox ShowChara 1 0 12 ShowTextBox "If you go against it, it seems to be dangerous! Be careful! !!"
+WaitTextBox EndScript Label 11 ShowChara 1 0 12 ShowTextBox "Nyo ... I don't know ..."
+WaitTextBox ShowChara 1 0 11 ShowTextBox "Ignorance! You're too ignorant! You should study more!"
+WaitTextBox ShowChara 1 0 14 ShowTextBox "Otherwise, it's life McClara ~"
+WaitTextBox EndScript Subscript 6 ShowChara 1 4 12 ShowTextBox "I was tired for $1 ~"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "But when I take a day off, I'll play hard!"
+WaitTextBox ShowChara 1 0 8 ShowTextBox "Nyo? What is the manager playing?"
+WaitTextBox ShowTextPrompt 11 "Play"
+JumpOnSelection 2 12 13 0 Label 12 ShowChara 1 0 15 ShowTextBox "$9! ?? Manager, it's hard to know $9! !!"
+WaitTextBox ShowChara 1 0 9 ShowTextBox "For $9, I'll be with Di Gi Charat! Promise!"
+WaitTextBox EndScript Label 13 ShowChara 1 0 12 ShowTextBox "Nyo ~~ Isn't there a day off ~? It's too painful ..."
+WaitTextBox EndScript Subscript 7 ShowChara 1 4 9 ShowTextBox "When I hear $1, I'm thirsty for some reason! I want some drink!"
+WaitTextBox ShowTextPrompt 2 "Drink"
+JumpOnSelection 2 14 15 0 Label 14 ShowChara 1 0 10 ShowTextBox "$9 is a nice choice!"
+WaitTextBox ShowChara 1 0 8 ShowTextBox "Gema should buy everyone's share right away!"
+WaitTextBox ShowChara 8 4 2 ShowTextBox "Eh ~~~ ... Terrible gema ~~~ Why is gema ..."
+WaitTextBox ShowChara 1 4 13 ShowTextBox "Noisy! You should go quickly! !! Beam from your eyes!"
+WaitTextBox ShowChara 8 4 4 ShowTextBox "……………… Gema too terrible"
+WaitTextBox EndScript Label 15 ShowChara 1 0 12 ShowTextBox "Nyo ... Would you like to treat me? The manager is a poor person."
+WaitTextBox ShowTextBox "I'm sad ~~~"
+WaitTextBox EndScript Subscript 8 ShowChara 1 4 10 ShowTextBox "Speaking of $1, hiking! Let's go out together!"
+WaitTextBox ShowChara 1 0 8 ShowTextBox "What are you going to ride?"
+WaitTextBox ShowTextPrompt 10 "Vehicle"
+JumpOnSelection 2 16 17 0 Label 16 ShowChara 1 0 16 ShowTextBox "$9? It's a little salty ~"
+WaitTextBox EndScript Label 17 ShowChara 1 0 9 ShowTextBox "Can't you think of it?"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "It's a great hike! So let's walk!"
+WaitTextBox EndScript Subscript 9 ShowChara 1 4 8 ShowTextBox "Manager Shan Store Manager Shan ..."
+WaitTextBox ShowTextBox "Do you know a famous tourist destination for $1?"
+WaitTextBox ShowTextPrompt 6 "Yumei Inaba"
+JumpOnSelection 2 18 19 0 Label 18 ShowChara 1 0 10 ShowTextBox "$9? Di Gi Charat has never been there! I definitely want to go!"
+WaitTextBox EndScript Label 19 ShowChara 1 0 10 ShowTextBox "It's a lonely place to have no tourist spots!"
+WaitTextBox EndScript Subscript 10 ShowChara 1 4 8 ShowTextBox "By the way, you said that $1 will be on TV next time."
+WaitTextBox ShowTextBox "What a show?"
+WaitTextBox ShowTextPrompt 8 "TV program"
+JumpOnSelection 2 20 21 0 Label 20 ShowChara 1 0 10 ShowTextBox "Yes, \"$9\"!"
+WaitTextBox ShowChara 1 0 14 ShowTextBox "It's cheeky to appear on TV before Di Gi Charat"
+WaitTextBox ShowChara 1 0 13 ShowTextBox "I'm gonna let you know ..."
+WaitTextBox EndScript Label 21 ShowChara 1 0 16 ShowTextBox "A program that the manager doesn't even know about"
+WaitTextBox ShowTextBox "Shosen $1 is a third-class comedian."
+WaitTextBox EndScript Subscript 11 ShowChara 1 4 8 ShowTextBox "What was the title of the manga that $1 loved to read?"
+WaitTextBox ShowTextPrompt 9 "manga"
+JumpOnSelection 2 22 23 0 Label 22 ShowChara 1 0 14 ShowTextBox "That's right! \"$9\"!"
+WaitTextBox ShowTextBox "It's a pretty maniac to read \"$9\" ~"
+WaitTextBox EndScript Label 23 ShowChara 1 0 16 ShowTextBox "If the store manager doesn't know, it has nothing to do with Di Gi Charat ~"
+WaitTextBox ShowTextBox "Will you be back to work soon?"
+WaitTextBox EndScript Subscript 12 ShowChara 1 4 8 ShowTextBox "There seems to be a play that is popular now for $1 ~"
+WaitTextBox ShowTextPrompt 11 "Play"
+JumpOnSelection 2 24 25 0 Label 24 ShowChara 1 0 15 ShowTextBox "I wonder if $9 is in vogue! ?? Great! !!"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "Di Gi Charat will pay $9 to keep up with the boom!"
+WaitTextBox ShowTextBox "Viva! $9! !!"
+WaitTextBox EndScript Label 25 ShowChara 1 0 8 ShowTextBox "Manager, don't you know?"
+WaitTextBox ShowChara 1 0 16 ShowTextBox "There is no need for Di Gi Charat to check this ~"
+WaitTextBox EndScript Subscript 13 ShowChara 1 4 8 ShowTextBox "For $1, flower seeds are used as a secret ingredient!"
+WaitTextBox ShowChara 1 0 9 ShowTextBox "What kind of flower is it?"
+WaitTextBox ShowTextPrompt 4 "Plants"
+JumpOnSelection 2 26 27 0 Label 26 ShowChara 1 0 15 ShowTextBox "It was a $9 seed! !!"
+WaitTextBox ShowTextBox "Di Gi Charat, you didn't know! I'm surprised! !!"
+WaitTextBox ShowChara 1 0 8 ShowTextBox "I will not eat much from the next time"
+WaitTextBox ShowChara 1 0 9 ShowTextBox "If a $9 flower blooms from your stomach, it's hard! The store manager should also be careful!"
+WaitTextBox EndScript Label 27 ShowChara 1 0 8 ShowTextBox "Don't you know?"
+WaitTextBox ShowChara 1 0 9 ShowTextBox "You need to find out what the rich flavor is."
+WaitTextBox ShowTextBox "I'll eat $1 once a day from today ~"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "Viva! $1! !!"
+WaitTextBox EndScript Subscript 14 ShowChara 1 4 9 ShowTextBox "I hear that $1 is a work"
+WaitTextBox ShowChara 1 0 8 ShowTextBox "But what do you do to work?"
+WaitTextBox ShowTextPrompt 7 "Work"
+JumpOnSelection 2 28 29 0 Label 28 ShowChara 1 0 15 ShowTextBox "$9! !!"
+WaitTextBox ShowChara 1 0 16 ShowTextBox "It's very awesome ..."
+WaitTextBox EndScript Label 29 ShowChara 1 0 9 ShowTextBox "There are things you don't know even if you're the manager"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "Don't worry, just ask $1"
+WaitTextBox EndScript Subscript 15 ShowChara 1 4 8 ShowTextBox "There's something that $1 people eat every day"
+WaitTextBox ShowTextBox "Do you know anything?"
+WaitTextBox ShowTextPrompt 1 "Food"
+JumpOnSelection 2 30 31 0 Label 30 ShowChara 1 0 9 ShowTextBox "That's right! $9!"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "Di Gi Charat will eat $9 every day and live longer!"
+WaitTextBox EndScript Label 31 ShowChara 1 0 12 ShowTextBox "Everything seems to be food that can live long"
+WaitTextBox ShowChara 1 0 14 ShowTextBox "I'll look it up secretly and eat it alone ~"
+WaitTextBox EndScript Subscript 16 ShowChara 1 4 8 ShowTextBox "$1 is a delicious place in Saiko"
+WaitTextBox ShowTextBox "Do you know where"
+WaitTextBox ShowTextPrompt 5 "$1 specialty"
+JumpOnSelection 2 32 33 0 Label 32 ShowChara 1 0 9 ShowTextBox "$9! Di Gi Charat, $9 has been on a trip!"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "It was a gorgeous place with $2!"
+WaitTextBox ShowChara 1 0 14 ShowTextBox "If the store manager has money, he should go ~"
+WaitTextBox EndScript Label 33 ShowChara 1 0 12 ShowTextBox "I don't even remember Di Gi Charat"
+WaitTextBox EndScript 

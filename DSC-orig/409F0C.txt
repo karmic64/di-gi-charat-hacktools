@@ -1,0 +1,100 @@
+DSCBase $409F0C
+
+
+
+
+Subscript 0
+SetPermTextBoxPos 0 16
+SetPermTextBoxCharPos -8 0
+ShowChara 4 2 28
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 4 0 28
+# どれを買うぴょ？
+ShowTextBox "!!! 409F0C 0"
+EndScript
+
+
+
+Subscript 3
+ShowChara 4 0 28
+# 全部売れると、なんと$0円にもなるぴょ！
+ShowTextBox "!!! 409F0C 1"
+EndScript
+
+
+
+Subscript 4
+ShowChara 4 0 30
+# お金が足りないぴょ
+# 貧乏は悲しいぴょ…
+ShowTextBox "!!! 409F0C 2"
+EndScript
+
+
+
+Subscript 5
+ShowChara 4 0 30
+# それはまだお店に残っ
+# てるぴょっ！
+ShowTextBox "!!! 409F0C 3"
+EndScript
+
+
+
+Subscript 6
+ShowChara 4 0 28
+# いくつ買うぴょ？
+ShowTextBox "!!! 409F0C 4"
+EndScript
+
+
+
+Subscript 7
+ShowChara 4 0 28
+# $0個買うのに、
+# $1円かかるぴょ
+ShowTextBox "!!! 409F0C 5"
+EndScript
+
+
+
+Subscript 8
+ShowChara 4 0 28
+# 買うのをやめるぴょ？
+ShowTextBox "!!! 409F0C 6"
+EndScript
+
+
+
+Subscript 9
+ShowChara 4 0 28
+# 見やすいように、グッ
+# ズをならびかえるぴょ
+ShowTextBox "!!! 409F0C 7"
+EndScript
+
+
+
+Subscript 10
+ShowChara 4 0 28
+# 本当に買うぴょ？
+ShowTextBox "!!! 409F0C 8"
+EndScript
+
+
+
+Subscript 11
+ShowChara 4 0 28
+# $3の$1が$2上手になるぴょ
+ShowTextBox "!!! 409F0C 9"
+EndScript

@@ -1,0 +1,170 @@
+DSCBase $41011C
+
+
+
+
+Subscript 0
+ShowChara 4 0 29
+# ぴよこ、今週は
+# $0、すごくがんばったぴょ！
+# 来週もぴよこに
+# おまかせぴょ！
+ShowTextBox "!!! 41011C 0"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 4 0 28
+# ぴよこ、今週は
+# $0、ふつうにこなせたぴょ
+# 来週も
+# がんばるぴょ！
+ShowTextBox "!!! 41011C 1"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 4 0 30
+# ぴよこ、今週は
+# $0、うまくできなかったぴょ…
+# 来週こそは
+# がんばるぴょ！
+ShowTextBox "!!! 41011C 2"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 4 0 31
+# \x01$0\x1aなんてもうやってられないぴょ！
+# \x03$1\x1aをやりたいぴょ！
+ShowTextBox "!!! 41011C 3"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 4 0 29
+PlaySfx 159
+PlaySfx 18
+# やったぴょー！
+# $0のレベルアップぴょ！
+# これで\x03$1\x1aぴょー！
+ShowTextBox "!!! 41011C 4"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 4 0 29
+PlaySfx 159
+PlaySfx 18
+# やったぴょー！
+# $0のレベルアップぴょ！
+# これで…
+ShowTextBox "!!! 41011C 5"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 6
+SetBG 103
+Unk08 4 84 80 104 100 10 3
+Fade 0 30
+ShowChara 4 0 0
+# \x03レジマスター\x1aぴょ！
+ShowTextBox "!!! 41011C 6"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 7
+SetBG 106
+Unk08 4 160 85 94 108 10 3
+Fade 0 30
+ShowChara 4 0 0
+# \x03接客マスター\x1aぴょ！
+ShowTextBox "!!! 41011C 7"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 8
+SetBG 104
+Unk08 4 127 73 8 100 10 3
+Fade 0 30
+ShowChara 4 0 0
+# \x03グッズマスター\x1aぴょ！
+ShowTextBox "!!! 41011C 8"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 9
+SetBG 105
+Unk08 4 95 73 88 88 10 3
+Fade 0 30
+ShowChara 4 0 0
+# \x03掃除マスター\x1aぴょ！
+ShowTextBox "!!! 41011C 9"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 10
+SetBG 112
+Fade 2 30
+ShowChara 4 0 29
+PlaySfx 159
+PlaySfx 18
+# 店長さん、手伝っ
+# てくれてどうもあ
+# りがとうぴょ！
+# \x03おかげでお仕事レベルがあがったぴょ！\x1a
+ShowTextBox "!!! 41011C 10"
+WaitTextBox
+# ぴよこ、これから
+# ももっとがんばる
+# から、今後ともよ
+# ろしくぴょ！
+ShowTextBox "!!! 41011C 11"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 11
+SetBG 112
+Fade 0 30
+ShowChara 4 0 30
+# 店長さんがせっか
+# く、手伝ってくれ
+# たのに、うまくい
+# かなかったぴょ…
+ShowTextBox "!!! 41011C 12"
+WaitTextBox
+ShowChara 4 0 28
+# ぴよこ、次はがん
+# ばるぴょ！
+ShowTextBox "!!! 41011C 13"
+WaitTextBox
+Fade 1 30
+EndScript

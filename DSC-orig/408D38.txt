@@ -1,0 +1,331 @@
+DSCBase $408D38
+
+
+
+
+Subscript 0
+ShowChara 4 4 29
+# $2をさらって、でじこお姉ちゃんの代りに身代金をたくさんとるぴょ！
+ShowTextBox "!!! 408D38 0"
+Wait 60
+EndScript
+
+
+
+Subscript 1
+ShowChara 4 4 30
+# ぴよこ、$2きらいぴょ～
+ShowTextBox "!!! 408D38 1"
+Wait 60
+EndScript
+
+
+
+Subscript 2
+ShowChara 4 4 31
+# $2を飲むと骨がとけるって、近所のおばあちゃんが言ってたぴょ！
+ShowTextBox "!!! 408D38 2"
+Wait 60
+EndScript
+
+
+
+Subscript 3
+ShowChara 4 4 29
+# この前リクが怪我したノラ$2を手当てしてあげてたぴょ
+ShowTextBox "!!! 408D38 3"
+Wait 60
+EndScript
+
+
+
+Subscript 4
+ShowChara 4 4 30
+# $2は食べられないぴょ？
+ShowTextBox "!!! 408D38 4"
+Wait 60
+EndScript
+
+
+
+Subscript 5
+ShowChara 4 4 29
+# $2の路地裏には野生のネギが生えてるぴょ
+ShowTextBox "!!! 408D38 5"
+Wait 60
+EndScript
+
+
+
+Subscript 6
+ShowChara 4 4 30
+# $2に遊びに行ってみたいぴょ～
+ShowTextBox "!!! 408D38 6"
+Wait 60
+EndScript
+
+
+
+Subscript 7
+ShowChara 4 4 30
+# 今日も$2明日も$2…
+# たまにはおやすみほしいぴょ～
+ShowTextBox "!!! 408D38 7"
+Wait 60
+EndScript
+
+
+
+Subscript 8
+ShowChara 4 4 29
+# 『$2』昨日見たぴょ
+# おもしろかったぴょ
+ShowTextBox "!!! 408D38 8"
+Wait 60
+EndScript
+
+
+
+Subscript 9
+ShowChara 4 4 29
+# なぜか病院の待合い室に、『$2』よく置いてあるぴょ
+# なぜぴょ？
+ShowTextBox "!!! 408D38 9"
+Wait 60
+EndScript
+
+
+
+Subscript 10
+ShowChara 4 4 29
+# $2で、でじこお姉ちゃんをピューッとさらってくるぴょ！
+ShowTextBox "!!! 408D38 10"
+Wait 60
+EndScript
+
+
+
+Subscript 11
+ShowChara 4 4 29
+# $2、$2、たのしいぴょ～
+ShowTextBox "!!! 408D38 11"
+Wait 60
+EndScript
+
+
+
+Subscript 12
+ShowChara 4 4 29
+# ぴよこも$2さんを見習ってがんばるぴょ
+ShowTextBox "!!! 408D38 12"
+Wait 60
+EndScript
+
+
+
+Subscript 13
+ShowChara 4 4 29
+# ぴょぴょ、ごはんが無ければ、$2を食べればいいぴょ～
+ShowTextBox "!!! 408D38 13"
+Wait 60
+EndScript
+
+
+
+Subscript 14
+ShowChara 4 4 29
+# $2ってちょっぴり大人の味ぴょ？
+ShowTextBox "!!! 408D38 14"
+Wait 60
+EndScript
+
+
+
+Subscript 15
+ShowChara 4 4 29
+# 動物ビスケットで、$2が出るとちょっとハッピーぴょ
+ShowTextBox "!!! 408D38 15"
+Wait 60
+EndScript
+
+
+
+Subscript 16
+ShowChara 4 4 30
+# お水あげるの忘れて、$2枯れちゃったぴょ～
+ShowTextBox "!!! 408D38 16"
+Wait 60
+EndScript
+
+
+
+Subscript 17
+ShowChara 4 4 30
+# この前$2で、迷子になったぴょ
+ShowTextBox "!!! 408D38 17"
+Wait 60
+EndScript
+
+
+
+Subscript 18
+ShowChara 4 4 28
+# $2にお店開くと、お金もうかるぴょ？
+ShowTextBox "!!! 408D38 18"
+Wait 60
+EndScript
+
+
+
+Subscript 19
+ShowChara 4 4 29
+# 今、リクとカイとクウが、ぴよこの代りに$2をやってるぴょ
+ShowTextBox "!!! 408D38 19"
+Wait 60
+EndScript
+
+
+
+Subscript 20
+ShowChara 4 4 29
+# 『$2』を乗っ取って、お店の宣伝をするぴょ
+ShowTextBox "!!! 408D38 20"
+Wait 60
+EndScript
+
+
+
+Subscript 21
+ShowChara 4 4 29
+# ぴよこも毎週『$2』読んでるぴょ
+ShowTextBox "!!! 408D38 21"
+Wait 60
+EndScript
+
+
+
+Subscript 22
+ShowChara 4 4 29
+# クウは$2が大好きなんだぴょ～
+ShowTextBox "!!! 408D38 22"
+Wait 60
+EndScript
+
+
+
+Subscript 23
+ShowChara 4 4 29
+# あとでみんなで$2やるぴょ
+ShowTextBox "!!! 408D38 23"
+Wait 60
+EndScript
+
+
+
+Subscript 24
+ShowChara 4 4 29
+# $2さんはぴよこの心の師匠ぴょ
+ShowTextBox "!!! 408D38 24"
+Wait 60
+EndScript
+
+
+
+Subscript 25
+ShowChara 4 4 30
+# $2を食べたら歯をみがかないと、カイがすごく怒るぴょ
+ShowTextBox "!!! 408D38 25"
+Wait 60
+EndScript
+
+
+
+Subscript 26
+ShowChara 4 4 31
+# $2の一気飲みはアブナイぴょ！
+ShowTextBox "!!! 408D38 26"
+Wait 60
+EndScript
+
+
+
+Subscript 27
+ShowChara 4 4 29
+# ぴよこ、$2好きぴょ
+# 意外だぴょ？
+ShowTextBox "!!! 408D38 27"
+Wait 60
+EndScript
+
+
+
+Subscript 28
+ShowChara 4 4 29
+# $2茶はちょっと変わった味がするぴょ
+ShowTextBox "!!! 408D38 28"
+Wait 60
+EndScript
+
+
+
+Subscript 29
+ShowChara 4 4 29
+# $2名産$2まんじゅう、おいしいぴょ
+ShowTextBox "!!! 408D38 29"
+Wait 60
+EndScript
+
+
+
+Subscript 30
+ShowChara 4 4 34
+# $2にいると、ついつい時間を忘れちゃうぴょ
+ShowTextBox "!!! 408D38 30"
+Wait 60
+EndScript
+
+
+
+Subscript 31
+ShowChara 4 4 30
+# あ、まだ$2やってなかったぴょ
+# しりとり終わったらやるぴょ
+ShowTextBox "!!! 408D38 31"
+Wait 60
+EndScript
+
+
+
+Subscript 32
+ShowChara 4 4 29
+# さっき『$2』のロケ、見たぴょ
+ShowTextBox "!!! 408D38 32"
+Wait 60
+EndScript
+
+
+
+Subscript 33
+ShowChara 4 4 30
+# ぴよこ『$2』を読んで、とても感動したぴょ～
+ShowTextBox "!!! 408D38 33"
+Wait 60
+EndScript
+
+
+
+Subscript 34
+ShowChara 4 4 31
+# $2は音がうるさいぴょ！
+ShowTextBox "!!! 408D38 34"
+Wait 60
+EndScript
+
+
+
+Subscript 35
+ShowChara 4 4 30
+# $2…$2だけは、ぴよこ苦手ぴょ
+ShowTextBox "!!! 408D38 35"
+Wait 60
+EndScript

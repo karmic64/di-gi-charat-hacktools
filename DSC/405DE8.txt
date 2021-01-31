@@ -1,400 +1,66 @@
-DSCBase $405DE8
-
-
-
-
-Subscript 0
-SetBG 112
-Fade 0 30
-ShowChara 4 1 29
-# ぴょーっ、ぴょっ
-# ぴょっぴょっ！
-ShowTextBox "!!! 405DE8 0"
-WaitTextBox
-# ぴよこは、この日
-# が来るのを待って
-# いたのぴょっ！
-ShowTextBox "!!! 405DE8 1"
-WaitTextBox
-ShowChara 5 2 57
-# おおっ、ピョコラ
-# 様が、なんとなく
-# どこかで聞いたこ
-# とあるようなセリ
-# フを！
-ShowTextBox "!!! 405DE8 2"
-WaitTextBox
-ShowChara 6 2 40
-# とりあえず、今回
-# もやる気だけはま
-# んまんのようです
-# ね…
-ShowTextBox "!!! 405DE8 3"
-WaitTextBox
-ShowChara 7 2 47
-# えーと、明日は豆
-# まき？節分だな
-ShowTextBox "!!! 405DE8 4"
-WaitTextBox
-ShowChara 4 1 31
-# …なんか、ノリが
-# 悪いぴょ
-ShowTextBox "!!! 405DE8 5"
-WaitTextBox
-# 言いたいことがあ
-# るんなら、聞いて
-# やるから言うがい
-# いぴょ！
-ShowTextBox "!!! 405DE8 6"
-WaitTextBox
-ShowChara 5 2 36
-# ありません
-ShowTextBox "!!! 405DE8 7"
-WaitTextBox
-ShowChara 6 2 41
-# なにもありません
-ShowTextBox "!!! 405DE8 8"
-WaitTextBox
-ShowChara 7 2 51
-# 言いたいことなん
-# て、なにもありま
-# せん
-ShowTextBox "!!! 405DE8 9"
-WaitTextBox
-ShowChara 4 1 31
-# …………
-ShowTextBox "!!! 405DE8 10"
-WaitTextBox
-ShowChara 4 0 29
-# 心配はいらないぴ
-# ょ、今度の作戦は
-# シンプルぴょ…
-ShowTextBox "!!! 405DE8 11"
-WaitTextBox
-ShowChara 4 0 28
-# コホン、明日は節
-# 分だから、街中豆
-# まきでいっぱいに
-# なるぴょ
-ShowTextBox "!!! 405DE8 12"
-WaitTextBox
-# めざすは数の勝利
-# ぴょっ！
-ShowTextBox "!!! 405DE8 13"
-WaitTextBox
-ShowChara 4 0 29
-# 落ちてる豆をみん
-# なで、拾って拾っ
-# て拾いまくって、
-# 大量の豆を集める
-# ぴょっ！
-ShowTextBox "!!! 405DE8 14"
-WaitTextBox
-# どうぴょ？今度の
-# 作戦はパーフェク
-# トぴょ？
-ShowTextBox "!!! 405DE8 15"
-WaitTextBox
-ShowChara 6 2 41
-# 異議なしです
-# 賛成です
-ShowTextBox "!!! 405DE8 16"
-WaitTextBox
-ShowChara 5 2 36
-# 右に同じ…
-ShowTextBox "!!! 405DE8 17"
-WaitTextBox
-ShowChara 7 0 47
-# なぁ、ぴよこ
-ShowTextBox "!!! 405DE8 18"
-WaitTextBox
-ShowChara 4 1 28
-# 何ぴょ、クウ？
-ShowTextBox "!!! 405DE8 19"
-WaitTextBox
-ShowChara 7 2 48
-# これから明日に備
-# えて特訓をするっ
-# てのはどうだ？
-ShowTextBox "!!! 405DE8 20"
-WaitTextBox
-ShowChara 4 1 29
-# とっくん…いい響
-# きぴょ！
-ShowTextBox "!!! 405DE8 21"
-WaitTextBox
-ShowChara 5 2 39
-# そうですな
-# 言うならば、明日
-# は絶対に負けられ
-# ない試合のような
-# もの…
-ShowTextBox "!!! 405DE8 22"
-WaitTextBox
-ShowChara 5 0 36
-# いまここでの特訓
-# は、決して損には
-# なりますまい！
-ShowTextBox "!!! 405DE8 23"
-WaitTextBox
-ShowChara 6 2 41
-# 自分もよいアイデ
-# ィアだと思います
-ShowTextBox "!!! 405DE8 24"
-WaitTextBox
-ShowChara 4 1 29
-# みんな、集まるぴ
-# ょ～～っ！
-ShowTextBox "!!! 405DE8 25"
-WaitTextBox
-ShowChara 12 2 60
-# ゲバ～～っ！
-ShowTextBox "!!! 405DE8 26"
-WaitTextBox
-ShowChara 4 1 29
-# これから、あした
-# 節分の日の豆拾い
-# のための特訓を行
-# うぴょ～～っ！
-ShowTextBox "!!! 405DE8 27"
-WaitTextBox
-Unk1B 4 40
-EndScript
-
-
-
-Subscript 1
-PlayMusic 18
-SetBG 112
-Fade 2 30
-ShowChara 4 1 31
-# みんな、だらしな
-# いぴょ！こんなこ
-# とで、豆をたくさ
-# ん集められると思
-# ってるかぴょっ？
-ShowTextBox "!!! 405DE8 28"
-WaitTextBox
-ShowChara 12 2 60
-# も、もうしわけな
-# いゲバ～～っ！
-ShowTextBox "!!! 405DE8 29"
-WaitTextBox
-ShowChara 4 1 31
-# これから、もう一
-# 度特訓を…
-ShowTextBox "!!! 405DE8 30"
-WaitTextBox
-ShowChara 5 2 35
-# ピョコラ様、これ
-# 以上の特訓は逆効
-# 果かと…
-ShowTextBox "!!! 405DE8 31"
-WaitTextBox
-ShowChara 4 1 31
-# むむむ…しかたな
-# いぴょ！お前たち
-# 今日はもう休んで
-# いいぴょっ！
-ShowTextBox "!!! 405DE8 32"
-WaitTextBox
-ShowChara 12 2 60
-# ゲバ～～っ！
-ShowTextBox "!!! 405DE8 33"
-WaitTextBox
-ShowChara 4 1 29
-# そのかわり明日は
-# がんばるぴょっ！
-ShowTextBox "!!! 405DE8 34"
-WaitTextBox
-ShowChara 12 2 60
-# がんばりますゲバ
-# ～～っ！
-ShowTextBox "!!! 405DE8 35"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-PlayMusic 18
-SetBG 112
-Fade 0 30
-ShowChara 4 1 29
-# みんなご苦労だっ
-# たぴょ！明日に備
-# え、今日はもう休
-# むぴょっ！
-ShowTextBox "!!! 405DE8 36"
-WaitTextBox
-ShowChara 12 2 60
-# ゲバ～～っ！
-ShowTextBox "!!! 405DE8 37"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-Unk08 4 0 0 50 60 10 3
-Unk08 12 0 160 80 70 10 3
-SetBG 113
-Fade 0 30
-ShowChara 4 1 28
-# 街はもう、朝から
-# 豆まきでフィーバ
-# ー中ぴょっ！
-ShowTextBox "!!! 405DE8 38"
-WaitTextBox
-# おまえたち、昨日
-# 命令したとおり、
-# 今日は豆を拾って
-# 拾って拾いまくる
-# ぴょーーっ！！
-ShowTextBox "!!! 405DE8 39"
-WaitTextBox
-ShowChara 12 2 60
-# ゲバーっ！
-ShowTextBox "!!! 405DE8 40"
-WaitTextBox
-ShowChara 12 1 60
-# えっほ、えっほ、
-# ゲバっゲバっ！
-ShowTextBox "!!! 405DE8 41"
-WaitTextBox
-ShowChara 12 2 60
-# えっほ、えっほ、
-# ゲバっゲバっ！
-ShowTextBox "!!! 405DE8 42"
-WaitTextBox
-ShowChara 4 1 29
-# いいかんじぴょ！
-ShowTextBox "!!! 405DE8 43"
-WaitTextBox
-# その調子で、がん
-# がん豆を集めるぴ
-# ょ！
-ShowTextBox "!!! 405DE8 44"
-WaitTextBox
-ShowChara 12 2 60
-# ゲバっーっ！
-ShowTextBox "!!! 405DE8 45"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 12 2 59
-# いやあ、たくさん
-# 豆が集まったゲバ
-ShowTextBox "!!! 405DE8 46"
-WaitTextBox
-# これでしばらく飯
-# の心配はないゲバ
-ShowTextBox "!!! 405DE8 47"
-WaitTextBox
-ShowChara 4 1 30
-# ふう…けっこう重
-# 労働だったぴょ…
-ShowTextBox "!!! 405DE8 48"
-WaitTextBox
-ShowChara 6 2 40
-# 腰をかがめる仕事
-# ですからね…
-ShowTextBox "!!! 405DE8 49"
-WaitTextBox
-ShowChara 7 1 48
-# あーっ、腹へった
-# なーっ！
-ShowTextBox "!!! 405DE8 50"
-WaitTextBox
-ShowChara 12 2 59
-# では、さっそくこ
-# の豆をつかって夕
-# 飯をつくるゲバ
-ShowTextBox "!!! 405DE8 51"
-WaitTextBox
-ShowChara 5 1 39
-# ふむ、では各自、
-# 責任を持って豆を
-# 持ち帰るように！
-ShowTextBox "!!! 405DE8 52"
-WaitTextBox
-ShowChara 12 2 60
-# イエッサー、ゲバ
-# ーっ！
-ShowTextBox "!!! 405DE8 53"
-WaitTextBox
-Fade 1 30
-SetBG 112
-Fade 0 30
-ShowChara 12 2 59
-# 今日のメニューは
-# 豆の煮物にビーン
-# ズカレー、豆腐に
-# 豆乳ゲバ！
-ShowTextBox "!!! 405DE8 54"
-WaitTextBox
-ShowChara 7 1 48
-# いただきまーす…
-# もぐもぐ…うん、
-# うまい！
-ShowTextBox "!!! 405DE8 55"
-WaitTextBox
-ShowChara 6 2 41
-# まだたくさんある
-# おちついて食え…
-ShowTextBox "!!! 405DE8 56"
-WaitTextBox
-ShowChara 5 1 36
-# ピョコラ様、今日
-# は大成功でしたな
-# ！
-ShowTextBox "!!! 405DE8 57"
-WaitTextBox
-ShowChara 4 1 29
-# うむ、まったく大
-# 成功だぴょ！
-ShowTextBox "!!! 405DE8 58"
-WaitTextBox
-Fade 1 30
-SetBG 111
-Fade 0 30
-ShowChara 2 1 22
-# ねえ、今日は街中
-# でＢＧ団が豆をひ
-# ろってたけど、い
-# ったい何なのかし
-# ら？
-ShowTextBox "!!! 405DE8 59"
-WaitTextBox
-ShowChara 1 2 15
-# まさかあいつら、
-# 街の美化活動とか
-# に目覚めたとかそ
-# んなのかにょ！？
-ShowTextBox "!!! 405DE8 60"
-WaitTextBox
-ShowChara 1 0 8
-# …って、それはま
-# さかにょ
-ShowTextBox "!!! 405DE8 61"
-WaitTextBox
-ShowChara 2 1 22
-# あ、分かった！
-# きっと、拾った豆
-# を食べるつもりな
-# んだわ！
-ShowTextBox "!!! 405DE8 62"
-WaitTextBox
-ShowChara 2 0 23
-# …なーんて、あは
-# は、いくら何でも
-# それはないわよね
-ShowTextBox "!!! 405DE8 63"
-WaitTextBox
-ShowChara 3 2 17
-# ぷちこは食べてる
-# と思うにゅ…
-ShowTextBox "!!! 405DE8 64"
-WaitTextBox
-EndScript
+DSCBase $405DE8 Subscript 0 SetBG 112 Fade 0 30 ShowChara 4 1 29 ShowTextBox "Pyo, Pyo Pyo Pyo!"
+WaitTextBox ShowTextBox "Piyoko was waiting for this day to come!"
+WaitTextBox ShowChara 5 2 57 ShowTextBox "Oops, Pyocola-sama has somehow heard the lines somewhere!"
+WaitTextBox ShowChara 6 2 40 ShowTextBox "For the time being, it seems that I'm just motivated this time too ..."
+WaitTextBox ShowChara 7 2 47 ShowTextBox "Well, will you sow beans tomorrow? Setsubun"
+WaitTextBox ShowChara 4 1 31 ShowTextBox "… Somehow, the glue is bad"
+WaitTextBox ShowTextBox "If you have something to say, I'll ask you, so say it!"
+WaitTextBox ShowChara 5 2 36 ShowTextBox "There is none"
+WaitTextBox ShowChara 6 2 41 ShowTextBox "There is nothing here"
+WaitTextBox ShowChara 7 2 51 ShowTextBox "I have nothing to say"
+WaitTextBox ShowChara 4 1 31 ShowTextBox "…………"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "Don't worry, the next strategy is simple ..."
+WaitTextBox ShowChara 4 0 28 ShowTextBox "Kohon, tomorrow is setsubun, so it will be full of beans in the city"
+WaitTextBox ShowTextBox "The aim is to win the number!"
+WaitTextBox ShowChara 4 0 29 ShowTextBox "Everyone picks up the falling beans, picks them up, and collects a lot of beans!"
+WaitTextBox ShowTextBox "How is it? Is this strategy perfect?"
+WaitTextBox ShowChara 6 2 41 ShowTextBox "I have no objection I agree"
+WaitTextBox ShowChara 5 2 36 ShowTextBox "Same on the right ..."
+WaitTextBox ShowChara 7 0 47 ShowTextBox "Hey, Piyoko"
+WaitTextBox ShowChara 4 1 28 ShowTextBox "What are you doing?"
+WaitTextBox ShowChara 7 2 48 ShowTextBox "How about giving special training for tomorrow?"
+WaitTextBox ShowChara 4 1 29 ShowTextBox "Tokkun ... Good sound!"
+WaitTextBox ShowChara 5 2 39 ShowTextBox "That's right, tomorrow is like a match that you can never lose ..."
+WaitTextBox ShowChara 5 0 36 ShowTextBox "The special training here will never be a loss!"
+WaitTextBox ShowChara 6 2 41 ShowTextBox "I think it's a good idea"
+WaitTextBox ShowChara 4 1 29 ShowTextBox "Everyone gathers!"
+WaitTextBox ShowChara 12 2 60 ShowTextBox "Geba ~~!"
+WaitTextBox ShowChara 4 1 29 ShowTextBox "From now on, we will give special training for picking beans on Setsubun day tomorrow!"
+WaitTextBox Unk1B 4 40 EndScript Subscript 1 PlayMusic 18 SetBG 112 Fade 2 30 ShowChara 4 1 31 ShowTextBox "Everyone is sloppy! Do you think you can collect a lot of beans by doing this?"
+WaitTextBox ShowChara 12 2 60 ShowTextBox "Well, I can't help it anymore!"
+WaitTextBox ShowChara 4 1 31 ShowTextBox "From now on, another special training ..."
+WaitTextBox ShowChara 5 2 35 ShowTextBox "Pyocola-sama, I wonder if any more special training will have the opposite effect ..."
+WaitTextBox ShowChara 4 1 31 ShowTextBox "Hmmmm ... I can't help it! You guys can take a rest today!"
+WaitTextBox ShowChara 12 2 60 ShowTextBox "Geba ~~!"
+WaitTextBox ShowChara 4 1 29 ShowTextBox "Instead, I'll do my best tomorrow!"
+WaitTextBox ShowChara 12 2 60 ShowTextBox "I'll do my best!"
+WaitTextBox EndScript Subscript 2 PlayMusic 18 SetBG 112 Fade 0 30 ShowChara 4 1 29 ShowTextBox "Everyone had a hard time! Prepare for tomorrow and take a rest today!"
+WaitTextBox ShowChara 12 2 60 ShowTextBox "Geba ~~!"
+WaitTextBox EndScript Subscript 3 Unk08 4 0 0 50 60 10 3 Unk08 12 0 160 80 70 10 3 SetBG 113 Fade 0 30 ShowChara 4 1 28 ShowTextBox "The town is already in the fever with beans sowed from the morning!"
+WaitTextBox ShowTextBox "You guys, as I ordered yesterday, today I'll pick up the beans and pick them up! !!"
+WaitTextBox ShowChara 12 2 60 ShowTextBox "Geber!"
+WaitTextBox ShowChara 12 1 60 ShowTextBox "Eh, eh, geba geba!"
+WaitTextBox ShowChara 12 2 60 ShowTextBox "Eh, eh, geba geba!"
+WaitTextBox ShowChara 4 1 29 ShowTextBox "Good luck!"
+WaitTextBox ShowTextBox "In that condition, collect stubborn beans!"
+WaitTextBox ShowChara 12 2 60 ShowTextBox "Geba!"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 12 2 59 ShowTextBox "Hey, Geba with a lot of beans"
+WaitTextBox ShowTextBox "With this, you don't have to worry about rice for a while."
+WaitTextBox ShowChara 4 1 30 ShowTextBox "Hmm ... it was a lot of hard work ..."
+WaitTextBox ShowChara 6 2 40 ShowTextBox "It's a job to bend down ..."
+WaitTextBox ShowChara 7 1 48 ShowTextBox "Ah, I'm hungry!"
+WaitTextBox ShowChara 12 2 59 ShowTextBox "Then, Geba who makes dinner using these beans at once"
+WaitTextBox ShowChara 5 1 39 ShowTextBox "Hmm, let's take responsibility for bringing back the beans!"
+WaitTextBox ShowChara 12 2 60 ShowTextBox "Yesser, Geber!"
+WaitTextBox Fade 1 30 SetBG 112 Fade 0 30 ShowChara 12 2 59 ShowTextBox "Today's menu is simmered beans, beans curry, tofu and soy milk geba!"
+WaitTextBox ShowChara 7 1 48 ShowTextBox "Thank you ... Mogumogu ... Yeah, good!"
+WaitTextBox ShowChara 6 2 41 ShowTextBox "There are still a lot of calms down and eat ..."
+WaitTextBox ShowChara 5 1 36 ShowTextBox "Pyocola-sama, it was a great success today!"
+WaitTextBox ShowChara 4 1 29 ShowTextBox "Hmmm, it's a huge success!"
+WaitTextBox Fade 1 30 SetBG 111 Fade 0 30 ShowChara 2 1 22 ShowTextBox "Hey, today the BG team was picking beans all over the city, but what exactly is it?"
+WaitTextBox ShowChara 1 2 15 ShowTextBox "I wonder if they woke up to beautification activities in the city! ??"
+WaitTextBox ShowChara 1 0 8 ShowTextBox "... that's not true"
+WaitTextBox ShowChara 2 1 22 ShowTextBox "Oh, I understand! I'm sure I'm going to eat the beans I picked up!"
+WaitTextBox ShowChara 2 0 23 ShowTextBox "... Well, no matter how much it is, isn't it?"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "I think I'm eating Puchiko ..."
+WaitTextBox EndScript 

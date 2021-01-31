@@ -1,68 +1,8 @@
-DSCBase $4123D0
-
-
-
-
-Subscript 0
-# うさだの悩みを聞いた！
-ShowTextBox "!!! 4123D0 0"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-# うさだをなだめた！
-ShowTextBox "!!! 4123D0 1"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-# うさだをなぐさめた！
-ShowTextBox "!!! 4123D0 2"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-# うさだをおだてた！
-ShowTextBox "!!! 4123D0 3"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-# うさだにかつを入れた！
-ShowTextBox "!!! 4123D0 4"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-# うさだをはげました！
-ShowTextBox "!!! 4123D0 5"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-# うさだをほめた！
-ShowTextBox "!!! 4123D0 6"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-EndScript
-
-
-
-Subscript 8
-EndScript
+DSCBase $4123D0 Subscript 0 ShowTextBox "I heard the trouble of Usada!"
+WaitTextBox EndScript Subscript 1 ShowTextBox "Soothed the rabbit!"
+WaitTextBox EndScript Subscript 2 ShowTextBox "I squeezed the rabbit!"
+WaitTextBox EndScript Subscript 3 ShowTextBox "Fooled Usada!"
+WaitTextBox EndScript Subscript 4 ShowTextBox "I put Katsura in Usada!"
+WaitTextBox EndScript Subscript 5 ShowTextBox "I bald the rabbit!"
+WaitTextBox EndScript Subscript 6 ShowTextBox "I praised Usada!"
+WaitTextBox EndScript Subscript 7 EndScript Subscript 8 EndScript 

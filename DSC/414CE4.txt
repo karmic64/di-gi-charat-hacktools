@@ -1,68 +1,8 @@
-DSCBase $414CE4
-
-
-
-
-Subscript 0
-# クウの悩みを聞いた！
-ShowTextBox "!!! 414CE4 0"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-# クウをなだめた！
-ShowTextBox "!!! 414CE4 1"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-# クウをなぐさめた！
-ShowTextBox "!!! 414CE4 2"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-# クウをおだてた！
-ShowTextBox "!!! 414CE4 3"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-# クウにかつを入れた！
-ShowTextBox "!!! 414CE4 4"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-# クウをはげました！
-ShowTextBox "!!! 414CE4 5"
-WaitTextBox
-EndScript
-
-
-
-Subscript 6
-# クウをほめた！
-ShowTextBox "!!! 414CE4 6"
-WaitTextBox
-EndScript
-
-
-
-Subscript 7
-EndScript
-
-
-
-Subscript 8
-EndScript
+DSCBase $414CE4 Subscript 0 ShowTextBox "I heard Ku's worries!"
+WaitTextBox EndScript Subscript 1 ShowTextBox "Soothed Ku!"
+WaitTextBox EndScript Subscript 2 ShowTextBox "I squeezed Ku!"
+WaitTextBox EndScript Subscript 3 ShowTextBox "Fooled Ku!"
+WaitTextBox EndScript Subscript 4 ShowTextBox "I put a katsu in Ku!"
+WaitTextBox EndScript Subscript 5 ShowTextBox "I bald the ku!"
+WaitTextBox EndScript Subscript 6 ShowTextBox "I praised Ku!"
+WaitTextBox EndScript Subscript 7 EndScript Subscript 8 EndScript 

@@ -1,0 +1,43 @@
+DSCBase $40A49C
+
+
+
+
+Subscript 0
+ShowChara 2 0 0
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# $0
+# 残り$1/$2個よ
+ShowTextBox "!!! 40A49C 0"
+EndScript
+
+
+
+Subscript 3
+# この棚には何もないわ
+ShowTextBox "!!! 40A49C 1"
+EndScript
+
+
+
+Subscript 4
+# もう仕入れは終わりかしら？
+ShowTextBox "!!! 40A49C 2"
+EndScript
+
+
+
+Subscript 5
+# 何も買わないの？
+ShowTextBox "!!! 40A49C 3"
+EndScript

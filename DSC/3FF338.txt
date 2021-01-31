@@ -1,275 +1,48 @@
-DSCBase $3FF338
-
-
-
-
-Subscript 0
-Unk08 2 112 74 24 100 10 3
-SetBG 122
-Fade 0 30
-ShowChara 1 1 9
-# 明日はひな祭りに
-# ょ～
-ShowTextBox "!!! 3FF338 0"
-WaitTextBox
-# それで、ひな壇
-# （ひなだん）の準
-# 備はＯＫにょ？
-ShowTextBox "!!! 3FF338 1"
-WaitTextBox
-ShowChara 3 2 17
-# ＯＫにゅ…
-ShowTextBox "!!! 3FF338 2"
-WaitTextBox
-ShowChara 1 1 9
-# あとは明日を待つ
-# ばかりにょ！
-ShowTextBox "!!! 3FF338 3"
-WaitTextBox
-ShowChara 1 0 10
-# 明日になったら、
-# あられかじって、
-# 甘酒飲んで、ひし
-# 餅を食べるにょ～
-# っ！
-ShowTextBox "!!! 3FF338 4"
-WaitTextBox
-ShowChara 2 2 55
-# 全部、食べること
-# ばっかりね…
-ShowTextBox "!!! 3FF338 5"
-WaitTextBox
-ShowChara 1 1 15
-# にょにょっ、ヤボ
-# なツッコミはやめ
-# るにょ、うさだ！
-ShowTextBox "!!! 3FF338 6"
-WaitTextBox
-ShowChara 1 0 10
-# そ、それよりも、
-# この見事なひな壇
-# を見るにょ～！
-ShowTextBox "!!! 3FF338 7"
-WaitTextBox
-ShowChara 2 2 23
-# へぇ、なかなか立
-# 派なものね
-ShowTextBox "!!! 3FF338 8"
-WaitTextBox
-ShowChara 1 1 10
-# どうにょ、ゲマを
-# こきつかって作り
-# 上げた、グレート
-# なひな壇にょ！
-ShowTextBox "!!! 3FF338 9"
-WaitTextBox
-ShowChara 8 1 2
-# ゲマがひとりで作
-# った血と汗と涙の
-# 結晶ゲマ…
-ShowTextBox "!!! 3FF338 10"
-WaitTextBox
-ShowChara 2 2 25
-# それを聞くと、な
-# んだか汗臭そうな
-# 感じがするわね
-ShowTextBox "!!! 3FF338 11"
-WaitTextBox
-ShowChara 3 2 17
-# それは、あくまで
-# たとえにゅ
-ShowTextBox "!!! 3FF338 12"
-WaitTextBox
-ShowChara 2 2 23
-# ね、ちょっとさわ
-# っていいかしら…
-# きゃっ！
-ShowTextBox "!!! 3FF338 13"
-WaitTextBox
-ShowChara 8 1 3
-# むぎゅっ！
-ShowTextBox "!!! 3FF338 14"
-WaitTextBox
-ShowChara 3 2 17
-# うさだがゲマにつ
-# まづいたにゅ！
-ShowTextBox "!!! 3FF338 15"
-WaitTextBox
-ShowChara 14 1 63
-# ベキッ…
-ShowTextBox "!!! 3FF338 16"
-WaitTextBox
-ShowChara 2 2 24
-# …………！
-ShowTextBox "!!! 3FF338 17"
-WaitTextBox
-ShowChara 1 1 11
-# にょにょ～っ、な
-# んてことしてくれ
-# たにょ～っ！
-ShowTextBox "!!! 3FF338 18"
-WaitTextBox
-ShowChara 2 2 23
-# ご、ごめんなさい
-# …
-ShowTextBox "!!! 3FF338 19"
-WaitTextBox
-ShowChara 3 2 20
-# お内裏さま（おだ
-# いりさま）がぺし
-# ゃんこにゅ…
-ShowTextBox "!!! 3FF338 20"
-WaitTextBox
-ShowChara 2 2 25
-# ごめんなさい、べ
-# んしょうする…っ
-# て、そんなお金は
-# ないし…
-ShowTextBox "!!! 3FF338 21"
-WaitTextBox
-# ごめん、なんとか
-# して、アタシが修
-# 理するから、かん
-# べんしてっ！
-ShowTextBox "!!! 3FF338 22"
-WaitTextBox
-SineWipe 30
-Wait 30
-SineUnwipe 30
-ShowChara 2 2 55
-# とは言ったものの
-# …
-ShowTextBox "!!! 3FF338 23"
-WaitTextBox
-# こんなものどうや
-# って修理すればい
-# いのかしら…
-ShowTextBox "!!! 3FF338 24"
-WaitTextBox
-# う～んう～ん…
-ShowTextBox "!!! 3FF338 25"
-WaitTextBox
-ShowChara 2 0 23
-# あっ、そうだ！
-# いいこと思いつい
-# ちゃった…
-ShowTextBox "!!! 3FF338 26"
-WaitTextBox
-Fade 1 120
-SetBG 123
-Fade 0 30
-Fade 3 1
-SetBG 122
-Fade 2 30
-ShowChara 1 1 16
-# ふわぁ～よく寝た
-# にょ…
-ShowTextBox "!!! 3FF338 27"
-WaitTextBox
-ShowChara 1 0 9
-# さて、うさだはど
-# うしてるかにょ？
-ShowTextBox "!!! 3FF338 28"
-WaitTextBox
-# うさだ～、おひな
-# さまの修理は終わ
-# ったかにょ～？
-ShowTextBox "!!! 3FF338 29"
-WaitTextBox
-Fade 3 20
-SetBG 11
-Fade 2 20
-ShowChara 2 0 0
-# は～い、ばっちりＯＫ
-# よ～！
-ShowTextBox "!!! 3FF338 30"
-WaitTextBox
-# 見て、カンペキでしょ
-# これ以上はありえない
-# ほどカンペキ！
-ShowTextBox "!!! 3FF338 31"
-WaitTextBox
-ShowChara 1 1 8
-# ………………
-ShowTextBox "!!! 3FF338 32"
-WaitTextBox
-ShowChara 2 0 0
-# どう、少しは見直して
-# くれたかしら？
-ShowTextBox "!!! 3FF338 33"
-WaitTextBox
-ShowChara 1 1 8
-# …………
-ShowTextBox "!!! 3FF338 34"
-WaitTextBox
-# で、おひなさまの
-# 修理の方はどうな
-# ってるにょ？
-ShowTextBox "!!! 3FF338 35"
-WaitTextBox
-ShowChara 2 0 0
-# いやねぇ、ヤボなこと
-# は言わないでよ
-ShowTextBox "!!! 3FF338 36"
-WaitTextBox
-# おひなさまなら、ほら
-# 目の前にあるじゃない
-# の
-ShowTextBox "!!! 3FF338 37"
-WaitTextBox
-ShowChara 1 1 11
-# にょにょ～っ、そ
-# んなんでごまかそ
-# うとは、図太い奴
-# にょ～っ！
-ShowTextBox "!!! 3FF338 38"
-WaitTextBox
-ShowChara 2 0 0
-# 図太いとは何よ、図太
-# いとはーっ！
-ShowTextBox "!!! 3FF338 39"
-WaitTextBox
-Fade 1 30
-SetBG 122
-Fade 0 30
-ShowChara 8 2 2
-# ケンカするほど仲
-# がいい、とは言う
-# けどゲマ…
-ShowTextBox "!!! 3FF338 40"
-WaitTextBox
-ShowChara 3 2 17
-# 長引きそうだから
-# 先にお店に行くに
-# ゅ
-ShowTextBox "!!! 3FF338 41"
-WaitTextBox
-ShowChara 8 2 1
-# ゲマも行くゲマ～
-# ！
-ShowTextBox "!!! 3FF338 42"
-WaitTextBox
-ShowChara 1 1 11
-# 前から思ってたけ
-# ど、そのウサ耳は
-# でかくてジャマだ
-# にょ～っ！
-ShowTextBox "!!! 3FF338 43"
-WaitTextBox
-ShowChara 2 2 24
-# なんですって～！
-ShowTextBox "!!! 3FF338 44"
-WaitTextBox
-ShowChara 1 1 11
-# 今日こそ決着つけ
-# てやるにょっ！
-ShowTextBox "!!! 3FF338 45"
-WaitTextBox
-ShowChara 1 0 13
-# 目からビーム！
-ShowTextBox "!!! 3FF338 46"
-WaitTextBox
-Fade 3 20
-SetBG 123
-Fade 2 40
-EndScript
+DSCBase $3FF338 Subscript 0 Unk08 2 112 74 24 100 10 3 SetBG 122 Fade 0 30 ShowChara 1 1 9 ShowTextBox "Tomorrow is the Doll's Festival ~"
+WaitTextBox ShowTextBox "So, isn't it OK to prepare for Hinadan?"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "OK Nyu ..."
+WaitTextBox ShowChara 1 1 9 ShowTextBox "I'll just wait for tomorrow!"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "Tomorrow, I'll grab a hail, drink amazake, and eat Hishi mochi!"
+WaitTextBox ShowChara 2 2 55 ShowTextBox "All you have to do is eat ..."
+WaitTextBox ShowChara 1 1 15 ShowTextBox "Nyonyo, I'm going to stop the dangerous Tsukkomi, Usa!"
+WaitTextBox ShowChara 1 0 10 ShowTextBox "Well, rather than that, let's see this wonderful chick platform!"
+WaitTextBox ShowChara 2 2 23 ShowTextBox "Hey, it's pretty good."
+WaitTextBox ShowChara 1 1 10 ShowTextBox "How is it, a great chick platform made by using Gema!"
+WaitTextBox ShowChara 8 1 2 ShowTextBox "Blood, sweat, and tear crystals made by Gema alone ..."
+WaitTextBox ShowChara 2 2 25 ShowTextBox "When I hear that, it feels like sweat."
+WaitTextBox ShowChara 3 2 17 ShowTextBox "It's just a parable"
+WaitTextBox ShowChara 2 2 23 ShowTextBox "I wonder if I can touch it for a moment ..."
+WaitTextBox ShowChara 8 1 3 ShowTextBox "Mugyu!"
+WaitTextBox ShowChara 3 2 17 ShowTextBox "It's a rabbit, but I stumbled upon Gema!"
+WaitTextBox ShowChara 14 1 63 ShowTextBox "Beki ..."
+WaitTextBox ShowChara 2 2 24 ShowTextBox "…………!"
+WaitTextBox ShowChara 1 1 11 ShowTextBox "Nyonyo, what did you do!"
+WaitTextBox ShowChara 2 2 23 ShowTextBox "I'm sorry ..."
+WaitTextBox ShowChara 3 2 20 ShowTextBox "The inner back (Odairi-sama) is pechankonyu ..."
+WaitTextBox ShowChara 2 2 25 ShowTextBox "I'm sorry, I'm sorry ... I don't have that kind of money ..."
+WaitTextBox ShowTextBox "I'm sorry, I'll repair it somehow, so I'm sorry!"
+WaitTextBox SineWipe 30 Wait 30 SineUnwipe 30 ShowChara 2 2 55 ShowTextBox "That said ..."
+WaitTextBox ShowTextBox "I wonder how to repair this kind of thing ..."
+WaitTextBox ShowTextBox "Hmmmm ..."
+WaitTextBox ShowChara 2 0 23 ShowTextBox "Oh, that's right! I came up with a good thing ..."
+WaitTextBox Fade 1 120 SetBG 123 Fade 0 30 Fade 3 1 SetBG 122 Fade 2 30 ShowChara 1 1 16 ShowTextBox "Wow, I slept well ..."
+WaitTextBox ShowChara 1 0 9 ShowTextBox "Well, what about Usada?"
+WaitTextBox ShowTextBox "Usada ~, Hina-sama's repair is over ~?"
+WaitTextBox Fade 3 20 SetBG 11 Fade 2 20 ShowChara 2 0 0 ShowTextBox "Yes, it's OK!"
+WaitTextBox ShowTextBox "Look, it's perfect, is n't it?"
+WaitTextBox ShowChara 1 1 8 ShowTextBox "………………"
+WaitTextBox ShowChara 2 0 0 ShowTextBox "How did you review it a little?"
+WaitTextBox ShowChara 1 1 8 ShowTextBox "…………"
+WaitTextBox ShowTextBox "So what about Hina-sama's repairs?"
+WaitTextBox ShowChara 2 0 0 ShowTextBox "No, don't say anything crazy"
+WaitTextBox ShowTextBox "If you're a chick, you see, it's right in front of you"
+WaitTextBox ShowChara 1 1 11 ShowTextBox "Nyonyo, that's why it's a fat guy to cheat!"
+WaitTextBox ShowChara 2 0 0 ShowTextBox "What is a thick figure, what is a thick figure!"
+WaitTextBox Fade 1 30 SetBG 122 Fade 0 30 ShowChara 8 2 2 ShowTextBox "I say I'm close enough to fight, but Gema ..."
+WaitTextBox ShowChara 3 2 17 ShowTextBox "It looks like it will be a long time, so go to the store first"
+WaitTextBox ShowChara 8 2 1 ShowTextBox "Gema goes too!"
+WaitTextBox ShowChara 1 1 11 ShowTextBox "I've been thinking for a long time, but the ears are huge and jammed!"
+WaitTextBox ShowChara 2 2 24 ShowTextBox "What is it ~!"
+WaitTextBox ShowChara 1 1 11 ShowTextBox "I'll settle it today!"
+WaitTextBox ShowChara 1 0 13 ShowTextBox "Beam from the eyes!"
+WaitTextBox Fade 3 20 SetBG 123 Fade 2 40 EndScript 

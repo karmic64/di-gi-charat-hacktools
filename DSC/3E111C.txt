@@ -1,53 +1,5 @@
-DSCBase $3E111C
-
-
-
-
-Subscript 0
-ShowChara 1 2 9
-EndScript
-
-
-
-Subscript 1
-HideChara
-EndScript
-
-
-
-Subscript 2
-ShowChara 1 0 9
-# でじこだにょ～
-# よろしくにょ！
-ShowTextBox "!!! 3E111C 0"
-EndScript
-
-
-
-Subscript 3
-# こう見えても、でじこ
-# はデ・ジ・キャラット
-# 星のお姫さまにょ！
-ShowTextBox "!!! 3E111C 1"
-EndScript
-
-
-
-Subscript 4
-# 目指すは、大女優～！
-# もちろん、お店もがん
-# ばるにょ
-ShowTextBox "!!! 3E111C 2"
-EndScript
-
-
-
-Subscript 5
-ShowChara 1 0 10
-# この１年、店長しゃん
-# といっしょにがんばる
-# にょ～
-ShowTextBox "!!! 3E111C 3"
-Wait 60
-HideChara
-EndScript
+DSCBase $3E111C Subscript 0 ShowChara 1 2 9 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowChara 1 0 9 ShowTextBox "Di Gi Charat ~ Nice to meet you!"
+EndScript Subscript 3 ShowTextBox "Even if it looks like this, Di Gi Charat is the princess of the star!"
+EndScript Subscript 4 ShowTextBox "The aim is a big actress! Of course, the store will do its best"
+EndScript Subscript 5 ShowChara 1 0 10 ShowTextBox "I'll do my best with the store manager for the past year ~"
+Wait 60 HideChara EndScript 

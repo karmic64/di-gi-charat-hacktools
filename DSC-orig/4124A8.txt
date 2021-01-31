@@ -1,0 +1,371 @@
+DSCBase $4124A8
+
+
+
+
+Subscript 0
+ShowChara 2 1 55
+# うーん、$0ばかりでちょっとつまらないわね…
+# そろそろ違う仕事をやりたいな～
+ShowTextBox "!!! 4124A8 0"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 1
+ShowChara 2 1 22
+# 店長さんがそこま
+# で言うなら、この
+# ままの仕事でがん
+# ばってみるわ
+ShowTextBox "!!! 4124A8 1"
+WaitTextBox
+PlaySfx 139
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 2 1 25
+# 店長さん、こんな
+# ことはもうないよ
+# うにお願いするわ
+# ね…
+ShowTextBox "!!! 4124A8 2"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 3
+ShowChara 2 1 23
+# 店長さん、わかっ
+# てるじゃない！
+# これなら仕事に張
+# り合いもでてくる
+# ってものね！
+ShowTextBox "!!! 4124A8 3"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 4
+ShowChara 2 1 22
+# ごめんなさい…も
+# っとがんばってみ
+# るわ！
+ShowTextBox "!!! 4124A8 4"
+WaitTextBox
+PlaySfx 139
+HideChara
+EndScript
+
+
+
+Subscript 5
+ShowChara 2 1 22
+# うーん、なんかう
+# まくいきそうな気
+# がしてきたわ！
+ShowTextBox "!!! 4124A8 5"
+WaitTextBox
+PlaySfx 139
+HideChara
+EndScript
+
+
+
+Subscript 6
+ShowChara 2 1 22
+# よし！もっとがん
+# ばってみるわね！
+ShowTextBox "!!! 4124A8 6"
+WaitTextBox
+PlaySfx 139
+HideChara
+EndScript
+
+
+
+Subscript 7
+ShowChara 2 1 22
+# おーほほほ、絶好
+# 調よ！！
+ShowTextBox "!!! 4124A8 7"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 8
+ShowChara 2 1 25
+# クリスマスにお正
+# 月…
+# ああ、体重計に乗
+# るのがこんなにも
+# プレッシャーだな
+# んて…
+ShowTextBox "!!! 4124A8 8"
+WaitTextBox
+ShowChara 2 0 24
+# だって、増えてた
+# らどうしようもな
+# いじゃないのっ！
+ShowTextBox "!!! 4124A8 9"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 9
+ShowChara 2 1 22
+# ねぇ店長さん、バ
+# レンタインの思い
+# 出って何かある？
+# えっ、アタシはっ
+# て？
+ShowTextBox "!!! 4124A8 10"
+WaitTextBox
+ShowChara 2 1 22
+# アタシは、これか
+# ら作っていくの！
+# 素敵なバレンタイ
+# ンの思い出を！
+ShowTextBox "!!! 4124A8 11"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 10
+ShowChara 2 1 22
+# 卒業…
+ShowTextBox "!!! 4124A8 12"
+WaitTextBox
+# …………
+ShowTextBox "!!! 4124A8 13"
+WaitTextBox
+# ううん、なんでも
+# ない…
+ShowTextBox "!!! 4124A8 14"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 2 1 22
+# 新学年、だんだん
+# 新しいクラスにも
+# 慣れてきたわ
+ShowTextBox "!!! 4124A8 15"
+WaitTextBox
+ShowChara 2 0 23
+# あ、もちろん、新
+# しい店長さんにも
+# ね！
+ShowTextBox "!!! 4124A8 16"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 12
+ShowChara 2 1 22
+# 今度の日曜日、何
+# をしようかな？
+# 映画でも見に行こ
+# うかしら？
+ShowTextBox "!!! 4124A8 17"
+WaitTextBox
+ShowChara 2 0 22
+# えっ、ちょうど映
+# 画の前売り券が余
+# ってるから買わな
+# いかって？
+ShowTextBox "!!! 4124A8 18"
+WaitTextBox
+ShowChara 2 0 23
+# 買う買う！ありが
+# とう、店長さん！
+ShowTextBox "!!! 4124A8 19"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 13
+ShowChara 2 1 22
+# ジューンブライド
+# だっけ、六月に結
+# 婚するとしあわせ
+# になるのよね
+ShowTextBox "!!! 4124A8 20"
+WaitTextBox
+ShowChara 2 0 23
+# やっぱり、ウェデ
+# ィングドレスは女
+# の子のあこがれ、
+# アタシもいつか着
+# てみたいわ…
+ShowTextBox "!!! 4124A8 21"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 14
+ShowChara 2 1 22
+# 夏の日差しは美肌
+# の大敵だわ
+ShowTextBox "!!! 4124A8 22"
+WaitTextBox
+# しっかり日焼け止
+# めを塗っておかな
+# いとね…
+ShowTextBox "!!! 4124A8 23"
+WaitTextBox
+# えっ、店長さんも
+# 塗るって？
+ShowTextBox "!!! 4124A8 24"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 15
+ShowChara 2 1 22
+# …はっくしょん！
+ShowTextBox "!!! 4124A8 25"
+WaitTextBox
+ShowChara 2 0 23
+# ぐすっ…きっと、
+# どこかでアタシの
+# ファンが、アタシ
+# のうわさをしてる
+# んだわ
+ShowTextBox "!!! 4124A8 26"
+WaitTextBox
+ShowChara 2 0 24
+# 違うのっ！クーラ
+# ーが寒くて夏風邪
+# をひいたんじゃな
+# いのっ！
+ShowTextBox "!!! 4124A8 27"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 16
+ShowChara 2 1 55
+# ハァ…二学期…
+ShowTextBox "!!! 4124A8 28"
+WaitTextBox
+ShowChara 2 0 22
+# じつは、夏休みの
+# 宿題がまだ残って
+# るの！
+ShowTextBox "!!! 4124A8 29"
+WaitTextBox
+ShowChara 2 0 23
+# お願い店長さん、
+# 手伝ってっ！
+ShowTextBox "!!! 4124A8 30"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 17
+ShowChara 2 1 22
+# この間、お客さん
+# から封筒を手渡さ
+# れたんだけど…
+ShowTextBox "!!! 4124A8 31"
+WaitTextBox
+ShowChara 2 0 23
+# そう、これっても
+# しかしたら、あれ
+# かしら、ラブレタ
+# ー！？
+ShowTextBox "!!! 4124A8 32"
+WaitTextBox
+ShowChara 2 0 25
+# と思ったら、お店
+# のカードの再発行
+# の申し込みで、が
+# っかり…
+ShowTextBox "!!! 4124A8 33"
+WaitTextBox
+ShowChara 2 0 23
+# でも、本当にラブ
+# レターだったら…
+# なーんてね
+ShowTextBox "!!! 4124A8 34"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 18
+ShowChara 2 1 22
+# はろーっ、めいあ
+# いへるぷゆーっ？
+ShowTextBox "!!! 4124A8 35"
+WaitTextBox
+# あいむふぁいん、
+# さんきゅーっ…
+ShowTextBox "!!! 4124A8 36"
+WaitTextBox
+# あっ、ごめんなさ
+# い
+# 来週、英語のテス
+# トがあるもんだか
+# ら、つい…
+ShowTextBox "!!! 4124A8 37"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 19
+ShowChara 2 1 22
+# ふんふん、ふふ～
+# ん…♪
+ShowTextBox "!!! 4124A8 38"
+WaitTextBox
+# やっぱり、アイド
+# ルなんだから、ク
+# リスマスソングの
+# ひとつくらいは歌
+# えなきゃ！
+ShowTextBox "!!! 4124A8 39"
+WaitTextBox
+ShowChara 2 0 23
+# ということで店長
+# さん、クリスマス
+# の日は楽しみにし
+# ててね！
+ShowTextBox "!!! 4124A8 40"
+WaitTextBox
+HideChara
+EndScript

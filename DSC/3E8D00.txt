@@ -1,198 +1,38 @@
-DSCBase $3E8D00
-
-
-
-
-Subscript 0
-ShowChara 7 4 47
-# なんかさ～
-# 『$1』を見ると、おなかが空いてくるよな
-ShowTextBox "!!! 3E8D00 0"
-WaitTextBox
-# 店長はどう？
-ShowTextBox "!!! 3E8D00 1"
-WaitTextBox
-# たべもの
-ShowTextPrompt 1 "\J!!! 3E8D00 2"
-JumpOnSelection 2 0 1 0
-Label 0
-ShowChara 7 0 48
-# 店長は$9が食べたくなるって？
-ShowTextBox "!!! 3E8D00 3"
-WaitTextBox
-EndScript
-Label 1
-ShowChara 7 0 49
-# …どうせ俺は意地
-# 汚いよ
-ShowTextBox "!!! 3E8D00 4"
-WaitTextBox
-EndScript
-
-
-
-Subscript 1
-ShowChara 7 4 48
-# 店長、$1は終ったぜ
-ShowTextBox "!!! 3E8D00 5"
-WaitTextBox
-# まだ他にも仕事あるか？
-ShowTextBox "!!! 3E8D00 6"
-WaitTextBox
-# しごと
-ShowTextPrompt 7 "\J!!! 3E8D00 7"
-JumpOnSelection 2 2 3 0
-Label 2
-ShowChara 7 0 58
-# えっ…$9も俺がやるの？
-ShowTextBox "!!! 3E8D00 8"
-WaitTextBox
-ShowChara 7 0 49
-# ちょっと、コキ使いすぎじゃない？
-ShowTextBox "!!! 3E8D00 9"
-WaitTextBox
-EndScript
-Label 3
-ShowChara 7 0 52
-# 無いなら、今日は『$2』でも見て、さっさと休もうぜ
-ShowTextBox "!!! 3E8D00 10"
-WaitTextBox
-EndScript
-
-
-
-Subscript 2
-ShowChara 7 4 47
-# $1か…
-# 今度ブラゲマ団員連れて、遊びに行くか
-ShowTextBox "!!! 3E8D00 11"
-WaitTextBox
-# 店長、大勢でできるスポーツとか知ってる？
-ShowTextBox "!!! 3E8D00 12"
-WaitTextBox
-# スポーツ
-ShowTextPrompt 11 "\J!!! 3E8D00 13"
-JumpOnSelection 2 4 5 0
-Label 4
-ShowChara 7 0 48
-# なるほど、$9か…
-ShowTextBox "!!! 3E8D00 14"
-WaitTextBox
-ShowChara 7 0 50
-# よーし、おまえら
-# $9やるぜ！！
-ShowTextBox "!!! 3E8D00 15"
-WaitTextBox
-ShowChara 12 4 60
-# ゲバーッ！
-# $9やるゲバーッ！
-ShowTextBox "!!! 3E8D00 16"
-WaitTextBox
-ShowChara 7 4 47
-# んで、いつやろうか？
-ShowTextBox "!!! 3E8D00 17"
-WaitTextBox
-EndScript
-Label 5
-ShowChara 7 0 52
-# あっ…そうか
-# 店長って運動オンチなんだっけ？
-ShowTextBox "!!! 3E8D00 18"
-WaitTextBox
-ShowChara 7 0 48
-# 悪意はないんだぜ
-# ワリィワリィ♪
-ShowTextBox "!!! 3E8D00 19"
-WaitTextBox
-EndScript
-
-
-
-Subscript 3
-ShowChara 7 4 47
-# 俺、このあいだ$1で$2見たぜ
-ShowTextBox "!!! 3E8D00 20"
-WaitTextBox
-ShowChara 7 0 48
-# ちょうど映画のロケしててさ…
-ShowTextBox "!!! 3E8D00 21"
-WaitTextBox
-# 映画のタイトル
-ShowTextPrompt 8 "\J!!! 3E8D00 22"
-JumpOnSelection 2 6 7 0
-Label 6
-ShowChara 7 0 47
-# そうそう…『$9』撮ってたんだよ
-ShowTextBox "!!! 3E8D00 23"
-WaitTextBox
-ShowChara 7 0 52
-# もしかすると、俺映ったりして…♪
-ShowTextBox "!!! 3E8D00 24"
-WaitTextBox
-EndScript
-Label 7
-ShowChara 7 0 49
-# なんだっけかな～
-# 忘れちまった
-ShowTextBox "!!! 3E8D00 25"
-WaitTextBox
-EndScript
-
-
-
-Subscript 4
-ShowChara 7 4 58
-# うえ～～～！
-# 『$1』のコミックス、いっぱい売れ残ってるぞ！
-ShowTextBox "!!! 3E8D00 26"
-WaitTextBox
-ShowChara 7 0 47
-# 他にもあったっけ？
-ShowTextBox "!!! 3E8D00 27"
-WaitTextBox
-# マンガ
-ShowTextPrompt 9 "\J!!! 3E8D00 28"
-JumpOnSelection 2 8 9 0
-Label 8
-ShowChara 7 0 49
-# 『$9』もあったんだっけ？
-# どうするんだよ、店長？
-ShowTextBox "!!! 3E8D00 29"
-WaitTextBox
-EndScript
-Label 9
-ShowChara 7 0 48
-# そうか…『$1』だけなら、フェアを開いてさっさと売っちまおうぜ！
-ShowTextBox "!!! 3E8D00 30"
-WaitTextBox
-ShowChara 7 0 52
-# なあに、俺達みんなの力を合わせれば、すぐ売れるぜ！
-ShowTextBox "!!! 3E8D00 31"
-WaitTextBox
-EndScript
-
-
-
-Subscript 5
-ShowChara 7 4 47
-# $1ってさ、よく$2に乗ってんじゃん
-ShowTextBox "!!! 3E8D00 32"
-WaitTextBox
-# ヤツには似合わないよな
-ShowTextBox "!!! 3E8D00 33"
-WaitTextBox
-# のりもの
-ShowTextPrompt 10 "\J!!! 3E8D00 34"
-JumpOnSelection 2 10 11 0
-Label 10
-ShowChara 7 0 48
-# そうそう$9の方がお似合いだぜ
-ShowTextBox "!!! 3E8D00 35"
-WaitTextBox
-EndScript
-Label 11
-ShowChara 7 0 49
-# でも、それがヤツの実力ってことか…
-ShowTextBox "!!! 3E8D00 36"
-WaitTextBox
-EndScript
+DSCBase $3E8D00 Subscript 0 ShowChara 7 4 47 ShowTextBox "Somehow ~ When I see \"$1\", I'm hungry"
+WaitTextBox ShowTextBox "How about the store manager?"
+WaitTextBox ShowTextPrompt 1 "Food"
+JumpOnSelection 2 0 1 0 Label 0 ShowChara 7 0 48 ShowTextBox "Does the manager want to eat $9?"
+WaitTextBox EndScript Label 1 ShowChara 7 0 49 ShowTextBox "... I'm nasty anyway"
+WaitTextBox EndScript Subscript 1 ShowChara 7 4 48 ShowTextBox "Manager, $1 is over"
+WaitTextBox ShowTextBox "Do you still have other jobs?"
+WaitTextBox ShowTextPrompt 7 "Work"
+JumpOnSelection 2 2 3 0 Label 2 ShowChara 7 0 58 ShowTextBox "Eh ... will I do $9?"
+WaitTextBox ShowChara 7 0 49 ShowTextBox "Isn't it a little overused?"
+WaitTextBox EndScript Label 3 ShowChara 7 0 52 ShowTextBox "If you don't have one, take a look at \"$2\" today and take a break."
+WaitTextBox EndScript Subscript 2 ShowChara 7 4 47 ShowTextBox "$1 ... Would you like to go play with a member of Braguema next time?"
+WaitTextBox ShowTextBox "Do you know the sports that many people can do?"
+WaitTextBox ShowTextPrompt 11 "Sports"
+JumpOnSelection 2 4 5 0 Label 4 ShowChara 7 0 48 ShowTextBox "I see, $9 ..."
+WaitTextBox ShowChara 7 0 50 ShowTextBox "Alright, you guys will do $9! !!"
+WaitTextBox ShowChara 12 4 60 ShowTextBox "Geba! Get $9!"
+WaitTextBox ShowChara 7 4 47 ShowTextBox "So when should we do it?"
+WaitTextBox EndScript Label 5 ShowChara 7 0 52 ShowTextBox "Ah ... Isn't the store manager an exercise enthusiast?"
+WaitTextBox ShowChara 7 0 48 ShowTextBox "There's no malice ♪"
+WaitTextBox EndScript Subscript 3 ShowChara 7 4 47 ShowTextBox "I saw $1 for $2 the other day"
+WaitTextBox ShowChara 7 0 48 ShowTextBox "I was just on location for a movie ..."
+WaitTextBox ShowTextPrompt 8 "Movie title"
+JumpOnSelection 2 6 7 0 Label 6 ShowChara 7 0 47 ShowTextBox "Oh yeah ... I was shooting \"$9\""
+WaitTextBox ShowChara 7 0 52 ShowTextBox "Maybe I'm reflected ... ♪"
+WaitTextBox EndScript Label 7 ShowChara 7 0 49 ShowTextBox "I wonder what it is ~ I forgot"
+WaitTextBox EndScript Subscript 4 ShowChara 7 4 58 ShowTextBox "Ue ~~~! A lot of \"$1\" comics are unsold!"
+WaitTextBox ShowChara 7 0 47 ShowTextBox "Was there anything else?"
+WaitTextBox ShowTextPrompt 9 "manga"
+JumpOnSelection 2 8 9 0 Label 8 ShowChara 7 0 49 ShowTextBox "Was there \"$9\"? What are you going to do, the store manager?"
+WaitTextBox EndScript Label 9 ShowChara 7 0 48 ShowTextBox "Well ... if it's just \"$1\", let's open the fair and sell it quickly!"
+WaitTextBox ShowChara 7 0 52 ShowTextBox "Well, if we all work together, it will sell right away!"
+WaitTextBox EndScript Subscript 5 ShowChara 7 4 47 ShowTextBox "$1 is often on $2"
+WaitTextBox ShowTextBox "It doesn't look good on him"
+WaitTextBox ShowTextPrompt 10 "Vehicle"
+JumpOnSelection 2 10 11 0 Label 10 ShowChara 7 0 48 ShowTextBox "Oh yeah, $9 suits you better"
+WaitTextBox EndScript Label 11 ShowChara 7 0 49 ShowTextBox "But that's what he's capable of ..."
+WaitTextBox EndScript 
