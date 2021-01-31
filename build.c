@@ -210,6 +210,11 @@ int processstring(uint8_t *dest, uint8_t *src, int doublemode)
                     return -1;
             }
         }
+        else if (c == '$' && src[si] >= '0' && src[si] <= '9')
+        { /* ignore doublemode for $x codes */
+            dest[di++] = '$';
+            dest[di++] = src[si++];
+        }
         else if ((c < 0x80) || (c >= 0xa1 && c < 0xe0))
         {
             if (doublemode && c >= 0x20 && c < 0x7f)
