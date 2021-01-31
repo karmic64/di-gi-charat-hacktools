@@ -247,7 +247,7 @@ int main(int argc, char *argv[])
                             switch (type)
                             {
                                 case A_STR:
-                                    fprintf(f, " \"%s!!! %06X %i\"", opcode == 0x13 ? "\\J" : "", dscindex, strnum++);
+                                    fprintf(f, " \"!!! %06X %i\"", dscindex, strnum++);
                                     i += 2 + get16(scriptbuf+i);
                                     break;
                                 case A_JUMPTABLE:

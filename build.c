@@ -155,11 +155,10 @@ long long stoi(char *s)
 
 
 /* returns amount of chars sent to dest including null terminator (-1 if error) */
-int processstring(uint8_t *dest, uint8_t *src)
+int processstring(uint8_t *dest, uint8_t *src, int doublemode)
 {
     int si = 0;
     int di = 0;
-    int doublemode = 0;
     uint8_t c;
     while (c = src[si++])
     {
@@ -176,9 +175,6 @@ int processstring(uint8_t *dest, uint8_t *src)
                     break;
                 case '\"':
                     dest[di++] = '\"';
-                    break;
-                case 'J':
-                    doublemode++;
                     break;
                 case 'x':
                 {
@@ -424,7 +420,7 @@ int main(int argc, char* argv[])
                                             goto fail;
                                         }
                                         yytext[strlen(yytext)-1] = '\0'; /* remove quotes */
-                                        int len = processstring(scriptbuf+scriptlen+2, yytext+1);
+                                        int len = processstring(scriptbuf+scriptlen+2, yytext+1, foundid == 0x13);
                                         if (len < 0) goto fail;
                                         while (len % 2) len++; /* align end to word */
                                         write16(scriptbuf+scriptlen, len);

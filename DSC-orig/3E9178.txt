@@ -16,7 +16,7 @@ WaitTextBox
 ShowTextBox "!!! 3E9178 2"
 WaitTextBox
 # たべもの
-ShowTextPrompt 1 "\J!!! 3E9178 3"
+ShowTextPrompt 1 "!!! 3E9178 3"
 JumpOnSelection 2 0 1 0
 Label 0
 ShowChara 3 0 18
@@ -44,7 +44,7 @@ WaitTextBox
 ShowTextBox "!!! 3E9178 7"
 WaitTextBox
 # だれのファン？
-ShowTextPrompt 0 "\J!!! 3E9178 8"
+ShowTextPrompt 0 "!!! 3E9178 8"
 JumpOnSelection 2 2 3 0
 Label 2
 ShowChara 3 0 18
@@ -73,7 +73,7 @@ WaitTextBox
 ShowTextBox "!!! 3E9178 12"
 WaitTextBox
 # どうぶつ
-ShowTextPrompt 3 "\J!!! 3E9178 13"
+ShowTextPrompt 3 "!!! 3E9178 13"
 JumpOnSelection 2 4 5 0
 Label 4
 ShowChara 3 0 18
@@ -112,7 +112,7 @@ ShowChara 8 4 2
 ShowTextBox "!!! 3E9178 19"
 WaitTextBox
 # さむいところ
-ShowTextPrompt 5 "\J!!! 3E9178 20"
+ShowTextPrompt 5 "!!! 3E9178 20"
 JumpOnSelection 2 6 7 0
 Label 6
 ShowChara 3 4 18
@@ -155,7 +155,7 @@ WaitTextBox
 ShowTextBox "!!! 3E9178 28"
 WaitTextBox
 # しごと
-ShowTextPrompt 7 "\J!!! 3E9178 29"
+ShowTextPrompt 7 "!!! 3E9178 29"
 JumpOnSelection 2 8 9 0
 Label 8
 ShowChara 3 0 18
@@ -186,7 +186,7 @@ WaitTextBox
 ShowTextBox "!!! 3E9178 34"
 WaitTextBox
 # のみもの
-ShowTextPrompt 2 "\J!!! 3E9178 35"
+ShowTextPrompt 2 "!!! 3E9178 35"
 JumpOnSelection 2 10 11 0
 Label 10
 ShowChara 3 0 18
@@ -215,7 +215,7 @@ WaitTextBox
 ShowTextBox "!!! 3E9178 39"
 WaitTextBox
 # のりもの
-ShowTextPrompt 10 "\J!!! 3E9178 40"
+ShowTextPrompt 10 "!!! 3E9178 40"
 JumpOnSelection 2 12 13 0
 Label 12
 ShowChara 3 0 18
@@ -244,7 +244,7 @@ ShowChara 3 4 17
 ShowTextBox "!!! 3E9178 44"
 WaitTextBox
 # じんぶつ
-ShowTextPrompt 0 "\J!!! 3E9178 45"
+ShowTextPrompt 0 "!!! 3E9178 45"
 JumpOnSelection 2 14 15 0
 Label 14
 ShowChara 3 0 18
@@ -275,7 +275,7 @@ WaitTextBox
 ShowTextBox "!!! 3E9178 50"
 WaitTextBox
 # テーマパーク
-ShowTextPrompt 6 "\J!!! 3E9178 51"
+ShowTextPrompt 6 "!!! 3E9178 51"
 JumpOnSelection 2 16 17 0
 Label 16
 ShowChara 3 0 18
@@ -310,7 +310,7 @@ WaitTextBox
 ShowTextBox "!!! 3E9178 57"
 WaitTextBox
 # スポーツ
-ShowTextPrompt 11 "\J!!! 3E9178 58"
+ShowTextPrompt 11 "!!! 3E9178 58"
 JumpOnSelection 2 18 19 0
 Label 18
 ShowChara 3 0 18
@@ -341,7 +341,7 @@ ShowChara 3 4 17
 ShowTextBox "!!! 3E9178 63"
 WaitTextBox
 # テレビばんぐみ
-ShowTextPrompt 8 "\J!!! 3E9178 64"
+ShowTextPrompt 8 "!!! 3E9178 64"
 JumpOnSelection 2 20 21 0
 Label 20
 ShowChara 3 0 17
@@ -375,7 +375,7 @@ WaitTextBox
 ShowTextBox "!!! 3E9178 70"
 WaitTextBox
 # マンガ
-ShowTextPrompt 9 "\J!!! 3E9178 71"
+ShowTextPrompt 9 "!!! 3E9178 71"
 JumpOnSelection 2 22 23 0
 Label 22
 ShowChara 3 0 19
@@ -413,7 +413,7 @@ WaitTextBox
 ShowTextBox "!!! 3E9178 77"
 WaitTextBox
 # 好きな花
-ShowTextPrompt 4 "\J!!! 3E9178 78"
+ShowTextPrompt 4 "!!! 3E9178 78"
 JumpOnSelection 2 24 25 0
 Label 24
 ShowChara 3 0 18

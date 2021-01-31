@@ -13,7 +13,7 @@ WaitTextBox
 ShowTextBox "!!! 3E8D00 1"
 WaitTextBox
 # たべもの
-ShowTextPrompt 1 "\J!!! 3E8D00 2"
+ShowTextPrompt 1 "!!! 3E8D00 2"
 JumpOnSelection 2 0 1 0
 Label 0
 ShowChara 7 0 48
@@ -40,7 +40,7 @@ WaitTextBox
 ShowTextBox "!!! 3E8D00 6"
 WaitTextBox
 # しごと
-ShowTextPrompt 7 "\J!!! 3E8D00 7"
+ShowTextPrompt 7 "!!! 3E8D00 7"
 JumpOnSelection 2 2 3 0
 Label 2
 ShowChara 7 0 58
@@ -71,7 +71,7 @@ WaitTextBox
 ShowTextBox "!!! 3E8D00 12"
 WaitTextBox
 # スポーツ
-ShowTextPrompt 11 "\J!!! 3E8D00 13"
+ShowTextPrompt 11 "!!! 3E8D00 13"
 JumpOnSelection 2 4 5 0
 Label 4
 ShowChara 7 0 48
@@ -118,7 +118,7 @@ ShowChara 7 0 48
 ShowTextBox "!!! 3E8D00 21"
 WaitTextBox
 # 映画のタイトル
-ShowTextPrompt 8 "\J!!! 3E8D00 22"
+ShowTextPrompt 8 "!!! 3E8D00 22"
 JumpOnSelection 2 6 7 0
 Label 6
 ShowChara 7 0 47
@@ -151,7 +151,7 @@ ShowChara 7 0 47
 ShowTextBox "!!! 3E8D00 27"
 WaitTextBox
 # マンガ
-ShowTextPrompt 9 "\J!!! 3E8D00 28"
+ShowTextPrompt 9 "!!! 3E8D00 28"
 JumpOnSelection 2 8 9 0
 Label 8
 ShowChara 7 0 49
@@ -182,7 +182,7 @@ WaitTextBox
 ShowTextBox "!!! 3E8D00 33"
 WaitTextBox
 # のりもの
-ShowTextPrompt 10 "\J!!! 3E8D00 34"
+ShowTextPrompt 10 "!!! 3E8D00 34"
 JumpOnSelection 2 10 11 0
 Label 10
 ShowChara 7 0 48

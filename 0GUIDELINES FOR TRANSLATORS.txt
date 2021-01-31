@@ -23,8 +23,6 @@ $x, where x is a number - The game replaces this internally with an arbitrary st
 \x__, where __ is a two-digit hexadecimal value - This could be any arbitrary value. The game seems to use this exclusively for changing the text color.
 Be careful about changing anything else in the script. If you really need to change or add a command, you can check "info.txt" for an incomplete command reference.
 
-\J is not actually used by the game but indicates to the ROM builder that this text must be converted to double-byte JIS codes. No need to know what this means, just keep in mind that these should never be removed.
-
 You can represent newlines in the script two ways:
 With the \n code:
 "Nyonyonyo!\nThat was a new line,\nnyo!"
