@@ -8,6 +8,9 @@
 #include "compress.h"
 
 
+#define swapnib(i) (((i) >> 4) | ((i) << 4))
+
+
 int fput32(uint32_t i, FILE *f)
 {
     for (int r = 0; r < 32; r += 8)
@@ -68,17 +71,23 @@ int main(int argc, char *argv[])
         {
             int32_t mbmindex = p-inbuf;
             uint16_t palsize = get16(p+0x0a);
-            int nibflag = palsize > 0x10 ? 0 : 1;
-            uint16_t realwidth = get16(p+6);
-            uint16_t width = realwidth / (nibflag ? 2 : 1); /* width IN BYTES */
-            if (nibflag && (realwidth % 2)) width++;
+            uint8_t bpp = *(p+5); /* note: bits/pixel is equal to bytes/tile row */
+            int tilemapflag = *(p+4) & 4;
+            uint16_t width = get16(p+6);
             uint16_t height = get16(p+8);
             uint8_t *palptr = inbuf+get32(p+0x10)-MAPBASE;
             int32_t palindex = palptr-inbuf;
+            uint8_t *tilemapptr = inbuf+get32(p+0x14)-MAPBASE;
+            int32_t tilemapindex = tilemapptr-inbuf;
             uint8_t *mcmptr = p+0x18;
             if (palindex < 0 || palindex >= fsize)
             {
                 printf("Palette pointer at $%X out of bounds\n", mbmindex);
+                continue;
+            }
+            if (tilemapindex < 0 || tilemapindex >= fsize)
+            {
+                printf("Tilemap pointer at $%X out of bounds\n", mbmindex);
                 continue;
             }
             uint16_t bmpwidth = width;
@@ -91,23 +100,11 @@ int main(int argc, char *argv[])
             }
             int32_t mcmindex = mcmptr-inbuf;
             uint32_t finaldatasize = get32(mcmptr+4);
-            if (finaldatasize < ((width * height)))
-            {
-                printf("MCM data too small for bitmap at $%X\n", mbmindex);
-                continue;
-            }
             
-            uint8_t *bmpbuf = malloc(finaldatasize);
-            int status = mcmuncomp(bmpbuf, inbuf, mcmptr);
+            uint8_t *tilebuf = malloc(finaldatasize);
+            int status = mcmuncomp(tilebuf, inbuf, mcmptr);
             if (!status)
             {
-                if (nibflag)
-                {
-                    for (int i = 0; i < finaldatasize; i++)
-                    {
-                        bmpbuf[i] = (bmpbuf[i] >> 4) | (bmpbuf[i] << 4);
-                    }
-                }
                 sprintf(fnambuf, "%06X.bmp", mbmindex);
                 FILE *f = fopen(fnambuf, "wb");
                 /* header */
@@ -118,10 +115,10 @@ int main(int argc, char *argv[])
                 fput32(14+40+(palsize*4), f);
                 /* infoheader */
                 fput32(40, f);
-                fput32(realwidth, f);
+                fput32(width, f);
                 fput32(height, f);
                 fput16(1, f);
-                fput16(nibflag ? 4 : 8, f);
+                fput16(8, f);
                 fput32(0, f);
                 fput32(0, f);
                 fput32(0, f);
@@ -142,23 +139,35 @@ int main(int argc, char *argv[])
                     fputc(0, f);
                 }
                 /* bitmap */
-                int tilewidth = nibflag ? 4 : 8;
                 for (int y = height-1; y >= 0; y--)
                 {
-                    int ytile = y / 8;
-                    int yfine = y % 8;
-                    for (int x = 0; x < bmpwidth; x++)
+                    for (int x = 0; x < bmpwidth; x += (bpp == 8 ? 1 : 2))
                     {
-                        int xtile = x / tilewidth;
-                        int xfine = x % tilewidth;
-                        
-                        if (x > width)
+                        uint16_t t = (y/8) * (width/8) + x/8;
+                        if (tilemapflag)
                         {
-                            fputc(0, f);
+                            t = get16(tilemapptr + (t * 2));
+                        }
+                        uint16_t tn = t & 0x3ff;
+                        uint16_t xflip = t & 0x400;
+                        uint16_t yflip = t & 0x800;
+                        uint16_t pal = t / 0x1000;
+                        
+                        int xfine = (x & 7) ^ (xflip ? 7 : 0);
+                        int yfine = (y & 7) ^ (yflip ? 7 : 0);
+                        
+                        uint8_t *tilerow = tilebuf + (tn*bpp*8) + (yfine*bpp);
+                        
+                        if (bpp == 8)
+                        {
+                            fputc(tilerow[xfine], f);
                         }
                         else
                         {
-                            fputc(bmpbuf[(ytile*width*8) + (xtile*8*tilewidth) + (yfine*tilewidth) + xfine], f);
+                            uint8_t tb = tilerow[xfine/2];
+                            if (xflip) tb = swapnib(tb);
+                            fputc((tb & 0x0f) + (pal * 0x10), f);
+                            fputc((tb >> 4) + (pal * 0x10), f);
                         }
                     }
                 }
@@ -172,7 +181,7 @@ int main(int argc, char *argv[])
                 printf("MCM extraction at $%X failed with errorcode %d\n", mbmindex, status);
                 continue;
             }
-            free(bmpbuf);
+            free(tilebuf);
         }
     }
     

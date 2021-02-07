@@ -7,7 +7,8 @@
 
 %top {
 enum {
-    TOK_NUM = 1,
+    TOK_EOF = 0,
+    TOK_NUM,
     TOK_ID,
     TOK_STRING,
     TOK_INVALID = -1,
@@ -23,7 +24,7 @@ ID [a-zA-Z_][a-zA-Z0-9_]*
 %%
 
     /* always match strings first */
-\"(\\\"|{BYTECHAR}|({WIDECHAR}(?s:.)))*\"   return TOK_STRING;
+\"((\\[\"\\])|{BYTECHAR}|({WIDECHAR}(?s:.)))*\"   return TOK_STRING;
     /* kill comments */
 #.*
     /* hex literals */

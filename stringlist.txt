@@ -1,0 +1,188 @@
+# this is a list of all pointers to raw strings in the rom, used to build text.txt
+# Ptr strings are relocatable, and thus do not have a maximum size
+# Abs strings are not relocatable, so there is a maximum size
+# if no maximum length is specified, it is heuristically determined by
+#   counting the amount of bytes in the string and the nulls after it
+# pointer values are relative to the start of the rom
+# Double indicates the following strings must be double-byte JIS characters
+# NoDouble ends this
+
+Comment "these strings use the following control codes:"
+Comment "   %s - this is replaced with a string"
+Comment "   %d - this is replaced with a number"
+Comment "if a string has a listed maximum length, any characters past this will be deleted"
+
+LineBreak
+Comment "--- shop rating screen"
+Double
+Ptr $c4bc
+Ptr $c504
+Ptr $c9d40
+Ptr $c9d44
+Ptr $c9d48
+Ptr $c9d4c
+Ptr $c9d50
+Ptr $c9d54
+Ptr $c9d58
+Ptr $c9d5c
+Ptr $c9d60
+Ptr $c9d64
+
+LineBreak
+Comment "--- various text prompt menu titles"
+Double
+Ptr $10090
+Ptr $101a0 $1068c
+Ptr $102c4 $10658
+Ptr $103f4 $10654
+Abs $ca0a0
+Ptr $10688
+Ptr $106ec
+Ptr $106f0
+Ptr $10788
+Ptr $10dec
+
+LineBreak
+Comment "--- misc shop-related"
+NoDouble
+Ptr $12c8c
+Ptr $12d14
+Ptr $12d84
+Abs $ca37c
+Ptr $12ee4
+Abs $ca390
+Abs $ca39a
+Abs $ca3a4
+Ptr $12ee8
+Abs $ca3b6
+Abs $ca3be
+Abs $ca3c6
+Ptr $130bc
+Ptr $1313c
+Ptr $13188
+Ptr $13238
+Ptr $1323c
+Comment "note, the following ARE relocatable, but needs more complex hacking"
+Comment "please tell me if you need more space"
+Abs $ca7f8
+Abs $ca808
+Abs $ca818 Max $10
+Abs $ca834
+Abs $ca844
+Abs $ca854
+Abs $ca864 Max $10
+Abs $ca884
+Abs $ca894
+Abs $ca8a4
+Abs $ca8b4
+Abs $ca8c4
+Abs $ca8d4
+Abs $ca8e4
+Abs $ca8f4
+Abs $ca904
+Abs $ca914
+Abs $ca924
+Abs $ca934
+Abs $ca944
+Abs $ca954
+Abs $ca964
+
+LineBreak
+Comment "--- item names"
+NoDouble
+StringList $ca974 Max $18 Dist $44 Amt 123
+
+LineBreak
+Comment "--- work-related item names"
+NoDouble
+StringList $ccad4 Max $18 Dist $44 Amt 32
+
+LineBreak
+Comment "--- event names?"
+NoDouble
+Comment "dejiko"
+StringList $cd35b Max $20 Dist $38 Amt 37
+Comment "usada"
+StringList $cdc1b Max $20 Dist $38 Amt 37
+Comment "puchiko"
+StringList $ce4db Max $20 Dist $38 Amt 38
+Comment "piyoko"
+StringList $ced9b Max $20 Dist $38 Amt 29
+
+LineBreak
+Comment "--- sound test-related"
+Comment " note that all of these strings are centered onscreen by padding with spaces"
+Comment " make your strings the amount of characters listed, and use spaces to center"
+# pointer tables actually follow these strings, but to discourage not spacing
+# correctly we put a maximum length on them anyway
+NoDouble
+Comment "song names (32 chars)"
+StringList $d3814 Max $24 Amt 22
+Comment "sound effect names (16 chars)"
+StringList $d3ba4 Max $14 Amt 27
+Comment "voice names (32 chars)"
+StringList $d3e38 Max $24 Amt 39
+
+LineBreak
+Comment "--- unknown?"
+Ptr $e5e7c
+Ptr $e5e80
+Ptr $e5e84
+
+LineBreak
+Comment "--- unknown?"
+Ptr $52174
+Ptr $527c8
+Ptr $527fc
+
+# there is a list of bad words at $e624c, but it looks unreferenced
+
+LineBreak
+Comment "--- unknown?"
+Ptr $57824
+Ptr $589a4
+Ptr $589e4
+
+LineBreak
+Comment "--- unknown?"
+Ptr $638d4
+Ptr $63910
+Ptr $63914
+
+LineBreak
+Comment "--- unknown?"
+Ptr $7f31c
+Ptr $7f320
+Ptr $7f3ac
+Ptr $7fa18
+Ptr $7fa4c
+
+LineBreak
+Comment "--- unknown?"
+Ptr $86f24
+
+LineBreak
+Comment "--- credits"
+# this appears to point to each line of text for the credits, including the blank ones....
+# so the text.txt creation program will need to keep track of which strings are already referenced
+# it also must ignore pointers to nulls, as well as null pointers
+PtrList $e80d8 Amt 370
+
+LineBreak
+Comment "--- digicommunication-related"
+PtrList $8cf3c Amt 9
+PtrList $e9ff4 Amt 5
+Ptr $8d87c
+Ptr $8df64
+Ptr $8df6c
+Ptr $8df74
+Ptr $8df80
+PtrList $ea11c Amt 20
+
+LineBreak
+Comment "--- shop-related"
+PtrList $ebb84 Amt 12
+PtrList $ebc20 Amt 56
+PtrList $ebdd4 Amt 16
+PtrList $ebe4c Amt 4
+PtrList $ec2fc Amt 16

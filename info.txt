@@ -7,20 +7,33 @@ word - amount of data offsets
 word - list of data offsets
         the unpacked script data appears to be separated into "subscripts". these are the offsets
         of all subscripts relative to the start of the uncompressed data.
-word - length of uncompressed script data?
+word - length of uncompressed script data
 
 
 MBM (bitmap data) format:
 word - constant "MBM\0"
-halfword - ???
+byte - image flags
+        bit 0 - 0 = multi-palette mode, 1 = 256-color mode
+        bit 2 - 1 if image is tilemapped, 0 if not
+byte - bits per pixel (only 4 and 8 are used)
 halfword - width of image in pixels
 halfword - height of image in pixels
 halfword - palette entries
-halfword - ????
-halfword - ????
-two ((not) always identical?) pointers to palette data
+halfword - tilemap entries
+halfword - total amount of tiles
+pointer to palette data
+pointer to tilemap (if image is tilemapped, otherwise same as palette pointer)
+    tilemap is gba format (INCLUDING FLIP/PALETTE NUMBER BITS)
 then the MCM data
-the bitmap data is nybble packed if there are only $10 palette entries, in gba format
+the bitmap data is arranged as tiles in gba format
+
+to fix:
+66E330 is missing tiles entirely
+68B6A8 and others like it are animated ingame - where are the other frames? will it even be necessary to find them?
+69B8EC has wrong palette
+
+the fullscreen backgrounds may look glitched but they aren't. during dialogue scenes, the upper and lower parts of the background are faded out and overwritten in vram with character portraits. with this arrangement all the overwritable parts of the image are contained in one contiguous block of vram
+
 
 
 MCM (compressed file) format:
@@ -42,29 +55,34 @@ data is split into (maxsize)-byte uncompressed segments, and then these are indi
 compressed data is standard gba format
 
 
-MFM (1bpp charset) data:
+MFM (charset) data:
 word - constant "MFM\0"
-byte? - ?
-byte? - ?
-byte - height of each char
 byte - ?
+byte - width of each char
+byte - height of each char
+byte - $10 if 4bpp, $00 if 1bpp?
 halfword - amount of chars
 halfword - size of char in bytes, including code
-word - 0?
+word - pointer to something? (if 1bpp, 0)
 word - absolute pointer to data
 data:
 halfword - character code
 x bytes - data for char
-NOTE: sometimes the data is 2bpp? separated into bitplanes
-this might have to be heuristically detected with: bitdepth = (charbytes-2)/charheight
+.....repeat for each char
 
-nope, that indicates that the characters are meant to be wide
-each character is formatted from left to right, top to bottom
+the actual pixel values are probably brightnesses and not palette indexes
+0 appears to be transparent
 
 
-MRM format:
+MRM (sample) format:
 word - constant "MRM\0"
-.... ?
+word - length of data
+xx bytes - data
+data is signed 8-bit pcm, 22050hz
+
+
+
+sprites are in a "SPX" format, but it's probably not necessary to figure it out
 
 
 

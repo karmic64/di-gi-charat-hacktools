@@ -4,7 +4,7 @@ Here are all the files you need to worry about:
 "DSC" - This folder contains all the scripts.
 "MBM" - This folder contains all the graphics.
 "hacks" - Contains all the programming hacks. If you can't build it then please contact me for the ROM.
-"text.txt" - This file contains all of the miscellaneous tiny strings scattered throughout the ROM. (not ready yet)
+"text.txt" - This file contains all of the miscellaneous tiny strings scattered throughout the ROM.
 "build.exe" - This program builds a translated ROM. Pay attention to the output for errors.
 "t.gba" - When you run build.exe, this is the ROM that gets built.
 

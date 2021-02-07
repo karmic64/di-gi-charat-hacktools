@@ -17,4 +17,3 @@ I haven't done much investigation into the game's sequel (DiGi Communication 2 i
 The build tool is not complete yet and the following must still be added:
 
 - Allow importing of bitmap data
-- Easy modification of small uncompressed strings in the ROM

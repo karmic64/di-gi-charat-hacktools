@@ -1,11 +1,12 @@
 enum {
-    TOK_NUM = 1,
+    TOK_EOF = 0,
+    TOK_NUM,
     TOK_ID,
     TOK_STRING,
     TOK_INVALID = -1,
 };
 
-#line 8 "lex.yy.c"
+#line 9 "lex.yy.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -386,11 +387,11 @@ struct yy_trans_info
 	flex_int32_t yy_verify;
 	flex_int32_t yy_nxt;
 	};
-static const flex_int16_t yy_accept[28] =
+static const flex_int16_t yy_accept[29] =
     {   0,
         0,    0,   11,    9,    8,    8,    9,    2,    9,    9,
         5,    5,    7,    8,    0,    1,    0,    0,    2,    3,
-        6,    5,    0,    7,    1,    4,    0
+        6,    5,    0,    7,    1,    0,    4,    0
     } ;
 
 static const YY_CHAR yy_ec[256] =
@@ -431,44 +432,44 @@ static const YY_CHAR yy_meta[15] =
         5,    6,    1,    1
     } ;
 
-static const flex_int16_t yy_base[34] =
+static const flex_int16_t yy_base[35] =
     {   0,
-        0,    0,   35,   65,   13,   15,   15,    0,    0,   12,
-       22,   14,    0,   22,   26,   65,   29,    0,    0,    0,
-       18,   23,    0,    0,    0,    0,   65,   40,   46,   50,
-       52,   56,   60
+        0,    0,   38,   65,   13,   15,   15,    0,    0,   12,
+       25,   14,    0,   22,   26,   65,   22,    0,    0,    0,
+       23,   25,    0,    0,    0,   23,    0,   65,   40,   46,
+       50,   52,   56,   60
     } ;
 
-static const flex_int16_t yy_def[34] =
+static const flex_int16_t yy_def[35] =
     {   0,
-       27,    1,   27,   27,   27,   27,   28,   29,   30,   27,
-       31,   27,   32,   27,   28,   27,   15,   28,   29,   30,
-       27,   27,   33,   32,   15,   33,    0,   27,   27,   27,
-       27,   27,   27
+       28,    1,   28,   28,   28,   28,   29,   30,   31,   28,
+       32,   28,   33,   28,   29,   28,   15,   29,   30,   31,
+       28,   28,   34,   33,   15,   15,   34,    0,   28,   28,
+       28,   28,   28,   28
     } ;
 
 static const flex_int16_t yy_nxt[80] =
     {   0,
         4,    5,    6,    7,    8,    9,   10,   11,   12,   13,
        13,   13,    4,    4,   14,   14,   14,   14,   16,   21,
-       21,   22,   22,   14,   14,   21,   21,   17,   18,   16,
-       22,   22,   25,   23,   27,   27,   27,   27,   17,   18,
-       15,   15,   15,   15,   15,   15,   19,   27,   19,   19,
-       19,   19,   20,   20,   22,   27,   27,   22,   24,   24,
-       24,   24,   26,   26,    3,   27,   27,   27,   27,   27,
-       27,   27,   27,   27,   27,   27,   27,   27,   27
+       21,   22,   22,   14,   14,   25,   25,   17,   18,   16,
+       21,   21,   22,   22,   26,   26,   23,   28,   17,   18,
+       15,   15,   15,   15,   15,   15,   19,   28,   19,   19,
+       19,   19,   20,   20,   22,   28,   28,   22,   24,   24,
+       24,   24,   27,   27,    3,   28,   28,   28,   28,   28,
+       28,   28,   28,   28,   28,   28,   28,   28,   28
     } ;
 
 static const flex_int16_t yy_chk[80] =
     {   0,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    5,    5,    6,    6,    7,   10,
-       10,   12,   12,   14,   14,   21,   21,    7,    7,   15,
-       22,   22,   17,   11,    3,    0,    0,    0,   15,   15,
-       28,   28,   28,   28,   28,   28,   29,    0,   29,   29,
-       29,   29,   30,   30,   31,    0,    0,   31,   32,   32,
-       32,   32,   33,   33,   27,   27,   27,   27,   27,   27,
-       27,   27,   27,   27,   27,   27,   27,   27,   27
+       10,   12,   12,   14,   14,   17,   26,    7,    7,   15,
+       21,   21,   22,   22,   17,   26,   11,    3,   15,   15,
+       29,   29,   29,   29,   29,   29,   30,    0,   30,   30,
+       30,   30,   31,   31,   32,    0,    0,   32,   33,   33,
+       33,   33,   34,   34,   28,   28,   28,   28,   28,   28,
+       28,   28,   28,   28,   28,   28,   28,   28,   28
     } ;
 
 /* Table of booleans, true if rule could match eol. */
@@ -492,7 +493,7 @@ int yy_flex_debug = 0;
 char *yytext;
 #line 1 "lex.l"
 
-#line 495 "lex.yy.c"
+#line 496 "lex.yy.c"
 
 #define INITIAL 0
 
@@ -709,12 +710,12 @@ YY_DECL
 		}
 
 	{
-#line 23 "lex.l"
+#line 24 "lex.l"
 
 
-#line 26 "lex.l"
+#line 27 "lex.l"
     /* always match strings first */
-#line 717 "lex.yy.c"
+#line 718 "lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -741,13 +742,13 @@ yy_match:
 			while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 				{
 				yy_current_state = (int) yy_def[yy_current_state];
-				if ( yy_current_state >= 28 )
+				if ( yy_current_state >= 29 )
 					yy_c = yy_meta[yy_c];
 				}
 			yy_current_state = yy_nxt[yy_base[yy_current_state] + yy_c];
 			++yy_cp;
 			}
-		while ( yy_current_state != 27 );
+		while ( yy_current_state != 28 );
 		yy_cp = (yy_last_accepting_cpos);
 		yy_current_state = (yy_last_accepting_state);
 
@@ -780,52 +781,52 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 /* rule 1 can match eol */
 YY_RULE_SETUP
-#line 27 "lex.l"
+#line 28 "lex.l"
 return TOK_STRING;
 	YY_BREAK
 /* kill comments */
 case 2:
 YY_RULE_SETUP
-#line 29 "lex.l"
+#line 30 "lex.l"
 
 	YY_BREAK
 /* hex literals */
 case 3:
-#line 32 "lex.l"
-case 4:
 #line 33 "lex.l"
+case 4:
+#line 34 "lex.l"
 /* dec literals */
 case 5:
-#line 35 "lex.l"
+#line 36 "lex.l"
 case 6:
 YY_RULE_SETUP
-#line 35 "lex.l"
+#line 36 "lex.l"
 return TOK_NUM;
 	YY_BREAK
 /* identifier */
 case 7:
 YY_RULE_SETUP
-#line 37 "lex.l"
+#line 38 "lex.l"
 return TOK_ID;
 	YY_BREAK
 /* kill whitespace */
 case 8:
 /* rule 8 can match eol */
 YY_RULE_SETUP
-#line 39 "lex.l"
+#line 40 "lex.l"
 
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 41 "lex.l"
+#line 42 "lex.l"
 return TOK_INVALID;
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 44 "lex.l"
+#line 45 "lex.l"
 YY_FATAL_ERROR( "flex scanner jammed" );
 	YY_BREAK
-#line 828 "lex.yy.c"
+#line 829 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1123,7 +1124,7 @@ static int yy_get_next_buffer (void)
 		while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 			{
 			yy_current_state = (int) yy_def[yy_current_state];
-			if ( yy_current_state >= 28 )
+			if ( yy_current_state >= 29 )
 				yy_c = yy_meta[yy_c];
 			}
 		yy_current_state = yy_nxt[yy_base[yy_current_state] + yy_c];
@@ -1151,11 +1152,11 @@ static int yy_get_next_buffer (void)
 	while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 		{
 		yy_current_state = (int) yy_def[yy_current_state];
-		if ( yy_current_state >= 28 )
+		if ( yy_current_state >= 29 )
 			yy_c = yy_meta[yy_c];
 		}
 	yy_current_state = yy_nxt[yy_base[yy_current_state] + yy_c];
-	yy_is_jam = (yy_current_state == 27);
+	yy_is_jam = (yy_current_state == 28);
 
 		return yy_is_jam ? 0 : yy_current_state;
 }
@@ -1843,4 +1844,4 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 44 "lex.l"
+#line 45 "lex.l"

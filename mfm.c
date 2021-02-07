@@ -68,64 +68,91 @@ int main(int argc, char *argv[])
         {
             /* note: for sanity's sake we put 64 tiles on each bitmap line */
             /* the following value must be a multiple of 4 and power of 2 */
-#define BYTESPERLINE 64
+#define CHARSPERLINE 64
             int32_t mfmindex = p-inbuf;
             sprintf(fnambuf, "%06X.bmp", mfmindex);
+            uint8_t charwidth = *(p+5);
             uint8_t charheight = *(p+6);
+            uint8_t bppflag = *(p+7);
             uint16_t chars = get16(p+8);
             uint16_t charbytes = get16(p+0x0a);
             uint8_t *data = inbuf+get32(p+0x10)-MAPBASE;
             
-            /* if ((charbytes-2) % charheight)
-            {
-                printf("Could not get width of chars in $%06X\n", mfmindex);
-                continue;
-            } */
+            int bmpbpp = bppflag == 0x10 ? 4 : 1;
+            int pixelsperbyte = 8 / bmpbpp;
             
-            int charwidth = (charbytes-2) / charheight;
-            int charsperline = BYTESPERLINE/charwidth;
-            int bmpheight = charheight*(chars/charsperline + (chars % charsperline ? 1 : 0));
+            int charbytewidth = charwidth / 8;
+            if (charwidth % 8) charbytewidth++;
+            charbytewidth *= bmpbpp;
             
-            size_t bmpbufsize = bmpheight*BYTESPERLINE;
+            int bmpcharwidth = charwidth / pixelsperbyte;
+            if (charwidth % pixelsperbyte) bmpcharwidth++;
+            bmpcharwidth *= pixelsperbyte;
+            int bmpwidth = bmpcharwidth * CHARSPERLINE;
+            int bmpbytewidth = bmpwidth / pixelsperbyte;
+            int bmpcharbytewidth = bmpcharwidth/pixelsperbyte;
+            
+            int bmpheight = chars / CHARSPERLINE;
+            if (chars % CHARSPERLINE) bmpheight++;
+            bmpheight *= charheight;
+            
+            int palsize = 1 << bmpbpp;
+            
+            size_t bmpbufsize = bmpbytewidth * bmpheight;
             
             FILE *f = fopen(fnambuf, "wb");
             fputc('B', f);
             fputc('M', f);
-            fput32(14+40+(4*2)+bmpbufsize, f);
+            fput32(14+40+(4*palsize)+bmpbufsize, f);
             fput32(0, f);
-            fput32(14+40+(4*2), f);
+            fput32(14+40+(4*palsize), f);
             
             fput32(40, f);
-            fput32(BYTESPERLINE*8, f);
+            fput32(bmpwidth, f);
             fput32(bmpheight, f);
             fput16(1, f);
-            fput16(1, f);
+            fput16(bmpbpp, f);
             fput32(0, f);
             fput32(0, f);
             fput32(0, f);
             fput32(0, f);
-            fput32(2, f);
+            fput32(palsize, f);
             fput32(0, f);
             
-            fput32(0, f); /* black and white */
-            fput32(0xffffff, f);
-            
-            for (int charhi = ((chars/charsperline + (chars % charsperline ? 1 : 0))-1)*charsperline; charhi >= 0; charhi -= charsperline)
+            for (int i = 0; i < palsize; i++)
             {
-                for (int row = charheight-1; row >= 0; row--)
+                uint8_t col = (i / (float)(palsize-1)) * 255.0;
+                fputc(col, f);
+                fputc(col, f);
+                fputc(col, f);
+                fputc(0, f);
+            }
+            
+            for (int charcoarse = (chars/CHARSPERLINE - (chars%CHARSPERLINE ? 0 : 1))*CHARSPERLINE; charcoarse >= 0; charcoarse -= CHARSPERLINE)
+            {
+                for (int yfine = charheight-1; yfine >= 0; yfine--)
                 {
-                    for (int charlo = 0; charlo < charsperline; charlo++)
+                    for (int charfine = 0; charfine < CHARSPERLINE; charfine++)
                     {
-                        int ci = charhi | charlo;
-                        if (ci >= chars)
+                        int c = charcoarse + charfine;
+                        for (int xbyte = 0; xbyte < bmpcharbytewidth; xbyte++)
                         {
-                            for (int i = 0; i < charwidth; i++)
+                            if (c >= chars)
+                            {
                                 fputc(0, f);
-                        }
-                        else
-                        {
-                            uint8_t *c = data + (charbytes*ci) + (row*charwidth) + 2;
-                            fwrite(c, 1, charwidth, f);
+                            }
+                            else
+                            {
+                                uint8_t cb = data[2 + (charbytes*c) + (yfine*charbytewidth) + xbyte];
+                                if (bmpbpp == 4)
+                                {
+                                    fputc((cb << 4) | (cb >> 4), f);
+                                }
+                                else
+                                {
+                                    fputc(cb, f);
+                                }
+                            }
                         }
                     }
                 }
