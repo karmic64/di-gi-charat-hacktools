@@ -1,4 +1,19 @@
 
+KNOWN INGAME ISSUES:
+- end credits up-scroller always places text characters 2 tiles apart, even with 1-tile wide characters
+- user-entered strings are entered as double-byte jis characters, so they are printed wide when accessed
+    - actually changing the internal representation would require messing with the character codes in the MFM files, so just change the font to be displayed
+    - would also be nice to allow 16-character strings instead of just 8
+- there are still some missing plaintext strings
+
+
+KNOWN EXPORT ISSUES:
+- MBM 66E330 is missing tiles entirely
+- MBM 68B6A8 and others like it are animated ingame - where are the other frames? will it even be necessary to find them?
+- MBM 69B8EC has wrong palette
+
+
+
 DSC (script data) format:
 word - constant "DSC\0"
 word - 0?
@@ -26,11 +41,6 @@ pointer to tilemap (if image is tilemapped, otherwise same as palette pointer)
     tilemap is gba format (INCLUDING FLIP/PALETTE NUMBER BITS)
 then the MCM data
 the bitmap data is arranged as tiles in gba format
-
-to fix:
-66E330 is missing tiles entirely
-68B6A8 and others like it are animated ingame - where are the other frames? will it even be necessary to find them?
-69B8EC has wrong palette
 
 the fullscreen backgrounds may look glitched but they aren't. during dialogue scenes, the upper and lower parts of the background are faded out and overwritten in vram with character portraits. with this arrangement all the overwritable parts of the image are contained in one contiguous block of vram
 

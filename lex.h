@@ -186,6 +186,34 @@ int processstring(uint8_t *dest, uint8_t *src, int doublemode)
             dest[di++] = '$';
             dest[di++] = src[si++];
         }
+        else if (c == '%')
+        { /* ignore doublemode for c-style format strings */
+            if (src[si] == '%') /* ...unless it's the "literal percent sign" code */
+            {
+                if (doublemode)
+                {
+                    dest[di++] = ascjistbl['%'-0x20] >> 8;
+                    dest[di++] = ascjistbl['%'-0x20] & 0xff;
+                }
+                else
+                {
+                    dest[di++] = '%';
+                    dest[di++] = '%';
+                }
+                si++;
+            }
+            else
+            {
+                dest[di++] = '%';
+                uint8_t c;
+                while (c = src[si])
+                {
+                    si++;
+                    dest[di++] = c;
+                    if (strchr("%csdioxXufFeEaAgGnp", c)) break;
+                }
+            }
+        }
         else if ((c < 0x80) || (c >= 0xa1 && c < 0xe0))
         {
             if (doublemode && c >= 0x20 && c < 0x7f)

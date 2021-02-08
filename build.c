@@ -41,9 +41,9 @@ int main(int argc, char* argv[])
         printf("Could not open input file: %s\n", strerror(errno));
         return EXIT_FAILURE;
     }
-    size_t fsize = INITIALROMSIZE;
-    uint8_t *inbuf = malloc(INITIALROMSIZE);
-    fread(inbuf, 1, INITIALROMSIZE, f);
+    size_t romsize = INITIALROMSIZE;
+    uint8_t *rombuf = malloc(INITIALROMSIZE);
+    fread(rombuf, 1, INITIALROMSIZE, f);
     fclose(f);
     
     
@@ -118,7 +118,7 @@ int main(int argc, char* argv[])
                             err("DSCBase value out of bounds");
                             goto fail;
                         }
-                        if (memcmp(inbuf+dscbase, "DSC", 4))
+                        if (memcmp(rombuf+dscbase, "DSC", 4))
                         {
                             err("DSCBase does not point to valid DSC data");
                             goto fail;
@@ -322,7 +322,7 @@ int main(int argc, char* argv[])
         /* align script end to 4-bytes */
         while (scriptlen % 4) scriptlen++;
         /* inject new script into rom */
-        uint8_t *dscptr = inbuf + dscbase;
+        uint8_t *dscptr = rombuf + dscbase;
         uint32_t realsubs = get32(dscptr+0x0c);
         if (subscripts != realsubs)
         {
@@ -334,32 +334,190 @@ int main(int argc, char* argv[])
             write32(dscptr+0x10+(i*4), subscripttbl[i]);
         }
         write32(dscptr+0x10+(subscripts*4), scriptlen);
-        write32(dscptr+0x08, fsize | MAPBASE);
-        size_t newfsize = fsize + scriptlen + 0x18;
-        inbuf = realloc(inbuf, newfsize);
-        uint8_t *mcmptr = inbuf + fsize;
+        write32(dscptr+0x08, romsize | MAPBASE);
+        size_t newromsize = romsize + scriptlen + 0x18;
+        rombuf = realloc(rombuf, newromsize);
+        uint8_t *mcmptr = rombuf + romsize;
         memcpy(mcmptr, "MCM", 4);
         write32(mcmptr+4, scriptlen);
         write32(mcmptr+8, scriptlen);
         write32(mcmptr+0xc, 1);
         write32(mcmptr+0x10, 0);
-        write32(mcmptr+0x14, (fsize+0x18)|MAPBASE);
+        write32(mcmptr+0x14, (romsize+0x18)|MAPBASE);
         memcpy(mcmptr+0x18, scriptbuf, scriptlen);
         printf("Successfully imported %s into ROM\n", lexsrcnam);
-        fsize = newfsize;
+        romsize = newromsize;
 fail:   free(scriptbuf);
         free(labeltbl);
         free(labelreftbl);
         fclose(f);
     }
     closedir(dir);
-    
-    
-    
-    
     chdir(initialcwd);
+    
+    
+    
+    /* ------------- import raw strings ---------------- */
+    f = fopen("text.txt", "rb");
+    if (!f)
+    {
+        printf("Could not open %s: %s\n", "text.txt", strerror(errno));
+        return EXIT_FAILURE;
+    }
+    lexinit(f, "text.txt");
+    
+    int doublemode = 0;
+    int max = -1;
+    uint32_t offs = -1;
+    int refs = 0;
+    uint32_t *reftbl = NULL;
+    
+    int lextype = yylex();
+    while (lextype)
+    {
+        if (lextype == TOK_ID)
+        {
+            if (!strcmp(yytext, "Double"))
+            {
+                doublemode = 1;
+                lextype = yylex();
+            }
+            else if (!strcmp(yytext, "NoDouble"))
+            {
+                doublemode = 0;
+                lextype = yylex();
+            }
+            else if (!strcmp(yytext, "Max"))
+            {
+                lextype = yylex();
+                if (lextype != TOK_NUM)
+                {
+                    err_wrongtype(TOK_NUM, lextype);
+                    break;
+                }
+                else
+                {
+                    max = stoi(yytext);
+                }
+                lextype = yylex();
+            }
+            else if (!strcmp(yytext, "Abs"))
+            {
+                if (offs != -1)
+                {
+                    err("Abs was already defined");
+                    break;
+                }
+                if (refs)
+                {
+                    err("Abs definition encountered but Ptr was already defined");
+                    break;
+                }
+                lextype = yylex();
+                if (lextype != TOK_NUM)
+                {
+                    err_wrongtype(TOK_NUM, lextype);
+                    break;
+                }
+                else
+                {
+                    offs = stoi(yytext);
+                }
+                lextype = yylex();
+            }
+            else if (!strcmp(yytext, "Ptr"))
+            {
+                if (offs != -1)
+                {
+                    err("Ptr definition encountered but Abs was already defined");
+                    break;
+                }
+                while ((lextype = yylex()) == TOK_NUM)
+                {
+                    reftbl = realloc(reftbl, (refs+1)*sizeof(uint32_t));
+                    reftbl[refs++] = stoi(yytext);
+                }
+            }
+            else
+            {
+                err("invalid identifier %s", yytext);
+                break;
+            }
+        }
+        else if (lextype == TOK_STRING)
+        {
+            uint8_t strbuf[0x400];
+            yytext[strlen(yytext)-1] = 0;
+            int len = processstring(strbuf, yytext+1, doublemode);
+            if (len < 0) break;
+            if (refs)
+            {
+                offs = get32(rombuf + reftbl[0]) - MAPBASE;
+                int fail = 0;
+                for (int i = 1; i < refs; i++)
+                {
+                    uint32_t thisoffs = get32(rombuf + reftbl[i]) - MAPBASE;
+                    if (thisoffs != offs)
+                    {
+                        err("pointers at %06X and %06X are not identical", offs, thisoffs);
+                        fail++;
+                    }
+                }
+                if (fail) break;
+                uint32_t newoffs = offs;
+                int max = 0;
+                while (rombuf[offs+max] != 0) max++;
+                while (rombuf[offs+max] == 0) max++;
+                if (len > max)
+                {
+                    newoffs = romsize;
+                    /* align string length to 4-byte boundaries */
+                    while (len % 4) strbuf[len++] = 0;
+                    for (int i = 0; i < refs; i++)
+                    {
+                        write32(rombuf+reftbl[i], newoffs + MAPBASE);
+                    }
+                    romsize += len;
+                    rombuf = realloc(rombuf, romsize);
+                }
+                memcpy(rombuf+newoffs, strbuf, len);
+            }
+            else
+            {
+                if (len > max)
+                {
+                    strbuf[max-1] = 0;
+                    len = max;
+                }
+                memcpy(rombuf+offs, strbuf, len);
+            }
+            
+            max = -1;
+            offs = -1;
+            refs = 0;
+            free(reftbl);
+            reftbl = NULL;
+            
+            lextype = yylex();
+        }
+        else
+        {
+            err("expecting string or identifier, got %s", tokstr(lextype));
+            break;
+        }
+    }
+    if (max != -1)
+        err("WARNING: dangling Max encoutered at end of file");
+    if (offs != -1)
+        err("WARNING: dangling Abs encoutered at end of file");
+    if (refs)
+        err("WARNING: dangling Ptr encoutered at end of file");
+    free(reftbl);
+    
+    
+    
     f = fopen("t.gba", "wb");
-    fwrite(inbuf, 1, fsize, f);
+    fwrite(rombuf, 1, romsize, f);
     fclose(f);
 }
 
