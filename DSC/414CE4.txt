@@ -1,8 +1,0 @@
-DSCBase $414CE4 Subscript 0 ShowTextBox "I heard Ku's worries!"
-WaitTextBox EndScript Subscript 1 ShowTextBox "Soothed Ku!"
-WaitTextBox EndScript Subscript 2 ShowTextBox "I squeezed Ku!"
-WaitTextBox EndScript Subscript 3 ShowTextBox "Fooled Ku!"
-WaitTextBox EndScript Subscript 4 ShowTextBox "I put a katsu in Ku!"
-WaitTextBox EndScript Subscript 5 ShowTextBox "I bald the ku!"
-WaitTextBox EndScript Subscript 6 ShowTextBox "I praised Ku!"
-WaitTextBox EndScript Subscript 7 EndScript Subscript 8 EndScript 

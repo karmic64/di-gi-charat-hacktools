@@ -13,10 +13,10 @@
 
 int main(int argc, char *argv[])
 {
-    FILE *f = fopen("DiGi Charat - DigiCommunication (J) [!].gba", "rb");
+    FILE *f = fopen(ROMNAME, "rb");
     if (!f)
     {
-        printf("Could not open input file: %s\n", strerror(errno));
+        printf("Could not open ROM file: %s\n", strerror(errno));
         return EXIT_FAILURE;
     }
     fseek(f, 0, SEEK_END);
@@ -26,8 +26,8 @@ int main(int argc, char *argv[])
     fread(inbuf, 1, fsize, f);
     fclose(f);
     
-    mkdir("DSC");
-    chdir("DSC");
+    mkdir("DSC-orig");
+    chdir("DSC-orig");
     
     uint8_t *inbufend = inbuf+fsize;
     

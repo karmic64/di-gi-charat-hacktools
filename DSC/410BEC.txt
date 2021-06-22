@@ -1,9 +1,0 @@
-DSCBase $410BEC Subscript 0 SetBG 112 Fade 0 30 ShowChara 11 1 5 ShowTextBox "…………"
-WaitTextBox ShowTextBox "…………"
-WaitTextBox HideChara Unk19 40 EndScript Subscript 1 SetBG 112 Fade 0 30 ShowChara 11 1 5 ShowTextBox "…………"
-WaitTextBox ShowTextBox "…………"
-WaitTextBox DoorCloseTransition EndScript Subscript 2 SetBG 112 Fade 0 30 ShowChara 11 1 5 ShowTextBox "…………"
-WaitTextBox ShowTextBox "…………"
-WaitTextBox ShowTextBox "…………"
-WaitTextBox ShowTextBox "………………………………………………………………………………………………………………………………"
-WaitTextBox DoorCloseTransition EndScript 

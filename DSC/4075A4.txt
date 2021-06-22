@@ -1,7 +1,0 @@
-DSCBase $4075A4 Subscript 0 SetBG 111 Fade 0 30 ShowChara 4 1 28 ShowTextBox "Event No.333 White Day 1 Pyo"
-WaitTextBox Fade 1 30 EndScript Subscript 1 SetBG 111 Fade 0 30 ShowChara 4 0 0 ShowTextBox "Event No.334 \"White Day 2 Riku\" Pyo"
-WaitTextBox Fade 1 30 EndScript Subscript 2 SetBG 111 Fade 0 30 ShowChara 4 0 0 ShowTextBox "Event No.335 \"White Day 2 Kai\" Pyo"
-WaitTextBox Fade 1 30 EndScript Subscript 3 SetBG 111 Fade 0 30 ShowChara 4 0 0 ShowTextBox "Event No.336 \"White Day 2 Ku\" Pyo"
-WaitTextBox Fade 1 30 EndScript Subscript 4 SetBG 111 Fade 0 30 ShowChara 4 0 0 ShowTextBox "Event No.337 \"White Day 2 Mystery Gema\" Pyo"
-WaitTextBox Fade 1 30 EndScript Subscript 5 SetBG 100 Unk08 4 200 112 8 96 10 3 Fade 0 30 ShowChara 4 0 0 ShowTextBox "Event No.338 \"White Day 2\" Pyo"
-WaitTextBox Fade 1 30 EndScript 

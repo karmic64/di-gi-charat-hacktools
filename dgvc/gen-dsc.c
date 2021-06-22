@@ -14,9 +14,7 @@
 
 int main(int argc, char* argv[])
 {
-    char* initialcwd = getcwd(NULL, 0);
-    
-    mkdir("../DSC");
+    mkdir("../DSC-new");
     
     FILE *tf = fopen("dump-translated.txt", "rb");
     
@@ -47,7 +45,7 @@ int main(int argc, char* argv[])
             break;
         }
         
-        FILE *infile = fopen(strbuf, "rb");
+        FILE *infile = fopen((char*)strbuf, "rb");
         if (!infile)
         {
             printf("Could not open %s: %s\n", strbuf, strerror(errno));
@@ -56,11 +54,11 @@ int main(int argc, char* argv[])
         yyrestart(infile);
         yylineno = 1;
         
-        sprintf(b, "../DSC/%s", strbuf);
+        sprintf(b, "../DSC-new/%s", strbuf);
         FILE *outfile = fopen(b, "wb");
         
         int lextype;
-        while (lextype = yylex())
+        while ((lextype = yylex()))
         {
             switch (lextype)
             {

@@ -1,2 +1,0 @@
-DSCBase $3ED9B4 Subscript 0 ShowChara 5 0 37 ShowTextBox "Hmm, the store manager! What's wrong with that?"
-WaitTextBox EndScript 

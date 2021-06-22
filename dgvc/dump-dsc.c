@@ -9,7 +9,7 @@
 
 int main(int argc, char* argv[])
 {
-    FILE *f = fopen("../DiGi Charat - DigiCommunication (J) [!].gba", "rb");
+    FILE *f = fopen("../"ROMNAME, "rb");
     if (!f)
     {
         printf("Could not open input file: %s\n", strerror(errno));
@@ -62,10 +62,6 @@ int main(int argc, char* argv[])
                                     int len = get16(scriptbuf+i);
                                     i += 2;
                                     int stri = i;
-                                    if (opcode == 0x13)
-                                    {
-                                        fprintf(f, "\J");
-                                    }
                                     while (1)
                                     {
                                         uint8_t c = scriptbuf[i++];

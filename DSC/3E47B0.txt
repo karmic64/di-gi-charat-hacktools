@@ -1,1 +1,0 @@
-DSCBase $3E47B0 Subscript 0 SetBG 111 Fade 0 30 EndScript Subscript 1 SetBG 112 Fade 0 30 EndScript 

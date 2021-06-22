@@ -1,5 +1,0 @@
-DSCBase $3E166C Subscript 0 ShowChara 4 2 28 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowChara 4 0 28 ShowTextBox "Piyoko-Analog III, the leader of the Black Gemagema corps!"
-EndScript Subscript 3 ShowTextBox "Piyoko came from the analog star!"
-EndScript Subscript 4 ShowTextBox "From now on, I won't let you like Di Gi Charat!"
-EndScript Subscript 5 ShowChara 4 0 29 ShowTextBox "All the rest is left to this Piyoko!"
-Wait 60 HideChara EndScript 

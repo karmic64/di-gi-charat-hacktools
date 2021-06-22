@@ -1,8 +1,0 @@
-DSCBase $40A568 Subscript 0 SetBG 111 Fade 0 15 ShowChara 8 1 1 ShowTextBox "Erase all the thoughts of the store manager so far"
-WaitTextBox ShowTextBox "Gema that initializes the cartridge?"
-WaitTextBox ShowSelMenu09 2 "After all it does not erase!"
-EndScript Subscript 1 ShowChara 8 0 54 ShowTextBox "Really, Gema that erases everything! ??"
-WaitTextBox ShowSelMenu09 2 "After all it will not be erased! !!"
-EndScript Subscript 2 ShowChara 8 0 1 ShowTextBox "Gema has disappeared from the store manager's thoughts so far!"
-WaitTextBox Fade 3 15 EndScript Subscript 3 ShowChara 8 0 1 ShowTextBox "After all it is a gema to leave!"
-WaitTextBox Fade 3 15 EndScript 

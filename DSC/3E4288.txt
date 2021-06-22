@@ -1,5 +1,0 @@
-DSCBase $3E4288 Subscript 0 ShowChara 7 0 58 ShowTextBox "Oh, yabe ... wasn't it wrong?"
-WaitTextBox EndScript Subscript 1 ShowChara 7 0 51 ShowTextBox "I'll be careful from the next time"
-WaitTextBox EndScript Subscript 2 ShowChara 7 0 52 ShowTextBox "I see, I don't mind"
-WaitTextBox EndScript Subscript 3 ShowChara 7 0 50 ShowTextBox "Well then, what are you talking about?"
-WaitTextBox EndScript 

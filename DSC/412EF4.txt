@@ -1,8 +1,0 @@
-DSCBase $412EF4 Subscript 0 ShowTextBox "I heard Petit this trouble!"
-WaitTextBox EndScript Subscript 1 ShowTextBox "Soothed Puchiko!"
-WaitTextBox EndScript Subscript 2 ShowTextBox "Puchiko was squeezed!"
-WaitTextBox EndScript Subscript 3 ShowTextBox "Puchiko was flattered!"
-WaitTextBox EndScript Subscript 4 ShowTextBox "I put katsu in puchiko!"
-WaitTextBox EndScript Subscript 5 ShowTextBox "I bald the puchiko!"
-WaitTextBox EndScript Subscript 6 ShowTextBox "I praised Puchiko!"
-WaitTextBox EndScript Subscript 7 EndScript Subscript 8 EndScript 

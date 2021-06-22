@@ -1,9 +1,0 @@
-DSCBase $410C84 Subscript 0 SetBG 111 Fade 0 30 ShowChara 1 0 10 ShowTextBox "Gather customers at a bargain sale"
-WaitTextBox ShowTextBox "All items 1 discount bargain start"
-WaitTextBox Fade 1 30 HideChara EndScript Subscript 1 SetBG 111 Fade 0 30 ShowChara 2 0 23 ShowTextBox "I'm gonna get customers at a bargain sale"
-WaitTextBox ShowTextBox "1 discount bargain for all items starts"
-WaitTextBox Fade 1 30 HideChara EndScript Subscript 2 SetBG 111 Fade 0 30 ShowChara 3 0 18 ShowTextBox "Gather customers at a bargain sale"
-WaitTextBox ShowTextBox "All items 1 discount bargain start"
-WaitTextBox Fade 1 30 HideChara EndScript Subscript 3 SetBG 111 Fade 0 30 ShowChara 4 0 29 ShowTextBox "Gather customers at a bargain sale"
-WaitTextBox ShowTextBox "All items 1 discount bargain start Pyo"
-WaitTextBox Fade 1 30 HideChara EndScript 

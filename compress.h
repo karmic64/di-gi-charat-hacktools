@@ -110,7 +110,7 @@ int lz77uncomp(uint8_t *dest, uint8_t *src)
     memset(dest, 0, datasize);
     
     uint8_t blockcnt = 0;
-    uint8_t blockflags;
+    uint8_t blockflags = 0;
     uint8_t repcnt = 0;
     uint32_t repdisp;
     

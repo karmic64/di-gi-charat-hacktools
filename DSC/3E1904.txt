@@ -1,5 +1,0 @@
-DSCBase $3E1904 Subscript 0 ShowChara 2 2 23 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowTextBox "My name is La Bi Ann Rose ÅÙ Don't call me Usa!"
-EndScript Subscript 3 ShowTextBox "The most popular idol clerk around here is me!"
-EndScript Subscript 4 ShowTextBox "I can't beat Di Gi Charat over these two rabbit ears!"
-EndScript Subscript 5 ShowChara 2 0 56 ShowTextBox "The road of Senri is one step away ... Manager, let's do our best!"
-Wait 60 HideChara EndScript 

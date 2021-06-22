@@ -46,10 +46,10 @@ int fput16(uint16_t i, FILE *f)
 
 int main(int argc, char *argv[])
 {
-    FILE *f = fopen("DiGi Charat - DigiCommunication (J) [!].gba", "rb");
+    FILE *f = fopen(ROMNAME, "rb");
     if (!f)
     {
-        printf("Could not open input file: %s\n", strerror(errno));
+        printf("Could not open ROM file: %s\n", strerror(errno));
         return EXIT_FAILURE;
     }
     fseek(f, 0, SEEK_END);
@@ -59,8 +59,8 @@ int main(int argc, char *argv[])
     fread(inbuf, 1, fsize, f);
     fclose(f);
     
-    mkdir("MBM");
-    chdir("MBM");
+    mkdir("MBM-orig");
+    chdir("MBM-orig");
     
     uint8_t *inbufend = inbuf+fsize;
     
@@ -98,7 +98,6 @@ int main(int argc, char *argv[])
                 printf("No MCM data found at $%X\n", mbmindex);
                 continue;
             }
-            int32_t mcmindex = mcmptr-inbuf;
             uint32_t finaldatasize = get32(mcmptr+4);
             
             uint8_t *tilebuf = malloc(finaldatasize);
@@ -174,7 +173,11 @@ int main(int argc, char *argv[])
                 
                 fclose(f);
                 
-                printf("Successfully exported $%X\n", mbmindex);
+                printf("Successfully exported $%X (%ux%u, %s, %ubpp, %u colors)\n", mbmindex
+                        , width, height
+                        , tilemapflag ? "tilemapped" : "bitmapped"
+                        , bpp
+                        , palsize);
             }
             else
             {

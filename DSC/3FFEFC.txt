@@ -1,8 +1,0 @@
-DSCBase $3FFEFC Subscript 0 Unk08 2 142 74 16 100 10 3 SetBG 111 Fade 0 30 ShowChara 2 1 22 ShowTextBox "It's early, the cherry blossom season has come around ..."
-WaitTextBox ShowChara 2 0 23 ShowTextBox "Manager, I'll do my best not to regret until the end!"
-WaitTextBox ShowTextBox "Work hard and have a new year!"
-WaitTextBox Fade 3 30 SetBG 32 Fade 2 30 ShowChara 2 0 0 ShowTextBox "Now, the settlement sale will be held from today!"
-WaitTextBox ShowTextBox "Good luck! If you don't buy it, you won't know!"
-WaitTextBox ShowTextBox "Yes! The person there! Think of it as something that met your eyes!"
-WaitTextBox ShowTextBox "So, please buy it."
-WaitTextBox EndScript 

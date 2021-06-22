@@ -1,8 +1,0 @@
-DSCBase $415290 Subscript 0 ShowChara 3 2 17 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowTextBox "Start from the beginning"
-EndScript Subscript 3 ShowChara 3 0 18 ShowTextBox "Ichinenkan do my best"
-WaitTextBox HideChara EndScript Subscript 4 ShowTextBox "Start from the continuation of the previous"
-EndScript Subscript 5 ShowChara 3 0 18 ShowTextBox "I'll do my best today"
-WaitTextBox DoorCloseTransition EndScript Subscript 6 ShowTextBox "Nyu to see the niece and talk with friends"
-EndScript Subscript 7 HideChara EndScript Subscript 8 ShowTextBox "Watch mini games and Omoide"
-EndScript Subscript 9 HideChara EndScript Subscript 10 ShowTextBox "I'm doing various things"
-EndScript Subscript 11 Fade 1 15 HideChara EndScript 

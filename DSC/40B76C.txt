@@ -1,4 +1,0 @@
-DSCBase $40B76C Subscript 0 ShowTextBox "Friend and Meishi no Kokan Nyu"
-EndScript Subscript 1 Fade 1 15 HideChara EndScript Subscript 2 ShowTextBox "I'm going to see my friend's niece"
-EndScript Subscript 3 Fade 1 15 HideChara EndScript Subscript 4 ShowTextBox "See everyone's ranking"
-EndScript Subscript 5 HideChara EndScript Subscript 6 ShowChara 3 2 17 EndScript Subscript 7 EndScript 

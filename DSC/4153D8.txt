@@ -1,8 +1,0 @@
-DSCBase $4153D8 Subscript 0 ShowChara 4 2 28 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowTextBox "Start from the beginning"
-EndScript Subscript 3 ShowChara 4 0 29 ShowTextBox "Ichinenkan I'll do my best!"
-WaitTextBox HideChara EndScript Subscript 4 ShowTextBox "Pyo starting from the continuation of the previous"
-EndScript Subscript 5 ShowChara 4 0 29 ShowTextBox "Good luck today!"
-WaitTextBox DoorCloseTransition EndScript Subscript 6 ShowTextBox "Pyo who sees niece and talks with friends"
-EndScript Subscript 7 HideChara EndScript Subscript 8 ShowTextBox "Pyo watching mini games and Omoide"
-EndScript Subscript 9 HideChara EndScript Subscript 10 ShowTextBox "Pyo doing various things"
-EndScript Subscript 11 Fade 1 15 HideChara EndScript 

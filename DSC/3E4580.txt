@@ -1,5 +1,0 @@
-DSCBase $3E4580 Subscript 0 ShowChara 5 0 35 ShowTextBox "Hate ...? Was it something inappropriate?"
-WaitTextBox EndScript Subscript 1 ShowChara 5 0 37 ShowTextBox "Mmm ... I'll be careful about this after rudeness"
-WaitTextBox EndScript Subscript 2 ShowChara 5 0 39 ShowTextBox "Hmm ... well, of course there's nothing wrong with it"
-WaitTextBox EndScript Subscript 3 ShowChara 5 0 38 ShowTextBox "I'm sorry, but I refuse, so I'm not sure about the minimum topic"
-WaitTextBox EndScript 

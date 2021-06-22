@@ -1,8 +1,0 @@
-DSCBase $413E68 Subscript 0 ShowTextBox "I heard Riku's worries!"
-WaitTextBox EndScript Subscript 1 ShowTextBox "Soothed Riku!"
-WaitTextBox EndScript Subscript 2 ShowTextBox "I squeezed Riku!"
-WaitTextBox EndScript Subscript 3 ShowTextBox "I've flattered Riku!"
-WaitTextBox EndScript Subscript 4 ShowTextBox "I put a katsu in Riku!"
-WaitTextBox EndScript Subscript 5 ShowTextBox "I bald the request!"
-WaitTextBox EndScript Subscript 6 ShowTextBox "I praised Riku!"
-WaitTextBox EndScript Subscript 7 EndScript Subscript 8 EndScript 

@@ -1,8 +1,0 @@
-DSCBase $4145AC Subscript 0 ShowTextBox "I heard Kai's worries!"
-WaitTextBox EndScript Subscript 1 ShowTextBox "Soothed Kai!"
-WaitTextBox EndScript Subscript 2 ShowTextBox "I squeezed Kai!"
-WaitTextBox EndScript Subscript 3 ShowTextBox "Fooled Kai!"
-WaitTextBox EndScript Subscript 4 ShowTextBox "I put a sword in Kai!"
-WaitTextBox EndScript Subscript 5 ShowTextBox "I bald Kai!"
-WaitTextBox EndScript Subscript 6 ShowTextBox "I praised Kai!"
-WaitTextBox EndScript Subscript 7 EndScript Subscript 8 EndScript 

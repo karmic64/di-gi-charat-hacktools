@@ -1,5 +1,0 @@
-DSCBase $41151C Subscript 0 ShowChara 4 0 0 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowTextBox "$0 Remaining $1 / $2 pieces"
-EndScript Subscript 3 ShowTextBox "Press the A button to buy goods to put in this slot"
-EndScript Subscript 4 ShowTextBox "You're done shopping?"
-EndScript Subscript 5 ShowTextBox "See store information Pyo?"
-EndScript 

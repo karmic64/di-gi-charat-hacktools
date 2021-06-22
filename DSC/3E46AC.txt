@@ -1,5 +1,0 @@
-DSCBase $3E46AC Subscript 0 ShowChara 2 0 22 ShowTextBox "Oh, did you say something wrong?"
-WaitTextBox EndScript Subscript 1 ShowChara 2 0 25 ShowTextBox "I'm sorry I will be careful from the next"
-WaitTextBox EndScript Subscript 2 ShowChara 2 0 23 ShowTextBox "Oh good"
-WaitTextBox EndScript Subscript 3 ShowChara 2 0 25 ShowTextBox "Yeah, but ... I can't talk if this isn't good ..."
-WaitTextBox EndScript 

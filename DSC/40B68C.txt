@@ -1,4 +1,0 @@
-DSCBase $40B68C Subscript 0 ShowTextBox "Let's get along with friends!"
-EndScript Subscript 1 Fade 1 15 HideChara EndScript Subscript 2 ShowTextBox "Let's see the niece of the friend who got it as it is!"
-EndScript Subscript 3 Fade 1 15 HideChara EndScript Subscript 4 ShowTextBox "Let's see everyone's ranking!"
-EndScript Subscript 5 HideChara EndScript Subscript 6 ShowChara 1 2 8 EndScript Subscript 7 EndScript 

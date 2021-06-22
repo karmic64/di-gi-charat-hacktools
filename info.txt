@@ -1,10 +1,13 @@
 
 KNOWN INGAME ISSUES:
 - end credits up-scroller always places text characters 2 tiles apart, even with 1-tile wide characters
+- characters of work-related item names are always spaced 8 pixels apart in work detail view, and are missing characters
+    - should they be written in double mode?
 - user-entered strings are entered as double-byte jis characters, so they are printed wide when accessed
     - actually changing the internal representation would require messing with the character codes in the MFM files, so just change the font to be displayed
     - would also be nice to allow 16-character strings instead of just 8
 - there are still some missing plaintext strings
+- "rolling" text that automatically advances skips to the next line if it is too big to fit
 
 
 KNOWN EXPORT ISSUES:
@@ -92,7 +95,19 @@ data is signed 8-bit pcm, 22050hz
 
 
 
-sprites are in a "SPX" format, but it's probably not necessary to figure it out
+
+PAKFILE (archive) format:
+all numbers in these files are BIG ENDIAN
+8 bytes - constant "PAKFILE\0"
+word - amount of files
+word - always 0?
+for each file:
+    $38 bytes - filename
+    word - offset of file start / $100
+    word - file size
+
+
+
 
 
 

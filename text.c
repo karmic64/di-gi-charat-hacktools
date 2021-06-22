@@ -117,7 +117,7 @@ int findmax(uint8_t *s)
 
 int main(int argc, char *argv[])
 {
-    FILE *f = fopen("DiGi Charat - DigiCommunication (J) [!].gba", "rb");
+    FILE *f = fopen(ROMNAME, "rb");
     if (!f)
     {
         printf("Could not open ROM file: %s\n", strerror(errno));
@@ -449,7 +449,7 @@ int main(int argc, char *argv[])
                 fprintf(f, "# ");
                 uint8_t *strdata = rombuf + str->offs;
                 uint8_t c;
-                while (c = *(strdata++))
+                while ((c = *(strdata++)))
                 {
                     if (c == '\n')
                     {

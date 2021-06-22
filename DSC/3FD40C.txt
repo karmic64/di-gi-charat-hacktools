@@ -1,8 +1,0 @@
-DSCBase $3FD40C Subscript 0 Unk08 1 190 84 8 80 10 3 Unk08 2 58 70 96 80 10 3 Unk08 3 123 116 8 16 10 3 SetBG 1 Fade 0 30 ShowChara 1 0 0 ShowTextBox "Happy new year everyone ... Nyo!"
-WaitTextBox ShowChara 2 0 0 ShowTextBox "I look forward to working with you again this year!"
-WaitTextBox ShowChara 3 0 0 ShowTextBox "Please!"
-WaitTextBox ShowChara 2 0 0 ShowTextBox "By the way, it's been almost a year since the store manager came to the store."
-WaitTextBox ShowChara 3 0 0 ShowTextBox "Early Nyu"
-WaitTextBox ShowChara 1 0 0 ShowTextBox "Then, as it is the 1st anniversary, I will get a New Year's gift!"
-WaitTextBox ShowChara 3 0 0 ShowTextBox "Rinji Bonus Yokosenyu!"
-WaitTextBox EndScript 

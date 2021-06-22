@@ -1,4 +1,0 @@
-DSCBase $3ED824 Subscript 0 ShowChara 3 0 19 ShowTextBox "ÅcÅcÅc Stupid"
-WaitTextBox EndScript Subscript 1 ShowChara 3 0 17 ShowTextBox "I can't hear you"
-WaitTextBox EndScript Subscript 2 ShowChara 3 0 20 ShowTextBox "I don't understand because it's difficult"
-WaitTextBox EndScript 

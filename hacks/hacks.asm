@@ -1,7 +1,7 @@
             .arm.little
-            .create "hacks.gba",0x8000000
+            .create OUTNAME,0x8000000
             .org 0x8000000
-            .incbin "../DiGi Charat - DigiCommunication (J) [!].gba"
+            .incbin ROMNAME
             .thumb
             .org 0x87f1e80
             ;NOTE: at this point -
@@ -52,7 +52,7 @@ wordwraphook:
             cmp r0, r1
             bgt @newlinechar ;if width > space left, print a new line instead of space
 @asnormal:
-            ldr r0, [@ptr_asnormal]
+            ldr r0, =0x80afdf0 | 1
             bx r0
             
 @newlinechar:
@@ -64,14 +64,11 @@ wordwraphook:
             strh r2, [r5,#0x18]
             strh r0, [r5,#0x1a]
 @nextchar:
-            ldr r0, [@ptr_nextchar]
+            ldr r0, =0x80aff1a | 1
             bx r0
             
-            .align 4
-@ptr_asnormal:
-            .word 0x80afdf0 | 1
-@ptr_nextchar:
-            .word 0x80aff1a | 1
+            .pool
+            
             
             ;
             ;
@@ -234,10 +231,9 @@ wordwraphook:
             ;
             ;
             .org 0x80afdde
-            ldr r0, [ptr_ww]
+            ldr r0, =wordwraphook | 1
             bx r0
-            .align 4
-ptr_ww:     .word wordwraphook | 1
+            .pool
 
             
             

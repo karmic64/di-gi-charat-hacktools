@@ -1,5 +1,0 @@
-DSCBase $40A308 Subscript 0 ShowChara 3 0 0 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowTextBox "$0 Remaining $1 / $2"
-EndScript Subscript 3 ShowTextBox "Empty"
-EndScript Subscript 4 ShowTextBox "Åc Is it over?"
-EndScript Subscript 5 ShowTextBox "Åc Do you want to stop buying?"
-EndScript 

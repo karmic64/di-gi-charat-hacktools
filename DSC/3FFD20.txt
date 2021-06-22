@@ -1,9 +1,0 @@
-DSCBase $3FFD20 Subscript 0 Unk08 1 158 64 16 100 10 3 SetBG 111 Fade 0 30 ShowChara 1 1 8 ShowTextBox "It's been almost a year since I met the store manager ..."
-WaitTextBox ShowTextBox "It was a long and short year ..."
-WaitTextBox ShowTextBox "…………"
-WaitTextBox ShowChara 1 0 9 ShowTextBox "However, Di Gi Charat is still not allowed to look back on the past!"
-WaitTextBox ShowChara 1 0 10 ShowTextBox "Because the big sale at the end of the year is waiting for Di Gi Charat!"
-WaitTextBox Fade 3 30 SetBG 31 Fade 2 30 ShowChara 1 0 0 ShowTextBox "This is the last time you cry or laugh!"
-WaitTextBox ShowTextBox "Come on, welcome on!"
-WaitTextBox ShowTextBox "In this week, I'll sell all of this year!"
-WaitTextBox EndScript 

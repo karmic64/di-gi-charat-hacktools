@@ -1,9 +1,0 @@
-DSCBase $410F80 Subscript 0 Fade 0 30 SetPermTextBoxPos 0 16 ShowChara 8 2 2 ShowTextBox "\x01 Gema that can't be purchased due to lack of money ... \x1a"
-WaitTextBox ShowTextBox "Ginger that can't be helped, Ginger that uses this money!"
-WaitTextBox HideChara EndScript Subscript 1 Fade 0 30 SetPermTextBoxPos 0 16 ShowChara 8 2 2 ShowTextBox "\x01 Gema that can't be purchased due to lack of money ... \x1a"
-WaitTextBox ShowTextBox "Ginger that can't be helped, Ginger that uses this money!"
-WaitTextBox HideChara EndScript Subscript 2 Fade 0 30 SetPermTextBoxPos 0 16 ShowChara 8 2 2 ShowTextBox "\x01 Gema that can't be purchased due to lack of money ... \x1a"
-WaitTextBox ShowTextBox "Ginger that can't be helped, Ginger that uses this money!"
-WaitTextBox HideChara EndScript Subscript 3 Fade 0 30 SetPermTextBoxPos 0 16 ShowChara 8 2 2 ShowTextBox "\x01 Gema that can't be purchased due to lack of money ... \x1a"
-WaitTextBox ShowTextBox "Ginger that can't be helped, Ginger that uses this money!"
-WaitTextBox HideChara EndScript 

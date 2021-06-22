@@ -1,8 +1,0 @@
-DSCBase $415524 Subscript 0 ShowChara 2 2 22 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowTextBox "I'll start from the beginning"
-EndScript Subscript 3 ShowChara 2 0 23 ShowTextBox "Let's do our best!"
-WaitTextBox EndScript Subscript 4 ShowTextBox "I'll start with the continuation of the previous one"
-EndScript Subscript 5 ShowChara 2 0 23 ShowTextBox "Let's do our best today!"
-WaitTextBox DoorCloseTransition EndScript Subscript 6 ShowTextBox "I'll see my niece and interact with my friends"
-EndScript Subscript 7 HideChara EndScript Subscript 8 ShowTextBox "I'll watch mini games and dreams"
-EndScript Subscript 9 HideChara EndScript Subscript 10 ShowTextBox "Do various things"
-EndScript Subscript 11 Fade 1 15 HideChara EndScript 

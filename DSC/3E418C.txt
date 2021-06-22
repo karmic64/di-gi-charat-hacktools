@@ -1,5 +1,0 @@
-DSCBase $3E418C Subscript 0 ShowChara 6 0 40 ShowTextBox "Did I say something strange?"
-WaitTextBox EndScript Subscript 1 ShowChara 6 0 43 ShowTextBox "I'm sorry I'm sorry"
-WaitTextBox EndScript Subscript 2 ShowChara 6 0 46 ShowTextBox "That's right ... that's fine ... that's fine ..."
-WaitTextBox EndScript Subscript 3 ShowChara 6 0 43 ShowTextBox "I'm sorry I don't want to forget that topic ..."
-WaitTextBox EndScript 

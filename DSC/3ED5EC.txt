@@ -1,4 +1,0 @@
-DSCBase $3ED5EC Subscript 0 ShowChara 1 0 11 ShowTextBox "The store manager, to say the least, I'll see the beam from my eyes!"
-WaitTextBox EndScript Subscript 1 ShowChara 1 0 12 ShowTextBox "Di Gi Charat, people who use vulgar words don't like it!"
-WaitTextBox EndScript Subscript 2 ShowChara 1 0 16 ShowTextBox "Nyo? I didn't hear it well, so I'll say it again."
-WaitTextBox EndScript 

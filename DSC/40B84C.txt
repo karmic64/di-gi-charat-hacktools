@@ -1,4 +1,0 @@
-DSCBase $40B84C Subscript 0 ShowTextBox "Friend and Meishi no Kokan Pyo!"
-EndScript Subscript 1 Fade 1 15 HideChara EndScript Subscript 2 ShowTextBox "See the friends' nieces that you received as they are!"
-EndScript Subscript 3 Fade 1 15 HideChara EndScript Subscript 4 ShowTextBox "See everyone's ranking!"
-EndScript Subscript 5 HideChara EndScript Subscript 6 ShowChara 4 2 28 EndScript Subscript 7 EndScript 

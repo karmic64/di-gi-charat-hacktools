@@ -1,7 +1,0 @@
-DSCBase $415034 Subscript 0 ShowChara 7 1 47 ShowTextBox "I heard good things from customers!"
-WaitTextBox ShowChara 7 0 48 ShowTextBox "These days, \x02$0 related goods \x1aare popular, so let's buy a lot and make a lot of money!"
-WaitTextBox HideChara EndScript Subscript 1 ShowChara 7 1 47 ShowTextBox "I heard good things from customers!"
-WaitTextBox ShowChara 7 0 48 ShowTextBox "\x02 $0 \x1ais popular these days, so buy a lot and make a lot of money!"
-WaitTextBox HideChara EndScript Subscript 2 ShowChara 7 1 47 ShowTextBox "I heard good things from customers!"
-WaitTextBox ShowChara 7 0 48 ShowTextBox "\x02 $0 \x1ais very popular these days, so buy a lot and make a lot of money!"
-WaitTextBox HideChara EndScript 

@@ -1,6 +1,0 @@
-DSCBase $3E17A8 Subscript 0 ShowChara 5 2 35 EndScript Subscript 1 HideChara EndScript Subscript 2 ShowChara 5 0 35 ShowTextBox "I am Pyocola-sama's faithful servant"
-EndScript Subscript 3 ShowTextBox "Marshal Riku Heisenberg of the Black Gemagema Group!"
-EndScript Subscript 4 ShowTextBox "All for Pyocola!"
-EndScript Subscript 5 ShowChara 5 0 38 ShowTextBox "It is outrageous to act as an assistant aside from Pyocola!"
-Wait 60 ShowTextBox "I'm sorry, but I will refuse"
-Wait 60 EndScript 

@@ -1,5 +1,0 @@
-DSCBase $40CC30 Subscript 0 ShowChara 3 2 17 EndScript Subscript 1 Fade 1 15 HideChara EndScript Subscript 2 ShowTextBox "Play the mini-games you've played so far"
-EndScript Subscript 3 Fade 1 15 HideChara EndScript Subscript 4 ShowTextBox "See what you've been up to"
-EndScript Subscript 5 Fade 1 15 HideChara EndScript Subscript 6 ShowTextBox "Listen to music"
-EndScript Subscript 7 Fade 1 15 HideChara EndScript Subscript 8 ShowTextBox "Nyu to chat with everyone"
-EndScript Subscript 9 Fade 1 15 HideChara EndScript 

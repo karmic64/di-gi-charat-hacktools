@@ -108,9 +108,9 @@ long long stoi(char *s)
         si += 2;
     }
     char c;
-    while (c = tolower(s[si++]))
+    while ((c = tolower(s[si++])))
     {
-        uint8_t d;
+        uint8_t d = 0;
         if (c >= '0' && c <= '9')
         {
             d = c-'0';
@@ -131,7 +131,7 @@ int processstring(uint8_t *dest, uint8_t *src, int doublemode)
     int si = 0;
     int di = 0;
     uint8_t c;
-    while (c = src[si++])
+    while ((c = src[si++]))
     {
         if (c == '\\')
         {
@@ -206,7 +206,7 @@ int processstring(uint8_t *dest, uint8_t *src, int doublemode)
             {
                 dest[di++] = '%';
                 uint8_t c;
-                while (c = src[si])
+                while ((c = src[si]))
                 {
                     si++;
                     dest[di++] = c;
