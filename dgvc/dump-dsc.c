@@ -4,8 +4,8 @@
 #include <errno.h>
 #include <stdint.h>
 
-#include "../compress.h"
-#include "../script.h"
+#include "compress.h"
+#include "script.h"
 
 int main(int argc, char* argv[])
 {

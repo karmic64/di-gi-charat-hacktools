@@ -11,7 +11,7 @@ endif
 # todo: don't hardcode this
 ROMNAME := DiGi Charat - DigiCommunication (J) [!].gba
 
-CFLAGS := -s -Ofast -Wall -D ROMNAME="\"$(ROMNAME)\""
+CFLAGS := -s -Ofast -Wall -D ROMNAME="\"$(ROMNAME)\"" -I .
 
 SRCS := build.c dsc.c mbm.c mcm.c mfm.c mrm.c text.c
 DGVC_SRCS := $(addprefix dgvc/,dump-dsc.c gen-dsc.c gen-text.c)

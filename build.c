@@ -46,10 +46,15 @@ int main(int argc, char* argv[])
     fread(rombuf, 1, INITIALROMSIZE, f);
     fclose(f);
     
-    
+    char *initialcwd = getcwd(NULL, 0);
     
     /* ----------- import scripts ------------- */
-    DIR *dir = opendir("DSC-new");
+    int status = chdir("DSC-new");
+    if (status)
+    {
+        printf("Could not change to DSC directory: %s\n", strerror(errno));
+    }
+    DIR *dir = opendir(".");
     if (!dir)
     {
         printf("Could not open DSC directory: %s\n", strerror(errno));
@@ -347,7 +352,7 @@ fail:       free(scriptbuf);
         }
         closedir(dir);
     }
-    
+    chdir(initialcwd);
     
     
     /* ------------- import raw strings ---------------- */
@@ -507,6 +512,8 @@ fail:       free(scriptbuf);
         if (refs)
             err("WARNING: dangling Ptr encoutered at end of file");
         free(reftbl);
+        
+        fclose(f);
     }
     
     

@@ -17,14 +17,14 @@ enum {
 
 DIGIT [0-9]
 HEXDIGIT [0-9a-fA-F]
-BYTECHAR [\x00-\x7f\xa1-\xdf]{-}[\"]
+BYTECHAR [\x00-\x7f\xa1-\xdf]{-}[\"\\]
 WIDECHAR [\x80-\xa0\xe0-\xff]
 ID [a-zA-Z_][a-zA-Z0-9_]*
 
 %%
 
     /* always match strings first */
-\"((\\[\"\\])|{BYTECHAR}|({WIDECHAR}(?s:.)))*\"   return TOK_STRING;
+\"((\\x{HEXDIGIT}{2})|(\\(?s:.))|{BYTECHAR}|({WIDECHAR}(?s:.)))*\"   return TOK_STRING;
     /* kill comments */
 #.*
     /* hex literals */

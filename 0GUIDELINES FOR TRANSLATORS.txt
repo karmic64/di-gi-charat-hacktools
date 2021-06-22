@@ -34,7 +34,7 @@ Use whatever you prefer.
 
 If you need to use double-quotes in a string, use the \" code.
 "Don't call me \"Usada\"!"
-If you need a backslash, use the \\ code.
+If you need a yen symbol, use the \\ code.
 
 If it makes your life easier, feel free to rename the text files and place comments if you need them. Any text on a line following an # that is NOT contained in a string is ignored.
 

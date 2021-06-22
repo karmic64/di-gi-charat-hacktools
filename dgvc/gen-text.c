@@ -6,7 +6,7 @@
 #include <stdint.h>
 #include <ctype.h>
 
-#include "../lex.yy.c"
+#include "lex.yy.c"
 
 
 
@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
     
     yyrestart(infile);
     int lextype;
-    while (lextype = yylex())
+    while ((lextype = yylex()))
     {
         if (lextype != TOK_STRING)
         {
@@ -29,10 +29,10 @@ int main(int argc, char* argv[])
         {
             fputc('\"', outfile);
             uint8_t strbuf[0x400];
-            fgets(strbuf, 0x400, tf);
+            fgets((char*)strbuf, 0x400, tf);
             int i = 0;
             uint8_t c;
-            while (c = strbuf[i++])
+            while ((c = strbuf[i++]))
             {
                 if (c == '\n') break;
                 if (c == '%' && strbuf[i] == ' ')

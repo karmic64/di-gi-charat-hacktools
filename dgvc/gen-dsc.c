@@ -8,7 +8,7 @@
 #include <stdarg.h>
 #include <dirent.h>
 
-#include "../lex.yy.c"
+#include "lex.yy.c"
 
 
 
@@ -26,9 +26,12 @@ int main(int argc, char* argv[])
     }
     
     uint8_t *strbuf = malloc(0x400);
-    while (1)
+    int endflag = 0;
+    while (!endflag)
     {
-        int endflag = 0;
+        
+        FILE *infile = NULL;
+        FILE *outfile = NULL;
         
         if (feof(tf))
         {
@@ -45,7 +48,7 @@ int main(int argc, char* argv[])
             break;
         }
         
-        FILE *infile = fopen((char*)strbuf, "rb");
+        infile = fopen((char*)strbuf, "rb");
         if (!infile)
         {
             printf("Could not open %s: %s\n", strbuf, strerror(errno));
@@ -55,7 +58,7 @@ int main(int argc, char* argv[])
         yylineno = 1;
         
         sprintf(b, "../DSC-new/%s", strbuf);
-        FILE *outfile = fopen(b, "wb");
+        outfile = fopen(b, "wb");
         
         int lextype;
         while ((lextype = yylex()))
@@ -181,10 +184,8 @@ int main(int argc, char* argv[])
             }
         }
 end:    
-        fclose(infile);
-        fclose(outfile);
-        
-        if (endflag) break;
+        if (infile) fclose(infile);
+        if (outfile) fclose(outfile);
     }
 fail:
     free(strbuf);
