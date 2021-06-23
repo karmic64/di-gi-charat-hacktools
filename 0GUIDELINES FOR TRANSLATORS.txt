@@ -5,6 +5,8 @@ Here are all the files you need to worry about:
 "MBM" - This folder contains all the graphics.
 "hacks" - Contains all the programming hacks. If you can't build it then please contact me for the ROM.
 "text.txt" - This file contains all of the miscellaneous tiny strings scattered throughout the ROM.
+"dsc.exe" - This program extracts scripts to a directory named "DSC-orig".
+"mbm.exe" - This program extracts graphics to a directory named "MBM-orig".
 "build.exe" - This program builds a translated ROM. Pay attention to the output for errors.
 "t.gba" - When you run build.exe, this is the ROM that gets built.
 
@@ -12,7 +14,7 @@ I recommend mGBA <https://mgba.io/> to play the game.
 
 
 FOR SCRIPT/TEXT TRANSLATION:
-The scripts are all in plaintext form. Before doing any editing, ensure your text editor is set to use Shift+JIS encoding!!! If you can read the Japanese text, you should be fine.
+The scripts are all in plaintext form. Before doing any editing, ensure your text editor is set to use Shift+JIS encoding!!! If you can read the Japanese text, you should be fine. After you verify this, copy all the scripts to a directory named "DSC-new", and make your edits there.
 
 By default all of the strings are "!!!! <filename> <string num>", which if you see it ingame, is meant to indicate an untranslated string. The original text is contained in a comment above.
 
@@ -57,7 +59,7 @@ If you are, then please follow the below:
 The images are INDEXED COLOR bitmaps. It is not necessary to preserve the exact palette, but you must not go above the amount of colors in the original image's palette.
 Palette entry 0 is interpreted by the GBA hardware as "transparent". Don't use any actual color here.
 Do not change the resolution of the original bitmap.
-The final translated bitmaps must be in the same format as the original files. 4-bit BMP if the palette is 16 colors and 8-bit BMP if 64. Please place them in a separate folder.
+The final translated bitmaps must be in the same format as the original files. 4-bit BMP if the palette is 16 colors and 8-bit BMP if any more. Please place them in a folder named "MBM-new". Do not change the filenames.
 
 
 

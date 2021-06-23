@@ -46,6 +46,198 @@ int main(int argc, char* argv[])
     fread(rombuf, 1, INITIALROMSIZE, f);
     fclose(f);
     
+    uint32_t injectmcm(uint32_t offs, uint8_t *data, size_t size)
+    {
+        if (memcmp(rombuf+offs, "MCM", 4)) return -1;
+        
+        /* get the size of the original packed data */
+        /* so we can tell if we can just replace it or have to put it at the end */
+        uint32_t csrcsize = get32(rombuf+offs+0x04);
+        uint32_t cblocksize = get32(rombuf+offs+0x08);
+        uint32_t cmpblocks = get32(rombuf+offs+0x0c);
+        uint32_t cdatasize = 0;
+        
+        for (int i = 0; i < cmpblocks-1; i++)
+            cdatasize += get32(rombuf+offs+0x14+((i+1)*4)) - get32(rombuf+offs+0x14+(i*4));
+        
+        uint8_t firstcomp = *(rombuf+offs+0x10);
+        uint8_t *cdata = rombuf + get32(rombuf+offs+0x14+((cmpblocks-1)*4)) - MAPBASE;
+        /* make a fake run through the compressed data */
+        switch (firstcomp)
+        {
+            case 0:
+            {
+                cdatasize += csrcsize - (cblocksize*(cmpblocks-1));
+                break;
+            }
+            case 1:
+            {
+                /* rle */
+                int32_t uncsize = get24(cdata+1);
+                size_t si = 4;
+                
+                while (uncsize > 0)
+                {
+                    uint8_t block = cdata[si++];
+                    uint8_t size;
+                    if (block & 0x80)
+                        size = (block & 0x7f) + 3;
+                    else
+                        size = (block & 0x7f) + 1;
+                    
+                    si += (block & 0x80) ? 1 : size;
+                    uncsize -= size;
+                }
+                
+                cdatasize += si;
+                break;
+            }
+            case 2:
+            {
+                /* lz77 */
+                int32_t uncsize = get24(cdata+1);
+                size_t bi = 4;
+                size_t si = 5;
+                uint8_t blockbit = 0;
+                
+                while (uncsize > 0)
+                {
+                    if (blockbit >= 8)
+                    {
+                        blockbit = 0;
+                        bi = si;
+                        si++;
+                    }
+                    if (cdata[bi] & (0x80 >> blockbit))
+                    {
+                        uncsize -= ((cdata[si] >> 4) + 3);
+                        si += 2;
+                    }
+                    else
+                    {
+                        uncsize--;
+                        si++;
+                    }
+                    blockbit++;
+                }
+                
+                cdatasize += si;
+                break;
+            }
+            case 3:
+            {
+                /* huffman */
+                uint8_t bits = cdata[0] & 0x0f;
+                
+                int32_t uncbits = get24(cdata+1) * 8;
+                size_t si = ((cdata[4]+1)*2)+4;
+                size_t ti = 5;
+                
+                uint8_t sb = 0;
+                
+                while (uncbits > 0)
+                {
+                    uint8_t block = (cdata[si + ((sb/8) ^ 3)] & (0x80 >> (sb & 7))) ? 1 : 0;
+                    
+                    if (cdata[ti] & (0x80 >> block))
+                    {
+                        uncbits -= bits;
+                        ti = 5;
+                    }
+                    else
+                    {
+                        ti = (ti & ~1) + (cdata[ti] & 0x3f)*2 + 2 + block;
+                    }
+                    
+                    if (++sb == 32)
+                    {
+                        sb = 0;
+                        si += 4;
+                    }
+                }
+                
+                cdatasize += si + (sb ? 4 : 0);
+                break;
+            }
+            default:
+            {
+                cdatasize += get24(cdata+1);
+                break;
+            }
+        }
+        
+        
+        /* now finally pack the data */
+        uint8_t *lzbuf = malloc(size);
+        uint8_t *huffbuf = malloc(size);
+        
+        int lzsize = lz77comp(lzbuf, data, size);
+        int huffsize;
+        if (lzsize >= 0)
+            huffsize = huffcomp(huffbuf, lzbuf, lzsize);
+        else
+            huffsize = huffcomp(huffbuf, data, size);
+        
+        uint32_t finalsize;
+        uint8_t *finaldata;
+        if (huffsize >= 0)
+        {
+            finalsize = huffsize;
+            finaldata = huffbuf;
+        }
+        else if (lzsize >= 0)
+        {
+            finalsize = lzsize;
+            finaldata = lzbuf;
+        }
+        else
+        {
+            finalsize = size;
+            finaldata = data;
+        }
+        
+        uint32_t ui;
+        while (finalsize & 3) finalsize++;
+        if (finalsize > cdatasize)
+        { /* too big, we need to add the data to the end of the rom */
+            ui = romsize;
+            romsize += finalsize;
+            rombuf = realloc(rombuf, romsize);
+        }
+        else
+        {
+            ui = offs+0x18;
+        }
+        
+        memcpy(rombuf+ui, finaldata, finalsize);
+        free(lzbuf);
+        free(huffbuf);
+        
+        uint32_t bufsize = 0x200;
+        while (bufsize < size) bufsize *= 2;
+        
+        write32(rombuf+offs+4, size);
+        write32(rombuf+offs+8, bufsize);
+        write32(rombuf+offs+0x0c, 1);
+        write32(rombuf+offs+0x14, ui+MAPBASE);
+        memset(rombuf+offs+0x10, 0, 4);
+        if (huffsize >= 0 && lzsize >= 0)
+        {
+            rombuf[offs+0x10] = 3;
+            rombuf[offs+0x11] = 2;
+        }
+        else if (!(huffsize >= 0) && (lzsize >= 0))
+        {
+            rombuf[offs+0x10] = 2;
+        }
+        else if ((huffsize >= 0) && !(lzsize >= 0))
+        {
+            rombuf[offs+0x10] = 3;
+        }
+        
+        return finalsize;
+    }
+    
     char *initialcwd = getcwd(NULL, 0);
     
     /* ----------- import scripts ------------- */
@@ -332,19 +524,11 @@ int main(int argc, char* argv[])
                 write32(dscptr+0x10+(i*4), subscripttbl[i]);
             }
             write32(dscptr+0x10+(subscripts*4), scriptlen);
-            write32(dscptr+0x08, romsize | MAPBASE);
-            size_t newromsize = romsize + scriptlen + 0x18;
-            rombuf = realloc(rombuf, newromsize);
-            uint8_t *mcmptr = rombuf + romsize;
-            memcpy(mcmptr, "MCM", 4);
-            write32(mcmptr+4, scriptlen);
-            write32(mcmptr+8, scriptlen);
-            write32(mcmptr+0xc, 1);
-            write32(mcmptr+0x10, 0);
-            write32(mcmptr+0x14, (romsize+0x18)|MAPBASE);
-            memcpy(mcmptr+0x18, scriptbuf, scriptlen);
-            printf("Successfully imported %s into ROM\n", lexsrcnam);
-            romsize = newromsize;
+            int status = injectmcm(get32(dscptr+0x08)-MAPBASE, scriptbuf, scriptlen);
+            if (status >= 0) 
+                printf("Successfully imported %s into ROM\n", lexsrcnam);
+            else
+                printf("Couldn't inject MCM for %s\n", lexsrcnam);
 fail:       free(scriptbuf);
             free(labeltbl);
             free(labelreftbl);

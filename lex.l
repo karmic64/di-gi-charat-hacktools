@@ -1,6 +1,6 @@
 
 %option yylineno
-%option noyywrap
+%option noyywrap noinput nounput
 %option warn
 %option nodefault
 %option never-interactive

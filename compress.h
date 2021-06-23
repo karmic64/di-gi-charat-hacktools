@@ -119,7 +119,7 @@ int huffcomp(uint8_t *dest, uint8_t *src, size_t size)
         if (freqs[i]) uniques++;
     
     /* prefer 8-bit packing, but if there are too many unique values we may have to settle for 4-bit */
-    unsigned bits = uniques < 0x80 ? 8 : 4;
+    unsigned bits = uniques < 0x40 ? 8 : 4;
     *dest = 0x20 | bits;
     unsigned max = 1 << bits;
     
@@ -227,7 +227,12 @@ int huffcomp(uint8_t *dest, uint8_t *src, size_t size)
             uint8_t offs = (((intptr_t)next - ((intptr_t)here & ~1)) - 2) / 2;
             if (offs > 0x3f)
             {
-                fail++;
+                fail = -3;
+                return;
+            }
+            else if (dp >= dest+size)
+            {
+                fail = -2;
                 return;
             }
             
@@ -245,7 +250,7 @@ int huffcomp(uint8_t *dest, uint8_t *src, size_t size)
     
     traverse(heap[0], 0, 0, dest+5);
     
-    if (fail) return -3;
+    if (fail) return fail;
     
     while ((intptr_t)dp & 3) dp++;
     *(dest+4) = (dp-(dest+4))/2-1;
@@ -268,6 +273,8 @@ int huffcomp(uint8_t *dest, uint8_t *src, size_t size)
     
     while (sp < se)
     {
+        /* don't bother any more if we inflated the file */
+        if (dp >= dest+size) return -2;
         if (bits == 8)
         {
             uint8_t v = *(sp++);
@@ -279,8 +286,6 @@ int huffcomp(uint8_t *dest, uint8_t *src, size_t size)
             writeval(depths[v & 0x0f], vals[v & 0x0f]);
             writeval(depths[(v>>4) & 0x0f], vals[(v>>4) & 0x0f]);
         }
-        /* don't bother any more if we inflated the file */
-        if (dp >= dest+size) return -2;
     }
     
     
@@ -395,6 +400,9 @@ int lz77comp(uint8_t *dest, uint8_t *src, size_t size)
     
     while (sp < se)
     {
+        /* don't bother any more if we inflated the file */
+        if (dp >= dest+size) return -2;
+        
         uint16_t windowsize = min(sp-src, 0x1000);
         int maxmatch = 0;
         uint8_t *maxptr = NULL;
@@ -431,8 +439,6 @@ int lz77comp(uint8_t *dest, uint8_t *src, size_t size)
             sp += maxmatch;
         }
         
-        /* don't bother any more if we inflated the file */
-        if (dp >= dest+size) return -2;
     }
     
     return dp-dest;
@@ -639,6 +645,12 @@ int rlcomp(uint8_t *dest, uint8_t *src, size_t size)
         uint8_t newunclen = unclen + cnt;
         if (cnt >= 3 || newunclen > 0x80 || rp == re)
         { /* compressable run length/uncompressed length overflow/end of file */
+            /* don't bother any more if we inflated the file */
+            if (dp >= dest+size)
+            {
+                free(runtbl);
+                return -2;
+            }
             /* first handle any uncompressed runs */
             if (unclen)
             {
@@ -662,12 +674,6 @@ int rlcomp(uint8_t *dest, uint8_t *src, size_t size)
                 unclen = 0;
             }
             
-            /* don't bother any more if we inflated the file */
-            if (dp >= dest+size)
-            {
-                free(runtbl);
-                return -2;
-            }
         }
         else
         {
@@ -714,14 +720,10 @@ int mcmuncomp(uint8_t *dest, uint8_t *base, uint8_t *src)
         for (int i = 0; i < 4; i++)
         {
             uint8_t cmptype = *(src+0x10+i);
-            if (!cmptype) continue;
-            if (cmptype > 5)
-            {
-                status = -4;
-                goto fail;
-            }
             switch (cmptype)
             {
+                case 0:
+                    continue;
                 case 1:
                     status = rluncomp(ddestbuf, dsrcbuf);
                     break;
@@ -739,9 +741,8 @@ int mcmuncomp(uint8_t *dest, uint8_t *base, uint8_t *src)
                     break;
                 default:
                     status = -4;
-                    break;
+                    goto fail;
             }
-            if (status) goto fail;
             memcpy(dsrcbuf, ddestbuf, chunksize*2);
         }
         memcpy(chunkdest, ddestbuf, (chunk < chunks-1) ? chunksize : (totalsize % chunksize));
