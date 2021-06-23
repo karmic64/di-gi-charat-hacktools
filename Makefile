@@ -54,7 +54,7 @@ clean:
 
 
 %.yy.c: %.l
-	$(LEX) --yylineno -o $@ $<
+	$(LEX) -o $@ $<
 
 
 $(HACKS_OUT): $(HACKS)

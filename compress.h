@@ -699,59 +699,66 @@ int mcmuncomp(uint8_t *dest, uint8_t *base, uint8_t *src)
 {
     if (memcmp(src, "MCM", 4)) return -2;
     
-    uint32_t totalsize = get32(src+4);
+    // uint32_t totalsize = get32(src+4);
     uint32_t chunksize = get32(src+8);
     uint32_t chunks = get32(src+0xc);
     
-    // if (chunks * chunksize > totalsize) return -3;
-    
-    memset(dest, 0, totalsize);
-    
-    uint8_t *dsrcbuf = malloc(chunksize*2);
-    uint8_t *ddestbuf = malloc(chunksize*2);
-    
-    int status = 0;
+    uint8_t *buf = malloc(chunksize);
     
     for (int chunk = 0; chunk < chunks; chunk++)
     {
-        uint8_t *chunkbase = base+get32(src+0x14+(chunk*4))-MAPBASE;
-        uint8_t *chunkdest = dest+(chunk*chunksize);
-        memcpy(dsrcbuf, chunkbase, chunksize*2);
-        for (int i = 0; i < 4; i++)
+        uint8_t *compdest = dest + chunk*chunksize;
+        for (int layer = 0; layer < 4; layer++)
         {
-            uint8_t cmptype = *(src+0x10+i);
-            switch (cmptype)
+            uint8_t cmode = src[0x10+layer];
+            
+            uint8_t *compsrc;
+            if (!layer)
             {
-                case 0:
-                    continue;
+                compsrc = base + get32(src + 0x14 + chunk*4)-MAPBASE;
+                if (!cmode) memcpy(compdest, compsrc, chunksize);
+            }
+            else
+            {
+                memcpy(buf, compdest, chunksize);
+                compsrc = buf;
+            }
+            
+            if (!cmode) break;
+            
+            int status;
+            
+            switch(cmode)
+            {
                 case 1:
-                    status = rluncomp(ddestbuf, dsrcbuf);
+                    status = rluncomp(compdest, compsrc);
                     break;
                 case 2:
-                    status = lz77uncomp(ddestbuf, dsrcbuf);
+                    status = lz77uncomp(compdest, compsrc);
                     break;
                 case 3:
-                    status = huffuncomp(ddestbuf, dsrcbuf);
+                    status = huffuncomp(compdest, compsrc);
                     break;
                 case 4:
-                    status = diff8bitunfilter(ddestbuf, dsrcbuf);
+                    status = diff8bitunfilter(compdest, compsrc);
                     break;
                 case 5:
-                    status = diff16bitunfilter(ddestbuf, dsrcbuf);
+                    status = diff16bitunfilter(compdest, compsrc);
                     break;
                 default:
                     status = -4;
-                    goto fail;
+                    break;
             }
-            memcpy(dsrcbuf, ddestbuf, chunksize*2);
+            
+            if (status) goto fail;
+            
         }
-        memcpy(chunkdest, ddestbuf, (chunk < chunks-1) ? chunksize : (totalsize % chunksize));
     }
     
 fail:
-    free(dsrcbuf);
-    free(ddestbuf);
-    return status;
+    free(buf);
+    
+    return 0;
 }
 
 

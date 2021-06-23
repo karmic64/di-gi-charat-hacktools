@@ -14,8 +14,4 @@ I haven't done much investigation into the game's sequel (DiGi Communication 2 i
 
 ## To-do
 
-The build tool is not complete yet and the following must still be added:
-
-- Allow importing of bitmap data
-
 Technical/ingame issues are listed in info.txt.

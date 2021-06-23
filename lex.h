@@ -70,7 +70,9 @@ char* makeprintable(uint8_t v)
 
 void err(const char* fmt, ...)
 {
-    printf("%s line %i: ", lexsrcnam, yylineno);
+    printf("%s", lexsrcnam);
+    if (yylineno != -1) printf(" line %i", yylineno);
+    printf(": ");
     
     va_list args;
     va_start(args, fmt);
