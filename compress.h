@@ -5,35 +5,35 @@
 
 #define min(a,b) ((a) < (b) ? (a) : (b))
 
-#define get16(p) ((*(p)) | ((*(p+1)) << 8))
-#define get24(p) ((*(p)) | ((*(p+1)) << 8) | ((*(p+2)) << 16))
-#define get32(p) ((*(p)) | ((*(p+1)) << 8) | ((*(p+2)) << 16) | ((*(p+3)) << 24))
+uint16_t get16(uint8_t *p) { return (p[0] | (p[1] << 8)); }
+uint32_t get24(uint8_t *p) { return (p[0] | (p[1] << 8) | (p[2] << 16)); }
+uint32_t get32(uint8_t *p) { return (p[0] | (p[1] << 8) | (p[2] << 16) | (p[3] << 24)); }
 
 void write16(uint8_t *p, uint16_t v)
 {
-    *p = v & 0xff;
-    *(p+1) = (v & 0xff00) >> 8;
+    p[0] = v & 0xff;
+    p[1] = (v & 0xff00) >> 8;
 }
 
 void write24(uint8_t *p, uint32_t v)
 {
-    *p = v & 0xff;
-    *(p+1) = (v & 0xff00) >> 8;
-    *(p+2) = (v & 0xff0000) >> 16;
+    p[0] = v & 0xff;
+    p[1] = (v & 0xff00) >> 8;
+    p[2] = (v & 0xff0000) >> 16;
 }
 
 void write32(uint8_t *p, uint32_t v)
 {
-    *p = v & 0xff;
-    *(p+1) = (v & 0xff00) >> 8;
-    *(p+2) = (v & 0xff0000) >> 16;
-    *(p+3) = (v & 0xff000000) >> 24;
+    p[0] = v & 0xff;
+    p[1] = (v & 0xff00) >> 8;
+    p[2] = (v & 0xff0000) >> 16;
+    p[3] = (v & 0xff000000) >> 24;
 }
 
 
 
 
-
+/************************* huffman *******************/
 
 int huffuncomp(uint8_t *dest, uint8_t *src)
 {
@@ -297,7 +297,7 @@ int huffcomp(uint8_t *dest, uint8_t *src, size_t size)
 
 
 
-
+/*********************** LZ77 ***********************/
 
 int lz77uncomp(uint8_t *dest, uint8_t *src)
 {
@@ -413,10 +413,10 @@ int lz77comp(uint8_t *dest, uint8_t *src, size_t size)
             {
                 maxmatch = matches;
                 maxptr = p;
+                
+                /* we can't get any better than 0x12 bytes */
+                if (maxmatch == 0x12) break;
             }
-            
-            /* we can't get any better than 0x12 bytes */
-            if (maxmatch == 0x12) break;
         }
         
         if (maxmatch < 3)
@@ -447,6 +447,7 @@ int lz77comp(uint8_t *dest, uint8_t *src, size_t size)
 
 
 
+/******************* diff8bit *****************/
 
 int diff8bitunfilter(uint8_t *dest, uint8_t *src)
 {
@@ -497,6 +498,7 @@ int diff8bitfilter(uint8_t *dest, uint8_t *src, size_t size)
 
 
 
+/****************** diff16bit *******************/
 
 int diff16bitunfilter(uint8_t *dest, uint8_t *src)
 {
@@ -552,7 +554,7 @@ int diff16bitfilter(uint8_t *dest, uint8_t *src, size_t size)
 
 
 
-
+/**************** RLE *****************/
 
 int rluncomp(uint8_t *dest, uint8_t *src)
 {

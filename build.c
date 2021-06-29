@@ -12,21 +12,6 @@
 
 #define MAX_SUBSCRIPTS 256
 
-typedef struct
-{
-    int id;
-    int line; /* line of definition */
-    uint32_t offs; /* from start of script */
-} label_t;
-
-typedef struct
-{
-    int label;
-    int line; /* to report errors */
-    uint8_t *ptr; /* to the final data */
-    int subscript;
-} labelref_t;
-
 /* data is appended starting from here */
 #define INITIALROMSIZE 0x7f2000
 
@@ -39,7 +24,7 @@ int main(int argc, char* argv[])
     FILE *f = fopen("hacks/hacks.gba", "rb");
     if (!f)
     {
-        printf("Could not open input file: %s\n", strerror(errno));
+        printf("Couldn't open %s: %s\n", "hacks/hacks.gba", strerror(errno));
         return EXIT_FAILURE;
     }
     size_t romsize = INITIALROMSIZE;
@@ -47,6 +32,11 @@ int main(int argc, char* argv[])
     fread(rombuf, 1, INITIALROMSIZE, f);
     fclose(f);
     
+    char *initialcwd = getcwd(NULL, 0);
+    unsigned errors = 0;
+    
+    
+    /******************** injectmcm function *************************/
     uint32_t injectmcm(uint32_t offs, uint8_t *data, size_t size)
     {
         if (memcmp(rombuf+offs, "MCM", 4)) return -1;
@@ -214,7 +204,7 @@ int main(int argc, char* argv[])
         free(lzbuf);
         free(huffbuf);
         
-        uint32_t bufsize = 0x200;
+        uint32_t bufsize = 0x1000;
         while (bufsize < size) bufsize *= 2;
         
         write32(rombuf+offs+4, size);
@@ -239,21 +229,335 @@ int main(int argc, char* argv[])
         return finalsize;
     }
     
-    char *initialcwd = getcwd(NULL, 0);
     
-    /* ----------- import scripts ------------- */
-    puts("Compiling scripts...");
-    int status = chdir("DSC-new");
-    if (status)
+    /************************* dsc function ************************/
+    int dsc(char *fnam, FILE *f)
     {
-        printf("Could not change to DSC directory: %s\n", strerror(errno));
+        int success = 0;
+        
+        lexinit(f, fnam);
+        
+        uint32_t subscripttbl[MAX_SUBSCRIPTS];
+        memset(subscripttbl, 0, MAX_SUBSCRIPTS*sizeof(uint32_t));
+        int subscripts = 0;
+        uint32_t cursubscript = -1;
+        
+        uint8_t *scriptbuf = malloc(0x20000);
+        memset(scriptbuf, 0, 0x20000);
+        size_t scriptlen = 0;
+        
+        uint32_t dscbase = -1;
+        int dscline;
+        
+        struct label
+        {
+            int id;
+            int line; /* line of definition */
+            uint32_t offs; /* from start of script */
+        };
+        struct label *labeltbl = NULL;
+        size_t labels = 0;
+        size_t labelmax = 0;
+        void addlabel(int id, int line, uint32_t offs)
+        {
+            if (labels == labelmax)
+            {
+                if (!labelmax) labelmax = 0x40;
+                else labelmax *= 2;
+                labeltbl = realloc(labeltbl, labelmax*sizeof(*labeltbl));
+            }
+            labeltbl[labels].id = id;
+            labeltbl[labels].line = line;
+            labeltbl[labels].offs = offs;
+            labels++;
+        }
+        
+        struct labelref
+        {
+            int label;
+            int line; /* to report errors */
+            uint8_t *ptr; /* to the final data */
+            int subscript;
+        };
+        struct labelref *labelreftbl = NULL;
+        size_t labelrefs = 0;
+        size_t labelrefmax = 0;
+        void addlabelref(int label, int line, uint8_t *ptr, int subscript)
+        {
+            if (labelrefs == labelrefmax)
+            {
+                if (!labelrefmax) labelrefmax = 0x40;
+                else labelrefmax *= 2;
+                labelreftbl = realloc(labelreftbl, labelrefmax*sizeof(*labelreftbl));
+            }
+            labelreftbl[labelrefs].label = label;
+            labelreftbl[labelrefs].line = line;
+            labelreftbl[labelrefs].ptr = ptr;
+            labelreftbl[labelrefs].subscript = subscript;
+            labelrefs++;
+        }
+        
+        int lextype;
+        while ((lextype = yylex()))
+        {
+            switch (lextype)
+            {
+                case TOK_INVALID:
+                    err("parse error");
+                    goto fail;
+                case TOK_ID:
+                    if (!strcmp(yytext, "DSCBase"))
+                    {
+                        lextype = yylex();
+                        if (lextype != TOK_NUM)
+                        {
+                            err_wrongtype(TOK_NUM, lextype);
+                            goto fail;
+                        }
+                        if (dscbase != -1)
+                        {
+                            err("DSCBase was already defined at line %i", dscline);
+                            goto fail;
+                        }
+                        dscbase = stoi(yytext);
+                        dscline = yylineno;
+                        if (dscbase >= INITIALROMSIZE)
+                        {
+                            err("DSCBase value out of bounds");
+                            goto fail;
+                        }
+                        if (memcmp(rombuf+dscbase, "DSC", 4))
+                        {
+                            err("DSCBase does not point to valid DSC data");
+                            goto fail;
+                        }
+                    }
+                    else if (!strcmp(yytext, "Subscript"))
+                    {
+                        lextype = yylex();
+                        if (lextype != TOK_NUM)
+                        {
+                            err_wrongtype(TOK_NUM, lextype);
+                            goto fail;
+                        }
+                        int subid = stoi(yytext);
+                        if (subid >= MAX_SUBSCRIPTS)
+                        {
+                            err("subscript number too high");
+                            goto fail;
+                        }
+                        cursubscript = subid;
+                        /* align subscripts to 4-bytes */
+                        while (scriptlen % 4) scriptlen++;
+                        subscripttbl[subid] = scriptlen;
+                        if (subid + 1 >= subscripts)
+                        {
+                            subscripts = subid+1;
+                        }
+                    }
+                    else if (!strcmp(yytext, "Label"))
+                    {
+                        lextype = yylex();
+                        if (lextype != TOK_NUM)
+                        {
+                            err_wrongtype(TOK_NUM, lextype);
+                            goto fail;
+                        }
+                        int labelid = stoi(yytext);
+                        int foundlab = 0;
+                        while (foundlab < labels)
+                        {
+                            if (labeltbl[foundlab].id == labelid)
+                            {
+                                err("label %i was already defined at line %i", labelid, labeltbl[foundlab].line);
+                                goto fail;
+                            }
+                            foundlab++;
+                        }
+                        addlabel(labelid, yylineno, scriptlen);
+                    }
+                    else
+                    {
+                        int foundid = -1;
+                        for (int i = 0; i < 0x23; i++)
+                        {
+                            if (!strcmp(yytext, cmdtbl[i].name))
+                            {
+                                foundid = i;
+                                break;
+                            }
+                        }
+                        if (foundid < 0)
+                        {
+                            err("invalid identifier %s", yytext);
+                            goto fail;
+                        }
+                        else
+                        {
+                            write16(scriptbuf+scriptlen, foundid);
+                            scriptlen += 2;
+                            for (int j = 0; j < ARGLISTMAX; j++)
+                            {
+                                uint8_t argtype = cmdtbl[foundid].arglist[j];
+                                if (!argtype) break;
+                                lextype = yylex();
+                                switch (argtype)
+                                {
+                                    case A_NUM:
+                                        if (lextype != TOK_NUM)
+                                        {
+                                            err_wrongtype(TOK_NUM, lextype);
+                                            goto fail;
+                                        }
+                                        int len = stoi(yytext);
+                                        write16(scriptbuf+scriptlen, len);
+                                        scriptlen += 2;
+                                        break;
+                                    case A_STR:
+                                    {
+                                        if (lextype != TOK_STRING)
+                                        {
+                                            err_wrongtype(TOK_STRING, lextype);
+                                            goto fail;
+                                        }
+                                        yytext[strlen(yytext)-1] = '\0'; /* remove quotes */
+                                        int len = processstring(scriptbuf+scriptlen+2, (uint8_t*)yytext+1, foundid == 0x13);
+                                        if (len < 0) goto fail;
+                                        while (len % 2) len++; /* align end to word */
+                                        write16(scriptbuf+scriptlen, len);
+                                        scriptlen += len + 2;
+                                        break;
+                                    }
+                                    case A_JUMPOFFS:
+                                    {
+                                        if (lextype != TOK_NUM)
+                                        {
+                                            err_wrongtype(TOK_NUM, lextype);
+                                            goto fail;
+                                        }
+                                        if (cursubscript == -1)
+                                        {
+                                            err("labels may not be referenced outside of subscript");
+                                            goto fail;
+                                        }
+                                        int labelid = stoi(yytext);
+                                        addlabelref(labelid, yylineno, scriptbuf+scriptlen, cursubscript);
+                                        scriptlen += 2;
+                                        break;
+                                    }
+                                    case A_JUMPTABLE:
+                                    {
+                                        if (lextype != TOK_NUM)
+                                        {
+                                            err_wrongtype(TOK_NUM, lextype);
+                                            goto fail;
+                                        }
+                                        uint16_t len = stoi(yytext);
+                                        write16(scriptbuf+scriptlen, len);
+                                        scriptlen += 2;
+                                        while (len)
+                                        {
+                                            lextype = yylex();
+                                            if (lextype != TOK_NUM)
+                                            {
+                                                err_wrongtype(TOK_NUM, lextype);
+                                                goto fail;
+                                            }
+                                            if (cursubscript == -1)
+                                            {
+                                                err("labels may not be referenced before defining subscript");
+                                                goto fail;
+                                            }
+                                            int labelid = stoi(yytext);
+                                            addlabelref(labelid, yylineno, scriptbuf+scriptlen, cursubscript);
+                                            scriptlen += 2;
+                                            len--;
+                                        }
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    break;
+                default:
+                    err_wrongtype(TOK_ID, lextype);
+                    goto fail;
+            }
+        }
+        if (dscbase == -1)
+        {
+            err("end of file encountered but no DSCBase defined");
+            goto fail;
+        }
+        if (!subscripts)
+        {
+            err("end of file encountered but no subscripts defined");
+            goto fail;
+        }
+        /* resolve all label references */
+        for (int i = 0; i < labelrefs; i++)
+        {
+            int targetlabel = labelreftbl[i].label;
+            yylineno = labelreftbl[i].line;
+            int foundlabel = 0;
+            while (foundlabel < labels)
+            {
+                if (targetlabel == labeltbl[foundlabel].id) break;
+                foundlabel++;
+            }
+            if (foundlabel == labels)
+            {
+                err("label %i is undefined", targetlabel);
+                goto fail;
+            }
+            write16(labelreftbl[i].ptr, (labeltbl[foundlabel].offs - subscripttbl[labelreftbl[i].subscript])/2);
+        }
+        /* align script end to 4-bytes */
+        while (scriptlen % 4) scriptlen++;
+        /* inject new script into rom */
+        uint8_t *dscptr = rombuf + dscbase;
+        uint32_t realsubs = get32(dscptr+0x0c);
+        if (subscripts != realsubs)
+        {
+            err("subscripts in file is not the same as subscripts in ROM");
+            goto fail;
+        }
+        for (int i = 0; i < subscripts; i++)
+        {
+            write32(dscptr+0x10+(i*4), subscripttbl[i]);
+        }
+        write32(dscptr+0x10+(subscripts*4), scriptlen);
+        int status = injectmcm(get32(dscptr+0x08)-MAPBASE, scriptbuf, scriptlen);
+        if (status >= 0) 
+        {
+            success++;
+            printf("Successfully imported %s into ROM\n", lexsrcnam);
+        }
+        else
+            printf("Couldn't inject MCM for %s\n", lexsrcnam);
+fail:   free(scriptbuf);
+        free(labeltbl);
+        free(labelreftbl);
+        
+        return !success;
     }
-    else
+    
+    
+    /************************** dodir function ***********************/
+    void dodir(char * name, int(*fn)(char *fnam, FILE *f))
     {
+        if (chdir(name))
+        {
+            printf("Couldn't change to %s directory: %s\n", name, strerror(errno));
+            errors++;
+            return;
+        }
         DIR *dir = opendir(".");
         if (!dir)
         {
-            printf("Could not open DSC directory: %s\n", strerror(errno));
+            printf("Couldn't open %s directory: %s\n", name, strerror(errno));
+            errors++;
         }
         else
         {
@@ -266,283 +570,27 @@ int main(int argc, char* argv[])
                 FILE *f = fopen(fnam, "rb");
                 if (!f)
                 {
-                    printf("Could not open %s: %s\n", fnam, strerror(errno));
-                    continue;
+                    printf("Couldn't open %s: %s\n", fnam, strerror(errno));
+                    errors++;
                 }
-                lexinit(f, fnam);
-                uint32_t subscripttbl[MAX_SUBSCRIPTS];
-                memset(subscripttbl, 0, MAX_SUBSCRIPTS*sizeof(uint32_t));
-                int subscripts = 0;
-                uint32_t cursubscript = -1;
-                uint8_t *scriptbuf = malloc(0x20000);
-                memset(scriptbuf, 0, 0x20000);
-                int scriptlen = 0;
-                uint32_t dscbase = -1;
-                int dscline;
-                label_t *labeltbl = NULL;
-                int labels = 0;
-                labelref_t *labelreftbl = NULL;
-                int labelrefs = 0;
-                int lextype;
-                while ((lextype = yylex()))
-                {
-                    switch (lextype)
-                    {
-                        case TOK_INVALID:
-                            err("parse error");
-                            goto dsc_fail;
-                        case TOK_ID:
-                            if (!strcmp(yytext, "DSCBase"))
-                            {
-                                lextype = yylex();
-                                if (lextype != TOK_NUM)
-                                {
-                                    err_wrongtype(TOK_NUM, lextype);
-                                    goto dsc_fail;
-                                }
-                                if (dscbase != -1)
-                                {
-                                    err("DSCBase was already defined at line %i", dscline);
-                                    goto dsc_fail;
-                                }
-                                dscbase = stoi(yytext);
-                                dscline = yylineno;
-                                if (dscbase >= INITIALROMSIZE)
-                                {
-                                    err("DSCBase value out of bounds");
-                                    goto dsc_fail;
-                                }
-                                if (memcmp(rombuf+dscbase, "DSC", 4))
-                                {
-                                    err("DSCBase does not point to valid DSC data");
-                                    goto dsc_fail;
-                                }
-                            }
-                            else if (!strcmp(yytext, "Subscript"))
-                            {
-                                lextype = yylex();
-                                if (lextype != TOK_NUM)
-                                {
-                                    err_wrongtype(TOK_NUM, lextype);
-                                    goto dsc_fail;
-                                }
-                                int subid = stoi(yytext);
-                                if (subid >= MAX_SUBSCRIPTS)
-                                {
-                                    err("subscript number too high");
-                                    goto dsc_fail;
-                                }
-                                cursubscript = subid;
-                                /* align subscripts to 4-bytes */
-                                while (scriptlen % 4) scriptlen++;
-                                subscripttbl[subid] = scriptlen;
-                                if (subid + 1 >= subscripts)
-                                {
-                                    subscripts = subid+1;
-                                }
-                            }
-                            else if (!strcmp(yytext, "Label"))
-                            {
-                                lextype = yylex();
-                                if (lextype != TOK_NUM)
-                                {
-                                    err_wrongtype(TOK_NUM, lextype);
-                                    goto dsc_fail;
-                                }
-                                int labelid = stoi(yytext);
-                                int foundlab = 0;
-                                while (foundlab < labels)
-                                {
-                                    if (labeltbl[foundlab].id == labelid)
-                                    {
-                                        err("label %i was already defined at line %i", labelid, labeltbl[foundlab].line);
-                                        goto dsc_fail;
-                                    }
-                                    foundlab++;
-                                }
-                                labeltbl = realloc(labeltbl, (labels+1)*sizeof(label_t));
-                                labeltbl[labels].id = labelid;
-                                labeltbl[labels].line = yylineno;
-                                labeltbl[labels].offs = scriptlen;
-                                labels++;
-                            }
-                            else
-                            {
-                                int foundid = -1;
-                                for (int i = 0; i < 0x23; i++)
-                                {
-                                    if (!strcmp(yytext, cmdtbl[i].name))
-                                    {
-                                        foundid = i;
-                                        break;
-                                    }
-                                }
-                                if (foundid < 0)
-                                {
-                                    err("invalid identifier %s", yytext);
-                                    goto dsc_fail;
-                                }
-                                else
-                                {
-                                    write16(scriptbuf+scriptlen, foundid);
-                                    scriptlen += 2;
-                                    for (int j = 0; j < ARGLISTMAX; j++)
-                                    {
-                                        uint8_t argtype = cmdtbl[foundid].arglist[j];
-                                        if (!argtype) break;
-                                        lextype = yylex();
-                                        switch (argtype)
-                                        {
-                                            case A_NUM:
-                                                if (lextype != TOK_NUM)
-                                                {
-                                                    err_wrongtype(TOK_NUM, lextype);
-                                                    goto dsc_fail;
-                                                }
-                                                int len = stoi(yytext);
-                                                write16(scriptbuf+scriptlen, len);
-                                                scriptlen += 2;
-                                                break;
-                                            case A_STR:
-                                            {
-                                                if (lextype != TOK_STRING)
-                                                {
-                                                    err_wrongtype(TOK_STRING, lextype);
-                                                    goto dsc_fail;
-                                                }
-                                                yytext[strlen(yytext)-1] = '\0'; /* remove quotes */
-                                                int len = processstring(scriptbuf+scriptlen+2, (uint8_t*)yytext+1, foundid == 0x13);
-                                                if (len < 0) goto dsc_fail;
-                                                while (len % 2) len++; /* align end to word */
-                                                write16(scriptbuf+scriptlen, len);
-                                                scriptlen += len + 2;
-                                                break;
-                                            }
-                                            case A_JUMPOFFS:
-                                            {
-                                                if (lextype != TOK_NUM)
-                                                {
-                                                    err_wrongtype(TOK_NUM, lextype);
-                                                    goto dsc_fail;
-                                                }
-                                                if (cursubscript == -1)
-                                                {
-                                                    err("labels may not be referenced outside of subscript");
-                                                    goto dsc_fail;
-                                                }
-                                                int labelid = stoi(yytext);
-                                                labelreftbl = realloc(labelreftbl, (labelrefs+1)*sizeof(labelref_t));
-                                                labelreftbl[labelrefs].label = labelid;
-                                                labelreftbl[labelrefs].line = yylineno;
-                                                labelreftbl[labelrefs].ptr = scriptbuf+scriptlen;
-                                                labelreftbl[labelrefs].subscript = cursubscript;
-                                                labelrefs++;
-                                                scriptlen += 2;
-                                                break;
-                                            }
-                                            case A_JUMPTABLE:
-                                            {
-                                                if (lextype != TOK_NUM)
-                                                {
-                                                    err_wrongtype(TOK_NUM, lextype);
-                                                    goto dsc_fail;
-                                                }
-                                                uint16_t len = stoi(yytext);
-                                                write16(scriptbuf+scriptlen, len);
-                                                scriptlen += 2;
-                                                while (len)
-                                                {
-                                                    lextype = yylex();
-                                                    if (lextype != TOK_NUM)
-                                                    {
-                                                        err_wrongtype(TOK_NUM, lextype);
-                                                        goto dsc_fail;
-                                                    }
-                                                    if (cursubscript == -1)
-                                                    {
-                                                        err("labels may not be referenced before defining subscript");
-                                                        goto dsc_fail;
-                                                    }
-                                                    int labelid = stoi(yytext);
-                                                    labelreftbl = realloc(labelreftbl, (labelrefs+1)*sizeof(labelref_t));
-                                                    labelreftbl[labelrefs].label = labelid;
-                                                    labelreftbl[labelrefs].line = yylineno;
-                                                    labelreftbl[labelrefs].ptr = scriptbuf+scriptlen;
-                                                    labelreftbl[labelrefs].subscript = cursubscript;
-                                                    labelrefs++;
-                                                    scriptlen += 2;
-                                                    len--;
-                                                }
-                                                break;
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                            break;
-                        default:
-                            err_wrongtype(TOK_ID, lextype);
-                            goto dsc_fail;
-                    }
-                }
-                if (dscbase == -1)
-                {
-                    err("end of file encountered but no DSCBase defined");
-                    goto dsc_fail;
-                }
-                if (!subscripts)
-                {
-                    err("end of file encountered but no subscripts defined");
-                    goto dsc_fail;
-                }
-                /* resolve all label references */
-                for (int i = 0; i < labelrefs; i++)
-                {
-                    int targetlabel = labelreftbl[i].label;
-                    yylineno = labelreftbl[i].line;
-                    int foundlabel = 0;
-                    while (foundlabel < labels)
-                    {
-                        if (targetlabel == labeltbl[foundlabel].id) break;
-                        foundlabel++;
-                    }
-                    if (foundlabel == labels)
-                    {
-                        err("label %i is undefined", targetlabel);
-                        goto dsc_fail;
-                    }
-                    write16(labelreftbl[i].ptr, (labeltbl[foundlabel].offs - subscripttbl[labelreftbl[i].subscript])/2);
-                }
-                /* align script end to 4-bytes */
-                while (scriptlen % 4) scriptlen++;
-                /* inject new script into rom */
-                uint8_t *dscptr = rombuf + dscbase;
-                uint32_t realsubs = get32(dscptr+0x0c);
-                if (subscripts != realsubs)
-                {
-                    err("subscripts in file is not the same as subscripts in ROM");
-                    goto dsc_fail;
-                }
-                for (int i = 0; i < subscripts; i++)
-                {
-                    write32(dscptr+0x10+(i*4), subscripttbl[i]);
-                }
-                write32(dscptr+0x10+(subscripts*4), scriptlen);
-                int status = injectmcm(get32(dscptr+0x08)-MAPBASE, scriptbuf, scriptlen);
-                if (status >= 0) 
-                    printf("Successfully imported %s into ROM\n", lexsrcnam);
                 else
-                    printf("Couldn't inject MCM for %s\n", lexsrcnam);
-dsc_fail:       free(scriptbuf);
-                free(labeltbl);
-                free(labelreftbl);
-                fclose(f);
+                {
+                    errors += fn(fnam, f);
+                    fclose(f);
+                }
             }
+            
             closedir(dir);
         }
+        
+        chdir(initialcwd);
     }
-    chdir(initialcwd);
     
+    
+    
+    /* ----------- import scripts ------------- */
+    puts("Compiling scripts...");
+    dodir("DSC-new", dsc);
     
     
     /* ------------- import raw strings ---------------- */
@@ -550,7 +598,7 @@ dsc_fail:       free(scriptbuf);
     f = fopen("text.txt", "rb");
     if (!f)
     {
-        printf("Could not open %s: %s\n", "text.txt", strerror(errno));
+        printf("Couldn't open %s: %s\n", "text.txt", strerror(errno));
     }
     else
     {
@@ -713,313 +761,305 @@ dsc_fail:       free(scriptbuf);
     
     /* ----------------- import bitmaps ---------------- */
     puts("\nImporting graphics...");
-    status = chdir("MBM-new");
-    if (status)
+    
+    /* index all used palettes */
+    struct palette
     {
-        printf("Couldn't change to MBM directory: %s\n", strerror(errno));
-    }
-    else
+        uint32_t offs;
+        uint16_t size; /* in colors, not bytes */
+    };
+    
+    struct palette *paltbl = NULL;
+    unsigned palettes = 0;
+    unsigned palmax = 0;
+    
+    void addpalent(uint32_t offs, uint16_t size)
     {
-        DIR *dir = opendir(".");
-        if (!dir)
+        if (palettes == palmax)
         {
-            printf("Couldn't open MBM directory: %s\n", strerror(errno));
+            if (!palmax) palmax = 0x100;
+            else palmax *= 2;
+            paltbl = realloc(paltbl, palmax * sizeof(*paltbl));
+        }
+        paltbl[palettes].offs = offs;
+        paltbl[palettes].size = size;
+        palettes++;
+    }
+    
+    uint32_t addpal(uint8_t *pal, uint16_t size)
+    {
+        for (unsigned i = 0; i < palettes; i++)
+        {
+            uint32_t o = paltbl[i].offs;
+            uint16_t s = paltbl[i].size;
+            if (size > s) continue;
+            unsigned j = 0;
+            for ( ; j < size; j++)
+            {
+                if (pal[j*2] != rombuf[o + j*2] ||
+                    (pal[j*2 + 1]&0x7f) != (rombuf[o + j*2 + 1]&0x7f)) break;
+            }
+            if (j == size) return o;
+        }
+        
+        uint32_t s = size*2;
+        if (s & 3) s += 2;
+        
+        uint32_t pi = romsize;
+        romsize += s;
+        rombuf = realloc(rombuf, romsize);
+        
+        memcpy(rombuf+pi, pal, s);
+        
+        addpalent(pi, size);
+        return pi;
+    }
+    
+    for (uint32_t o = 0; o < INITIALROMSIZE-0x20; o+=4)
+    {
+        if (!memcmp(rombuf+o, "MBM", 4))
+        {
+            uint32_t offs = get32(rombuf+o+0x10) - MAPBASE;
+            uint16_t size = get16(rombuf+o+0x0a);
+            
+            int found = 0;
+            for (unsigned i = 0; i < palettes; i++)
+            {
+                if (offs == paltbl[i].offs)
+                {
+                    found++;
+                    if (size > paltbl[i].size) paltbl[i].size = size;
+                    break;
+                }
+            }
+            if (!found) addpalent(offs,size);
+        }
+    }
+    
+    /*********************** mbm function **********************/
+    int mbm(char *fnam, FILE *f)
+    {
+        int success = 0;
+        
+        lexsrcnam = fnam;
+        yylineno = -1;
+        
+        uint32_t offs;
+        int status = sscanf(fnam, "%06X.bmp", &offs);
+        if (!status)
+        {
+            err("bad filename");
+            return 1;
+        }
+        
+        if (memcmp(rombuf+offs, "MBM", 4))
+        {
+            err("no MBM found at $%06X", offs);
+            return 1;
+        }
+        
+        uint8_t bmpheader[0x36];
+        uint8_t *palette = NULL;
+        uint8_t *tilebuf = NULL;
+        uint8_t *tilemap = NULL;
+        fread(bmpheader, 1, 0x36, f);
+        if (ferror(f))
+        {
+            err("error reading header: %s", strerror(errno));
+            goto fail;
+        }
+        if (feof(f))
+        {
+            err("unexpected end-of-file while reading header");
+            goto fail;
+        }
+        
+        if (bmpheader[0] != 'B' || bmpheader[1] != 'M')
+        {
+            err("not a BMP");
+            goto fail;
+        }
+        int errs = 0;
+        uint32_t bmpoffs = get32(bmpheader+0x0a);
+        uint32_t bmpheadersize = get32(bmpheader+0x0e);
+        uint32_t bmpwidth = get32(bmpheader+0x12);
+        uint32_t bmpheight = get32(bmpheader+0x16);
+        uint16_t bmpbpp = get16(bmpheader+0x1c);
+        uint32_t bmpcolors = get32(bmpheader+0x2e);
+        
+        if (bmpoffs < 0x36+(bmpcolors*4))
+        {
+            err("bad bitmap offset");
+            errs++;
+        }
+        uint32_t realwidth = get16(rombuf+offs+6);
+        uint32_t realheight = get16(rombuf+offs+8);
+        if (bmpwidth != realwidth || bmpheight != realheight)
+        {
+            err("bad resolution (should be %ux%u, is %ux%u)",realwidth,realheight,bmpwidth,bmpheight);
+            errs++;
+        }
+        if (bmpbpp != 8 && bmpbpp != 4)
+        {
+            err("only 4bpp and 8bpp images are supported");
+            errs++;
+        }
+        uint8_t realbpp = *(rombuf+offs+4) & 1 ? 8 : 4;
+        uint8_t tilesize = realbpp == 8 ? 64 : 32;
+        if (get32(bmpheader+0x1e))
+        {
+            err("compressed images are not supported");
+            errs++;
+        }
+        uint16_t realcolors = get16(rombuf+offs+0x0a);
+        if (realcolors < bmpcolors)
+        {
+            err("bad palette size (should be %u, is %u)", realcolors, bmpcolors);
+            errs++;
+        }
+        
+        if (errs) goto fail;
+        
+        
+        palette = malloc(bmpcolors*2);
+        fseek(f, bmpheadersize+0x0e, SEEK_SET);
+        for (unsigned i = 0; i < bmpcolors; i++)
+        {
+            uint8_t blue = fgetc(f) >> 3;
+            uint8_t green = fgetc(f) >> 3;
+            uint8_t red = fgetc(f) >> 3;
+            fgetc(f);
+            
+            if (ferror(f))
+            {
+                err("error reading palette: %s", strerror(errno));
+                goto fail;
+            }
+            if (feof(f))
+            {
+                err("unexpected end-of-file while reading palette");
+                goto fail;
+            }
+            
+            uint16_t color = red | (green << 5) | (blue << 10);
+            write16(palette+i*2, color);
+        }
+        
+        uint8_t tilemapflag = *(rombuf+offs+4) & 4;
+        uint16_t tilenum = 0;
+        uint16_t maxtiles = (bmpwidth*bmpheight)/64;
+        tilebuf = malloc(maxtiles * tilesize);
+        unsigned tmi = 0;
+        
+        if (tilemapflag) tilemap = malloc(maxtiles*2);
+        
+        unsigned bmprowsize = bmpwidth / ((bmpbpp == 8) ? 1 : 2);
+        while (bmprowsize & 3) bmprowsize++;
+        
+        for (unsigned ytile = 0; ytile < bmpheight/8; ytile++)
+        {
+            for (unsigned xtile = 0; xtile < bmpwidth/8; xtile++)
+            {
+                uint8_t *tile = tilebuf + tilenum*tilesize;
+                for (unsigned yfine = 0; yfine < 8; yfine++)
+                {
+                    fseek(f, bmpoffs + (bmpheight-1-(ytile*8+yfine))*bmprowsize + (xtile*8*8/bmpbpp), SEEK_SET);
+                    
+                    uint8_t row[8];
+                    
+                    if (bmpbpp == 8)
+                    {
+                        fread(row, 1, 8, f);
+                    }
+                    else
+                    {
+                        for (unsigned x = 0; x < 8; x+=2)
+                        {
+                            uint8_t v = fgetc(f);
+                            row[x] = v >> 4;
+                            row[x+1] = v & 0x0f;
+                        }
+                    }
+                    
+                    uint8_t *tr = tile + (yfine*realbpp);
+                    if (realbpp == 8)
+                    {
+                        memcpy(tr, row, 8);
+                    }
+                    else
+                    {
+                        for (unsigned x = 0; x < 8; x+=2)
+                        {
+                            tr[x/2] = row[x] | row[x+1] << 4;
+                        }
+                    }
+                }
+                if (tilemapflag)
+                {
+                    unsigned i = 0;
+                    for (  ; i < tilenum; i++)
+                    {
+                        if (!memcmp(tile, tilebuf + i*tilesize, tilesize)) break;
+                    }
+                    write16(tilemap + (tmi++)*2, i);
+                    if (i == tilenum) tilenum++;
+                }
+                else
+                {
+                    tilenum++;
+                }
+            }
+        }
+        
+        
+        
+        uint32_t paloffs = addpal(palette, bmpcolors);
+        write32(rombuf+offs+0x10, paloffs + MAPBASE);
+        if (tilemapflag)
+        {
+            memcpy(rombuf+get32(rombuf+offs+0x14)-MAPBASE, tilemap, maxtiles*2);
+        }
+        write16(rombuf+offs+0x0e, tilenum);
+        
+        if (injectmcm(offs+0x18, tilebuf, tilenum * tilesize) < 0)
+        {
+            err("couldn't inject MCM");
         }
         else
         {
-            struct palette
-            {
-                uint32_t offs;
-                uint16_t size; /* in colors, not bytes */
-            };
-            
-            unsigned palettes = 0;
-            unsigned palmax = 0x100;
-            
-            struct palette *paltbl = malloc(palmax * sizeof(*paltbl));
-            
-            void addpalent(uint32_t offs, uint16_t size)
-            {
-                if (palettes == palmax)
-                {
-                    palmax *= 2;
-                    paltbl = realloc(paltbl, palmax * sizeof(*paltbl));
-                }
-                paltbl[palettes].offs = offs;
-                paltbl[palettes].size = size;
-                palettes++;
-            }
-            
-            uint32_t addpal(uint8_t *pal, uint16_t size)
-            {
-                for (unsigned i = 0; i < palettes; i++)
-                {
-                    uint32_t o = paltbl[i].offs;
-                    uint16_t s = paltbl[i].size;
-                    if (size > s) continue;
-                    unsigned j = 0;
-                    for ( ; j < size; j++)
-                    {
-                        if (pal[j*2] != rombuf[o + j*2] ||
-                            (pal[j*2 + 1]&0x7f) != (rombuf[o + j*2 + 1]&0x7f)) break;
-                    }
-                    if (j == size) return o;
-                }
-                
-                uint32_t s = size*2;
-                if (s & 3) s += 2;
-                
-                uint32_t pi = romsize;
-                romsize += s;
-                rombuf = realloc(rombuf, romsize);
-                
-                memcpy(rombuf+pi, pal, s);
-                
-                addpalent(pi, size);
-                return pi;
-            }
-            
-            /* index all used palettes */
-            for (uint32_t o = 0; o < INITIALROMSIZE-0x20; o+=4)
-            {
-                if (!memcmp(rombuf+o, "MBM", 4))
-                {
-                    uint32_t offs = get32(rombuf+o+0x10) - MAPBASE;
-                    uint16_t size = get16(rombuf+o+0x0a);
-                    
-                    int found = 0;
-                    for (unsigned i = 0; i < palettes; i++)
-                    {
-                        if (offs == paltbl[i].offs)
-                        {
-                            found++;
-                            if (size > paltbl[i].size) paltbl[i].size = size;
-                            break;
-                        }
-                    }
-                    if (!found) addpalent(offs,size);
-                }
-            }
-            
-            
-            struct dirent *de = NULL;
-            while ((de = readdir(dir)))
-            {
-                char *fnam = de->d_name;
-                
-                if (!strcmp(fnam, ".")) continue;
-                if (!strcmp(fnam, "..")) continue;
-                
-                uint32_t offs;
-                int status = sscanf(fnam, "%06X.bmp", &offs);
-                if (!status) continue;
-                
-                lexsrcnam = fnam;
-                yylineno = -1;
-                
-                if (memcmp(rombuf+offs, "MBM", 4))
-                {
-                    err("no MBM found at $%06X", offs);
-                    continue;
-                }
-                
-                FILE *f = fopen(fnam, "rb");
-                if (!f)
-                {
-                    printf("Couldn't open %s: %s\n", fnam, strerror(errno));
-                    continue;
-                }
-                
-                uint8_t bmpheader[0x36];
-                uint8_t *palette = NULL;
-                uint8_t *tilebuf = NULL;
-                uint8_t *tilemap = NULL;
-                fread(bmpheader, 1, 0x36, f);
-                if (ferror(f))
-                {
-                    err("error reading header: %s", strerror(errno));
-                    goto mbm_fail;
-                }
-                if (feof(f))
-                {
-                    err("unexpected end-of-file while reading header");
-                    goto mbm_fail;
-                }
-                
-                if (bmpheader[0] != 'B' || bmpheader[1] != 'M')
-                {
-                    err("not a BMP");
-                    goto mbm_fail;
-                }
-                int errs = 0;
-                uint32_t bmpoffs = get32(bmpheader+0x0a);
-                uint32_t bmpheadersize = get32(bmpheader+0x0e);
-                uint32_t bmpwidth = get32(bmpheader+0x12);
-                uint32_t bmpheight = get32(bmpheader+0x16);
-                uint16_t bmpbpp = get16(bmpheader+0x1c);
-                uint32_t bmpcolors = get32(bmpheader+0x2e);
-                
-                if (bmpoffs < 0x36+(bmpcolors*4))
-                {
-                    err("bad bitmap offset");
-                    errs++;
-                }
-                uint32_t realwidth = get16(rombuf+offs+6);
-                uint32_t realheight = get16(rombuf+offs+8);
-                if (bmpwidth != realwidth || bmpheight != realheight)
-                {
-                    err("bad resolution (should be %ux%u, is %ux%u)",realwidth,realheight,bmpwidth,bmpheight);
-                    errs++;
-                }
-                if (bmpbpp != 8 && bmpbpp != 4)
-                {
-                    err("only 4bpp and 8bpp images are supported");
-                    errs++;
-                }
-                uint8_t realbpp = *(rombuf+offs+4) & 1 ? 8 : 4;
-                uint8_t tilesize = realbpp == 8 ? 64 : 32;
-                if (get32(bmpheader+0x1e))
-                {
-                    err("compressed images are not supported");
-                    errs++;
-                }
-                uint16_t realcolors = get16(rombuf+offs+0x0a);
-                if (realcolors < bmpcolors)
-                {
-                    err("bad palette size (should be %u, is %u)", realcolors, bmpcolors);
-                    errs++;
-                }
-                
-                if (errs) goto mbm_fail;
-                
-                
-                palette = malloc(bmpcolors*2);
-                fseek(f, bmpheadersize+0x0e, SEEK_SET);
-                for (unsigned i = 0; i < bmpcolors; i++)
-                {
-                    uint8_t blue = fgetc(f) >> 3;
-                    uint8_t green = fgetc(f) >> 3;
-                    uint8_t red = fgetc(f) >> 3;
-                    fgetc(f);
-                    
-                    if (ferror(f))
-                    {
-                        err("error reading palette: %s", strerror(errno));
-                        goto mbm_fail;
-                    }
-                    if (feof(f))
-                    {
-                        err("unexpected end-of-file while reading palette");
-                        goto mbm_fail;
-                    }
-                    
-                    uint16_t color = red | (green << 5) | (blue << 10);
-                    write16(palette+i*2, color);
-                }
-                
-                uint8_t tilemapflag = *(rombuf+offs+4) & 4;
-                uint16_t tilenum = 0;
-                uint16_t maxtiles = (bmpwidth*bmpheight)/64;
-                tilebuf = malloc(maxtiles * tilesize);
-                unsigned tmi = 0;
-                
-                if (tilemapflag) tilemap = malloc(maxtiles*2);
-                
-                unsigned bmprowsize = bmpwidth / ((bmpbpp == 8) ? 1 : 2);
-                while (bmprowsize & 3) bmprowsize++;
-                
-                for (unsigned ytile = 0; ytile < bmpheight/8; ytile++)
-                {
-                    for (unsigned xtile = 0; xtile < bmpwidth/8; xtile++)
-                    {
-                        uint8_t *tile = tilebuf + tilenum*tilesize;
-                        for (unsigned yfine = 0; yfine < 8; yfine++)
-                        {
-                            fseek(f, bmpoffs + (bmpheight-1-(ytile*8+yfine))*bmprowsize + (xtile*8*8/bmpbpp), SEEK_SET);
-                            
-                            uint8_t row[8];
-                            
-                            if (bmpbpp == 8)
-                            {
-                                fread(row, 1, 8, f);
-                            }
-                            else
-                            {
-                                for (unsigned x = 0; x < 8; x+=2)
-                                {
-                                    uint8_t v = fgetc(f);
-                                    row[x] = v >> 4;
-                                    row[x+1] = v & 0x0f;
-                                }
-                            }
-                            
-                            uint8_t *tr = tile + (yfine*realbpp);
-                            if (realbpp == 8)
-                            {
-                                memcpy(tr, row, 8);
-                            }
-                            else
-                            {
-                                for (unsigned x = 0; x < 8; x+=2)
-                                {
-                                    tr[x/2] = row[x] | row[x+1] << 4;
-                                }
-                            }
-                        }
-                        if (tilemapflag)
-                        {
-                            unsigned i = 0;
-                            for (  ; i < tilenum; i++)
-                            {
-                                if (!memcmp(tile, tilebuf + i*tilesize, tilesize)) break;
-                            }
-                            write16(tilemap + (tmi++)*2, i);
-                            if (i == tilenum) tilenum++;
-                        }
-                        else
-                        {
-                            tilenum++;
-                        }
-                    }
-                }
-                
-                
-                
-                uint32_t paloffs = addpal(palette, bmpcolors);
-                write32(rombuf+offs+0x10, paloffs + MAPBASE);
-                if (tilemapflag)
-                {
-                    memcpy(rombuf+get32(rombuf+offs+0x14)-MAPBASE, tilemap, maxtiles*2);
-                }
-                write16(rombuf+offs+0x0e, tilenum);
-                
-                injectmcm(offs+0x18, tilebuf, tilenum * tilesize);
-                
-                printf("Successfully imported %s into ROM\n", fnam);
-                
-mbm_fail:       fclose(f);
-                free(palette);
-                free(tilebuf);
-                free(tilemap);
-                
-            }
-            
-            
-            
-            
-            
-            free(paltbl);
-            closedir(dir);
+            printf("Successfully imported %s into ROM\n", fnam);
+            success++;
         }
+        
+fail:   free(palette);
+        free(tilebuf);
+        free(tilemap);
+        
+        return !success;
     }
-    chdir(initialcwd);
+    
+    dodir("MBM-new", mbm);
     
     
     
-    
+    /* ------------ write output file -------------- */
+    puts("\nWriting output file...");
     f = fopen("t.gba", "wb");
-    fwrite(rombuf, 1, romsize, f);
-    fclose(f);
+    if (!f)
+    {
+        printf("Couldn't open %s for writing: %s\n", "t.gba", strerror(errno));
+    }
+    else
+    {
+        fwrite(rombuf, 1, romsize, f);
+        fclose(f);
+        printf("%s successfully written with ", "t.gba");
+        if (!errors)
+            printf("no ");
+        else
+            printf("%u ", errors);
+        printf(errors == 1 ? "error.\n" : "errors.\n");
+    }
 }
 
 
