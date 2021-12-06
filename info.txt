@@ -1,18 +1,36 @@
 
 KNOWN INGAME ISSUES:
 - end credits up-scroller always places text characters 2 tiles apart, even with 1-tile wide characters
-- characters of work-related item names are always spaced 8 pixels apart in work detail view, and are missing characters
-    - should they be written in double mode?
+- characters of work-related item names are always spaced 10 pixels apart in work detail view, and are missing characters
+    - (see notes below)
 - user-entered strings are entered as double-byte jis characters, so they are printed wide when accessed
     - actually changing the internal representation would require messing with the character codes in the MFM files, so just change the font to be displayed
     - would also be nice to allow 16-character strings instead of just 8
-- there are still some missing plaintext strings
+    - ideally, rewrite it to use both ASCII and double-byte chars and measure string length accordingly (but mind a '$' being misinterpreted as control code)
+    - it's also impossible to write accented latin chars, maybe repurpose the kana button for this, or maybe there's enough space for it all on one screen
+- there are still some missing plaintext strings (e.g other copies of worker job names)
 - "rolling" text that automatically advances skips to the next line if it is too big to fit
+    - translator seems to be willing to cut the text down to fit one box, but it should still be fixed...
+- all text display routines should be fixed to support both ASCII and double-byte chars, making the "double mode" obsolete
+- high-level change, but possibly rewrite the game to use a single-byte charset (e.g by extending Windows-1252 with extra graphical chars) instead of shift-jis
+- voice clips are still in japanese (lol)
 
 
-KNOWN EXPORT ISSUES:
+KNOWN TOOL ISSUES:
+- the ROM name is hardcoded into the extractors/hacks. not really a problem right now but it will be when digicom2 translation starts
 - MBM 68B6A8 and others like it are animated ingame - where are the other frames? will it even be necessary to find them?
-- MBM 69B8EC has wrong palette
+    - translator calls pyocola "Pyokora Analogue the 3rd" while MBM 694860 calls her "Pyocola Analogue III", for consistency either one must be changed (i personally prefer the latter)
+- MBM 69B8EC has wrong palette 
+    - MBM 478DD0 seems like how it's supposed to look
+- DSC importing should optimize to remove redundant subscripts
+
+
+
+
+this game has some hidden features:
+
+- hold A, B, Select, Start, L, and R on boot to prompt erasing all save data
+- patch $8001e86 with byte $00 to enter debug menu on boot
 
 
 
@@ -66,6 +84,8 @@ data is split into (maxsize)-byte uncompressed segments, and then these are indi
 
 compressed data is standard gba format
 
+some MCMs have "misleading" sizes in their headers, when the compression inflates the file... for example 6A9220, which reports $40 bytes in its header but the compressed chunk says it is $48 bytes long. allocating only $40 bytes of decompression space will cause a segfault. a decent fix is to always allocate at least a chunk's worth of decompression space, since it's extremely unlikely a chunk $1000 bytes long will be inflated by compression
+
 
 MFM (charset) data:
 word - constant "MFM\0"
@@ -90,7 +110,7 @@ MRM (sample) format:
 word - constant "MRM\0"
 word - length of data
 xx bytes - data
-data is signed 8-bit pcm, 22050hz
+data is signed 8-bit pcm, probably 22050hz
 
 
 
@@ -250,5 +270,38 @@ halfword - y-position in character entry
 halfword - character code (MUST be a double-byte JIS code)
 halfword - 0 for padding
 1bpp charset (MFM format) is at $811d57c
+
+
+
+
+fixing "work info menu" bug:
+
+the issue is with the status screen that shows the workers' equipment. select "おしごと" then press R
+ASCII strings on this screen are not shown correctly. each character is 10 pixels apart even though only they are only 5 pixels wide, and every 3 characters the characters are not printed at all. so, "bare hands" becomes "barand"
+
+the obvious solution is to simply accept this, and use double-byte strings for them, making the characters take up the entire space. however, this is not a good solution because the menu where you shop for items for the workers uses the same strings, and that menu works fine with ASCII strings. so, it just looks ugly. it may be possible to hack in separate strings for that menu (possibly an abbreviated list to compensate for the smaller size), but that's really a last resort
+
+almost all rendered text is on the tilemap, but this text is sprites. this is probably why it's more buggy
+
+the first possible step is to change the code to either always use the thin font, or hard-set the distance between the chars to 5
+
+the game uploads the rendered string to vram in "packets", 3 characters at a time. this is exactly why every 3 characters are missing, i guess because the game relies on 1 character being 2 bytes
+
+3 characters are drawn on each sprite, resulting in some leftover space on the right side. the sprite positions are readjusted slightly to compensate
+
+the bl instruction at $809703c determines the packet width in characters, especially that $20 param (the width of the sprites in pixels) passed in r0
+
+the instruction that determines character distance is at $80b0914 (sub start is at $80b08a4)
+"add r0,r8", where r0 is the current x-position and r8 is the add value
+
+instruction that sets the distance is at $80970b2 (sub start at $8096f60)
+"strh r0,[r5,#0xc]"
+
+and again at $80af40a (start $80af28c)
+"strh r0,[r1,#8]"
+
+
+
+
 
 

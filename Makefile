@@ -11,7 +11,12 @@ endif
 # todo: don't hardcode this
 ROMNAME := DiGi Charat - DigiCommunication (J) [!].gba
 
-CFLAGS := -s -Ofast -Wall -D ROMNAME="\"$(ROMNAME)\"" -I .
+BUILDDATE := $(shell date -u +"%Y/%m/%d")
+BUILDTIME := $(shell date -u +"%H:%M:%S")
+
+# static builds for ease of distribution
+CFLAGS := -static -s -Ofast -Wall -D ROMNAME="\"$(ROMNAME)\"" -D BUILDDATE="\"$(BUILDDATE)\"" -D BUILDTIME="\"$(BUILDTIME)\"" -I .
+LIBS := -lpng -lz
 
 SRCS := build.c dsc.c mbm.c mcm.c mfm.c mrm.c text.c
 DGVC_SRCS := $(addprefix dgvc/,dump-dsc.c gen-dsc.c gen-text.c)
@@ -50,7 +55,7 @@ clean:
 
 
 %$(DOTEXE): %.c
-	$(CC) $(CFLAGS) $< -o $@
+	$(CC) $(CFLAGS) $< -o $@ $(LIBS)
 
 
 %.yy.c: %.l
@@ -58,5 +63,5 @@ clean:
 
 
 $(HACKS_OUT): $(HACKS)
-	armips -strequ OUTNAME $@ -strequ ROMNAME "$(ROMNAME)" $<
+	armips -strequ OUTNAME $@ -strequ ROMNAME "$(ROMNAME)" -strequ BUILDDATE "$(BUILDDATE)" -strequ BUILDTIME "$(BUILDTIME)" $<
 

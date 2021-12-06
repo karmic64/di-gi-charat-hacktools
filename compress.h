@@ -764,5 +764,12 @@ fail:
 }
 
 
+size_t getmcmbufsize(uint8_t *p)
+{
+  uint32_t totalsize = get32(p+4);
+  uint32_t chunksize = get32(p+8);
+  
+  return (totalsize < chunksize) ? chunksize : totalsize;
+}
 
 

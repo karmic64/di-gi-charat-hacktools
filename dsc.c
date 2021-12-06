@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
             int labels = 0;
             
             uint32_t datasize = get32(mcmptr+0x04);
-            uint8_t *scriptbuf = malloc(datasize);
+            uint8_t *scriptbuf = malloc(getmcmbufsize(mcmptr));
             int status = mcmuncomp(scriptbuf, inbuf, mcmptr);
             if (status)
             {

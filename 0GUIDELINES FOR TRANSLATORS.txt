@@ -56,10 +56,12 @@ FOR BITMAP TRANSLATION:
 If you are not savvy with pixel art, just note the filename and translation at the bottom of this file of every text in the image that needs translation. There's no need to translate insignificant background scenery, but UI elements absolutely must be.
 
 If you are, then please follow the below:
-The images are INDEXED COLOR bitmaps. Although I would recommend it, it is not necessary to preserve the exact palette, but you must not go above the amount of colors in the original image's palette.
+The images are, and must remain, INDEXED COLOR bitmaps. Although I would recommend it, it is not necessary to preserve the exact palette, but you must not go above the amount of colors in the original image's palette.
+Some images (like the main menu's "bubble" icons) actually share the same palette to waste less space in allocating palettes. In these cases, you should definitely NOT modify the palettes.
 Palette entry 0 is interpreted by the GBA hardware as "transparent". Don't use any actual color here.
 Do not change the resolution of the original bitmap.
 Please place the new bitmaps in a folder named "MBM-new". Do not change the filenames.
+
 
 
 

@@ -1,9 +1,58 @@
             .arm.little
             .create OUTNAME,0x8000000
             .org 0x8000000
-            .incbin ROMNAME
+            .incbin ROMNAME,0,0x7f1e80
             .thumb
             .org 0x87f1e80
+            .db "- Di Gi Charat -"
+            .db "DigiCom  English"
+            .db "                "
+            .db "Built on:       "
+            .db "Util: YEAR/MO/DA"
+            .db "        HH:MM:SS"
+            .db " PRG: ",BUILDDATE
+            .db "        ",BUILDTIME
+            .db "  TL: YEAR/MO/DA"
+            .db "        HH:MM:SS"
+            .db "                "
+            .db "Hacking:        "
+            .db "          karmic"
+            .db "Translation:    "
+            .db "       albatross"
+            .db "Greetings to:   "
+            .db "      125scratch"
+            .db "   chaoskaiser72"
+            .db "Izumi/ShamaliyyD"
+            .db "          keffie"
+            .db "    MarioNumbers"
+            .db "  Negative Nancy"
+            .db "            stel"
+            .db "Special Thanks: "
+            .db " Hazuki Fujiwara"
+            .db "     Onpu Segawa"
+            .db "    Momoko Asuka"
+            .db " Sakura Kinomoto"
+            .db " Tomoyo Daidouji"
+            .db "Tsubomi Hanasaki"
+            .db "    Konata Izumi"
+            .db "  Kagami Hiiragi"
+            .db " Tsukasa Hiiragi"
+            .db "   Miyuki Takara"
+            .db "       Suigintou"
+            .db "     Rin Kokonoe"
+            .db "     Iori Minase"
+            .db " Yayoi Takatsuki"
+            .db "    Haruka Amami"
+            .db "                "
+            .db "Don't proceed any further! If you want to hack this translation, better use the source tools at <https://github.com/karmic64/di-gi-charat-hacktools> instead of your hex editor."
+            .align 0x10,' '
+            
+            
+            ;
+            ;
+            ; ------ normal text word wrap
+            ;
+            ;
             ;NOTE: at this point -
             ;r0-r3 are free for use
             ;r5 contains the text info pointer
@@ -69,6 +118,11 @@ wordwraphook:
             
             .pool
             
+            
+            
+            
+            
+            .align 4
             
             ;
             ;
@@ -223,6 +277,27 @@ wordwraphook:
             .fill 0x80e6648-org(), 0xff ;END OF LIST
             
             
+            
+            ;
+            ;
+            ;
+            ; worker info menu
+            ;
+            ;
+            ;
+            .org 0x8087782 ;disable thick font
+            nop
+            nop
+            mov r1,#0
+            .org 0x80878ba
+            nop
+            nop
+            mov r1,#0
+            
+            
+            
+            
+            
             ;
             ;
             ;
@@ -234,6 +309,8 @@ wordwraphook:
             ldr r0, =wordwraphook | 1
             bx r0
             .pool
+
+
 
             
             

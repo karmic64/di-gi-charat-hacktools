@@ -5,195 +5,227 @@
 #include <errno.h>
 #include <stdint.h>
 
+#include <setjmp.h>
+#include <png.h>
+
 #include "compress.h"
 
 
-#define swapnib(i) (((i) >> 4) | ((i) << 4))
+#define scale5to8(i) (((i) << 3) | ((i) >> 2))
 
 
-int fput32(uint32_t i, FILE *f)
+
+int32_t mbmindex;
+void pngerr(png_structp p, png_const_charp e)
 {
-    for (int r = 0; r < 32; r += 8)
-    {
-        int s = fputc((i >> r) & 0xff, f);
-        if (s == EOF) return EOF;
-    }
-    return 0;
+  printf("Failed to export %06X: %s\n",mbmindex,e);
+  longjmp(png_jmpbuf(p),1);
 }
-
-int fput24(uint32_t i, FILE *f)
-{
-    for (int r = 0; r < 24; r += 8)
-    {
-        int s = fputc((i >> r) & 0xff, f);
-        if (s == EOF) return EOF;
-    }
-    return 0;
-}
-
-int fput16(uint16_t i, FILE *f)
-{
-    for (int r = 0; r < 16; r += 8)
-    {
-        int s = fputc((i >> r) & 0xff, f);
-        if (s == EOF) return EOF;
-    }
-    return 0;
-}
-
-
 
 
 int main(int argc, char *argv[])
 {
-    FILE *f = fopen(ROMNAME, "rb");
-    if (!f)
+  FILE *f = fopen(ROMNAME, "rb");
+  if (!f)
+  {
+    printf("Could not open ROM file: %s\n", strerror(errno));
+    return EXIT_FAILURE;
+  }
+  fseek(f, 0, SEEK_END);
+  size_t fsize = ftell(f);
+  rewind(f);
+  uint8_t *inbuf = malloc(fsize);
+  fread(inbuf, 1, fsize, f);
+  fclose(f);
+  
+  mkdir("MBM-orig");
+  chdir("MBM-orig");
+  
+  uint8_t *inbufend = inbuf+fsize;
+  
+  for (uint8_t *p = inbuf; p < inbufend-0x20; p += 4)
+  {
+    char fnambuf[0x20];
+    if (!memcmp(p, "MBM", 4))
     {
-        printf("Could not open ROM file: %s\n", strerror(errno));
-        return EXIT_FAILURE;
-    }
-    fseek(f, 0, SEEK_END);
-    size_t fsize = ftell(f);
-    rewind(f);
-    uint8_t *inbuf = malloc(fsize);
-    fread(inbuf, 1, fsize, f);
-    fclose(f);
-    
-    mkdir("MBM-orig");
-    chdir("MBM-orig");
-    
-    uint8_t *inbufend = inbuf+fsize;
-    
-    for (uint8_t *p = inbuf; p < inbufend-0x20; p += 4)
-    {
-        char fnambuf[0x20];
-        if (!memcmp(p, "MBM", 4))
+      mbmindex = p-inbuf;
+      uint16_t palsize = get16(p+0x0a);
+      uint8_t bpp = *(p+5); /* note: bits/pixel is equal to bytes/tile row */
+      int tilemapflag = *(p+4) & 4;
+      uint16_t width = get16(p+6);
+      uint16_t height = get16(p+8);
+      uint8_t *palptr = inbuf+get32(p+0x10)-MAPBASE;
+      int32_t palindex = palptr-inbuf;
+      uint8_t *tilemapptr = inbuf+get32(p+0x14)-MAPBASE;
+      int32_t tilemapindex = tilemapptr-inbuf;
+      uint8_t *mcmptr = p+0x18;
+      if (palindex < 0 || palindex >= fsize)
+      {
+        printf("Palette pointer at $%06X out of bounds\n", mbmindex);
+        continue;
+      }
+      if (tilemapindex < 0 || tilemapindex >= fsize)
+      {
+        printf("Tilemap pointer at $%06X out of bounds\n", mbmindex);
+        continue;
+      }
+      if (bpp != 4 && bpp != 8)
+      {
+        printf("Bad bits per pixel value %u at $%06X\n", bpp, mbmindex);
+        continue;
+      }
+      unsigned bppcolors = 1 << bpp;
+      int oversizepal = palsize > bppcolors;
+      unsigned outbpp = (oversizepal || bpp == 8) ? 8 : 4;
+      if (width % 8)
+      {
+        printf("Width of $%06X is not a multiple of 8\n", mbmindex);
+        continue;
+      }
+      if (height % 8)
+      {
+        printf("Height of $%06X is not a multiple of 8\n", mbmindex);
+        continue;
+      }
+      unsigned bmprowsize = outbpp == 4 ? (width/2) : (width);
+      unsigned tilewidth = width / 8;
+      unsigned tileheight = height / 8;
+      
+      if (memcmp(mcmptr, "MCM", 4))
+      {
+        printf("No MCM data found at $%06X\n", mbmindex);
+        continue;
+      }
+      uint8_t *tilebuf = malloc(getmcmbufsize(mcmptr));
+      int status = mcmuncomp(tilebuf, inbuf, mcmptr);
+      
+      if (!status)
+      {
+        png_byte *bmptilerow = malloc(bmprowsize * 8);
+        png_color *palette = malloc(palsize * sizeof(*palette));
+        png_byte *trns = malloc(palsize);
+        
+        sprintf(fnambuf, "%06X.png", mbmindex);
+        FILE *f = fopen(fnambuf, "wb");
+        
+        png_structp png_ptr = png_create_write_struct(PNG_LIBPNG_VER_STRING, NULL,pngerr,pngerr);
+        png_infop info_ptr = png_create_info_struct(png_ptr);
+        
+        if (setjmp(png_jmpbuf(png_ptr)))
         {
-            int32_t mbmindex = p-inbuf;
-            uint16_t palsize = get16(p+0x0a);
-            uint8_t bpp = *(p+5); /* note: bits/pixel is equal to bytes/tile row */
-            int tilemapflag = *(p+4) & 4;
-            uint16_t width = get16(p+6);
-            uint16_t height = get16(p+8);
-            uint8_t *palptr = inbuf+get32(p+0x10)-MAPBASE;
-            int32_t palindex = palptr-inbuf;
-            uint8_t *tilemapptr = inbuf+get32(p+0x14)-MAPBASE;
-            int32_t tilemapindex = tilemapptr-inbuf;
-            uint8_t *mcmptr = p+0x18;
-            if (palindex < 0 || palindex >= fsize)
-            {
-                printf("Palette pointer at $%X out of bounds\n", mbmindex);
-                continue;
-            }
-            if (tilemapindex < 0 || tilemapindex >= fsize)
-            {
-                printf("Tilemap pointer at $%X out of bounds\n", mbmindex);
-                continue;
-            }
-            uint16_t bmpwidth = width;
-            while (bmpwidth % 4) bmpwidth++;
-            
-            if (memcmp(mcmptr, "MCM", 4))
-            {
-                printf("No MCM data found at $%X\n", mbmindex);
-                continue;
-            }
-            uint32_t finaldatasize = get32(mcmptr+4);
-            
-            uint8_t *tilebuf = malloc(finaldatasize);
-            int status = mcmuncomp(tilebuf, inbuf, mcmptr);
-            if (!status)
-            {
-                sprintf(fnambuf, "%06X.bmp", mbmindex);
-                FILE *f = fopen(fnambuf, "wb");
-                /* header */
-                fputc('B', f);
-                fputc('M', f);
-                fput32(14+40+(palsize*4)+(bmpwidth*height), f);
-                fput32(0, f);
-                fput32(14+40+(palsize*4), f);
-                /* infoheader */
-                fput32(40, f);
-                fput32(width, f);
-                fput32(height, f);
-                fput16(1, f);
-                fput16(8, f);
-                fput32(0, f);
-                fput32(0, f);
-                fput32(0, f);
-                fput32(0, f);
-                fput32(palsize, f);
-                fput32(0, f);
-                /* palette */
-                for (int i = 0; i < palsize; i++)
-                {
-                    uint16_t color = get16(palptr+(i*2));
-                    uint8_t red = color & 0x1f;
-                    uint8_t green = (color >> 5) & 0x1f;
-                    uint8_t blue = (color >> 10) & 0x1f;
-                    
-                    fputc(blue * (255.0/31.0), f);
-                    fputc(green * (255.0/31.0), f);
-                    fputc(red * (255.0/31.0), f);
-                    fputc(0, f);
-                }
-                /* bitmap */
-                for (int y = height-1; y >= 0; y--)
-                {
-                    for (int x = 0; x < bmpwidth; x += (bpp == 8 ? 1 : 2))
-                    {
-                        uint16_t t = (y/8) * (width/8) + x/8;
-                        if (tilemapflag)
-                        {
-                            t = get16(tilemapptr + (t * 2));
-                        }
-                        uint16_t tn = t & 0x3ff;
-                        uint16_t xflip = t & 0x400;
-                        uint16_t yflip = t & 0x800;
-                        uint16_t pal = t / 0x1000;
-                        
-                        int xfine = (x & 7) ^ (xflip ? 7 : 0);
-                        int yfine = (y & 7) ^ (yflip ? 7 : 0);
-                        
-                        uint8_t *tilerow = tilebuf + (tn*bpp*8) + (yfine*bpp);
-                        
-                        if (bpp == 8)
-                        {
-                            fputc(tilerow[xfine], f);
-                        }
-                        else
-                        {
-                            uint8_t tb = tilerow[xfine/2];
-                            if (xflip) tb = swapnib(tb);
-                            fputc((tb & 0x0f) + (pal * 0x10), f);
-                            fputc((tb >> 4) + (pal * 0x10), f);
-                        }
-                    }
-                }
-                
-                fclose(f);
-                
-                printf("Successfully exported $%X (%ux%u, %s, %ubpp, %u colors)\n", mbmindex
-                        , width, height
-                        , tilemapflag ? "tilemapped" : "bitmapped"
-                        , bpp
-                        , palsize);
-            }
-            else
-            {
-                printf("MCM extraction at $%X failed with errorcode %d\n", mbmindex, status);
-                continue;
-            }
-            free(tilebuf);
+          
         }
+        else
+        {
+          png_init_io(png_ptr,f);
+          
+          png_set_IHDR(png_ptr,info_ptr,
+              width, height, outbpp, PNG_COLOR_TYPE_PALETTE, PNG_INTERLACE_NONE,
+              PNG_COMPRESSION_TYPE_DEFAULT, PNG_FILTER_TYPE_DEFAULT);
+          
+          for (unsigned i = 0; i < palsize; i++)
+          {
+            uint16_t col = get16(palptr+i*2);
+            uint8_t red = col & 0x1f;
+            uint8_t green = (col >> 5) & 0x1f;
+            uint8_t blue = (col >> 10) & 0x1f;
+            palette[i].red = scale5to8(red);
+            palette[i].green = scale5to8(green);
+            palette[i].blue = scale5to8(blue);
+          }
+          png_set_PLTE(png_ptr,info_ptr,palette,palsize);
+          
+          for (unsigned i = 0; i < palsize; i++)
+          {
+            trns[i] = (i%bppcolors == 0) ? 0 : 0xff;
+          }
+          png_set_tRNS(png_ptr,info_ptr,trns,palsize,NULL);
+          
+          png_write_info(png_ptr,info_ptr);
+          
+          png_byte *rows[8];
+          for (unsigned i = 0; i < 8; i++) rows[i] = &bmptilerow[bmprowsize*i];
+          
+          for (unsigned ty = 0; ty < tileheight; ty++)
+          {
+            memset(bmptilerow,0,bmprowsize*8);
+            for (unsigned tx = 0; tx < tilewidth; tx++)
+            {
+              uint16_t tm;
+              unsigned tmindex = (ty * tilewidth) + tx;
+              if (tilemapflag) tm = get16(tilemapptr + (tmindex)*2);
+              else tm = tmindex;
+              uint16_t t = tm & 0x3ff;
+              uint16_t xflip = tm & 0x400;
+              uint16_t yflip = tm & 0x800;
+              uint16_t pal = (tm >> 12);
+              
+              uint8_t *tile = tilebuf + ((8 * bpp) * t);
+              for (unsigned tyf = 0; tyf < 8; tyf++)
+              {
+                for (unsigned txf = 0; txf < 8; txf++)
+                {
+                  unsigned ixf = xflip ? txf ^ 7 : txf;
+                  unsigned iyf = yflip ? tyf ^ 7 : tyf;
+                  
+                  uint8_t col;
+                  if (bpp == 4)
+                  {
+                    uint8_t cb = tile[(iyf*4)+(ixf/2)];
+                    col = ((ixf % 2) ? (cb >> 4) : (cb & 0xf)) | (pal << 4);
+                  }
+                  else
+                  {
+                    col = tile[(iyf*8)+ixf];
+                  }
+                  
+                  if (outbpp == 4)
+                  {
+                    png_byte *p = &bmptilerow[bmprowsize*tyf + ((tx*8) + txf)/2];
+                    if (txf % 2) *p |= col;
+                    else *p |= (col << 4);
+                  }
+                  else
+                  {
+                    bmptilerow[bmprowsize*tyf + (tx*8) + txf] = col;
+                  }
+                }
+              }
+            }
+            png_write_rows(png_ptr,rows,8);
+          }
+          
+          png_write_end(png_ptr,info_ptr);
+          
+          printf("Successfully exported $%06X (%ux%u, %s, %ubpp, %u colors)\n", mbmindex
+            , width, height
+            , tilemapflag ? "tilemapped" : "bitmapped"
+            , bpp
+            , palsize);
+            
+        }
+        
+        png_destroy_write_struct(&png_ptr, &info_ptr);
+        fclose(f);
+        
+        free(palette);
+        free(trns);
+        free(bmptilerow);
+      }
+      else
+      {
+        printf("MCM extraction at $%06X failed with errorcode %d\n", mbmindex, status);
+      }
+      free(tilebuf);
     }
-    
-    
-    
-    
-    
-    
-    
+  }
+  
+  
+  
+  
+  
+  
+  
 }
 
 

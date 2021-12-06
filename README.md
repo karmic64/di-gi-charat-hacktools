@@ -6,7 +6,7 @@ Refer to the "0GUIDELINES FOR TRANSLATORS.txt" for further information.
 
 There is no ROM here, you will need to find it, place it in the main folder, and call it "DiGi Charat - DigiCommunication (J) [!].gba".
 
-You will also need the [armips](https://github.com/Kingcom/armips) assembler to assemble the assembly hacks.
+You need libpng to compile the tools. You will also need the [armips](https://github.com/Kingcom/armips) assembler to assemble the assembly hacks.
 
 If you are interested in translating the text or redrawing the Japanese graphics, feel free to contact me. Currently I have someone translating who is 70% finished, but if you are interested in looking it over or play-testing, I would also appreciate that.
 
