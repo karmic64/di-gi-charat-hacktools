@@ -1,8 +1,6 @@
 
 KNOWN INGAME ISSUES:
 - end credits up-scroller always places text characters 2 tiles apart, even with 1-tile wide characters
-- characters of work-related item names are always spaced 10 pixels apart in work detail view, and are missing characters
-    - (see notes below)
 - user-entered strings are entered as double-byte jis characters, so they are printed wide when accessed
     - actually changing the internal representation would require messing with the character codes in the MFM files, so just change the font to be displayed
     - would also be nice to allow 16-character strings instead of just 8
@@ -257,6 +255,7 @@ subroutine that copies to vram copy buffer at $80ae6d2
 text entry menu:
 write to text entry buffer at $80b0880/$80b08f2
 NOTE: max enterable characters is gotten at $80b085a (one char = TWO BYTES)
+max enterable characters is set at $80534a8
 the game seems to detect double-byte chars by simply checking if the high bit is set
 although this code does not support the display of english characters properly
 another one at $8055fdc
@@ -271,6 +270,8 @@ halfword - character code (MUST be a double-byte JIS code)
 halfword - 0 for padding
 1bpp charset (MFM format) is at $811d57c
 
+bl at $8055de0 loads the sprite data for the currently highlighted char (char code in r1)
+
 
 
 
@@ -280,8 +281,6 @@ the issue is with the status screen that shows the workers' equipment. select "ã
 ASCII strings on this screen are not shown correctly. each character is 10 pixels apart even though only they are only 5 pixels wide, and every 3 characters the characters are not printed at all. so, "bare hands" becomes "barand"
 
 the obvious solution is to simply accept this, and use double-byte strings for them, making the characters take up the entire space. however, this is not a good solution because the menu where you shop for items for the workers uses the same strings, and that menu works fine with ASCII strings. so, it just looks ugly. it may be possible to hack in separate strings for that menu (possibly an abbreviated list to compensate for the smaller size), but that's really a last resort
-
-almost all rendered text is on the tilemap, but this text is sprites. this is probably why it's more buggy
 
 the first possible step is to change the code to either always use the thin font, or hard-set the distance between the chars to 5
 
@@ -299,6 +298,13 @@ instruction that sets the distance is at $80970b2 (sub start at $8096f60)
 
 and again at $80af40a (start $80af28c)
 "strh r0,[r1,#8]"
+
+
+seems like it is coded to assume the maximum string length is 6, and to never allocate any more vram than is necessary to hold a rendered string of this length. so, where is the constant?
+
+sprite generation table at $80e7454, each entry is 5 words long, the first word is the width of the sprite  (routine at $8087ddc)
+
+sprite distances fail due to a rounding issue in the division of 6 (characters per sprite)*2 by 5 (character width)
 
 
 
