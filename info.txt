@@ -1,16 +1,19 @@
 
 KNOWN INGAME ISSUES:
 - end credits up-scroller always places text characters 2 tiles apart, even with 1-tile wide characters
+- worker info menu issues
+    - current hacks will fail with double-byte strings
+    - longer strings are not cleared when shorter strings appear in their place
+        - could just fudge it by printing 18 spaces to clear out the vram, in fact i think the original does this too
 - user-entered strings are entered as double-byte jis characters, so they are printed wide when accessed
-    - actually changing the internal representation would require messing with the character codes in the MFM files, so just change the font to be displayed
-    - would also be nice to allow 16-character strings instead of just 8
-    - ideally, rewrite it to use both ASCII and double-byte chars and measure string length accordingly (but mind a '$' being misinterpreted as control code)
+    - rewrite it to use both ASCII and double-byte chars and measure string length accordingly (but mind a '$' being misinterpreted as control code)
     - it's also impossible to write accented latin chars, maybe repurpose the kana button for this, or maybe there's enough space for it all on one screen
+    - a space character was added, so leading and trailing spaces should be cleaned out on exit
 - there are still some missing plaintext strings (e.g other copies of worker job names)
 - "rolling" text that automatically advances skips to the next line if it is too big to fit
     - translator seems to be willing to cut the text down to fit one box, but it should still be fixed...
 - all text display routines should be fixed to support both ASCII and double-byte chars, making the "double mode" obsolete
-- high-level change, but possibly rewrite the game to use a single-byte charset (e.g by extending Windows-1252 with extra graphical chars) instead of shift-jis
+    - high-level change, but possibly rewrite the game to use a single-byte charset (e.g by extending Windows-1252 with extra graphical chars) instead of shift-jis
 - voice clips are still in japanese (lol)
 
 
@@ -21,6 +24,7 @@ KNOWN TOOL ISSUES:
 - MBM 69B8EC has wrong palette 
     - MBM 478DD0 seems like how it's supposed to look
 - DSC importing should optimize to remove redundant subscripts
+- some of the graphics (like in the coin-catching minigame) are NOT in MBM files, so there must be a custom exporter/importer scripting system
 
 
 
