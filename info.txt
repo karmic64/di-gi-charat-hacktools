@@ -1,10 +1,6 @@
 
 KNOWN INGAME ISSUES:
 - end credits up-scroller always places text characters 2 tiles apart, even with 1-tile wide characters
-- worker info menu issues
-    - current hacks will fail with double-byte strings
-    - longer strings are not cleared when shorter strings appear in their place
-        - could just fudge it by printing 18 spaces to clear out the vram, in fact i think the original does this too
 - user-entered strings are entered as double-byte jis characters, so they are printed wide when accessed
     - rewrite it to use both ASCII and double-byte chars and measure string length accordingly (but mind a '$' being misinterpreted as control code)
     - it's also impossible to write accented latin chars, maybe repurpose the kana button for this, or maybe there's enough space for it all on one screen
@@ -306,9 +302,15 @@ and again at $80af40a (start $80af28c)
 
 seems like it is coded to assume the maximum string length is 6, and to never allocate any more vram than is necessary to hold a rendered string of this length. so, where is the constant?
 
-sprite generation table at $80e7454, each entry is 5 words long, the first word is the width of the sprite  (routine at $8087ddc)
+sprite generation table at $80e7454, each entry is 5 words long:  (routine at $8087ddc)
+width, x position, y position, ?, ascii mode flag
 
 sprite distances fail due to a rounding issue in the division of 6 (characters per sprite)*2 by 5 (character width)
+
+
+interesting fact... the subroutine that allocates a text-row of sprites in OAM (at $8096f60) takes a flag parameter in r2, which if it is 0, will result in the clear-string being filled with the ASCII space character instead of the shift-jis one. so perhaps ASCII support is already built in and all these hacks were unnecessary. in this case (call at $8087e42) the game loads 1
+the value given is the final word of each entry of the aforementioned sprite gen table
+ok great the hacks were unnecessary. this routine is called many other times in the game so it might be worth looking into what else uses it
 
 
 

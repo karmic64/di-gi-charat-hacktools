@@ -221,6 +221,7 @@ textentrymenuwritehook:
             ;
             ;
             
+            /*
 workerinfodistancehook:
             ldr r0,=0x8087f40 | 1
             mov lr,r0
@@ -237,7 +238,35 @@ workerinfodistancehook:
             .pool
             
             
+            ;at this point:
+            ;r7 contains the current string
+            ;r9 contains the current string index
+            ;r0,r1, and r3 are safe for use
+workerinfocharstephook:
+            ldr r0,=0x80977bc | 1
+            push {r0}
             
+            mov r3,r9
+            mov r1,#6 ;chars left in this packet
+@@loop:     ldrb r0, [r7,r3]
+            cmp r0,#0
+            beq @@skip
+            add r3,#1
+            cmp r0,#0x80
+            bcc @@next
+            add r3,#1
+@@next:     sub r1,#1
+            bne @@loop
+            
+@@skip:     mov r9,r3
+            
+            ;return
+            mov r3,#6
+            ldrsh r0, [r5,r3]
+            pop {pc}
+            .pool
+            
+            */
             
             
             
@@ -461,26 +490,39 @@ ascjistbl:
             mov r1,#0
             
             ;skip to the next text packet, taking into account ASCII
-            ;todo handle this better by specially counting the bytes, in case there are jis chars
             .org 0x80977b4
-            mov r0,#6
+            ;ldr r0,=workerinfocharstephook | 1
+            ;bx r0
+            .pool
             
             ;fix sprite widths to allow more chars (18 to be precise)
             .org 0x80e7454 + (4*5*1)
-            .word 0x30
+            ;.word 0x30
             .org 0x80e7454 + (4*5*3)
-            .word 0x30
+            ;.word 0x30
             .org 0x80e7454 + (4*5*5)
-            .word 0x30
+            ;.word 0x30
             .org 0x80e7454 + (4*5*7)
-            .word 0x30
+            ;.word 0x30
             .org 0x80e7454 + (4*5*8)
-            .word 0x30
+            ;.word 0x30
+            
+            ;activate inbuilt ascii mode?
+            .org 0x80e7464 + (4*5*1)
+            .word 0
+            .org 0x80e7464 + (4*5*3)
+            .word 0
+            .org 0x80e7464 + (4*5*5)
+            .word 0
+            .org 0x80e7464 + (4*5*7)
+            .word 0
+            .org 0x80e7464 + (4*5*8)
+            .word 0
             
             ;fix sprite distances
             .org 0x8087f38
-            ldr r2,=workerinfodistancehook | 1
-            bx r2
+            ;ldr r2,=workerinfodistancehook | 1
+            ;bx r2
             .pool
             
             
