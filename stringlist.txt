@@ -135,7 +135,7 @@ Ptr $52174
 Ptr $527c8
 Ptr $527fc
 
-# there is a list of bad words at $e624c, but it looks unreferenced
+# there is a list of bad words at $e624c, but it's probably not worth translating
 
 LineBreak
 Comment "--- unknown?"

@@ -536,8 +536,7 @@ textentrymenucorrecthook:
             b @@copyloop
 @@single:   add r5,r5
             ldrh r5,[r6,r5]
-            mov r7,r5
-            lsr r7,#8
+            lsr r7, r5,#8
             strb r7,[r0,r4]
             add r4,#1
             strb r5,[r0,r4]
@@ -548,12 +547,14 @@ textentrymenucorrecthook:
             mov r2,#0x81
             mov r3,#0x40
 @@spaceloop:
+            cmp r4,#0x20
+            bhs @@spaceend
             strb r2,[r0,r4]
             add r4,#1
             strb r3,[r0,r4]
             add r4,#1
-            cmp r4,#0x20
-            blo @@spaceloop
+            b @@spaceloop
+@@spaceend:
             
             
             mov r1,r0
