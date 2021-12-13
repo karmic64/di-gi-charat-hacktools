@@ -6,6 +6,8 @@ KNOWN INGAME ISSUES:
 - text entry menu
     - it's impossible to write accented latin chars, maybe repurpose the kana button for this, or maybe there's enough space for it all on one screen
     - a space character was added, so leading and trailing spaces should be cleaned out on exit
+        - additionally watch out for space-only entries
+    - the game has a list of banned words, is it even worth translating?
 - there are still some missing plaintext strings (e.g other copies of worker job names)
 - "rolling" text that automatically advances skips to the next line if it is too big to fit
     - translator seems to be willing to cut the text down to fit one box, but it should still be fixed...

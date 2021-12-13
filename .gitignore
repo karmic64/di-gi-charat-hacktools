@@ -12,3 +12,8 @@ hacks/*.gba
 
 *-orig
 *-new
+
+text.txt
+text-orig.txt
+textrawdump.txt
+
