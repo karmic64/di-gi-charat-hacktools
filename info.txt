@@ -1,9 +1,10 @@
 
 KNOWN INGAME ISSUES:
 - end credits up-scroller always places text characters 2 tiles apart, even with 1-tile wide characters
-- user-entered strings are entered as double-byte jis characters, so they are printed wide when accessed
-    - rewrite it to use both ASCII and double-byte chars and measure string length accordingly (but mind a '$' being misinterpreted as control code)
-    - it's also impossible to write accented latin chars, maybe repurpose the kana button for this, or maybe there's enough space for it all on one screen
+- in the shop info menu (しいれ -> press R), the characters of the name are printed far apart
+- in the resume making screen, blood types don't show up (double mode issue)
+- text entry menu
+    - it's impossible to write accented latin chars, maybe repurpose the kana button for this, or maybe there's enough space for it all on one screen
     - a space character was added, so leading and trailing spaces should be cleaned out on exit
 - there are still some missing plaintext strings (e.g other copies of worker job names)
 - "rolling" text that automatically advances skips to the next line if it is too big to fit
@@ -271,6 +272,8 @@ halfword - 0 for padding
 1bpp charset (MFM format) is at $811d57c
 
 bl at $8055de0 loads the sprite data for the currently highlighted char (char code in r1)
+
+bl at $8053fde inits the sprites that hold the currently entered text
 
 
 

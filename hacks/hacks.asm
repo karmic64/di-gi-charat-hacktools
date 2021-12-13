@@ -131,6 +131,31 @@ wordwraphook:
             ;
             ;
             ;
+textentrymenuinitcounthook:
+            ;[r3,#6] byte count
+            ldrh r0, [r3,#6]
+            add r1, r0,#1
+            
+            ;get second char in r6
+            mov r6,#0x97
+            lsl r6,#3
+            add r6,r7
+            ldr r6,[r6]
+            ldrb r6,[r6,#1]
+            cmp r6,#0
+            beq @@skip
+            add r1,#1
+@@skip:     strh r1, [r3,#6]
+            
+            ;return
+            lsl r0,#0x10 - 1
+            ldr r2,=0x8053a1c | 1
+            bx r2
+            
+            .pool
+            
+            
+            
 textentrymenutilehook:
             ldr r2,=0x8055c20 | 1
             mov lr,r2
@@ -182,12 +207,40 @@ textentrymenuspritehook:
             
             
             
+textentrymenuheaderhook:
+            ldr r0,=0x80b1aae | 1
+            mov lr,r0
+            ldr r0,=0x80b18dc | 1
+            push {r0}
+            
+            
+            mov r0,#1
+            lsl r0,#15
+            cmp r6,r0
+            bhs @@skip
+            
+            ;sub r6,#0x20
+            add r6,r6
+            ldr r0,=ascjistbl - (0x20*2)
+            ldrh r3,[r0,r6]
+            
+@@skip:     ;return
+            mov r0,r9
+            mov r1,r8
+            mov r2,r7
+            ;mov r3,r6
+            pop {pc}
+            
+            .pool
+            
             
             
 textentrymenuwritehook:
             ;at this point:
             ;[r4,#0] - pointer to string buffer
+            ;[r4,#4] - allocated space in double-bytes, NOT max length
             ;[r4,#6] - current string length
+            ;[r4,#0x20] - actual max length in double-bytes
             ;[r6,#0] - next char to write
             ;r0 and r1 are definitely free for use
             ;r2 and r3 are probably safe too
@@ -195,20 +248,73 @@ textentrymenuwritehook:
             ldrh r0, [r6] ;get char
             ldr r1, [r4,#0] ;get pointer
             ldrh r2, [r4,#6] ;get current index
+            push {r4,r5}
+            ldrh r5, [r4,#0x20] ;get max length
+            add r5,r5
             
-            ;always write lower byte
-            strb r0, [r1,r2]
-            add r2, #1
-            
-            lsr r0,#8
+            ;the original game writes the char in the wrong byte order with strh
+            lsr r3, r0,#8
             beq @@single
+            
+            add r4, r2,#1
+            cmp r4, r5
+            bhs @@skip
+            strb r3, [r1,r2]
+            add r2, #1
+            b @@singlenocheck
+            
+@@single:   cmp r2, r5
+            bhs @@skip
+@@singlenocheck:
             strb r0, [r1,r2]
             add r2, #1
             
-@@single:   strh r2, [r4,#6] ;save new index
+@@skip:     pop {r4,r5}
+            strh r2, [r4,#6] ;save new index
             
             ldr r0,=0x8055fde | 1
             bx r0
+            .pool
+            
+            
+            
+            
+textentrymenudeletehook:
+            ;[r4,#0] - pointer to string buffer
+            ;[r4,#6] - current string length
+            ;r0-r3 are safe
+            
+            ldr r0,=0x8056b06 | 1
+            mov lr,r0
+            ldr r0,=0x8055cb0 | 1
+            push {r0}
+            
+            
+            ldrh r2, [r4,#6]
+            cmp r2,#1 ;only one byte?
+            bls @@skip
+            
+            ; find the last char
+            ldr r1, [r4,#0]
+            mov r3,#0
+@@chkloop:  ldrb r0, [r1,r3]
+            cmp r0,#0x80
+            blo @@chks
+            add r3,#1
+@@chks:     add r3,#1
+            cmp r3,r2
+            blo @@chkloop
+            
+@@afterchk: cmp r0,#0x80
+            blo @@skip
+            sub r2,#1
+@@skip:     sub r2,#1
+            strh r2, [r4,#6]
+            
+            ;return
+            mov r0,r5
+            pop {pc}
+            
             .pool
             
             
@@ -301,6 +407,12 @@ ascjistbl:
             
             
             .align 4
+           
+            ;disable non-ascii mode
+            ;this may not work, and need to be done on a case-by-case basis
+            .org 0x8096f80
+            mov r2,#0
+            nop
             
             ;
             ;
@@ -309,6 +421,17 @@ ascjistbl:
             ;
             ;
             ;
+            
+            
+            ;copy original string more directly on entry
+            .org 0x8053988
+            lsl r1,#8
+            orr r1,r0
+            .org 0x8053a14 ;count by bytes
+            ldr r0,=textentrymenuinitcounthook | 1
+            bx r0
+            .pool
+            
             
             ;change font used by header to thin3px
             .org 0x8054bfa ;main font
@@ -319,6 +442,11 @@ ascjistbl:
             ;change font used by entered text display
             .org 0x8053f1c
             bl 0x8098e5c
+            
+            ;allow more characters in entered text display
+            ;conveniently this appears to also allocate more memory for the text itself. woooo
+            .org 0x8053fdc
+            mov r3,#0x10
             
             ;disable switching kana
             .org 0x80569b0
@@ -337,6 +465,7 @@ ascjistbl:
             .org 0x805604e
             b 0x80560b4
             
+            
             ;convert asc->jis before drawing tiles
             .org 0x8055c16
             ldr r2,=textentrymenutilehook | 1
@@ -347,12 +476,112 @@ ascjistbl:
             ldr r4,=textentrymenuspritehook | 1
             bx r4
             .pool
+            ;convert asc->jis before showing header
+            .org 0x80b1aa2
+            ldr r0,=textentrymenuheaderhook | 1
+            bx r0
+            .pool
             
+            ;disable the old max-length check, we do a better one
+            .org 0x8055f82
+            nop
             ;write char 1/2-bytes instead of always 2
             .org 0x8055fcc
-            ;ldr r0,=textentrymenuwritehook | 1
-            ;bx r0
+            ldr r0,=textentrymenuwritehook | 1
+            bx r0
             .pool
+            ;delete, taking into account 1-byte chars
+            .org 0x8056afa
+            ldr r0,=textentrymenudeletehook | 1
+            bx r0
+            .pool
+            
+            
+            ;expand string to double-bytes before displaying
+            ;this may be small enough to not require a hook
+            ;VERY tightly packed, in fact this can't fit even one more byte
+            .org 0x8055cb0
+            push {r4-r7,lr} ;save more regs
+            .org 0x8055cb4
+            .area 0x8055d14-org()
+textentrymenucorrecthook:
+            ;r0 contains the struct base pointer
+            ;[r0,#0x94] old string pointer
+            ;[r0,#0x94+6] string length
+            ;r0,#0x94+8 direct new string pointer, but there's not enough memory so we just take the end of wram
+            add r0,#0x94
+            ldr r1, [r0]
+            ldrh r2,[r0, #6]
+            
+            mov r0,#3 ;r0 = $2ffffe0
+            lsl r0,#24
+            sub r0,#0x20
+            
+            ;copy string
+            ldr r6,=ascjistbl - (0x20*2)
+            mov r3,#0 ;old index
+            mov r4,#0 ;new index
+@@copyloop: cmp r3,r2
+            bhs @@copyend
+            ldrb r5, [r1,r3]
+            add r3,#1
+            cmp r5,#0x80
+            blo @@single
+            strb r5, [r0,r4]
+            add r4,#1
+            ldrb r5, [r1,r3]
+            strb r5, [r0,r4]
+            add r3,#1
+            add r4,#1
+            b @@copyloop
+@@single:   add r5,r5
+            ldrh r5,[r6,r5]
+            mov r7,r5
+            lsr r7,#8
+            strb r7,[r0,r4]
+            add r4,#1
+            strb r5,[r0,r4]
+            add r4,#1
+            b @@copyloop
+@@copyend:  
+            ;pad end with spaces
+            mov r2,#0x81
+            mov r3,#0x40
+@@spaceloop:
+            strb r2,[r0,r4]
+            add r4,#1
+            strb r3,[r0,r4]
+            add r4,#1
+            cmp r4,#0x20
+            blo @@spaceloop
+            
+            
+            mov r1,r0
+            ;normal exit
+            mov r2,r12
+            ldr r0,[r2,#0x6c]
+            bl 0x80b0850
+            pop {r4-r7,pc}
+            .pool
+            .endarea
+            
+            
+            ;copy correctly on exit
+            ;todo expand with leading/trailing spaces cleanup
+            .org 0x805637e
+            .area 0x8056388 - org()
+            add r1,#0x94
+            
+            ldrh r2, [r1,#6] ;length
+            ldr r1, [r1] ;text pointer
+            
+            .if org() != 0x8056388
+                b 0x8056388
+            .endif
+            .endarea
+            .org 0x805639a ;don't shift index of null terminator
+            nop
+            
             
             ;new character arrangement
             ;note, you MUST have characters on the bottom row
@@ -444,7 +673,8 @@ ascjistbl:
             
             .halfword 00,09, '@', 0 ;@
             .halfword 01,09, '#', 0 ;#
-            .halfword 02,09, '$', 0 ;$
+            ;todo choose something else (game uses $ for substitution)
+            ;.halfword 02,09, '$', 0 ;$
             .halfword 03,09, '%', 0 ;%
             .halfword 04,09, '&', 0 ;&
             .halfword 05,09, '*', 0 ;*
@@ -507,7 +737,7 @@ ascjistbl:
             .org 0x80e7454 + (4*5*8)
             ;.word 0x30
             
-            ;activate inbuilt ascii mode?
+            ;activate inbuilt ascii mode
             .org 0x80e7464 + (4*5*1)
             .word 0
             .org 0x80e7464 + (4*5*3)

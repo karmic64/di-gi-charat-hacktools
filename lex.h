@@ -130,6 +130,9 @@ long long stoi(char *s)
 /* returns amount of chars sent to dest including null terminator (-1 if error) */
 int processstring(uint8_t *dest, uint8_t *src, int doublemode)
 {
+    /* temp hack */
+    doublemode = 0;
+    
     int si = 0;
     int di = 0;
     uint8_t c;
