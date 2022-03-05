@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
+#include <sys/stat.h>
 #include <errno.h>
 #include <stdint.h>
 
@@ -38,7 +39,11 @@ int main(int argc, char *argv[])
   fread(inbuf, 1, fsize, f);
   fclose(f);
   
-  mkdir("MBM-orig");
+  mkdir("MBM-orig"
+#ifndef _WIN32
+    , S_IRWXU|S_IRWXG|S_IRWXO
+#endif
+  );
   chdir("MBM-orig");
   
   uint8_t *inbufend = inbuf+fsize;

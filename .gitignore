@@ -1,4 +1,12 @@
 *.exe
+build
+dsc
+mbm
+mcm
+mfm
+mrm
+text
+
 *.gba
 hacks/*.gba
 
