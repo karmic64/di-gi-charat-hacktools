@@ -6,6 +6,9 @@ mcm
 mfm
 mrm
 text
+dgvc/dump-dsc
+dgvc/gen-dsc
+dgvc/gen-text
 
 *.gba
 hacks/*.gba

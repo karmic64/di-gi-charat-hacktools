@@ -14,7 +14,7 @@ Comment "if a string has a listed maximum length, any characters past this will 
 
 LineBreak
 Comment "--- shop rating screen"
-Double
+#Double
 Ptr $c4bc
 Ptr $c504
 Ptr $c9d40
@@ -30,7 +30,7 @@ Ptr $c9d64
 
 LineBreak
 Comment "--- various text prompt menu titles"
-Double
+#Double
 Ptr $10090
 Ptr $101a0 $1068c
 Ptr $102c4 $10658

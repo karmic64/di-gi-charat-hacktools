@@ -1,6 +1,5 @@
 
 KNOWN INGAME ISSUES:
-- end credits up-scroller always places text characters 2 tiles apart, even with 1-tile wide characters
 - in the shop info menu (しいれ -> press R), the characters of the name are printed far apart
 - in the resume making screen, blood types don't show up (double mode issue)
 - text entry menu

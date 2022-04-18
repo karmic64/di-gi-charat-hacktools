@@ -771,7 +771,34 @@ textentrymenucorrecthook:
             ldr r0, =wordwraphook | 1
             bx r0
             .pool
-
+            
+            
+            
+            
+            ;
+            ;
+            ;
+            ; ending credits
+            ;
+            ;
+            ;
+            
+            ; make text allocated tiles wider
+            .org 0x808b26e
+            mov r3,#0x22
+            
+            ; disable loading of MFM $11abe8 and $11ac18, since it screws up the spacing
+            .org 0x8098e8c
+            mov r0,#0
+            bx lr
+            
+            ; change font (fixes chars being always printed far apart)
+            .org 0x808ae14
+            bl 0x8098e5c
+            
+            ; clear string with ascii spaces instead of shift-jis spaces
+            .org 0x80e76b8
+            .fill 0x28,' '
 
 
             
