@@ -1,6 +1,5 @@
 
 KNOWN INGAME ISSUES:
-- in the shop info menu (しいれ -> press R), the characters of the name are printed far apart
 - in the resume making screen, blood types don't show up (double mode issue)
 - text entry menu
     - it's impossible to write accented latin chars, maybe repurpose the kana button for this, or maybe there's enough space for it all on one screen

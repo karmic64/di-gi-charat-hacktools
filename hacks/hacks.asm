@@ -758,6 +758,20 @@ textentrymenucorrecthook:
             
             
             
+            ;
+            ;
+            ;
+            ; shop info menu
+            ;
+            ;
+            ;
+            
+            ;change font
+            .org 0x8086a88
+            bl 0x8098e5c
+            
+            
+            
             
             
             ;
