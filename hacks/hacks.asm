@@ -213,7 +213,17 @@ textentrymenuheaderhook:
             ldr r0,=0x80b18dc | 1
             push {r0}
             
+            ;; special case: do nothing if we are using MFM $1607a8 (date display)
+            ;; this font is weird and uses single-byte chars as the character codes
+            mov r0,r8
+            ldr r0,[r0,#8]
+            ldr r1,=0x81607a8
+            cmp r0,r1
+            beq @@skip
             
+            
+            
+            ;; actually convert the char
             mov r0,#1
             lsl r0,#15
             cmp r6,r0
@@ -222,13 +232,13 @@ textentrymenuheaderhook:
             ;sub r6,#0x20
             add r6,r6
             ldr r0,=ascjistbl - (0x20*2)
-            ldrh r3,[r0,r6]
+            ldrh r6,[r0,r6]
             
 @@skip:     ;return
             mov r0,r9
             mov r1,r8
             mov r2,r7
-            ;mov r3,r6
+            mov r3,r6
             pop {pc}
             
             .pool
@@ -711,6 +721,7 @@ textentrymenucorrecthook:
             ;
             ;
             ;
+            
             .org 0x8087782 ;disable thick font
             nop
             nop
