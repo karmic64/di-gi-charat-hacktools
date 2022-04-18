@@ -2,7 +2,6 @@
 KNOWN INGAME ISSUES:
 - in the resume making screen, blood types don't show up (double mode issue)
 - text entry menu
-    - it's impossible to write accented latin chars, maybe repurpose the kana button for this, or maybe there's enough space for it all on one screen
     - a space character was added, so leading and trailing spaces should be cleaned out on exit
         - additionally watch out for space-only entries
     - the game has a list of banned words, is it even worth translating?
