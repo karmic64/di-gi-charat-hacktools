@@ -25,6 +25,13 @@ KNOWN TOOL ISSUES:
 
 
 
+KNOWN CRASHES:
+01. game crashed once after saying yes to dejiko's special "beam from the eyes" cleaning power, but can't reproduce
+02. see 02.sav. just go through the next week of work, and then the game crashes unpredictably when executing the first ShowTextBox command in DSC $3ffd20
+	only crashes in mGBA 0.9.3, works fine in VBA-M 2.1.4
+
+
+
 
 this game has some hidden features:
 
