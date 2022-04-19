@@ -14,8 +14,10 @@ ROMNAME := DiGi Charat - DigiCommunication (J) [!].gba
 BUILDDATE := $(shell date -u +"%Y/%m/%d")
 BUILDTIME := $(shell date -u +"%H:%M:%S")
 
-# static builds for ease of distribution
-CFLAGS := -static -s -Ofast -Wall -D ROMNAME="\"$(ROMNAME)\"" -D BUILDDATE="\"$(BUILDDATE)\"" -D BUILDTIME="\"$(BUILDTIME)\"" -I .
+ifdef COMSPEC
+CFLAGS := -static
+endif
+CFLAGS := $(CFLAGS) -s -Ofast -Wall -D ROMNAME="\"$(ROMNAME)\"" -D BUILDDATE="\"$(BUILDDATE)\"" -D BUILDTIME="\"$(BUILDTIME)\"" -I .
 LIBS := -lpng -lz -lm
 
 SRCS := build.c dsc.c mbm.c mcm.c mfm.c mrm.c text.c
