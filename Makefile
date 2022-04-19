@@ -74,7 +74,7 @@ clean:
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 %$(DOTEXE): %.o
-	$(CC) -s -o $@ $^ $(LIBS)
+	$(CC) $(STATIC) -s -o $@ $^ $(LIBS)
 
 
 %.yy.c %.yy.h: %.l
