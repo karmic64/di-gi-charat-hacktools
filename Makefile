@@ -24,7 +24,6 @@ LIBS := -lpng -lz -lm
 
 
 EXE_SRCS := extract.c build.c
-EXES := $(EXE_SRCS:.c=$(DOTEXE))
 
 
 SRCS := $(EXE_SRCS) compress.c decompress.c lex.c text-extract.c
@@ -54,7 +53,7 @@ hacks: $(HACKS_OUT)
 
 
 clean:
-	-$(RM) $(OBJS) $(DEPS) $(EXES) $(HACKS_OUT) *.yy.*
+	-$(RM) $(OBJS) $(DEPS) $(EXE_SRCS:.c=) $(EXE_SRCS:.c=.exe) $(HACKS_OUT) *.yy.*
 
 
 
@@ -62,7 +61,7 @@ clean:
 
 
 %.d: %.c
-	$(CC) -M -MG -MT $(<:.c=.o) -MF $@ $<
+	$(CC) -MM -MG -MT $(<:.c=.o) -MF $@ $<
 
 -include $(DEPS)
 
