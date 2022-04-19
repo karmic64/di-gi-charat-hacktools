@@ -14,7 +14,6 @@ Comment "if a string has a listed maximum length, any characters past this will 
 
 LineBreak
 Comment "--- shop rating screen"
-#Double
 Ptr $c4bc
 Ptr $c504
 Ptr $c9d40
@@ -30,7 +29,6 @@ Ptr $c9d64
 
 LineBreak
 Comment "--- various text prompt menu titles"
-#Double
 Ptr $10090
 Ptr $101a0 $1068c
 Ptr $102c4 $10658
@@ -44,7 +42,15 @@ Ptr $10dec
 
 LineBreak
 Comment "--- misc shop-related"
-NoDouble
+Ptr $13ce4
+Ptr $13d48
+Ptr $142c4
+Ptr $192b0
+Ptr $192d4
+Ptr $1b8c0
+Ptr $1b960
+Ptr $1bcc6
+Ptr $1bcec
 Ptr $12c8c
 Ptr $12d14
 Ptr $12d84
@@ -88,18 +94,20 @@ Abs $ca954
 Abs $ca964
 
 LineBreak
+Comment "--- resume screen blood type select menu"
+Comment "--- (must be padded to 4 characters ---)"
+PtrList $ca2f4 Amt 7
+
+LineBreak
 Comment "--- item names"
-NoDouble
 StringList $ca974 Max $18 Dist $44 Amt 123
 
 LineBreak
 Comment "--- work-related item names"
-NoDouble
 StringList $ccad4 Max $18 Dist $44 Amt 32
 
 LineBreak
 Comment "--- event names?"
-NoDouble
 Comment "dejiko"
 StringList $cd35b Max $20 Dist $38 Amt 37
 Comment "usada"
@@ -115,7 +123,6 @@ Comment " note that all of these strings are centered onscreen by padding with s
 Comment " make your strings the amount of characters listed, and use spaces to center"
 # pointer tables actually follow these strings, but to discourage not spacing
 # correctly we put a maximum length on them anyway
-NoDouble
 Comment "song names (32 chars)"
 StringList $d3814 Max $24 Amt 22
 Comment "sound effect names (16 chars)"
@@ -183,6 +190,7 @@ LineBreak
 Comment "--- shop-related"
 PtrList $ebb84 Amt 12
 PtrList $ebc20 Amt 56
+PtrList $ebd4c Amt 5
 PtrList $ebdd4 Amt 16
 PtrList $ebe4c Amt 4
 PtrList $ec2fc Amt 16

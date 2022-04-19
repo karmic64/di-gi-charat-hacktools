@@ -413,7 +413,7 @@ int main(int argc, char *argv[])
   fclose(f);
   
   /* ---------- create output file from TOC ----------- */
-  f = fopen("text.txt", "wb");
+  f = fopen("text-orig.txt", "wb");
   FILE *df = fopen("textrawdump.txt", "wb");
   
   int strcnt = 0;

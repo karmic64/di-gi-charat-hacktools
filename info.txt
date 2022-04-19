@@ -1,22 +1,17 @@
 
 KNOWN INGAME ISSUES:
-- in the resume making screen, blood types don't show up (double mode issue)
 - text entry menu
     - a space character was added, so leading and trailing spaces should be cleaned out on exit
         - additionally watch out for space-only entries
     - the game has a list of banned words, is it even worth translating?
-- there are still some missing plaintext strings (e.g other copies of worker job names)
 - "rolling" text that automatically advances skips to the next line if it is too big to fit
     - translator seems to be willing to cut the text down to fit one box, but it should still be fixed...
-- all text display routines should be fixed to support both ASCII and double-byte chars, making the "double mode" obsolete
-    - high-level change, but possibly rewrite the game to use a single-byte charset (e.g by extending Windows-1252 with extra graphical chars) instead of shift-jis
 - voice clips are still in japanese (lol)
 
 
 KNOWN TOOL ISSUES:
 - the ROM name is hardcoded into the extractors/hacks. not really a problem right now but it will be when digicom2 translation starts
 - MBM 68B6A8 and others like it are animated ingame - where are the other frames? will it even be necessary to find them?
-    - translator calls pyocola "Pyokora Analogue the 3rd" while MBM 694860 calls her "Pyocola Analogue III", for consistency either one must be changed (i personally prefer the latter)
 - MBM 69B8EC has wrong palette 
     - MBM 478DD0 seems like how it's supposed to look
 - DSC importing should optimize to remove redundant subscripts

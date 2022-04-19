@@ -10,7 +10,7 @@ No good store manager
 No good store manager
 No good no good store manager
 Bingbo God store manager
-Name
+name
 Favorite food
 Favorite animal
 Respect
@@ -18,26 +18,31 @@ Respect
 , Favorite animal
 ,Favorite food
 name
-Favorite food / animals, people who respect
+Favorite food / animals, people who are respectful
 Kuromame
+% d Shine \ n
+% d Tataki Uri, Yaruki-20 \ n
+% s Special fashion \ n
+% s and% s
+% s% s
 Special fashion
-Normal 
+Normal
 Similar
 Business start \ n
-Cash register
+At the cash register
 Customer service
 Inventory control
-clean up
-Di Gi Charat
+cleaning
+Dejiko
 Usada
 Puchiko
-Something
+something
 % 6s% 8s Savage% 3d% 3d \ n
 Number of visitors% 4d \ n
 Cleanliness% 4d \ n
 Visitor% 4d% 4d% 4d \ n
 % 5d% 5d \ n
-Di Gi Charat
+Dejiko
 Usada
 Puchiko
 Piyoko
@@ -57,29 +62,33 @@ Trading cards
 Plush Doll
 Mug
 T-shirt
-Watches
+watch
 Pins
-Di Gi Charat Ballpoint Pen
-Di Gi Charat Pen Case
-Di Gi Charat Eraser
-Di Gi Charat poster
-Di Gi Charat Calendar
-Di Gi Charat Comic
-Di Gi Charat
-Di Gi Charat CD
-Di Gi Charat Band
-Di Gi Charat Trading Card
-Di Gi Charat Plush Toy
-Di Gi Charat Mug
-Di Gi Charat T-shirt
-Di Gi Charat Watch
-Di Gi Charat Pins
+A
+B
+AB
+O
+Dejiko ballpoint pen
+Dejiko Pen Case
+Dejiko Eraser
+Dejiko poster
+Dejiko calendar
+Dejiko Comic
+Dejikoboushi
+Dejiko CD
+Dejiko band
+Dejiko Trading Card
+Dejiko plush toy
+Dejiko mug
+Dejiko T-shirt
+Dejiko watch
+Dejiko Pins
 Usada ballpoint pen
 Usada Pen Case
 Usada Eraser
 Usada poster
 Usada calendar
-Usada Comics
+Usada comics
 Usadaboshi
 Usada CD
 Usada band
@@ -90,12 +99,12 @@ Usada T-shirt
 Usada watch
 Usada Pins
 Puchiko ballpoint pen
-Puchiko pen case
+Puchiko Pen Case
 Puchiko eraser
 Puchiko poster
 Puchiko calendar
 Puchiko comic
-Puchikoboshi
+Puchikoboushi
 Puchiko CD
 Puchiko band
 Puchiko Trading Card
@@ -105,21 +114,21 @@ Puchiko T-shirt
 Puchiko watch
 Puchiko Pins
 Delicious broccoli
-Cat gloves
+Cat tebukuro
 Gema cushion
 Di Gi Charat
 Di Gi Charat DVD
-Di Gi Charat Fantasy
+Dejiko fantasy
 Party night
-Di Gi Charat
-Di Gi Charat song
+Dejiko Kobeya
+Dejiko no Uta
 Piyoko ballpoint pen
 Piyoko Pen Case
 Piyoko Eraser
 Piyoko poster
 Piyoko calendar
 Piyoko comic
-Piyokoboshi
+Piyokoboushi
 Piyoko CD
 Piyoko band
 Piyoko Trading Card
@@ -151,7 +160,7 @@ Kai calendar
 Kai comic
 Kaiboushi
 Kai CD
-Kai Band
+Kai band
 Kaitreka
 Kai plush toy
 Kai mug
@@ -174,8 +183,8 @@ Ku T-shirt
 Ku watch
 Kupins
 Delicious broccoli
-Braguema armband
-Braguema corps flag
+Bragema armband
+Bragema corps flag
 Mystery Gema Cushion
 Aquarius video
 Aquarius DVD
@@ -196,7 +205,7 @@ megaphone
 Loudspeaker
 cart
 Bogie
-Broom
+broom
 Vacuum cleaner
 Abacus
 calculator
@@ -204,7 +213,7 @@ megaphone
 Loudspeaker
 cart
 Bogie
-Broom
+broom
 Vacuum cleaner
 Abacus
 calculator
@@ -212,7 +221,7 @@ megaphone
 Loudspeaker
 cart
 Bogie
-Broom
+broom
 Vacuum cleaner
 Cherry-blossom viewing 1
 Cherry-blossom viewing 2
@@ -230,12 +239,12 @@ Mid-Autumn Festival 1
 Mid-Autumn Festival 2
 Animal protection week 1
 Animal protection week 2
-Health and sports day 1
-Health and sports day 2
+Physical education day 1
+Physical education day 2
 Halloween 1
 Halloween 2
-Hot spring
-Hot spring
+hot spring
+hot spring
 First snow
 Santa Claus
 Santa Claus_2
@@ -244,13 +253,13 @@ Party night
 Christmas 2
 Christmas
 New Year
-Di Gi Charat Birthday 1
+Dejiko birthday 1
 Setsubun
-Di Gi Charat Birthday 2
-Valentine's day
-Valentine's day
+Dejiko Birthday 2
+valentine's day
+valentine's day
 Hinamatsuri
-Settlement
+settlement
 Cherry-blossom viewing 1
 Cherry-blossom viewing 2
 Golden week 1
@@ -263,18 +272,18 @@ Tanabata 2_1
 Sea bathing
 Summer festival 1
 Summer festival 2
-Usada Birthday 1
-Usada Birthday 2
+Usada birthday 1
+Usada birthday 2
 Mid-Autumn Festival 1
 Mid-Autumn Festival 2
 Animal protection week 1
 Animal protection week 2
-Health and sports day 1
-Health and sports day 2
+Physical education day 1
+Physical education day 2
 Halloween 1
 Halloween 2
 Halloween MG
-Hot spring
+hot spring
 First snow
 Santa Claus
 Santa Claus_2
@@ -284,10 +293,10 @@ Christmas 2
 Christmas
 New Year
 Setsubun
-Valentine's day
-Valentine's day
+valentine's day
+valentine's day
 Hinamatsuri
-Settlement
+settlement
 Cherry-blossom viewing 1
 Cherry-blossom viewing 2
 Golden week 1
@@ -306,11 +315,11 @@ Mid-Autumn Festival 1
 Mid-Autumn Festival 2
 Animal protection week 1
 Animal protection week 2
-Health and sports day 1
-Health and sports day 2
+Physical education day 1
+Physical education day 2
 Halloween 1
 Halloween 2
-Hot spring
+hot spring
 First snow
 Santa Claus
 Santa Claus_2
@@ -322,23 +331,23 @@ New Year
 Puchiko birthday 1
 Puchiko birthday 2
 Setsubun
-Valentine's day
-Valentine's day
+valentine's day
+valentine's day
 Hinamatsuri
-Settlement
+settlement
 Picnic 1
 Picnic 2
 Golden week 1
 Golden week 2
 Amusement park 1
 Amusement park 2
-Caries Day 1
-Caries Day 2
+Caries day 1
+Caries day 2
 Sea bathing
-fireworks
+firework
 Mid-Autumn Festival
 Animal protection week
-Health and sports day
+Sports day
 Piyoko birthday 1
 Piyoko Birthday 2
 Cold pyo
@@ -349,104 +358,104 @@ Party night
 New Year's Eve
 Setsubun 1
 Setsubun 2
-Valentine day 1
-Valentine day 2
+Valentine's day 1
+Valentine's day 2
 Valentine's day 2_1
 Valentine's day 2_2
 Hinamatsuri
-Settlement
-     PARTY ‚òÜ NIGHT
-          DUP!
-   Welcome! (Full version)   
-       $ 1 million smile
-        Vitamin "D"
-   Never give up
-        Welcome!
-  We are the ONE!
-              Departure
-          I did it!
-        It was no good ~
-         Working thing ‚ô™
-           Uwanosora
-         Yu, U, U, Tsu
-       hopeful afternoon
-         liquid pension
-           Like autumn leaves
-        our little step
-        Is this a showcase?
-         positive mind
-      Scramble Egg
-      the dawn of eternity
-    Sound effect 1
-    Sound effect 2
-    Sound effect 3
-    Sound effect 4
-    Sound effect 5
-    Sound effect 6
-    Sound effect 7
-    Sound effect 8
-    Sound effect 9
-    Sound effect 10
-    Sound effect 11
-    Sound effect 12
-    Sound effect 13
-    Sound effect 14
-    Sound effect 15
-    Sound effect 16
-    Sound effect 17
-    Sound effect 18
-    Sound effect 19
-    Sound effect 20
-    Sound effect 21
-    Sound effect 22
-    Sound effect 23
-    Sound effect 24
-    Sound effect 25
-    Sound effect 26
-    Sound effect 27
-     Dejiko Communication
-   Nyonyonyonyonyo ...
-          Di Gi Charat / Voice 1
-          Di Gi Charat / Voice 2
-          Di Gi Charat / Voice 3
-          Di Gi Charat / Voice 4
-          Di Gi Charat / Voice 5
-          Di Gi Charat / Voice 6
-          Di Gi Charat / Voice 7
-          Di Gi Charat / Voice 8
-          Usada / Voice 1
-          Usada / Voice 2
-          Usada / Voice 3
-          Usada / Voice 4
-          Usada / Voice 5
-          Usada / Voice 6
-          Puchiko / Voice 1
-          Puchiko / Voice 2
-          Puchiko / Voice 3
-          Puchiko / Voice 4
-          Puchiko / Voice 5
-          Puchiko / Voice 6
-          Puchiko / Voice 7
-          Piyoko / Voice 1
-          Piyoko / Voice 2
-          Piyoko / Voice 3
-          Piyoko / Voice 4
-          Piyoko / Voice 5
-          Riku / Voice 1
-          Riku / Voice 2
-          Kai Voice 1
-          Kai Voice 2
-          Ku / Voice 1
-          Ku / Voice 2
-          Gema / Voice 1
-          Gema / Voice 2
-          Gema / Voice 3
-          Gema / Voice 4
-          Gema / Voice 5
+settlement
+PARTY Åô NIGHT
+DUP!
+Welcome! (Full version)
+1 million $ smile
+Vitamin "D"
+Never give up
+Welcome!
+We are the ONE!
+Departure
+I did it!
+It was no good ~
+Working things ÅÙ
+Wow sky
+Yu, u, u, tsu
+hopeful afternoon
+liquid pension
+Like autumn leaves
+our little step
+Is this a showcase?
+positive mind
+Scramble Egg
+the dawn of eternity
+Sound effect 1
+Sound effect 2
+Sound effect 3
+Sound effect 4
+Sound effect 5
+Sound effect 6
+Sound effect 7
+Sound effect 8
+Sound effect 9
+Sound effect 10
+Sound effect 11
+Sound effect 12
+Sound effect 13
+Sound effect 14
+Sound effect 15
+Sound effect 16
+Sound effect 17
+Sound effect 18
+Sound effect 19
+Sound effect 20
+Sound effect 21
+Sound effect 22
+Sound effect 23
+Sound effect 24
+Sound effect 25
+Sound effect 26
+Sound effect 27
+Dejiko Communication
+Nyonyo Nyo Nyo ...
+Dejiko / Voice 1
+Dejiko / Voice 2
+Dejiko / Voice 3
+Dejiko / Voice 4
+Dejiko / Voice 5
+Dejiko / Voice 6
+Dejiko / Voice 7
+Dejiko / Voice 8
+Usada / Voice 1
+Usada / Voice 2
+Usada / Voice 3
+Usada / Voice 4
+Usada / Voice 5
+Usada / Voice 6
+Puchiko / Voice 1
+Puchiko / Voice 2
+Puchiko / Voice 3
+Puchiko / Voice 4
+Puchiko / Voice 5
+Puchiko / Voice 6
+Puchiko / Voice 7
+Piyoko / Voice 1
+Piyoko / Voice 2
+Piyoko / Voice 3
+Piyoko / Voice 4
+Piyoko / Voice 5
+Riku / Voice 1
+Riku / Voice 2
+Kai Voice 1
+Kai Voice 2
+Ku / Voice 1
+Ku / Voice 2
+Gema / Voice 1
+Gema / Voice 2
+Gema / Voice 3
+Gema / Voice 4
+Gema / Voice 5
 Goo
 Choki
 Par
-None
+none
 Level% d
 Master level
 nothing
@@ -456,13 +465,13 @@ yet
 % s store manager
 % 10d points
 % d pieces% d yen
-Profit% d%%
-% d yen
-A little
+Earnings% d%
+% d Yen
+a little
 \ x02 Very \ x1a
 % s store
 "Dejiko Communication"
-Planning / production
+Planning and production
 Broccoli Co., Ltd.
 Character design / original picture
 Koge-Donbo
@@ -472,8 +481,8 @@ Supervision
 Hitomi zebra
 Original picture progress management
 Yuji Matsukura
-Terashima Kiyoaki
-Planning
+Kiyoaki Terashima
+plan
 Planning summary
 Takehiro Kawachi
 Planning assistant
@@ -482,17 +491,17 @@ Minoru Kubota
 program
 Main program
 Masami Imamura
- Library/
+Library/
 User interface
- simulation/
+simulation/
 Mini game program
 Tetsuya Abe
 Mini game program
 Takashi Toyoshima
 Sound driver program
-Akira Saito
+Akiyoshi Saito
 design
-System graphic
+System graphics
 Makoto Shiina
 Dot character / map graphic
 Fujita extension
@@ -501,66 +510,66 @@ Tomoya Onda
 Naoki Horii
 Dot character cooperation
 Yasuhiro Kano
-Matsuzawa Kazuya
-Koji Aoda
+Kazuya Matsuzawa
+Koji Aota
 Bust up / event CG
 Progress
-Kageyama Bunken
+Fuminori Kageyama
 Coloring
 Yutaka Yamazaki
 Yoshimi Okada
-Yoshikazu Hamada
-Mizoguchi starfish
-Asakura cherry blossoms
+Tajima Yoshikazu
+Mizoguchi Hitoshi
+Asakura Sakura
 CG finish
 scenario
 Main scenario
 Kenichiro Kikuchi
 Multi-conversation scenario
-Directly to Watanabe
+Naoyuki Watanabe
 Directing
 sound
-Composition / sound effect
+Composition / sound effects
 Manabu Namiki
-Existing song arrangement
+Arrangement of existing songs
 Arrangement cooperation
 Tomoyuki Hamada
 Insert song
 "Welcome!"
 Lyrics: Koge-Donbo
-Composition: Yusuke Sakamoto
-"PARTY ‚òÜ NIGHT"
+Composer: Yusuke Sakamoto
+"PARTY Åô NIGHT"
 "Vitamin" D ""
-"Million $ Smile"
+"1 million $ smile"
 "DUP!"
 "Never give up"
 Lyrics: Yuki Mori
-"We are the one!"
-Lyrics: Akiya Ginshiro
-Composition: Takehiro Kawabe
+"We are the ONE!"
+Lyrics: Ginshiro Akiya
+Composer: Takehiro Kawabe
 CAST
 Di Gi Charat
 Asami Sanada
 La Bi Ann Rose
 Kyoko Hikami
 Petit Carat
-    Sawashiro Miyuki
+Sawashiro Miyuki
 Gema
 Yoshiko Kamei
 Piyoko-Analog III
 Megumi Hayashibara
-Riku = Heisenberg
+Riku-Heisenberg
 Kosuke Toriumi
-Kai-Schweitzer
+Kai-Schweizer
 Chihiro Suzuki
 Ku-Ehrhardt
 Saeki Tomo
-Manual
+manual
 Yuya Tanaka
 Manual design
-Takebayashi Hayato
+Hayato Takebayashi
 Special thanks
-Arima Toyouji
+Yutaka Arima
 Takuro Matsuda
 Tadokoro
 Iwao Yanagisawa
@@ -570,7 +579,7 @@ Shinzo Yamamoto
 Nobuhisa Shinoda
 Media Works Co., Ltd.
 Product management
-development of
+development
 M2 Co., Ltd.
 SYSTEM ENGINE
 Hephaestus (C) M2
@@ -586,14 +595,14 @@ Kale Juice
 rose
 Akihabara
 Dreamland
-Villa Kubari
+Villa
 sure thing
 Pita Ten
 Bicycle
-Gomoku
+GOMOKUNARAB
 broccoli
 cauliflower
-Tomato
+tomato
 Carrot
 celery
 Akihabara store
@@ -603,7 +612,7 @@ AB
 O
 broccoli
 cauliflower
-Tomato
+tomato
 Carrot
 celery
 green pepper
@@ -617,11 +626,11 @@ garlic
 olive
 Truffle
 lettuce
-Asparagus
+asparagus
 parsley
 basil
 paprika
-Di Gi Charat
+Dejiko
 Usada
 Puchiko
 Piyoko
@@ -629,43 +638,47 @@ Riku
 Kai
 Ku
 Gema
-Majingappa
+Gappa
 Atka mackerel mirin
-Mystery Gema
+Mysterious gema
 Bragema member
 I
 Older sister
-Pyocola
-I
+Piyoko
+Me
 Lieutenant General
 Major
 Marshal
 myself
 me
+cash register
+Customer service
+Goods organization
+cleaning
+reconnaissance
 Abacus
 calculator
-cash register
 bare hands
-Roller blade
-wireless device
+Rollerblade
+transceiver
 cart
 forklift
 mop
-Vacuum cleaner
+vacuum cleaner
 Amazing vacuum cleaner
 Clean with a beam
 Popular gathering
 Low price purchase
-None
-Person
+none
+person
 food
 drink
-Animals
-Plant
-place 
+animal
+plant
+place
 playground
-jobs 
-TV set
+work
+tv set
 manga
 vehicle
-Play
+play
