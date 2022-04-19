@@ -12,6 +12,7 @@
 
 #include "compress.h"
 
+#include "rom.h"
 #include "script.h"
 
 #define MAX_SUBSCRIPTS 256

@@ -1,3 +1,7 @@
+#pragma once
+
+#include <stdint.h>
+
 /* note: string/jumptable lengths do NOT count as an argument */
 #define A_END 0
 #define A_NUM 1

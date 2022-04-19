@@ -1,11 +1,7 @@
 *.exe
+*.o
 build
-dsc
-mbm
-mcm
-mfm
-mrm
-text
+extract
 dgvc/dump-dsc
 dgvc/gen-dsc
 dgvc/gen-text
@@ -14,6 +10,7 @@ dgvc/gen-text
 hacks/*.gba
 
 *.yy.c
+*.yy.h
 
 *.d
 
