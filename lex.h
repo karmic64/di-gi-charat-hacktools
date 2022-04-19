@@ -6,33 +6,6 @@
 #include "lex.yy.c"
 
 
-const uint16_t ascjistbl[] = {
-/* 20         !      "      #      $      %      &      '   */
-    0x8140,0x8149,0x8168,0x8194,0x8190,0x8193,0x8195,0x8166,
-/* 28  (      )      *      +      ,      -      .      /   */
-    0x8169,0x816a,0x8196,0x817b,0x8143,0x817d,0x8144,0x815e,
-/* 30  0      1      2      3      4      5      6      7   */
-    0x824f,0x8250,0x8251,0x8252,0x8253,0x8254,0x8255,0x8256,
-/* 38  8      9      :      ;      <      =      >      ?   */
-    0x8257,0x8258,0x8146,0x8147,0x8183,0x8181,0x8184,0x8148,
-/* 40  @      A      B      C      D      E      F      G   */
-    0x8197,0x8260,0x8261,0x8262,0x8263,0x8264,0x8265,0x8266,
-/* 48  H      I      J      K      L      M      N      O   */
-    0x8267,0x8268,0x8269,0x826a,0x826b,0x826c,0x826d,0x826e,
-/* 50  P      Q      R      S      T      U      V      W   */
-    0x826f,0x8270,0x8271,0x8272,0x8273,0x8274,0x8275,0x8276,
-/* 58  X      Y      Z      [      \      ]      ^      _   */
-    0x8277,0x8278,0x8279,0x816d,0x815f,0x816e,0x814f,0x8151,
-/* 60  `      a      b      c      d      e      f      g   */
-    0x814d,0x8281,0x8282,0x8283,0x8284,0x8285,0x8286,0x8287,
-/* 68  h      i      j      k      l      m      n      o   */
-    0x8288,0x8289,0x828a,0x828b,0x828c,0x828d,0x828e,0x828f,
-/* 70  p      q      r      s      t      u      v      w   */
-    0x8290,0x8291,0x8292,0x8293,0x8294,0x8295,0x8296,0x8297,
-/* 78  x      y      z      {      |      }      ~   */
-    0x8298,0x8299,0x829a,0x816f,0x8162,0x8170,0x8160,
-};
-
 
 
 char* lexsrcnam = NULL;
@@ -128,11 +101,8 @@ long long stoi(char *s)
 
 
 /* returns amount of chars sent to dest including null terminator (-1 if error) */
-int processstring(uint8_t *dest, uint8_t *src, int doublemode)
+int processstring(uint8_t *dest, uint8_t *src)
 {
-    /* temp hack */
-    doublemode = 0;
-    
     int si = 0;
     int di = 0;
     uint8_t c;
@@ -186,50 +156,9 @@ int processstring(uint8_t *dest, uint8_t *src, int doublemode)
                     return -1;
             }
         }
-        else if (c == '$' && src[si] >= '0' && src[si] <= '9')
-        { /* ignore doublemode for $x codes */
-            dest[di++] = '$';
-            dest[di++] = src[si++];
-        }
-        else if (c == '%')
-        { /* ignore doublemode for c-style format strings */
-            if (src[si] == '%') /* ...unless it's the "literal percent sign" code */
-            {
-                if (doublemode)
-                {
-                    dest[di++] = ascjistbl['%'-0x20] >> 8;
-                    dest[di++] = ascjistbl['%'-0x20] & 0xff;
-                }
-                else
-                {
-                    dest[di++] = '%';
-                    dest[di++] = '%';
-                }
-                si++;
-            }
-            else
-            {
-                dest[di++] = '%';
-                uint8_t c;
-                while ((c = src[si]))
-                {
-                    si++;
-                    dest[di++] = c;
-                    if (strchr("%csdioxXufFeEaAgGnp", c)) break;
-                }
-            }
-        }
         else if ((c < 0x80) || (c >= 0xa1 && c < 0xe0))
         {
-            if (doublemode && c >= 0x20 && c < 0x7f)
-            {
-                dest[di++] = ascjistbl[c-0x20] >> 8;
-                dest[di++] = ascjistbl[c-0x20] & 0xff;
-            }
-            else
-            {
-                dest[di++] = c;
-            }
+            dest[di++] = c;
         }
         else
         {

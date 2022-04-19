@@ -7,8 +7,6 @@ enum
 {
   TYPE_LINEBREAK = 0,
   TYPE_COMMENT,
-  TYPE_DOUBLE,
-  TYPE_NODOUBLE,
   TYPE_STRING
 };
 
@@ -165,20 +163,6 @@ int main(int argc, char *argv[])
       toc = realloc(toc, (tocents+1)*sizeof(entry_t));
       toc[tocents].type = TYPE_COMMENT;
       toc[tocents].data = yytext+1;
-      tocents++;
-      lextype = yylex();
-    }
-    else if (!strcmp("Double", yytext))
-    {
-      toc = realloc(toc, (tocents+1)*sizeof(entry_t));
-      toc[tocents].type = TYPE_DOUBLE;
-      tocents++;
-      lextype = yylex();
-    }
-    else if (!strcmp("NoDouble", yytext))
-    {
-      toc = realloc(toc, (tocents+1)*sizeof(entry_t));
-      toc[tocents].type = TYPE_NODOUBLE;
       tocents++;
       lextype = yylex();
     }
@@ -430,16 +414,6 @@ int main(int argc, char *argv[])
       case TYPE_COMMENT:
       {
         fprintf(f, "### %s\n", (char*)data);
-        break;
-      }
-      case TYPE_DOUBLE:
-      {
-        fprintf(f, "Double\n");
-        break;
-      }
-      case TYPE_NODOUBLE:
-      {
-        fprintf(f, "NoDouble\n");
         break;
       }
       case TYPE_STRING:

@@ -442,7 +442,7 @@ int main(int argc, char* argv[])
                       goto fail;
                     }
                     yytext[strlen(yytext)-1] = '\0'; /* remove quotes */
-                    int len = processstring(scriptbuf+scriptlen+2, (uint8_t*)yytext+1, foundid == 0x13);
+                    int len = processstring(scriptbuf+scriptlen+2, (uint8_t*)yytext+1);
                     if (len < 0) goto fail;
                     while (len % 2) len++; /* align end to word */
                     write16(scriptbuf+scriptlen, len);
@@ -625,7 +625,6 @@ fail:   free(scriptbuf);
   {
     lexinit(f, "text.txt");
     
-    int doublemode = 0;
     int max = -1;
     uint32_t offs = -1;
     int refs = 0;
@@ -636,17 +635,7 @@ fail:   free(scriptbuf);
     {
       if (lextype == TOK_ID)
       {
-        if (!strcmp(yytext, "Double"))
-        {
-          doublemode = 1;
-          lextype = yylex();
-        }
-        else if (!strcmp(yytext, "NoDouble"))
-        {
-          doublemode = 0;
-          lextype = yylex();
-        }
-        else if (!strcmp(yytext, "Max"))
+        if (!strcmp(yytext, "Max"))
         {
           lextype = yylex();
           if (lextype != TOK_NUM)
@@ -707,7 +696,7 @@ fail:   free(scriptbuf);
       {
         uint8_t strbuf[0x400];
         yytext[strlen(yytext)-1] = 0;
-        int len = processstring(strbuf, (uint8_t*)yytext+1, doublemode);
+        int len = processstring(strbuf, (uint8_t*)yytext+1);
         if (len < 0) break;
         if (refs)
         {
