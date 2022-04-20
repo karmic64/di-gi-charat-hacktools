@@ -790,10 +790,12 @@ mcm_export_fail:
 	
 	
 	/* do text export */
-	puts("Extracting text...");
-	extracttext(stringlistfile,textoutfile,rombuf,romsize);
-	puts("Completed.");
-	
+	if (stringlistfile)
+	{
+		puts("Extracting text...");
+		extracttext(stringlistfile,textoutfile,rombuf,romsize);
+		puts("Completed.");
+	}
 	
 	
 }
