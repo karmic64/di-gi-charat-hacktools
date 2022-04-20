@@ -36,13 +36,36 @@ this game has some hidden features:
 
 DSC (script data) format:
 word - constant "DSC\0"
-word - 0?
+word - pointer to pre-fill data (0 if none)
 word - pointer to MCM data
 word - amount of data offsets
 word - list of data offsets
         the unpacked script data appears to be separated into "subscripts". these are the offsets
         of all subscripts relative to the start of the uncompressed data.
 word - length of uncompressed script data
+
+pre-fill data:
+	for each subscript:
+		byte - count
+			xx bytes - data
+					bits 7-6:
+						$80: either the default, or a string set by a ShowTextPrompt command
+						the other options are probably not important?
+					bits 0-5:
+						$00: Person's name (default: Person you respect from resume)
+						$01: Name of a food (default: Favorite food from resume)
+						$02: Name of a drink (default: "Kale juice" from $80e9ea0)
+						$03: Name of an animal (default: Favorite animal from resume)
+						$04: Name of a flower (default: "Rose" from $80e9eac)
+						$05: Name of a place (default: "Akihabara" from $80e9eb4)
+						$06: Name of a theme park (default: "Dreamland" from $80e9ec0)
+						$07: Name of a job (default: "Villa" from $80e9ed0)
+						$08: Name of a TV show (default: "Sure thing" from $80e9edc)
+						$09: Name of a manga (default: "Pita Ten" from $80e9ee8)
+						$0a: Name of a vehicle (default: "Bicycle" from $80e9ef4)
+						$0b: Name of a game (default: "Gomoku" from $80e9efc)
+					default strings are filled by routine $808cebc
+						
 
 
 MBM (bitmap data) format:
@@ -193,7 +216,7 @@ $12 - set "permanent" text box character portrait position ($80486d4)
         - x-position (scriptinfo + 0x20c)
         - y-position (scriptinfo + 0x20e)
 $13 - open text prompt menu ($8048692)
-        - ?
+        - prefill index (see the relevant section)
         - length of string
         - description string (text MUST be exclusively in double-byte JIS codes)
 $14 - set "permanent" text box position ($80486f0)
@@ -250,6 +273,18 @@ reading char from text box buffer at $80afda2
 
 
 subroutine that copies to vram copy buffer at $80ae6d2
+
+
+
+
+figuring out how the game fills out $num/%d/%s control codes:
+
+the routine that processes the strings is at $804a238 (only handles $x codes)
+in $x codes, $x is an index to the subscript's prefill table, starting from 1
+the exception is $9: this ALWAYS evaluates to the string that was just entered in a ShowTextPrompt
+
+
+
 
 
 

@@ -73,7 +73,9 @@ int exportdsc(FILE *f, uint8_t *p)
 	int status = 0;
 	
 	uint32_t dscindex = p-rombuf;
+	uint32_t prefillbase = get32(p+0x04);
 	uint32_t subscripts = get32(p+0x0c);
+	uint8_t *prefill = prefillbase ? rombuf+(prefillbase-MAPBASE) : NULL;
 	
 	uint32_t labeltbl[256];
 	int labels = 0;
@@ -188,7 +190,24 @@ int exportdsc(FILE *f, uint8_t *p)
 			uint32_t suboffs = get32(p+0x10+(j*4));
 			if (i == suboffs)
 			{
-				fprintf(f, "\n\n\nSubscript %i\n", j);
+				fprintf(f, "\n\n");
+				/* if there is any prefill data, output it in a comment */
+				if (prefill)
+				{
+					uint8_t pfcnt = *(prefill++);
+					if (pfcnt)
+					{
+						fprintf(f, "### Prefill data: ");
+						for (int i = 0; i < pfcnt; i++)
+						{
+							fprintf(f, "$%02X", *(prefill++));
+							if (i < pfcnt-1) fputc(',',f);
+						}
+					}
+				}
+				
+				/* output subscript header */
+				fprintf(f, "\nSubscript %i\n", j);
 				cursuboffs = suboffs;
 				prvop = -1; /* reset double-end detection */
 			}
