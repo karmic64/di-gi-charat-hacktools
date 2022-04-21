@@ -690,6 +690,7 @@ textentrymenucorrecthook:
             ;or else the game will break moving up from bottom buttons
             .org 0x80e6348
             .area 0x80e6648-org()
+textentrymenuchars:
                      ;col, row, char
             .halfword 00,00, 'A', 0 ;A
             .halfword 01,00, 'B', 0 ;B
@@ -800,8 +801,11 @@ textentrymenucorrecthook:
             .halfword 10,10, 0x8180, 0 ;divide
             .halfword 11,10, '_', 0 ;underbar summer
             
+textentrymenucharsend:
             .endarea
-            .fill 0x80e6648-org(), 0xff ;END OF LIST
+            
+            .org 0x8053e7e
+            cmp r0,#(textentrymenucharsend-textentrymenuchars)/8 - 1
             
             
             
