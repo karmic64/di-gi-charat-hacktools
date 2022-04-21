@@ -329,6 +329,91 @@ textentrymenudeletehook:
             
             
             
+            
+            
+textentrymenuspacecleanhook:
+	mov r1,r0
+	add r1,#0x94
+	ldrh r2,[r1,#6]
+	ldr r3,[r1]
+	;now:
+	; [r1,#6] string length
+	; [r1] string pointer
+	; r2 string length
+	; r3 string pointer
+	
+	
+	;;;;; delete leading spaces
+	
+	;; find the first non-space
+	mov r4,#0 ;index
+	b @@leadloop
+	
+@@leadnext:
+	add r4,#1
+@@leadloop:
+	cmp r4,r2 ;if this is the end, exit early
+	bhs @@allspaces
+	ldrb r5,[r3,r4]
+	cmp r5,#' '
+	beq @@leadnext
+	cmp r5,#0x81
+	bne @@leadexit
+	add r4,#1
+	ldrb r5,[r3,r4]
+	cmp r5,#0x40
+	beq @@leadnext
+	
+	sub r4,#1
+@@leadexit:
+	
+	;; delete every character before it
+	cmp r4,#0
+	beq @@dotrail
+	mov r5,#0 ;dest index
+	
+@@leaddelete:
+	ldrb r6,[r3,r4]
+	strb r6,[r3,r5]
+	add r4,#1
+	add r5,#1
+	cmp r4,r2
+	bne @@leaddelete
+	
+	mov r2,r5
+	
+	
+@@dotrail:
+	;;;;; delete trailing spaces
+	
+	
+	
+	
+	
+	
+	
+	
+@@exit:
+	strh r2,[r1,#6] ;set new length
+	
+	mov r7,r10
+	mov r6,r9
+	mov r5,r8
+	push {r5,r6,r7}
+	sub sp,#0xc8
+	ldr r4,=0x805633c | 1
+	bx r4
+	
+	
+@@allspaces:
+	mov r2,#0
+	b @@exit
+	.pool
+            
+            
+            
+            
+            
             ;
             ;
             ;
@@ -577,8 +662,14 @@ textentrymenucorrecthook:
             .endarea
             
             
+            ;before copying string, clean out leading/trailing spaces
+            .org 0x8056332
+            ldr r4,=textentrymenuspacecleanhook | 1
+            bx r4
+            .pool
+            
+            
             ;copy correctly on exit
-            ;todo expand with leading/trailing spaces cleanup
             .org 0x805637e
             .area 0x8056388 - org()
             add r1,#0x94

@@ -1,9 +1,10 @@
 
 KNOWN INGAME ISSUES:
 - text entry menu
-    - a space character was added, so leading and trailing spaces should be cleaned out on exit
+    - a space character was added, so leading(fixed) and trailing spaces should be cleaned out on exit
         - additionally watch out for space-only entries
     - the game has a list of banned words, is it even worth translating?
+    - during digicommunication mode, there is some junk next to the letter input due to a junk tile on the bottom right of background 0
 - "rolling" text that automatically advances skips to the next line if it is too big to fit
     - translator seems to be willing to cut the text down to fit one box, but it should still be fixed...
 - voice clips are still in japanese (lol)
