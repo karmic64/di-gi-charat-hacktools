@@ -378,17 +378,94 @@ textentrymenuspacecleanhook:
 	add r4,#1
 	add r5,#1
 	cmp r4,r2
-	bne @@leaddelete
+	blo @@leaddelete
 	
 	mov r2,r5
 	
 	
 @@dotrail:
-	;;;;; delete trailing spaces
+	;;;;; delete trailing/multiple spaces
+	
+	mov r4,#0 ;index
+	mov r5,#0 ;space index (0 means the last char was not a space)
+	
+@@trailloop:
+	;first get the char (first byte in r6, second byte (if any) in r7))
+	ldrb r6,[r3,r4]
+	cmp r6,#0x80
+	blo @@nosec
+	add r4,#1
+	ldrb r7,[r3,r4]
+	sub r4,#1
+@@nosec:
+	
+	;is it a space?
+	cmp r6,#' '
+	beq @@trailspace
+	cmp r6,#0x81
+	bne @@trailnotspace
+	cmp r7,#0x40
+	beq @@trailspace
+	
+	;it is NOT a space, clear the space index
+@@trailnotspace:
+	mov r5,#0
+	b @@trailnext
+	
+	;it IS a space, if the last character was not a space set the space index
+@@trailspace:
+	cmp r5,#0
+	beq @@trailfirstspace
+	
+	;if the last character WAS a space, delete the current space (cleaning out multiple spaces in a row)
+@@traildoublespace:
+	push {r4,r5,r7}
+	add r5, r4,#1
+	cmp r6,#0x80
+	blo @@tldss
+	add r5,#1
+@@tldss:
+	;now r4 = dest index and r5 = src index
+	cmp r5,r2 ;if we passed the end of the string, exit early
+	bhs @@tldsexit
+	
+@@tldsloop:
+	ldrb r7,[r3,r5]
+	strb r7,[r3,r4]
+	add r4,#1
+	add r5,#1
+	cmp r5,r2
+	blo @@tldsloop
+	mov r2,r4 ;now the dest index is the new length
+	
+@@tldsend:
+	pop {r4,r5,r7}
+	b @@trailloop
+	
+@@tldsexit:
+	pop {r4,r5,r7}
+	b @@trailend
+	
+@@trailfirstspace:
+	mov r5,r4
+	
+@@trailnext:
+	cmp r6,#0x80
+	blo @@trailnext1
+@@trailnext2:
+	add r4,#1
+@@trailnext1:
+	add r4,#1
+	cmp r4,r2
+	blo @@trailloop
 	
 	
-	
-	
+@@trailend:
+	;; now we're done scanning the string
+	;; if the space index is nonzero, then it is the string length
+	cmp r5,#0
+	beq @@exit
+	mov r2,r5
 	
 	
 	
