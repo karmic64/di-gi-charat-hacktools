@@ -295,6 +295,11 @@ fail:
 }
 
 
+size_t getmcmsize(uint8_t *p)
+{
+	return get32(p+4);
+}
+
 size_t getmcmbufsize(uint8_t *p)
 {
   uint32_t totalsize = get32(p+4);

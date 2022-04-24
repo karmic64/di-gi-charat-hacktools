@@ -12,4 +12,5 @@ int diff8bitunfilter(uint8_t *dest, uint8_t *src);
 
 
 int mcmuncomp(uint8_t *dest, uint8_t *base, uint8_t *src);
+size_t getmcmsize(uint8_t *p);
 size_t getmcmbufsize(uint8_t *p);

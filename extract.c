@@ -686,8 +686,8 @@ int main(int argc, char *argv[])
 		if (mcmsrc)
 		{
 			unsigned mcmindex = mcmsrc-rombuf;
-			mcmsize = getmcmbufsize(mcmsrc);
-			mcmbuf = malloc(mcmsize);
+			mcmsize = getmcmsize(mcmsrc);
+			mcmbuf = malloc(getmcmbufsize(mcmsrc));
 			status = mcmuncomp(mcmbuf, rombuf, mcmsrc);
 			if (status)
 			{
