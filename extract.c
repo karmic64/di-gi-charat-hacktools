@@ -493,11 +493,146 @@ int exportmbm(FILE *f, uint8_t *p)
 
 /***************************************************************/
 
+#define MFM_CHARS_PER_ROW 0x40
+
 int exportmfm(FILE *f, uint8_t *p)
 {
-	/* because i need to rewrite this to export as png */
-	sprintf(emsg,"Not implemented");
-	return 1;
+	int status = 0;
+	
+	/*******************************************/
+	uint8_t charwidth = p[5];
+	uint8_t charheight = p[6];
+	uint8_t mode = p[7];
+	uint16_t chars = get16(p+8);
+	uint16_t charsize = get16(p+10);
+	uint32_t database = get32(p+16);
+	uint32_t dataindex = database - MAPBASE;
+	
+	if (!charwidth)
+	{
+		strcpy(emsg,"Bad char width");
+		return 1;
+	}
+	if (!charheight)
+	{
+		strcpy(emsg,"Bad char height");
+		return 1;
+	}
+	if (mode != 0 && mode != 0x10)
+	{
+		sprintf(emsg,"Bad mode $%02X",mode);
+		return 1;
+	}
+	if (!chars)
+	{
+		strcpy(emsg,"Bad char count");
+		return 1;
+	}
+	if (!charsize)
+	{
+		strcpy(emsg,"Bad char size");
+		return 1;
+	}
+	if (dataindex >= romsize)
+	{
+		sprintf(emsg,"Data pointer $%07X out of bounds", database);
+		return 1;
+	}
+	
+	
+	/****************************************/
+	unsigned bpp = mode ? 4 : 1;
+	unsigned ppb = 8 / bpp; /* pixels per byte */
+	unsigned charbytewidth = ((charwidth/8) + (charwidth%8 > 0)) * bpp;
+	unsigned bmpwidth = charwidth * MFM_CHARS_PER_ROW;
+	unsigned bmpheight = ((chars/MFM_CHARS_PER_ROW) + (chars%MFM_CHARS_PER_ROW > 0)) * charheight;
+	if (bmpheight == charheight) bmpwidth = charwidth * chars;
+	unsigned bmprowsize = (bmpwidth/ppb) + (bmpwidth%ppb > 0);
+	
+	
+	uint8_t *dataptr = rombuf + dataindex;
+	
+	png_byte *bmpcharrow = malloc(bmprowsize*charheight);
+	png_byte **rows = malloc(charheight * sizeof(*rows));
+	for (unsigned i = 0; i < charheight; i++) rows[i] = &bmpcharrow[bmprowsize*i];
+	
+	
+	
+	png_structp png_ptr = png_create_write_struct(PNG_LIBPNG_VER_STRING, NULL,pngerr,pngerr);
+	png_infop info_ptr = png_create_info_struct(png_ptr);
+	if (setjmp(png_jmpbuf(png_ptr)))
+	{
+		status = 1;
+	}
+	else
+	{
+		png_init_io(png_ptr,f);
+		
+		png_set_IHDR(png_ptr,info_ptr,
+				bmpwidth, bmpheight, bpp, PNG_COLOR_TYPE_GRAY, PNG_INTERLACE_NONE,
+				PNG_COMPRESSION_TYPE_DEFAULT, PNG_FILTER_TYPE_DEFAULT);
+		
+		png_write_info(png_ptr,info_ptr);
+		
+		unsigned col = 0;
+		for (unsigned ci = 0; ci < chars; ci++)
+		{
+			if (!col)
+				memset(bmpcharrow,0,bmprowsize*charheight);
+			
+			
+				
+			unsigned cb = col * charwidth * bpp;
+			unsigned bi = cb/8;
+			unsigned sh = cb%8;
+			
+			for (unsigned cy = 0; cy < charheight; cy++)
+			{
+				uint8_t *crp = dataptr + 2 + (ci*charsize) + (charbytewidth*cy);
+				png_byte *rp = rows[cy];
+				
+				png_byte rowbuf[256];
+				memset(rowbuf,0,256);
+				memcpy(rowbuf,crp,charbytewidth);
+				if (bpp == 4)
+				{
+					for (unsigned si = 0; si < charbytewidth; si++)
+					{
+						rowbuf[si] = rowbuf[si]<<4 | rowbuf[si]>>4;
+					}
+				}
+				
+				for (int si = charbytewidth-1; si >= 0; si--)
+				{
+					rowbuf[si+1] |= rowbuf[si+1] | (rowbuf[si] << (8-sh));
+					rowbuf[si] >>= sh;
+				}
+				
+				for (unsigned si = 0; si <= charbytewidth && bi+si < bmprowsize; si++)
+				{
+					rp[bi+si] |= rowbuf[si];
+				}
+			}
+			
+			
+			if (++col == MFM_CHARS_PER_ROW || ci == chars-1)
+			{
+				col = 0;
+				png_write_rows(png_ptr,rows,charheight);
+			}
+		}
+		
+		png_write_end(png_ptr,info_ptr);
+	}
+	
+	png_destroy_write_struct(&png_ptr, &info_ptr);
+	
+	free(bmpcharrow);
+	free(rows);
+	
+	sprintf(emsg,"char width: %u, char byte width: %u",charwidth,charbytewidth);
+	
+	return status;
 }
 
 
