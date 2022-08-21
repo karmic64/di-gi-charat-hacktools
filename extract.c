@@ -630,7 +630,7 @@ int exportmfm(FILE *f, uint8_t *p)
 	free(bmpcharrow);
 	free(rows);
 	
-	sprintf(emsg,"char width: %u, char byte width: %u",charwidth,charbytewidth);
+	sprintf(emsg,"%ux%u, %ubpp, %u chars",charwidth,charheight,bpp,chars);
 	
 	return status;
 }
