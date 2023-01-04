@@ -304,8 +304,9 @@ size_t getmcmbufsize(uint8_t *p)
 {
   uint32_t totalsize = get32(p+4);
   uint32_t chunksize = get32(p+8);
+  uint32_t chunks = get32(p+0xc);
   
-  return (totalsize < chunksize) ? chunksize : totalsize;
+  return max(totalsize,chunksize*chunks);
 }
 
 
