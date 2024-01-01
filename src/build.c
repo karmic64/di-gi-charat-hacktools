@@ -46,17 +46,6 @@ int main(int argc, char* argv[])
   unsigned errors = 0;
   
   
-  memcpy(&rombuf[0x7f1ec6], BUILDDATE, 10);
-  memcpy(&rombuf[0x7f1ed8], BUILDTIME, 8);
-  {
-    time_t tt = time(NULL);
-    struct tm *t = gmtime(&tt);
-    sprintf((char*)&rombuf[0x7f1f06], "%04i/%02i/%02i", t->tm_year+1900,t->tm_mon+1,t->tm_mday);
-    sprintf((char*)&rombuf[0x7f1f18], "%02i:%02i:%02i", t->tm_hour,t->tm_min,t->tm_sec);
-    rombuf[0x7f1f10] = ' ';
-    rombuf[0x7f1f20] = ' ';
-  }
-  
   
   /******************** injectmcm function *************************/
   uint32_t injectmcm(uint32_t offs, uint8_t *data, size_t size)

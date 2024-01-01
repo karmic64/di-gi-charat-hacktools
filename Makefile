@@ -14,10 +14,7 @@ endif
 
 ROMNAME := DiGi Charat - DigiCommunication (J) [!].gba
 
-BUILDDATE := $(shell date -u +"%Y/%m/%d")
-BUILDTIME := $(shell date -u +"%H:%M:%S")
-
-CFLAGS :=-flto -Ofast -Wall -D BUILDDATE="\"$(BUILDDATE)\"" -D BUILDTIME="\"$(BUILDTIME)\"" -I .
+CFLAGS :=-flto -Ofast -Wall -I .
 LDFLAGS:=-s
 LDLIBS := -lpng -lz -lm
 
@@ -92,5 +89,5 @@ bin/%$(DOTEXE): obj/%.obj $(LIB_OBJ)
 
 
 $(HACKS_OUT): $(HACKS)
-	armips -strequ OUTNAME $@ -strequ ROMNAME "$(ROMNAME)" -strequ BUILDDATE "$(BUILDDATE)" -strequ BUILDTIME "$(BUILDTIME)" $<
+	armips -strequ OUTNAME $@ -strequ ROMNAME "$(ROMNAME)" $<
 
