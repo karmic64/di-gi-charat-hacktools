@@ -1,18 +1,17 @@
 *.exe
-*.o
-build
-extract
+*.obj
+bin/build
+bin/extract
 dgvc/dump-dsc
 dgvc/gen-dsc
 dgvc/gen-text
 
 *.gba
-hacks/*.gba
 
 *.yy.c
 *.yy.h
 
-*.d
+*.dep
 
 
 *.bak

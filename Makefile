@@ -1,9 +1,7 @@
 ifdef COMSPEC
 DOTEXE:=.exe
-STATIC:=-static
 else
 DOTEXE:=
-STATIC:=
 endif
 
 # note, this makefile only builds the tools!
@@ -19,16 +17,21 @@ ROMNAME := DiGi Charat - DigiCommunication (J) [!].gba
 BUILDDATE := $(shell date -u +"%Y/%m/%d")
 BUILDTIME := $(shell date -u +"%H:%M:%S")
 
-CFLAGS := -Ofast -Wall -D BUILDDATE="\"$(BUILDDATE)\"" -D BUILDTIME="\"$(BUILDTIME)\"" -I .
-LIBS := -lpng -lz -lm
+CFLAGS :=-flto -Ofast -Wall -D BUILDDATE="\"$(BUILDDATE)\"" -D BUILDTIME="\"$(BUILDTIME)\"" -I .
+LDFLAGS:=-s
+LDLIBS := -lpng -lz -lm
 
 
-EXE_SRCS := extract.c build.c
+TOOLS:=extract build
+TOOL_SRC:=$(foreach TOOL,$(TOOLS),src/$(TOOL).c)
+TOOL_DEP:=$(foreach TOOL,$(TOOLS),dep/$(TOOL).dep)
+TOOL_OBJ:=$(foreach TOOL,$(TOOLS),obj/$(TOOL).obj)
+TOOL_EXE:=$(foreach TOOL,$(TOOLS),bin/$(TOOL).exe)
 
-
-SRCS := $(EXE_SRCS) compress.c decompress.c lex.c text-extract.c
-OBJS := $(SRCS:.c=.o)
-DEPS := $(SRCS:.c=.d)
+LIBS:=compress decompress lex text-extract lex.yy
+LIB_SRC:=$(foreach LIB,$(LIBS),src/$(LIB).c)
+LIB_DEP:=$(foreach LIB,$(LIBS),dep/$(LIB).dep)
+LIB_OBJ:=$(foreach LIB,$(LIBS),obj/$(LIB).obj)
 
 
 
@@ -41,39 +44,42 @@ HACKS_OUT := hacks/hacks.gba
 ########## phony targets
 
 
-.PHONY: default all tools dgvc-tools hacks clean
+.PHONY: default all tools hacks clean
 
 default: tools hacks
 
-all: tools dgvc-tools hacks
+all: tools hacks
 
-tools: extract$(DOTEXE) build$(DOTEXE)
-dgvc-tools: $(DGVC_OUTS)
+tools: $(TOOL_EXE)
 hacks: $(HACKS_OUT)
 
 
 clean:
-	-$(RM) $(OBJS) $(DEPS) $(EXE_SRCS:.c=) $(EXE_SRCS:.c=.exe) $(HACKS_OUT) *.yy.*
+	$(RM) $(TOOL_DEP) $(LIB_DEP)
+	$(RM) $(TOOL_OBJ) $(LIB_OBJ)
+	$(RM) $(TOOL_EXE)
+	$(RM) $(addprefix src/lex.yy.,c h)
+	$(RM) $(HACKS_OUT)
 
 
 
 ########## dependencies
 
 
-%.d: %.c
-	$(CC) -MM -MG -MT $(<:.c=.o) -MF $@ $<
+dep/%.dep: src/%.c
+	$(CC) -MM -MG -MT obj/$*.obj -MF $@ $<
 
--include $(DEPS)
+-include $(TOOL_DEP) $(LIB_DEP)
 
 
 
 ########## generic targets
 
-%.o: %.c
+obj/%.obj: src/%.c
 	$(CC) $(CFLAGS) -c -o $@ $<
 
-%$(DOTEXE): %.o
-	$(CC) $(STATIC) -s -o $@ $^ $(LIBS)
+bin/%$(DOTEXE): obj/%.obj $(LIB_OBJ)
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $^ $(LDLIBS)
 
 
 %.yy.c %.yy.h: %.l
@@ -83,10 +89,6 @@ clean:
 
 
 ########## executables
-
-extract$(DOTEXE): decompress.o lex.o lex.yy.o text-extract.o
-
-build$(DOTEXE): compress.o lex.o lex.yy.o
 
 
 $(HACKS_OUT): $(HACKS)

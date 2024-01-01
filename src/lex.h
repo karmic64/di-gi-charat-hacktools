@@ -4,7 +4,8 @@
 #include <stdint.h>
 #include <stdio.h>
 
-#include "lex.yy.h"
+// need to explicitly say "src" so dep/lex.dep won't depend on this in the home directory
+#include "src/lex.yy.h"
 
 extern char *lexsrcnam;
 
