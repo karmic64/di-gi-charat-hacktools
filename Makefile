@@ -85,6 +85,30 @@ bin/%$(DOTEXE): obj/%.obj $(LIB_OBJ)
 
 
 
+########## phony rip targets
+
+RIP_TARGETS:=rip-dsc rip-mbm rip-mcm rip-mfm rip-mrm rip-text
+.PHONY: rip-all $(RIP_TARGETS)
+
+rip-all: $(RIP_TARGETS)
+$(RIP_TARGETS): bin/extract$(DOTEXE)
+
+rip-dsc:
+	mkdir -p orig-data/DSC && bin/extract '$(ROMNAME)' dsc orig-data/DSC
+rip-mbm:
+	mkdir -p orig-data/MBM && bin/extract '$(ROMNAME)' mbm orig-data/MBM
+rip-mcm:
+	mkdir -p orig-data/MCM && bin/extract '$(ROMNAME)' mcm orig-data/MCM
+rip-mfm:
+	mkdir -p orig-data/MFM && bin/extract '$(ROMNAME)' mfm orig-data/MFM
+rip-mrm:
+	mkdir -p orig-data/MRM && bin/extract '$(ROMNAME)' mrm orig-data/MRM
+rip-text: stringlist.txt
+	mkdir -p orig-data && bin/extract '$(ROMNAME)' text stringlist.txt orig-data/text.txt
+
+
+
+
 ########## executables
 
 
