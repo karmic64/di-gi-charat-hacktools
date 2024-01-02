@@ -8,7 +8,7 @@
 
 
 
-char* lexsrcnam = NULL;
+const char* lexsrcnam = NULL;
 
 
 char *tokstr(int t)
@@ -171,7 +171,7 @@ int processstring(uint8_t *dest, uint8_t *src)
 }
 
 
-void lexinit(FILE *f, char *fnam)
+void lexinit(FILE *f, const char *fnam)
 {
     yyrestart(f);
     lexsrcnam = fnam;

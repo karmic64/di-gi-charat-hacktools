@@ -7,7 +7,7 @@
 // need to explicitly say "src" so dep/lex.dep won't depend on this in the home directory
 #include "src/lex.yy.h"
 
-extern char *lexsrcnam;
+extern const char *lexsrcnam;
 
 char *tokstr(int t);
 
@@ -20,4 +20,4 @@ long long stoi(char *s);
 
 int processstring(uint8_t *dest, uint8_t *src);
 
-void lexinit(FILE *f, char *fnam);
+void lexinit(FILE *f, const char *fnam);

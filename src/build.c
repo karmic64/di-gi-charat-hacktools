@@ -23,17 +23,32 @@
 
 int main(int argc, char* argv[])
 {
+	if (argc != 8) {
+		puts("usage: build srcrom outrom dscdir mbmdir mfmdir mrmdir text");
+		return EXIT_FAILURE;
+	}
+	const char * srcrom = argv[1];
+	const char * outrom = argv[2];
+	const char * dscdir = argv[3];
+	const char * mbmdir = argv[4];
+	const char * mfmdir = argv[5];
+	const char * mrmdir = argv[6];
+	const char * textfile = argv[7];
+	
+	
+	
+	
   struct stat st;
-  if (stat("hacks/hacks.gba", &st))
+  if (stat(srcrom, &st))
   {
-    printf("Couldn't stat %s: %s\n", "hacks/hacks.gba", strerror(errno));
+    printf("Couldn't stat %s: %s\n", srcrom, strerror(errno));
     return EXIT_FAILURE;
   }
   
-  FILE *f = fopen("hacks/hacks.gba", "rb");
+  FILE *f = fopen(srcrom, "rb");
   if (!f)
   {
-    printf("Couldn't open %s: %s\n", "hacks/hacks.gba", strerror(errno));
+    printf("Couldn't open %s: %s\n", srcrom, strerror(errno));
     return EXIT_FAILURE;
   }
   size_t initialromsize = st.st_size;
@@ -242,7 +257,7 @@ int main(int argc, char* argv[])
   
   
   /************************* dsc function ************************/
-  int dsc(char *fnam, FILE *f)
+  int dsc(const char *fnam, FILE *f)
   {
     int success = 0;
     
@@ -556,7 +571,7 @@ fail:   free(scriptbuf);
   
   
   /************************** dodir function ***********************/
-  void dodir(char * name, int(*fn)(char *fnam, FILE *f))
+  void dodir(const char * name, int(*fn)(const char *fnam, FILE *f))
   {
     if (chdir(name))
     {
@@ -601,19 +616,19 @@ fail:   free(scriptbuf);
   
   /* ----------- import scripts ------------- */
   puts("Compiling scripts...");
-  dodir("DSC-new", dsc);
+  dodir(dscdir, dsc);
   
   
   /* ------------- import raw strings ---------------- */
   puts("\nImporting raw text...");
-  f = fopen("text.txt", "rb");
+  f = fopen(textfile, "rb");
   if (!f)
   {
-    printf("Couldn't open %s: %s\n", "text.txt", strerror(errno));
+    printf("Couldn't open %s: %s\n", textfile, strerror(errno));
   }
   else
   {
-    lexinit(f, "text.txt");
+    lexinit(f, textfile);
     
     int max = -1;
     uint32_t offs = -1;
@@ -837,7 +852,7 @@ fail:   free(scriptbuf);
   }
   
   /*********************** mbm function **********************/
-  int mbm(char *fnam, FILE *f)
+  int mbm(const char *fnam, FILE *f)
   {
     lexsrcnam = fnam;
     yylineno = -1;
@@ -1098,22 +1113,22 @@ fail:   free(scriptbuf);
     return 0;
   }
   
-  dodir("MBM-new", mbm);
+  dodir(mbmdir, mbm);
   
   
   
   /* ------------ write output file -------------- */
   puts("\nWriting output file...");
-  f = fopen("t.gba", "wb");
+  f = fopen(outrom, "wb");
   if (!f)
   {
-    printf("Couldn't open %s for writing: %s\n", "t.gba", strerror(errno));
+    printf("Couldn't open %s for writing: %s\n", outrom, strerror(errno));
   }
   else
   {
     fwrite(rombuf, 1, romsize, f);
     fclose(f);
-    printf("%s successfully written with ", "t.gba");
+    printf("%s successfully written with ", outrom);
     if (!errors)
       printf("no ");
     else

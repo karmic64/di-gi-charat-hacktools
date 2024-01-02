@@ -8,7 +8,6 @@ KNOWN INGAME ISSUES:
 
 
 KNOWN TOOL ISSUES:
-- the ROM name is hardcoded into the extractors/hacks. not really a problem right now but it will be when digicom2 translation starts
 - MBM 68B6A8 and others like it are animated ingame - where are the other frames? will it even be necessary to find them?
 - MBM 69B8EC has wrong palette 
     - MBM 478DD0 seems like how it's supposed to look
