@@ -13,7 +13,7 @@ ShowChara 1 0 9
 ShowTextBox "What do you\nwanna eat,\nManager?"
 WaitTextBox
 # 甘いもの
-ShowTextPrompt 1 "!!! 3E775C 2"
+ShowTextPrompt 1 "Sweet thing"
 JumpOnSelection 2 0 1 0
 Label 0
 ShowChara 1 0 10
@@ -42,7 +42,7 @@ WaitTextBox
 ShowTextBox "$1?\nWhere should\nI go do that,\nnyo?"
 WaitTextBox
 # $1する場所
-ShowTextPrompt 6 "!!! 3E775C 7"
+ShowTextPrompt 6 "$1 place"
 JumpOnSelection 2 2 3 0
 Label 2
 ShowChara 1 0 10
@@ -78,7 +78,7 @@ ShowChara 1 0 9
 ShowTextBox "When you hear\n$1,\nwho do you\nthink of,\nnyo?"
 WaitTextBox
 # 人の名前
-ShowTextPrompt 0 "!!! 3E775C 14"
+ShowTextPrompt 0 "Person's name"
 JumpOnSelection 2 4 5 0
 Label 4
 ShowChara 1 0 10
@@ -139,7 +139,7 @@ WaitTextBox
 ShowTextBox "Greedy as a...\nWhat was it,\ngema?"
 WaitTextBox
 # ガツガツしてるどうぶつ
-ShowTextPrompt 3 "!!! 3E775C 26"
+ShowTextPrompt 3 "Greedy animal"
 JumpOnSelection 2 6 7 0
 Label 6
 ShowChara 8 0 53
@@ -189,7 +189,8 @@ ShowChara 1 4 8
 ShowTextBox "I heard that\n$1\nmake good pets,\nnyo. You wanna\nget one,\nManager?"
 WaitTextBox
 # ペットにしたいどうぶつ
-ShowTextPrompt 3 "!!! 3E775C 34"
+## this should probably be "Animal you'd like as a pet" but that's too long
+ShowTextPrompt 3 "Pet-worthy animal"
 JumpOnSelection 2 8 9 0
 Label 8
 ShowChara 1 0 15
@@ -225,7 +226,7 @@ WaitTextBox
 ShowTextBox "Who was that,\nnyo...?"
 WaitTextBox
 # じんぶつ
-ShowTextPrompt 0 "!!! 3E775C 41"
+ShowTextPrompt 0 "Person"
 JumpOnSelection 2 10 11 0
 Label 10
 ShowChara 1 0 8
@@ -273,7 +274,7 @@ ShowChara 1 0 8
 ShowTextBox "What are you\nplaying,\nManager?"
 WaitTextBox
 # あそび
-ShowTextPrompt 11 "!!! 3E775C 51"
+ShowTextPrompt 11 "Game"
 JumpOnSelection 2 12 13 0
 Label 12
 ShowChara 1 0 15
@@ -305,7 +306,7 @@ ShowChara 1 4 9
 ShowTextBox "I get thirsty\njust thinking of\n$1,\nnyo! I want\nsomething to\ndrink!"
 WaitTextBox
 # のみもの
-ShowTextPrompt 2 "!!! 3E775C 56"
+ShowTextPrompt 2 "Drink"
 JumpOnSelection 2 14 15 0
 Label 14
 ShowChara 1 0 10
@@ -361,7 +362,7 @@ ShowChara 1 0 8
 ShowTextBox "What's our\ntransportation\nsituation,\nnyo?"
 WaitTextBox
 # のりもの
-ShowTextPrompt 10 "!!! 3E775C 66"
+ShowTextPrompt 10 "Vehicle"
 JumpOnSelection 2 16 17 0
 Label 16
 ShowChara 1 0 16
@@ -396,7 +397,7 @@ WaitTextBox
 ShowTextBox "Do you know\nany good\ntourist spots\nin\n$1,\nnyo?"
 WaitTextBox
 # ゆうめいなばしょ
-ShowTextPrompt 6 "!!! 3E775C 72"
+ShowTextPrompt 6 "Famous place"
 JumpOnSelection 2 18 19 0
 Label 18
 ShowChara 1 0 10
@@ -428,7 +429,7 @@ WaitTextBox
 ShowTextBox "What show were\nthey on, nyo?"
 WaitTextBox
 # テレビばんぐみ
-ShowTextPrompt 8 "!!! 3E775C 77"
+ShowTextPrompt 8 "TV show"
 JumpOnSelection 2 20 21 0
 Label 20
 ShowChara 1 0 10
@@ -439,23 +440,23 @@ ShowChara 1 0 14
 # でじこより先にテ
 # レビに出るなんて
 # 生意気にょ
-ShowTextBox "!!! 3E775C 79"
+ShowTextBox "How cocky of them to appear on TV before me, nyo!"
 WaitTextBox
 ShowChara 1 0 13
 # ケッケッケッ…
 # 思い知らせてやる
 # にょ…
-ShowTextBox "!!! 3E775C 80"
+ShowTextBox "Kekeke... I'll teach them a lesson, nyo..."
 WaitTextBox
 EndScript
 Label 21
 ShowChara 1 0 16
 # 店長しゃんも知らない番組かにょ～
-ShowTextBox "!!! 3E775C 81"
+ShowTextBox "Even you don't know that show, nyo~"
 WaitTextBox
 # しょせん$1は三流芸人だにょ～
 # ほっとくにょ～…
-ShowTextBox "!!! 3E775C 82"
+ShowTextBox "After all, $1 is just a third-rate performer, nyo~\nI'll ignore them, nyo~"
 WaitTextBox
 EndScript
 
@@ -466,19 +467,19 @@ ShowChara 1 4 8
 # $1が愛読してるマンガがあったにょ
 # なんてタイトルだ
 # ったかにょ？
-ShowTextBox "!!! 3E775C 83"
+ShowTextBox "There was a manga that $1 loves reading, nyo.\nWhat was its title?"
 WaitTextBox
 # マンガ
-ShowTextPrompt 9 "!!! 3E775C 84"
+ShowTextPrompt 9 "Manga"
 JumpOnSelection 2 22 23 0
 Label 22
 ShowChara 1 0 14
 # そうにょ！
 # 『$9』にょ！
-ShowTextBox "!!! 3E775C 85"
+ShowTextBox "Yes, \"$9\", nyo!"
 WaitTextBox
 # 『$9』を読むなんて、かなりのマニアにょ～
-ShowTextBox "!!! 3E775C 86"
+ShowTextBox "They're pretty crazy about reading \"$9\", nyo~"
 WaitTextBox
 EndScript
 Label 23
@@ -487,11 +488,11 @@ ShowChara 1 0 16
 # いなら、でじこに
 # も関係ないことだ
 # にょ～
-ShowTextBox "!!! 3E775C 87"
+ShowTextBox "If you don't know, then it has nothing to do with me, nyo~"
 WaitTextBox
 # さっさとお仕事に
 # 戻りますかにょ～
-ShowTextBox "!!! 3E775C 88"
+ShowTextBox "Let's get back to work quickly, nyo~"
 WaitTextBox
 EndScript
 
@@ -500,33 +501,33 @@ EndScript
 Subscript 12
 ShowChara 1 4 8
 # $1で今流行ってる遊びがあるらしいにょ～
-ShowTextBox "!!! 3E775C 89"
+ShowTextBox "I heard there's a game that's popular in $1 right now, nyo~"
 WaitTextBox
 # あそび
-ShowTextPrompt 11 "!!! 3E775C 90"
+ShowTextPrompt 11 "Game"
 JumpOnSelection 2 24 25 0
 Label 24
 ShowChara 1 0 15
 # $9が流行ってるのかにょ！？
 # グレイトにょ！！
-ShowTextBox "!!! 3E775C 91"
+ShowTextBox "$9 is popular, nyo?!\nThat's great, nyo!!"
 WaitTextBox
 ShowChara 1 0 10
 # でじこもブームに乗り遅れないよう$9するにょ！
-ShowTextBox "!!! 3E775C 92"
+ShowTextBox "I'll also play $9 so I don't miss out, nyo!"
 WaitTextBox
 # ビバ！$9にょ！！
-ShowTextBox "!!! 3E775C 93"
+ShowTextBox "Viva! $9, nyo!!"
 WaitTextBox
 EndScript
 Label 25
 ShowChara 1 0 8
 # 店長しゃん、知らないにょ？
-ShowTextBox "!!! 3E775C 94"
+ShowTextBox "Manager, you don't know, nyo?"
 WaitTextBox
 ShowChara 1 0 16
 # このでじこ様がチェックする必要もないにょ～
-ShowTextBox "!!! 3E775C 95"
+ShowTextBox "Then I certainly have no need to check it out, nyo~"
 WaitTextBox
 EndScript
 
@@ -535,49 +536,49 @@ EndScript
 Subscript 13
 ShowChara 1 4 8
 # $1には、花のタネが隠し味に使われてるにょ！
-ShowTextBox "!!! 3E775C 96"
+ShowTextBox "They're using flower seeds as a secret ingredient in $1, nyo!"
 WaitTextBox
 ShowChara 1 0 9
 # 何の花かにょ？
-ShowTextBox "!!! 3E775C 97"
+ShowTextBox "Which flower, nyo?"
 WaitTextBox
 # しょくぶつ
-ShowTextPrompt 4 "!!! 3E775C 98"
+ShowTextPrompt 4 "Plant"
 JumpOnSelection 2 26 27 0
 Label 26
 ShowChara 1 0 15
 # $9のタネだったかにょ～！！
-ShowTextBox "!!! 3E775C 99"
+ShowTextBox "Oh, it was $9 seeds, nyo~!!"
 WaitTextBox
 # でじこ、知らなかったにょ！
 # びっくりにょ！！
-ShowTextBox "!!! 3E775C 100"
+ShowTextBox "I didn't know, nyo! I'm really surprised, nyo!!"
 WaitTextBox
 ShowChara 1 0 8
 # 次からはあまり食べないようにするにょ
-ShowTextBox "!!! 3E775C 101"
+ShowTextBox "I'll make sure not to eat too much of that next time, nyo."
 WaitTextBox
 ShowChara 1 0 9
 # おなかから、$9の花が咲いたら、たいへんだにょ！
 # 店長しゃんも気をつけるにょ！
-ShowTextBox "!!! 3E775C 102"
+ShowTextBox "If $9 flowers bloom in your stomach, that'd be really bad, nyo!\nYou be careful too, Manager, nyo!"
 WaitTextBox
 EndScript
 Label 27
 ShowChara 1 0 8
 # 知らないにょ？
-ShowTextBox "!!! 3E775C 103"
+ShowTextBox "You don't know, nyo?"
 WaitTextBox
 ShowChara 1 0 9
 # あのリッチな風味が何のタネなのか調べてみる必要があるにょ～
-ShowTextBox "!!! 3E775C 104"
+ShowTextBox "We need to investigate what seeds are making that rich taste, nyo~"
 WaitTextBox
 # 今日から１日１回$1を食べるにょ～
-ShowTextBox "!!! 3E775C 105"
+ShowTextBox "From today, let's eat one $1 per day, nyo~"
 WaitTextBox
 ShowChara 1 0 10
 # ビバ！$1にょ！！
-ShowTextBox "!!! 3E775C 106"
+ShowTextBox "Viva! $1!!"
 WaitTextBox
 EndScript
 
@@ -586,24 +587,25 @@ EndScript
 Subscript 14
 ShowChara 1 4 9
 # $1は働きものと聞くにょ
-ShowTextBox "!!! 3E775C 107"
+ShowTextBox "I heard that a $1 is a hard worker, nyo."
 WaitTextBox
 ShowChara 1 0 8
 # でも、なにをして働くのかにょ？
-ShowTextBox "!!! 3E775C 108"
+ShowTextBox "But what job does it do, nyo?"
 WaitTextBox
 # しごと
-ShowTextPrompt 7 "!!! 3E775C 109"
+ShowTextPrompt 7 "Job"
 JumpOnSelection 2 28 29 0
 Label 28
 ShowChara 1 0 15
 # $9にょ！！
-ShowTextBox "!!! 3E775C 110"
+ShowTextBox "$9, nyo!!"
 WaitTextBox
 ShowChara 1 0 16
 # それはごくろうさまだにょ…
 # おつかれにょ
-ShowTextBox "!!! 3E775C 111"
+## i love japanese work-related set phrases
+ShowTextBox "That sounds hard, nyo... I appreciate its efforts, nyo."
 WaitTextBox
 EndScript
 Label 29
@@ -611,13 +613,13 @@ ShowChara 1 0 9
 # 店長しゃんでも知
 # らないことあるん
 # だにょ
-ShowTextBox "!!! 3E775C 112"
+ShowTextBox "So there are things that even you don't know, nyo!"
 WaitTextBox
 ShowChara 1 0 10
 # 気にすることない
 # にょ
 # $1に聞けばいいことだにょ
-ShowTextBox "!!! 3E775C 113"
+ShowTextBox "It's not something to worry about, nyo. You can ask a $1 about it, nyo."
 WaitTextBox
 EndScript
 
@@ -626,23 +628,23 @@ EndScript
 Subscript 15
 ShowChara 1 4 8
 # $1の人たちが、毎日欠かさず食べてるものがあるにょ
-ShowTextBox "!!! 3E775C 114"
+ShowTextBox "There's a food that the people of $1 won't go a day without eating, nyo."
 WaitTextBox
 # 何か知ってるかにょ？
-ShowTextBox "!!! 3E775C 115"
+ShowTextBox "Do you know anything, nyo?"
 WaitTextBox
 # たべもの
-ShowTextPrompt 1 "!!! 3E775C 116"
+ShowTextPrompt 1 "Food"
 JumpOnSelection 2 30 31 0
 Label 30
 ShowChara 1 0 9
 # そうにょ！
 # $9にょ！
-ShowTextBox "!!! 3E775C 117"
+ShowTextBox "Yes, $9, nyo!"
 WaitTextBox
 ShowChara 1 0 10
 # でじこも毎日$9を食べて長生きするにょ！
-ShowTextBox "!!! 3E775C 118"
+ShowTextBox "I'll also eat $9 every day for a long life, nyo!"
 WaitTextBox
 EndScript
 Label 31
@@ -650,13 +652,13 @@ ShowChara 1 0 12
 # なんでも、長生き
 # できる食べ物らし
 # いにょ
-ShowTextBox "!!! 3E775C 119"
+ShowTextBox "I heard it lets you live a long life, nyo."
 WaitTextBox
 ShowChara 1 0 14
 # こっそり調べて、
 # ひとりで食べるに
 # ょ～
-ShowTextBox "!!! 3E775C 120"
+ShowTextBox "I'll eat it all by myself in secret, nyo~"
 WaitTextBox
 EndScript
 
@@ -665,33 +667,33 @@ EndScript
 Subscript 16
 ShowChara 1 4 8
 # $1がサイコーにおいしい場所があるにょ
-ShowTextBox "!!! 3E775C 121"
+ShowTextBox "There're places where they make the best $1, nyo."
 WaitTextBox
 # どこか知ってるかにょ？
-ShowTextBox "!!! 3E775C 122"
+ShowTextBox "Do you know any, nyo?"
 WaitTextBox
 # $1の名産地
-ShowTextPrompt 5 "!!! 3E775C 123"
+ShowTextPrompt 5 "$1-specialty place"
 JumpOnSelection 2 32 33 0
 Label 32
 ShowChara 1 0 9
 # $9かにょ！
 # でじこ、$9は旅行で行ったことあるにょ！
-ShowTextBox "!!! 3E775C 124"
+ShowTextBox "$9, nyo! I've been to $9 before, nyo!"
 WaitTextBox
 ShowChara 1 0 10
 # $2もあって、ゴージャスなところだったにょ！
-ShowTextBox "!!! 3E775C 125"
+ShowTextBox "It was a gorgeous place that even had $2, nyo!"
 WaitTextBox
 ShowChara 1 0 14
 # 店長しゃんもお金があったら、行くがいいにょ～
-ShowTextBox "!!! 3E775C 126"
+ShowTextBox "If you have money, you should go, nyo~"
 WaitTextBox
 EndScript
 Label 33
 ShowChara 1 0 12
 # でじこも覚えてな
 # いにょ
-ShowTextBox "!!! 3E775C 127"
+ShowTextBox "I don't remember either, nyo."
 WaitTextBox
 EndScript
