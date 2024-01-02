@@ -60,7 +60,7 @@ ShowChara 6 0 46
 # Ç»ÇÒÇæÇ¡ÇΩÇ©Ç»Å[
 # Ç§Å`Å`Å`Å`Å`ÇÒÅc
 # évÇ¢èoÇπÇ»Å[Ç¢ÅI
-ShowTextBox "What waaas it\nWhat waaas it\nHmmmmm....\1I caaaaan't remember!"
+ShowTextBox "What waaas it\nWhat waaas it\nHmmmmm....\nI caaaaan't remember!"
 WaitTextBox
 EndScript
 

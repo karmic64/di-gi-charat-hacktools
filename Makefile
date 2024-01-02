@@ -118,8 +118,8 @@ $(HACKS_OUT): $(HACKS)
 $(addprefix new-data/,DSC MBM MFM MRM):
 	mkdir -p $@
 
-t.gba: bin/build$(DOTEXE) $(HACKS_OUT) $(addprefix new-data/,DSC MBM MFM MRM text.txt)
-	$^ $@
+t.gba: bin/build$(DOTEXE) $(HACKS_OUT) $(addprefix new-data/,DSC MBM MFM MRM text.txt) $(wildcard new-data/DSC/*.txt) $(wildcard new-data/MBM/*.png)
+	$< $(HACKS_OUT) $(addprefix new-data/,DSC MBM MFM MRM text.txt) $@
 
 
 
