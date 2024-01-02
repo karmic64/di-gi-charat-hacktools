@@ -120,3 +120,13 @@ $(addprefix new-data/,DSC MBM MFM MRM):
 
 t.gba: bin/build$(DOTEXE) $(HACKS_OUT) $(addprefix new-data/,DSC MBM MFM MRM text.txt)
 	$^ $@
+
+
+
+######### phony helper targets
+
+.PHONY: hunt-undone-lines
+hunt-undone-lines:
+	grep -m 1 -rnH '"!!!' new-data/DSC
+
+
