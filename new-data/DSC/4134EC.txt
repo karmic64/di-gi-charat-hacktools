@@ -1,0 +1,167 @@
+DSCBase $4134EC
+
+
+
+
+Subscript 0
+ShowChara 4 0 0
+EndScript
+
+
+
+Subscript 1
+# $0ぴよこは\x02仕事に飽きているようだ\x1a
+ShowTextBox "Looks like Piyoko is \x02tired of her job\x1a!"
+EndScript
+
+
+
+Subscript 2
+# 「もうこんな仕事飽きたぴょ」
+ShowTextBox "\"I'm tired of this job, pyo. Haven't you got anything else for me?\""
+EndScript
+
+
+
+Subscript 3
+ShowChara 4 0 0
+EndScript
+
+
+
+Subscript 4
+# ぴよこは\x02やりたい仕事を他の人にとられてすねているようだ\x1a
+ShowTextBox "Looks like Piyoko is \x02annoyed at someone else doing the job she wants\x1a!"
+EndScript
+
+
+
+Subscript 5
+# 「えこひいきなんてずるいぴょ！」
+ShowTextBox "\"Don't you DARE play favorites against me, pyo!\""
+EndScript
+
+
+
+Subscript 6
+ShowChara 4 0 0
+EndScript
+
+
+
+Subscript 7
+# ぴよこは\x02自分のグッズが叩き売られて悲しいようだ\x1a
+ShowTextBox "Looks like Piyoko is \x02sad to see her goods on special discount\x1a! "
+EndScript
+
+
+
+Subscript 8
+# 「ぴよこのグッズが叩き売られているぴょ…」
+ShowTextBox "\"To think that my goods would ever go on discount...\""
+EndScript
+
+
+
+Subscript 9
+ShowChara 4 0 0
+EndScript
+
+
+
+Subscript 10
+# ぴよこは\x03自分のグッズがたくさんあってうれしいようだ\x1a
+ShowTextBox "Looks like Piyoko is \x03happy to see a lot of her goods in the store\x1a!"
+EndScript
+
+
+
+Subscript 11
+# 「ぴよこのグッズでいっぱいにすればお店は大繁盛ぴょ！」
+ShowTextBox "\"This much Piyoko merch is a sure sign the shop is thriving, pyo!\""
+EndScript
+
+
+
+Subscript 12
+ShowChara 4 0 0
+EndScript
+
+
+
+Subscript 13
+# $0ぴよこは\x01仕事がうまくいっていないようだ\x1a
+ShowTextBox "$0Looks like Piyoko's \x01job isn't going very well\x1a!"
+EndScript
+
+
+
+Subscript 14
+# 「ぴょ…こんなことやっていられないぴょ…」
+ShowTextBox "\"Pyo... I don't think I can do this, pyo...\""
+EndScript
+
+
+
+Subscript 15
+ShowChara 4 0 0
+EndScript
+
+
+
+Subscript 16
+# $0\x02ぴよこの調子はあまりよくないようだ\x1a
+ShowTextBox "$0\x02Piyoko doesn't look well\x1a!"
+EndScript
+
+
+
+Subscript 17
+# 「ぴょー、どうもやる気がでないぴょー」
+ShowTextBox "\"I've got no energy today, pyo...\""
+EndScript
+
+
+
+Subscript 18
+ShowChara 4 0 0
+EndScript
+
+
+
+Subscript 19
+# $0ぴよこは問題無く仕事をしているようだ
+ShowTextBox "$0Looks like Piyoko isn't having any problems."
+EndScript
+
+
+
+Subscript 20
+# 「ぴょっぴょっ、今日も平和だぴょー」
+ShowTextBox "\"Today is business as usual, pyo.\""
+EndScript
+
+
+
+Subscript 21
+ShowChara 4 0 0
+EndScript
+
+
+
+Subscript 22
+# $0ぴよこは\x03はりきって仕事をしているようだ\x1a
+ShowTextBox "$0Looks like Piyoko is \x03working in high spirits\x1a!"
+EndScript
+
+
+
+Subscript 23
+# 「ぴょぴょぴょー！指導者がすぐれている組織は完璧ぴょ！」
+ShowTextBox "\"Pyo pyo pyo! My perfect leadership'll have this shop running... perfectly, pyo!\""
+EndScript
+
+
+
+Subscript 24
+EndScript

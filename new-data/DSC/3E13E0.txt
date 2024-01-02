@@ -1,0 +1,63 @@
+DSCBase $3E13E0
+
+
+
+
+Subscript 0
+ShowChara 7 2 48
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 7 0 48
+# 俺はクウ＝エアハルト
+ShowTextBox "I'm Coo Erhardt."
+EndScript
+
+
+
+Subscript 3
+# ぴよことは小さいとき
+# からいっしょで、まぁ
+# 妹みたいなもんだな
+ShowTextBox "Piyoko's been\nlike a sister to\nme since we were\nreally young."
+EndScript
+
+
+
+Subscript 4
+# あっ、言い忘れてたけ
+# ど、俺はブラックゲマ
+# ゲマ団少佐だ！
+ShowTextBox "Oh, yeah, also!\nI'm the Major\nin the Black\nGema Gema Gang!"
+EndScript
+
+
+
+Subscript 5
+ShowChara 7 0 47
+# おーい、ぴよこ、俺が
+# アシスタントやれって
+# 言われたんだけど…
+ShowTextBox "Hey, Piyoko!\nThe Manager's\nsaying he wants\nme to be the\nassistant."
+Wait 60
+ShowChara 4 2 31
+# ダメぴょ！　アシスタ
+# ントはぴよこがやるぴ
+# ょっ！
+ShowTextBox "Absolutely not!\nThat's MY job,\npyo!"
+Wait 60
+ShowChara 7 2 50
+# うわぁ、ぴよこのやつ
+# 怒ってる…ということ
+# で、パス！
+ShowTextBox "Yikes, she's\nmad... Anyway,\nno can do!\nSorry,\nManager!"
+Wait 60
+EndScript

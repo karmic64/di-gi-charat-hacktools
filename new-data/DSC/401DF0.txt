@@ -1,0 +1,304 @@
+DSCBase $401DF0
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 29
+# 夏と言えば、花火
+# ぴょ！
+ShowTextBox "Summer isn't\ncomplete without\nsome fireworks,\npyo!"
+WaitTextBox
+ShowChara 4 0 28
+# …と言ってはみた
+# ものの、じつはぴ
+# よこは花火にどん
+# なのがあるか、よ
+# く知らないぴょ…
+ShowTextBox "... To be\nhonest, though,\nI'm not sure\nwhat kind of\nfireworks there\nare, pyo."
+WaitTextBox
+# じ～～っ…
+ShowTextBox "..."
+WaitTextBox
+ShowChara 4 0 33
+# えっ、店長さん、
+# ぴよこのために花
+# 火を買ってきてく
+# れるぴょ？
+ShowTextBox "Oh, you'll go\nbuy fireworks\nfor me, Manager?"
+WaitTextBox
+ShowChara 4 0 29
+# わ～～い、店長さ
+# ん、ありがとうぴ
+# ょ～っ！
+ShowTextBox "Yayyy!\nThank you, pyo!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 5 1 35
+# …ピョコラ様が好
+# きそうな花火？
+ShowTextBox "... What kind of\nfireworks Lady\nPyokora would\nlike?"
+WaitTextBox
+# ふむ…ピョコラ様
+# は、ハデで目立つ
+# ものが好きだから
+# …
+ShowTextBox "Hmmm...\nI believe she\nenjoys loud,\nflashy displays\nin particular..."
+WaitTextBox
+# 打ち上げ花火なぞ
+# どうだろう？
+ShowTextBox "How about some\nfireworks that\nshoot up?"
+WaitTextBox
+ShowChara 5 0 39
+# …打ち上げ花火は
+# 個人が簡単にあつ
+# かえるものではな
+# いと…？
+ShowTextBox "... You don't\nthink they'll\nbe that easy to\nhandle?"
+WaitTextBox
+ShowChara 5 0 38
+# 店長、そこをなん
+# とかするのが、我
+# 々の務めではない
+# か！
+ShowTextBox "Do you have no\nconfidence in\nus at all,\nManager? You\ncan leave the\nlogistics\nto us!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 6 1 40
+# 自分は、線香花火
+# がよいと…
+ShowTextBox "However, I\nwould\npersonally\nprefer the\nhand-held\nsparklers..."
+WaitTextBox
+# なぜって？
+ShowTextBox "Why, you ask?"
+WaitTextBox
+ShowChara 6 0 41
+# 男の子なら、ねず
+# み花火やロケット
+# 花火が好きなので
+# しょうが、ピョコ
+# ラ様は女の子です
+ShowTextBox "A boy would\nprefer rockets\nand loud bangs,\nbut our Lady\nPyokora is a\nyoung lady."
+WaitTextBox
+# だから、自分は線
+# 香花火のような静
+# かで優美なものを
+# 喜ばれるのでは…
+# と思います
+ShowTextBox "So, I believe\nthe quiet,\nrefined beauty\nof sparklers\nwould better\nbefit her."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 7 1 48
+# 俺はねずみ花火か
+# ロケット花火がい
+# いぜ！
+ShowTextBox "You can sign\nme up for\nthe rockets\nand loud\nstuff!"
+WaitTextBox
+ShowChara 7 0 47
+# …えっ、ひとつだ
+# け？
+ShowTextBox "... Huh, if\nI had to pick\nonly one?"
+WaitTextBox
+ShowChara 7 0 48
+# じゃあ、ねずみ花
+# 火！
+ShowTextBox "One of those\nwhirly ones,\nthe pinwheels!"
+WaitTextBox
+ShowChara 7 0 52
+# …理由？最後にパ
+# ーンって爆発する
+# のがカッコいいだ
+# ろ？
+ShowTextBox "Why? 'Cause\nI like how\nthey make a\nbig BANG at\nthe end!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 4 1 28
+# あ、店長さん
+# なんだか、お空が
+# 真っ暗になって来
+# たぴょ！
+ShowTextBox "Manager, it's\ngetting dark\nout, pyo!"
+WaitTextBox
+# 雨になったら、花
+# 火できなくなるぴ
+# ょ！早く買ってく
+# るぴょ！
+ShowTextBox "If it rains,\nwe won't be\nable to see\nany fireworks!\nHurry up and\nget them, pyo!"
+WaitTextBox
+# 打ち上げ花火
+# 線香花火
+# ねずみ花火
+ShowSelMenu09 3 "!Shoot-up type\nSparklers\nPinwheel"
+Fade 1 30
+SetBG 113
+Fade 0 30
+JumpOnSelection 3 0 1 2 0
+Label 1
+ShowChara 4 1 28
+# ものすごい夕立だ
+# ったぴょ…
+ShowTextBox "That noon\nshower was\ncrazy, pyo..."
+WaitTextBox
+# 店長さん、大丈夫
+# ぴょ？
+ShowTextBox "Are they OK,\nManager?"
+WaitTextBox
+ShowChara 4 0 29
+# 何言ってるぴょ、
+# 店長さんじゃなく
+# て、花火のことを
+# 聞いてるぴょ
+ShowTextBox "What? I'm\ntalking about\nthe fireworks,\nof course, pyo!"
+WaitTextBox
+Fade 3 30
+Unk08 4 116 82 80 108 10 3
+Unk08 5 46 72 16 96 10 3
+Unk08 6 216 26 108 56 10 3
+Unk08 7 178 54 108 96 10 3
+SetBG 86
+Fade 2 30
+ShowChara 4 0 0
+# 花火って、もっと派手
+# なものと思ってたぴょ
+# …
+ShowTextBox "When I said\nfireworks, I\nwas thinking of\nsomething more\nflashy, pyo..."
+WaitTextBox
+# だけど、こーゆーのも
+# 風情があっていいぴょ
+# …
+ShowTextBox "But, I kinda\nlike this more\nrefined type,\npyo."
+WaitTextBox
+ShowChara 5 0 0
+# ほう、線香花火ですか
+# …
+ShowTextBox "Ah-ha.\nSparklers, yes?"
+WaitTextBox
+ShowChara 7 0 0
+# なんだ、この花火ぜん
+# ぜん弱いぞ！しめって
+# るんじゃないのか？
+ShowTextBox "What the heck!\nThese fireworks\nare so weak! You\nsure they didn't\nget wet from the\nrain?"
+WaitTextBox
+ShowChara 6 0 0
+# 少佐、線香花火はこう
+# いうものなんです
+ShowTextBox "Major Coo, this\nis indeed how\nsparklers are\nintended to\nburn."
+WaitTextBox
+ShowChara 4 0 0
+# ぱちぱち、ぱちぱち…
+# あっ、終わりぴょ…
+ShowTextBox "*pop, pop*\nAh, it burned\nout, pyo!"
+WaitTextBox
+EndScript
+Label 0
+ShowChara 4 1 28
+# ものすごい夕立だ
+# ったぴょ…
+ShowTextBox "That noon\nshower was\ncrazy, pyo..."
+WaitTextBox
+# 店長さん、大丈夫
+# ぴょ？
+ShowTextBox "Are they OK,\nManager?"
+WaitTextBox
+ShowChara 4 0 29
+# 何いってるぴょ、
+# 店長さんじゃなく
+# て、花火のことを
+# 聞いてるぴょ
+ShowTextBox "What? I'm\ntalking about\nthe fireworks,\nof course, pyo!"
+WaitTextBox
+ShowChara 4 0 28
+# …え、打ち上げ花
+# 火、買おうとした
+# けど、買えなかっ
+# たぴょ？
+ShowTextBox "What!? You\ntried to buy\nshooting-up\nfireworks, but\nthey wouldn't\nsell them?"
+WaitTextBox
+ShowChara 4 0 30
+# むかーーっ！それ
+# じゃ何の意味もな
+# いぴょ！
+ShowTextBox "Gaaah! What\nwas the point\nof going out\nin the first\nplace, pyo!"
+WaitTextBox
+ShowChara 4 0 31
+# もういいぴょ！花
+# 火なんか見なくた
+# って夏は夏ぴょ！
+ShowTextBox "I don't care\nanymore, pyo!\nSummer is still\nsummer,\nfireworks or no\nfireworks, pyo!"
+WaitTextBox
+EndScript
+Label 2
+ShowChara 4 1 28
+# ものすごい夕立だ
+# ったぴょ…
+ShowTextBox "That noon\nshower was\ncrazy, pyo..."
+WaitTextBox
+# 店長さん、大丈夫
+# ぴょ？
+ShowTextBox "Are they OK,\nManager?"
+WaitTextBox
+ShowChara 4 0 29
+# 何いってるぴょ、
+# 店長さんじゃなく
+# て、花火のことを
+# 聞いてるぴょ
+ShowTextBox "What? I'm\ntalking about\nthe fireworks,\nof course, pyo!"
+WaitTextBox
+ShowChara 4 0 28
+# …無事に、ねずみ
+# 花火を買ってこれ
+# たぴょ？
+ShowTextBox "You were able\nto get the\npinwheel\nfireworks, pyo?"
+WaitTextBox
+ShowChara 4 0 29
+# さすが、店長さん
+# ぴょ！
+ShowTextBox "Awesome! Good\njob, Manager!"
+WaitTextBox
+# …じゃ、始めるぴ
+# ょ
+ShowTextBox "... Then,\nlet's get\nstarted, pyo!"
+WaitTextBox
+ShowChara 4 0 28
+# 輪っかの、飛び出
+# たところに火をつ
+# けて…
+ShowTextBox "You light the\nfuse on the\nedge of the\ndisk..."
+WaitTextBox
+ShowChara 4 0 29
+# 火がついたら、地
+# 面に投げるぴょ！
+ShowTextBox "And then\nthrow it on\nthe ground,\npyo!"
+WaitTextBox
+ShowChara 4 0 28
+# …あれ、どうした
+# ぴょ、消えちゃっ
+# たぴょ？
+ShowTextBox "... What?\nThe fire's\ngone, pyo!"
+WaitTextBox
+ShowChara 4 0 33
+# ぴょぴょ～、さっ
+# きの夕立で、地面
+# がぬれてるぴょ！
+ShowTextBox "Argh! The rain\nearlier made\nthe ground all\ndamp, pyo!\n"
+WaitTextBox
+ShowChara 4 0 30
+# これじゃ、ねずみ
+# 花火はできないぴ
+# ょ…
+ShowTextBox "Pinwheels won't\nwork like this,\npyo..."
+WaitTextBox
+# がっくり、ぴょ…
+ShowTextBox "... That's so\ndisappointing,\npyo..."
+WaitTextBox
+EndScript

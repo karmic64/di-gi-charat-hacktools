@@ -1,0 +1,71 @@
+DSCBase $40CC30
+
+
+
+
+Subscript 0
+ShowChara 3 2 17
+EndScript
+
+
+
+Subscript 1
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 2
+# いままでやったミニゲームで遊ぶにゅ
+ShowTextBox "Play minigames you've unlocked, nyu."
+EndScript
+
+
+
+Subscript 3
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 4
+# いままでのおもいでを見るにゅ
+ShowTextBox "View your memories, nyu."
+EndScript
+
+
+
+Subscript 5
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 6
+# 音楽を聴くにゅ
+ShowTextBox "Listen to the soundtrack, nyu."
+EndScript
+
+
+
+Subscript 7
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 8
+# みんなでおしゃべりをするにゅ
+ShowTextBox "Chat with everyone, nyu."
+EndScript
+
+
+
+Subscript 9
+Fade 1 15
+HideChara
+EndScript

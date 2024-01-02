@@ -1,0 +1,109 @@
+DSCBase $3F37CC
+
+
+
+
+Subscript 0
+Unk08 1 180 65 40 108 10 3
+Unk08 2 52 43 52 88 10 3
+Unk08 3 121 97 8 16 10 2
+SetBG 110
+Fade 0 30
+ShowChara 2 0 0
+# 店…さん、……て
+ShowTextBox "Ma..ger, ... up"
+WaitTextBox
+ShowChara 3 0 0
+# 目を覚…すにゅ…
+ShowTextBox "Wake .., nyu..."
+WaitTextBox
+ShowChara 1 0 0
+# 店長しゃん、起きるに
+# ょ～～っ！
+ShowTextBox "WAKE UP, NYO!!"
+WaitTextBox
+Fade 1 1
+SetBG 123
+Fade 0 30
+Fade 3 1
+SetBG 27
+Fade 2 30
+ShowChara 2 0 0
+# あ、やっと目を覚まし
+# たわね、店長さん…
+ShowTextBox "Finally,\nyou're up!"
+WaitTextBox
+ShowChara 1 0 0
+# 店長しゃん、せっかく
+# 海に来たというのに
+ShowTextBox "Manager, we went\non that long\ntrip just to get\nto the sea,"
+WaitTextBox
+# いきなし、居眠りとは
+# どーゆーことにょっ！
+ShowTextBox "So why did you\nfall asleep as\nsoon as we got\nhere, nyo!?"
+WaitTextBox
+ShowChara 2 0 0
+# しかも、こんな美女を
+# ３人もほうっておいて
+# 昼寝よ…
+ShowTextBox "Leaving three\nbeautiful girls\nalone while you\nsnooze away..."
+WaitTextBox
+# もうほとんど罪よね！
+ShowTextBox "It's practically\ncriminal!"
+WaitTextBox
+ShowChara 3 0 0
+# 罪とは悪にゅ…
+ShowTextBox "Manager is on\nthe road to a\nlife of\ncrime, nyu..."
+WaitTextBox
+ShowChara 1 0 0
+# そして、悪にはこらし
+# めが必要にょ！
+ShowTextBox "And criminals\ndeserve\npunishment, nyo!"
+WaitTextBox
+ShowChara 2 0 0
+# というわけで、店長さ
+# んは「砂の山に埋め」
+# の刑ね
+ShowTextBox "Which is why\nwe've buried you\nin a mountain of\nsand, Manager."
+WaitTextBox
+ShowChara 1 0 0
+# じゃ、でじこたちはひ
+# と泳ぎしてくるにょ～
+ShowTextBox "Anyway, we're\ngoing to go swim,\nnyo~"
+WaitTextBox
+# にょにょ、心配しなく
+# ても、あとで出してあ
+# げるにょ～
+ShowTextBox "Nyo nyo, don't\nworry, we'll get\nyou out of there\neventually, nyo~"
+WaitTextBox
+ShowChara 2 0 0
+# でも、もうしばらくは
+# そのままでいてね
+ShowTextBox "I think you'll\nbe fine like\nthis for now,\nwon't you?"
+WaitTextBox
+ShowChara 3 0 0
+# 罪を悔いるにゅ…
+ShowTextBox "Sinners must\nrepent, nyu..."
+WaitTextBox
+Fade 3 120
+Wait 60
+SetBG 118
+Fade 2 30
+ShowChara 1 1 8
+# にょにょ～、店長
+# しゃん、居眠りし
+# ながら、どこか苦
+# しげにうなってる
+# にょ…
+ShowTextBox "Nyo nyo, it\nlooks like the\nManager's\nhaving a\nnightmare,\nnyo..."
+WaitTextBox
+ShowChara 2 2 22
+# …起こした方がい
+# いのかしら？
+ShowTextBox "... Should we\nwake them up,\ndo you think?"
+WaitTextBox
+ShowChara 3 1 21
+# ほっとくにゅ
+ShowTextBox "Let's let\nthem sleep,\nnyu."
+WaitTextBox
+EndScript

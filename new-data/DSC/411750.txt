@@ -1,0 +1,167 @@
+DSCBase $411750
+
+
+
+
+Subscript 0
+ShowChara 1 0 0
+EndScript
+
+
+
+Subscript 1
+# でじこは\x02仕事に飽きているようだ\x1a
+ShowTextBox "Looks like Dejiko is \x02tired of her job\x1a!"
+EndScript
+
+
+
+Subscript 2
+# 「もうこんな仕事やだにょー」
+ShowTextBox "\"Aaah! This job sucks, nyo!!\""
+EndScript
+
+
+
+Subscript 3
+ShowChara 1 0 0
+EndScript
+
+
+
+Subscript 4
+# でじこは\x02やりたい仕事を他の人にとられてすねているようだ\x1a
+ShowTextBox "Looks like Dejiko is \x02annoyed at someone else doing the job she wants\x1a!"
+EndScript
+
+
+
+Subscript 5
+# 「えこひいきはずるいにょ～」
+ShowTextBox "\"Manager's totally playing favorites, nyo...\""
+EndScript
+
+
+
+Subscript 6
+ShowChara 1 0 0
+EndScript
+
+
+
+Subscript 7
+# でじこは\x02自分のグッズが叩き売られて悲しいようだ\x1a
+ShowTextBox "Looks like Dejiko is \x02sad to see her goods on special discount\x1a! "
+EndScript
+
+
+
+Subscript 8
+# 「でじこのグッズが叩き売られているにょ…」
+ShowTextBox " \"They're throwing all Dejiko's stuff in the bargain bin, nyo...\""
+EndScript
+
+
+
+Subscript 9
+ShowChara 1 0 0
+EndScript
+
+
+
+Subscript 10
+# でじこは\x03自分のグッズがたくさんあってうれしいようだ\x1a
+ShowTextBox "Looks like Dejiko is \x03happy to see a lot of her goods in the store\x1a!"
+EndScript
+
+
+
+Subscript 11
+# 「でじこのグッズでいっぱいにすればお店は大繁盛にょ！」
+ShowTextBox "\"With so much of my goods available, we must really be thriving, nyo!\""
+EndScript
+
+
+
+Subscript 12
+ShowChara 1 0 0
+EndScript
+
+
+
+Subscript 13
+# $0でじこは\x01仕事がうまくいっていないようだ\x1a
+ShowTextBox "$0Looks like Dejiko's \x01job isn't going very well\x1a!"
+EndScript
+
+
+
+Subscript 14
+# 「にょ…こんなことやっていられないにょ…」
+ShowTextBox "\"Nyo... I don't know if I can do this, nyo...\""
+EndScript
+
+
+
+Subscript 15
+ShowChara 1 0 0
+EndScript
+
+
+
+Subscript 16
+# $0\x02でじこの調子はあまりよくないようだ\x1a
+ShowTextBox "$0\x02Dejiko doesn't look well\x1a!"
+EndScript
+
+
+
+Subscript 17
+# 「にょ～　どうもやる気がでないにょー」
+ShowTextBox "\"Nyo... I don't wanna work anymore, nyo...\""
+EndScript
+
+
+
+Subscript 18
+ShowChara 1 0 0
+EndScript
+
+
+
+Subscript 19
+# $0でじこは問題無く仕事をしているようだ
+ShowTextBox "$0Looks like Dejiko isn't having any problems."
+EndScript
+
+
+
+Subscript 20
+# 「ふんふんふん～♪今日も平和だにょー」
+ShowTextBox "\"Hehehe... Another peaceful day, nyo~\""
+EndScript
+
+
+
+Subscript 21
+ShowChara 1 0 0
+EndScript
+
+
+
+Subscript 22
+# $0でじこは\x03はりきって仕事をしているようだ\x1a
+ShowTextBox "$0Looks like Dejiko is \x03working in high spirits\x1a!"
+EndScript
+
+
+
+Subscript 23
+# 「にょにょにょー！でじこ様がいればゲーマーズは安心にょ！」
+ShowTextBox "# \"Nyo nyo nyo! Gamers is in good hands with the lovely Princess Dejiko here to help!\""
+EndScript
+
+
+
+Subscript 24
+EndScript

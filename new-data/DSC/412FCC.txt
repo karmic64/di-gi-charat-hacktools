@@ -1,0 +1,268 @@
+DSCBase $412FCC
+
+
+
+
+Subscript 0
+ShowChara 3 1 21
+# $0はもう十分やったにゅ
+# ちがう仕事がやりたいにゅ
+ShowTextBox "I've been doing this job a long time, nyu. I wanna do something else now, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 1
+ShowChara 3 1 17
+# そこまで言うなら
+# この仕事でがんば
+# ってみるにゅ
+ShowTextBox "Well, I'll still try my best at this one, nyu."
+WaitTextBox
+PlaySfx 147
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 3 1 20
+# こんなことはもう
+# ないようにしてほ
+# しいにゅ…
+ShowTextBox "I wish this was over already, nyu..."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 3
+ShowChara 3 1 18
+# 店長さん、わかっ
+# てるにゅ
+# ぷちこ期待にこた
+# えて仕事がんばり
+# たいにゅ
+ShowTextBox "I understand, Manager, nyu. I'll do my best to meet your expectations, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 4
+ShowChara 3 1 17
+# すまないにゅ…
+ShowTextBox "Sorry, nyu..."
+WaitTextBox
+# なんとかやって
+# みるにゅ
+ShowTextBox "I'll give it a try, nyu."
+WaitTextBox
+PlaySfx 147
+HideChara
+EndScript
+
+
+
+Subscript 5
+ShowChara 3 1 17
+# …なにかうまくい
+# きそうな予感がす
+# るにゅ
+ShowTextBox "Somehow I feel like things are going to be OK, nyu."
+WaitTextBox
+PlaySfx 147
+HideChara
+EndScript
+
+
+
+Subscript 6
+ShowChara 3 1 17
+# にゅ…
+# もっとがんばって
+# みるにゅ
+ShowTextBox "Nyu... I'll try a little harder, nyu."
+WaitTextBox
+PlaySfx 147
+HideChara
+EndScript
+
+
+
+Subscript 7
+ShowChara 3 1 17
+# 問題ないにゅ
+ShowTextBox "All good, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 8
+ShowChara 3 1 17
+# あ・はっぴぃ・に
+# ゅ…じゃなくて、
+# あ・はっぴぃ・に
+# ゅー・いやー・に
+# ゅ！
+ShowTextBox "Happy nyu- I mean, Happy new year, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 9
+ShowChara 3 1 17
+# バレンタインデー
+# は、もともとアメ
+# リカの木こりの風
+# 習だったにゅ
+ShowTextBox "Did you know, Manager? Valentine's day started as a custom of American lumberjacks, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 10
+ShowChara 3 1 17
+# そろそろ終わりに
+# ゅ、お疲れさま
+ShowTextBox "Looks like we're done, nyu. Good work, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 3 1 17
+# 今日は晴れてるか
+# ら、洗濯物がよく
+# 乾くにゅ
+ShowTextBox "The weather's nice today...\nI bet everything on the\nclothesline is dry by now, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 12
+ShowChara 3 1 17
+# こうして毎日毎日
+# 仕事をしてると、
+# 何かしわよせを感
+# じるにゅ
+ShowTextBox "I'm starting to feel strained, working day in and day out, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 13
+ShowChara 3 1 17
+# カタツムリは、脱
+# 皮してもナメクジ
+# にはならないにゅ
+ShowTextBox "Even if you take off its shell, a snail won't become a slug, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 14
+ShowChara 3 1 17
+# 中国では、七夕の
+# 笹はあとでパンダ
+# に食わせるのが正
+# しいやり方にゅ
+ShowTextBox "In China, the pandas come and eat the bamboo after Tanabata... that's the right way of doing things, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 15
+ShowChara 3 1 17
+# 夏のビキニは危険
+# だから近づかない
+# 方がいいにゅ
+ShowTextBox "A bikini in summer is dangerous, so don't get too close, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 16
+ShowChara 3 1 17
+# 台風一家はそろっ
+# て低気圧にゅ
+ShowTextBox "!!! 412FCC 17"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 17
+ShowChara 3 1 17
+# 今月末のハロウィ
+# ンの日には、何か
+# が起こるにゅ
+ShowTextBox "Halloween's at the end of this month, nyu... I wonder what'll happen, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 18
+ShowChara 3 1 17
+# 店長さんは冬眠し
+# たいと思ったこと
+# あるかにゅ？
+ShowTextBox "Do you ever feel like hibernating during the winter, Manager?"
+WaitTextBox
+# ぷちこは全然思っ
+# たことないにゅ
+ShowTextBox "I definitely haven't thought about it, nyu. Not at all."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 19
+ShowChara 3 1 17
+# 店長さん、サンタ
+# のおじさんに伝言
+# をお願いにゅ…
+ShowTextBox "Manager, could you tell Santa something for me, nyu?"
+WaitTextBox
+# “ぷちこはクジラ
+# をペットにしたい
+# にゅ…”
+ShowTextBox "Tell him \"Puchiko would like a pet whale for Christmas\", nyu..."
+WaitTextBox
+# 念のため、もう一
+# 度くり返すにゅ…
+ShowTextBox "Did you get that, nyu?"
+WaitTextBox
+# “ぷちこはクジラ
+# をペットにしたい
+# にゅ…”
+ShowTextBox "\"A pet whale\". Make sure you tell him, nyu."
+WaitTextBox
+HideChara
+EndScript

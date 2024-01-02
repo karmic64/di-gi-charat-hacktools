@@ -1,0 +1,133 @@
+DSCBase $3E35F8
+
+
+
+### Prefill data: $03,$85,$81,$80
+Subscript 0
+ShowChara 5 4 38
+# 今こそ私の知識を見せる時！
+# $1の事なら、この私におまかせだ！
+ShowTextBox "Please allow me\nto share my\nknowledge\nregarding the\n$1!"
+WaitTextBox
+ShowChara 5 0 39
+# $1は$2に生息する生物で、$3が大好物なのだ！
+ShowTextBox "These noble\nbeasts roam\n$2,\nhunting\n$3\nas prey."
+WaitTextBox
+ShowChara 5 0 36
+# 地球では$4が初めて、そのかわいらしさに気づいたとか…
+ShowTextBox "It is said that\non Earth,\n$4\nwas the first\nto study these\ncreatures."
+WaitTextBox
+ShowChara 5 0 65
+# 私もその姿を見る
+# と、思わず目じり
+# が下がって…@
+ShowTextBox "I, too, cannot\nresist their\ncharms...\nBut by no means\nshould you keep\none as a pet!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83,$84,$81
+Subscript 1
+ShowChara 5 4 39
+# 知っているか店長
+# ？
+# $1は$2を主食とする生物…
+ShowTextBox "Manager, were\nyou aware that\nthe $1\nprimarily\neats\n$2?"
+WaitTextBox
+ShowChara 5 0 38
+# しかし、そのお茶
+# 目な性格で$3も食べたりするのだ！
+ShowTextBox "However! In\nthe wild, they\nhave been found\neating\n$3\nas well!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$8A,$83
+Subscript 2
+ShowChara 5 4 35
+# このまえ$1で$2に乗る$3を見かけたのだ
+ShowTextBox "I saw a\n$3\nriding a\n$2\nin $1\nearlier."
+WaitTextBox
+ShowChara 5 0 36
+# …かわいかったぞ@
+ShowTextBox "...\nI feel blessed\nto have lived to\nsee the day."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83,$85
+Subscript 3
+ShowChara 5 4 35
+# $2では$1を『神の使い』として、あがめていたらしい
+ShowTextBox "In $1,\n$2 are\nseen as divine\nbeings who\nprotect the\nland."
+WaitTextBox
+ShowChara 5 0 64
+# （なぜだ…？）
+ShowTextBox "...\nI wonder how\nthat particular\ntradition\nbegan, exactly."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$83,$82
+Subscript 4
+ShowChara 5 4 35
+# 最近$1動物園では、$2の子育てに$3を飲ませているという…
+ShowTextBox "At the zoo,\nI saw a\n$2\nfeeding its\nchild\n$3..."
+WaitTextBox
+ShowChara 5 0 39
+# …これが事実なら大問題だ
+ShowTextBox "This could be a\ndire problem\nfor the next\ngeneration of\n$2\nchildren...!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$83,$85
+Subscript 5
+ShowChara 5 4 35
+# $1はペットの$2を連れて、よく$3に行くらしい
+ShowTextBox "I've heard\n$1\nlikes to walk\ntheir pet\n$2\naround here."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83,$87
+Subscript 6
+ShowChara 5 4 57
+# ムッ…誰だ？
+# 私の$1に$2させているのは！？
+ShowTextBox "Speak!\nWho put my\nprecious\n$1 to\nwork as a\n$2!?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$83,$8B
+Subscript 7
+ShowChara 5 4 37
+# 最近、$1はリッチだ…
+ShowTextBox "$1\nhas come into\nquite a sum of\nmoney recently."
+WaitTextBox
+ShowChara 5 0 36
+# 家で飼っている$2に$3までさせているらしい
+ShowTextBox "I've heard they\neven bought a\n$2\nthat can play\n$3.\nRidiculous..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$83,$89
+Subscript 8
+ShowChara 5 4 35
+# 先週の『$1』は$2が映っていた
+ShowTextBox "There was a\n$2\non $1\nlast week."
+WaitTextBox
+# なんでも言葉が分かる$2らしく、『$3』を読んで笑っているのだ！
+ShowTextBox "Not only could\nit understand\nhuman language,\nit even laughed\nat the jokes in\n$3!"
+WaitTextBox
+ShowChara 5 0 38
+# これはどう言うことだ、店長！？
+ShowTextBox "What is the\nmeaning of this,\nManager!?"
+WaitTextBox
+ShowChara 5 0 39
+# …と、店長にあたってもしかたないか…すまない
+ShowTextBox "...\nMy apologies.\nI know you're\njust as\nflabbergasted\nas I am..."
+WaitTextBox
+EndScript

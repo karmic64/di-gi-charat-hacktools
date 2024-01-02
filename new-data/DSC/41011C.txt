@@ -1,0 +1,170 @@
+DSCBase $41011C
+
+
+
+
+Subscript 0
+ShowChara 4 0 29
+# ぴよこ、今週は
+# $0、すごくがんばったぴょ！
+# 来週もぴよこに
+# おまかせぴょ！
+ShowTextBox "I did really well at $0 this week, pyo!\nNext week I'll do even better, pyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 4 0 28
+# ぴよこ、今週は
+# $0、ふつうにこなせたぴょ
+# 来週も
+# がんばるぴょ！
+ShowTextBox "I did an average job at $0 this week, pyo.\nI'll do my best next week, pyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 4 0 30
+# ぴよこ、今週は
+# $0、うまくできなかったぴょ…
+# 来週こそは
+# がんばるぴょ！
+ShowTextBox "I didn't do very well at $0 this week, pyo...\nI'll try harder next week, pyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 4 0 31
+# \x01$0\x1aなんてもうやってられないぴょ！
+# \x03$1\x1aをやりたいぴょ！
+ShowTextBox "I don't wanna do \x01$0\x1a anymore, pyo!\nLet me do \x03$1\x1a instead, pyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 4 0 29
+PlaySfx 159
+PlaySfx 18
+# やったぴょー！
+# $0のレベルアップぴょ！
+# これで\x03$1\x1aぴょー！
+ShowTextBox "I did it, pyo!\nI leveled up at $0, pyo!\nI'm now level \x03$1\x1a, pyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 4 0 29
+PlaySfx 159
+PlaySfx 18
+# やったぴょー！
+# $0のレベルアップぴょ！
+# これで…
+ShowTextBox "I did it, pyo!\nI leveled up at $0, pyo!\nI'm now..."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 6
+SetBG 103
+Unk08 4 84 80 104 100 10 3
+Fade 0 30
+ShowChara 4 0 0
+# \x03レジマスター\x1aぴょ！
+ShowTextBox "a \x03Checkout Master\x1a, pyo!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 7
+SetBG 106
+Unk08 4 160 85 94 108 10 3
+Fade 0 30
+ShowChara 4 0 0
+# \x03接客マスター\x1aぴょ！
+ShowTextBox "a \x03Service Master\x1a, pyo!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 8
+SetBG 104
+Unk08 4 127 73 8 100 10 3
+Fade 0 30
+ShowChara 4 0 0
+# \x03グッズマスター\x1aぴょ！
+ShowTextBox "a \x03Stocking Master\x1a, pyo!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 9
+SetBG 105
+Unk08 4 95 73 88 88 10 3
+Fade 0 30
+ShowChara 4 0 0
+# \x03掃除マスター\x1aぴょ！
+ShowTextBox "a \x03Cleaning Master\x1a, pyo!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 10
+SetBG 112
+Fade 2 30
+ShowChara 4 0 29
+PlaySfx 159
+PlaySfx 18
+# 店長さん、手伝っ
+# てくれてどうもあ
+# りがとうぴょ！
+# \x03おかげでお仕事レベルがあがったぴょ！\x1a
+ShowTextBox "Thanks for your help, Manager! With your advice, I was able to \x03level up\x1a, pyo!"
+WaitTextBox
+# ぴよこ、これから
+# ももっとがんばる
+# から、今後ともよ
+# ろしくぴょ！
+ShowTextBox "I'll keep doing my best, so I hope you'll help me out again sometime, pyo!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 11
+SetBG 112
+Fade 0 30
+ShowChara 4 0 30
+# 店長さんがせっか
+# く、手伝ってくれ
+# たのに、うまくい
+# かなかったぴょ…
+ShowTextBox "Sorry, Manager... Even with your help, it didn't go too well, pyo."
+WaitTextBox
+ShowChara 4 0 28
+# ぴよこ、次はがん
+# ばるぴょ！
+ShowTextBox "I'll try harder next time, pyo!"
+WaitTextBox
+Fade 1 30
+EndScript

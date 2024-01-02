@@ -1,0 +1,262 @@
+DSCBase $40140C
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 6 2 40
+# 毎年、６月４日か
+# ら１０日までは、
+# 「歯の衛生週間」
+# です…
+ShowTextBox "Every year, the\nweek from June 6\nto the 10th is\ndesignated as\n\"Dental Health\nWeek\"."
+WaitTextBox
+# みなさん、歯を大
+# 切にしましょう…
+ShowTextBox "Everyone, be\nsure to take\ngood care of\nyour dental\nhygeine."
+WaitTextBox
+ShowChara 6 0 41
+# ということで、自
+# 分は提案します！
+ShowTextBox "To that end, I\nhave a proposal!"
+WaitTextBox
+# 今週は歯みがきグ
+# ッズを大いに売り
+# 出しましょう！
+ShowTextBox "This week, let\nus sell dental\nthemed\nmerchandise!"
+WaitTextBox
+# コップに歯ブラシ
+# 歯みがき粉に、入
+# れ歯の洗浄剤…
+ShowTextBox "We can put out\ntoothbrushes\nand toothpaste\nin cups, and\nput mouthwash on\nthe shelves..."
+WaitTextBox
+# ありとあらゆる歯
+# みがきグッズをお
+# 店にそろえましょ
+# う！
+ShowTextBox "Anything you\ncan think of,\nlet's put it up\nfor sale!\nWhat do you\nthink, Manager?"
+WaitTextBox
+ShowChara 4 1 28
+# カイが燃えてるぴ
+# ょ…
+ShowTextBox "Ky is really\ngetting into\nthis."
+WaitTextBox
+ShowChara 5 1 35
+# 中将は歯のことに
+# なると、人が変わ
+# るからな…
+ShowTextBox "The lieutenant\nis like a\ndifferent person\nwhen it comes\nto teeth..."
+WaitTextBox
+ShowChara 7 1 48
+# 動物を前にしたリ
+# クと同じだよ！
+ShowTextBox "When you see\nan animal,\nyou're even\nworse, Rik!"
+WaitTextBox
+# カイ、がんばれ！
+# やりすぎかも…
+ShowSelMenu09 2 "!Go ahead, Ky!\nTone it down..."
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 6 2 43
+# そうですか…
+# 残念ですが、店長
+# の指示にしたがい
+# ます…
+ShowTextBox "You don't\napprove...?\nWell, I suppose\nyou have the\nfinal say..."
+WaitTextBox
+ShowChara 4 1 28
+# 店長さん、よく言
+# ったぴょ！
+# そんな気の毒そう
+# な顔をしなくてい
+# いぴょ！
+ShowTextBox "Good job,\nManager! Don't\nlet him make\nyou feel guilty,\npyo!"
+WaitTextBox
+ShowChara 4 0 31
+# 情けは禁物ぴょ！
+# これでみんなが
+# 助かったぴょっ！
+ShowTextBox "You've saved us\nall, pyo!\nThere's nothing\nto feel bad\nabout!"
+WaitTextBox
+ShowChara 5 1 39
+# 歯の治療は、必ず
+# 痛みをともないま
+# すからな…
+ShowTextBox "Dentistry and\npain go hand in\nhand, after\nall."
+WaitTextBox
+ShowChara 7 1 49
+# …あーっ、カイに
+# 虫歯抜かれたとき
+# のこと、思い出し
+# ちゃったぜーっ
+ShowTextBox "Ugh... you're\nreminding me of\nthat time you\nyanked out my\ntooth with a\ncavity..."
+WaitTextBox
+ShowChara 4 1 29
+# とにかく、痛い思
+# いしなくてよかっ
+# たぴょ！
+ShowTextBox "Anyway, you\nsaved us all a\npain in the\ntooth, pyo!"
+WaitTextBox
+EndScript
+Label 0
+ShowChara 6 2 41
+# 了解しました！こ
+# のカイ、地球の人
+# たちの歯の健康の
+# ため、努力を尽く
+# します…
+ShowTextBox "Understood!\nI will do my\nutmost to\nprovide for the\ndental health\nof Earth!"
+WaitTextBox
+ShowChara 4 1 30
+# はじまったぴょ…
+ShowTextBox "It's started,\npyo..."
+WaitTextBox
+ShowChara 5 1 39
+# まぁ、今週いっぱ
+# いの辛抱です…
+ShowTextBox "It's going to\nbe a long\nweek..."
+WaitTextBox
+ShowChara 7 1 58
+# やべっ…いま俺、
+# 虫歯あるかも…
+ShowTextBox "Oh, crap...\nI think I've\ngot a cavity..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 112
+Fade 0 30
+ShowChara 6 2 41
+# では、さっそくで
+# すが店長、ちょっ
+# とよろしいですか
+# ？
+ShowTextBox "Apologies,\nManager, but\nmay I borrow\nyou for a\nmoment?"
+WaitTextBox
+Fade 3 30
+Unk08 4 57 114 92 108 10 3
+Unk08 5 175 24 100 50 10 3
+Unk08 6 151 90 100 108 10 3
+Unk08 7 42 31 90 16 10 3
+SetBG 85
+Fade 2 30
+ShowChara 6 0 0
+# えー、それでは、
+# これより歯科検診を
+# 行います…
+ShowTextBox "Now then, let's\nbegin the\ncheckup..."
+WaitTextBox
+ShowChara 4 0 0
+# ちなみに、店長さんが
+# 最後ぴょ…
+ShowTextBox "The Manager's\nthe last one\nto go, pyo."
+WaitTextBox
+ShowChara 7 0 0
+# 俺たちはもう終ったか
+# らな…
+ShowTextBox "We all somehow\nmanaged to\nsurvive our\nown checkups..."
+WaitTextBox
+ShowChara 5 0 0
+# 残るは店長、貴様だけ
+# だ…
+ShowTextBox "All that's left\nis you,\nManager...!"
+WaitTextBox
+ShowChara 6 0 0
+# はい店長、口を大きく
+# あけてください…
+ShowTextBox "Now, please\nopen your\nmouth wide...!"
+WaitTextBox
+# う～ん…これは削る必
+# 要がありますね…
+ShowTextBox "Hmmm...\nYes, we'll\nneed the drill\nfor this one..."
+WaitTextBox
+# 店長、痛くなったら
+# 手をあげてください…
+ShowTextBox "Manager, if\nanything hurts,\njust raise your\nhand."
+WaitTextBox
+ShowChara 5 0 0
+# みんな、耳をふさげ！
+ShowTextBox "Everyone,\ncover your ears!"
+WaitTextBox
+ShowChara 4 0 0
+# 準備ＯＫぴょ！
+ShowTextBox "I'm ready, pyo!"
+WaitTextBox
+ShowChara 7 0 0
+# ふさいだぜ！
+ShowTextBox "They're covered!"
+WaitTextBox
+ShowChara 5 0 0
+# （もうみんな慣れてし
+# まった…）
+ShowTextBox "(Hmph... they\nknow the routine\nby now...)"
+WaitTextBox
+ShowChara 4 0 0
+# （あ、店長さんが手を
+# あげてるぴょ…）
+ShowTextBox "(The Manager\nraised their\nhand, pyo...)"
+WaitTextBox
+ShowChara 6 0 0
+# ……………………
+# ……………………
+ShowTextBox "...\n..."
+WaitTextBox
+ShowChara 7 0 0
+# （きっとガマンしろ、
+# とか言ってるんだぜ）
+ShowTextBox "(He's probably\nsaying something\nlike \"Just\nendure it a\nlittle more\"...)"
+WaitTextBox
+# （耳をふさいでるから
+# 聞こえないけどな…）
+ShowTextBox "(Not that I can\nhear anything\nover that\ndrill...)"
+WaitTextBox
+ShowChara 6 0 0
+# ………………
+# ………………
+ShowTextBox "...\n..."
+WaitTextBox
+ShowChara 5 0 0
+# （む、終ったようです）
+ShowTextBox "(Looks like it's\nover.)"
+WaitTextBox
+ShowChara 4 0 0
+# （何度見ても恐ろしい
+# 光景ぴょ…）
+ShowTextBox "(No matter how\nmany times I\nsee this, it\nnever gets any\nless scary,\npyo...)"
+WaitTextBox
+Fade 1 30
+SetBG 112
+Fade 0 30
+ShowChara 4 1 28
+# 店長さん、まだ顔
+# 色が悪いぴょ
+ShowTextBox "Manager, you\nstill don't\nlook well, pyo."
+WaitTextBox
+# 思ったより、虫歯
+# がひどかったみた
+# いぴょ
+ShowTextBox "The checkup\nwas a lot\nworse than I\nthought, pyo..."
+WaitTextBox
+ShowChara 4 0 31
+# そんなことで、来
+# 年の「歯の衛生週
+# 間」はどうするぴ
+# ょ？
+ShowTextBox "So, what are\nyou going to\ndo for Dental\nHealth Week\nnext year, pyo?"
+WaitTextBox
+# ぴよこは、絶対毎
+# 日、歯をみがくぴ
+# ょ！
+ShowTextBox "I'm going to\nmake sure I\nbrush every\nsingle day, pyo!"
+WaitTextBox
+ShowChara 4 0 29
+# 店長さんもぴよこ
+# といっしょにみが
+# くぴょ！
+ShowTextBox "You should try\nwith me, pyo!"
+WaitTextBox
+EndScript

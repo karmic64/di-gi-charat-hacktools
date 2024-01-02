@@ -1,0 +1,267 @@
+DSCBase $402A90
+
+
+
+
+Subscript 0
+Unk08 4 140 50 74 80 10 3
+Unk08 1 203 114 32 108 10 3
+SetBG 112
+Fade 0 30
+ShowChara 7 2 50
+# おーい、ぴよこ、
+# 大変だーっ！
+ShowTextBox "B-Big problem,\nPiyoko!"
+WaitTextBox
+ShowChara 4 1 28
+# クウ、そんなにあ
+# わててどうしたぴ
+# ょ？
+ShowTextBox "What's the\nmatter, Coo?"
+WaitTextBox
+ShowChara 7 2 50
+# そ、そこの公園で
+# …
+ShowTextBox "In the park...!"
+WaitTextBox
+ShowChara 4 1 29
+# 公園で？
+ShowTextBox "In the park...?"
+WaitTextBox
+ShowChara 7 2 50
+# 運動会やってるん
+# だ！
+ShowTextBox "They're holding\na sports\nfestival!"
+WaitTextBox
+ShowChara 4 1 30
+# …期待して損した
+# ぴょ
+ShowTextBox "... You got my\nhopes up for\nnothing, pyo."
+WaitTextBox
+ShowChara 7 2 50
+# 違う違う！　そう
+# じゃなくて、デ・
+# ジ・キャラットた
+# ちが出てるんだ！
+ShowTextBox "You don't get\nit! The Di Gi\nCharat are\ngoing to enter!"
+WaitTextBox
+ShowChara 4 1 33
+# …でじこお姉ちゃ
+# んが？
+ShowTextBox "You mean\nDejiko is, pyo!?"
+WaitTextBox
+ShowChara 4 0 31
+# どーして、それを
+# 先に言わないぴょ
+# っ～！
+ShowTextBox "You should have\nsaid that\nfirst, pyo!"
+WaitTextBox
+Fade 1 30
+SetBG 125
+Fade 0 30
+ShowChara 4 1 31
+# なんと…！？現在
+# でじこお姉ちゃん
+# たちのチームがト
+# ップぴょっ！
+ShowTextBox "What!? Dejiko's\nteam is in\nfirst place,\npyo!"
+WaitTextBox
+ShowChara 5 2 38
+# これは見過ごせま
+# せんな
+ShowTextBox "We cannot simply\noverlook this."
+WaitTextBox
+ShowChara 6 2 42
+# まったくです！
+ShowTextBox "Indeed!"
+WaitTextBox
+ShowChara 4 1 31
+# お前たち、何か手
+# を打つぴょ！
+ShowTextBox "Do something,\npyo!"
+WaitTextBox
+ShowChara 5 2 39
+# お任せください、
+# ピョコラ様
+ShowTextBox "Leave the\nmatter to us,\nLady Pyokora!"
+WaitTextBox
+ShowChara 6 2 41
+# 必ずや、デ・ジ・
+# キャラットに、ほ
+# えづらをかかせて
+# やりましょう
+ShowTextBox "Di Gi Charat\nwill be crying\nthemselves to\nsleep tonight\nafter we're\ndone with them!"
+WaitTextBox
+ShowChara 7 2 52
+# ふふ…見てろよ！
+ShowTextBox "Heh... let's\nbegin!"
+WaitTextBox
+Fade 1 120
+Wait 60
+Fade 0 30
+ShowChara 1 1 9
+# にょにょ～、つい
+# に最後の種目、１
+# ００メートル走の
+# 時間だにょ～
+ShowTextBox "It's almost\ntime for the\nfinal 100 meter\ndash, nyo~"
+WaitTextBox
+ShowChara 2 1 23
+# えー、今の点数だ
+# と…やったあ、３
+# 位以上なら、アタ
+# シたちの優勝よ！
+ShowTextBox "Let me look at\nthe points...\nAlright! As long\nas we finish\nabove 3rd place,\nwe win!"
+WaitTextBox
+ShowChara 3 1 18
+# もう勝ったも同然
+# にゅ
+ShowTextBox "We've\npractically won\nalready, nyu."
+WaitTextBox
+ShowChara 4 2 29
+# ぴょっぴょっぴょ
+# っ…それはどーか
+# なぴょっ！
+ShowTextBox "Pyo pyo pyo...\nI wouldn't be\nso sure, pyo!"
+WaitTextBox
+ShowChara 1 1 15
+# にょっ、ぴよこ、
+# 何しに来たにょ！
+ShowTextBox "Nyo--!\nPiyoko! What\nare you doing\nhere, nyo!?"
+WaitTextBox
+ShowChara 4 2 29
+# 決まってるぴょ、
+# でじこお姉ちゃん
+# のジャマしにきた
+# ぴょ！
+ShowTextBox "Isn't it\nobvious?\nI came here\nto mess stuff\nup, pyo!"
+WaitTextBox
+ShowChara 2 1 55
+# そこまできっぱり
+# 言われると、かえ
+# ってすがすがしい
+# 気持ちになるわ…
+ShowTextBox "... Well, at\nleast you're\nhonest..."
+WaitTextBox
+ShowChara 5 2 36
+# ふっふっふ…なん
+# と言っても、我々
+# ブラックゲマゲマ
+# 団は悪ですからな
+# ！
+ShowTextBox "Heheheh...\nThe Black Gema\nGema Gang is a\nforce for evil!\nIt's just what\nwe do!"
+WaitTextBox
+ShowChara 6 2 40
+# さて…では、自分
+# たちがどういうジ
+# ャマをしたか、説
+# 明しましょう
+ShowTextBox "Not to rush\nyou, but could\nyou get on to\nexplaining your\nevil plot for\ntoday?"
+WaitTextBox
+ShowChara 1 1 16
+# よろしくお願いす
+# るにょ
+ShowTextBox "We've got a\nrace to run,\nnyo."
+WaitTextBox
+ShowChara 6 2 40
+# 最終種目の１００
+# メートル走が変更
+# になりました
+ShowTextBox "Attention,\nparticipants!\nWe will be\nrevising the\nfinal 100 meter\ndash event."
+WaitTextBox
+ShowChara 2 1 22
+# 変更って、何に変
+# わったの？
+ShowTextBox "What're you\nreplacing it\nwith, then?"
+WaitTextBox
+ShowChara 5 2 35
+# 走者４名による、
+# ４００メートルリ
+# レーです
+ShowTextBox "The new race\nwill be a\n4-man 400 meter\nrelay race!"
+WaitTextBox
+ShowChara 3 1 17
+# …普通にゅ
+ShowTextBox "... That's\nhardly a change,\nnyu."
+WaitTextBox
+ShowChara 7 2 48
+# あまい、あまい、
+# あま～い、あます
+# ぎる！　驚け、な
+# んとこの種目の得
+# 点は…
+ShowTextBox "Heh... Just\nwait till you\nhear how many\npoints go to\nthe victor!"
+WaitTextBox
+ShowChara 4 2 29
+# １０億点ぴょっ！
+ShowTextBox "The team that\nfinishes first\nearns\n10 bajillion\npoints, pyo!"
+WaitTextBox
+ShowChara 1 1 12
+# にょにょ～、そん
+# なのデタラメにょ
+# ～！
+ShowTextBox "That's not\neven a real\nnumber, nyo!"
+WaitTextBox
+ShowChara 2 1 24
+# これまでの得点が
+# まるっきり関係な
+# くなっちゃうじゃ
+# ない！
+ShowTextBox "So you're\ntrying to put\nit all on this\none race!"
+WaitTextBox
+ShowChara 5 2 36
+# デタラメ？ふっ、
+# けっこう！
+ShowTextBox "Heh...\nIndeed!"
+WaitTextBox
+ShowChara 6 2 41
+# なぜなら、我々ブ
+# ラックゲマゲマ団
+# は『悪』ですから
+# な～
+ShowTextBox "The Black Gema\nGema Gang is a\nforce for evil!\nAnd this is\nabout as evil\nas it gets!"
+WaitTextBox
+ShowChara 7 2 48
+# おとなしく俺たち
+# と勝負しな！そし
+# て、負けな！
+ShowTextBox "It's over for\nyou, Di Gi\nCharat! Prepare\nto lose!"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょっぴょっぴょ
+# っ！
+ShowTextBox "Pyo pyo pyo!"
+WaitTextBox
+Fade 1 120
+Wait 60
+SetBG 123
+Fade 0 30
+Wait 60
+Fade 3 1
+SetBG 89
+Fade 2 30
+ShowChara 4 0 0
+# ゴ～～～～～～～～ル
+# ぴょ～～～～～！！！
+ShowTextBox "Goaaal!!!"
+WaitTextBox
+# ぴょぴょっ、勝つって
+# 気持ちいいぴょ～～！
+ShowTextBox "It feels so\ngood to win\nfor once, pyo!"
+WaitTextBox
+ShowChara 1 0 0
+# いんちきにょ、でたら
+# めにょ、サギにょ！
+ShowTextBox "Liar! Cheater!\nThis doesn't\ncount, nyo!"
+WaitTextBox
+# こんなやり方で勝って
+# 恥ずかしくないのかに
+# ょ！
+ShowTextBox "You should\nbe ashamed of\nyourself,\npulling a\ntrick like\nthat, nyo!"
+WaitTextBox
+ShowChara 4 0 0
+# 何とでも言えばいいぴ
+# ょ～！
+ShowTextBox "Don't be a\nsore loser,\npyo!!"
+WaitTextBox
+EndScript

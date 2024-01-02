@@ -1,0 +1,53 @@
+DSCBase $3E1904
+
+
+
+
+Subscript 0
+ShowChara 2 2 23
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# アタシの名前は、ラ・
+# ビ・アン・ローズ♪う
+# さだって呼ばないで！
+ShowTextBox "I'm the super\ncute super-idol\nRabi~En~Rose!♪\nSo do NOT call\nme Usada!"
+EndScript
+
+
+
+Subscript 3
+# このあたりで人気ナン
+# バーワンのアイドル店
+# 員とはアタシのこと！
+ShowTextBox "I'm the most\npopular Employee\nIdol in all of\nAkihabara!"
+EndScript
+
+
+
+Subscript 4
+# この２つのうさ耳にか
+# けて、でじこには負け
+# ないわ！
+ShowTextBox "Dejiko's\npathetic little\nkitty-nubs are\nno match for the\ncuteness of my\nrabbit ears!"
+EndScript
+
+
+
+Subscript 5
+ShowChara 2 0 56
+# 千里の道も一歩から…
+# 店長さん、がんばりま
+# しょうね！
+ShowTextBox "Let's get along,\nokay, Manager?\nWe've got a\nlong year ahead\nof us!"
+Wait 60
+HideChara
+EndScript

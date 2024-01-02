@@ -1,0 +1,483 @@
+DSCBase $3F66C8
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 25
+# ああ、楽しかった
+# 夏休みもあと一週
+# 間…せつないわ
+ShowTextBox "I'm going to\nmiss summer\nvacation.\nI can't believe\nthere's only\none week left!"
+WaitTextBox
+ShowChara 1 2 12
+# うんうん、夏休み
+# が終わるのはさび
+# しいにょ～、わび
+# しいにょ～
+ShowTextBox "Ahh, the end of\nvacation!\nSuch misery,\nnyo!\nI can't hold\nback the tears!"
+WaitTextBox
+ShowChara 2 1 24
+# テキトーなこと言
+# わないでよ！だい
+# いち、あんた学校
+# には行ってないで
+# しょ？
+ShowTextBox "Hey, you don't\neven have to go\nto school!\nWhy are YOU\nsad?"
+WaitTextBox
+ShowChara 1 2 9
+# そうだにょ！でじ
+# こはデ・ジ・キャ
+# ラット星の王女様
+# だから、学校なん
+# か行かなくていい
+# んだにょ～
+ShowTextBox "That's right,\nnyo! A princess\ndoesn't\nneed to go to\nschool, nyo!"
+WaitTextBox
+ShowChara 2 1 22
+# いーわねー、毎日
+# が夏休みみたいな
+# 人はー
+ShowTextBox "That'd be\nnice... Every\nday would be\nlike summer\nvacation."
+WaitTextBox
+ShowChara 1 2 10
+# にょほほほ～それ
+# ほどでもないにょ
+ShowTextBox "Nyo ho ho,\nthere's no need\nto go that far,\nnyo~"
+WaitTextBox
+ShowChara 2 1 55
+# ほめてない、ほめ
+# てない…
+ShowTextBox "Please, nyo~\nYour praise\nis too much\nfor me, nyo!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 2 1 25
+# ああもう、こんな
+# ことしてても時間
+# のムダだわ！
+# 仕事しよ、仕事…
+ShowTextBox "Ugh, whatever!\nI don't have\ntime for this!\nBack to\nwork..."
+WaitTextBox
+ShowChara 1 2 8
+# 仕事って、今日は
+# 日曜だから、お店
+# はお休みにょ？
+ShowTextBox "Isn't today\nSunday? Today\nshould be\na day off, nyo."
+WaitTextBox
+ShowChara 2 1 25
+# …………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 1 2 12
+# にょ～っ、無視さ
+# れたにょ～っ！
+ShowTextBox "Nyooo!\nQuit ignoring\nme, nyo!!"
+WaitTextBox
+ShowChara 1 0 11
+# このでじこ様を無
+# 視するなんて、ナ
+# マイキにょっ！
+# おしおきしてやる
+# にょ～っ！
+ShowTextBox "How audacious,\nnyo! Ignoring\na princess calls\nfor capital\npunishment,\nnyo!"
+WaitTextBox
+ShowChara 2 1 24
+# うるさーーーい！
+# 静かにして！気が
+# 散るでしょっ！！
+ShowTextBox "Shut UP,\nalready!!\nYou're\ndistracting me!"
+WaitTextBox
+ShowChara 1 2 15
+# にょ～っ、人のこ
+# とを無視してみた
+# り、大声で怒鳴っ
+# たり…
+ShowTextBox "Nyo, first you\nignore me, then\nyou yell at\nme..."
+WaitTextBox
+# こ、これがウワサ
+# の反抗期っていう
+# やつなのかにょ？
+ShowTextBox "Are you going\nthrough your\nrebellious\nphase, nyo!?"
+WaitTextBox
+ShowChara 2 1 24
+# 夏休みの宿題をや
+# ってるのっ！ラス
+# トスパートなんだ
+# から、ジャマしな
+# いでちょうだい！
+ShowTextBox "I'm busy with\nmy summer\nhomework! I\nneed to focus,\nso quit it!"
+WaitTextBox
+ShowChara 8 2 2
+# でじこ、ジャマし
+# ちゃ悪いゲマ
+ShowTextBox "Dejiko, give\nher some space,\ngema..."
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ～武士の
+# 情けにょ！
+# ここは見逃してや
+# るとするかにょ…
+ShowTextBox "I'll overlook\nyour impudence\nthis time, nyo!\nBe grateful!"
+WaitTextBox
+ShowChara 2 1 55
+# …………
+ShowTextBox "..."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 1 2 8
+# う～ん、夏休みの
+# 宿題というのは、
+# そんなにタイヘン
+# なものなのかにょ
+# …？
+ShowTextBox "Is summer\nhomework really\nthat big a deal,\nnyo...?"
+WaitTextBox
+ShowChara 8 1 1
+# ゲマが思うに、う
+# さだは３０日まで
+# に夏休みの宿題を
+# 終わらそうとして
+# るゲマ
+ShowTextBox "I think it's\nbecause she\nwants to get it\ndone before the\n30th, gema."
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ、どうし
+# て３０日にょ？
+ShowTextBox "Why the 30th,\nnyo?"
+WaitTextBox
+ShowChara 8 1 53
+# ３０日は、うさだ
+# の誕生日だからゲ
+# マ
+ShowTextBox "The 30th is\nUsada's\nbirthday, gema!"
+WaitTextBox
+ShowChara 1 2 8
+# なるほどにょ
+# うさだも大変だに
+# ょ
+ShowTextBox "I see.\nThat's rough,\nnyo."
+WaitTextBox
+ShowChara 1 0 9
+# よ～し、ここはひ
+# とつ、うさだのた
+# めにひとはだ脱い
+# でやることにする
+# にょ！
+ShowTextBox "Alright, I'll\nget out of\nUsada's hair.\nIn fact, I'll\neven help her,\nnyo!"
+WaitTextBox
+ShowChara 1 0 10
+# がんばったごほう
+# びに、何か誕生日
+# プレゼントしよう
+# かにょ！
+ShowTextBox "As a reward for\nher hard work,\nI'll give her\na birthday\npresent, nyo!"
+WaitTextBox
+# それとも、宿題を
+# 手伝ってやるのも
+# いいかもしれない
+# にょ！
+ShowTextBox "Maybe I can\neven help her\nwith her\nhomework, nyo!"
+WaitTextBox
+ShowChara 8 1 54
+# ど、どういう風の
+# 吹き回しゲマ？
+# でじこが自分から
+# 人に親切にしよう
+# と考えるなんて…
+ShowTextBox "D-Did I wake\nup in a\nparallel\nuniverse, gema?\nDejiko wants to\nhelp someone..!"
+WaitTextBox
+ShowChara 1 2 11
+# にょにょ、人の善
+# 意を信じられない
+# とは失礼なヤツに
+# ょっ！
+ShowTextBox "Rude, nyo!\nYou should\ntrust me more!"
+WaitTextBox
+ShowChara 1 0 9
+# そんなヤツは放っ
+# ておいて、店長し
+# ゃんに、どっちが
+# いいか決めてもら
+# うにょ！
+ShowTextBox "Anyway, Manager,\nhow do you\nthink I should\nhelp Usada, nyo?"
+WaitTextBox
+# 誕生日プレゼント
+# 宿題を手伝う
+ShowSelMenu09 2 "!Birthday present\nHomework help"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 1 0 9
+# プレゼント…じつ
+# にいい響きにょ！
+# きっと、うさだも
+# 喜ぶと思うにょ
+ShowTextBox "A present...\nYeah, that\nsounds best,\nnyo! I'm sure\nUsada will be\nhappy too, nyo!"
+WaitTextBox
+# それでは店長しゃ
+# ん、あとはよろし
+# くお願いするにょ
+ShowTextBox "Well then, I'll\nleave that to\nyou, nyo."
+WaitTextBox
+ShowChara 8 1 54
+# ちょ、ちょっと待
+# つゲマ、でじこ？
+ShowTextBox "W-Wait a\nminute,\nDejiko..."
+WaitTextBox
+ShowChara 1 2 8
+# 何にょ？
+ShowTextBox "What is it,\nnyo?"
+WaitTextBox
+ShowChara 8 1 54
+# け、けっきょく、
+# 人まかせゲマ？
+ShowTextBox "You aren't\ngoing to buy\none yourself,\ngema?"
+WaitTextBox
+ShowChara 1 2 11
+# 何をいうにょ！で
+# じこは、店長しゃ
+# んを立てただけに
+# ょっ！
+ShowTextBox "What are you\nsaying, nyo!?\nOf course not!"
+WaitTextBox
+ShowChara 1 0 12
+# でじこの細やかな
+# 心づかいが分から
+# ないなんて、でじ
+# こは悲しいにょ
+ShowTextBox "I can't spend\nmy tiny\nallowance on\nUsada, nyo.\nThat would just\nbe sad!"
+WaitTextBox
+ShowChara 8 1 2
+# ま、まぁ、店長さ
+# んがいいっていう
+# ならいいゲマ…
+ShowTextBox "W-Well, if the\nManager's okay\nwith buying,\ngema..."
+WaitTextBox
+EndScript
+Label 1
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 2 1 22
+# ああ…疲れた…
+# ちょっとひと休み
+# しよっと…
+ShowTextBox "I'm so tired...\nMaybe I'll\ntake a short\nbreak..."
+WaitTextBox
+# あっ、店長さん
+# 宿題の調子はどう
+# かって…？
+ShowTextBox "Oh, Manager.\nYou're\nwondering how\nmy homework is\ngoing?"
+WaitTextBox
+ShowChara 2 0 23
+# うん、ぼちぼちと
+# いうところね
+# このペースでいけ
+# ば予定通りに終わ
+# りそうだけど…
+ShowTextBox "It's going\nalright. If I\nkeep up this\npace, I should\nbe fine, I\nthink..."
+WaitTextBox
+ShowChara 2 0 56
+# えっ、手伝おうか
+# って？
+ShowTextBox "Huh? You want\nto help!?"
+WaitTextBox
+ShowChara 2 0 23
+# 本当に…？よかっ
+# た、助かるわぁ
+ShowTextBox "Really...? It'd\nbe a huge help,\nactually!"
+WaitTextBox
+# えーと、じゃあ、
+# ちょっとここのと
+# ころがいまいち分
+# からないのよね…
+# ふんふん、そこは
+# そうして…
+ShowTextBox "Um, the part\nthat was giving\nme trouble was\nhere... So you\ndo this, then\nthat..."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 1 2 8
+# にょにょ、やっと
+# るやっとるにょ～
+ShowTextBox "Nyo nyo, it's\nworking, nyo~"
+WaitTextBox
+ShowChara 1 0 9
+# いや～、いいこと
+# をすると、気分が
+# いいにょ～
+ShowTextBox "I wasn't\nexpecting\nhelping out to\nfeel this good,\nnyo!"
+WaitTextBox
+ShowChara 8 1 2
+# でじこは何もして
+# ないゲマ
+ShowTextBox "You're not the\none helping\nout, gema..."
+WaitTextBox
+ShowChara 1 2 11
+# 何言ってるにょ！
+# でじこに、うさだ
+# の宿題ができるわ
+# けないにょ！
+ShowTextBox "What did you\nexpect!? There's\nno way I could\nunderstand\nUsada's\nhomework, nyo!"
+WaitTextBox
+# だから、でじこは
+# 教えたくても教え
+# られなかったんだ
+# にょっ！
+ShowTextBox "I couldn't help\nher even if I\nwanted to, nyo!"
+WaitTextBox
+ShowChara 8 1 2
+# た、たしかにそう
+# ゲマ…
+ShowTextBox "I guess so,\ngema..."
+WaitTextBox
+# だけど、それって
+# 自慢になってない
+# ゲマ…
+ShowTextBox "But I don't\nthink that's\nanything to be\nproud of,\ngema..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+Unk08 1 1 22 13 11 10 2
+Unk08 3 235 21 104 13 10 2
+Unk08 8 2 51 16 14 10 2
+Unk08 2 126 80 8 96 10 3
+ShowChara 2 1 22
+# ふわぁぁ…眠い…
+ShowTextBox "Ahhhh...\nSo sleepy..."
+WaitTextBox
+ShowChara 3 2 21
+# ふわぁぁ…にゅ
+ShowTextBox "Ahhh...\nNyu..."
+WaitTextBox
+ShowChara 1 2 15
+# にょにょ、うさだ
+# のあくびがぷちこ
+# に移ったにょ
+ShowTextBox "Usada's yawn\nspread to\nPuchiko, nyo."
+WaitTextBox
+ShowChara 3 2 17
+# めんぼくないにゅ
+ShowTextBox "I'm sorry,\nnyu..."
+WaitTextBox
+ShowChara 1 2 8
+# うさだ、ずいぶん
+# と眠そうな顔だに
+# ょ…寝不足は美容
+# の大敵、うかつだ
+# にょ！
+ShowTextBox "You look really\ntired, Usada.\nYou know, you\nneed your\nbeauty sleep,\nnyo!"
+WaitTextBox
+ShowChara 2 1 25
+# うっ、しまった、
+# たしかに昨日の夜
+# ふかしはよくなか
+# ったかも…
+ShowTextBox "Ugh, I've got\nbags under my\neyes... I\nfeel like I\nbarely slept at\nall."
+WaitTextBox
+ShowChara 2 0 23
+# だけど、ついに夏
+# 休みの宿題を終わ
+# らせたんだから、
+# 元は取れたわよね
+ShowTextBox "But if I can\nfinish my\nhomework on\ntime, it'll all\nbe worth it..."
+WaitTextBox
+ShowChara 1 2 9
+# それはおめでとう
+# にょ！
+ShowTextBox "Congratulations,\nnyo!"
+WaitTextBox
+ShowChara 2 1 23
+# どうもありがとう
+# …って、そんなに
+# めでたがることで
+# もないけれど
+ShowTextBox "Thank you...\nWait, what?\nWhat's going on?"
+WaitTextBox
+ShowChara 1 2 10
+# にょにょ、そうで
+# もないにょ…さぁ
+# 店長しゃん、出番
+# にょ～～！
+ShowTextBox "Manager, you're\nup, nyo!"
+WaitTextBox
+ShowChara 2 1 22
+# えっ、なに？
+ShowTextBox "Huh? What's\nthis?"
+WaitTextBox
+ShowChara 1 2 10
+# 店長しゃんから、
+# うさだへ、プレゼ
+# ントのお渡しだに
+# ょ～
+ShowTextBox "Here's a\npresent from\nthe Manager to\nyou, nyo!"
+WaitTextBox
+Fade 3 30
+SetBG 3
+Fade 2 30
+ShowChara 1 0 0
+# うさだ、誕生日おめで
+# とうにょ～
+ShowTextBox "Happy birthday,\nUsada!"
+WaitTextBox
+ShowChara 3 0 0
+# おめでとうにゅ
+ShowTextBox "Happy birthday,\nnyu."
+WaitTextBox
+ShowChara 8 0 0
+# 誕生日おめでとうゲマ
+# ～っ！
+ShowTextBox "Happy birthday,\ngema!"
+WaitTextBox
+ShowChara 2 0 0
+# わぁ…みんな、どうも
+# ありがとう…うれしい
+# わ！
+ShowTextBox "Oh, my... thank\nyou so much,\neveryone! I'm\nso happy!"
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 1 2 10
+# にょにょ、お礼を
+# いうなら、でじこ
+# に言うにょ！なぜ
+# なら、でじこが言
+# いだしっぺだから
+# だにょっ！
+ShowTextBox "Nyo, if you're\ngoing to thank\nsomeone, thank\nme, nyo! I came\nup with the\nidea, nyo!"
+WaitTextBox
+ShowChara 8 2 1
+# でも、プレゼント
+# を選んだのは店長
+# さんゲマ
+ShowTextBox "The manager\npicked the\npresent,\nthough, nyo."
+WaitTextBox
+ShowChara 3 2 17
+# 買ったのも店長さ
+# んにゅ
+ShowTextBox "Also, the\nManager bought\nit with their\nown money, nyu."
+WaitTextBox
+ShowChara 1 2 11
+# そこっ、感動に水
+# をさすのはよすに
+# ょっ！
+ShowTextBox "Hey, don't\nkill the mood,\nnyo!"
+WaitTextBox
+ShowChara 2 1 23
+# うふふ…みんな、
+# ありがとう！
+ShowTextBox "Hehe... Thank\nyou, everyone!"
+WaitTextBox
+EndScript

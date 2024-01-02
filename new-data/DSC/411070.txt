@@ -1,0 +1,180 @@
+DSCBase $411070
+
+
+
+
+Subscript 0
+Fade 0 30
+SetPermTextBoxPos 0 16
+ShowChara 1 2 10
+# でじこやる気満点
+# にょ！　いっきに
+# お掃除しちゃうかにょ
+ShowTextBox "I'm feeling fired up today, nyo! And I've got an idea for cleaning up the store..."
+WaitTextBox
+# まかせてくれるにょ？
+ShowTextBox "Want me to give it a try, nyo?"
+Wait 1
+EndScript
+
+
+
+Subscript 1
+ShowChara 1 0 10
+# 目からビーム！
+ShowTextBox "Eye Laser Beam!"
+WaitTextBox
+ShowChara 8 2 1
+# \x04お店の中がとてもキレ
+# イになったゲマー！\x1a
+ShowTextBox "\x04The shop became perfectly clean\x1a, gema!"
+WaitTextBox
+# 今週はおそうじしなく
+# てもよさそうだゲマ♪
+ShowTextBox "Now nobody will have to be put on cleaning duty this week, gema ♪"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 1 0 12
+# そうかにょ…
+ShowTextBox "Okay, nyo..."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 3
+Fade 0 30
+SetPermTextBoxPos 0 16
+ShowChara 2 2 23
+# あたしの力で、グッズ
+# をすごく売れるように
+# しちゃうわよ
+ShowTextBox "I know a way to get everything to sell fast, Manager."
+WaitTextBox
+# まかせてくれる？
+ShowTextBox "Want me to give it a try?"
+Wait 1
+EndScript
+
+
+
+Subscript 4
+ShowChara 2 0 23
+# ローズハリケーン！
+ShowTextBox "Rose Hurricane!"
+WaitTextBox
+ShowChara 8 2 1
+# \x04今週だけどのグッズも
+# 売れやすくなったゲマー！\x1a
+ShowTextBox "\x04Everything will sell more easily this week\x1a, gema!"
+WaitTextBox
+# たくさん仕入れて
+# おおもうけするゲマ！
+ShowTextBox "Put up a lot of stock, and make a lot of money, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 5
+ShowChara 2 0 25
+# まあいいんだけど
+ShowTextBox "Hmm. If you say so."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 6
+Fade 0 30
+SetPermTextBoxPos 0 16
+ShowChara 3 2 17
+# ぷちこにゅ
+ShowTextBox "I've got an idea, nyu."
+WaitTextBox
+ShowChara 3 0 17
+# ぷちこが丁寧におねが
+# いすれば、グッズを
+# ５％割引で買えるにゅ
+ShowTextBox "If I ask really nicely, I can buy items for the shop at a 5% discount, nyu."
+WaitTextBox
+# まかせるにゅ？
+ShowTextBox "Want me to try, nyu?"
+Wait 1
+EndScript
+
+
+
+Subscript 7
+ShowChara 3 0 18
+# 高いにゅ…
+# まけろにゅ！！
+ShowTextBox "Too expensive, nyu...\nMake it cheaper, nyu!!"
+WaitTextBox
+ShowChara 8 2 1
+# \x04今週だけ、どのグッズ
+# も５％安く仕入れるこ
+# とができるゲマー！\x1a
+ShowTextBox "\x04Buying stock is 5% cheaper this week\x1a, gema!"
+WaitTextBox
+# 高いグッズを仕入れる
+# チャンスだゲマー！
+ShowTextBox "This is your chance to buy some expensive items, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 8
+ShowChara 3 0 20
+# つぎがあるにゅ…
+ShowTextBox "There's always next time, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 9
+Fade 0 30
+SetPermTextBoxPos 0 16
+ShowChara 1 0 10
+# でじこ
+# やる気満点にょ
+# いっきにお掃除
+# しちゃうかにょ？
+ShowTextBox "I'm feeling fired up today, nyo! And I've got an idea for cleaning up the store..."
+WaitTextBox
+# まかせるにゅ？
+ShowTextBox "Want to give it a try, nyu?"
+Wait 1
+EndScript
+
+
+
+Subscript 10
+ShowChara 1 0 10
+# 目からビーム！
+ShowTextBox "Eye Laser Beam!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 1 0 12
+# そうかにょ…
+ShowTextBox "Okay, nyo..."
+WaitTextBox
+HideChara
+EndScript

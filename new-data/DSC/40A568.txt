@@ -1,0 +1,51 @@
+DSCBase $40A568
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 15
+ShowChara 8 1 1
+# これまでの店長さんのおもいでをぜんぶ消して、
+ShowTextBox "Are you sure that you want to delete all of the memories of previous Managers?"
+WaitTextBox
+# カートリッジを初期化してしまうゲマ？
+ShowTextBox "This'll be like starting over from a fresh cartridge, gema!"
+WaitTextBox
+# やっぱり消さない
+# 消す！
+ShowSelMenu09 2 "!Don't delete anything\nDelete them!\n"
+EndScript
+
+
+
+Subscript 1
+ShowChara 8 0 54
+# ほ、ほんとうにぜんぶ消してしまうゲマ！？
+ShowTextBox "A-Are you REALLY sure you want to delete, gema!?"
+WaitTextBox
+# やっぱり消さない
+# けす！！
+ShowSelMenu09 2 "!Actually, don't\nDelete them!!"
+EndScript
+
+
+
+Subscript 2
+ShowChara 8 0 1
+# いままでの店長さんのおもいではみんな消えてしまったゲマ！
+ShowTextBox "All the memories of previous managers were deleted, gema!"
+WaitTextBox
+Fade 3 15
+EndScript
+
+
+
+Subscript 3
+ShowChara 8 0 1
+# やっぱりのこしておくゲマ！
+ShowTextBox "All right, let's leave them, gema!"
+WaitTextBox
+Fade 3 15
+EndScript

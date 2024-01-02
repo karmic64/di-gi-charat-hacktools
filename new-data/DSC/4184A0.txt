@@ -1,0 +1,132 @@
+DSCBase $4184A0
+
+
+
+
+Subscript 0
+ShowChara 8 1 1
+# ゲマゲマー！
+# ここがお店の中ゲ
+# マー！
+ShowTextBox "Gema gema! This is what the shop will look like during the week, gema!"
+WaitTextBox
+# お客さんが買い物
+# をするようすや、
+# みんなのはたらく
+# ようすを見ること
+# ができるゲマ！
+ShowTextBox "On this screen, you can see how the customers are shopping, and check in on employees, gema!"
+WaitTextBox
+# 月曜から土曜日ま
+# で、ここでお店の
+# ようすをチェック
+# するゲマ
+ShowTextBox "From Monday till Saturday, you'll watch the store run from here, gema."
+WaitTextBox
+# みんなにカーソル
+# を合わせて、Ａボ
+# タンを押すと話す
+# ことができるゲマ
+ShowTextBox "If you put the cursor over someone and press A, you can talk to them, gema."
+WaitTextBox
+# わからないところ
+# があったら、そこ
+# にカーソルを動か
+# して、セレクトボ
+# タンを押すゲマ！
+ShowTextBox "If you see something you don't understand, just put your cursor over it and press Select, gema!"
+WaitTextBox
+# それじゃあ
+# ゲーマーズ開店ゲ
+# マー！
+ShowTextBox "Time to open the store! Good luck, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 1
+ShowChara 8 2 1
+# 店長さん、みんな
+# お仕事をサボって
+# ないゲマ？
+ShowTextBox "Manager, have you noticed anyone falling behind on their work, gema?"
+WaitTextBox
+ShowChara 8 0 54
+# もしも\x04レジ係\x1aと
+# \x04接客係\x1aがサボって
+# しまうと…
+ShowTextBox "If the \x04Checkout\x1a or \x04Service\x1a roles aren't being run properly..."
+WaitTextBox
+# お客さんの相手が
+# できなくて、\x01お客
+# さんが来なくなる\x1a
+# ゲマー！
+ShowTextBox "The store won't be a smooth experience for the customers, and \x01they'll stop coming\x1a, gema!"
+WaitTextBox
+ShowChara 8 0 1
+# \x04レジ係\x1aと\x04接客係\x1aの
+# ヤル気が下がって
+# いたら、Ａボタン
+# を押してはげまし
+# てあげるゲマー！
+ShowTextBox "If the \x04Checkout\x1a or \x04Service\x1a aren't looking energetic, hover over them and press A to give them some encouragement, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 8 2 1
+# みんなのやりたい
+# お仕事が重なるこ
+# とがあるゲマね
+ShowTextBox "Sometimes, the preferred jobs of each employee will overlap, gema."
+WaitTextBox
+# やりたいお仕事に
+# なった方はヤル気
+# が上がるけど
+ShowTextBox "The person who gets what they want will be happy, but..."
+WaitTextBox
+# やりたくないお仕
+# 事になった方は、
+# ヤル気が下がって
+# しまうゲマ…
+ShowTextBox "The person who doesn't will be less enthusiastic, gema..."
+WaitTextBox
+# そんなときは、毎
+# 日話しかけてあげ
+# るゲマ
+ShowTextBox "If that happens, talk to them everyday, gema."
+WaitTextBox
+# 店長さんに話しか
+# けてもらえば、少
+# しだけヤル気が出
+# るゲマ～！
+ShowTextBox "Just by talking with the Manager, they'll feel a little more motivated to work, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 3
+ShowChara 8 2 1
+# みんなが\x04ヤル気ま
+# んまんな時に話し
+# かける\x1aと、お客さ
+# んから\x04流行グッズ
+# を聞いてくること
+# がある\x1aゲマ！
+ShowTextBox "If you talk to somebody who's bursting with energy, they may tell you about \x04items that popular right now\x1a, gema!"
+WaitTextBox
+# 次の仕入れで、そ
+# のグッズを仕入れ
+# たらたくさん売れ
+# るゲマ！
+ShowTextBox "Those items will sell super well if you put them on the shelves next week, gema!"
+WaitTextBox
+HideChara
+EndScript

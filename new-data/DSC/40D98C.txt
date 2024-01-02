@@ -1,0 +1,324 @@
+DSCBase $40D98C
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# いらっしゃいませ
+# ゲマ～！
+ShowTextBox "Come on in, gema!"
+WaitTextBox
+ShowChara 8 0 53
+# ＜ゲーマーズ＞へ
+# ようこそゲマ～！
+ShowTextBox "Welcome to \"Gamers\", gema!"
+WaitTextBox
+ShowChara 8 0 1
+# …え、お客さんじ
+# ゃないゲマか？
+ShowTextBox "... Oh, you're not a customer, gema?"
+WaitTextBox
+# 「これを見て」っ
+# て、何ゲマかその
+# 紙は？
+ShowTextBox "Huh? What's this paper you've got, gema?"
+WaitTextBox
+# えーと、
+# なになに…
+ShowTextBox "Hmm, let's see..."
+WaitTextBox
+Unk19 40
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 8 1 54
+# なんと新しい店長
+# さんだったゲマか
+# ！
+ShowTextBox "Oh, you're the new store manager, gema!"
+WaitTextBox
+ShowChara 8 0 1
+# それならそうと、
+# はやく言ってくれ
+# たらよかったゲマ
+ShowTextBox "You should have said so from the start, gema!"
+WaitTextBox
+# おほん…
+ShowTextBox "Ahem..."
+WaitTextBox
+ShowChara 8 0 53
+# え～、あなたは今
+# 日から１年間、こ
+# のゲーマーズの店
+# 長さんになったん
+# だゲマ！
+ShowTextBox "Welcome to Gamers! For the next year, you'll be the store manager, gema!"
+WaitTextBox
+# この１年間で、ゲ
+# ーマーズをよいお
+# 店にするのが仕事
+# だゲマ
+ShowTextBox "Your job is to make Gamers prosper all year long, gema."
+WaitTextBox
+# お客さんがよろこ
+# ぶような、よいお
+# 店になるよう、が
+# んばってほしいゲ
+# マ
+ShowTextBox "Our number one goal is, of course, to make our customers happy, gema!"
+WaitTextBox
+ShowChara 8 0 1
+# それでは次に、お
+# 店を手伝ってくれ
+# る、３人をしょう
+# かいするゲマ
+ShowTextBox "Well then, I'll introduce you to the three who'll be helping you run the store, gema."
+WaitTextBox
+ShowChara 1 2 10
+PlaySfx 130
+# でじこだにょ！
+ShowTextBox "I'm Dejiko, nyo!"
+WaitTextBox
+ShowChara 1 0 8
+# う～ん、とくいな
+# ことは「目からビ
+# ーム」だにょ！
+ShowTextBox "My specialty is my Eye Laser Beam, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# じゃ、ちょっとや
+# ってみるから、見
+# とくんだにょ！
+ShowTextBox "I'll show you how it works, so pay attention, nyo!"
+WaitTextBox
+ShowChara 1 0 13
+PlaySfx 137
+# 目からビーム！
+ShowTextBox "Eye Laser Beam!"
+WaitTextBox
+Fade 3 30
+Unk08 8 30 70 20 80 6 1
+SetBG 59
+Fade 2 30
+ShowChara 8 0 0
+PlaySfx 193
+# ゲマぁ～っ！
+ShowTextBox "Gema~~~!"
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 8 1 4
+# ……………………
+ShowTextBox "......"
+WaitTextBox
+ShowChara 1 2 10
+# えっへん。ざっと
+# こんなもんにょ！
+ShowTextBox "Eheh. That's it, nyo!"
+WaitTextBox
+ShowChara 2 1 55
+# もう…、なにやっ
+# てるのよ…
+ShowTextBox "Jeez... What are you doing...?"
+WaitTextBox
+ShowChara 2 0 23
+# いつものことなん
+# で、気にしないで
+# くださいね
+ShowTextBox "This is how it always is with them, manager, so please don't pay it any mind."
+WaitTextBox
+ShowChara 2 0 22
+PlaySfx 138
+# アタシは、ラ・ビ
+# ・アン・ローズ…
+ShowTextBox "My name is Rabi~En~Rose..."
+WaitTextBox
+ShowChara 1 2 16
+# 気軽に「うさだ」
+# って呼ぶがいいに
+# ょ～！
+ShowTextBox "Feel free to call her Usada too, nyo!"
+WaitTextBox
+ShowChara 2 1 24
+PlaySfx 145
+# 「うさだ」じゃな
+# くて「ラ・ビ・ア
+# ン・ローズ」よ！
+ShowTextBox "It is NOT Usada!! Rabi~En~Rose!!"
+WaitTextBox
+ShowChara 8 1 1
+# まぁまぁ、おちつ
+# くゲマ
+ShowTextBox "Now now, let's calm down, gema."
+WaitTextBox
+ShowChara 8 0 53
+# ラ・ビ・アン・ロ
+# ーズは、ほんとは
+# 「うさだヒカル」
+# という名前ゲマ
+ShowTextBox "Rabi~En~Rose's real name is Usada Hikaru, gema."
+WaitTextBox
+ShowChara 8 0 2
+# だけど、うさだは
+# 「ラ・ビ・アン・
+# ローズ」と呼ばな
+# いと怒るゲマ
+ShowTextBox "But if you call her that, she'll get angry, gema..."
+WaitTextBox
+# だから、本人の前
+# で、うさだって呼
+# ばない方がいいゲ
+# マ
+ShowTextBox "So, at least be careful when she's around, gema."
+WaitTextBox
+ShowChara 8 0 1
+# では、最後の３人
+# 目ゲマ
+ShowTextBox "Now for the last of the three, gema!"
+WaitTextBox
+ShowChara 3 2 17
+# …………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 3 0 18
+PlaySfx 146
+# ぷちこにゅ
+ShowTextBox "Puchiko, nyu."
+WaitTextBox
+ShowChara 8 1 2
+# え、えーと、ぷち
+# こは小さいから、
+# あんまりおしゃべ
+# りが好きじゃない
+# ゲマ
+ShowTextBox "... Puchiko is still small, so she doesn't like to talk much, gema."
+WaitTextBox
+ShowChara 8 0 1
+# だけど、言うとき
+# は言うゲマ！
+# 気をつけるゲマ！
+ShowTextBox "Of course, she'll speak up when she needs to, gema! Right, Puchiko?"
+WaitTextBox
+ShowChara 3 2 19
+# 子ども扱いするな
+# にゅ…
+ShowTextBox "Don't treat me like a kid, nyu..."
+WaitTextBox
+ShowChara 8 1 53
+# では店長さん、こ
+# の３人の中から、
+# 「アシスタント」
+# をひとり選ぶゲマ
+ShowTextBox "Store manager, please pick which of these three you'd like to be your \"Assistant\", gema."
+WaitTextBox
+# 「アシスタント」
+# になった人は、こ
+# の１年間、特に店
+# 長さんのことを手
+# 伝ってくれるゲマ
+ShowTextBox "Your \"Assistant\" will be your go-to for help over the next year, gema."
+WaitTextBox
+# だから、よく考え
+# て選ぶゲマ
+ShowTextBox "So, choose carefully, gema!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 2
+SetBG 111
+Fade 0 30
+ShowChara 8 1 53
+# 「アシスタント」を選ぶゲマ！
+ShowTextBox "Choose an assistant, gema!"
+WaitTextBox
+# でじこ
+# うさだ
+# ぷちこ
+ShowSelMenu09 3 "!Dejiko\nUsada\nPuchiko"
+Fade 1 30
+EndScript
+
+
+
+Subscript 3
+SetBG 111
+Fade 0 30
+ShowChara 1 2 9
+# にょにょ～、さす
+# が新しい店長しゃ
+# んにょ！
+ShowTextBox "Nyo nyo~, I knew you'd pick me, nyo!"
+WaitTextBox
+# でじこといっしょ
+# にがんばるにょ！
+ShowTextBox "Let's do our best together, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# このでじこさまが
+# いれば怖いものな
+# し、あっというま
+# にゲーマーズは世
+# 界一だにょ～！
+ShowTextBox "With the lovely Dejiko by your side, you have nothing to fear, nyo! Let's make Gamers number one in the world, nyo~!"
+WaitTextBox
+DoorCloseTransition
+EndScript
+
+
+
+Subscript 4
+SetBG 111
+Fade 0 30
+ShowChara 2 2 23
+# ま、当然、アタシ
+# を選ぶわよね
+ShowTextBox "I suppose I am the natural choice, after all."
+WaitTextBox
+ShowChara 2 0 22
+# いっしょうけんめ
+# いがんばって、す
+# てきなお店にしま
+# しょうね@
+ShowTextBox "Let's give our all and make it a wonderful shop, okay?"
+WaitTextBox
+ShowChara 2 0 23
+# よろしくね、新し
+# い店長さん
+ShowTextBox "I'm looking forward to working with you!"
+WaitTextBox
+DoorCloseTransition
+EndScript
+
+
+
+Subscript 5
+SetBG 111
+Fade 0 30
+ShowChara 3 2 18
+# がんばるにゅ
+ShowTextBox "I'll do my best, nyu."
+WaitTextBox
+ShowChara 3 0 17
+# …………
+ShowTextBox "..."
+WaitTextBox
+# …………
+ShowTextBox "..."
+WaitTextBox
+# にゅ…？
+# それだけにゅ
+ShowTextBox "Nyu...? That's all, nyu."
+WaitTextBox
+DoorCloseTransition
+EndScript

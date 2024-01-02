@@ -1,0 +1,205 @@
+DSCBase $3E56E0
+
+
+
+### Prefill data: $81
+Subscript 0
+ShowChara 7 1 47
+# なあ、店長
+# $1って食ったことある？
+ShowTextBox "Hey, Manager.\nHave you ever\nhad\n$1?"
+WaitTextBox
+ShowChara 7 0 51
+# なんでも、すげーうまいらしいな？
+# オレも食いてぇ～
+ShowTextBox "It looks so\ngood! I wanna\ntry some!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89,$49
+Subscript 1
+ShowChara 7 1 47
+# おい、リク
+# デ・ジ・キャラッ
+# トから手紙が来て
+# るぞ
+ShowTextBox "Rik.\nA letter\narrived from\nDi Gi Charat."
+WaitTextBox
+ShowChara 5 4 36
+# フン…不敵なヤツ
+# だ…して、なんと
+# 書いてある？
+ShowTextBox "Hmph.\nWhat could they\npossibly want?"
+WaitTextBox
+ShowChara 7 1 47
+# え～となになに？
+# 『お前らの店にこ
+# れから『$1』のグッズを送りつけるにょ…』
+ShowTextBox "Hey, lemme see!\n\"We're gonna\ndump our extra\n$1\nmerch on you\nguys...\""
+WaitTextBox
+ShowChara 6 4 46
+# なんだって！？
+# 『$1』のグッズはうちのお店でも売れ残ってます～！！
+ShowTextBox "What!?\nBut we've\nstill got\n$1\nmerchandise\nleft over!"
+WaitTextBox
+ShowChara 7 1 50
+# こうなったらこっ
+# ちも『$2』のグッズを送りつけてやろうぜ！
+ShowTextBox "We can't let\nthem win!\nLet's send our\nleftover\n$2\njunk to them!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81
+Subscript 2
+ShowChara 7 1 58
+# うッ！？
+ShowTextBox "Oh!!"
+WaitTextBox
+ShowChara 7 0 51
+# …なんか$1の匂いがするぜ
+ShowTextBox "...\nI smell\n$1!"
+WaitTextBox
+ShowChara 7 0 49
+# 誰か店の中で$1食ってるな！？
+ShowTextBox "Who's eating\n$1\nin the store!?\nYou better\nshare!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$80,$89
+Subscript 3
+ShowChara 7 1 48
+# ただいま～
+# おつかい終ったよ
+ShowTextBox "I'm back!\nAll done!"
+WaitTextBox
+# $1にある$2の家まで『$3』グッズ届けてきたぜ
+ShowTextBox "I took all\nthat\n$3\nmerch to\n$2's\nhouse."
+WaitTextBox
+ShowChara 7 0 49
+# …アイツ、意外とマニアなんだな
+ShowTextBox "...\nThey're kind\nof a maniac\nfor that stuff,\naren't they?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 4
+ShowChara 7 1 48
+# あははははっ
+# 今週の『$1』はおもしろいぜ
+ShowTextBox "Hahahaha!\n$1\nis so funny\nthis week!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87,$88
+Subscript 5
+ShowChara 7 1 47
+# ふ～～～
+# ようやく$1が終ったぜ
+ShowTextBox "Whew...\nI'm finally\ndone with my\n$1\nwork."
+WaitTextBox
+ShowChara 7 0 48
+# 『$2』でも見て、今日はさっさと寝るかな
+ShowTextBox "I'm gonna\nwatch\n$2\ntill I fall\nasleep\ntonight."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83,$8A
+Subscript 6
+ShowChara 7 1 50
+# おい、みんな聞い
+# てくれ！
+ShowTextBox "Hey, everyone!\nListen!"
+WaitTextBox
+ShowChara 7 0 58
+# さっき$1が$2を運転してたんだ！！
+ShowTextBox "I saw a\n$1\ndriving a\n$2!"
+WaitTextBox
+ShowChara 7 0 49
+# これじゃ交通事故
+# なんて減らないよ
+# な…
+ShowTextBox "I hope it\ndoesn't get\ninto an\naccident..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81
+Subscript 7
+ShowChara 7 1 47
+# あ～腹へった…
+# $1を腹いっぱい食いてぇ～
+ShowTextBox "I'm hungry...\nI wanna eat\n$1\ntill I burst!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84,$82
+Subscript 8
+ShowChara 7 2 52
+# へへへ～～♪
+ShowTextBox "Hehehe!"
+WaitTextBox
+ShowChara 5 1 35
+# おや、どうしたク
+# ウ？
+# うれしそうだな？
+ShowTextBox "What's up,\nCoo? You look\npleased."
+WaitTextBox
+ShowChara 7 2 48
+# 聞いてくれよリク
+# さっき俺いいこと
+# したんだぜ
+ShowTextBox "Hey, Rik!\nListen,\nI had this\ngreat idea..."
+WaitTextBox
+ShowChara 7 0 52
+# 道で枯れかけた$1に$2をかけてやったんだ
+ShowTextBox "I made\n$2\nfrom those\ndried up\n$1\nfruit outside!"
+WaitTextBox
+ShowChara 5 1 57
+# ………そ、そうか
+ShowTextBox "I-I see..."
+WaitTextBox
+ShowChara 7 2 47
+# ぴよこには内緒だ
+# ぜ！…だって俺達
+# はブラックゲマゲ
+# マ団なんだからな
+# ！
+ShowTextBox "... Don't tell\nPiyoko, okay?\nI want her to\nbe at least a\nlittle proud\nof us!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86,$8A,$4A
+Subscript 9
+ShowChara 7 2 47
+# なあ店長…
+# $1って行ったことあるか？
+ShowTextBox "Hey, Manager.\nYou ever been to\n$1?"
+WaitTextBox
+ShowChara 7 0 52
+# 俺はあるぜ！
+# しかも$2や$3にも乗ったんだぜ
+ShowTextBox "I have!\nI rode the\n$2\nand the\n$3,\ntoo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8B,$82
+Subscript 10
+ShowChara 7 2 49
+# ふ～～～
+# $1ばかりしてると、疲れるぜ
+ShowTextBox "Bleh...\nI'm getting\ntired of\nplaying\n$1."
+WaitTextBox
+ShowChara 7 0 48
+# ま、こんな時は$2でも飲んでひとやすみだな
+ShowTextBox "I'll take a\nbreak and get\nsome\n$1,\nI guess."
+WaitTextBox
+EndScript

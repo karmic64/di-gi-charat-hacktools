@@ -1,0 +1,50 @@
+DSCBase $40A230
+
+
+
+
+Subscript 0
+ShowChara 1 0 0
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# $0
+# 残り$1/$2個にょ
+ShowTextBox "$0\n$1/$2 of these left, nyo."
+EndScript
+
+
+
+Subscript 3
+# 何もないにょ
+ShowTextBox "Nothing here, nyo."
+EndScript
+
+
+
+Subscript 4
+# 仕入れはもう終わりにょ？
+ShowTextBox "Are you done putting up stock, nyo?"
+EndScript
+
+
+
+Subscript 5
+# にょっ、何も買わないにょ？
+ShowTextBox "Not going to buy anything, nyo?"
+EndScript
+
+
+
+Subscript 6
+# どこに置くにょ？
+ShowTextBox "Where should we put this, nyo?"
+EndScript

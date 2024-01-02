@@ -1,0 +1,260 @@
+DSCBase $4008C0
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 28
+# 今日からゴールデ
+# ンウィークに突入
+# ぴょ！
+ShowTextBox "It's finally\nGolden Week,\npyo!"
+WaitTextBox
+ShowChara 4 0 29
+# たくさんお客さん
+# が来るから、しっ
+# かり働くぴょ！
+ShowTextBox "We're bound to\nget a bunch of\ncustomers, so\nwork hard, pyo!"
+WaitTextBox
+ShowChara 5 2 36
+# 承知しました
+ShowTextBox "Understood."
+WaitTextBox
+ShowChara 6 2 41
+# 身を粉にして働き
+# ます
+ShowTextBox "I will apply\nmyself to the\nutmost, my Lady."
+WaitTextBox
+ShowChara 7 2 48
+# 働くぜーっ！
+ShowTextBox "Let's do it!"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバーーっ！
+ShowTextBox "Geba--!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 4 1 28
+# さて…
+ShowTextBox "Now, then..."
+WaitTextBox
+# それじゃ、ぴよこ
+# は一休みぴょ…
+ShowTextBox "Time for my\nwell-deserved\nbreak, pyo."
+WaitTextBox
+HideChara
+Wait 60
+ShowChara 4 1 28
+# ん、店長さん、何
+# か用ぴょ？
+ShowTextBox "Hm? Did you\nneed something,\nManager?"
+WaitTextBox
+# ぴよこはリーダー
+# だから、あんまり
+# うろうろしない方
+# がいいと思ったぴ
+# ょ…
+ShowTextBox "I'm the\nleader, so it\nwould not do\nfor me to run\nout of energy,\npyo."
+WaitTextBox
+# それとも、もっと
+# お客さんが来るよ
+# うに、もうひと工
+# 夫するほうがいい
+# ぴょ？
+ShowTextBox "Besides, don't\nwe need someone\nto plan how to\nattract more\ncustomers, pyo?"
+WaitTextBox
+# もうひと工夫する
+# しなくてよい
+ShowSelMenu09 2 "!Good idea\nNo need for that"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 4 0 29
+# わかったぴょ
+# 明日までに考えと
+# くぴょ！
+ShowTextBox "Understood,\npyo. I'll have\nsome ideas for\nyou by tomorrow!"
+WaitTextBox
+EndScript
+Label 1
+# 細かいことは団員
+# たちの仕事ぴょ
+ShowTextBox "I'll leave the\ndetails to you\nunderlings, pyo."
+WaitTextBox
+ShowChara 4 0 29
+# リーダーのつとめ
+# は、部下の働きを
+# 暖かく見守ること
+# ぴょ
+ShowTextBox "A leader's job\nis to supervise\nand encourage\nher\nsubordinates,\npyo."
+WaitTextBox
+# それじゃ、明日か
+# ら気合入れていく
+# ぴょ！
+ShowTextBox "Starting\ntomorrow, I'll\nput my all\ninto it, pyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 112
+Fade 0 30
+ShowChara 7 1 58
+# うわっ、何だ！？
+# 今日はやたらとお
+# 客さんが来てるぞ
+ShowTextBox "Woah! What the\nheck's going\non!? We're\ngetting crazy\nnumbers of\ncustomers today!"
+WaitTextBox
+ShowChara 6 1 41
+# まだ開店したばか
+# りだというのに、
+# こんなにたくさん
+# お客さんがいます
+# …
+ShowTextBox "We've only just\nopened the\nshop, and the\naisles are\nalready\npacked..."
+WaitTextBox
+ShowChara 5 1 35
+# ピョコラ様、いっ
+# たい、何をなさっ
+# たのです？
+ShowTextBox "Lady Pyokora,\nwhatever could\nyou have done\nto cause this?"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょぴょぴょ、簡
+# 単なことぴょっ！
+ShowTextBox "Pyo pyo pyo!\nIt was a\nsimple matter,\npyo!"
+WaitTextBox
+# 今日から一週間、
+# 超スペシャルウル
+# トラスーパー特別
+# セールだって宣伝
+# したぴょ～！
+ShowTextBox "I announced\nthe one-week\nonly Super\nSpecial Ultra\nUnlimited Final\nHyper-sale, pyo!"
+WaitTextBox
+ShowChara 7 1 48
+# なんかすごそうだ
+# な…俺も行きたく
+# なったぜ！
+ShowTextBox "That sounds\nincredible...\nNow I kinda want\nto buy\nsomething, too!"
+WaitTextBox
+ShowChara 4 2 29
+# 予想通り、お客さ
+# んが山のようにや
+# ってきたぴょ
+ShowTextBox "As expected,\nthe customers\ncouldn't help\nbut to pile\ninto our store,\npyo."
+WaitTextBox
+# やっぱり人は「超
+# 」とか「特別」と
+# かいう言葉に弱い
+# ぴょ～
+ShowTextBox "Truly, the\nhuman soul is\nweak to the\nfearsome power\nof \"Super\" and\n\"Special\", pyo!"
+WaitTextBox
+ShowChara 5 1 36
+# おお、ピョコラ様
+# お見事です！
+ShowTextBox "Well done,\nmy Lady!"
+WaitTextBox
+ShowChara 6 1 41
+# で、何をサービス
+# するんですか？
+ShowTextBox "What are the\nparticulars of\nthis sale that\nyou offered?"
+WaitTextBox
+ShowChara 4 2 28
+# 何をって…
+ShowTextBox "Well..."
+WaitTextBox
+ShowChara 4 0 33
+# しまったぴょ、そ
+# こまでは考えてな
+# かったぴょ
+ShowTextBox "To be honest,\nI didn't think\nthat far, pyo."
+WaitTextBox
+ShowChara 7 1 49
+# ああっ、なんだか
+# 潮が引くように、
+# お客さんが減って
+# いく…
+ShowTextBox "Oh no! The\ncustomers are\nall draining\nout of the\nstore! We must\nplug the leak!"
+WaitTextBox
+ShowChara 6 1 43
+# 結局、いつもと同
+# じくらいに戻って
+# しまいました…
+ShowTextBox "The store's\ntraffic is\nslowly\nreturning to\nnormal..."
+WaitTextBox
+ShowChara 4 2 30
+# ぴょぴょ…ひょっ
+# として、これって
+# 失敗ぴょ？
+ShowTextBox "Pyo...\nWhat could\nhave gone\nwrong, pyo!?"
+WaitTextBox
+ShowChara 5 1 38
+# ええい、ブラック
+# ゲマゲマ団員のみ
+# なさん！お客さん
+# たちを引きとめる
+# のです！
+ShowTextBox "Black Gema Gema\nGang! Stop the\ncustomers from\nleaving, by\nany means\nnecessary!"
+WaitTextBox
+ShowChara 6 1 40
+# ついでにお店の宣
+# 伝もするのです！
+ShowTextBox "We'll be\nmaking a\nstore-wide\nannouncement\nshortly!"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバーっ！
+ShowTextBox "Geba--!"
+WaitTextBox
+ShowChara 7 1 48
+# ぴよこ、気を落と
+# すな…なんとかな
+# りそうだぞ
+ShowTextBox "Don't let it\nget to you,\nPiyoko. We'll\nfigure it out!"
+WaitTextBox
+ShowChara 4 2 34
+# みんな…
+ShowTextBox "Everyone..."
+WaitTextBox
+ShowChara 7 1 48
+# やっぱり、リーダ
+# ーが頼りないとき
+# は、部下がしっか
+# りしないとな！
+ShowTextBox "If we can't\ndepend on our\nleader, it's\nup to us grunts\nto solve the\nproblem, right?"
+WaitTextBox
+ShowChara 4 2 30
+# がーん…今のぴよ
+# こにその言葉はあ
+# んまりぴょ～っ！
+ShowTextBox "... What was\nthat, pyo!?"
+WaitTextBox
+ShowChara 6 1 44
+# ああっ、ピョコラ
+# 様、どこへ行かれ
+# るのですっ！
+ShowTextBox "Lady Pyokora!\nWhere are you\ngoing!?"
+WaitTextBox
+ShowChara 5 1 38
+# クウ、先ほどのセ
+# リフはあんまりで
+# すぞ！
+ShowTextBox "Coo, I don't\nthink that\nwas the right\nthing to\nsay..."
+WaitTextBox
+ShowChara 5 0 38
+# ピョコラ様が傷つ
+# いて、どこかに走
+# り去って行ったで
+# はないか！
+ShowTextBox "Lady Pyokora\nnever forgets\na grudge!\nShe'll track you\nto the ends of\nthe earth!"
+WaitTextBox
+ShowChara 7 1 58
+# えっ！？お、俺、
+# 何か悪いこと言っ
+# た？
+ShowTextBox "Huh!? Did I\nsay something\nwrong?"
+WaitTextBox
+EndScript

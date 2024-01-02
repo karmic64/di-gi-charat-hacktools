@@ -1,0 +1,68 @@
+DSCBase $41375C
+
+
+
+
+Subscript 0
+# ぴよこの悩みを聞いた！
+ShowTextBox "You listened to Piyoko's complaints!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+# ぴよこをなだめた！
+ShowTextBox "You helped Piyoko calm down!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+# ぴよこをなぐさめた！
+ShowTextBox "You consoled Piyoko!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+# ぴよこをおだてた！
+ShowTextBox "You flattered Piyoko!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+# ぴよこにかつを入れた！
+ShowTextBox "You gave Piyoko a pep talk!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+# ぴよこをはげました！
+ShowTextBox "You cheered on Piyoko!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+# ぴよこをほめた！
+ShowTextBox "You praised Piyoko!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+EndScript
+
+
+
+Subscript 8
+EndScript

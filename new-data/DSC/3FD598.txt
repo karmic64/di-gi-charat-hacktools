@@ -1,0 +1,310 @@
+DSCBase $3FD598
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# ねえねえ、今週っ
+# て、ぷちこの誕生
+# 日だったわよね
+ShowTextBox "Hey, Puchiko's\nbirthday is this\nweek, isn't it?"
+WaitTextBox
+ShowChara 8 2 53
+# あさっての２１日
+# がそうゲマ
+ShowTextBox "I think it's on\nthe 21st, gema."
+WaitTextBox
+ShowChara 1 2 9
+# その通りにょ
+# うさだ、よく知っ
+# てるにょ
+ShowTextBox "That's right,\nnyo. I'm\nsurprised you\nknow, Usada."
+WaitTextBox
+ShowChara 2 1 22
+# ぷちこに誕生日プ
+# レゼントをあげよ
+# うと思ってるんだ
+# けど、何がいいか
+# しら？
+ShowTextBox "I want to give\nher a present,\nbut what do you\nthink she'd\nlike?"
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ、それは
+# なかなか大変な問
+# 題だにょ…
+ShowTextBox "Nyo, that's the\nbig question..."
+WaitTextBox
+# とりあえず、今の
+# でじこに言えるの
+# は…
+ShowTextBox "But, all I can\nsay for now\nis..."
+WaitTextBox
+ShowChara 2 1 22
+# 言えるのは？
+ShowTextBox "What?"
+WaitTextBox
+ShowChara 1 2 10
+# 来月の８日が、で
+# じこの誕生日とい
+# うことだにょ
+ShowTextBox "Next month, on\nthe 8th, is my\nbirthday, nyo..."
+WaitTextBox
+ShowChara 2 1 55
+# はい？
+ShowTextBox "... Okay?"
+WaitTextBox
+ShowChara 1 2 9
+# それゆえ、今のう
+# ちから、しっかり
+# おこづかいをキー
+# プしておくことを
+# オススメにょ…
+ShowTextBox "So, if you only\nhave so much\nmoney, I'd\nrecommend\nsaving, nyo..."
+WaitTextBox
+ShowChara 2 1 55
+# …………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 1 2 10
+# でないと、でじこ
+# に誕生日プレゼン
+# トをあげることが
+# できなくなっちゃ
+# うにょ！
+ShowTextBox "Otherwise you\nwon't be able\nto get me a\npresent too,\nnyo!"
+WaitTextBox
+ShowChara 2 1 23
+# ねえ、店長さんも
+# ぷちこの誕生日の
+# お祝いをどうする
+# か、考えて？
+ShowTextBox "Manager, do\nyou want to\nthink about\nwhat to get\nPuchiko\ntogether?"
+WaitTextBox
+ShowChara 1 2 11
+# 無視かにょっ！
+ShowTextBox "You're ignoring\nme, nyo!"
+WaitTextBox
+ShowChara 8 2 2
+# 当然の反応ゲマ…
+ShowTextBox "Who wouldn't,\ngema..."
+WaitTextBox
+# いっしょに考える
+# 断る
+ShowSelMenu09 2 "!Let's think\nSorry, can't"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 2 1 23
+# じゃあ、店長さん
+# も参加するという
+# ことに決定…
+ShowTextBox "Alright, so\nyou're in on\nthe present\ntoo."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 2 1 22
+# えー、話し合いの
+# 結果、プレゼント
+# は店長さんが買っ
+# てくるということ
+# になりました…
+ShowTextBox "So, we've\ndecided that\nwhatever the\npresent is, the\nManager will\npay for it..."
+WaitTextBox
+ShowChara 1 2 9
+# よっ、さすが店長
+# しゃんにょ！
+ShowTextBox "As dependable\nas ever, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# この調子で来月も
+# お願いするにょ～
+ShowTextBox "Manager, I\nhope you'll be\njust as\ngenerous next\nmonth, nyo~"
+WaitTextBox
+ShowChara 2 1 23
+# はいはい、アタシ
+# とでじこはケーキ
+# とか、会場の用意
+# ね
+ShowTextBox "Dejiko and I\nwill get the\ncake and prepare\nthe party."
+WaitTextBox
+ShowChara 1 2 10
+# でじこの場合、ケ
+# ーキは最低でも５
+# 段ぐらいは必要に
+# ょっ！
+ShowTextBox "For my cake,\n5 layers is the\nabsolute\nminimum, nyo!"
+WaitTextBox
+# ロウソクは食べら
+# れないから、なく
+# ていいにょ
+ShowTextBox "I can't eat\ncandles, so no\nneed for those,\nnyo."
+WaitTextBox
+ShowChara 2 1 24
+# あぁもう、うるさ
+# ーい！
+ShowTextBox "Shut up,\nalready!"
+WaitTextBox
+# でじこ、ぷちこは
+# あんたの妹みたい
+# なもんでしょ？
+# ちょっとはマジメ
+# にとりくんでちょ
+# うだい！
+ShowTextBox "Dejiko, Puchiko\nis like a\nsister to you,\nright? Take\nthis seriously!"
+WaitTextBox
+ShowChara 1 2 11
+# にょにょっ、うさ
+# だにそんなこと言
+# われる筋合いはな
+# いにょっ！
+ShowTextBox "I don't wanna\nhear that from\nyou, nyo!"
+WaitTextBox
+# なんといっても、
+# でじこはぷちこと
+# は長～いつきあい
+# があるにょ！
+ShowTextBox "It doesn't\nmatter what you\nthink! Puchiko\nand I have\nbeen together\nforever, nyo!"
+WaitTextBox
+# ぷちこの好きなケ
+# ーキを選ぶくらい
+# わけないにょっ！
+ShowTextBox "There's no\nway you'd be\nable to pick\na cake she'd\nlike, nyo!"
+WaitTextBox
+ShowChara 2 1 24
+# そのくらい、アタ
+# シにだって、選べ
+# るわ！
+ShowTextBox "I can pick,\nand I'll have\nto if you\nwon't help!"
+WaitTextBox
+ShowChara 1 2 11
+# じゃ、今から買い
+# に行くにょ
+ShowTextBox "Then let's\ngo buy it\nalready, nyo."
+WaitTextBox
+ShowChara 2 1 24
+# ええ、買いに行き
+# ましょ
+ShowTextBox "Fine. Let's go."
+WaitTextBox
+ShowChara 8 2 1
+# いってらっしゃい
+# ゲマ～
+# どうやらケーキの
+# 方は大丈夫みたい
+# ゲマ
+ShowTextBox "Welcome back,\ngema~ Looks\nlike the cake\nshopping went\nwell!"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 2 1 25
+# お店も忙しい、し
+# ょうがないわね…
+ShowTextBox "I guess if the\nstore is going\nto be busy,\nthere's nothing\nyou can do..."
+WaitTextBox
+ShowChara 1 2 15
+# にょにょ、なんか
+# 雲行きがあやしく
+# なってきたにょ…
+ShowTextBox "Nyo...\nDoes anyone\nelse feel a\nlittle chilly,\nnyo?"
+WaitTextBox
+ShowChara 1 0 12
+# しかたない、ぷち
+# この誕生日は店長
+# しゃん抜きで、で
+# じこ達だけでお祝
+# いするにょ…
+ShowTextBox "Fine, I guess\nwe'll just\nleave you out of\nPuchiko's\nbirthday, nyo..."
+WaitTextBox
+ShowChara 2 1 25
+# ちょっと残念…
+ShowTextBox "That's too\nbad..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 3 117 90 8 108 10 3
+SetBG 120
+Fade 0 30
+ShowChara 1 1 9
+# さ、ぷちこ
+# 今日はぷちこのた
+# めの誕生日パーテ
+# ィーにょ～
+ShowTextBox "Happy\nBirthday,\nPuchiko, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# はっぴば～すで、
+# つ～にょ～！
+ShowTextBox "Happy birthday\nto nyou,"
+WaitTextBox
+ShowChara 2 2 23
+# ハッピーバースデ
+# ィ、トゥーユー！
+ShowTextBox "Happy birthday\nto you!"
+WaitTextBox
+ShowChara 8 1 53
+# ハッピーバースデ
+# ィ、ディア、ぷち
+# こゲマ～！
+ShowTextBox "Happy birthday,\nPuchiko gemaa-"
+WaitTextBox
+ShowChara 1 1 10
+# はっぴば～すで、
+# つ～にょ～！
+ShowTextBox "Happy birthday\nto you! Nyo!"
+WaitTextBox
+ShowChara 2 2 23
+# お誕生日、おめで
+# とう、ぷちこ！
+ShowTextBox "Happy birthday!"
+WaitTextBox
+ShowChara 1 1 9
+# さ、店長さんより
+# 誕生日プレゼント
+# にょ！
+ShowTextBox "The Manager got\nyou a present,\nnyo!"
+WaitTextBox
+Fade 3 30
+SetBG 4
+Fade 2 30
+ShowChara 3 0 0
+# ぺこり…
+ShowTextBox "Nyu..."
+WaitTextBox
+# みんな、ぷちこの誕生
+# 日を祝ってくれて、う
+# れしいにゅ
+ShowTextBox "Everyone, thank\nyou so much, nyu."
+WaitTextBox
+# 特に店長さん、プレゼ
+# ントをくれてありがと
+# うにゅ
+ShowTextBox "Especially you,\nManager, for\ngetting me a\nbirthday gift,\nnyu."
+WaitTextBox
+# 次の誕生日には、でじ
+# ことうさだからもプレ
+# ゼント欲しいにゅ
+ShowTextBox "Next year, I\nwant one from\nDejiko and\nUsada as well,\nnyu."
+WaitTextBox
+# と言うか、今からでも
+# おそくないから、プレ
+# ゼントよこせにゅ
+ShowTextBox "And it's not\ntoo late for\nthis year. I\naccept belated\nbirthday gifts,\nnyu."
+WaitTextBox
+Fade 1 30
+SetBG 120
+Fade 0 30
+ShowChara 1 1 12
+# にょにょ～、流石
+# はぷちこ…
+# もうでじこには何
+# も教えることは残
+# ってないにょ…
+ShowTextBox "It seems I have\nnothing left to\nteach you, nyo.\nThe student has\nbecome the\nmaster..."
+WaitTextBox
+EndScript

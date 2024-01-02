@@ -1,0 +1,508 @@
+DSCBase $3F0264
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 23
+# ねぇ、店長さん
+# 今度の日曜って、
+# おヒマかしら？
+ShowTextBox "Hey, Manager. Are you free next Sunday?"
+WaitTextBox
+# 桜前線も近づいて
+# きたことだし…
+ShowTextBox "The cherry blossoms will be at peak bloom before too long. So..."
+WaitTextBox
+ShowChara 2 0 23
+# みんなでお花見な
+# んかどうかなぁ…
+# って思ったの
+ShowTextBox "I was thinking... wouldn't it be nice for us all to go to the park, maybe have a picnic?"
+WaitTextBox
+# よかったら考えて
+# てちょうだいね
+# じゃあ！
+ShowTextBox "Let me know what you think! See you on Monday!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 1 1 14
+# 聞いたにょ、聞い
+# たにょ…
+ShowTextBox "Heheh..."
+WaitTextBox
+# うさだがなにやら
+# 企んでるのを、で
+# じこは目撃してし
+# まったにょ
+ShowTextBox "I've got you this time, Usada... Whatever scheme you cooked up with the Manager, I was there to witness it all, nyo!"
+WaitTextBox
+ShowChara 8 2 1
+# あれは「お花見」
+# の相談をしてたん
+# だゲマ
+ShowTextBox "I believe she was planning out a trip to go \"Flower Viewing\", gema!"
+WaitTextBox
+ShowChara 1 1 8
+# 「お花見」って、
+# 何にょ？
+ShowTextBox "What's a \"Flower Viewing\", nyo?"
+WaitTextBox
+ShowChara 8 2 53
+# 地球では、桜が咲
+# いたら、それを見
+# 物する習慣がある
+# ゲマ
+ShowTextBox "It seems to be an Earth custom, gema. When the cherry blossoms bloom in spring, they make a big trip out of it, gema."
+WaitTextBox
+# みんなで、飲んだ
+# り、食べたり、カ
+# ラオケしたりする
+# ゲマ
+ShowTextBox "It's common practice to eat, drink, and sing karaoke all weekend long, gema!"
+WaitTextBox
+ShowChara 1 1 11
+# 分かったにょ！
+ShowTextBox "So that's her plan, nyo!"
+WaitTextBox
+# きっと、うさだは
+# でじこをのけ者に
+# して
+ShowTextBox "Usada's trying to keep me out of it, nyo! Leave me in the lurch!"
+WaitTextBox
+# 自分たちだけでう
+# まいものを食べる
+# つもりに違いない
+# にょ～っ！
+ShowTextBox "She'll eat all the tasty food herself, and leave none for me, nyo!!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+Unk08 1 47 71 95 80 10 3
+Unk08 2 118 54 18 88 10 3
+ShowChara 2 1 22
+# 店長さん、このあ
+# いだのこと、考え
+# ておいてくれたか
+# しら？
+ShowTextBox "Well, Manager? Did you give my idea some thought?"
+WaitTextBox
+# なんのことって、
+# ほら、お花見のこ
+# と！
+ShowTextBox "What do you mean, \"what idea\"? The picnic, of course!"
+WaitTextBox
+# もちろんＯＫ！
+# 何のことだっけ？
+ShowSelMenu09 2 "!Right! Let's do it!\nWhat's that, again?"
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 2 0 25
+# が～ん…！
+ShowTextBox "B-Bluh...!"
+WaitTextBox
+# ひっ、ひどいわっ
+# …せっかく楽しみ
+# にしてたのに…
+ShowTextBox "M-Manager... How could you forget...? After all I...?"
+WaitTextBox
+ShowChara 2 0 24
+# もう、店長さんな
+# んか知らないっ！
+ShowTextBox "....I HATE you, Manager!!"
+WaitTextBox
+EndScript
+Label 0
+ShowChara 2 0 23
+# やったーっ！それ
+# じゃ、さっそく行
+# きましょ！
+ShowTextBox "Yay! Shall we go, then?"
+WaitTextBox
+ShowChara 1 2 14
+# ちょっと待つにょ
+# ！
+ShowTextBox "Wait just a darn second, nyo!"
+WaitTextBox
+ShowChara 2 1 22
+# あら、でじこ…
+# どうしたの？
+ShowTextBox "Oh, Dejiko. What's the matter?"
+WaitTextBox
+ShowChara 1 2 10
+# じゃーん、これを
+# 見るにょ！でじこ
+# 特製、お花見団子
+# にょ～っ！
+ShowTextBox "Ta-daaah! Take a look at this! Dejiko's own specially-produced Cherry Blossom Dango, nyo~!"
+WaitTextBox
+# にょにょ、このお
+# 団子が欲しかった
+# ら、でじこもお花
+# 見につれて行くに
+# ょ～っ！
+ShowTextBox "Nyo, if you want a bite, you'll have to invite me along to your picnic, nyo!"
+WaitTextBox
+ShowChara 2 1 23
+# あら、準備いいじ
+# ゃない、でじこ！
+# アタシはお弁当作
+# ってきたから、ち
+# ょうどいいわ！
+ShowTextBox "Oh, great! I packed a lunch too, so we'll have plenty to eat!"
+WaitTextBox
+ShowChara 1 2 8
+# にょっ…？
+ShowTextBox "Nyo...?"
+WaitTextBox
+ShowChara 2 1 23
+# じゃ、みんなで行
+# きましょ！
+ShowTextBox "If everyone's ready, let's get going!"
+WaitTextBox
+ShowChara 1 2 15
+# ちょ、ちょっと待
+# つにょ、うさだ！
+# でじこをのけ者に
+# するつもりじゃな
+# かったのかにょ？
+ShowTextBox "W-wait... Usada! You weren't planning on leaving me behind, nyo?"
+WaitTextBox
+ShowChara 2 1 22
+# えっ…何の話？
+ShowTextBox "Huh...?"
+WaitTextBox
+ShowChara 1 2 8
+# にょにょっ…
+ShowTextBox "Nyo nyo..."
+WaitTextBox
+ShowChara 8 1 2
+# どうやら、でじこ
+# の早とちりだった
+# みたいゲマ
+ShowTextBox "... I think she might have jumped to the wrong conclusion, gema..."
+WaitTextBox
+Fade 3 30
+SetBG 17
+Fade 2 30
+ShowChara 2 0 0
+# 桜も満開、天気も良好
+# だし、まさに絶好の花
+# 見日和ね！
+ShowTextBox "The blossoms are blooming and the sun is shining! This is just perfect weather for looking at the cherry blossoms!"
+WaitTextBox
+# じゃ、まずは一曲歌わ
+# せてもらおうかしら♪
+ShowTextBox "I'll start with a song to mark the occasion, okay? ♪"
+WaitTextBox
+ShowChara 1 0 0
+# にょっ！こ、こいつ
+# ＭＹマイクを持ってる
+# にょ～っ！
+ShowTextBox "Nyo--! S-She's got MY Mic with her, nyo...!"
+WaitTextBox
+PlayMusic 3
+Fade 3 160
+Wait 60
+SetBG 117
+Fade 2 30
+ShowChara 1 1 12
+# にょ～っ…
+ShowTextBox "Nyo..."
+WaitTextBox
+# うさだが一度マイ
+# クを握ったら離さ
+# ない人とは知らな
+# かったにょ…
+ShowTextBox "I don't know anyone who's ever gotten a mic out of Usada's hands once she has one in her clutches, nyo..."
+WaitTextBox
+ShowChara 2 2 23
+# うふふ、やぁね、
+# 恥ずかしいから、
+# そんなにほめない
+# でちょうだい@
+ShowTextBox "Hehe...! You all are too sweet! No need to compliment me so much, it's getting embarassing..."
+WaitTextBox
+ShowChara 1 1 11
+# ほめてないにょ～
+# ～～～っ！
+ShowTextBox "Nobody's complimenting you, nyo!!"
+WaitTextBox
+ShowChara 2 2 26
+# では、熱烈なアン
+# コールにお応えし
+# て、もう３，４曲
+# 歌うわね♪
+ShowTextBox "Oh, you all want an encore? I suppose I can't let my fans down! We've got time for 3 or 4 more songs, don't we? ♪"
+WaitTextBox
+ShowChara 1 1 12
+# にょにょ～っ…
+ShowTextBox "Nyo..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+Unk08 1 47 71 95 80 10 3
+Unk08 2 118 54 18 88 10 3
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# 店長さん、このあ
+# いだのこと、考え
+# ておいてくれたか
+# しら？
+ShowTextBox "Well, Manager? Did you give my idea some thought?"
+WaitTextBox
+# なんのことって、
+# ほら、お花見のこ
+# と！
+ShowTextBox "What do you mean, \"what idea\"? The picnic, of course!"
+WaitTextBox
+# もちろんＯＫ！
+# 何のことだっけ？
+ShowSelMenu09 2 "!Right! Let's do it!\nWhat's that, again?"
+JumpOnSelection 2 2 3 0
+Label 3
+ShowChara 2 0 25
+# が～ん…！
+ShowTextBox "B-Bluh...!"
+WaitTextBox
+# ひどいわ、店長！
+# せっかく楽しみに
+# してたのにーっ！
+ShowTextBox "M-Manager... How could you forget...? After all I...?"
+WaitTextBox
+ShowChara 2 0 24
+# もう、店長さんな
+# んか知らないっ！
+ShowTextBox "....I HATE you, Manager!!"
+WaitTextBox
+EndScript
+Label 2
+ShowChara 2 0 23
+# やったーっ！それ
+# じゃ、さっそく行
+# きましょ！
+ShowTextBox "Yay! Shall we go, then?"
+WaitTextBox
+ShowChara 1 2 14
+# ちょっと待つにょ
+# ！
+ShowTextBox "Wait just a darn second, nyo!"
+WaitTextBox
+ShowChara 2 1 22
+# あら、でじこ…
+# どうしたの？
+ShowTextBox "Oh, Dejiko. What's the matter?"
+WaitTextBox
+ShowChara 1 2 10
+# じゃーん、これを
+# 見るにょ！でじこ
+# 特製、お花見団子
+# にょ～っ！
+ShowTextBox "Ta-daaah! Take a look at this! Dejiko's own specially-produced Cherry Blossom Dango, nyo~!"
+WaitTextBox
+# にょにょ、このお
+# 団子が欲しかった
+# ら、でじこもお花
+# 見につれて行くに
+# ょ～っ！
+ShowTextBox "Nyo, if you want a bite, you'll have to invite me along to your picnic, nyo!"
+WaitTextBox
+ShowChara 2 1 23
+# あら、準備いいじ
+# ゃない、でじこ！
+# アタシはお弁当作
+# ってきたから、ち
+# ょうどいいわ！
+ShowTextBox "Oh, great! I packed a lunch too, so we'll have plenty to eat!"
+WaitTextBox
+ShowChara 1 2 8
+# にょっ…？
+ShowTextBox "Nyo...?"
+WaitTextBox
+ShowChara 2 1 23
+# じゃ、みんなで行
+# きましょ！
+ShowTextBox "If everyone's ready, let's get going!"
+WaitTextBox
+ShowChara 1 2 15
+# ちょ、ちょっと待
+# つにょ、うさだ！
+# でじこをのけ者に
+# するつもりじゃな
+# かったのかにょ？
+ShowTextBox "W-wait... Usada! You weren't planning on leaving me behind, nyo?"
+WaitTextBox
+ShowChara 2 1 22
+# えっ…何の話？
+ShowTextBox "Huh...?"
+WaitTextBox
+ShowChara 1 2 8
+# にょにょっ…
+ShowTextBox "Nyo nyo..."
+WaitTextBox
+ShowChara 8 1 2
+# どうやら、でじこ
+# の早とちりだった
+# みたいゲマ
+ShowTextBox "... I think she might have jumped to the wrong conclusion, gema..."
+WaitTextBox
+Fade 3 30
+SetBG 17
+Fade 2 30
+ShowChara 2 0 0
+# 桜も満開、天気も良好
+# だし、まさに絶好の花
+# 見日和ね！
+ShowTextBox "The blossoms are blooming and the sun is shining! This is just perfect weather for looking at the cherry blossoms!"
+WaitTextBox
+# じゃ、まずは一曲歌わ
+# せてもらおうかしら♪
+ShowTextBox "I'll start with a song to mark the occasion, okay? ♪"
+WaitTextBox
+ShowChara 1 0 0
+# にょっ！こ、こいつ
+# ＭＹマイクを持ってる
+# にょ～っ！
+ShowTextBox "Nyo--! S-She's got MY Mic with her, nyo...!"
+WaitTextBox
+PlayMusic 3
+Fade 3 160
+Wait 120
+SetBG 117
+Fade 2 30
+ShowChara 1 1 12
+# にょにょ～っ…
+ShowTextBox "Nyo..."
+WaitTextBox
+# うさだが一度マイ
+# クを握ったら離さ
+# ない人とは知らな
+# かったにょ～
+ShowTextBox "I don't know anyone who's ever gotten a mic out of Usada's hands once she has one in her clutches, nyo..."
+WaitTextBox
+ShowChara 3 2 18
+# ぷちこは静かに花
+# を愛でるにゅ…
+ShowTextBox "I prefer admiring the flowers in silence, nyu."
+WaitTextBox
+ShowChara 1 1 12
+# さすがはぷち…
+ShowTextBox "That's probably not a surprise to you, nyu..."
+WaitTextBox
+ShowChara 1 0 15
+# にょにょっ、ぷち
+# こ、気をつけるに
+# ょっ！！
+ShowTextBox "Nyo nyo, Watch out, Puchiko!!"
+WaitTextBox
+# うさだのカラオケ
+# で、上から毛虫さ
+# んたちがどんどん
+# 落ちてくるにょ～
+# っ！
+ShowTextBox "Usada's singing is knocking caterpillars out of the trees, nyo!"
+WaitTextBox
+Unk1B 3 40
+EndScript
+
+
+
+Subscript 3
+PlayMusic 15
+SetBG 117
+Fade 2 30
+ShowChara 3 1 18
+# 正義は勝つにゅ…
+ShowTextBox "Justice prevails, nyu..."
+WaitTextBox
+ShowChara 2 2 22
+# ん、どうしたの？
+ShowTextBox "Hm? What's this?"
+WaitTextBox
+ShowChara 2 0 23
+# わぁ、キレイ、花
+# びらを集めたのね
+ShowTextBox "Oh, that's beautiful! You gathered up these flower petals for me?"
+WaitTextBox
+ShowChara 2 0 25
+# 桜って、どうして
+# こんなに早く散っ
+# てしまうのかしら
+ShowTextBox "I wonder why the cherry blossoms drop their petals so quickly."
+WaitTextBox
+ShowChara 1 1 16
+# まったく、うさだ
+# の歌のせいで、え
+# らい目にあったに
+# ょ…
+ShowTextBox "Usada's singing was too much for the trees to bear, nyo..."
+WaitTextBox
+# 気をつけるがいい
+# にょ！
+# うさだっ！！
+ShowTextBox "Be careful, nyo!\nUsada!!"
+WaitTextBox
+ShowChara 2 2 27
+# きぃーーっ、なに
+# よ、それーーっ！
+ShowTextBox "Gyeeeh! What the heck is that!?"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+PlayMusic 15
+SetBG 117
+Fade 0 30
+ShowChara 3 1 20
+# ひどい目にあった
+# にゅ…
+ShowTextBox "A terrible fate, nyu..."
+WaitTextBox
+ShowChara 2 2 22
+# ん、どうしたの？
+ShowTextBox "Hm? What's this?"
+WaitTextBox
+ShowChara 2 0 23
+# わぁ、キレイ、花
+# びらを集めたのね
+ShowTextBox "Oh, that's beautiful! You gathered up these flower petals for me?"
+WaitTextBox
+ShowChara 2 0 25
+# 桜って、どうして
+# こんなに早く散っ
+# てしまうのかしら
+ShowTextBox "I wonder why the cherry blossoms drop their petals so quickly."
+WaitTextBox
+ShowChara 1 1 16
+# まったく、うさだ
+# の歌のせいで、え
+# らい目にあったに
+# ょ…
+ShowTextBox "Usada's singing was too much for the trees to bear, nyo..."
+WaitTextBox
+# 気をつけるがいい
+# にょ！
+# うさだっ！！
+ShowTextBox "Be careful, nyo!\nUsada!!"
+WaitTextBox
+ShowChara 2 2 27
+# きぃーーっ、なに
+# よ、それーーっ！
+ShowTextBox "Gyeeeh! What the heck is that!?"
+WaitTextBox
+EndScript

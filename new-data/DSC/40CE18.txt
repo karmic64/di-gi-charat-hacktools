@@ -1,0 +1,71 @@
+DSCBase $40CE18
+
+
+
+
+Subscript 0
+ShowChara 2 2 22
+EndScript
+
+
+
+Subscript 1
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 2
+# いままでやったミニゲームで遊ぶのね
+ShowTextBox "Play minigames you've unlocked!"
+EndScript
+
+
+
+Subscript 3
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 4
+# いままでのおもいでを見るのね
+ShowTextBox "View your memories!"
+EndScript
+
+
+
+Subscript 5
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 6
+# 音楽を聴くのね
+ShowTextBox "Listen to the soundtrack!"
+EndScript
+
+
+
+Subscript 7
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 8
+# みんなでおしゃべりをするのね
+ShowTextBox "Chat with everyone!"
+EndScript
+
+
+
+Subscript 9
+Fade 1 15
+HideChara
+EndScript

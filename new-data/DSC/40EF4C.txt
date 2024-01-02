@@ -1,0 +1,173 @@
+DSCBase $40EF4C
+
+
+
+
+Subscript 0
+ShowChara 1 0 10
+# でじこ、今週は
+# $0、すごくがんばったにょ！
+# 来週もでじこに
+# おまかせにょ！
+ShowTextBox "I did really well at $0 this week, nyo!\nNext week I'll do even better, nyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 1 0 8
+# でじこ、今週は
+# $0、ふつうにこなせたにょ
+# 来週も
+# がんばるにょ！
+ShowTextBox "I did an average job at $0 this week, nyo.\nI'll do my best next week, nyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 1 0 12
+# でじこ、今週は
+# $0、うまくできなかったにょ…
+# 来週こそは
+# がんばるにょ！
+ShowTextBox "I didn't do very well at $0 this week, nyo...\nI'll try harder next week, nyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 1 0 16
+PlaySfx 132
+# \x01$0\x1aなんてもうやってられないにょ！
+# 次は\x03$1\x1aをやりたいにょ～
+ShowTextBox "I don't wanna do \x01$0\x1a anymore, nyo!\nLet me do \x03$1\x1a instead, nyo~"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 1 0 10
+PlaySfx 135
+PlaySfx 18
+# やったにょー！
+# $0のレベルアップにょ！
+# これで\x03$1\x1aにょー！
+ShowTextBox "I did it, nyo!\nI leveled up at $0, nyo!\nI'm now level \x03$1\x1a, nyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 1 0 10
+PlaySfx 135
+PlaySfx 18
+# やったにょー！
+# $0のレベルアップにょ！
+# これで…
+ShowTextBox "I did it, nyo!\nI leveled up at $0, nyo!\nI'm now..."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 6
+SetBG 56
+Unk08 1 84 80 104 100 10 3
+Fade 0 30
+ShowChara 1 0 0
+# \x03レジマスター\x1aにょ！
+ShowTextBox "a \x03Checkout Master\x1a, nyo!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 7
+SetBG 107
+Unk08 1 170 66 104 88 10 3
+Fade 0 30
+ShowChara 1 0 0
+# \x03接客マスター\x1aにょ！
+ShowTextBox "a \x03Service Master\x1a, nyo!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 8
+SetBG 57
+Unk08 1 127 73 8 100 10 3
+Fade 0 30
+ShowChara 1 0 0
+# \x03グッズマスター\x1aにょ！
+ShowTextBox "a \x03Stocking Master\x1a, nyo!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 9
+SetBG 58
+Unk08 1 95 73 88 88 10 3
+Fade 0 30
+ShowChara 1 0 0
+# \x03掃除マスター\x1aにょ！
+ShowTextBox "a \x03Cleaning Master\x1a, nyo!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 10
+SetBG 111
+Fade 2 30
+ShowChara 1 0 10
+PlaySfx 135
+PlaySfx 18
+# 店長しゃん、手伝
+# ってくれてどうも
+# ありがとうにょ！
+# おかげで\x03お仕事レベルがあがったにょ！\x1a
+ShowTextBox "Thanks for your help, Manager! With your advice, I was able to \x03level up\x1a, nyo!"
+WaitTextBox
+ShowChara 1 0 9
+# でじこ、これから
+# ももっとがんばる
+# から、今後ともよ
+# ろしくにょ！
+ShowTextBox "I'll keep doing my best, so I hope you'll help me out again sometime, nyo!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 11
+SetBG 111
+Fade 0 30
+ShowChara 1 0 12
+# 店長しゃんがせっ
+# かく、手伝ってく
+# れたのに、うまく
+# いかなかったにょ
+# …
+ShowTextBox "Sorry, Manager... Even with your help, it didn't go too well, nyo."
+WaitTextBox
+ShowChara 1 0 8
+# でじこ、次はがん
+# ばるにょ！
+ShowTextBox "I'll try harder next time, nyo!"
+WaitTextBox
+Fade 1 30
+EndScript

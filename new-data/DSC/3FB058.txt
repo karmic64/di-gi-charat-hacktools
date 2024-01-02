@@ -1,0 +1,693 @@
+DSCBase $3FB058
+
+
+
+
+Subscript 0
+Unk08 1 110 73 48 108 10 3
+Unk08 2 160 80 88 108 10 3
+Unk08 3 42 94 8 124 10 2
+Unk08 14 120 80 60 108 10 3
+PlayMusic 18
+SetBG 111
+Fade 0 30
+ShowChara 1 1 9
+# 鈴を鳴らすにょ～
+# 鈴を鳴らすにょ～
+# しゃんしゃんと、
+# 鈴を鳴らすにょ～
+ShowTextBox "Ring a bell,\nRing a bell,\nHere comes\nSanta, nyo~"
+WaitTextBox
+ShowChara 3 1 17
+# 今日は楽しいクリ
+# スマスイブにゅ～
+ShowTextBox "It's Christmas\nEve, nyu~"
+WaitTextBox
+ShowChara 2 2 23
+# パーティーの準備
+# も終わったから、
+# あとは盛り上がる
+# だけね
+ShowTextBox "Everything's\nready for the\nparty, so all\nthat's left is\nto get excited!"
+WaitTextBox
+ShowChara 1 1 11
+# 鈴を鳴らすだけじ
+# ゃ、つまらないに
+# ょ！
+ShowTextBox "Just ringing a\nbell like this\nis going to\nbe boring, nyo!"
+WaitTextBox
+ShowChara 3 1 17
+# なにか、歌を歌う
+# にゅ
+ShowTextBox "Why don't we\nsing something,\nnyu?"
+WaitTextBox
+ShowChara 2 2 26
+# じゃーん、そうい
+# うと思って、みん
+# なで歌える歌を用
+# 意してきたの！
+ShowTextBox "Ta-da! I thought\nthis might come\nup, so I got a\nsong everyone\ncan sing!"
+WaitTextBox
+ShowChara 1 1 10
+# うさだ、それはナ
+# イスにょ！
+ShowTextBox "Nice job, nyo!"
+WaitTextBox
+ShowChara 3 1 17
+# なんて歌にゅ？
+ShowTextBox "What's the\nsong, nyu?"
+WaitTextBox
+ShowChara 2 2 22
+# 『ＰＡＲＴＹ☆Ｎ
+# ＩＧＨＴ』（パー
+# ティーナイト）っ
+# て言うんだけど…
+ShowTextBox "It's called\n\"PARTY☆NIGHT\"..."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 2 2 22
+# どう？　ご感想を
+# うかがってもよろ
+# しいかしら？
+ShowTextBox "What do you\nthink? Is this\na good pick?"
+WaitTextBox
+ShowChara 1 1 9
+# う～ん、いい歌に
+# ょ～
+ShowTextBox "Yeah, it's a\ngood song, nyo!"
+WaitTextBox
+ShowChara 3 1 18
+# 気に入ったにゅ
+ShowTextBox "I like it, nyu."
+WaitTextBox
+ShowChara 1 1 10
+# 決めたにょ！　こ
+# の歌をマスターし
+# て今夜はミニコン
+# サートにょ！
+ShowTextBox "Alright! Let's\nmaster this\nsong and have a\nmini concert\ntonight, nyo!"
+WaitTextBox
+# にょにょ、今日は
+# 大女優でじこサマ
+# の記念すべきファ
+# ーストコンサート
+# の日にょっ！
+ShowTextBox "Nyo, tonight\nwill forever be\nknown as the\nanniversary of\nthe superstar\nDejiko's debut!"
+WaitTextBox
+ShowChara 3 1 18
+# 今夜は伝説となる
+# にゅ
+ShowTextBox "It'll go down\nin legends, nyu."
+WaitTextBox
+ShowChara 2 2 23
+# な、なんだか、妙
+# にやる気になって
+# るわね…
+ShowTextBox "I think you're\na little too\ninto it..."
+WaitTextBox
+ShowChara 2 0 22
+# 気に入ってくれた
+# のはうれしいけれ
+# ど、いきなりコン
+# サートだなんて…
+ShowTextBox "I'm glad you\nlike the song,\nbut holding a\nconcert\ntonight...?"
+WaitTextBox
+# 第一、もうあんま
+# り時間がないわよ
+ShowTextBox "First of all,\nthat's not a\nlot of time to\nprepare."
+WaitTextBox
+ShowChara 1 1 12
+# ううっ、痛いとこ
+# ろをつかれたにょ
+ShowTextBox "Nyo...\nYou know where\nto hit to make\nit hurt, nyo~"
+WaitTextBox
+ShowChara 1 0 8
+# このままでは、歌
+# 詞をおぼえる時間
+# もないにょ～
+ShowTextBox "We won't have\nenough time to\nlearn all the\nlyrics, nyo..."
+WaitTextBox
+ShowChara 3 1 17
+# 店長さんに手伝っ
+# てもらうにゅ
+ShowTextBox "The Manager\ncould help us,\nnyu."
+WaitTextBox
+ShowChara 1 1 10
+# にょにょっ、ぷち
+# こ、それだにょ！
+# ナイスアイディア
+# だにょ～！
+ShowTextBox "That's it, nyo!\nGood idea,\nPuchiko!"
+WaitTextBox
+# 店長しゃん、でじ
+# こがステージで歌
+# 詞を忘れそうにな
+# ったら、そんとき
+# はサポートよろし
+# くにょ！
+ShowTextBox "Manager, if I\nforget the\nlyrics on stage,\nI need you to\nfeed me the next\nline, nyo!"
+WaitTextBox
+ShowChara 2 2 55
+# 平たく言うと、店
+# 長さんをカンニン
+# グペーパーにする
+# わけね
+ShowTextBox "In other words,\nyou want the\nManager to make\nyou a cheat\nsheet, huh."
+WaitTextBox
+ShowChara 1 1 8
+# ステージが成功す
+# るか失敗するか、
+# すべて店長しゃん
+# のサポートしだい
+# だにょっ！
+ShowTextBox "The success or\nfailure of my\nbig break all\ndepends on the\nManager's help,\nnyo!"
+WaitTextBox
+ShowChara 1 0 9
+# 店長しゃん、やっ
+# てくれるにょ？
+ShowTextBox "Can I count on\nyou, nyo?"
+WaitTextBox
+# まかせろ！
+# ちょっと無理…
+ShowSelMenu09 2 "!Leave it to me!\nIt's too much..."
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 1 0 10
+# さすが店長しゃん
+# にょ！
+ShowTextBox "I knew you'd\ncome through for\nme, nyo!"
+WaitTextBox
+# 店長しゃんは店長
+# しゃんのカガミ、
+# 店長しゃんこそは
+# 店長しゃんの中の
+# 店長しゃんにょ！
+ShowTextBox "There's no\nManager who\nmanages like our\nManager manages!\nA real manager's\nManager, nyo!"
+WaitTextBox
+ShowChara 3 1 19
+# ややこしいにゅ
+ShowTextBox "I don't get\nit, nyu..."
+WaitTextBox
+ShowChara 2 2 23
+# それじゃ、店長さ
+# ん、歌詞カードを
+# 渡すから、ちゃん
+# と見ておいてね
+ShowTextBox "I'll give you\nthe lyrics,\nManager. Make\nsure to look\nthem over\ncarefully."
+WaitTextBox
+ShowChara 1 1 11
+# でじこたちは歌の
+# 練習、いや、特訓
+# にょ～
+ShowTextBox "We're going to\ngo practice\nour singing!\nWe can't get\ndistracted, nyo!"
+WaitTextBox
+ShowChara 8 2 53
+# さて、それでは店
+# 長さん、これから
+# ゲマが歌詞カード
+# の見方を説明する
+# ゲマ
+ShowTextBox "I'll explain\nhow to use the\nlyrics sheet,\ngema."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 8 2 1
+# え～、この後出る
+# 選択肢で、「歌詞
+# カードを見る」を
+# 選ぶと、
+ShowTextBox "In a little\nbit, you'll have\na choice to\n\"Read the\nlyrics\", gema."
+WaitTextBox
+# 『ＰＡＲＴＹ☆Ｎ
+# ＩＧＨＴ』（パー
+# ティーナイト）が
+# 一回流れるゲマ
+ShowTextBox "Pick that, and\n\"PARTY☆NIGHT\"\nwill play\nthrough once,\ngema."
+WaitTextBox
+# 店長さんはそれを
+# 見て、だいたいで
+# いいから、歌詞を
+# おぼえるゲマ
+ShowTextBox "Listen to the\nsong, and try\nto remember the\nlyrics as best\nas you can,\ngema."
+WaitTextBox
+ShowChara 8 0 53
+# 店長さんの役目は
+# あくまで、でじこ
+# の手助けだから、
+# カンペキに暗記す
+# る必要はないゲマ
+ShowTextBox "Your job is just\nto help out\nDejiko, so\nthere's no need\nto memorize them\ncompletely."
+WaitTextBox
+JumpOnSelection 1 2 0
+Label 2
+ShowChara 8 0 1
+# さて、歌詞カード
+# を見るゲマ？それ
+# とも、もう十分だ
+# から本番へ進むゲ
+# マ？
+ShowTextBox "So, do you want\nto read the\nlyrics? Or are\nyou ready for\nthe concert,\ngema?"
+WaitTextBox
+# 歌詞カードを見る
+# 本番へ進む
+ShowSelMenu09 2 "!Read the lyrics\nConcert time!"
+JumpOnSelection 2 3 4 0
+Label 3
+SetUpCounter 0
+ActivateUpCounter
+StopMusic
+PlayMusic 0
+ShowChara 14 2 63
+# 『ＰＡＲＴＹ☆Ｎ
+# ＩＧＨＴ』（パー
+# ティーナイト）
+ShowTextBox "『PARTY☆NIGHT』"
+WaitUpCounter 750
+# 合唱：
+# ホールド・ミー・
+# ベイベー
+# 踊ろうよサンデー
+ShowTextBox "Chorus:\nHold me, baby\nGo Dance Sunday"
+WaitUpCounter 1140
+# 合唱：
+# タッチ・ミー
+# ・ベイベー
+# 気分はホリデー
+ShowTextBox "Chorus:\nTouch me, baby\nFeeling like a\nholiday"
+WaitUpCounter 1520
+# でじこ：
+# イヤな事
+# 全部忘れちゃおう
+ShowTextBox "Dejiko:\nLeave all your\nworries behind"
+WaitUpCounter 1890
+# でじこ：
+# 一晩眠って目ざめたら
+# ハッピーガール
+ShowTextBox "Dejiko:\nWake up tonight,\nHappy Girl"
+WaitUpCounter 2300
+# うさだ：
+# 夢の途中で
+# 出会う不思議
+ShowTextBox "Usada:\nSo strange to\nmeet in a dream"
+WaitUpCounter 2670
+# うさだ：
+# 悪夢を食べてる
+# バクたちも
+# グッドフレンズ
+ShowTextBox "Usada:\nThe\ndream-eaters too\nGood Friends"
+WaitUpCounter 3060
+# ぷちこ：
+# いつもならば
+# おしゃべりもしない
+ShowTextBox "Puchiko:\nThe usually\nsilent"
+WaitUpCounter 3440
+# ぷちこ：
+# きゅうくつな人
+ShowTextBox "Puchiko:\nStiff old\npeople"
+WaitUpCounter 3640
+# でじこ：
+# 陽気な
+ShowTextBox "Dejiko:\nCheerfully"
+WaitUpCounter 3730
+# 合唱：
+# リズムで変身
+ShowTextBox "Chorus:\nTransformed by\nthe rhythm"
+WaitUpCounter 4020
+# 合唱：
+# ホールド・ミー
+# ・ベイベー
+# ウキウキレイディ
+ShowTextBox "Chorus:\nHold me, baby\nHappy Lady"
+WaitUpCounter 4210
+# うさだ：
+# ストレスは
+# ためないで
+ShowTextBox "Usada:\nLet your\nstress\ndisappear"
+WaitUpCounter 4410
+# 合唱：
+# タッチ・ミー
+# ・ベイベー
+# キラキラボディ
+ShowTextBox "Chorus:\nTouch me, baby\nBeautiful body"
+WaitUpCounter 4600
+# でじこ：
+# リフレッシュ
+# しよう
+ShowTextBox "Dejiko:\nLet's refresh"
+WaitUpCounter 4800
+# 合唱：
+# ホールド・ミー
+# ・ベイベー
+# 踊ろうよサンデー
+ShowTextBox "Chorus:\nHold me, baby\nGo Dance Sunday"
+WaitUpCounter 4980
+# ぷちこ：
+# こころにも
+# 栄養を
+ShowTextBox "Puchiko:\nFeed your\nheart's\ndesire"
+WaitUpCounter 5180
+# 合唱：
+# タッチ・ミー
+# ・ベイベー
+# 気分はホリディ
+ShowTextBox "Chorus:\nTouch me, baby\nFeeling like a\nholiday"
+WaitUpCounter 5370
+# でじこ：
+# 星空の
+# メロディ
+ShowTextBox "Dejiko:\nThe starry\nsky's melody"
+WaitUpCounter 5660
+SetUpCounter 3
+FadeOutMusic 60
+ShowChara 8 2 53
+# う～ん、何度聴い
+# てもいい歌ゲマ…
+ShowTextBox "Ahh, that song\nnever gets old,\ngema..."
+WaitTextBox
+JumpOnSelection 1 2 0
+Label 4
+# でじこ、そっちは
+# どうゲマ？
+ShowTextBox "Dejiko, how's\nit going on your\nend, gema?"
+WaitTextBox
+ShowChara 1 1 9
+# ＯＫにょ～
+ShowTextBox "OK, nyo~"
+WaitTextBox
+ShowChara 8 2 1
+# こっちもＯＫゲマ
+ShowTextBox "We're ready\ntoo, gema."
+WaitTextBox
+ShowChara 8 0 53
+# さて、それでは本
+# 番にＧＯゲマっ！
+ShowTextBox "Alright, time\nfor the real\ndeal, gema!"
+WaitTextBox
+Fade 3 30
+SetBG 54
+Fade 2 30
+SetUpCounter 0
+ActivateUpCounter
+PlayMusic 0
+WaitUpCounter 750
+ShowChara 14 0 0
+# ホールド・ミー・
+# ベイベー
+# 踊ろうよサンデー
+ShowTextBox "Hold me, baby\nDance away\nSunday"
+WaitUpCounter 1140
+ShowChara 14 0 0
+# タッチ・ミー
+# ・ベイベー
+# 気分はホリデー
+ShowTextBox "Touch me, baby\nFeeling like a\nholiday"
+WaitUpCounter 1520
+ShowChara 1 0 0
+# イヤな事
+# 全部忘れちゃおう
+ShowTextBox "Leave all your\nworries behind"
+WaitUpCounter 1890
+ShowChara 1 0 0
+# 一晩眠って
+# 目ざめたら
+# ハッピーガール
+ShowTextBox "Wake up tonight,\nHappy Girl"
+WaitUpCounter 2300
+ShowChara 2 0 0
+# 夢の途中で
+# 出会う不思議
+ShowTextBox "So strange to\nmeet in a dream"
+WaitUpCounter 2670
+ShowChara 2 0 0
+# 悪夢を食べてる
+# バクたちも
+# グッドフレンズ
+ShowTextBox "The\ndream-eaters too\nGood Friends"
+WaitUpCounter 3060
+ShowChara 3 0 0
+# いつもならば
+# おしゃべりもしない
+ShowTextBox "The usually\nsilent"
+WaitUpCounter 3440
+ShowChara 3 0 0
+# きゅうくつな人
+ShowTextBox "Stiff old\npeople"
+WaitUpCounter 3640
+ShowChara 1 0 0
+# 陽気な
+ShowTextBox "Cheerfully"
+WaitUpCounter 3730
+ShowChara 14 0 0
+# リズムで変身
+ShowTextBox "Transformed by\nthe rhythm"
+WaitUpCounter 4020
+Fade 1 30
+SetBG 111
+Fade 0 30
+SetUpCounter 3
+FadeOutMusic 60
+ShowChara 1 1 12
+# にょにょ～？
+# つ、次の歌詞は何
+# だったかにょっ？
+ShowTextBox "Nyo?\nUmm, what was\nthe next line\nagain, nyo...?"
+WaitTextBox
+# 「ホールド・ミー
+# ・ベイベー」で…
+ShowTextBox "It was \"Hold\nme, baby\",\nthen..."
+WaitTextBox
+ShowChara 8 2 53
+JumpOnSelection 1 5 0
+Label 5
+ShowChara 8 0 53
+# 店長さん、出番ゲ
+# マ！　次の中から
+# 正しい歌詞を選ぶ
+# ゲマ！
+ShowTextBox "You're up,\nManager! Choose\nthe correct\nfollowing line,\ngema!"
+WaitTextBox
+# 踊ろうよサンデー
+# ウキウキレイディ
+# キラキラボディ
+ShowSelMenu09 3 "!Go Dance Sunday\nHappy Lady\nBeautiful Body"
+JumpOnSelection 3 6 7 6 0
+Label 6
+ShowChara 8 0 1
+# 本当にそれでいい
+# ゲマ？
+ShowTextBox "Are you sure,\ngema?"
+WaitTextBox
+# もっとよく考えて
+# みるゲマ！
+ShowTextBox "Think it over\na little more,\ngema!"
+WaitTextBox
+JumpOnSelection 1 5 0
+Label 7
+ShowChara 1 1 10
+# 思い出したにょ！
+ShowTextBox "I've got it,\nnyo!"
+WaitTextBox
+# 次の歌詞は「ホー
+# ルド・ミー・ベイ
+# ベー、ウキウキレ
+# イディ」にょ！
+ShowTextBox "The next line\nwas \"Hold me\nbaby, Happy\nLady\", nyo!"
+WaitTextBox
+# それじゃもう一回
+# はじめから歌うに
+# ょ！
+ShowTextBox "Alright, let's\ntry it one more\ntime from the\ntop, nyo!"
+WaitTextBox
+Fade 1 30
+SetBG 54
+Fade 0 30
+SetUpCounter 0
+ActivateUpCounter
+PlayMusic 0
+WaitUpCounter 750
+ShowChara 14 0 0
+# ホールド・ミー・
+# ベイベー
+# 踊ろうよサンデー
+ShowTextBox "Hold me, baby\nDance away\nSunday"
+WaitUpCounter 1140
+ShowChara 14 0 0
+# タッチ・ミー
+# ・ベイベー
+# 気分はホリデー
+ShowTextBox "Touch me, baby\nFeeling like a\nholiday"
+WaitUpCounter 1520
+ShowChara 1 0 0
+# イヤな事
+# 全部忘れちゃおう
+ShowTextBox "Leave all your\nworries behind"
+WaitUpCounter 1890
+ShowChara 1 0 0
+# 一晩眠って
+# 目ざめたら
+# ハッピーガール
+ShowTextBox "Wake up tonight,\nHappy Girl"
+WaitUpCounter 2300
+ShowChara 2 0 0
+# 夢の途中で
+# 出会う不思議
+ShowTextBox "So strange to\nmeet in a dream"
+WaitUpCounter 2670
+ShowChara 2 0 0
+# 悪夢を食べてる
+# バクたちも
+# グッドフレンズ
+ShowTextBox "The\ndream-eaters too\nGood Friends"
+WaitUpCounter 3060
+ShowChara 3 0 0
+# いつもならば
+# おしゃべりもしない
+ShowTextBox "The usually\nsilent"
+WaitUpCounter 3440
+ShowChara 3 0 0
+# きゅうくつな人
+ShowTextBox "Stiff old\npeople"
+WaitUpCounter 3640
+ShowChara 1 0 0
+# 陽気な
+ShowTextBox "Cheerfully"
+WaitUpCounter 3730
+ShowChara 14 0 0
+# リズムで変身
+ShowTextBox "Transformed by\nthe rhythm"
+WaitUpCounter 4020
+ShowChara 14 0 0
+# ホールド・ミー
+# ・ベイベー
+# ウキウキレイディ
+ShowTextBox "Hold me, baby\nHappy Lady"
+WaitUpCounter 4210
+ShowChara 2 0 0
+# ストレスは
+# ためないで
+ShowTextBox "Let your\nstress\ndisappear"
+WaitUpCounter 4410
+ShowChara 14 0 0
+# タッチ・ミー
+# ・バイベー
+# キラキラボディ
+ShowTextBox "Touch me, baby\nBeautiful Body"
+WaitUpCounter 4600
+ShowChara 1 0 0
+# リフレッシュ
+# しよう
+ShowTextBox "Let's refresh"
+WaitUpCounter 4800
+ShowChara 14 0 0
+# ホールド・ミー
+# ・ベイベー
+# 踊ろうよサンデー
+ShowTextBox "Hold me, baby\nGo Dance Sunday"
+WaitUpCounter 4980
+ShowChara 3 0 0
+# こころにも
+# 栄養を
+ShowTextBox "Feed your\nheart's\ndesire"
+WaitUpCounter 5180
+ShowChara 14 0 0
+# タッチ・ミー
+# ・ベイベー
+# 気分はホリディ
+ShowTextBox "Touch me, baby\nFeeling like a\nholiday"
+WaitUpCounter 5370
+ShowChara 1 0 0
+# 星空の
+# メロディ～♪
+ShowTextBox "The starry\nsky's melody~♪"
+WaitUpCounter 5660
+SetUpCounter 3
+Fade 3 120
+SetBG 111
+Fade 2 30
+ShowChara 8 2 53
+# ひゅーひゅーっ！
+# でじこ、うさだ、
+# ぷちこ、最高ゲマ
+# ーっ！
+ShowTextBox "*whistle*\nDejiko, Usada,\nPuchiko, that\nwas the best,\ngema!"
+WaitTextBox
+ShowChara 3 1 18
+# なんか照れるにゅ
+ShowTextBox "I'm kind of\nembarrassed,\nnyu..."
+WaitTextBox
+ShowChara 2 1 23
+# みんなー、聴いて
+# くれてありがとー
+ShowTextBox "Everyone,\nthanks for\nlistening!"
+WaitTextBox
+ShowChara 1 1 10
+# 無事に歌えたのは
+# 店長しゃんのおか
+# げにょ！　店長し
+# ゃ～ん、ありがと
+# うにょ～！
+ShowTextBox "It's all thanks\nto the Manager\nthat we got\nthrough it in\none piece!\nThanks, nyo!"
+WaitTextBox
+ShowChara 8 2 53
+# 大成功、お客さん
+# にもウケてるゲマ
+# ～！
+ShowTextBox "It looks like\nthe customers\nwere really into\nit, gema!"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 1 0 12
+# 仕方ない、残念だ
+# けど歌うのはやめ
+# にして、ＢＧＭで
+# 流すだけにしとく
+# にょ～
+ShowTextBox "I'll just have\nto stop singing\nand let the\nmusic play, nyo~"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 1 1 8
+# ホールド・ミー・
+# ベイベー
+# 気分はホリデー…
+ShowTextBox "Hold me, baby\nFeeling like a\nholiday"
+WaitTextBox
+ShowChara 2 2 22
+# ちょっと間違って
+# ない？
+ShowTextBox "Wait, that's\nnot right."
+WaitTextBox
+ShowChara 3 1 21
+# 「ホールド・ミー
+# ・ベイベー、踊ろ
+# うよサンデー」が
+# 正解にゅ
+ShowTextBox "It should be\n\"Hold me, baby\nGo Dance Sunday\",\nnyu."
+WaitTextBox
+ShowChara 1 1 12
+# め、めんぼくない
+# にょ…
+ShowTextBox "S-Sorry, nyo..."
+WaitTextBox
+ShowChara 1 0 11
+# このくやしさは、
+# きっと、来年のク
+# リスマスでリベン
+# ジしてやるにょ！
+ShowTextBox "Grrr!\nI'll get my\nrevenge next\nChristmas, nyo!\nJust wait and\nsee!"
+WaitTextBox
+ShowChara 8 2 1
+# おおっ、でじこが
+# 燃えてるゲマ！
+ShowTextBox "Woah, Dejiko's\ngetting fired\nup, gema!"
+WaitTextBox
+ShowChara 3 1 17
+# あんまりイブっぽ
+# くない誓いにゅ
+ShowTextBox "Swearing\nrevenge and\nChristmas Eve\ndon't really\nfit, nyu..."
+WaitTextBox
+EndScript

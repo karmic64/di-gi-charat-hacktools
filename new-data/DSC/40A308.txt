@@ -1,0 +1,43 @@
+DSCBase $40A308
+
+
+
+
+Subscript 0
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# $0
+# 残り$1/$2個にゅ
+ShowTextBox "$0\n$1/$2 of these left, nyu."
+EndScript
+
+
+
+Subscript 3
+# からっぽにゅ
+ShowTextBox "It's empty, nyu."
+EndScript
+
+
+
+Subscript 4
+# …もう終わりにゅ？
+ShowTextBox "... All done, nyu?"
+EndScript
+
+
+
+Subscript 5
+# …買うのやめるにゅ？
+ShowTextBox "... Done buying, nyu?"
+EndScript

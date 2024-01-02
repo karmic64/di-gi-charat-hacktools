@@ -1,0 +1,30 @@
+DSCBase $3ED824
+
+
+
+
+Subscript 0
+ShowChara 3 0 19
+# ………バカだにゅ
+ShowTextBox "... Are you an idiot, nyu?"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 3 0 17
+# 聞こえないにゅ
+ShowTextBox "... I didn't hear that, nyu."
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 3 0 20
+# むずかしくて分か
+# らないにゅ
+ShowTextBox "I don't understand what you just said, nyu."
+WaitTextBox
+EndScript

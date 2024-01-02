@@ -1,0 +1,379 @@
+DSCBase $3F7D80
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# えっ、アタシに電
+# 話？　いったい、
+# 誰からかしら…
+ShowTextBox "Huh? Someone's\ncalling me\non the phone.\nI wonder who?"
+WaitTextBox
+ShowChara 2 0 23
+# はい、ただいま、
+# お電話替わりまし
+# た…
+ShowTextBox "Hello? Who is\nthis...?"
+WaitTextBox
+ShowChara 2 0 22
+# なぁんだ、でじこ
+# じゃない
+ShowTextBox "Oh, Dejiko!"
+WaitTextBox
+# どうしたの、急ぎ
+# の用事？
+ShowTextBox "What're you\ncalling for so\nlate?"
+WaitTextBox
+# ふーん、体育の日
+# の運動会に出るこ
+# とにしたんだ
+ShowTextBox "Hmm...\nThe sports\nfestival?"
+WaitTextBox
+# 来週の月曜日だっ
+# け？　いいんじゃ
+# ない、体育の日な
+# んだし
+ShowTextBox "Next Monday?\nSure, you can\ngo. We get that\nday off, anyway."
+WaitTextBox
+# えっ、アタシも出
+# るって何？
+ShowTextBox "Huh? You want\nME to go too?"
+WaitTextBox
+ShowChara 2 0 24
+# ちょっと待って、
+# もう申し込みは済
+# ませたって何のこ
+# とよ！
+ShowTextBox "What do you\nmean, you\nalready sent in\nan application!?\nAsk me first!"
+WaitTextBox
+ShowChara 2 0 22
+# もしもし、もしも
+# しっ！　…切れち
+# ゃった
+ShowTextBox "Hey! Are you\nthere!?...\n... She hung\nup on me!"
+WaitTextBox
+ShowChara 2 0 24
+# ねぇ店長さん、聞
+# いてっ！
+ShowTextBox "Hey, Manager,\nlisten to\nthis!"
+WaitTextBox
+# でじこったら、ア
+# タシに一言も相談
+# しないで、運動会
+# に出るって決めた
+# のよーっ！
+ShowTextBox "Dejiko sent in\na participation\nform for the\nsports festival\nwithout even\nasking me!"
+WaitTextBox
+# いいんじゃないの
+# って、店長さん、
+# よくないわよー！
+ShowTextBox "No, no, that's\nNOT okay! I\nalready had a\nlot of plans,\nand-"
+WaitTextBox
+# だってアタシにも
+# 予定とかいろいろ
+# …えっ、優勝した
+# らハワイ旅行！？
+ShowTextBox "... You say\nthe prize for\nthe winner is a\ntrip to Hawaii!?"
+WaitTextBox
+ShowChara 2 0 22
+# …………
+ShowTextBox "..."
+WaitTextBox
+# いいかも…
+ShowTextBox "Well, I guess\na little\nexercise\nwouldn't hurt..."
+WaitTextBox
+ShowChara 2 0 23
+# もしもし、あっ、
+# でじこ、アタシよ
+# アタシ！
+ShowTextBox "Hey, Dejiko!\nIt's me!"
+WaitTextBox
+# さっきの話だけど
+# よろこんで参加さ
+# せてもらうわ！
+ShowTextBox "Forget\neverything I\nsaid earlier!\nI'll do it!\nCount me in!"
+WaitTextBox
+ShowChara 2 0 26
+# 目指すはハワイ…
+# じゃなくて、優勝
+# っ！
+ShowTextBox "Let's aim for\nHawaii!...\nI mean, let's\naim to win!"
+WaitTextBox
+# おほほほほ、それ
+# じゃあね！
+ShowTextBox "Ohohoho...\nAnyway, bye!"
+WaitTextBox
+# さーて、気合入れ
+# ていかなくっちゃ
+# ーっ！
+ShowTextBox "Alright!\nI need to be\nready to KILL\nfor that win!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 2 148 56 32 84 10 3
+SetBG 125
+Fade 0 30
+ShowChara 14 1 63
+# 《ただいまより、
+# 第××回市民運動
+# 会を開催いたしま
+# す――》
+ShowTextBox "\"Let the\nXXth annual\nCity Sports\nFestival begin!\""
+WaitTextBox
+ShowChara 2 2 26
+# 目指すは優勝っ、
+# はりきっていきま
+# しょう！
+ShowTextBox "Remember, we're\naiming for first\nplace! Let's\nget out there\nand kick some\nbutt!"
+WaitTextBox
+ShowChara 1 1 10
+# にょ～っ！
+ShowTextBox "Nyo~!"
+WaitTextBox
+ShowChara 3 1 18
+# にゅ～っ
+ShowTextBox "Nyu!"
+WaitTextBox
+ShowChara 8 2 53
+# ゲマーっ！
+ShowTextBox "Gema!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 8 2 53
+# そんなこんなでプ
+# ログラムは進み、
+# ついに最終種目、
+# １００メートル走
+# の時間がやってき
+# たゲマ！
+ShowTextBox "It's time for\nthe final\nevent, the\n100 meter dash,\ngema!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 1 1 8
+# 長い長い戦いだっ
+# たにょ
+ShowTextBox "It's been a\nlong and arduous\nbattle, nyo..."
+WaitTextBox
+# しかし…この戦い
+# に勝てば、でじこ
+# たちの優勝にょ
+ShowTextBox "But if we win,\nwe'll be the\nchampions, nyo!"
+WaitTextBox
+ShowChara 2 2 26
+# いざ栄冠はキミに
+# 輝かん
+ShowTextBox "Let's go for\ngold, nyu!"
+WaitTextBox
+# そうっ、あの大優
+# 勝旗を持って帰る
+# のはアタシたちよ
+# ！
+ShowTextBox "That's right!\nLet's get on\nthat podium!"
+WaitTextBox
+ShowChara 3 1 17
+# で、１００メート
+# ル走には誰が出る
+# にゅ？
+ShowTextBox "Who should do\nthe 100 meter\ndash, nyu?"
+WaitTextBox
+ShowChara 2 2 26
+# アタシが出るわ！
+ShowTextBox "I'll do it!"
+WaitTextBox
+# この中で一番足が
+# 早いのってアタシ
+# だもの！
+ShowTextBox "I'm the fastest\none here, so\nit's gotta be\nme!"
+WaitTextBox
+ShowChara 1 1 8
+# いつになく本気だ
+# にょ～
+ShowTextBox "You're taking\nthis seriously,\nnyo! I like your\nattitude!"
+WaitTextBox
+ShowChara 3 1 17
+# まかせたにゅ
+ShowTextBox "Go for it, nyu."
+WaitTextBox
+ShowChara 8 2 53
+# それでは、うさだ
+# が走ることに決ま
+# りゲマ…
+ShowTextBox "So we've decided\nUsada will run,\ngema..."
+WaitTextBox
+Fade 3 30
+SetBG 41
+Fade 2 30
+ShowChara 2 0 0
+# 最後に靴のチェック…
+ShowTextBox "Check my laces..."
+WaitTextBox
+# 念入りに念入りに…
+ShowTextBox "Just a little\ntighter..."
+WaitTextBox
+# よしっ、準備ＯＫっ、
+# いくわよーっ！
+ShowTextBox "Alright, I'm\nready! Let's\ndo this!"
+WaitTextBox
+Fade 1 30
+SetBG 125
+Fade 0 30
+ShowChara 14 1 63
+# 『位置について…』
+ShowTextBox "\"On your marks!\""
+WaitTextBox
+ShowChara 3 2 17
+# スタートにゅ…
+ShowTextBox "It's starting,\nnyu..."
+WaitTextBox
+ShowChara 14 1 63
+# 『よーい…』
+ShowTextBox "\"Get set...\""
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ～、うさ
+# だのやつ、本気と
+# 書いてマジと読む
+# 状態だにょ～
+ShowTextBox "Nyo, go get\n'em, Usada!\nWin it, nyo!!"
+WaitTextBox
+ShowChara 14 1 63
+# 『ドン！』
+ShowTextBox "\"GO!\""
+WaitTextBox
+Fade 3 120
+Wait 60
+Fade 2 30
+ShowChara 2 2 26
+# おほほほほ、優勝
+# よ、優勝っ！
+ShowTextBox "Ohohoho!\nWe're the\nchampions!"
+WaitTextBox
+ShowChara 1 1 9
+# ぱちぱちぱち
+ShowTextBox "*clap clap*"
+WaitTextBox
+ShowChara 3 1 18
+# ぱちぱちぱち
+ShowTextBox "*clap clap*"
+WaitTextBox
+ShowChara 1 1 9
+# 今回は、本気なう
+# さだの本気な走り
+# がすべてだったに
+# ょ～
+ShowTextBox "When you're\nserious, you\ncan really\nrun, nyo!"
+WaitTextBox
+ShowChara 8 2 53
+# いや～最初っから
+# 最後までぶっちぎ
+# りの文句なしの快
+# 勝ゲマ！
+ShowTextBox "You smoked them\nfrom start to\nfinish, gema!"
+WaitTextBox
+ShowChara 3 1 17
+# ちょっと大人気な
+# いぐらいだったに
+# ゅ
+ShowTextBox "The audience was\ncheering for you\ntoo, nyu."
+WaitTextBox
+ShowChara 2 2 26
+# うふふ、もっとほ
+# めてー！
+ShowTextBox "Hehe, thank\nyou, thank you!"
+WaitTextBox
+ShowChara 1 1 9
+# えらいにょ～
+ShowTextBox "Great job, nyo!"
+WaitTextBox
+ShowChara 3 1 18
+# えらいにゅ
+ShowTextBox "That was\nawesome, nyu."
+WaitTextBox
+ShowChara 2 2 23
+# さーて、じゃぁ、
+# 賞品のハワイ旅行
+# をみなで拝もうか
+# しら
+ShowTextBox "Now then!\nTo the victor\ngo the spoils!\nTime for our\nprize!"
+WaitTextBox
+# じゃ～ん、これが
+# 夢にまでに見た、
+# ハワイのチケット
+# …
+ShowTextBox "Here it is!\nThe ticket I've\ndreamed of, a\nfree trip to..."
+WaitTextBox
+ShowChara 2 0 22
+# あれっ？
+ShowTextBox "Huh?"
+WaitTextBox
+ShowChara 8 2 53
+# どうしたゲマ？
+ShowTextBox "What's the\nmatter, gema?"
+WaitTextBox
+ShowChara 2 2 22
+# 『ようこそ、羽合
+# 温泉へ』…？
+ShowTextBox "\"Welcome to\nthe Hawai Hot\nSprings\"..."
+WaitTextBox
+ShowChara 2 0 25
+# なにこれ、「ハワ
+# イ」じゃなくて、
+# 「羽合」じゃない
+# の！
+ShowTextBox "This ticket\nisn't for\nHawaii! This is\nfor Hawai,\nJapan!"
+WaitTextBox
+ShowChara 1 1 8
+# にょっ…？
+ShowTextBox "Nyo...?"
+WaitTextBox
+ShowChara 3 1 17
+# にゅっ…？
+ShowTextBox "Nyu...?"
+WaitTextBox
+ShowChara 2 2 27
+# だまされたーっ！
+ShowTextBox "You... You\nTRICKED me!!"
+WaitTextBox
+ShowChara 1 1 8
+# う、うさだは何を
+# 騒いでるにょ？
+ShowTextBox "W-What are\nyou talking\nabout, nyo?"
+WaitTextBox
+ShowChara 3 1 17
+# 分からないにゅ
+ShowTextBox "I don't\nunderstand, nyu."
+WaitTextBox
+ShowChara 2 2 25
+# ぐすん…まるでバ
+# カみたい…
+ShowTextBox "Aaah...\nI feel like\nsuch an idiot..."
+WaitTextBox
+ShowChara 8 2 53
+# えーと、羽合旅行
+# は来月の１０日ゲ
+# マ！
+ShowTextBox "Um, anyway,\nnext month on\nthe 10th, let's\ngo to Hawai!\n... Hawai,\nJapan, gema!"
+WaitTextBox
+ShowChara 1 1 9
+# 楽しみだにょっ！
+ShowTextBox "I can't wait,\nnyo!"
+WaitTextBox
+ShowChara 3 1 18
+# 待ち遠しいにゅ
+ShowTextBox "I'm looking\nforward to it,\nnyu."
+WaitTextBox
+ShowChara 2 2 25
+# アタシのハワイ…
+ShowTextBox "My Hawaii\ntrip...\nSob..."
+WaitTextBox
+EndScript

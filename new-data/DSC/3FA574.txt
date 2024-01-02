@@ -1,0 +1,132 @@
+DSCBase $3FA574
+
+
+
+
+Subscript 0
+Unk08 1 158 81 8 88 10 3
+Unk08 2 100 56 96 84 10 3
+Unk08 3 65 133 64 16 10 3
+Unk08 8 107 117 74 73 10 3
+SetBG 120
+Fade 0 30
+ShowChara 1 1 12
+# にょにょ～、なん
+# だか今朝は妙に冷
+# えるにょ～
+ShowTextBox "Nyo, it's\nunusually chilly\nthis morning,\nnyo~"
+WaitTextBox
+ShowChara 3 1 17
+# でじこ、外を見る
+# にゅ…
+ShowTextBox "Look outside,\nnyu..."
+WaitTextBox
+ShowChara 1 1 15
+# これはびっくり、
+# あたり一面が真っ
+# 白にょ！
+ShowTextBox "What the heck!?\nThe ground's\nall white out\nthere, nyo!"
+WaitTextBox
+ShowChara 3 1 18
+# 初雪にゅ…
+ShowTextBox "It's the first\nsnow of the\nwinter, nyu."
+WaitTextBox
+ShowChara 2 2 63
+# ね～～でじこ～、
+# 起きてる～？
+ShowTextBox "Heey, Dejiko?\nAre you awake\nyet?"
+WaitTextBox
+ShowChara 3 1 17
+# うさだの声にゅ
+ShowTextBox "That's Usada,\nnyu."
+WaitTextBox
+ShowChara 1 1 8
+# こんな早くに何の
+# 用にょ、うさだ？
+ShowTextBox "What do you\nwant so early\nin the\nmorning, nyo?"
+WaitTextBox
+ShowChara 2 2 63
+# なに朝っぱらから
+# 寝ぼけた声してる
+# のよ…
+ShowTextBox "I figured\nyou'd still be\nhalf asleep..."
+WaitTextBox
+ShowChara 1 1 11
+# しっけいにょ！で
+# じこは、別に寝ぼ
+# けてなんかないに
+# ょ！
+ShowTextBox "H-Hey! I am\n100% awake,\nnyo! And no\nthanks to you!"
+WaitTextBox
+ShowChara 2 2 63
+# そんなことどうで
+# もいいから、外を
+# 見てごらんなさい
+# よ！雪が積もって
+# るわよ、雪がっ！
+ShowTextBox "Forget that,\nlook outside!\nThe snow's\npiling up\noutside!"
+WaitTextBox
+ShowChara 1 1 8
+# 言われなくても知
+# ってるにょ、今ま
+# さに見てたとこ…
+ShowTextBox "I didn't\nneed you to\ntell me, nyo...\nI can see it\njust fine!"
+WaitTextBox
+ShowChara 1 0 12
+# はっくしょんっ！
+ShowTextBox "A-choo!"
+WaitTextBox
+ShowChara 2 2 63
+# 雪が溶けちゃう前
+# に、雪だるまを作
+# らない？それでお
+# 店の前に飾るの
+ShowTextBox "You wanna make\na snowman\nbefore it all\nmelts? We can\nput it in front\nof the shop!"
+WaitTextBox
+ShowChara 1 1 9
+# うさだにしては、
+# いいアイディアに
+# ょ…
+ShowTextBox "That's a\npretty good\nidea for you,\nnyo!"
+WaitTextBox
+ShowChara 2 2 63
+# なんですってー！
+ShowTextBox "What do you\nmean, \"for\nyou\"!?"
+WaitTextBox
+ShowChara 1 1 8
+# それじゃ、お店へ
+# 出発にょ～
+ShowTextBox "Let's head\noutside, nyo~"
+WaitTextBox
+Fade 3 30
+SetBG 6
+Fade 2 30
+ShowChara 1 0 0
+# う～ん、こんなでどう
+# かにょ～？
+ShowTextBox "How about this?\nDoes this look\ngood?"
+WaitTextBox
+ShowChara 3 0 0
+# もっと積んだ方がいい
+# にゅ…
+ShowTextBox "Pack a little\nmore snow on\ntop, nyu."
+WaitTextBox
+ShowChara 8 0 0
+# あのう…
+ShowTextBox "Umm..."
+WaitTextBox
+# ひょっとして、ゲマは
+# このままゲマ…？
+ShowTextBox "Are you just\ngoing to leave\nme like this,\ngema...?"
+WaitTextBox
+ShowChara 2 0 0
+# もう、崩れちゃうじゃ
+# ない！じっとしててよ
+# ね！
+ShowTextBox "Hey, hold\nstill! It'll\nfall apart if\nyou talk!"
+WaitTextBox
+ShowChara 8 0 0
+# ゲ、ゲマ～…
+ShowTextBox "G-Gema..."
+WaitTextBox
+EndScript

@@ -1,0 +1,272 @@
+DSCBase $40F1FC
+
+
+
+
+Subscript 0
+ShowChara 2 1 22
+# 今週の結果よ！
+ShowTextBox "Time for this week's results!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 2 0 22
+# 先週の売上は
+# \x04$0円\x1a、
+# 今週の売上は
+# \x04$1円\x1aね
+ShowTextBox "Last weeks' proceeds were \x04$0\x1a yen.\nThis week, proceeds were \x04$1\x1a yen."
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 2 0 22
+# 今週はほかにもい
+# ろいろあったから
+# \x04あとでお店情報を
+# チェックするとい
+# いわよ！\x1a
+ShowTextBox "A lot happened this week, so make sure to \x04check the store info\x1a later!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 2 0 22
+# 今週の人気グッズ
+# は\x03$0\x1a、不人気グッズは\x01$1\x1aよ
+ShowTextBox "The most popular item this was \x03$0\x1a.\nThe least popular item was \x01$1\x1a."
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 2 0 22
+# ひょうばんは$0
+# きれいさは$1
+# になったわ
+ShowTextBox "The store's Popularity is $0,\nand the store's Cleanliness is $1."
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 2 0 22
+# 今週はお客さんが
+# \x04$0人\x1a来たわ
+# 売上は\x04$1円\x1aで、お金は\x04$2円\x1aになったわ
+ShowTextBox "This week, \x04$0 Customers\x1a came to the store.\nAfter making \x04$1 yen\x1a in proceeds, we've got \x04$2 yen\x1a in total."
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+ShowChara 2 0 22
+# それではここで
+# みんなからの報告
+# よ
+ShowTextBox "Now for everyone's individual reports."
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+ShowChara 2 0 23
+# 来週もみんな
+# がんばりましょ！
+ShowTextBox "Let's make next week even better, Manager!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 8
+ShowChara 2 0 23
+# 来週もみんな
+# がんばりましょ！
+ShowTextBox "Let's make next week even better, Manager!"
+WaitTextBox
+ShowChara 2 0 23
+# ところで店長さん
+# アタシ、だいぶ
+# \x04$0\x1aがうまくなった気がするの
+ShowTextBox "By the way, Manager, I feel like I've gotten good at $0 lately!"
+WaitTextBox
+# コツをおしえて
+# もらえばもっと
+# じょうずに$0できそうだわ！
+ShowTextBox "If you teach me some tricks, I'm sure I'll become even better!"
+WaitTextBox
+# 手伝っていただけ
+# るかしら？
+ShowTextBox "Will you help me out?"
+Wait 60
+EndScript
+
+
+
+Subscript 9
+ShowChara 2 0 23
+# よーし、
+# がんばるわよー！
+ShowTextBox "Alright! I'll do my best, Manager!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 10
+ShowChara 2 0 25
+# そう、
+# ざんねん…
+ShowTextBox "Ah... that's too bad."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 2 0 23
+PlaySfx 141
+# ひょうばんが
+# \x03$0\x1aになったわ
+# 先週から\x03$1\x1aふえたわ！
+ShowTextBox "The store's Popularity is \x03$0\x1a. That's an increase of \x03$1\x1a from last week!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 12
+ShowChara 2 0 22
+# ひょうばんは
+# $0よ
+# 先週とかわらない
+# わね
+ShowTextBox "The store's Popularity is $0. That's the same as it was last week."
+WaitTextBox
+EndScript
+
+
+
+Subscript 13
+ShowChara 2 0 25
+# ひょうばんが
+# \x01$0\x1aになったわ
+# 先週から\x01$1\x1aへったわ…
+ShowTextBox "The store's Popularity is \x01$0\x1a. That's a decrease of \x01$1\x1a from last week..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 14
+ShowChara 2 0 23
+PlaySfx 141
+# きれいさが
+# \x03$0%\x1aになったわ
+# 先週から\x03$1%\x1aふえたわ！
+ShowTextBox "The store's Cleanliness is \x03$0%\x1a. That's an increase of \x03$1%\x1a from last week!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 15
+ShowChara 2 0 22
+# きれいさは
+# $0%よ
+# 先週とかわらない
+# わね
+ShowTextBox "The store's Cleanliness is $0%. That's the same as it was last week."
+WaitTextBox
+EndScript
+
+
+
+Subscript 16
+ShowChara 2 0 25
+# きれいさが
+# \x01$0%\x1aになったわ
+# 先週から\x01$1%\x1aへってるのね…
+ShowTextBox "The store's Cleanliness is \x01$0%\x1a. That's a decrease of \x01$1%\x1a from last week..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 17
+ShowChara 2 0 23
+PlaySfx 141
+# お客さんが\x03$0人\x1a来たわ
+# 先週から\x03$1人\x1aふえたわ！
+ShowTextBox "\x03$0 customers\x1a came to the shop this week. That's \x03$1\x1a more than last week!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 18
+ShowChara 2 0 22
+# お客さんが$0人来たわ
+# 先週とかわらないわね
+ShowTextBox "$0 customers came to the shop this week. That's the same as last week."
+WaitTextBox
+EndScript
+
+
+
+Subscript 19
+ShowChara 2 0 25
+# お客さんが\x01$0人\x1a来たわ
+# 先週から\x01$1人\x1aへったわ…
+ShowTextBox "\x01$0 customers\x1a came to the shop this week. That's \x01$1\x1a less than last week..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 20
+ShowChara 2 0 23
+PlaySfx 141
+# 売上は先週より
+# \x03$0円\x1aふえて、
+# お金が\x03$1円\x1aになったわ！
+ShowTextBox "Proceeds increased \x03$0 yen\x1a from last week, leaving us with \x03$1 yen\x1a in total!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 21
+ShowChara 2 0 22
+# 売上は先週と
+# おなじで、
+# お金は$1円になったわ
+ShowTextBox "Proceeds were the same as last week, leaving us with $1 yen in total."
+WaitTextBox
+EndScript
+
+
+
+Subscript 22
+ShowChara 2 0 25
+# 売上は先週より
+# \x01$0円\x1aへって、
+# お金が\x01$1円\x1aになったわ…
+ShowTextBox "Proceeds decreased \x01$0 yen\x1a from last week, leaving us with \x01$1 yen\x1a in total..."
+WaitTextBox
+EndScript

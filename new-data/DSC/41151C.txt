@@ -1,0 +1,44 @@
+DSCBase $41151C
+
+
+
+
+Subscript 0
+ShowChara 4 0 0
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# $0
+# 残り$1/$2個ぴょ
+ShowTextBox "$0\n$1/$2 of these left, pyo."
+EndScript
+
+
+
+Subscript 3
+# Ａボタンを押して、このスロット
+# に入れるグッズを買うぴょ
+ShowTextBox "If you press A, you can buy what's in this slot, pyo."
+EndScript
+
+
+
+Subscript 4
+# お買物は終わったぴょ？
+ShowTextBox "Are you done stocking, pyo?"
+EndScript
+
+
+
+Subscript 5
+# お店情報を見るぴょ？
+ShowTextBox "You want to see the shop information, pyo?"
+EndScript

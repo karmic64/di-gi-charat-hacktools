@@ -1,0 +1,189 @@
+DSCBase $40A93C
+
+
+
+
+Subscript 0
+SetPermTextBoxPos 0 16
+ShowChara 3 2 17
+EndScript
+
+
+
+Subscript 1
+ShowChara 3 0 17
+# …準備ＯＫにゅ？
+ShowTextBox "... Ready to open, nyu?"
+EndScript
+
+
+
+Subscript 2
+ShowChara 3 0 17
+# グッズを仕入れるにゅ
+ShowTextBox "Put stock on the shelves, nyu."
+EndScript
+
+
+
+Subscript 3
+ShowChara 3 0 17
+# お仕事の当番を決める
+# にゅ
+ShowTextBox "Choose everyone's assignments, nyu."
+EndScript
+
+
+
+Subscript 4
+ShowChara 3 0 17
+# お店の情報にゅ
+ShowTextBox "Take a look at the shop information, nyu."
+EndScript
+
+
+
+Subscript 5
+ShowChara 3 0 17
+# お買物するにゅ
+ShowTextBox "Pay for something special, nyu."
+EndScript
+
+
+
+Subscript 6
+ShowChara 3 0 17
+# どうぐを使って、仕事
+# を楽にするにゅ
+ShowTextBox " Buy equipment for employees, nyu."
+EndScript
+
+
+
+Subscript 7
+ShowChara 3 0 17
+# 安売りは、商売の基本
+# にゅ
+ShowTextBox "Offer a special deal to attract customers, nyu."
+EndScript
+
+
+
+Subscript 8
+ShowChara 3 0 17
+# たくさんビラを配ると
+# つかれるにゅ
+ShowTextBox "Hand out flyers to advertise the shop, nyu."
+EndScript
+
+
+
+Subscript 9
+ShowChara 3 0 17
+# お店が広くなるにゅ
+# 工事は来週の日曜日に
+# ゅ
+ShowTextBox "Add a new Slot to the shop, nyu.\nThe construction will finish next Sunday, nyu."
+EndScript
+
+
+
+Subscript 10
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 3 0 17
+# お仕事はじめるにゅ
+ShowTextBox "Time for work, nyu."
+EndScript
+
+
+
+Subscript 12
+EndScript
+
+
+
+Subscript 13
+ShowChara 3 0 20
+# まだにゅ…
+# すまんにゅ…
+ShowTextBox "Sorry... you can't do that yet, nyu..."
+EndScript
+
+
+
+Subscript 14
+ShowChara 3 0 17
+# $0円かかるけどやるにゅ？
+ShowTextBox "That'll cost $0 yen. Should we do it, nyu?"
+EndScript
+
+
+
+Subscript 15
+ShowChara 3 0 20
+# 金がないにゅ
+ShowTextBox "We don't have enough money, nyu."
+EndScript
+
+
+
+Subscript 16
+ShowChara 3 0 18
+# ばりばり働くにゅ
+ShowTextBox "!!! 40A93C 13"
+EndScript
+
+
+
+Subscript 17
+ShowChara 3 0 18
+# バーゲンにゅ！
+ShowTextBox "Sale started, nyu!"
+EndScript
+
+
+
+Subscript 18
+ShowChara 3 0 18
+# ビラを配るにゅ
+ShowTextBox "Time to hand out flyers, nyu."
+EndScript
+
+
+
+Subscript 19
+ShowChara 3 0 18
+# お店を広くするにゅ
+ShowTextBox "The expansion will be finished Sunday of next week, nyu."
+EndScript
+
+
+
+Subscript 20
+ShowChara 3 0 17
+# 誰かのフェアをやって
+# お客さんをたくさん呼
+# ぶにゅ
+ShowTextBox "Hold a Special Fair of somebody.\nA lot of customers will come by to check it out, nyu."
+EndScript
+
+
+
+Subscript 21
+ShowChara 3 0 18
+# $1フェアをやるにゅ
+ShowTextBox "Time to start the $1 Fair, nyu."
+EndScript
+
+
+
+Subscript 22
+ShowChara 3 0 17
+# $1のフェアをやるにゅ
+ShowTextBox "Hold a #1 Fair, nyu."
+EndScript

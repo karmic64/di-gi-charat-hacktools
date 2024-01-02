@@ -1,0 +1,91 @@
+DSCBase $415290
+
+
+
+
+Subscript 0
+ShowChara 3 2 17
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# さいしょから
+# はじめるにゅ
+ShowTextBox "Start a new game, nyu."
+EndScript
+
+
+
+Subscript 3
+ShowChara 3 0 18
+# いちねんかん
+# がんばるにゅ
+ShowTextBox "Do your best this year, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 4
+# まえのつづきから
+# はじめるにゅ
+ShowTextBox "Continue from a saved game, nyu."
+EndScript
+
+
+
+Subscript 5
+ShowChara 3 0 18
+# きょうもがんばるにゅ
+ShowTextBox "Do your best today, nyu."
+WaitTextBox
+DoorCloseTransition
+EndScript
+
+
+
+Subscript 6
+# めいしを見たり、ともだちとこうかんしたりするにゅ
+ShowTextBox "View business cards, or exchange yours with a nearby friend, nyu."
+EndScript
+
+
+
+Subscript 7
+HideChara
+EndScript
+
+
+
+Subscript 8
+# ミニゲームやおもいでをみたりするにゅ
+ShowTextBox "View minigames and memories, nyu."
+EndScript
+
+
+
+Subscript 9
+HideChara
+EndScript
+
+
+
+Subscript 10
+# いろいろなせっていをするにゅ
+ShowTextBox "Adjust the settings, nyu."
+EndScript
+
+
+
+Subscript 11
+Fade 1 15
+HideChara
+EndScript

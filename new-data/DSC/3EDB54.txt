@@ -1,0 +1,487 @@
+DSCBase $3EDB54
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# 終了ゲマ～～っ！
+ShowTextBox "And that's it,\ngema!!"
+WaitTextBox
+ShowChara 1 1 9
+# なんだか、あっと
+# いう間の一年間だ
+# ったにょ！
+ShowTextBox "I can't\nbelieve it's\nalready been a\nwhole year, nyo!"
+WaitTextBox
+ShowChara 2 1 23
+# 店長さん、おつか
+# れさま！　とりあ
+# えず、ゆっくり休
+# んでね♪
+ShowTextBox "Thanks for all\nyour hard work,\nManager! Now you\ncan take it easy\nand rest\nfor a while. ♪"
+WaitTextBox
+ShowChara 3 1 17
+# ぷちこも休みたい
+# にゅ
+ShowTextBox "I want a break\ntoo, nyu."
+WaitTextBox
+ShowChara 8 1 1
+# では、結果発表さ
+# せてもらうゲマ！
+ShowTextBox "Now, it's time to\nannounce your\nfinal results,\ngema!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 1 121 119 8 16 10 3
+Unk08 8 236 144 110 108 10 3
+Unk08 2 3 143 12 100 10 3
+ShowChara 8 0 53
+# おっと、その前に
+# ひとつやることが
+# あったゲマ
+ShowTextBox "Oops! There's\none thing we\nshould do first,\ngema."
+WaitTextBox
+# でじこ、ちょっと
+# 目を閉じててほし
+# いゲマ
+ShowTextBox "Dejiko, could\nyou please close\nyour eyes?"
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ、いった
+# い何をするつもり
+# にょ？
+ShowTextBox "What's the deal,\nnyo? What are\nyou planning?"
+WaitTextBox
+ShowChara 1 0 9
+# まぁ、ここは素直
+# に言われた通りに
+# するにょ
+ShowTextBox "You'll see! It'll\nonly take a\nsecond, gema!"
+WaitTextBox
+Fade 1 30
+SetBG 124
+Fade 0 1
+ShowChara 1 2 63
+# 目を閉じたにょ～
+ShowTextBox "Okay, I'm closing\nmy eyes, nyo..."
+WaitTextBox
+# …………
+ShowTextBox "..."
+WaitTextBox
+# …………
+ShowTextBox "..."
+WaitTextBox
+# まだかにょ？
+ShowTextBox "Can I open\nthem yet, nyo?"
+WaitTextBox
+Fade 3 30
+SetBG 111
+Fade 2 30
+ShowChara 8 1 53
+# ＯＫゲマ～！
+ShowTextBox "OK, gema!"
+WaitTextBox
+Fade 3 20
+Fade 2 20
+ShowChara 2 1 23
+# ぱちぱちぱち…
+ShowTextBox "*clap clap clap*"
+WaitTextBox
+Fade 3 20
+Fade 2 20
+ShowChara 3 1 18
+# ぱちぱちぱち…
+ShowTextBox "*clap clap clap*"
+WaitTextBox
+Fade 3 20
+Fade 2 20
+ShowChara 1 2 15
+# にょにょ、いった
+# い、これは何のさ
+# わぎにょ？
+ShowTextBox "W-What's all\nthis for, nyo?"
+WaitTextBox
+ShowChara 8 1 53
+# でじこ、おめでと
+# うゲマ～！
+ShowTextBox "Congratulations,\nDejiko!"
+WaitTextBox
+# でじこは、この一
+# 年で見事、お仕事
+# マスターになった
+# ゲマ！
+ShowTextBox "In just this one\nyear, you've\nmanaged to\nbecome a\nJob Master,\ngema!"
+WaitTextBox
+ShowChara 2 1 23
+# お仕事マスターっ
+# ていうのは
+ShowTextBox "A Job Master is\none who has\nreached\nperfection in\nthe following\nroles:"
+WaitTextBox
+# ・レジ
+# ・接客
+# ・グッズ
+# ・掃除
+ShowTextBox "・Checkout\n・Service\n・Stocker\n・Cleaner"
+WaitTextBox
+# この４つのお仕事
+# をきわめた者に与
+# えられるという、
+# 伝説の称号よ！
+ShowTextBox "To the person\nwho has mastered\nthese 4 roles, we\nbestow this\nlegendary title!"
+WaitTextBox
+ShowChara 1 2 10
+# にょにょ～、なん
+# だか、すごそうな
+# 称号だにょっ！
+ShowTextBox "Nyo, nyo! It's\nan honor, nyo!"
+WaitTextBox
+ShowChara 1 0 8
+# で、その称号をも
+# らえると、どんな
+# いいことがあるに
+# ょ？
+ShowTextBox "...So, is that\nit? Do I get\nanything for\nearning this\ntitle, nyo?"
+WaitTextBox
+ShowChara 2 1 23
+# えっ？特に何もな
+# いけど…
+ShowTextBox "Huh? No,\nthat's all..."
+WaitTextBox
+ShowChara 1 2 12
+# にょ～！
+ShowTextBox "Nyo!!"
+WaitTextBox
+Fade 3 30
+SetBG 44
+Fade 2 30
+ShowChara 1 0 0
+# 店長しゃ～ん、この貸
+# し、きっと高くつくに
+# ょ～
+ShowTextBox "Manager,\ncouldn't\nyou have spent\na little more\non me, nyo?"
+WaitTextBox
+# にょにょ、な～んて、
+# 冗談にょ
+ShowTextBox "... Just\nkidding, nyo!"
+WaitTextBox
+# 「情けは人のためなら
+# ず」にょ！
+ShowTextBox "As long as\neveryone else\nis happy, that's\nenough for\nme, nyo!"
+WaitTextBox
+Fade 3 30
+SetBG 111
+Fade 2 30
+ShowChara 8 1 1
+# オホン。では、あ
+# らためまして…結
+# 果発表ゲマ！
+ShowTextBox "Ahem! ... Now\nthen, let's\nproceed to the\nfinal results,\ngema!"
+WaitTextBox
+Unk19 40
+EndScript
+
+
+
+Subscript 2
+Unk08 1 111 73 104 96 10 3
+SetBG 111
+Fade 0 30
+ShowChara 8 1 53
+# でじこ、やったゲ
+# マ、見事な成績ゲ
+# マ！
+ShowTextBox "Good job, Dejiko! Those were great results, gema!"
+WaitTextBox
+ShowChara 1 2 10
+# やったにょ～っ！
+ShowTextBox "I did it, nyo!"
+WaitTextBox
+Fade 3 30
+SetBG 66
+Fade 2 30
+ShowChara 1 0 0
+# ま、このでじこさまの
+# 実力からすれば、当然
+# の結果ですにょっ！
+ShowTextBox "Of course, this is the least to be expected of the Lady Dejiko, nyo!"
+WaitTextBox
+# にょにょ～、でじこが
+# いれば、あと百年は一
+# 人勝ち状態に決定にょ
+ShowTextBox "Nyo nyo, you wouldn't be able to beat my results in a hundred years, nyo!"
+WaitTextBox
+Fade 3 30
+SetBG 111
+Fade 2 30
+ShowChara 2 1 55
+# 言う言う…
+ShowTextBox "So she says..."
+WaitTextBox
+ShowChara 3 1 17
+# まさに有頂天にゅ
+ShowTextBox "She seems like she's about to faint, she's so happy, nyu."
+WaitTextBox
+ShowChara 8 1 1
+# あの～、でじこ、
+# ちょっといいゲマ
+# か？
+ShowTextBox "Um, Dejiko... Do you have a moment, gema?"
+WaitTextBox
+ShowChara 1 2 10
+# にょにょ～、この
+# 商売王でじこ様に
+# 何の用かにょ、ゲ
+# マくん？
+ShowTextBox "Nyo nyo, what do you need from Lady Dejiko, Queen of Merchants, my good Gema, nyo?"
+WaitTextBox
+ShowChara 8 1 2
+# でじこの成績、正
+# 直言って、そこま
+# で良い成績じゃな
+# いゲマ…
+ShowTextBox "To tell you the truth, your results aren't as good as you think, gema..."
+WaitTextBox
+ShowChara 1 2 8
+# にょ…にょっ？
+ShowTextBox "N-Nyo?"
+WaitTextBox
+ShowChara 8 1 2
+# う～ん…まぁ、並
+# といったところゲ
+# マ…
+ShowTextBox "Honestly, they're only average, gema..."
+WaitTextBox
+ShowChara 1 2 15
+# は、初めに「見事
+# な成績」だって言
+# ったにょ！？
+ShowTextBox "B-But you said they were \"great results\", nyo!"
+WaitTextBox
+ShowChara 8 1 1
+# それは言葉のアヤ
+# ゲマ
+ShowTextBox "I was just trying to be nice, gema..."
+WaitTextBox
+ShowChara 2 1 23
+# なぁ～んだ、やっ
+# ぱりね
+ShowTextBox "I figured that was the case."
+WaitTextBox
+ShowChara 1 2 11
+# やっぱりとは何に
+# ょ、うさだ～っ！
+ShowTextBox "What the heck did YOU figure, nyo!?"
+WaitTextBox
+ShowChara 3 1 21
+# にゅっ…
+ShowTextBox "Nyu..."
+WaitTextBox
+ShowChara 1 2 12
+# ぷ、ぷちこまで…
+ShowTextBox "Even you, Puchiko... Nyo..."
+WaitTextBox
+ShowChara 1 0 11
+# こうなったら、次
+# を見てるがいいに
+# ょ！
+ShowTextBox "Grrr... Just wait till next time, nyo!"
+WaitTextBox
+# 次こそは、でじこ
+# の本気の本気とい
+# うやつを見せてや
+# るにょ！
+ShowTextBox "I'll show you! I'm just getting started, nyo!"
+WaitTextBox
+ShowChara 2 1 23
+# その意気、その意
+# 気♪
+ShowTextBox "That's the spirit! ♪"
+WaitTextBox
+ShowChara 3 1 18
+# がんばれにゅ
+ShowTextBox "Don't give up, nyu!"
+WaitTextBox
+ShowChara 8 1 1
+# 店長さん、どうや
+# ら、来年もさわが
+# しくなりそうな気
+# 配ゲマ…
+ShowTextBox "Manager, it looks like next year will be as hectic as ever, gema..."
+WaitTextBox
+ShowChara 8 0 53
+# というわけで、店
+# 長さん、次もまた
+# よろしくゲマ！
+ShowTextBox "So we'll be counting on you, gema!"
+Wait 60
+Fade 3 120
+EndScript
+
+
+
+Subscript 3
+Unk08 1 108 83 104 100 10 3
+SetBG 111
+Fade 0 30
+ShowChara 8 1 53
+# すごいゲマ！　ま
+# ったくすばらしい
+# 結果だったゲマ！
+ShowTextBox "Wow, gema! These are incredible results, gema!"
+WaitTextBox
+ShowChara 1 2 9
+# にょにょ、それと
+# いうのも、すべて
+# 店長しゃんの指導
+# と、でじこの働き
+# のおかげにょ！
+ShowTextBox "Nyo, nyo! It's all thanks to the Manager's guidance and my hard work, nyo!"
+WaitTextBox
+# 自分でいうのも何
+# だけど、でじこの
+# 働きにはもう脱帽
+# って感じだったに
+# ょ～
+ShowTextBox "Although of the two, I'd say my hard work was probably the most important, nyo~"
+WaitTextBox
+ShowChara 2 1 22
+# でじこの自画自賛
+# はともかく…
+ShowTextBox "Leaving aside Dejiko's nonsense..."
+WaitTextBox
+ShowChara 2 0 56
+# 確かに、アタシた
+# ちだけだったら、
+# とてもこうはいか
+# なかったと思うわ
+ShowTextBox "We really couldn't have done this alone."
+WaitTextBox
+ShowChara 3 1 18
+# 店長さん、えらい
+# にゅ
+ShowTextBox "Manager, you're great, nyu."
+WaitTextBox
+Fade 1 120
+Wait 60
+SetBG 77
+Fade 0 30
+Wait 60
+ShowChara 1 0 0
+# デ・ジ・キャラット星
+# のお父さまお母さま、
+# お元気ですかにょ？
+ShowTextBox "Mother, Father, how are you, nyo?"
+Wait 120
+# でじこはとっても元気
+# にょ！
+# ま、当然にょ！
+ShowTextBox "I'm doing great, nyo! As usual!"
+Wait 120
+# でじこは、デ・ジ・キ
+# ャラット星から遠く離
+# れたこの地球で
+ShowTextBox "I'm far away from Planet DiGi Charat right now, on a planet called Earth, nyo."
+Wait 120
+# 今日も大女優目指して
+# がんばってますにょ
+ShowTextBox "But I'm giving it my best to become a superstar actress, nyo!"
+Wait 120
+# でじこの感触だと、で
+# じこが大女優になる日
+# はもう目の前なので
+ShowTextBox "I can see the day approaching, nyo... It won't be long!"
+Wait 120
+# 歓迎パーティの用意を
+# 今からやっておくべき
+# だと
+ShowTextBox "You should start preparing for my welcome-home party soon, nyo!"
+Wait 120
+# そう、でじこは思って
+# るにょ！ま、これまた
+# 当然にょ！
+ShowTextBox "I've got a good feeling about it! And of course, my predictions are always right, nyo!"
+Wait 120
+# 話は変わるけど、新し
+# い店長しゃんが来て、
+# 一年が過ぎたにょ
+ShowTextBox "On a different subject, we have a new manager at the store, nyo. They've already been here a whole year..."
+Wait 120
+# それからというもの、
+# お店は大繁盛、大忙し
+# の毎日だったにょ
+ShowTextBox "The shop has been really thriving, so we've been super busy, nyo."
+Wait 120
+# 原因は、このでじこ様
+# の人気のおかげにょ！
+ShowTextBox "That's all thanks to my popularity with the customers, nyo!"
+Wait 120
+# にょにょ、またまた当
+# 然なことを書いてしま
+# ったにょ
+ShowTextBox "I keep writing these things that are completely obvious, don't I, nyo?"
+Wait 120
+# まったく、人気者はつ
+# らいですにょ～
+ShowTextBox "Aah, being popular sure is hard, nyo~"
+Wait 120
+# この調子で来年もがん
+# ばっていきたいと、思
+# ってますにょ
+ShowTextBox "I'm going to try my hardest next year as well, nyo."
+Wait 120
+# あっ、なんだか店長し
+# ゃんがでじこを呼んで
+# るみたいなので
+ShowTextBox "It sounds like the Manager is calling for me, nyo..."
+Wait 120
+# とりあえず、これで失
+# 礼しますにょ
+ShowTextBox "So I guess I'll wrap up here. Talk to you later, nyo!"
+Wait 120
+# また、ヒマが出来たら
+# お便りするにょ　それ
+# じゃにょ！　　でじこ
+ShowTextBox "Oh, if you ever have time, feel free to come visit!\n-Dejiko"
+Wait 180
+Fade 1 30
+Wait 60
+SetBG 111
+Fade 0 30
+ShowChara 1 1 9
+# 店長しゃん！　今
+# 日はでじこは何を
+# すればいいにょ？
+ShowTextBox "Manager! What should I do today, nyo?"
+WaitTextBox
+ShowChara 1 0 8
+# まずは掃除から？
+ShowTextBox "Cleaning comes first, nyo?"
+WaitTextBox
+ShowChara 1 0 10
+# ＯＫにょ！　すべ
+# て、でじこにまか
+# せるにょ～！
+ShowTextBox "Alright, nyo! You just leave it to me, nyo!"
+WaitTextBox
+Fade 1 30
+Unk08 1 95 73 88 88 10 3
+SetBG 58
+Fade 0 30
+ShowChara 1 0 0
+# このでじこ様がいる限
+# り、チリひとつ残さな
+# いにょ～
+ShowTextBox "As long as I'm here, these floors will be kept spotless, nyo~"
+WaitTextBox
+# さっ、今日も一日、が
+# んばるにょ～！
+ShowTextBox "OK! Let's do our best again today, nyo!"
+Wait 60
+Fade 3 120
+EndScript

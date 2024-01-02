@@ -1,0 +1,55 @@
+DSCBase $3E17A8
+
+
+
+
+Subscript 0
+ShowChara 5 2 35
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 5 0 35
+# わたくしはピョコラ様
+# の忠実なるしもべ
+ShowTextBox "I am the loyal\nservant of the\nLady Pyocola!"
+EndScript
+
+
+
+Subscript 3
+# ブラックゲマゲマ団の
+# 元帥（げんすい）リク
+# ＝ハイゼンベルク！
+ShowTextBox "Black Gema Gema\nGang Marshal,\nRik Heisenberg,\nreporting for\nduty!"
+EndScript
+
+
+
+Subscript 4
+# すべてはピョコラ様の
+# ために！
+ShowTextBox "I will go to\nany lengths for\nthe sake of\nLady Pyocola!"
+EndScript
+
+
+
+Subscript 5
+ShowChara 5 0 38
+# ピョコラ様をさしおい
+# てアシスタントを務め
+# るなど言語道断！
+ShowTextBox "Completely out\nof the question!\nI wouldn't dare\ntake Lady\nPyocola's job\nas my own!"
+Wait 60
+# もうしわけないが、お
+# 断りさせていただく
+ShowTextBox "I apologize,\nbut I must\nrefuse."
+Wait 60
+EndScript

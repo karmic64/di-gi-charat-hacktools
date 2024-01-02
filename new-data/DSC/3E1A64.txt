@@ -1,0 +1,155 @@
+DSCBase $3E1A64
+
+
+
+
+Subscript 0
+SetPermTextBoxPos -120 0
+SetPermTextBoxCharPos 0 48
+SetPermTextBoxSize 8 4
+ShowChara 8 0 54
+# $0は、何ゲマ！
+ShowTextBox "What's $0, gema!?"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 8 0 54
+# $0は、ちがう言葉にするゲマ！
+ShowTextBox "$0 doesn't sound right, gema!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 8 1 1
+# これまでの店長さんのおもいでを、残しておくゲマ？
+ShowTextBox "Do you want to keep the old Manager's save data, gema?"
+WaitTextBox
+# 残す
+# 消してしまう！
+ShowSelMenu09 2 "!Keep it\nDelete it!"
+EndScript
+
+
+
+Subscript 3
+ShowChara 8 0 54
+# ほ、ほんとうに思い出をぜんぶ消してしまっていいゲマ！？
+ShowTextBox "Y-You really want to delete all those memories, gema!?"
+WaitTextBox
+# やっぱり残す
+# 消す！！
+ShowSelMenu09 2 "!Actually, keep it\nDelete it!!!"
+EndScript
+
+
+
+Subscript 4
+ShowChara 8 0 2
+# これまでの店長さんの思い出は、全部なくなってしまったゲマ…
+ShowTextBox "The previous manager's save data was erased, gema..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+SetPermTextBoxPos -120 0
+SetPermTextBoxCharPos 0 48
+SetPermTextBoxSize 8 4
+ShowChara 8 1 54
+# 店長さん、なんてこと言うゲマ！
+ShowTextBox "What the heck are you trying to say, gema!?"
+WaitTextBox
+ShowChara 8 0 1
+EndScript
+
+
+
+Subscript 6
+SetPermTextBoxPos -120 0
+SetPermTextBoxCharPos 0 48
+SetPermTextBoxSize 8 4
+ShowChara 8 1 1
+EndScript
+
+
+
+Subscript 7
+HideChara
+EndScript
+
+
+
+Subscript 8
+HideChara
+EndScript
+
+
+
+Subscript 9
+ShowChara 8 0 1
+# 『りれきしょ』を作るゲマ
+ShowTextBox "This'll create a new resume, gema."
+Wait 40
+EndScript
+
+
+
+Subscript 10
+ShowChara 8 0 1
+# 名前を教えてほしいゲマ
+ShowTextBox "Please tell me your name, gema!"
+EndScript
+
+
+
+Subscript 11
+ShowChara 8 0 1
+# 誕生日を教えてほしいゲマ
+ShowTextBox "Please tell me your birthday, gema!"
+EndScript
+
+
+
+Subscript 12
+ShowChara 8 0 1
+# 血液型を教えてほしいゲマ
+ShowTextBox "Please tell me your blood type, gema!"
+EndScript
+
+
+
+Subscript 13
+ShowChara 8 0 1
+# 好きな食べ物を教えてほしいゲマ
+ShowTextBox "What's your favorite food, gema?"
+EndScript
+
+
+
+Subscript 14
+ShowChara 8 0 1
+# 好きな動物を教えてほしいゲマ
+ShowTextBox "What's your favorite animal, gema?"
+EndScript
+
+
+
+Subscript 15
+ShowChara 8 0 1
+# そんけいする人を教えてほしいゲマ
+ShowTextBox "Who's someone you respect, gema?"
+EndScript
+
+
+
+Subscript 16
+ShowChara 8 0 1
+# 入力はおわりゲマ？
+ShowTextBox "Does all this look correct, gema?"
+EndScript

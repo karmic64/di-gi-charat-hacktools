@@ -1,0 +1,389 @@
+DSCBase $3E6F90
+
+
+
+### Prefill data: $83
+Subscript 0
+ShowChara 2 1 25
+# ああ…
+# $1の毛ってフサフサしてて気持ちいい…
+ShowTextBox "Aahhh...\n$1\nfur is so\nfluffy..."
+WaitTextBox
+ShowChara 2 0 23
+# これってクセになりそうね@
+ShowTextBox "I could get\naddicted to\nthis..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81
+Subscript 1
+ShowChara 2 1 23
+# ねぇ午後のおやつを買ってくるんだけど…
+ShowTextBox "Hey, I'm going\nto get dinner\nfor tonight."
+WaitTextBox
+# $1でいいかしら？
+ShowTextBox "Are you okay\nwith\n$1?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$81
+Subscript 2
+ShowChara 2 1 22
+# ねぇ$1から小包が届いてるわよ
+ShowTextBox "We got a\npackage from\n$1."
+WaitTextBox
+ShowChara 2 0 23
+# あら、中身は…$2ね
+ShowTextBox "And inside\nis...\n$2,\nI guess."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80
+Subscript 3
+ShowChara 2 1 23
+# ちょっと！
+ShowTextBox "Hey, wait\na sec!"
+WaitTextBox
+# お店にいるのあれ
+# もしかして$1かしら！？
+ShowTextBox "Oh my gosh!\nIs that\n$1\nin the store!?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80
+Subscript 4
+ShowChara 2 1 24
+# だれッ！？
+# お店の看板に$1の絵を落書きしたの？
+ShowTextBox "Hey!!\nWho drew\n$1's\nface on the\nshop sign!?"
+WaitTextBox
+ShowChara 2 0 55
+# しかも、ぜんぜん似てないじゃない～
+ShowTextBox "...\nActually, this\nis pretty good!\nHow'd they\nget it so\nclose?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86,$83
+Subscript 5
+ShowChara 9 2 7
+# ………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 10 1 6
+# にゃ～
+ShowTextBox "Meow~"
+WaitTextBox
+ShowChara 8 2 2
+# …そうゲマね
+# $1の$2は住む場所がなくなって、大変ゲマ
+ShowTextBox "... That's\nhorrible,\ngema... The\n$1\n$2\nis in danger..."
+WaitTextBox
+ShowChara 2 1 26
+# ええっ！？
+# 今そんな深刻な話してたの？
+ShowTextBox "Huh!?\nYour\nconversation was\nthat deep!?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86,$81
+Subscript 6
+ShowChara 2 1 22
+# 店長さん、知ってます？
+ShowTextBox "Manager, did\nyou know?"
+WaitTextBox
+# $1の$2がすっごくおいしいって評判…
+ShowTextBox "The\n$1\nat\n$2 is\nsupposed to be\nreally tasty..."
+WaitTextBox
+ShowChara 2 0 23
+# アタシも１度でいいから食べてみたいわ♪
+ShowTextBox "!!! 3E6F90 16"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$80,$8B
+Subscript 7
+ShowChara 2 1 27
+# キーーーッ！！
+ShowTextBox "Gaaaaahh!!"
+WaitTextBox
+# 昨日『$1』で$2が$3してたの見損ねちゃった～
+ShowTextBox "I missed\n$2\nplaying\n$3 on\n$1\nlast night!"
+WaitTextBox
+ShowChara 2 0 25
+# 今日学校ですごく評判よかったの
+# 誰か、ビデオ録ってないかしら？
+ShowTextBox "I heard at\nschool it was\nso good, too!\nDid anyone\nrecord it!?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81
+Subscript 8
+ShowChara 2 1 25
+# ハア…$1が恋しい季節ね
+ShowTextBox "$1\nseason is\nalways so\ndepressing..."
+WaitTextBox
+ShowChara 2 0 22
+# とか言ってたら、おなかが空いてきちゃったわ
+ShowTextBox "Well, actually,\nI am pretty\nhungry..."
+WaitTextBox
+ShowChara 2 0 23
+# そろそろお茶にしません？
+ShowTextBox "Maybe we should\nhave tea?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83
+Subscript 9
+ShowChara 2 1 23
+# ねー、さっき道ばたで$1の子供見ちゃった
+# かわいかったわよ～
+ShowTextBox "I saw a baby\n$1\non the side of\nthe road...\nIt was soooo\ncute!"
+WaitTextBox
+ShowChara 2 0 22
+# お店で飼えないかしら？
+ShowTextBox "Hey, maybe we\ncan keep it as\na store pet!\nPretty please?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$89
+Subscript 10
+ShowChara 2 1 25
+# あ、店長さん…
+# ごめんなさい、ボーッとして…
+ShowTextBox "Oh, sorry,\nManager...\nI totally\nspaced out."
+WaitTextBox
+ShowChara 2 0 22
+# 今日$1が『$2』のグッズを大量に買ってて、ショックだったの
+ShowTextBox "I saw\n$1\nbuying a whole\nlot of\n$2\nmerchandise..."
+WaitTextBox
+ShowChara 2 0 55
+# 意外よね～
+ShowTextBox "I mean, talk\nabout weird!\nI can't stop\nthinking about\nit!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85
+Subscript 11
+ShowChara 2 1 26
+# おーほほほっ
+# ついにこの日が来たわ
+ShowTextBox "Ohohoho!\nThe day has\nfinally\narrived!"
+WaitTextBox
+ShowChara 2 0 23
+# 今日開催されるミス$1はアタシが優勝すること、間違い無しね♪
+ShowTextBox "Time for me to\ngo win the\nMiss\n$1\nbeauty pageant!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83
+Subscript 12
+ShowChara 2 1 24
+# ちょっと、誰！？
+# アタシのカバンに$1を入れたの？
+ShowTextBox "Hey!!\nWho put this\n$3\nin my bag!?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$87,$40
+Subscript 13
+ShowChara 2 1 23
+# ねぇ今度発売される$1のＣＤ『$2とワタシ』って、楽しみよね～♪
+ShowTextBox "I can't wait\nto hear\n$1's\nnew album,\n\"$2\nand Me\"!"
+WaitTextBox
+# なんでも$3が特別ゲストで参加してるらしいわよ
+ShowTextBox "I heard\n$3\nis a\nspecial guest\non it, too!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86,$84
+Subscript 14
+ShowChara 2 1 22
+# 知ってる？
+# この季節、$1は$2が満開らしいわよ
+ShowTextBox "Did you know?\nThe\n$2\nflowers are in\nfull bloom in\n$1."
+WaitTextBox
+ShowChara 2 0 23
+# 行ってみたいわね
+ShowTextBox "I want to go\nsee!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80
+Subscript 15
+ShowChara 2 2 25
+# そういえば最近、お店に来ないわね
+# …$1
+ShowTextBox "You know, I\nhaven't seen\n$1\nin the store\nlately..."
+WaitTextBox
+# なにかあったのかしら？
+ShowTextBox "I wonder if\nsomething\nhappened?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85
+Subscript 16
+ShowChara 2 2 22
+# ねぇ店長さん
+# 今度$1でアルバイト募集してみない？
+ShowTextBox "Hey, Manager.\nMaybe you should\ngo look for new\nemployees in\n$1?"
+WaitTextBox
+ShowChara 2 0 23
+# きっとユニークな人が来てくれると思うの
+ShowTextBox "There are some\nreally...\nunique people\naround there.\nIt'd be fun!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8A,$80,$85,$87
+Subscript 17
+ShowChara 2 1 22
+# ねぇみんな聞いて
+# 今日、学校で恐い話を聞いたの
+ShowTextBox "Listen, I\nheard the\nscariest thing\nat school\ntoday..."
+WaitTextBox
+ShowChara 2 0 25
+# あのね…
+# 夜な夜な$1に乗った$2が…
+ShowTextBox "Every night,\n$2\nrides a\n$1\nto..."
+WaitTextBox
+# $3で$4してるんですって！！
+ShowTextBox "work as a\n$4\nat\n$3!!!"
+WaitTextBox
+# 恐いわよね～
+ShowTextBox "That's so\nfreaky!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 18
+ShowChara 2 1 24
+# ちょっとでじこ！
+ShowTextBox "Dejiko!\nGet over here!"
+WaitTextBox
+# 『$1』のグッズ、棚に並べておいてって言ったでしょ！
+ShowTextBox "I thought I\ntold you to\narrange the\n$1\nmerch on the\nshelf!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84
+Subscript 19
+ShowChara 2 1 22
+# お花屋さんの前で$1の花を売ってたわ
+ShowTextBox "They were\nselling\n$1\nflowers at\nthe florist\ntoday."
+WaitTextBox
+ShowChara 2 0 23
+# もうそんな季節なのね…
+ShowTextBox "I guess it\nis that\nseason, huh..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$80,$40
+Subscript 20
+ShowChara 2 1 22
+# ねぇ店長さん
+# 昨日の『$1』見た？
+ShowTextBox "Hey, Manager.\nDid you watch\n$1\nlast night?"
+WaitTextBox
+# $2が$3と大ゲンカして、番組めちゃくちゃだったらしいじゃない
+ShowTextBox "It was really\nawkward...\n$1 and\n$2\ngot into a\nhuge argument."
+WaitTextBox
+ShowChara 2 0 55
+# ケンカって、よくないわよね
+ShowTextBox "Like, save that\nfor off the\nair, right?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8A
+Subscript 21
+ShowChara 2 2 22
+# そういえば、アタシ昨日$1に乗る夢、見ちゃった！
+ShowTextBox "I dreamed I\nwas riding a\n$1\nlast night!"
+WaitTextBox
+ShowChara 2 0 23
+# すごいスピードで気持ちよかったわよ！
+ShowTextBox "It was so\nfast... The\nwind felt\namazing!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87
+Subscript 22
+ShowChara 2 2 27
+# 昨日も今日も$1…
+# $1ばかりで嫌になっちゃう～
+ShowTextBox "$1\nevery day...\nI'm sick of\nthis!"
+WaitTextBox
+ShowChara 2 0 55
+# きっと明日も明後日も$1しないといけないのかしら
+ShowTextBox "I hope I don't\nhave to do\nthe same thing\nagain\ntomorrow..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8B
+Subscript 23
+ShowChara 2 2 25
+# ふ～…
+# 今日学校で$1したの
+ShowTextBox "Phew...\nWe played\n$1\ntoday at\nschool."
+WaitTextBox
+ShowChara 2 0 22
+# あれって意外と楽しいわね♪
+ShowTextBox "It was\nsurprisingly\nfun, actually!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87,$82
+Subscript 24
+ShowChara 2 2 55
+# ふ～～～…
+# ようやく$1が終ったわ
+ShowTextBox "Phew...\nFinally done\nbeing\n$1."
+WaitTextBox
+ShowChara 2 0 22
+# なんかノド渇いちゃった
+# 確かお店の冷蔵庫に冷えた$2があったわよね
+ShowTextBox "I'm thirsty.\nI wonder if\nthat\n$2\nis still in\nthe fridge?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $82
+Subscript 25
+ShowChara 9 1 7
+# ………………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 2 4 22
+# どうしたの、まじんがっぱ？
+ShowTextBox "What's\nwrong, Majin\nGappa?"
+WaitTextBox
+# さっきあげた$1はもう飲んじゃったの？
+ShowTextBox "You already\ndrank that\n$1\nI got you?"
+WaitTextBox
+ShowChara 9 1 7
+# …………
+ShowTextBox "..."
+WaitTextBox
+EndScript

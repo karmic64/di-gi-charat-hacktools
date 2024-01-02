@@ -1,0 +1,372 @@
+DSCBase $3E61BC
+
+
+
+### Prefill data: $83
+Subscript 0
+ShowChara 4 1 28
+# 店長さん、$1って見たことあるぴょ？
+ShowTextBox "Manager, have\nyou ever seen a\n$1,\npyo?"
+WaitTextBox
+ShowChara 4 0 29
+# ぴよこ見たことな
+# いから、ぜひ１度
+# 見てみたいぴょ
+ShowTextBox "I haven't yet.\nI wanna see one\nsoon, pyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$80,$82,$83
+Subscript 1
+ShowChara 4 2 29
+# ぴょぴょぴょ♪
+# 今日の『$1』は楽しみだぴょ
+ShowTextBox "Pyo pyo pyo! ♪\nI can't wait to\nwatch\n$1\ntonight, pyo!"
+WaitTextBox
+# $2が鼻から$3を飲みまくるらしいぴょ！
+ShowTextBox "$2\nhas got to\ndrink\n$3\nthrough their\nnose, pyo!"
+WaitTextBox
+ShowChara 4 0 28
+# 病気にならないぴょ？
+ShowTextBox "Won't that\nmake them sick,\nthough,\npyo?"
+WaitTextBox
+ShowChara 7 1 48
+# だいじょうぶだぜ
+# ぴよこ！
+ShowTextBox "They'll be\nfine, Piyoko!"
+WaitTextBox
+ShowChara 7 0 52
+# だって$2は$4の生まれかわりだからな
+ShowTextBox "After all,\nthey were a\n$4\nin their past\nlife!"
+WaitTextBox
+ShowChara 4 2 33
+# そうなのかぴょ？
+# 知らなかったぴょ！！
+ShowTextBox "Is that true,\npyo!? I had no\nidea!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89,$80,$83
+Subscript 2
+ShowChara 4 1 30
+# ぴょぴょぴょ…
+ShowTextBox "Pyo pyo pyo..."
+WaitTextBox
+ShowChara 5 4 57
+# ピョコラ様いった
+# いどうなされたの
+# ですか？
+ShowTextBox "Whatever is the\nmatter, Lady\nPyocola?"
+WaitTextBox
+ShowChara 4 4 30
+# 『$1』を読んで感動したぴょ
+ShowTextBox "Sniff...\nI couldn't help\ncrying after\nreading this\npart of\n$1."
+WaitTextBox
+ShowChara 5 4 37
+# 『$1』ですか…
+# 私も一度ならず、
+# 何十回と涙しまし
+# た…
+ShowTextBox "$1...\nEven I shed\nmany a tear\nwhile reading\n$1."
+WaitTextBox
+ShowChara 5 0 65
+# $2の$3への愛に、深く心をうたれずには…
+ShowTextBox "The love\n$2\nbore for their\npet\n$3\nwas inspiring..."
+WaitTextBox
+ShowChara 4 4 31
+# $3なんか出てたぴょ？
+ShowTextBox "They get a\n$3,\npyo!?\nStop spoiling\nit, pyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83
+Subscript 3
+ShowChara 4 2 33
+# た、たいへんだぴょ！
+# お店に$1がいるぴょ！！
+ShowTextBox "W-We've got a\nproblem, pyo!\nThere's a\n$1\nin the store!"
+WaitTextBox
+ShowChara 5 1 35
+# ピョコラ様、ここ
+# は不肖ながら私に
+# お任せを…
+ShowTextBox "Lady Pyocola,\nplease allow\nme to handle\nthis..."
+WaitTextBox
+ShowChara 5 0 57
+# うっ！？
+ShowTextBox "A-Ack!"
+WaitTextBox
+ShowChara 4 2 31
+# リ、リク…どうし
+# たぴょ？
+ShowTextBox "Rik!\nWhat's\nwrong, pyo?"
+WaitTextBox
+ShowChara 5 1 65
+# か、可愛すぎて…
+# さわれません！！
+ShowTextBox "I-It's too\ncute...\nI can't kick\nit out!"
+WaitTextBox
+ShowChara 4 2 28
+# かわいいならお店で飼うぴょ
+ShowTextBox "If it's cute,\nmaybe we can\nkeep it as a\nstore pet, pyo!"
+WaitTextBox
+ShowChara 4 0 29
+# きっといいマスコットになるぴょ！
+ShowTextBox "It'll make a\ngreat mascot,\npyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$89
+Subscript 4
+ShowChara 4 1 32
+# 口からバズーカっ
+# ！！
+ShowTextBox "Mouth Bazooka!!!"
+WaitTextBox
+ShowChara 6 4 44
+# うわッ！ピョコラ
+# 様いったい？
+ShowTextBox "Waahh!\nWhat are you\ndoing, Lady\nPyocola!?"
+WaitTextBox
+ShowChara 4 1 31
+# $1がお店に来てたぴょ！
+ShowTextBox "$1\njust walked into\nthe store,\npyo!"
+WaitTextBox
+# しかも『$2』グッズを買おうとしてたんだぴょ！
+ShowTextBox "But they were\nabout to buy\n$2\nmerch, pyo!"
+WaitTextBox
+ShowChara 4 0 30
+# 信じられないぴょ
+# イメージが崩れた
+# ぴょ～
+ShowTextBox "I can't believe\nthem! That's so\nuncool, pyo!"
+WaitTextBox
+ShowChara 6 4 45
+# し、しかし…それ
+# は我々にとってい
+# いことでは？
+ShowTextBox "B-But...\nIsn't another\nsale good for\nus, my lady?"
+WaitTextBox
+ShowChara 4 1 33
+# ぴょっっ…！！
+# そ、そうだったぴょ
+ShowTextBox "Pyo...!!!\nI-I guess\nthat's true..."
+WaitTextBox
+# ぴよこ達、お金
+# もうけしなくちゃ
+# いけなかったぴょ
+# ！
+ShowTextBox "We need money\nmore than we\nneed our pride,\npyo!"
+WaitTextBox
+ShowChara 4 0 34
+# ごめんぴょ！
+ShowTextBox "I'm sorry,\npyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$40
+Subscript 5
+ShowChara 4 1 34
+# 店長さん、ちょっ
+# と教えてほしいこ
+# とがあるぴょ
+ShowTextBox "Manager, can I\nask you a\nquestion, pyo?"
+WaitTextBox
+ShowChara 4 0 28
+# $1と$2が親子って、本当ぴょ？
+ShowTextBox "Is it true that\n$1\nand\n$2\nare related,\npyo?"
+WaitTextBox
+ShowChara 6 2 44
+# まっまさかっ！？
+ShowTextBox "What!?"
+WaitTextBox
+ShowChara 7 1 58
+# マジっ！？
+ShowTextBox "Really!?"
+WaitTextBox
+ShowChara 5 2 57
+# そ、そのような事
+# が事実ならば、医
+# 学界に激震が…
+ShowTextBox "T-This will\nthrow the\nscientific\ncommunity into\nchaos..."
+WaitTextBox
+ShowChara 4 1 31
+# おまえ達に聞いて
+# るんじゃないぴょ
+# ！
+ShowTextBox "I wasn't\ntalking to you,\npyo!"
+WaitTextBox
+ShowChara 4 0 34
+# 店長さんに聞いて
+# るんだぴょ
+ShowTextBox "That was a\nquestion for the\nManager only,\npyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81,$41
+Subscript 6
+ShowChara 4 2 30
+# るるる～
+ShowTextBox "Waaahh!!!"
+WaitTextBox
+ShowChara 7 1 50
+# ぴよこ、どうした
+# ？
+# 誰かにいじめられ
+# たのか！？
+ShowTextBox "What's wrong,\nPiyoko?\nWas someone\npicking on you!?"
+WaitTextBox
+ShowChara 4 2 30
+# ちがうぴょ～
+ShowTextBox "That's not it,\npyo!"
+WaitTextBox
+# せっかく後で食べ
+# ようと残しておい
+# た$1が無くなってるんだぴょ～
+ShowTextBox "The\n$1 I\nwas saving to\neat later\ndisappeared,\npyo!"
+WaitTextBox
+ShowChara 7 1 58
+# $1！？
+ShowTextBox "The\n$1!?\n...\nUmmm..."
+WaitTextBox
+ShowChara 7 0 48
+# じゃあ、あとで俺が代わりに$2を買ってきてやるよ
+ShowTextBox "I'll go buy you\nsome\n$2\nto make it up\nto you, then..!"
+WaitTextBox
+ShowChara 4 2 28
+# ほんとうぴょ！？
+ShowTextBox "Really, pyo!?"
+WaitTextBox
+ShowChara 7 1 52
+# おう、まかせとけ！
+ShowTextBox "Of course!"
+WaitTextBox
+ShowChara 4 2 31
+# でも、ぴよこの$1はどこいったんだぴょ？
+ShowTextBox "But I wonder\nwhere my\n$1\nwent, pyo..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 7
+ShowChara 4 2 33
+# ぴょっ！？
+ShowTextBox "Pyo!?"
+WaitTextBox
+ShowChara 7 1 50
+# どうした、ぴよこ？
+ShowTextBox "What's up,\nPiyoko?"
+WaitTextBox
+ShowChara 4 2 30
+# 『$1』が終ってしまったぴょ！
+ShowTextBox "$1\nis ending, pyo!"
+WaitTextBox
+# 毎週欠かさずに読んでたぴょ…
+ShowTextBox "It's gonna\nfeel weird not\nreading it\nevery week\nanymore,\npyo..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8A
+Subscript 8
+ShowChara 4 2 28
+# ぴょ！？
+# へんなものがお店
+# の前に止まったぴ
+# ょ
+ShowTextBox "Pyo!?\nA weird looking\nthing just\nstopped in\nfront of the\nshop, pyo."
+WaitTextBox
+ShowChara 4 0 33
+# あれはハデな$1！
+# いったい誰が乗っ
+# てるんだぴょ？
+ShowTextBox "That's a\ncrazy\n$1!\nWho's driving\nit, pyo?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81
+Subscript 9
+ShowChara 4 2 29
+# たのしみだぴょ～
+# たのしみだぴょ～
+# ♪
+# 今夜は$1だぴょ～♪
+ShowTextBox "Oh,\n$1~♪\nI can't\nwait for\n$1,\npyo~♪"
+WaitTextBox
+ShowChara 4 0 28
+# 店長さん、$1って食べたことあるぴょ？
+ShowTextBox "Manager, have\nyou ever had\n$1\nbefore, pyo?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84
+Subscript 10
+ShowChara 4 2 28
+# 店長さん、$1の花を見たことあるぴょ？
+ShowTextBox "Manager, have\nyou ever seen\na\n$1\nflower, pyo?"
+WaitTextBox
+# とってもキレイな花らしいぴょ
+ShowTextBox "They're\nsupposed to be\nvery pretty,\npyo."
+WaitTextBox
+ShowChara 4 0 34
+# ぴよこ、今度見てみたいぴょ
+ShowTextBox "I wanna go\nsee one,\npyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$40
+Subscript 11
+ShowChara 4 2 31
+# む～～～～～～
+ShowTextBox "Grrrr!!!"
+WaitTextBox
+ShowChara 5 1 35
+# いかがなされまし
+# た？ピョコラ様
+ShowTextBox "What's the\nmatter, Lady\nPyocola?"
+WaitTextBox
+ShowChara 4 2 31
+# でじこお姉ちゃんのお店で$1がサイン会してたぴょ！
+ShowTextBox "$1\nis giving out\nautographs at\nDejiko's\nstore, pyo!"
+WaitTextBox
+# たくさん人が集まって、もうかってたぴょ！
+ShowTextBox "They're\ngetting tons\nof customers,\npyo!"
+WaitTextBox
+ShowChara 5 1 39
+# ふっ…それならば
+# 当店は$2を呼んでサイン会をいたしましょう
+ShowTextBox "Heh...\nI can call\n$2.\nMaybe we should\ndo our own book\nsigning...?"
+WaitTextBox
+ShowChara 4 2 29
+# なるほど！
+# ナイスアイディアだぴょ！
+ShowTextBox "That's a great\nidea, pyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8A
+Subscript 12
+ShowChara 4 2 28
+# 店長さん！店長さ
+# ん！
+ShowTextBox "Manager,\nManager!"
+WaitTextBox
+# 店長さんは$1に乗ったことあるぴょ？
+ShowTextBox "Have you ever\nridden a\n$1\nbefore, pyo?"
+WaitTextBox
+ShowChara 4 0 29
+# ぴよこも地球に来たからには、１度は$1に乗ってみたいぴょ！
+ShowTextBox "I wanna ride\none at least\nonce while I'm\non Earth, pyo!"
+WaitTextBox
+EndScript

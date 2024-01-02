@@ -1,0 +1,54 @@
+DSCBase $40B76C
+
+
+
+
+Subscript 0
+# ‚Æ‚à‚¾‚¿‚Æ‚ß‚¢‚µ‚Ì‚±‚¤‚©‚ñ‚·‚é‚É‚ã
+ShowTextBox "Exchange business cards with a friend, nyu."
+EndScript
+
+
+
+Subscript 1
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 2
+# ‚¢‚Ü‚Ü‚Å‚à‚ç‚Á‚½‚Æ‚à‚¾‚¿‚Ì‚ß‚¢‚µ‚ðŒ©‚é‚É‚ã
+ShowTextBox "See business cards you already have, nyu."
+EndScript
+
+
+
+Subscript 3
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 4
+# ‚Ý‚ñ‚È‚Ì‚ß‚¢‚µ‚Ìƒ‰ƒ“ƒLƒ“ƒO‚ðŒ©‚é‚É‚ã
+ShowTextBox "Take a look at the Business Card Rankings, nyu."
+EndScript
+
+
+
+Subscript 5
+HideChara
+EndScript
+
+
+
+Subscript 6
+ShowChara 3 2 17
+EndScript
+
+
+
+Subscript 7
+EndScript

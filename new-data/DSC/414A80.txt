@@ -1,0 +1,167 @@
+DSCBase $414A80
+
+
+
+
+Subscript 0
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 1
+# クウは\x02仕事に飽きているようだ\x1a
+ShowTextBox "Looks like Coo is \x02tired of his job\x1a!"
+EndScript
+
+
+
+Subscript 2
+# 「もうこんな仕事飽きてきたなー」
+ShowTextBox "\"I wanna do something else, already...\""
+EndScript
+
+
+
+Subscript 3
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 4
+# クウは\x02やりたい仕事を他の人にとられてすねているようだ\x1a
+ShowTextBox "Looks like Coo is \x02annoyed at someone else doing the job he wants\x1a!"
+EndScript
+
+
+
+Subscript 5
+# 「えこひいきなんてずるいよなー」
+ShowTextBox "\"Playing favorites is mean, Manager!\""
+EndScript
+
+
+
+Subscript 6
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 7
+# クウは\x02自分のグッズが叩き売られて悲しいようだ\x1a
+ShowTextBox "Looks like Coo is \x02sad to see his goods on special discount\x1a! "
+EndScript
+
+
+
+Subscript 8
+# 「俺のグッズが叩き売られてる…」
+ShowTextBox "\"They're just giving my stuff away, now...\""
+EndScript
+
+
+
+Subscript 9
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 10
+# クウは\x03自分のグッズがたくさんあってうれしいようだ\x1a
+ShowTextBox "Looks like Coo is \x03happy to see a lot of his goods in the store\x1a!"
+EndScript
+
+
+
+Subscript 11
+# 「俺のグッズでいっぱいにすればお店は大繁盛だな！」
+ShowTextBox "\"A shop full of stuff with my face on it... That's how you know it's doing well!\""
+EndScript
+
+
+
+Subscript 12
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 13
+# $0クウは\x01仕事がうまくいっていないようだ\x1a
+ShowTextBox "$0Looks like Coo's \x01job isn't going very well\x1a!"
+EndScript
+
+
+
+Subscript 14
+# 「ちぇ、こんなことやってられないぜ…」
+ShowTextBox "\"Tch, I'm not sure if I can do this...\""
+EndScript
+
+
+
+Subscript 15
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 16
+# $0\x02クウの調子はあまりよくないようだ\x1a
+ShowTextBox "$0\x02Coo doesn't look well\x1a!"
+EndScript
+
+
+
+Subscript 17
+# 「なんかやる気がでないんだよなー」
+ShowTextBox "\"I don't feel like doing anything today...\""
+EndScript
+
+
+
+Subscript 18
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 19
+# $0クウは問題無く仕事をしているようだ
+ShowTextBox "$0Looks like Coo isn't having any problems."
+EndScript
+
+
+
+Subscript 20
+# 「ぴよこのため、がんばらないとな」
+ShowTextBox "\"I'll do my best for Piyoko.\""
+EndScript
+
+
+
+Subscript 21
+ShowChara 7 0 0
+EndScript
+
+
+
+Subscript 22
+# $0クウは\x03はりきって仕事をしているようだ\x1a
+ShowTextBox "$0Looks like Coo is \x03working in high spirits\x1a!"
+EndScript
+
+
+
+Subscript 23
+# 「へへ、絶好調だぜ！」
+ShowTextBox "\"Heheh, now THIS is how it's done!\""
+EndScript
+
+
+
+Subscript 24
+EndScript

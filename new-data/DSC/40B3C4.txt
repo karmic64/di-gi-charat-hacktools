@@ -1,0 +1,75 @@
+DSCBase $40B3C4
+
+
+
+
+Subscript 0
+ShowChara 4 0 28
+# 通信の用意ができたらＡボタンをおすぴょ！
+ShowTextBox "Press the A button when you're ready to begin communicating, pyo!"
+EndScript
+
+
+
+Subscript 1
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 2
+# とりやめるぴょ
+ShowTextBox "Cancel communications, pyo."
+Wait 60
+EndScript
+
+
+
+Subscript 3
+# 通信待ちぴょ…
+ShowTextBox "Waiting to communicate, pyo..."
+EndScript
+
+
+
+Subscript 4
+# 通信中ぴょ…
+ShowTextBox "Communicating, pyo..."
+EndScript
+
+
+
+Subscript 5
+# 通信終了ぴょ！
+# Ａボタンを押して登録するぴょ！
+ShowTextBox "All done, pyo!\nPress A to finish the registration, pyo!"
+EndScript
+
+
+
+Subscript 6
+# 登録したぴょ！
+ShowTextBox "Registered, pyo!"
+WaitTextBox
+# $0店長さんのめいしをすぐ見るぴょ？
+ShowTextBox "Want to go straight to Manager $0's business card, pyo?"
+WaitTextBox
+# すぐ見る
+# あとで
+ShowSelMenu09 2 "!Go now\nLater"
+EndScript
+
+
+
+Subscript 7
+# 通信がうまくいかなかったぴょ…
+ShowTextBox "The communication failed, pyo..."
+EndScript
+
+
+
+Subscript 8
+# $0店長さんを登録する場所をえらぶぴょ！
+ShowTextBox "Choose where to register Manager $0's information, pyo!"
+EndScript

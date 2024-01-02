@@ -1,0 +1,45 @@
+DSCBase $403C40
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 4 1 28
+# イベントNo.317の
+# ハロウィン1
+# ぴょ
+ShowTextBox "Event No. 317\nHalloween 1,\npyo."
+WaitTextBox
+# はい
+# いいえ
+ShowSelMenu09 2 "!Yes\nNo"
+JumpOnSelection 2 0 1 0
+Label 0
+# フラグを立てました
+ShowTextBox "Flag enabled"
+WaitTextBox
+JumpOnSelection 1 2 0
+Label 1
+# フラグは立てません
+ShowTextBox "Flag was not\nenabled"
+WaitTextBox
+JumpOnSelection 1 2 0
+Label 2
+Fade 1 30
+EndScript
+
+
+
+Subscript 1
+SetBG 90
+Unk08 4 200 112 8 96 10 3
+Fade 0 30
+ShowChara 4 0 0
+# イベントNo.318の
+# 「ハロウィン2」ぴょ
+ShowTextBox "Event No. 318\nHalloween 2,\npyo."
+WaitTextBox
+Fade 1 30
+EndScript

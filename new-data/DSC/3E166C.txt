@@ -1,0 +1,52 @@
+DSCBase $3E166C
+
+
+
+
+Subscript 0
+ShowChara 4 2 28
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 4 0 28
+# ブラックゲマゲマ団の
+# 首領、ピョコラ＝アナ
+# ローグV世ぴょっ！
+ShowTextBox "I am the leader\nof the Black\nGema Gema Gang,\nPyocola Analog\nthe 3rd, pyo!"
+EndScript
+
+
+
+Subscript 3
+# ぴよこはアナローグ星
+# からやってきたぴょ！
+ShowTextBox "I came to Earth\nfrom Planet\nAnalog, pyo!"
+EndScript
+
+
+
+Subscript 4
+# これからは、でじこお
+# 姉ちゃんの好きにはさ
+# せないぴょ！
+ShowTextBox "I'm not gonna\nlet Dejiko just\ndo whatever she\nwants, pyo!"
+EndScript
+
+
+
+Subscript 5
+ShowChara 4 0 29
+# あとはすべて、このぴ
+# よこにおまかせぴょ！
+ShowTextBox "You leave all\nthe decisions\nto me, and\nwe'll get\nalong just\nfine, pyo!"
+Wait 60
+HideChara
+EndScript

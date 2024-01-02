@@ -1,0 +1,292 @@
+DSCBase $3E6914
+
+
+
+### Prefill data: $81
+Subscript 0
+ShowChara 5 1 64
+# うう…む
+# 我々はこのままでよいのだろうか？
+ShowTextBox "Hmm...\nI believe our\nlarder is\nbeginning to\nrun a little\nlow..."
+WaitTextBox
+# 毎日$1と水だけで過ごさなければならないとは…
+ShowTextBox "How long can we\nlast on water\nand\n$1\nevery meal...?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83,$43
+Subscript 1
+ShowChara 5 1 35
+# …店長、ちょっと
+# 個人的に相談した
+# いのだが、いいだ
+# ろうか？
+ShowTextBox "One moment,\nManager.\nWould you mind\nif I asked your\nadvice on a\npersonal issue?"
+WaitTextBox
+ShowChara 5 0 37
+# ピョコラ様にぬい
+# ぐるみをプレゼン
+# トしようと思うの
+# だが…
+ShowTextBox "I would like to\nget Lady Pyocola\na stuffed\nanimal, but..."
+WaitTextBox
+ShowChara 5 0 57
+# ズバリっ！！
+# $1と$2…どちらがかわいいと思う？
+ShowTextBox "A $1\nor a\n$2!\nWhich is cuter,\ndo you think!?"
+WaitTextBox
+ShowChara 5 0 65
+# 私としては甲乙つけがたいのだ…
+ShowTextBox "It pains me to\neven think of\nchoosing one\nover the other!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$83
+Subscript 2
+ShowChara 5 1 37
+# …ふう～
+ShowTextBox "...\nSigh..."
+WaitTextBox
+ShowChara 6 2 40
+# どうしたのですか
+# リク元帥？
+# ため息なんかついて
+ShowTextBox "What's the\nmatter,\nAdmiral Rik?\nThat was a\nheavy sigh."
+WaitTextBox
+ShowChara 5 1 64
+# いや…
+# $1動物園の$2達の事が気になって…
+ShowTextBox "Well, I'm\nworried about\nthe $2\nat the\n$2\nzoo..."
+WaitTextBox
+ShowChara 6 2 45
+# …そうですか
+ShowTextBox "...\nIs that so."
+WaitTextBox
+ShowChara 5 1 57
+# カイ、教えてくれ
+# ！
+# 私はどうしたらよいのだ？
+ShowTextBox "Please help\nme, Ky!\nWhat should\nI do!?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$83
+Subscript 3
+ShowChara 5 2 35
+# ムッ…あれは$1…
+ShowTextBox "Hmph...\nSo that's\n$1..."
+WaitTextBox
+ShowChara 5 0 37
+# たしか、こよなく
+# $2を愛しつづけるトップブリーダー…
+ShowTextBox "I'd heard they\nwere the world's\nforemost\nexpert on\n$2\nbreeding..."
+WaitTextBox
+ShowChara 5 0 39
+# ……私の勝ちだな
+ShowTextBox "... But I\nsee now they\nwere no match\nfor me."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81,$84
+Subscript 4
+ShowChara 5 2 64
+# しまった！
+# 私としたことが…
+# 夕食の$1と$2のカンづめを買いまちがえてしまった…
+ShowTextBox "Ack!\nI accidentally\nbought canned\n$2\ninstead of\n$1!"
+WaitTextBox
+ShowChara 5 0 37
+# こういう時は…
+ShowTextBox "There's only\none thing I\ncan do..."
+WaitTextBox
+ShowChara 5 0 38
+# ブラックゲマゲマ団員のみなさん！！
+ShowTextBox "Black Gema Gema\nGang!\nAssemble!"
+WaitTextBox
+ShowChara 12 1 60
+# ゲバーッ！！
+ShowTextBox "Geba!!"
+WaitTextBox
+ShowChara 5 2 39
+# 今日のみなさんの夕食は$2のカンづめです
+ShowTextBox "At ease!\nYour rations for\ntonight will be\ncanned\n$2."
+WaitTextBox
+ShowChara 12 1 60
+# うれしいゲバ～
+ShowTextBox "Sounds tasty,\ngeba!"
+WaitTextBox
+ShowChara 5 2 36
+# …ありがたく食べてください！
+ShowTextBox "...\nGo ahead and\neat!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$83
+Subscript 5
+ShowChara 5 2 38
+# 店長、知ってるか！？
+ShowTextBox "Manager! I\nhave heard some\ndistressing\ninformation!"
+WaitTextBox
+ShowChara 5 0 37
+# 近頃$1では$2の数が減っているそうだ…
+ShowTextBox "Recently, the\n$2\npopulation of\n$1\nhas fallen\ndrastically!"
+WaitTextBox
+ShowChara 5 0 35
+# 私は獣医として、
+# どうすればいいの
+# だ？
+ShowTextBox "As a\nveterinarian,\nI feel\npersonally\nresponsible!\nWhat can I do?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$83
+Subscript 6
+ShowChara 5 2 39
+# ふふふ…店長
+# 昨日の『$1』を見たか？
+ShowTextBox "Hahaha...\nManager, have\nyou seen\nyesterday's\n$1?"
+WaitTextBox
+# 地球人どもは今頃
+# $2のかわいらしさに気づいてるのだ…
+ShowTextBox "You Earthlings\nhave finally\nnoticed how\ncute the\n$2\ncan be..."
+WaitTextBox
+ShowChara 5 0 64
+# …おそい、おそい
+# おそすぎるッ！
+ShowTextBox "...\nBut you're\nslow!\nYou're\nunacceptably\nslow!"
+WaitTextBox
+ShowChara 5 0 38
+# 私など生まれるまえから…！！
+ShowTextBox "I've loved\nthem since\nbirth! No,\neven before\nthen...!"
+WaitTextBox
+ShowChara 4 4 31
+# リク、うるさいぴ
+# ょ！
+# いいかげん仕事す
+# るぴょ！
+ShowTextBox "Keep it down,\nRik! We're\nstill at\nwork, pyo!"
+WaitTextBox
+ShowChara 5 4 57
+# …ハッ！
+# 申しわけありませ
+# ん、ピョコラ様
+ShowTextBox "...\nYes, ma'am!\nI apologize,\nLady Pyocola."
+WaitTextBox
+ShowChara 5 0 37
+# 店長、この件はま
+# たあとで…
+ShowTextBox "Manager, we\nwill continue\nthis\nconversation\nlater."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$83
+Subscript 7
+ShowChara 5 1 38
+# 店長！
+# 今日はさっさと家に帰って『$1』を見るがいい！
+ShowTextBox "Manager!\nI recommend\nyou leave early\nand watch\n$1\ntonight!"
+WaitTextBox
+ShowChara 5 0 57
+# なんと$2の特集をするのだ！
+# 一見の価値アリ！
+ShowTextBox "It's a\nspecial feature\non the\n$2!\nYou simply\nMUST see it!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8A,$83
+Subscript 8
+ShowChara 5 1 37
+# ふ～～～
+ShowTextBox "Sigh..."
+WaitTextBox
+ShowChara 5 0 35
+# おや、店長…
+# なに疲れてるのか
+# って？
+ShowTextBox "Oh, Manager.\nYou're asking\nwhy I'm so\ntired?"
+WaitTextBox
+ShowChara 5 0 39
+# 先ほど道路で$1にひかれそうになった$2の親子を助けたのだ
+ShowTextBox "I saved a\n$2\nfamily that was\nalmost hit by\na $1\nearlier today."
+WaitTextBox
+ShowChara 5 0 65
+# 今夜はよい夢が見れそうだ…♪
+ShowTextBox "I'm glad they\nwere safe!\n...\nI'll have good\ndreams\ntonight..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$83
+Subscript 9
+ShowChara 5 1 38
+# 店長、私は今日の
+# ように素敵な日に
+# は…
+ShowTextBox "Manager, on\na day with such\nimpeccable\nweather as\ntoday..."
+WaitTextBox
+ShowChara 5 0 57
+# $1動物園に$2を見に行くべきだと進言したいッ！！
+ShowTextBox "I would like to\nsuggest a trip\nto the\n$1\nzoo!!"
+WaitTextBox
+ShowChara 5 0 39
+# きっと店長も$2のとりこになるだろう…
+ShowTextBox "I'm sure you,\ntoo, will be\nenraptured by\nthe\n$2\nthere!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86,$83,$87
+Subscript 10
+ShowChara 5 2 37
+# なんてことだ
+# 信じられない…！
+ShowTextBox "What!?\nUnbelievable!"
+WaitTextBox
+ShowChara 5 0 38
+# 店長、聞いてくれ
+# $1では$2に$3をさせているらしいのだ！
+ShowTextBox "Manager, listen.\nAt $1,\nthey force a\n$2\nto be their\n$3!\n"
+WaitTextBox
+ShowChara 5 0 37
+# ひどい…あまりに
+# もひどすぎる…
+ShowTextBox "It's too\ncruel...\nI can't believe\nthey'd do such\na thing..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8B,$82
+Subscript 11
+ShowChara 5 0 39
+# ふ…いささか$1の疲れが出たようだ…
+ShowTextBox "Phew...\n$1\ntruly tires one\nout."
+WaitTextBox
+ShowChara 5 0 35
+# 店長、どうだ？
+# $2でも飲みに行くか？
+ShowTextBox "Manager, how\nwould you like\nto go out\ndrinking\n$2?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89,$49
+Subscript 12
+ShowChara 5 0 39
+# う～む、分からん
+# なぜこんなに『$1』が人気あるのか…謎だ
+ShowTextBox "I simply\ndon't\nunderstand.\nHow could\n$1\nget so popular?"
+WaitTextBox
+ShowChara 5 0 64
+# 私なら『$2』の方が、好みなのだが…
+# 店長はどうだ？
+ShowTextBox "I vastly\nprefer\n$2,\nbut...\nWhat do you\nthink, Manager?"
+WaitTextBox
+EndScript

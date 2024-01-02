@@ -1,0 +1,150 @@
+DSCBase $401A28
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 28
+# 今日から夏休みぴ
+# ょ…
+ShowTextBox "Today's the\nstart of summer\nbreak, pyo!"
+WaitTextBox
+# う～ん、ぴよこも
+# 何か夏らしいこと
+# をやってみたいぴ
+# ょ…
+ShowTextBox "I want to do\nsomething\nsummery, pyo..."
+WaitTextBox
+ShowChara 4 0 29
+# そうだ、いいこと
+# 思いついたぴょ！
+ShowTextBox "Oh, I've got\nan idea, pyo!"
+WaitTextBox
+ShowChara 4 0 34
+# 店長さん、ちょっ
+# と時間あるぴょ？
+ShowTextBox "Hey, Manager,\ndo you have a\nminute, pyo?"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 4 1 29
+# ♪う～み～は～
+# こわいぴょ
+# おっかないぴょ～
+ShowTextBox "The sea is...\nScary. Pyo!\nFrightening!\nPyo~"
+WaitTextBox
+# ふ～ねはしずむし
+# しおから～い～
+ShowTextBox "The ship will\nsink...\nThe waves are\nsalty..."
+WaitTextBox
+# ぴょぴょ～っ、今
+# 帰ったぴょ～っ！
+ShowTextBox "Pyo~~! I wanna\ngo home, pyo!!"
+WaitTextBox
+ShowChara 5 2 36
+# おかえりなさいま
+# せ、ピョコラ様…
+# それに店長
+ShowTextBox "Welcome back,\nmy lady.\nAh, and the\nManager as\nwell."
+WaitTextBox
+ShowChara 6 2 40
+# ずいぶん急なお出
+# かけでしたが…
+ShowTextBox "You left in\na real hurry\nearlier..."
+WaitTextBox
+ShowChara 7 2 47
+# なぁ、どこに行っ
+# てたんだ？
+ShowTextBox "Hey, don't\nleave me out\nof it! Where\ndid you go?"
+WaitTextBox
+ShowChara 4 1 28
+# ぴょぴょ、ゴメン
+# ゴメンぴょ…
+ShowTextBox "S-Sorry, pyo..."
+WaitTextBox
+# 店長さんといっし
+# ょに、ちょっと海
+# まで行って、暑中
+# 見舞い用の写真を
+# 撮ってきたぴょ…
+ShowTextBox "The Manager and\nI went to the\nocean and took\nsome pictures\nfor postcards..."
+WaitTextBox
+ShowChara 7 2 47
+# 暑中見舞い？
+ShowTextBox "Postcards?"
+WaitTextBox
+Fade 3 30
+Unk08 4 83 59 80 94 10 3
+SetBG 76
+Fade 2 30
+ShowChara 4 0 0
+# じゃーん、これがその
+# 写真ぴょっ！
+ShowTextBox "Ta-da! Here's\nthe pictures,\npyo!"
+WaitTextBox
+# どうぴょ、この夏、店
+# で出す暑中見舞いには
+# この写真を使うぴょ！
+ShowTextBox "We can use\nthese and sell\nsome summer\npostcards in the\nshop, pyo!"
+WaitTextBox
+Fade 1 30
+SetBG 112
+Fade 0 30
+ShowChara 5 2 36
+# ううむ、すばらし
+# い！
+ShowTextBox "I see!\nWonderful idea!"
+WaitTextBox
+# 海のおさかなさん
+# たちにも負けない
+# かわいらしさです
+# ピョコラ様…
+ShowTextBox "Lady Piyoko's\ncuteness\noutshines even\nthe most\nbrilliant sea\nfish...!"
+WaitTextBox
+ShowChara 6 2 41
+# 自分も同感です！
+ShowTextBox "I agree!"
+WaitTextBox
+# ピョコラ様のイメ
+# ージにぴったりだ
+# と思いました…
+ShowTextBox "This kind of\npicture really\nsuits you,\nLady Pyokora."
+WaitTextBox
+ShowChara 7 2 48
+# いいなぁ、楽しか
+# ったか、ぴよこ？
+ShowTextBox "Nice! Did you\nhave fun,\nPiyoko?"
+WaitTextBox
+# 俺もいっしょに行
+# きたかったなぁ…
+ShowTextBox "I wish I\ncoulda gone\ntoo..."
+WaitTextBox
+ShowChara 4 1 34
+# すまないぴょ、急
+# な思いつきだった
+# から、そのときに
+# は気が回らなかっ
+# たぴょ…
+ShowTextBox "Sorry, pyo.\nWe left as\nsoon as I got\nthe idea, so I\ndidn't think to\nask..."
+WaitTextBox
+ShowChara 4 0 29
+# あっ、でも店長さ
+# んが、今度はみん
+# なで海に行こう…
+# と言ってたぴょ！
+ShowTextBox "Oh, but the\nManager said we\nshould bring\neveryone next\ntime, pyo!"
+WaitTextBox
+ShowChara 5 2 36
+# ついてくるなと言
+# われても、ついて
+# 行きますよ…
+ShowTextBox "Even if they\nhadn't, we'd\nstill go\nanyway..."
+WaitTextBox
+ShowChara 6 2 41
+# まったくです…
+ShowTextBox "Indeed."
+WaitTextBox
+EndScript

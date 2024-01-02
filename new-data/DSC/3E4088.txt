@@ -1,0 +1,46 @@
+DSCBase $3E4088
+
+
+
+
+Subscript 0
+ShowChara 1 0 8
+# でじこ、なにかい
+# けない言葉、しゃ
+# べったにょ？
+ShowTextBox "Did I say something bad, nyo?"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 1 0 12
+# わかったにょ
+# もう言わないにょ
+ShowTextBox "OK, nyo. I won't say that next time, nyo."
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 1 0 9
+# それならいいんだ
+# にょ
+ShowTextBox "Alright, no problem, nyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 1 0 12
+# イヤだにょ～～～
+# これしゃべっちゃ
+# だめだと、でじこ
+# もうしゃべる言葉
+# がないにょ～
+ShowTextBox "Nyo... If I can't say that, then I have nothing to talk about, nyo!"
+WaitTextBox
+EndScript

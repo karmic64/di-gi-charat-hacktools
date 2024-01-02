@@ -1,0 +1,362 @@
+DSCBase $3E3970
+
+
+
+### Prefill data: $85,$01,$82
+Subscript 0
+ShowChara 2 4 22
+# $1の$2は隠し味に、$3を使っているそうよ
+ShowTextBox "Mixing\n$3\ninto\n$2 to\ngive it hidden\nflavors..."
+WaitTextBox
+# …$1６００年の歴史は伊達じゃないわねぇ
+ShowTextBox "The traditional\ncuisine of\n$1\nis really\nsomething else,\nhuh?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $00,$87
+Subscript 1
+ShowChara 2 4 22
+# $1さんは裸一貫から、$2で身を立てたのよ
+ShowTextBox "$1 is\nflat broke, so\nthey've started\na new career\nas a\n$2."
+WaitTextBox
+# リッパよね～♪
+ShowTextBox "Good for them!\nRight?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $07,$47
+Subscript 2
+ShowChara 2 4 55
+# ねー、誰か手が空いてたら、$1やってくれない？
+ShowTextBox "Hey, can someone\ntake care of\n$1\nduty?"
+WaitTextBox
+ShowChara 2 0 25
+# アタシ$2で手一杯なの～
+ShowTextBox "I've got my\nhands full with\nthis\n$2\nwork already!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83,$82
+Subscript 3
+ShowChara 2 4 22
+# アタシね、昔$1を飼ってたのよ
+ShowTextBox "You know, I had\na pet\n$1\nwhen I was a\nkid."
+WaitTextBox
+ShowChara 2 0 23
+# 知ってる？
+# $1って$2が大好物なのよ
+ShowTextBox "They really,\nREALLY like\n$2.\nSeriously!\nHow weird is\nthat?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87,$85
+Subscript 4
+ShowChara 2 4 22
+# 最近$2に、$1の専門店が増えたんですって
+ShowTextBox "There've been\na whole lot of\nstores proud of\ntheir\n$1\npopping up."
+WaitTextBox
+# うちのお店も負けられないわね
+ShowTextBox "We can't let\nthem beat us,\nokay!?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $00,$40
+Subscript 5
+ShowChara 2 4 22
+# $1もいいけど、$2もいいわよね～
+ShowTextBox "Mmm...\nI really like\n$1,\nbut\n$2\nis sooo cool!"
+WaitTextBox
+ShowChara 2 0 23
+# アタシって、意外とミーハーかも？
+ShowTextBox "...\nWell, sorry for\nhaving basic\ntaste, I guess!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$45,$8A,$86
+Subscript 6
+ShowChara 2 4 22
+# 今度$1と$2のあいだに、新しく$3の路線が開通するそうよ
+ShowTextBox "Sounds like\nthey're gonna\nopen a special\nroad between\n$1 and\n$2."
+WaitTextBox
+ShowChara 2 0 23
+# $4に行くのに、便利になるわね♪
+ShowTextBox "I'm only going\nthere for\n$4,\nbut I'm super\nexcited!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$83
+Subscript 7
+ShowChara 2 4 22
+# $1さんは『紅い$2』の異名を持っているのよ
+ShowTextBox "$1\nhas a special\nnickname in the\nforces...\nThey're the\nRed $2!"
+WaitTextBox
+ShowChara 2 0 23
+# 尊敬しちゃうわよね！
+ShowTextBox "You gotta\nadmire someone\nlike that,\nright?\nThey're a hero!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87,$47
+Subscript 8
+ShowChara 2 4 22
+# $1が終ったら、次は$2ね…
+ShowTextBox "Just as I'm done\nwith\n$1\nwork, it's on to\n$2..."
+WaitTextBox
+# …はぁ、なんでこんなに忙しいのかしら
+ShowTextBox "Sigh...\nWhy are we so\nbusy, anyway?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$03,$80
+Subscript 9
+ShowChara 2 4 23
+# $1には$2を連れている$3の銅像があるのよ
+ShowTextBox "There's this\nstatue in\n$1 of\n$3\nrunning with a\n$2..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $00,$85
+Subscript 10
+ShowChara 2 4 27
+# そんなに$1が有名なら、サインもらっておけばよかった～！
+ShowTextBox "I didn't know\n$1\nwas that famous!\nI gotta get\ntheir\nsignature!"
+WaitTextBox
+# このあいだ、$2で見かけたのよ～！
+ShowTextBox "I see them all\nthe time in\n$2!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $00,$81
+Subscript 11
+ShowChara 2 4 22
+# $1といえば、$2の大食いで有名よね
+ShowTextBox "$1\nis famous for\nhow much\n$2\nthey can eat.\nWeird, huh?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $09,$80
+Subscript 12
+ShowChara 2 4 22
+# あら『$1』なら、このまえ$2が何冊か買って行ったわよ
+ShowTextBox "Oh,\n$2\ncame and bought\nthe whole run of\n$1 a\nlittle earlier."
+WaitTextBox
+ShowChara 2 0 25
+# ひょっとしてファンなのかしら？
+ShowTextBox "You think\nthey're\nsecretly some\nkind of super\nfan, maybe?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84
+Subscript 13
+ShowChara 2 4 22
+# 知ってる？
+# $1って、お吸い物に入れるとおいしいんだって
+ShowTextBox "Hey, try this!\nPutting\n$1\nin soup is\nsuper tasty!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $00,$40,$83
+Subscript 14
+ShowChara 2 4 27
+# あ～！$1が$2と共演したドラマ『となりの$3』見損ねちゃった
+ShowTextBox "Ah, heck! I\nforgot to\nwatch that show\nwith\n$1 and\n$2!"
+WaitTextBox
+ShowChara 2 0 22
+# あれって、$1が$3の役を演じる、今注目のドラマなの
+ShowTextBox "You know!\nWhat was it,\n\"My Neighbor\n$3?\"\n$1 is\nthe $3!"
+WaitTextBox
+# 店長さん、知ってます？
+ShowTextBox "You know it,\nright,\nManager?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$84
+Subscript 15
+ShowChara 2 4 22
+# 学校で習ったんだ
+# けど、$1のお風呂って$2がたくさん入ってるんですって…
+ShowTextBox "I learned in\nschool that they\nput a lot of\n$2 in\nthe baths in\n$1..."
+WaitTextBox
+ShowChara 2 0 25
+# それって健康にいいのかしら？
+ShowTextBox "Is that supposed\nto be good for\nyour skin, or\nsomething?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8B
+Subscript 16
+ShowChara 2 4 23
+# $1か…
+# なつかしいわね
+ShowTextBox "Oh, yeah.\nI remember\n$1."
+WaitTextBox
+# 小さい頃、よくやったわ
+ShowTextBox "I used to play\nthat all the\ntime when I was\na kid. Ahh,\nmemories..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86,$84
+Subscript 17
+ShowChara 2 4 22
+# そうそう$1の$2園は今、花が満開らしいわよ
+ShowTextBox "Oh, yeah.\nThe $2\nflowers in\nthe park in\n$1\nare in bloom."
+WaitTextBox
+ShowChara 2 0 23
+# それってステキだ
+# けど…少し季節ハズレよね？
+ShowTextBox "They're so\npretty!\n...\nBut a little\nout of season,\nright?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $82
+Subscript 18
+ShowChara 2 4 23
+# $1ね
+# 急いでまじんがっ
+# ぱに、おつかいさせるわ
+ShowTextBox "I want some\n$1.\nMajin Gappa,\nyou go get some\nfor me!"
+WaitTextBox
+ShowChara 9 4 7
+# …………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 2 4 22
+# まじんがっぱ、ゴー！
+ShowTextBox "Majin Gappa,\nGO!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89,$80
+Subscript 19
+ShowChara 2 4 22
+# 『$1』の作者って、実は$2なんだって…
+ShowTextBox "The truth is,\n$1\nis written by\nnone other than\n$2!"
+WaitTextBox
+# 知ってた？
+ShowTextBox "Crazy, right?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88
+Subscript 20
+ShowChara 2 4 22
+# 『$1』って最近つまんないわよね～
+ShowTextBox "$1\nhas been kinda\nboring lately."
+WaitTextBox
+ShowChara 2 0 55
+# アタシ、見るのやめちゃった
+ShowTextBox "I just stopped\nwatching. But\nI feel bad for\nmissing out..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88
+Subscript 21
+ShowChara 2 4 22
+# まだ放送してたの
+# 『$1』？
+ShowTextBox "Huh? They're\nstill making\n$1?"
+WaitTextBox
+# もうとっくに終っ
+# ちゃったと思って
+# た
+ShowTextBox "I thought that\nshow ended ages\nago. Weird..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 22
+ShowChara 2 4 22
+# 『$1』って何巻まで出てたかしら？
+ShowTextBox "I wonder how\nmany volumes of\n$1\nthere are in\ntotal now."
+WaitTextBox
+ShowChara 2 0 55
+# あれもすごい人気よね～
+ShowTextBox "It's been\npopular for so\nlong!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8B
+Subscript 23
+ShowChara 2 4 55
+# ふう～
+# この季節、$1するのって疲れるわよね
+ShowTextBox "Playing\n$1\naround this time\nof year just\nmakes me tired."
+WaitTextBox
+ShowChara 2 0 24
+# なにがって、とにかくほこりが目に入って大変なの～
+ShowTextBox "My eyes get all\nred and\nitchy. It's\nreally\ndistracting."
+WaitTextBox
+ShowChara 9 4 7
+# …………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 2 4 25
+# あら、まじんがっ
+# ぱ…どうしたの？
+ShowTextBox "Huh?\nWhat's up,\nMajin Gappa?"
+WaitTextBox
+ShowChara 2 0 23
+# 目薬くれるの？
+# ありがとう♪
+ShowTextBox "Eyedrops?\nFor me?\nOh, thanks!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8A,$80
+Subscript 24
+ShowChara 2 4 22
+# そういえばこのま
+# え、学校の前に$1が止まってたわ
+ShowTextBox "So a couple\ndays ago,\nthis\n$1\nstopped in\nfront of school."
+WaitTextBox
+# $2が降りて来た時は、ビックリしちゃった
+ShowTextBox "And then\n$2\ngot out!\nI was\nspeechless!"
+WaitTextBox
+ShowChara 2 0 55
+# お金ってあるとこ
+# には、あるのね
+ShowTextBox "They must\nreally be rich\nto have one of\nthose, huh?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8A
+Subscript 25
+ShowChara 2 4 56
+# 赤い$1…
+# それに乗った王子様がアタシを迎えに来てくれるの…
+ShowTextBox "Ahh...\nA prince, coming\nfor me on a red\n$1..."
+WaitTextBox
+ShowChara 2 0 25
+# それがアタシの夢…
+ShowTextBox "How romantic...\nI hope he's\nout there..."
+WaitTextBox
+ShowChara 2 0 55
+# な～んて、そんなわけないか…
+ShowTextBox "...\nJust kidding.\nThat'd be\nsilly."
+WaitTextBox
+EndScript

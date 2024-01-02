@@ -1,0 +1,483 @@
+DSCBase $40CF0C
+
+
+
+
+Subscript 0
+SetBG 113
+Fade 0 30
+ShowChara 4 1 62
+# ぴょぴょぴょぴょ
+# …
+ShowTextBox "Pyo, pyo, pyo..."
+WaitTextBox
+# ついにこのときが
+# やってきたぴょ…
+ShowTextBox "It's finally time, pyo..."
+WaitTextBox
+# 今こそ、お姉ちゃ
+# んにギャフンと言
+# わせてやるぴょ！
+ShowTextBox "This time, Dejiko won't be able to argue, pyo!"
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# いらっしゃいませ
+# ゲマ～！
+ShowTextBox "Come on in, gema!"
+WaitTextBox
+ShowChara 8 0 53
+# ＜ゲーマーズ＞へ
+# ようこそゲマ～！
+ShowTextBox "Welcome to \"Gamers\", gema~!"
+WaitTextBox
+ShowChara 8 0 1
+# …え、お客さんじ
+# ゃないゲマか？
+ShowTextBox "... Oh, you're not a customer, gema?"
+WaitTextBox
+# 「これを見て」っ
+# て、何ゲマかその
+# 紙は？
+ShowTextBox "Huh? What's this paper you've got, gema?"
+WaitTextBox
+# えーと、
+# なになに…
+ShowTextBox "Hmm, let's see..."
+WaitTextBox
+Unk19 40
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 8 1 54
+# なんと新しい店長
+# さんだったゲマか
+# ！
+ShowTextBox "Oh, you're the new store manager, gema!"
+WaitTextBox
+ShowChara 8 0 1
+# それならそうと、
+# はやく言ってくれ
+# たらよかったゲマ
+ShowTextBox "You should have said so from the start, gema!"
+WaitTextBox
+# おほん…
+ShowTextBox "Ahem..."
+WaitTextBox
+ShowChara 8 0 53
+# え～、あなたは今
+# 日から１年間、こ
+# のゲーマーズの店
+# 長さんになったん
+# だゲマ！
+ShowTextBox "Welcome to Gamers! For the next year, you'll be the store manager, gema!"
+WaitTextBox
+# この１年間で、ゲ
+# ーマーズをよいお
+# 店にするのが…
+ShowTextBox "Your job is to make Gamers prosper all--"
+WaitTextBox
+ShowChara 4 2 62
+# ちょっと待つぴょ！
+ShowTextBox "Wait right there, pyo!"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバーっ！
+ShowTextBox "Geba!"
+WaitTextBox
+ShowChara 12 1 60
+# ゲバゲバーっ！
+ShowTextBox "Geba geba!"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバゲバゲバゲバ
+# ーっ！
+ShowTextBox "Geba geba geba geba!"
+WaitTextBox
+ShowChara 8 1 54
+# ゲマっ！？
+# 「ブラックゲマゲ
+# マ団」が何の用ゲ
+# マ～っ！
+ShowTextBox "Gema!? It's the Black Gema Gema Gang, gema!!"
+WaitTextBox
+ShowChara 5 2 35
+# ふふふ…この店は
+# たった今から我々
+# ブラックゲマゲマ
+# 団がのっとった！
+ShowTextBox "Heh heh heh... This store is now under the control of the Black Gema Gema Gang!"
+WaitTextBox
+ShowChara 6 2 40
+# 今日からこの店の
+# 名前は、「ゲーマ
+# ーズ」ではなく、
+# 「ブラックゲーマ
+# ーズ」だ！
+ShowTextBox "From today, no longer shall this store be called \"Gamers\"! It is now \"Black Gamers\"!!"
+WaitTextBox
+ShowChara 7 2 50
+# お前らわかったな
+# ら、ひかえおろー
+# ひかえおろーっ
+ShowTextBox "Hey! Are you all listening? You should be taking notes!"
+WaitTextBox
+ShowChara 7 0 47
+# ……ってぴよこ、
+# こんな感じでいい
+# か？
+ShowTextBox "... Hey Piyoko, is this really okay?"
+WaitTextBox
+ShowChara 4 2 29
+# 上出来ぴょ！
+ShowTextBox "It's going perfectly, pyo!"
+WaitTextBox
+ShowChara 4 0 28
+# そんなわけでお姉
+# ちゃん、今からこ
+# のゲームの主役は
+# このぴよこ様にな
+# ったぴょ！
+ShowTextBox "Dejiko, from now on, I'll be this game's main character, pyo!"
+WaitTextBox
+ShowChara 8 1 54
+# で、でじこ…
+# どーするゲマ！？
+ShowTextBox "D-Dejiko... What do we do, gema!?"
+WaitTextBox
+ShowChara 1 1 16
+# しょうがないにょ
+# ～…やつらの好き
+# にさせるにょ～
+ShowTextBox "Oh well, nyo... Let's just let them do what they want, nyo."
+WaitTextBox
+ShowChara 3 1 17
+# さんせいにゅ…
+ShowTextBox "I agree, nyu..."
+WaitTextBox
+ShowChara 2 1 22
+# まぁ、でじことぷ
+# ちこがそう言うん
+# だったら、いいん
+# じゃないかしら？
+ShowTextBox "Well, if they're okay with it, why not?"
+WaitTextBox
+ShowChara 8 1 54
+# がーん！
+ShowTextBox "Gaaah!"
+WaitTextBox
+# みんな、本当にそ
+# れでいいゲマかー
+# っ！
+ShowTextBox "This is really okay with you, gema!?"
+WaitTextBox
+# 店長さんもなにか
+# 言って欲しいゲマ
+# ！！
+ShowTextBox "What do you think, Manager!?"
+WaitTextBox
+# いいんじゃない
+# このお店を守ろう
+ShowSelMenu09 2 "!That's fine!\nI'll protect this store!"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 4 2 29
+# ぴょぴょ、結論が
+# 出たよーだぴょ
+ShowTextBox "That settles it, pyo!"
+WaitTextBox
+ShowChara 4 0 28
+# それじゃ、あとの
+# ことはすべて、こ
+# のぴよこ様におま
+# かせだぴょ！
+ShowTextBox "Leave everything to me, pyo!"
+WaitTextBox
+ShowChara 12 1 60
+# ブラックゲマゲマ
+# 団、ばんざーい！
+ShowTextBox "Black Gema Gema Gang forever!!"
+WaitTextBox
+ShowChara 12 2 60
+# ブラックゲマゲマ
+# 団首領、ピョコラ
+# ＝アナローグV世
+# 様ばんざーい！
+ShowTextBox "Long live Lady Pyokora Analogue the 3rd!!"
+WaitTextBox
+ShowChara 1 1 8
+# じゃ、新しい店長
+# さん、あとはよろ
+# しく頼むにょ
+ShowTextBox "Manager, I'll leave it to you, nyo."
+WaitTextBox
+ShowChara 2 1 23
+# 何か困ったことが
+# あったら、気軽に
+# 相談しに来てね
+ShowTextBox "Feel free to ask us if you need anything."
+WaitTextBox
+ShowChara 4 2 33
+# ちょ、ちょっと、
+# どこ行くぴょ？
+ShowTextBox "H-Hey, where are you going, pyo?"
+WaitTextBox
+ShowChara 1 1 8
+# どこって、ほかの
+# ゲーマーズのお手
+# 伝いに行くんだに
+# ょ？
+ShowTextBox "Huh? We're going to another Gamers store to help out, obviously, nyo."
+WaitTextBox
+ShowChara 3 1 17
+# ゲーマーズはひと
+# つじゃないにゅ
+ShowTextBox "Gamers isn't just the one store, nyu."
+WaitTextBox
+ShowChara 2 1 23
+# ちょうどいそがし
+# いところだったか
+# ら、助かっちゃっ
+# たわね
+ShowTextBox "Actually, we were a bit understaffed, so you're really helping us out!"
+WaitTextBox
+ShowChara 1 1 14
+# じゃ、さらばだに
+# ょ～
+ShowTextBox "Farewell, nyo!"
+WaitTextBox
+ShowChara 2 1 23
+# ばいば～い@
+ShowTextBox "Bye bye!"
+WaitTextBox
+ShowChara 3 1 18
+# 失礼するにゅ
+ShowTextBox "We're off, nyu."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 7 2 58
+# ど、どーする、や
+# つら、行っちゃっ
+# たぜ！？
+ShowTextBox "W-What do we do? They just up and left!"
+WaitTextBox
+ShowChara 5 2 57
+# ピョ、ピョコラ様
+# …
+ShowTextBox "Lady Pyokora..."
+WaitTextBox
+ShowChara 6 2 43
+# なんだか、逆にし
+# てやられてしまっ
+# たような…
+ShowTextBox "This wasn't how I expected things would go..."
+WaitTextBox
+ShowChara 4 2 31
+# む～っ…
+ShowTextBox "Hmph..."
+WaitTextBox
+# こーなったら、ブ
+# ラックゲマゲマ団
+# のすごさを見せて
+# やるぴょっ！！
+ShowTextBox "If that's how it's gonna be, we'll just have to show them the might of the Black Gema Gema Gang, pyo!"
+WaitTextBox
+ShowChara 4 0 29
+# お姉ちゃんよりも
+# よい成績をあげる
+# んだぴょ～！
+ShowTextBox "We'll run the store better than they ever could, pyo!"
+WaitTextBox
+ShowChara 4 0 34
+# とりあえず、店長
+# さんにも、協力し
+# てほしいぴょ！
+# よろしくぴょ！
+ShowTextBox "I want you to help too, Manager!\nWe're depending on you, pyo!"
+WaitTextBox
+Fade 1 30
+EndScript
+Label 1
+ShowChara 1 1 16
+# でじこ的には、ど
+# うでもいいにょ～
+ShowTextBox "I don't care one way or the other, nyo~"
+WaitTextBox
+# でも、店長さんの
+# 命令ならしょうが
+# ないにょ～
+ShowTextBox "But if that's your orders, Manager, I guess there's no choice, nyo~"
+WaitTextBox
+ShowChara 3 1 17
+# しかたないにゅ
+ShowTextBox "Oh well, nyu."
+WaitTextBox
+ShowChara 2 1 22
+# まぁ、でじことぷ
+# ちこがそういうん
+# だったら、いいん
+# じゃないかしら？
+ShowTextBox "If Dejiko and Puchiko are for it, I'm on board."
+WaitTextBox
+ShowChara 4 2 33
+# ぴょーっ！
+ShowTextBox "Pyo-!"
+WaitTextBox
+ShowChara 4 0 31
+# お姉ちゃんたち、
+# それでいいぴょ？
+# ちょっといい加減
+# すぎるぴょーっ！
+ShowTextBox "That's your attitude?\nTake this seriously, pyo!"
+WaitTextBox
+ShowChara 1 1 11
+# まったくもって、
+# よけいなお世話に
+# ょ！
+ShowTextBox "How we take it is none of your business, nyo!"
+WaitTextBox
+ShowChara 1 0 9
+# さ、お帰りはあち
+# らにょ！他のお客
+# さんに迷惑だから
+# とっとと出て行く
+# にょっ！
+ShowTextBox "Now get out of here, nyo! You're getting in the way of the other customers!"
+WaitTextBox
+ShowChara 2 1 23
+# 言うこと聞かない
+# と、でじこの目か
+# らビームが出ちゃ
+# うかもしれないわ
+# ね♪
+ShowTextBox "I wouldn't try to argue, unless you want some of Dejiko's Eye Laser Beam. ♪"
+WaitTextBox
+ShowChara 3 1 21
+# ぷちこもスタンバ
+# イＯＫにゅ！
+ShowTextBox "Puchiko is Standby OK for orders, nyu!"
+WaitTextBox
+ShowChara 5 2 57
+# ピョ、ピョコラ様
+# 危険です！ここは
+# ひとまず！！
+ShowTextBox "This is dangerous, Lady Pyokora! Let's withdraw for now!"
+WaitTextBox
+ShowChara 7 2 58
+# に、逃げないと命
+# が危なそうだ！
+ShowTextBox "Your life may be in danger if we don't hurry!!"
+WaitTextBox
+ShowChara 6 2 44
+# て、撤退（てった
+# い）～！！
+ShowTextBox "R-Retreat!!"
+WaitTextBox
+ShowChara 12 2 60
+# ゲ、ゲバ～っ！
+ShowTextBox "G-Geba!!"
+WaitTextBox
+ShowChara 4 2 31
+# お、お姉ちゃん！
+# きょ、今日のとこ
+# ろはこれくらいに
+# しておいてやるぴ
+# ょっ…！
+ShowTextBox "D-Dejiko! I'll leave it at this for now, pyo!"
+WaitTextBox
+# だけど、お姉ちゃ
+# ん、これだけは言
+# っておくぴょっ！
+ShowTextBox "But listen up, because I'll say this, pyo!"
+WaitTextBox
+ShowChara 1 1 8
+# 何にょっ？
+ShowTextBox "What, nyo?"
+WaitTextBox
+ShowChara 4 2 28
+# さっきの質問で、
+# 「いいんじゃない
+# 」を選ぶとブラッ
+# クゲーマーズ編に
+# なるんだぴょっ！
+ShowTextBox "If you had chosen \"That's fine\" a while ago, we'd have accepted you as a member of the Black Gema Gema Gang, pyo!"
+WaitTextBox
+ShowChara 4 0 29
+# だから、ブラック
+# ゲーマーズ編をや
+# りたい人は、もう
+# 一度最初からやり
+# 直すぴょーっ！
+ShowTextBox "So if you'd rather go with us, start the game over and choose again, pyo!"
+WaitTextBox
+ShowChara 1 1 12
+# ぴよこ…
+ShowTextBox "Piyoko..."
+WaitTextBox
+ShowChara 1 0 12
+# 解説、ごくろうさ
+# んだにょ…
+ShowTextBox "Thanks for the explanation, nyo...?"
+WaitTextBox
+ShowChara 1 0 8
+# …さて、ジャマな
+# 人もいなくなった
+# ことだし、いつも
+# の展開に戻るとす
+# るにょっ
+ShowTextBox "Well, now that they're out of the way, let's get back to work, nyo."
+WaitTextBox
+ShowChara 8 1 1
+# ＯＫゲマ…！
+ShowTextBox "OK, gema...!"
+WaitTextBox
+# え～っとゲマ…
+ShowTextBox "Ahem, where was I...?"
+WaitTextBox
+ShowChara 8 0 53
+# では店長さん、
+# ３人の中から、
+# 「アシスタント」
+# をひとり選ぶゲマ
+ShowTextBox "Store manager, please pick which of these three you'd like to be your \"Assistant\", gema."
+WaitTextBox
+# 「アシスタント」
+# になった人は、こ
+# の１年間、特に店
+# 長さんのことを手
+# 伝ってくれるゲマ
+ShowTextBox "Your \"Assistant\" will be your go-to for help over the next year, gema."
+WaitTextBox
+# だから、よく考え
+# て選ぶゲマ
+ShowTextBox "So, choose carefully, gema!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 2
+SetBG 112
+Fade 0 30
+ShowChara 4 1 29
+# 店長さん、ぴよこ
+# といっしょにがん
+# ばるぴょ！
+ShowTextBox "Let's do our best, Manager, pyo!"
+WaitTextBox
+# お姉ちゃんなんか
+# にはまけないぴょ
+# ！
+ShowTextBox "I won't lose to Dejiko, pyo!"
+WaitTextBox
+DoorCloseTransition
+EndScript

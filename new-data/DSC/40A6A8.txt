@@ -1,0 +1,195 @@
+DSCBase $40A6A8
+
+
+
+
+Subscript 0
+SetPermTextBoxPos 0 16
+ShowChara 1 2 8
+EndScript
+
+
+
+Subscript 1
+ShowChara 1 0 8
+# お店を開けるにょ～！
+ShowTextBox "Open the shop, nyo!"
+EndScript
+
+
+
+Subscript 2
+ShowChara 1 0 8
+# グッズを仕入れるにょ
+# ～！
+ShowTextBox "Put stock on the shelves, nyo!"
+EndScript
+
+
+
+Subscript 3
+ShowChara 1 0 8
+# 誰がどのお仕事をする
+# か、決めるにょ！
+ShowTextBox "Choose everyone's assignments, nyo!"
+EndScript
+
+
+
+Subscript 4
+ShowChara 1 0 8
+# 棚の中身をじっくり見
+# るにょ！
+ShowTextBox "Take a look at what's inside the cabinet, nyo!"
+EndScript
+
+
+
+Subscript 5
+ShowChara 1 0 8
+# 何か買うにょ！
+ShowTextBox "Pay for something special, nyo!"
+EndScript
+
+
+
+Subscript 6
+ShowChara 1 0 8
+# でじこたちの装備品を
+# 買うにょ！
+ShowTextBox " Buy equipment for employees, nyo!"
+EndScript
+
+
+
+Subscript 7
+ShowChara 1 0 8
+# バーゲンをやって、お
+# 客さんをたくさん呼ぶ
+# にょ！
+ShowTextBox "Offer a special deal to attract customers, nyo!"
+EndScript
+
+
+
+Subscript 8
+ShowChara 1 0 8
+# ビラを配って、お店の
+# 宣伝をするにょ！
+ShowTextBox "Hand out flyers to advertise the shop, nyo!"
+EndScript
+
+
+
+Subscript 9
+ShowChara 1 0 8
+# お店にスロットを増や
+# すにょ！
+ShowTextBox " Add a new Slot to the shop, nyo!"
+EndScript
+
+
+
+Subscript 10
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 1 0 10
+# 今週もがんばって、お
+# 仕事するにょ！
+ShowTextBox "Let's get to work, nyo!"
+EndScript
+
+
+
+Subscript 12
+EndScript
+
+
+
+Subscript 13
+ShowChara 1 0 12
+# すまないにょ、まだ出
+# 来ないにょ
+ShowTextBox "Sorry... you can't do that yet, nyo."
+EndScript
+
+
+
+Subscript 14
+ShowChara 1 0 8
+# $0円かかるけど、やるにょ？
+ShowTextBox "That'll cost $0 yen. Should we do it, nyo?"
+EndScript
+
+
+
+Subscript 15
+ShowChara 1 0 12
+# お金がないから、でき
+# ないにょ～
+ShowTextBox "We don't have enough money to do that, nyo~"
+EndScript
+
+
+
+Subscript 16
+ShowChara 1 0 10
+# これでお仕事１００倍
+# できるにょ！
+ShowTextBox "With this much, we could do this a hundred times, nyo!"
+EndScript
+
+
+
+Subscript 17
+ShowChara 1 0 10
+# バーゲンするにょ！
+ShowTextBox "Sale started, nyo!"
+EndScript
+
+
+
+Subscript 18
+ShowChara 1 0 10
+# ビラ配りするにょ！
+ShowTextBox "Let's go hand out some flyers, nyo!"
+EndScript
+
+
+
+Subscript 19
+ShowChara 1 0 10
+# お店を広くするにょ！
+# 工事は来週の日曜日に
+# やるにょ！
+ShowTextBox "Done! The expansion will be finished Sunday of next week, nyo!"
+EndScript
+
+
+
+Subscript 20
+ShowChara 1 0 8
+# 誰かのフェアをやって
+# お客さんを呼ぶにょ！
+ShowTextBox "Hold a Special Fair of somebody! A lot of customers will come by to check it out, nyo!"
+EndScript
+
+
+
+Subscript 21
+ShowChara 1 0 10
+# $1フェアの始まりにょ！
+ShowTextBox "Time to start the $1 Fair, nyo!"
+EndScript
+
+
+
+Subscript 22
+ShowChara 1 0 8
+# $1のフェアをやるにょ！
+ShowTextBox "Hold a $1 Fair, nyo!"
+EndScript

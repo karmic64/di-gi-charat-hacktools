@@ -1,0 +1,431 @@
+DSCBase $406D0C
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 29
+# 今日は楽しいひな
+# 祭りぴょ～っ！
+ShowTextBox "Today's the Hina\nfestival, pyo!"
+WaitTextBox
+ShowChara 4 0 28
+# ひな人形がないか
+# ら、ちょっとさみ
+# しいぴょ…
+ShowTextBox "But we don't\nhave any Hina\ndolls, so it's\na little sad,\npyo."
+WaitTextBox
+ShowChara 5 2 37
+# ううっ、ピョコラ
+# 様、もうしわけあ
+# りません…
+ShowTextBox "I-I apologize,\nLady Pyocola..."
+WaitTextBox
+ShowChara 6 2 43
+# 自分たちがふがい
+# ないばかりに、ピ
+# ョコラ様に悲しい
+# 思いをさせてしま
+# って…
+ShowTextBox "It's our fault.\nWe're not fit\nto be your\nsubordinates!"
+WaitTextBox
+ShowChara 7 2 49
+# 俺も悲しいぜ…
+ShowTextBox "I'm sad, too..."
+WaitTextBox
+ShowChara 4 1 33
+# そ、そんなにおお
+# げさに嘆かなくて
+# もいいぴょ
+ShowTextBox "I-It's fine,\npyo! You don't\nneed to go\nthat far."
+WaitTextBox
+ShowChara 5 2 38
+# かくなるうえは、
+# 私がこの身をもっ
+# て、ひな人形の代
+# わりとなりましょ
+# う！
+ShowTextBox "It's our\nresponsibility\nto fix this!\nLet us become\nthe Hina dolls\nourselves!"
+WaitTextBox
+ShowChara 6 2 42
+# ならば、リク元帥
+# がおびなさまに…
+# 自分はめびなさま
+# になります！
+ShowTextBox "Admiral Rik\nwill dress as\nthe King, and\nI will take on\nthe role of\nthe Queen!"
+WaitTextBox
+ShowChara 4 1 30
+# そんなおひな様は
+# イヤぴょ…
+ShowTextBox "I'm not\ninterested in\nthose kind of\ndolls, pyo."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 6 2 41
+# ピョコラ様、あら
+# れはいかがですか
+# ？
+ShowTextBox "Lady Pyocola,\nwould you\nlike some\ncrackers?"
+WaitTextBox
+ShowChara 4 1 29
+# 当然、食べるぴょ
+# ～っ！
+ShowTextBox "Of course!\nGimme, pyo!"
+WaitTextBox
+ShowChara 4 0 28
+# ぼりぼり、ぼりぼ
+# り…
+ShowTextBox "Crunch,\ncrunch..."
+WaitTextBox
+ShowChara 4 0 30
+# んむっ！むぐぐ…
+# の、のどが…
+ShowTextBox "G-Gulp!\nMy throat..."
+WaitTextBox
+ShowChara 6 2 44
+# だ、だいじょうぶ
+# ですか、ピョコラ
+# 様っ！
+ShowTextBox "Lady Pyocola!\nAre you quite\nalright!?"
+WaitTextBox
+ShowChara 7 2 58
+# はやく水、水っ！
+# あられがのどに引
+# っかかったんだ！
+ShowTextBox "W-Water! I\nneed water,\npyo! One got\nstuck in my\nthroat!"
+WaitTextBox
+ShowChara 4 1 30
+# むぐぐ…
+ShowTextBox "Gulp..."
+WaitTextBox
+ShowChara 5 2 35
+# ピョコラ様、これ
+# をっ…！
+ShowTextBox "Here, Lady\nPyocola!"
+WaitTextBox
+ShowChara 4 1 30
+# ごく、ごく…
+ShowTextBox "Gulp...\nGah..."
+WaitTextBox
+# ぷはーっ、助かっ
+# たぴょ…
+ShowTextBox "Whew...\nThanks, pyo."
+WaitTextBox
+ShowChara 4 0 29
+# って、あれっ、何
+# だか頭がくらくら
+# するぴょ～っ…
+ShowTextBox "But now I'm\nfeeling dizzy,\npyo..."
+WaitTextBox
+ShowChara 7 2 47
+# おーい、ぴよこ…
+# なんだか、目を回
+# しちゃったみたい
+# だぜ…
+ShowTextBox "Hey, Piyoko!\nHold on! Your\neyes are going\nall over the\nplace!"
+WaitTextBox
+ShowChara 6 2 40
+# リク元帥、ピョコ
+# ラ様に何を飲ませ
+# たのです？
+ShowTextBox "Rik, what did\nyou give Lady\nPyocola to\ndrink?"
+WaitTextBox
+ShowChara 5 2 35
+# むっ、いかん！こ
+# れはひな祭りには
+# つきものの甘酒で
+# はないか…
+ShowTextBox "W-What a\nblunder! That\nwas the wine\nprepared for\nthe Hina \nFestival!"
+WaitTextBox
+# ううむ、緊急事態
+# とはいえ、少々う
+# かつであった…
+ShowTextBox "That was\nthoughtless...\nBut at the\nvery least,\nit's not an\nemergency."
+WaitTextBox
+ShowChara 5 0 39
+# 誤って未成年者が
+# 口にしないよう、
+# この場の大人を代
+# 表して、私が全部
+# 飲んでしまおう…
+ShowTextBox "I can't allow\na minor to have\nany more of\nthis... There's\nonly one way to\nget rid of it."
+WaitTextBox
+ShowChara 5 0 35
+# ごくごく…
+ShowTextBox "Gulp, gulp..."
+WaitTextBox
+# ごくごく…
+ShowTextBox "Gulp, gulp..."
+WaitTextBox
+ShowChara 5 0 37
+# ふ～っまだ、だい
+# ぶ残っているな…
+# 店長、残りを手伝
+# ってもらえないか
+# ？
+ShowTextBox "W-Wheew...\nThere's so much\nleft... Hey,\nManager! Help\nme out with\nthis, will you?"
+WaitTextBox
+# おっと、その前に
+# 尋ねておかなくて
+# は…店長はお酒が
+# 飲める年齢か？
+ShowTextBox "Wait just a\nsecond! I\nshould ask\nfirst... You\nARE old enough\nto drink, yes?"
+WaitTextBox
+ShowChara 7 2 48
+# ２０歳以上かどう
+# かを聞いているん
+# だぞ！
+ShowTextBox "The legal age\nis 20 in Japan,\nyou know!\nI think..."
+WaitTextBox
+# ２０歳未満だ
+# じつは２０歳以上
+ShowSelMenu09 2 "!I'm too young\nI'm old enough"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 5 2 37
+# しかたない…残り
+# も私ひとりで飲ん
+# でしまおう
+ShowTextBox "Ah, welll...\nI guess I'll\nhave to take\ncare of it on\nmy own..."
+WaitTextBox
+# ごくごく…
+ShowTextBox "Gulp, gulp..."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 6 2 43
+# ピョコラ様、ピョ
+# コラ様っ、起きて
+# くださいっ！
+ShowTextBox "Lady Pyocola!\nWake up,\nplease!"
+WaitTextBox
+ShowChara 4 1 34
+# ぴょぴょ～なんか
+# 頭がズキズキする
+# ぴょ～
+ShowTextBox "Pyoooo...\nMy head feels\nlike it's\nbreaking in\nhalf, pyo!"
+WaitTextBox
+ShowChara 7 2 50
+# ぴよこ、寝ぼけて
+# るどころじゃない
+# ぞ！リクが大変な
+# ことに…
+ShowTextBox "There's no\ntime to rest,\nPiyoko! Rik's\nin big trouble!"
+WaitTextBox
+ShowChara 4 1 29
+# ぴょっ、リクが大
+# 変？？？
+ShowTextBox "What!? Where's\nRik, pyo!?"
+WaitTextBox
+Unk08 4 237 22 108 54 10 3
+Unk08 5 126 72 44 96 10 3
+Unk08 12 94 55 12 79 10 3
+Fade 3 30
+SetBG 99
+Fade 2 30
+ShowChara 4 0 0
+# ぴょぴょ～っ、リクが
+# 酔っぱらいさんになっ
+# てるぴょ～！
+ShowTextBox "H-He's drunk,\npyo!"
+WaitTextBox
+ShowChara 5 0 0
+# ひっく…まったく最近
+# のペットの飼い主とき
+# たらけしからん…
+ShowTextBox "Hic... Th-that's\nthe problem\nwith you pet\nowners these\nsays... I mean,\ndays. Hic..."
+WaitTextBox
+# ぶつぶつ…動物を愛し
+# てない者がペットを飼
+# うなんて許せん！
+ShowTextBox "If you aren't\nnot going to\nshow your pet\nLOVE, you\nshouldn't have\nthem! Hic!"
+WaitTextBox
+# 店長、貴様もそう思
+# うだろう？
+ShowTextBox "Heeeyy...!\nManager!\nGood ol'\nManager! You\nthink so too,\nright!?"
+WaitTextBox
+# はい
+# その通り
+# 同意する
+ShowSelMenu09 3 "!Yep\nExactly\nOf course"
+ShowChara 5 0 0
+# うんうん、全くその通
+# りだ…ところで店長、
+# もっと飲むだろう？
+ShowTextBox "Yeah, you\nKNOW I'm\nright... By\nthe way, I'm\ngonna have\nmore, okaay?"
+WaitTextBox
+# はい
+# その通り
+# 同意する
+ShowSelMenu09 3 "!Yep\nExactly\nOf course"
+ShowChara 5 0 0
+# 店長がそういうならし
+# かたない…
+# 飲むしかないな
+ShowTextBox "Heh heh...\nHere you go,\nmy friend!\nBottoms up!"
+WaitTextBox
+# ところで店長、動物さ
+# んたちは好きか？
+ShowTextBox "Hey, Manager.\nYou like\nanimals, right?"
+WaitTextBox
+# はい
+# その通り
+# 同意する
+ShowSelMenu09 3 "!Yep\nExactly\nOf course"
+ShowChara 5 0 0
+# うむ、その通りだ！店
+# 長、私も動物さんたち
+# が大好きだ
+ShowTextBox "Heeyy, what\na coincidence!\nI like animals\ntoo, manager!"
+WaitTextBox
+# いや、愛していると言
+# ってもいいッ！
+# 動物さんたちを…！！
+ShowTextBox "No, I LOVE em!\nAnimals are...\neverything to\nme!!!"
+WaitTextBox
+Fade 1 30
+SetBG 112
+Fade 0 30
+ShowChara 6 2 43
+# どうしましょう、
+# ピョコラ様？
+ShowTextBox "What do we do,\nLady Pyocola?"
+WaitTextBox
+ShowChara 4 1 31
+# う～ん…
+ShowTextBox "Ugh..."
+WaitTextBox
+ShowChara 7 2 49
+# どうする、ぴよこ
+# ？
+ShowTextBox "Piyoko, we've\ngotta do\nsomething!"
+WaitTextBox
+ShowChara 4 1 31
+# う～ん…
+ShowTextBox "Hrmm..."
+WaitTextBox
+ShowChara 4 0 29
+# ま、ほうっておけ
+# ば、そのうちなん
+# とかなるぴょ！
+ShowTextBox "Well, if we\nleave them\nalone, they'll\nsober up\neventually,\npyo!"
+WaitTextBox
+ShowChara 7 2 48
+# そうだな、ははは
+# …
+ShowTextBox "I guess so!\nHahaha!"
+WaitTextBox
+ShowChara 6 2 41
+# そうですね、はは
+# は…
+ShowTextBox "That's\nright, haha..."
+WaitTextBox
+ShowChara 6 0 43
+# （店長、すみませ
+# ん…）
+ShowTextBox "(I'm sorry,\nManager...)"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 5 2 36
+# では店長、まずは
+# おひとつ…
+ShowTextBox "Then, Manager,\nI'll go\nfirst..."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 5 2 36
+# よし、これで一安
+# 心だ！甘酒は全部
+# なくなったぞ
+ShowTextBox "There we are!\nNo more wine."
+WaitTextBox
+ShowChara 4 1 34
+# うう～ん…なんだ
+# か知らないけれど
+# 急にくらくらきて
+# 眠ってしまったぴ
+# ょ…
+ShowTextBox "Mmmm...\nI think I\nfell asleep,\npyo..."
+WaitTextBox
+ShowChara 6 2 41
+# ピョコラ様、ご安
+# 心ください！危険
+# は取り除かれまし
+# た
+ShowTextBox "Worry not, Lady\nPyocola! The\ndanger is\npassed!"
+WaitTextBox
+ShowChara 4 1 28
+# 危険？
+# 何のことぴょ？
+ShowTextBox "Danger?\nWhat happened,\npyo?"
+WaitTextBox
+ShowChara 4 0 29
+# まぁいいぴょ
+# ひな祭りを続ける
+# ぴょ
+ShowTextBox "Well, whatever,\npyo. Let's get\nback to the\nHina festival!"
+WaitTextBox
+ShowChara 7 2 48
+# ぴよこ、あられ食
+# うか？
+ShowTextBox "Piyoko, do you\nwant a cracker?"
+WaitTextBox
+ShowChara 4 1 29
+# 食べるぴょ～っ！
+ShowTextBox "Yeah, pyo!"
+WaitTextBox
+# ぼりぼり、ぼりぼ
+# り…
+ShowTextBox "Chomp,\ncrunch..."
+WaitTextBox
+ShowChara 4 0 34
+# ぴょっ？どうして
+# みんな、ぴよこに
+# 注目してるぴょ？
+ShowTextBox "Pyo? Why are\nyou all looking\nat me like\nthat, pyo?"
+WaitTextBox
+ShowChara 5 2 36
+# い、いいえ、なん
+# となく
+ShowTextBox "N-No reason."
+WaitTextBox
+ShowChara 6 2 41
+# な、なんでもあり
+# ません
+ShowTextBox "Don't worry\nabout it,\nLady Pyocola."
+WaitTextBox
+ShowChara 7 2 48
+# 俺も食おっと
+# ぼりぼりぼりぼり
+# …
+ShowTextBox "I'm gonna \nhave some too!\nChomp, crunch..."
+WaitTextBox
+ShowChara 7 0 50
+# うっ！
+ShowTextBox "Urk!"
+WaitTextBox
+ShowChara 6 2 44
+# なにっ、こっちか
+# っ！
+ShowTextBox "What's the\nmatter!?"
+WaitTextBox
+ShowChara 7 2 50
+# ううっ…
+ShowTextBox "Urrrgh..."
+WaitTextBox
+ShowChara 5 2 35
+# おい、クウどうし
+# た！
+ShowTextBox "Coo! What's\nwrong!?"
+WaitTextBox
+ShowChara 7 2 48
+# うまい！
+ShowTextBox "These are too\ngood!"
+WaitTextBox
+EndScript

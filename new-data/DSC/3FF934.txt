@@ -1,0 +1,170 @@
+DSCBase $3FF934
+
+
+
+
+Subscript 0
+Unk08 3 126 70 16 108 10 2
+SetBG 122
+Fade 0 30
+ShowChara 1 1 9
+# 明日はひな祭りに
+# ょ～
+ShowTextBox "Tomorrow's\nHinamatsuri,\nnyo~"
+WaitTextBox
+# それで、ひな壇
+# （ひなだん）の準
+# 備はＯＫにょ？
+ShowTextBox "Are all the Hina\ndolls ready,\nnyo?"
+WaitTextBox
+ShowChara 3 2 17
+# ＯＫにゅ…
+ShowTextBox "Ready, nyu..."
+WaitTextBox
+ShowChara 1 1 9
+# あとは明日を待つ
+# ばかりにょ！
+ShowTextBox "Just gotta wait\ntill tomorrow,\nthen, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# 明日になったら、
+# あられかじって、
+# 甘酒飲んで、ひし
+# 餅を食べるにょ～
+# っ！
+ShowTextBox "Tomorrow, I'll\nget to eat\ncrackers and\ndrink juice till\nI burst, nyo!"
+WaitTextBox
+ShowChara 2 2 55
+# 全部、食べること
+# ばっかりね…
+ShowTextBox "You're only ever\nin it for the\nfood, aren't\nyou...?"
+WaitTextBox
+ShowChara 1 1 15
+# にょにょっ、ヤボ
+# なツッコミはやめ
+# るにょ、うさだ！
+ShowTextBox "Usada, quit\nbeing such a\nkilljoy, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# そ、それよりも、
+# この見事なひな壇
+# を見るにょ～！
+ShowTextBox "More\nimportantly,\ntake a look at\nour Hina doll\ndisplay, nyo!"
+WaitTextBox
+ShowChara 2 2 23
+# へぇ、なかなか立
+# 派なものね
+ShowTextBox "Hmm.\nYou did a\npretty good\njob."
+WaitTextBox
+ShowChara 1 1 10
+# どうにょ、ゲマを
+# こきつかって作り
+# 上げた、グレート
+# なひな壇にょ！
+ShowTextBox "We had to\nwrestle Gema\ninto doing it,\nbut I think\nit came out\ngreat, nyo!"
+WaitTextBox
+ShowChara 8 1 2
+# ゲマがひとりで作
+# った血と汗と涙の
+# 結晶ゲマ…
+ShowTextBox "This display\ncost me blood,\nsweat and tears\nto finish alone,\ngema..."
+WaitTextBox
+ShowChara 2 2 23
+# あ、いま、ちょっ
+# といいこと思いつ
+# いちゃった！
+ShowTextBox "Hey, I've got\na good idea!"
+WaitTextBox
+ShowChara 2 0 22
+# ねぇぷちこ、ちょ
+# っといいかしら？
+ShowTextBox "Puchiko, can\nI have a\nsecond?"
+WaitTextBox
+ShowChara 3 2 17
+# にゅ？
+ShowTextBox "Nyu?"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 2 2 26
+# 完成っ！
+ShowTextBox "All done!"
+WaitTextBox
+ShowChara 1 1 15
+# にょにょっ、これ
+# は驚きにょっ！
+ShowTextBox "I can't believe\nit, nyo!"
+WaitTextBox
+Fade 3 30
+SetBG 12
+Fade 2 30
+ShowChara 3 0 0
+# どうかにゅ、似合って
+# るかにゅ？
+ShowTextBox "Does it fit me,\nnyu?"
+WaitTextBox
+Fade 1 30
+SetBG 122
+Fade 0 30
+ShowChara 1 1 10
+# ばっちりにょ！ど
+# こから見ても、立
+# 派なひな人形にょ
+ShowTextBox "It's perfect!\nI can't tell\nthe difference\nbetween you and\nand the rest of\nthe dolls, nyo!"
+WaitTextBox
+ShowChara 2 2 23
+# う～ん、ここまで
+# ハマるとは思わな
+# かったわ
+ShowTextBox "I honestly\ndidn't know\nit would work\nso well,\neither!"
+WaitTextBox
+# 記念写真、撮って
+# おきましょ！
+ShowTextBox "Let's take a\npicture!"
+WaitTextBox
+ShowChara 1 1 8
+# 困ったにょ、今、
+# うちにカメラない
+# にょ！
+ShowTextBox "That's a\nproblem...\nWe don't have\na camera, nyo!"
+WaitTextBox
+ShowChara 2 2 23
+# お店に行けばある
+# かも…店長さんに
+# 頼めば、きっと貸
+# してくれると思う
+# わ
+ShowTextBox "They might have\none at the\nstore... If we\nask the Manager,\nI'm sure they'll\nlend us one."
+WaitTextBox
+ShowChara 1 1 9
+# うさだ、ナイスア
+# イディアにょ
+ShowTextBox "Good idea, nyo!"
+WaitTextBox
+ShowChara 2 2 22
+# 待ってて、アタシ
+# がひとっ走り行っ
+# てくる！
+ShowTextBox "Wait right\nthere! I'll run\nover and get\na camera!"
+WaitTextBox
+ShowChara 1 1 15
+# にょにょ、でじこ
+# も行くにょ～
+ShowTextBox "Nyo! I'm going\ntoo, nyo!"
+WaitTextBox
+Fade 1 30
+SetBG 12
+Fade 0 30
+ShowChara 3 0 0
+# ………………
+ShowTextBox "..."
+WaitTextBox
+# ………………
+ShowTextBox "..."
+WaitTextBox
+# いつまで待てばいいに
+# ゅ？
+ShowTextBox "Am I supposed\nto just sit\nhere, nyu?"
+WaitTextBox
+EndScript

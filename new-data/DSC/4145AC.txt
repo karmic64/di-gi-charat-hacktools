@@ -1,0 +1,68 @@
+DSCBase $4145AC
+
+
+
+
+Subscript 0
+# カイの悩みを聞いた！
+ShowTextBox "You listened to Ky's complaints!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+# カイをなだめた！
+ShowTextBox "You helped Ky calm down!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+# カイをなぐさめた！
+ShowTextBox "You consoled Ky!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+# カイをおだてた！
+ShowTextBox "You flattered Ky!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+# カイにかつを入れた！
+ShowTextBox "You gave Ky a pep talk!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+# カイをはげました！
+ShowTextBox "You cheered on Ky!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+# カイをほめた！
+ShowTextBox "You praised Ky!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+EndScript
+
+
+
+Subscript 8
+EndScript

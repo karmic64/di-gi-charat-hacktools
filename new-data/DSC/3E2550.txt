@@ -1,0 +1,178 @@
+DSCBase $3E2550
+
+
+
+### Prefill data: $09,$40,$40
+Subscript 0
+ShowChara 6 4 40
+# ここでひとつ豆知識！
+ShowTextBox "Here's something\nyou may not have\nknown, Manager!"
+WaitTextBox
+# 『$1』は実は$2が描いた大傑作です！
+ShowTextBox "$1 is,\nin fact, the\nmagnum opus of\n$2's\nbrilliant ouvre!"
+WaitTextBox
+ShowChara 6 0 43
+# 主人公$3の生きざまに感動します
+ShowTextBox "The protagonist\n$3's\nconduct sets an\nexample for us\nall."
+WaitTextBox
+ShowChara 6 0 41
+# お求めはぜひ当店で！
+ShowTextBox "I implore you\nto run this\nstore in a way\nthey would\nbe proud of!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81
+Subscript 1
+ShowChara 6 4 40
+# $1…ママの手料理を思い出しますね
+ShowTextBox "$1...\nMy mother would\ncook this for me\nwhen I was\nyoung."
+WaitTextBox
+ShowChara 6 0 43
+# …ママ
+ShowTextBox "...\nMother..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$40
+Subscript 2
+ShowChara 6 4 40
+# $1と$2って仲が悪いように見えますけど…
+# 本当は仲がいいんですよ
+ShowTextBox "$1 and\n$2 may\nseem to be at\nodds, but\nreally they're\nbest of friends."
+WaitTextBox
+ShowChara 6 0 41
+# 自分にはわかります
+ShowTextBox "I think I can\nrelate to\nthat, myself."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83
+Subscript 3
+ShowChara 6 4 40
+# お店のマスコット
+# にいいですね…$1
+ShowTextBox "A $1\nwould make a\ngood mascot for\nthe store, would\nit not?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$84,$40
+Subscript 4
+ShowChara 6 4 40
+# $1のお家の庭には$2が一面生えているそうですよ
+ShowTextBox "$1's\nhome garden is\ncarpeted with\n$2\nflowers."
+WaitTextBox
+# $3の呪いではないかと、近所のもっぱらのウワサです
+ShowTextBox "I've heard talk\nit may even be\na curse laid by\n$3..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $82,$81
+Subscript 5
+ShowChara 6 4 41
+# $1を飲むと$2が食べたくなりません？
+ShowTextBox "Have you ever\ndrunk\n$1\nand suddenly\ncraved\n$2?"
+WaitTextBox
+ShowChara 6 0 45
+# あ…別に自分が空腹なわけではありませんよ
+ShowTextBox "...\nNo, I'm not\nhungry. Just\ncurious."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $00,$85,$87
+Subscript 6
+ShowChara 6 4 40
+# $1と言えば、$2出身の人ですよね
+ShowTextBox "You know,\nfrom what I've\nheard,\n$1 is\nfrom\n$2."
+WaitTextBox
+ShowChara 6 0 41
+# 故郷の期待を背負って、$3に励むいい人ですよ
+ShowTextBox "They're doing\ntheir best as a\n$3\nin order to\nmake their\nfamily proud."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $82,$85
+Subscript 7
+ShowChara 6 4 40
+# 知ってますか？
+ShowTextBox "Did you know,\nManager?"
+WaitTextBox
+# みなさんが飲んで
+# いる$1は$2のキレイなお水で作られているそうですよ
+ShowTextBox "$1 is\nmade from the\nclear spring\nwater of\n$2."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87,$8A
+Subscript 8
+ShowChara 6 4 40
+# 店長さん、ここだけの話…
+# 自分は$1が苦手です…
+ShowTextBox "This is just\nbetween you and\nme, Manager...\nI don't enjoy\n$1\nduty."
+WaitTextBox
+ShowChara 6 0 43
+# 昔、$1していて$2にぶつかりそうになった過去があるんですよ～
+ShowTextBox "A long time\nago, while\nworking, I was\nhit by a\n$2,\nyou see..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86,$88
+Subscript 9
+ShowChara 6 4 41
+# $1は『$2』で紹介されてから、大勢の人が来るようになったそうです
+ShowTextBox "I learned about\n$1\nfrom\n$2.\nIt seems it's\nquite popular."
+WaitTextBox
+# うちのお店も宣伝
+# した方がいいので
+# は？
+ShowTextBox "Perhaps we\nshould run some\nadvertising\nourselves?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89,$8B
+Subscript 10
+ShowChara 6 4 40
+# 知ってますか？
+# 『$1』の人気で$2がブームらしいです
+ShowTextBox "Did you know?\n$2 has\nbecome popular\nafter it\nappeared in\n$1."
+WaitTextBox
+ShowChara 6 0 41
+# まあ一時的なものでしょうけど
+ShowTextBox "Well, I'm sure\nit's just a\npassing fad."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81
+Subscript 11
+ShowChara 6 4 42
+# $1を食べたあとは絶対歯をみがいてください！
+ShowTextBox "Please be\nabsolutely sure\nto brush your\nteeth after\neating\n$1!"
+WaitTextBox
+# そうしないと虫歯
+# になること１００パーセントです！！
+ShowTextBox "If you forget,\ncavities are\nvirtually\nguaranteed!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83
+Subscript 12
+ShowChara 6 4 40
+# $1は一生虫歯にならないそうですよ
+ShowTextBox "I've heard\na $1\nnever gets\ncavities."
+WaitTextBox
+ShowChara 6 0 41
+# おかげで、歯医者いらずです
+ShowTextBox "That's why\nthere are no\n$1\ndentists."
+WaitTextBox
+EndScript

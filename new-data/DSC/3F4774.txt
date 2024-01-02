@@ -1,0 +1,263 @@
+DSCBase $3F4774
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# ねぇ１５日のお祭
+# り、どうしようか
+# しら？
+ShowTextBox "Hey, what should\nwe do about that\nfestival on the\n15th?"
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ～
+ShowTextBox "Nyo, nyo~"
+WaitTextBox
+ShowChara 1 0 9
+# でじこ的には、店
+# を出して夏のボー
+# ナスを稼ぐのも、
+# ひとつの手だと思
+# うにょ～
+ShowTextBox "If we set up\na stall, it\ncould be a good\nchance to earn\na summer bonus,\nnyo~"
+WaitTextBox
+ShowChara 2 1 23
+# アタシも、でじこ
+# に賛成！…ぷちこ
+# はどう？
+ShowTextBox "Oh, great idea!\nWhat do you\nthink, Puchiko?"
+WaitTextBox
+ShowChara 3 2 18
+# 金魚をすくってみ
+# たいにゅ…
+ShowTextBox "... I want to\ntry the goldfish\nscoop, nyu..."
+WaitTextBox
+ShowChara 2 1 22
+# あれって、コツが
+# あるのよね…アタ
+# シは全然ダメなん
+# だけど…
+ShowTextBox "That's kind of\ntricky... I was\nnever able to get\nthe hang of it."
+WaitTextBox
+ShowChara 1 2 9
+# 金魚すくいなんて
+# 簡単にょ～
+ShowTextBox "The goldfish\nscoop is easy as\npie, nyo~"
+WaitTextBox
+ShowChara 2 1 22
+# どうやるの、教え
+# て？
+ShowTextBox "Oh? What's your\nmethod, then?"
+WaitTextBox
+ShowChara 1 2 10
+# 水中に目からビー
+# ムを打ち込むと、
+# 金魚がぷかぷか浮
+# いてくるにょ！
+ShowTextBox "If you just\nshoot an Eye\nLaser Beam into\nthe water, the\nfish'll all\nfloat up, nyo!"
+WaitTextBox
+# あとはまったくの
+# 取り放題だにょ～
+ShowTextBox "Then you can\nscoop up as\nmany as you\nwant, nyo~"
+WaitTextBox
+ShowChara 2 1 24
+# よい子はまねしち
+# ゃダメーっ！
+ShowTextBox "That's NOT\nhow you're\nsupposed to\ndo it!!"
+WaitTextBox
+ShowChara 1 2 9
+# 心配しなくても、
+# よい子は目からビ
+# ームが出せないか
+# ら大丈夫にょ～
+ShowTextBox "Well, maybe\nnot for you,\nbut we've got\na few more\ntools at our\ndisposal, nyo~"
+WaitTextBox
+ShowChara 2 1 55
+# そりゃぁ、そうだ
+# けども…えーと、
+# 何を話してたんだ
+# っけ？
+ShowTextBox "I mean, I\nguess... Um,\nwhat were we\ntalking about,\nagain?"
+WaitTextBox
+ShowChara 3 2 19
+# ぷちこが金魚すく
+# いをしたいという
+# 話だったにゅ
+ShowTextBox "I want to try\nthe goldfish\nscoop, nyu."
+WaitTextBox
+ShowChara 2 1 55
+# 脱線させちゃって
+# ごめんなさい…
+ShowTextBox "Sorry for\ngoing way off\non a tangent,\nthere..."
+WaitTextBox
+ShowChara 1 2 8
+# でじこはお店で忙
+# しいから、ぷちこ
+# の引率は店長しゃ
+# んにお願いしたい
+# にょ
+ShowTextBox "I'll be busy\nwith the stall,\nso you should\nask the Manager\nto show you\naround, nyo."
+WaitTextBox
+# 引き受ける
+# ことわる
+ShowSelMenu09 2 "!Let's go\nSorry, can't"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 3 2 18
+# 恩に着るにゅ…
+ShowTextBox "I owe you my\nlife, nyu..."
+WaitTextBox
+ShowChara 1 2 10
+# じゃ、でじこは出
+# 店の準備に取りか
+# かるにょ～
+ShowTextBox "Alright, let's\nstart preparing\nfor the stall,\nnyo~"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 3 2 17
+# ちょっと言ってみ
+# ただけだから、別
+# にいいにゅ…
+ShowTextBox "I just wanted\nto try saying\nit, so it's\nokay, nyu..."
+WaitTextBox
+ShowChara 2 1 22
+# ところで、ぷちこ
+# はどうして金魚す
+# くいをやってみた
+# かったの？
+ShowTextBox "Why are you\nso interested\nin the goldfish\nscoop anyway,\nPuchiko?"
+WaitTextBox
+ShowChara 3 2 17
+# 特にないにゅ…
+ShowTextBox "No reason,\nnyu..."
+WaitTextBox
+# しいていうと、昨
+# 日、お魚を食べた
+# からにゅ…
+ShowTextBox "It was just on\nmy mind since\nwe ate fish\nyesterday,\nnyu..."
+WaitTextBox
+ShowChara 2 1 55
+# ど、どういう意味
+# かしら…
+ShowTextBox "W-What were you\nplanning to do\nwith the\ngoldfish...?"
+WaitTextBox
+ShowChara 1 2 8
+# 聞かない方がいい
+# にょ～
+ShowTextBox "It's better not\nto ask, nyo~"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 3 118 87 16 112 10 2
+SetBG 111
+Fade 0 30
+ShowChara 1 1 9
+# 今日も快晴、絶好
+# のお祭り日和って
+# やつにょ…
+ShowTextBox "Aah, it's\nperfect festival\nweather today,\nnyo..."
+WaitTextBox
+ShowChara 1 0 10
+# にょにょ～っ、燃
+# えてきたにょ～っ
+ShowTextBox "Nyoo, I'm so\nexcited, nyo!"
+WaitTextBox
+ShowChara 2 2 23
+# あっ、そうだ！出
+# かける前に、ぷち
+# こに渡すものがあ
+# るんだった
+ShowTextBox "Oh, Puchiko!\nThere was\nsomething I\nwanted to give\nyou before we\nleave."
+WaitTextBox
+# はい、これ
+ShowTextBox "Here you go!"
+WaitTextBox
+ShowChara 3 1 17
+# 浴衣にゅ…
+ShowTextBox "A yukata,\nnyu..."
+WaitTextBox
+ShowChara 2 2 23
+# そう、アタシがぷ
+# ちこくらいのとき
+# に着てた浴衣！
+ShowTextBox "It's the one\nI used to wear\nwhen I was\nabout your size!"
+WaitTextBox
+# 遠慮なく使ってね
+ShowTextBox "I can't use\nit anymore,\nso feel free to\ntake it."
+WaitTextBox
+Fade 3 30
+SetBG 36
+Fade 2 30
+ShowChara 3 0 0
+# どきどき…
+ShowTextBox "... Thank you,\nnyu..."
+WaitTextBox
+# はじめての金魚すくい
+# にゅ…
+ShowTextBox "It's my first\ntime trying the\ngoldfish\nscoop, nyu..."
+WaitTextBox
+# …………
+ShowTextBox "..."
+WaitTextBox
+# すくうにゅっ！
+ShowTextBox "Scoop, nyu!"
+WaitTextBox
+Fade 1 120
+SetBG 111
+Fade 0 30
+ShowChara 1 1 9
+# おかえりにょ～
+ShowTextBox "Welcome, nyo~"
+WaitTextBox
+ShowChara 2 1 23
+# おかえりなさい、
+# ぷちこに店長さん
+ShowTextBox "Ah, welcome\nback, Puchiko,\nManager."
+WaitTextBox
+# 金魚はうまくすく
+# えたかしら？
+ShowTextBox "Were you able\nto get a\ngoldfish,\nPuchiko?"
+WaitTextBox
+ShowChara 1 0 9
+# にょにょ、ちなみ
+# に、でじこたちの
+# 方は大成功だった
+# にょ～っ
+ShowTextBox "The stall was\na big success,\nnyo~"
+WaitTextBox
+ShowChara 3 2 20
+# 力無き正義は無力
+# にゅ…
+ShowTextBox "Justice without\npower can\nachieve\nnothing, nyu..."
+WaitTextBox
+ShowChara 2 1 22
+# あらー…
+# 残念だったみたい
+# ね…
+ShowTextBox "Ah...\nThat's too\nbad..."
+WaitTextBox
+ShowChara 1 1 9
+# これにめげず、精
+# 進を重ねるにょ！
+ShowTextBox "Don't let this\nget you down,\nnyo! It's time\nto knuckle\ndown, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# 努力すれば、いつ
+# かは目からビーム
+# がうまく出るよう
+# になるにょっ！
+ShowTextBox "If you give it\neverything\nyou've got, I'm\nsure you'll get\nthe hang of the\nEye Laser Beam!"
+WaitTextBox
+ShowChara 2 1 55
+# そうじゃないでし
+# ょ…
+ShowTextBox "I don't think\nthat's the\nissue here..."
+WaitTextBox
+EndScript

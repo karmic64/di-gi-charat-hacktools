@@ -1,0 +1,242 @@
+DSCBase $3EA274
+
+
+
+### Prefill data: $09,$83
+Subscript 0
+ShowChara 5 4 35
+# ムッ…あそこで『$1』を立ち読みしている人物は…
+ShowTextBox "!!! 3EA274 0"
+WaitTextBox
+# 立ち読みしている人
+ShowTextPrompt 0 "!!! 3EA274 1"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 5 0 36
+# そうだ…私同様、
+# こよなく$2を愛する$9…
+ShowTextBox "!!! 3EA274 2"
+WaitTextBox
+ShowChara 5 0 39
+# しかし、私がいる
+# 限り『$2博士』の称号は、私のものだ
+ShowTextBox "!!! 3EA274 3"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 5 0 37
+# はて…思い出せな
+# い…誰だ？
+ShowTextBox "!!! 3EA274 4"
+WaitTextBox
+ShowChara 5 0 36
+# まあいいか…
+ShowTextBox "!!! 3EA274 5"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $05,$83
+Subscript 1
+ShowChara 5 4 35
+# $1と言うと有名なテーマパークがあったな
+# 店長、知っているか？
+ShowTextBox "!!! 3EA274 6"
+WaitTextBox
+# テーマパーク
+ShowTextPrompt 6 "!!! 3EA274 7"
+JumpOnSelection 2 2 3 0
+Label 2
+ShowChara 5 0 36
+# そう、$9だ
+# 別名『$2の楽園』と呼ばれる聖地…
+ShowTextBox "!!! 3EA274 8"
+WaitTextBox
+ShowChara 5 0 65
+# 一度行ってみたいものだ♪
+ShowTextBox "!!! 3EA274 9"
+WaitTextBox
+EndScript
+Label 3
+ShowChara 5 0 37
+# 知らないものはし
+# かたない…
+ShowTextBox "!!! 3EA274 10"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $03
+Subscript 2
+ShowChara 5 4 35
+# $1とは意外な果物を主食としているのだ
+ShowTextBox "!!! 3EA274 11"
+WaitTextBox
+ShowChara 5 0 39
+# …店長が知ってるわけないか
+ShowTextBox "!!! 3EA274 12"
+WaitTextBox
+# くだもの
+ShowTextPrompt 1 "!!! 3EA274 13"
+JumpOnSelection 2 4 5 0
+Label 4
+ShowChara 5 0 57
+# な、なぜ、知って
+# いる？
+ShowTextBox "!!! 3EA274 14"
+WaitTextBox
+# まさか私の『$1博士』の称号を狙っているのでは…
+ShowTextBox "!!! 3EA274 15"
+WaitTextBox
+EndScript
+Label 5
+ShowChara 5 0 39
+# フフフ…分かるま
+# い
+ShowTextBox "!!! 3EA274 16"
+WaitTextBox
+ShowChara 5 0 38
+# この私に勝とうな
+# どと１０万年早い
+# わ！
+ShowTextBox "!!! 3EA274 17"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $08,$43
+Subscript 3
+ShowChara 5 4 35
+# 今週私が見た『$1』には$2が映っていたぞ
+ShowTextBox "!!! 3EA274 18"
+WaitTextBox
+ShowChara 5 0 37
+# とても愛らしかった…ハァ@
+ShowTextBox "!!! 3EA274 19"
+WaitTextBox
+ShowChara 5 0 36
+# 来週はもっとかわいいらしいぞ
+ShowTextBox "!!! 3EA274 20"
+WaitTextBox
+# どうぶつ
+ShowTextPrompt 3 "!!! 3EA274 21"
+JumpOnSelection 2 6 7 0
+Label 6
+ShowChara 5 0 39
+# そう！$9だ
+# これはビデオに撮るしかないだろう
+ShowTextBox "!!! 3EA274 22"
+WaitTextBox
+EndScript
+Label 7
+ShowChara 5 0 39
+# これは私だけの楽
+# しみ…簡単には教
+# えられん…
+ShowTextBox "!!! 3EA274 23"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $07,$42
+Subscript 4
+ShowChara 5 4 35
+# $1をした後は、冷たい飲み物で体をいやしたいものだ
+ShowTextBox "!!! 3EA274 24"
+WaitTextBox
+# のみもの
+ShowTextPrompt 2 "!!! 3EA274 25"
+JumpOnSelection 2 8 9 0
+Label 8
+ShowChara 5 0 36
+# そう…$9もいいな
+# しかし、私として
+# は$2が好きだ
+ShowTextBox "!!! 3EA274 26"
+WaitTextBox
+EndScript
+Label 9
+ShowChara 5 0 37
+# 水分は大切だぞ、店長
+# …体を大事しろ
+ShowTextBox "!!! 3EA274 27"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $05
+Subscript 5
+ShowChara 5 4 35
+# そういえば…クウあてに$1から荷物が来ていたな
+ShowTextBox "!!! 3EA274 28"
+WaitTextBox
+# 店長、中身は…？
+ShowTextBox "!!! 3EA274 29"
+WaitTextBox
+# しょくぶつ
+ShowTextPrompt 4 "!!! 3EA274 30"
+JumpOnSelection 2 10 11 0
+Label 10
+ShowChara 5 0 37
+# $9の花束？
+ShowTextBox "!!! 3EA274 31"
+WaitTextBox
+ShowChara 5 0 39
+# フッ…もうそんな季節か
+ShowTextBox "!!! 3EA274 32"
+WaitTextBox
+ShowChara 5 0 64
+# （しかしなぜ…？）
+ShowTextBox "!!! 3EA274 33"
+WaitTextBox
+EndScript
+Label 11
+ShowChara 5 0 64
+# え…と、この花の
+# 名前は…？
+# なんだっけ？
+ShowTextBox "!!! 3EA274 34"
+WaitTextBox
+ShowChara 5 0 36
+# ま、まあいい……
+# クウに渡しておこ
+# う
+ShowTextBox "!!! 3EA274 35"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $03,$45
+Subscript 6
+ShowChara 5 4 35
+# $1は寒い国でしか生存できない動物だ
+ShowTextBox "!!! 3EA274 36"
+WaitTextBox
+# どこだか知っているか？
+ShowTextBox "!!! 3EA274 37"
+WaitTextBox
+# さむいくに
+ShowTextPrompt 5 "!!! 3EA274 38"
+JumpOnSelection 2 12 13 0
+Label 12
+ShowChara 5 0 57
+# …………………。
+ShowTextBox "!!! 3EA274 39"
+WaitTextBox
+ShowChara 5 0 39
+# 少しは学んだよう
+# だな…これも私の
+# おかげ…感謝しろ
+ShowTextBox "!!! 3EA274 40"
+WaitTextBox
+EndScript
+Label 13
+ShowChara 5 0 39
+# おろかな…こんな簡単なことも知らないのか？
+ShowTextBox "!!! 3EA274 41"
+WaitTextBox
+ShowChara 5 0 57
+# $1のお家は$2に決まっているだろう！
+ShowTextBox "!!! 3EA274 42"
+WaitTextBox
+EndScript

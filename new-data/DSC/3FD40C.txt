@@ -1,0 +1,48 @@
+DSCBase $3FD40C
+
+
+
+
+Subscript 0
+Unk08 1 190 84 8 80 10 3
+Unk08 2 58 70 96 80 10 3
+Unk08 3 123 116 8 16 10 3
+SetBG 1
+Fade 0 30
+ShowChara 1 0 0
+# みなさま、明けまして
+# おめでとうございます
+# …にょっ！
+ShowTextBox "Everyone!\nHappy New Year,\nnyo!"
+WaitTextBox
+ShowChara 2 0 0
+# 本年もよろしくお願い
+# いたしまーす！
+ShowTextBox "Let's make this\nyear a good one!"
+WaitTextBox
+ShowChara 3 0 0
+# お願いするにゅ！
+ShowTextBox "Okay, nyu!"
+WaitTextBox
+ShowChara 2 0 0
+# ところで、店長さんが
+# お店に来てから、もう
+# すぐ１年がたつのね
+ShowTextBox "By the way, it\nwon't be long\nbefore the\nManager's been\nwith us for a\nwhole year."
+WaitTextBox
+ShowChara 3 0 0
+# 早いにゅ
+ShowTextBox "Already, nyu?"
+WaitTextBox
+ShowChara 1 0 0
+# じゃ、１周年記念とい
+# うことで、お年玉をい
+# ただくとするにょ！
+ShowTextBox "I'll accept\ngifts for the\nanniversary,\ntoo, nyo!"
+WaitTextBox
+ShowChara 3 0 0
+# りんじボーナスよこせ
+# にゅ！
+ShowTextBox "Think of it\nas an advance\nbonus, nyu!"
+WaitTextBox
+EndScript

@@ -1,0 +1,44 @@
+DSCBase $41160C
+
+
+
+
+Subscript 0
+ShowChara 2 0 0
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# $0
+# 残り$1/$2個よ
+ShowTextBox "$0\n$1/$2 of these left."
+EndScript
+
+
+
+Subscript 3
+# Ａボタンを押して、このスロット
+# に入れるグッズを買ってね
+ShowTextBox "If you press A, you can buy what's in this slot."
+EndScript
+
+
+
+Subscript 4
+# もう仕入れは終わりかしら？
+ShowTextBox "Are you done stocking, Manager?"
+EndScript
+
+
+
+Subscript 5
+# お店情報を見るの？
+ShowTextBox "You want to see the shop information, Manager?"
+EndScript

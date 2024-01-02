@@ -1,0 +1,57 @@
+DSCBase $3FFD20
+
+
+
+
+Subscript 0
+Unk08 1 158 64 16 100 10 3
+SetBG 111
+Fade 0 30
+ShowChara 1 1 8
+# 店長さんと出会っ
+# てから、もうすぐ
+# 一年が経とうとし
+# ているにょ…
+ShowTextBox "Before too long,\nit'll have been\na whole year\nsince we met the\nnew Manager,\nnyo..."
+WaitTextBox
+# 長いようで短い、
+# そんな一年だった
+# にょ…
+ShowTextBox "Time flies when\nyou're having\nfun, nyo..."
+WaitTextBox
+# …………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 1 0 9
+# しか～し、まだ、
+# でじこには過去を
+# 振り返ってしんみ
+# りすることは許さ
+# れないにょっ！
+ShowTextBox "I can't get all\nserious and sad\nyet, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# なぜなら、年度末
+# の大売出しがでじ
+# こを待ってるから
+# だにょ～っ！
+ShowTextBox "The great year\nend sale is\nwaiting for me,\nnyo!"
+WaitTextBox
+Fade 3 30
+SetBG 31
+Fade 2 30
+ShowChara 1 0 0
+# 泣いても笑ってもこれ
+# が最後！
+ShowTextBox "I've gotta\nkeep fighting\nuntil the\nbitter end, nyo!"
+WaitTextBox
+# さぁ、いらっしゃい、
+# いらっしゃいにょ～！
+ShowTextBox "Welcome to the\nstore, nyo!"
+WaitTextBox
+# この一週間に、この一
+# 年間のすべてをこめて
+# 売りまくるにょ～っ！
+ShowTextBox "This week only,\nwe're running\nthe sale of the\nyear, nyo!\nDon't miss it!"
+WaitTextBox
+EndScript

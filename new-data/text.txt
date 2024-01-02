@@ -1,0 +1,1398 @@
+### these strings use the following control codes:
+###    %s - this is replaced with a string
+###    %d - this is replaced with a number
+### if a string has a listed maximum length, any characters past this will be deleted
+
+### --- shop rating screen
+Double
+# %s店長
+Ptr $C4BC "Manager %s"
+# 自分のめいし
+Ptr $C504 "Name"
+# 神様店長
+Ptr $C9D40 "Godlike Manager"
+# 天才店長
+Ptr $C9D44 "Genius Manager"
+# とてもすごい店長
+Ptr $C9D48 "Amazing Manager"
+# すごい店長
+Ptr $C9D4C "Great Manager"
+# 店長
+Ptr $C9D50 "Manager"
+# いまいち店長
+Ptr $C9D54 "OK Manager"
+# ダメ店長
+Ptr $C9D58 "Bad Manager"
+# ダメダメ店長
+Ptr $C9D5C "Really Bad Manager"
+# ダメダメダメ店長
+Ptr $C9D60 "Really, Really Bad Manager"
+# ビンボー神店長
+Ptr $C9D64 "Apocalyptically Bad Manager"
+
+### --- various text prompt menu titles
+Double
+# なまえ
+Ptr $10090 "Name"
+# 好きな食べ物
+Ptr $101A0 $1068C "Favorite food"
+# 好きな動物
+Ptr $102C4 $10658 "Favorite animal"
+# そんけいする人
+Ptr $103F4 $10654 "Favorite person"
+# 、そんけいする人
+Abs $CA0A0 Max 20 ", Favorite person"
+# 、好きな動物
+Ptr $10688 ", Favorite animal"
+# 、好きな食べ物
+Ptr $106EC ", Favorite food"
+# 名前
+Ptr $106F0 "Name"
+# 好きな食べ物・動物、そんけいする人
+Ptr $10788 "Favorite food, Favorite animal, Favorite person"
+# くろまめ
+# ???????? idk
+Ptr $10DEC "Black bean"
+
+### --- misc shop-related
+NoDouble
+# 特殊流行 
+Ptr $12C8C "Special Trend"
+# 通常 
+Ptr $12D14 "Normal"
+# 類似 
+Ptr $12D84 "Similar"
+# 営業開始\n
+Abs $CA37C Max 10 "Open Shop\n"
+# レジうち
+Ptr $12EE4 "Register"
+# 接客
+Abs $CA390 Max 10 "Service"
+# 在庫管理
+Abs $CA39A Max 10 "Stocker"
+# 掃除
+Abs $CA3A4 Max 10 "Cleaning"
+# でじこ
+Ptr $12EE8 "Dejiko"
+# うさだ
+Abs $CA3B6 Max 8 "Usada"
+# ぷちこ
+Abs $CA3BE Max 8 "Puchiko"
+# なにか
+Abs $CA3C6 Max 10 "Something"
+# %6s %8s さぼり %3d %3d\n
+Ptr $130BC "%6s %8s Slacking off %3d %3d\n"
+# 来客数 %4d\n
+Ptr $1313C "Customers %4d\n"
+# 清潔度 %4d\n
+Ptr $13188 "Cleanliness %4d\n"
+# 来客 %4d %4d %4d\n
+Ptr $13238 "Customers %4d %4d %4d\n"
+# %5d %5d\n
+Ptr $1323C "%5d %5d\n"
+### note, the following ARE relocatable, but needs more complex hacking
+### please tell me if you need more space
+# でじこ
+Abs $CA7F8 Max 16 "Dejiko"
+# うさだ
+Abs $CA808 Max 16 "Usada"
+# ぷちこ
+Abs $CA818 Max 16 "Puchiko"
+# ぴよこ
+Abs $CA834 Max 16 "Piyoko"
+# リク
+Abs $CA844 Max 16 "Riku"
+# カイ
+Abs $CA854 Max 16 "Kai"
+# クウ
+Abs $CA864 Max 16 "Kuu"
+# ボールペン
+Abs $CA884 Max 16 "Pen"
+# ペンケース
+Abs $CA894 Max 16 "Pen Case"
+# 消しゴム
+Abs $CA8A4 Max 16 "Eraser"
+# ポスター
+Abs $CA8B4 Max 16 "Poster"
+# カレンダー
+Abs $CA8C4 Max 16 "Calendar"
+# コミック
+Abs $CA8D4 Max 16 "Comic"
+# ぼうし
+Abs $CA8E4 Max 16 "Hat"
+# ＣＤ
+Abs $CA8F4 Max 16 "CD"
+# バンド
+Abs $CA904 Max 16 "Band"
+# トレカ
+Abs $CA914 Max 16 "Card"
+# ぬいぐるみ
+Abs $CA924 Max 16 "Doll"
+# マグカップ
+Abs $CA934 Max 16 "Mug"
+# Ｔシャツ
+Abs $CA944 Max 16 "TShirt"
+# 腕時計
+Abs $CA954 Max 16 "Watch"
+# ピンズ
+Abs $CA964 Max 16 "Pin"
+
+### --- item names
+NoDouble
+# でじこボールペン
+Abs $CA974 Max 24 "Dejiko Pen"
+# でじこペンケース
+Abs $CA9B8 Max 24 "Dejiko Pen Case"
+# でじこ消しゴム
+Abs $CA9FC Max 24 "Dejiko Eraser"
+# でじこポスター
+Abs $CAA40 Max 24 "Dejiko Poster"
+# でじこカレンダー
+Abs $CAA84 Max 24 "Dejiko Calendar"
+# でじこコミック
+Abs $CAAC8 Max 24 "Dejiko Comic"
+# でじこぼうし
+Abs $CAB0C Max 24 "Dejiko Hat"
+# でじこＣＤ
+Abs $CAB50 Max 24 "Dejiko CD"
+# でじこバンド
+Abs $CAB94 Max 24 "Dejiko Band"
+# でじこトレカ
+Abs $CABD8 Max 24 "Dejiko Card"
+# でじこぬいぐるみ
+Abs $CAC1C Max 24 "Dejiko Doll"
+# でじこマグカップ
+Abs $CAC60 Max 24 "Dejiko Mug"
+# でじこＴシャツ
+Abs $CACA4 Max 24 "Dejiko TShirt"
+# でじこ腕時計
+Abs $CACE8 Max 24 "Dejiko Watch"
+# でじこピンズ
+Abs $CAD2C Max 24 "Dejiko Pin"
+# うさだボールペン
+Abs $CAD70 Max 24 "Usada Pen"
+# うさだペンケース
+Abs $CADB4 Max 24 "Usada Pen Case"
+# うさだ消しゴム
+Abs $CADF8 Max 24 "Usada Eraser"
+# うさだポスター
+Abs $CAE3C Max 24 "Usada Poster"
+# うさだカレンダー
+Abs $CAE80 Max 24 "Usada Calendar"
+# うさだコミック
+Abs $CAEC4 Max 24 "Usada Comic"
+# うさだぼうし
+Abs $CAF08 Max 24 "Usada Hat"
+# うさだＣＤ
+Abs $CAF4C Max 24 "Usada CD"
+# うさだバンド
+Abs $CAF90 Max 24 "Usada Band"
+# うさだトレカ
+Abs $CAFD4 Max 24 "Usada Card"
+# うさだぬいぐるみ
+Abs $CB018 Max 24 "Usada Doll"
+# うさだマグカップ
+Abs $CB05C Max 24 "Usada Mug"
+# うさだＴシャツ
+Abs $CB0A0 Max 24 "Usada TShirt"
+# うさだ腕時計
+Abs $CB0E4 Max 24 "Usada Watch"
+# うさだピンズ
+Abs $CB128 Max 24 "Usada Pin"
+# ぷちこボールペン
+Abs $CB16C Max 24 "Puchiko Pen"
+# ぷちこペンケース
+Abs $CB1B0 Max 24 "Puchiko Pen Case"
+# ぷちこ消しゴム
+Abs $CB1F4 Max 24 "Puchiko Eraser"
+# ぷちこポスター
+Abs $CB238 Max 24 "Puchiko Poster"
+# ぷちこカレンダー
+Abs $CB27C Max 24 "Puchiko Calendar"
+# ぷちこコミック
+Abs $CB2C0 Max 24 "Puchiko Comic"
+# ぷちこぼうし
+Abs $CB304 Max 24 "Puchiko Hat"
+# ぷちこＣＤ
+Abs $CB348 Max 24 "Puchiko CD"
+# ぷちこバンド
+Abs $CB38C Max 24 "Puchiko Band"
+# ぷちこトレカ
+Abs $CB3D0 Max 24 "Puchiko Card"
+# ぷちこぬいぐるみ
+Abs $CB414 Max 24 "Puchiko Doll"
+# ぷちこマグカップ
+Abs $CB458 Max 24 "Puchiko Mug"
+# ぷちこＴシャツ
+Abs $CB49C Max 24 "Puchiko TShirt"
+# ぷちこ腕時計
+Abs $CB4E0 Max 24 "Puchiko Watch"
+# ぷちこピンズ
+Abs $CB524 Max 24 "Puchiko Pin"
+# おいしいブロッコリー
+Abs $CB568 Max 24 "Tasty Broccoli"
+# ねこてぶくろ
+Abs $CB5AC Max 24 "Cat Handbag"
+# ゲマクッション
+Abs $CB5F0 Max 24 "Gema Cushion"
+# デ・ジ・キャラット
+Abs $CB634 Max 24 "Di Gi Charat"
+# デジキャラットＤＶＤ
+Abs $CB678 Max 24 "DiGiCharat DVD"
+# でじこファンタジー
+Abs $CB6BC Max 24 "Dejiko Fantasy"
+# パーティーナイト
+Abs $CB700 Max 24 "Party Night"
+# でじこのこべや
+Abs $CB744 Max 24 "Dejiko no Kobeya"
+# でじこのうた
+Abs $CB788 Max 24 "Dejiko no Uta"
+# ぴよこボールペン
+Abs $CB7CC Max 24 "Piyoko Pen"
+# ぴよこペンケース
+Abs $CB810 Max 24 "Piyoko Pen Case"
+# ぴよこ消しゴム
+Abs $CB854 Max 24 "Piyoko Eraser"
+# ぴよこポスター
+Abs $CB898 Max 24 "Piyoko Poster"
+# ぴよこカレンダー
+Abs $CB8DC Max 24 "Piyoko Calendar"
+# ぴよこコミック
+Abs $CB920 Max 24 "Piyoko Comic"
+# ぴよこぼうし
+Abs $CB964 Max 24 "Piyoko Hat"
+# ぴよこＣＤ
+Abs $CB9A8 Max 24 "Piyoko CD"
+# ぴよこバンド
+Abs $CB9EC Max 24 "Piyoko Band"
+# ぴよこトレカ
+Abs $CBA30 Max 24 "Piyoko Card"
+# ぴよこぬいぐるみ
+Abs $CBA74 Max 24 "Piyoko Doll"
+# ぴよこマグカップ
+Abs $CBAB8 Max 24 "Piyoko Mug"
+# ぴよこＴシャツ
+Abs $CBAFC Max 24 "Piyoko TShirt"
+# ぴよこ腕時計
+Abs $CBB40 Max 24 "Piyoko Watch"
+# ぴよこピンズ
+Abs $CBB84 Max 24 "Piyoko Pin"
+# リクボールペン
+Abs $CBBC8 Max 24 "Riku Pen"
+# リクペンケース
+Abs $CBC0C Max 24 "Riku Pen Case"
+# リク消しゴム
+Abs $CBC50 Max 24 "Riku Eraser"
+# リクポスター
+Abs $CBC94 Max 24 "Riku Poster"
+# リクカレンダー
+Abs $CBCD8 Max 24 "Riku Calendar"
+# リクコミック
+Abs $CBD1C Max 24 "Riku Comic"
+# リクぼうし
+Abs $CBD60 Max 24 "Riku Hat"
+# リクＣＤ
+Abs $CBDA4 Max 24 "Riku CD"
+# リクバンド
+Abs $CBDE8 Max 24 "Riku Band"
+# リクトレカ
+Abs $CBE2C Max 24 "Riku Card"
+# リクぬいぐるみ
+Abs $CBE70 Max 24 "Riku Doll"
+# リクマグカップ
+Abs $CBEB4 Max 24 "Riku Mug"
+# リクＴシャツ
+Abs $CBEF8 Max 24 "Riku TShirt"
+# リク腕時計
+Abs $CBF3C Max 24 "Riku Watch"
+# リクピンズ
+Abs $CBF80 Max 24 "Riku Pin"
+# カイボールペン
+Abs $CBFC4 Max 24 "Kai Pen"
+# カイペンケース
+Abs $CC008 Max 24 "Kai Pen Case"
+# カイ消しゴム
+Abs $CC04C Max 24 "Kai Eraser"
+# カイポスター
+Abs $CC090 Max 24 "Kai Poster"
+# カイカレンダー
+Abs $CC0D4 Max 24 "Kai Calendar"
+# カイコミック
+Abs $CC118 Max 24 "Kai Comic"
+# カイぼうし
+Abs $CC15C Max 24 "Kai Hat"
+# カイＣＤ
+Abs $CC1A0 Max 24 "Kai CD"
+# カイバンド
+Abs $CC1E4 Max 24 "Kai Band"
+# カイトレカ
+Abs $CC228 Max 24 "Kai Card"
+# カイぬいぐるみ
+Abs $CC26C Max 24 "Kai Doll"
+# カイマグカップ
+Abs $CC2B0 Max 24 "Kai Mug"
+# カイＴシャツ
+Abs $CC2F4 Max 24 "Kai TShirt"
+# カイ腕時計
+Abs $CC338 Max 24 "Kai Watch"
+# カイピンズ
+Abs $CC37C Max 24 "Kai Pin"
+# クウボールペン
+Abs $CC3C0 Max 24 "Kuu Pen"
+# クウペンケース
+Abs $CC404 Max 24 "Kuu Pen Case"
+# クウ消しゴム
+Abs $CC448 Max 24 "Kuu Eraser"
+# クウポスター
+Abs $CC48C Max 24 "Kuu Poster"
+# クウカレンダー
+Abs $CC4D0 Max 24 "Kuu Calendar"
+# クウコミック
+Abs $CC514 Max 24 "Kuu Comic"
+# クウぼうし
+Abs $CC558 Max 24 "Kuu Hat"
+# クウＣＤ
+Abs $CC59C Max 24 "Kuu CD"
+# クウバンド
+Abs $CC5E0 Max 24 "Kuu Band"
+# クウトレカ
+Abs $CC624 Max 24 "Kuu Card"
+# クウぬいぐるみ
+Abs $CC668 Max 24 "Kuu Doll"
+# クウマグカップ
+Abs $CC6AC Max 24 "Kuu Mug"
+# クウＴシャツ
+Abs $CC6F0 Max 24 "Kuu TShirt"
+# クウ腕時計
+Abs $CC734 Max 24 "Kuu Watch"
+# クウピンズ
+Abs $CC778 Max 24 "Kuu Pin"
+# おいしいブロッコリー
+Abs $CC7BC Max 24 "Tasty Broccoli"
+# ブラゲマ団腕章
+Abs $CC800 Max 24 "Buragema Armband"
+# ブラゲマ団団旗
+Abs $CC844 Max 24 "Buragema Banner"
+# なぞゲマクッション
+Abs $CC888 Max 24 "Nazogema Cushion"
+# アクエリビデオ
+Abs $CC8CC Max 24 "Aq. Age Video"
+# アクエリＤＶＤ
+Abs $CC910 Max 24 "Aq. Age DVD"
+# アクエリアンエイジ
+Abs $CC954 Max 24 "Aquarian Age"
+# アクエリサーガ２
+Abs $CC998 Max 24 "Aq. Age Saga 2"
+# Ｇ・エンジェル
+Abs $CC9DC Max 24 "G Angel"
+
+### --- work-related item names
+NoDouble
+# れじ１
+Abs $CCAD4 Max 24 "Register 1"
+# れじ２
+Abs $CCB18 Max 24 "Register 2"
+# 接客１
+Abs $CCB5C Max 24 "Service 1"
+# 接客２
+Abs $CCBA0 Max 24 "Service 2"
+# 商品１
+Abs $CCBE4 Max 24 "Stock 1"
+# 商品２
+Abs $CCC28 Max 24 "Stock 2"
+# 掃除１
+Abs $CCC6C Max 24 "Cleaning 1"
+# 掃除２
+Abs $CCCB0 Max 24 "Cleaning 2"
+# そろばん
+Abs $CCCF4 Max 24 "Abacus"
+# 電卓
+Abs $CCD38 Max 24 "Calculator"
+# メガホン
+Abs $CCD7C Max 24 "Megaphone"
+# 拡声器
+Abs $CCDC0 Max 24 "Ultraphone"
+# カート
+Abs $CCE04 Max 24 "Bag"
+# 台車
+Abs $CCE48 Max 24 "Cart"
+# ほうき
+Abs $CCE8C Max 24 "Broom"
+# 掃除機
+Abs $CCED0 Max 24 "Vacuum"
+# そろばん
+Abs $CCF14 Max 24 "Abacus"
+# 電卓
+Abs $CCF58 Max 24 "Calculator"
+# メガホン
+Abs $CCF9C Max 24 "Megaphone"
+# 拡声器
+Abs $CCFE0 Max 24 "Ultraphone"
+# カート
+Abs $CD024 Max 24 "Bag"
+# 台車
+Abs $CD068 Max 24 "Cart"
+# ほうき
+Abs $CD0AC Max 24 "Broom"
+# 掃除機
+Abs $CD0F0 Max 24 "Vacuum"
+# そろばん
+Abs $CD134 Max 24 "Abacus"
+# 電卓
+Abs $CD178 Max 24 "Calculator"
+# メガホン
+Abs $CD1BC Max 24 "Megaphone"
+# 拡声器
+Abs $CD200 Max 24 "Ultraphone"
+# カート
+Abs $CD244 Max 24 "Bag"
+# 台車
+Abs $CD288 Max 24 "Cart"
+# ほうき
+Abs $CD2CC Max 24 "Broom"
+# 掃除機
+Abs $CD310 Max 24 "Vacuum"
+
+### --- event names?
+NoDouble
+### dejiko
+# 花見1
+Abs $CD35B Max 32 "Cherry Blossom 1"
+# 花見2
+Abs $CD393 Max 32 "Cherry Blossom 2"
+# ゴールデンウィーク1
+Abs $CD3CB Max 32 "Golden Week 1"
+# ゴールデンウィーク2
+Abs $CD403 Max 32 "Golden Week 2"
+# 虫歯の日
+Abs $CD43B Max 32 "Dental Day 1"
+# 虫歯の日
+Abs $CD473 Max 32 "Dental Day 2"
+# 七夕1
+Abs $CD4AB Max 32 "Tanabata 1"
+# 七夕2_2
+Abs $CD4E3 Max 32 "Tanabata 2_2"
+# 七夕2_1
+Abs $CD51B Max 32 "Tanabata 2_1"
+# 海水浴
+Abs $CD553 Max 32 "Ocean Trip"
+# 夏祭り1
+Abs $CD58B Max 32 "Summer Festival 1"
+# 夏祭り2
+Abs $CD5C3 Max 32 "Summer Festival 2"
+# 中秋節1
+Abs $CD5FB Max 32 "Harvest Festival 1"
+# 中秋節2
+Abs $CD633 Max 32 "Harvest Festival 2"
+# 動物愛護週間1
+Abs $CD66B Max 32 "Be Kind to Animals Week 1"
+# 動物愛護週間2
+Abs $CD6A3 Max 32 "Be Kind to Animals Week 2"
+# 体育の日1
+Abs $CD6DB Max 32 "Field Day 1"
+# 体育の日2
+Abs $CD713 Max 32 "Field Day 2"
+# ハロウィン1
+Abs $CD74B Max 32 "Halloween 1"
+# ハロウィン2
+Abs $CD783 Max 32 "Halloween 2"
+# 温泉
+Abs $CD7BB Max 32 "Hot Springs"
+# 温泉
+Abs $CD7F3 Max 32 "Hot Springs"
+# 初雪
+Abs $CD82B Max 32 "First Snow"
+# サンタクロース
+Abs $CD863 Max 32 "Santa Claus"
+# サンタクロース_2
+Abs $CD89B Max 32 "Santa Claus 2"
+# クリスマス1
+Abs $CD8D3 Max 32 "Christmas 1"
+# パーティナイト
+Abs $CD90B Max 32 "Party Night"
+# クリスマス2
+Abs $CD943 Max 32 "Christmas 2"
+# クリスマス
+Abs $CD97B Max 32 "Christmas"
+# 正月
+Abs $CD9B3 Max 32 "New Year's Day"
+# でじこ誕生日1
+Abs $CD9EB Max 32 "Dejiko's Birthday 1"
+# 節分
+Abs $CDA23 Max 32 "Last Day of Winter"
+# でじこ誕生日2
+Abs $CDA5B Max 32 "Dejiko's Birthday 2"
+# バレンタインデー
+Abs $CDA93 Max 32 "Valentine's Day"
+# バレンタインデー
+Abs $CDACB Max 32 "Valentine's Day"
+# ひな祭り
+Abs $CDB03 Max 32 "Hinamatsuri"
+# 決算
+Abs $CDB3B Max 32 "Final Report Day"
+### usada
+# 花見1
+Abs $CDC1B Max 32 "Cherry Blossom 1"
+# 花見2
+Abs $CDC53 Max 32 "Cherry Blossom 2"
+# ゴールデンウィーク1
+Abs $CDC8B Max 32 "Golden Week 1"
+# ゴールデンウィーク2
+Abs $CDCC3 Max 32 "Golden Week 2"
+# 虫歯の日
+Abs $CDCFB Max 32 "Dental Day"
+# 虫歯の日
+Abs $CDD33 Max 32 "Dental Day"
+# 七夕1
+Abs $CDD6B Max 32 "Tanabata 1"
+# 七夕2_2
+Abs $CDDA3 Max 32 "Tanabata 2_2"
+# 七夕2_1
+Abs $CDDDB Max 32 "Tanabata 2_1"
+# 海水浴
+Abs $CDE13 Max 32 "Ocean Trip"
+# 夏祭り1
+Abs $CDE4B Max 32 "Summer Festival 1"
+# 夏祭り2
+Abs $CDE83 Max 32 "Summer Festival 2"
+# うさだ誕生日1
+Abs $CDEBB Max 32 "Usada's Birthday 1"
+# うさだ誕生日2
+Abs $CDEF3 Max 32 "Usada's Birthday 2"
+# 中秋節1
+Abs $CDF2B Max 32 "Harvest Festival 1"
+# 中秋節2
+Abs $CDF63 Max 32 "Harvest Festival 2"
+# 動物愛護週間1
+Abs $CDF9B Max 32 "Be Kind to Animals Week 1"
+# 動物愛護週間2
+Abs $CDFD3 Max 32 "Be Kind to Animals Week 2"
+# 体育の日1
+Abs $CE00B Max 32 "Field Day 1"
+# 体育の日2
+Abs $CE043 Max 32 "Field Day 2"
+# ハロウィン1
+Abs $CE07B Max 32 "Halloween 1"
+# ハロウィン2
+Abs $CE0B3 Max 32 "Halloween 2"
+# ハロウィンMG
+Abs $CE0EB Max 32 "Halloween MG"
+# 温泉
+Abs $CE123 Max 32 "Hot Springs"
+# 初雪
+Abs $CE15B Max 32 "First Snow"
+# サンタクロース
+Abs $CE193 Max 32 "Santa Claus"
+# サンタクロース_2
+Abs $CE1CB Max 32 "Santa Claus 2"
+# クリスマス1
+Abs $CE203 Max 32 "Christmas 1"
+# パーティナイト
+Abs $CE23B Max 32 "Party Night"
+# クリスマス2
+Abs $CE273 Max 32 "Christmas 2"
+# クリスマス
+Abs $CE2AB Max 32 "Christmas"
+# 正月
+Abs $CE2E3 Max 32 "New Year's Day"
+# 節分
+Abs $CE31B Max 32 "Season's End"
+# バレンタインデー
+Abs $CE353 Max 32 "Valentine's Day"
+# バレンタインデー
+Abs $CE38B Max 32 "Valentine's Day"
+# ひな祭り
+Abs $CE3C3 Max 32 "Hinamatsuri"
+# 決算
+Abs $CE3FB Max 32 "Final Report Day"
+### puchiko
+# 花見1
+Abs $CE4DB Max 32 "Cherry Blossom 1"
+# 花見2
+Abs $CE513 Max 32 "Cherry Blossom 2"
+# ゴールデンウィーク1
+Abs $CE54B Max 32 "Golden Week 1"
+# ゴールデンウィーク2
+Abs $CE583 Max 32 "Golden Week 2"
+# 子供の日
+Abs $CE5BB Max 32 "Children's Day"
+# 子供の日
+Abs $CE5F3 Max 32 "Children's Day"
+# 虫歯の日
+Abs $CE62B Max 32 "Dental Day"
+# 虫歯の日
+Abs $CE663 Max 32 "Dental Day"
+# 七夕1
+Abs $CE69B Max 32 "Tanabata 1"
+# 七夕2_2
+Abs $CE6D3 Max 32 "Tanabata 2_2"
+# 七夕2_1
+Abs $CE70B Max 32 "Tanabata 2_1"
+# 海水浴
+Abs $CE743 Max 32 "Ocean Trip"
+# 夏祭り1
+Abs $CE77B Max 32 "Summer Festival 1"
+# 夏祭り2
+Abs $CE7B3 Max 32 "Summer Festival 2"
+# 中秋節1
+Abs $CE7EB Max 32 "Havest Festival 1"
+# 中秋節2
+Abs $CE823 Max 32 "Festival Festival 2"
+# 動物愛護週間1
+Abs $CE85B Max 32 "Be Kind to Animals Week 1"
+# 動物愛護週間2
+Abs $CE893 Max 32 "Be Kind to Animals Week 2"
+# 体育の日1
+Abs $CE8CB Max 32 "Field Day 1"
+# 体育の日2
+Abs $CE903 Max 32 "Field Day 2"
+# ハロウィン1
+Abs $CE93B Max 32 "Halloween 1"
+# ハロウィン2
+Abs $CE973 Max 32 "Halloween 2"
+# 温泉
+Abs $CE9AB Max 32 "Hot Springs"
+# 初雪
+Abs $CE9E3 Max 32 "First Snow"
+# サンタクロース
+Abs $CEA1B Max 32 "Santa Claus"
+# サンタクロース_2
+Abs $CEA53 Max 32 "Santa Claus 2"
+# クリスマス1
+Abs $CEA8B Max 32 "Christmas 1"
+# パーティナイト
+Abs $CEAC3 Max 32 "Party Night"
+# クリスマス2
+Abs $CEAFB Max 32 "Christmas 2"
+# クリスマス
+Abs $CEB33 Max 32 "Christmas"
+# 正月
+Abs $CEB6B Max 32 "New Year's Day"
+# ぷちこ誕生日1
+Abs $CEBA3 Max 32 "Puchiko's Birthday 1"
+# ぷちこ誕生日2
+Abs $CEBDB Max 32 "Puchiko's Birthday 2"
+# 節分
+Abs $CEC13 Max 32 "Last Day of Winter"
+# バレンタインデー
+Abs $CEC4B Max 32 "Valentine's Day"
+# バレンタインデー
+Abs $CEC83 Max 32 "Valentine's Day"
+# ひな祭り
+Abs $CECBB Max 32 "Hinamatsuri"
+# 決算
+Abs $CECF3 Max 32 "Final Report Day"
+### piyoko
+# ピクニック1
+Abs $CED9B Max 32 "Picnic 1"
+# ピクニック2
+Abs $CEDD3 Max 32 "Picnic 2"
+# ゴールデンウィーク1
+Abs $CEE0B Max 32 "Golden Week 1"
+# ゴールデンウィーク2
+Abs $CEE43 Max 32 "Golden Week 2"
+# 遊園地1
+Abs $CEE7B Max 32 "Playground 1"
+# 遊園地2
+Abs $CEEB3 Max 32 "Playground 2"
+# 虫歯の日1
+Abs $CEEEB Max 32 "Dental Day 1"
+# 虫歯の日2
+Abs $CEF23 Max 32 "Dental Day 2"
+# 海水浴
+Abs $CEF5B Max 32 "Ocean Trip"
+# 花火
+Abs $CEF93 Max 32 "Fireworks"
+# 中秋節
+Abs $CEFCB Max 32 "Harvest Festival"
+# 動物愛護週間
+Abs $CF003 Max 32 "Be Kind to Animals Week"
+# 体育の日
+Abs $CF03B Max 32 "Health Day"
+# ぴよこ誕生日1
+Abs $CF073 Max 32 "Piyoko's Birthday 1"
+# ぴよこ誕生日2
+Abs $CF0AB Max 32 "Piyoko's Birthday 2"
+# 寒いぴょ
+Abs $CF0E3 Max 32 "Cold, pyo"
+# 初雪
+Abs $CF11B Max 32 "First Snow"
+# サンタクロース
+Abs $CF153 Max 32 "Santa Claus"
+# クリスマスイヴ
+Abs $CF18B Max 32 "Christmas Eve"
+# パーティナイト
+Abs $CF1C3 Max 32 "Party Night"
+# 晦日
+Abs $CF1FB Max 32 "New Year's Eve"
+# 節分1
+Abs $CF233 Max 32 "Last Day of Winter 1"
+# 節分2
+Abs $CF26B Max 32 "Last Day of Winter 2"
+# バレンタインデー1
+Abs $CF2A3 Max 32 "Valentine's Day 1"
+# バレンタインデー2
+Abs $CF2DB Max 32 "Valentine's Day 2"
+# バレンタインデー2_1
+Abs $CF313 Max 32 "Valentine's Day 2_1"
+# バレンタインデー2_2
+Abs $CF34B Max 32 "Valentine's Day 2_2"
+# ひな祭り
+Abs $CF383 Max 32 "Hinamatsuri"
+# 決算
+Abs $CF3BB Max 32 "Final Report Day"
+
+### --- sound test-related
+###  note that all of these strings are centered onscreen by padding with spaces
+###  make your strings the amount of characters listed, and use spaces to center
+NoDouble
+### song names (32 chars)
+#      ＰＡＲＴＹ☆ＮＩＧＨＴ     
+Abs $D3814 Max 36 "          PARTY☆NIGHT           "
+#           Ｄ・Ｕ・Ｐ！          
+Abs $D3838 Max 36 "             D・U・P!             "
+#    Ｗｅｌｃｏｍｅ！（完全版）   
+Abs $D385C Max 36 "    Welcome! (Complete Mix)     "
+#        １００万＄スマイル       
+Abs $D3880 Max 36 "      Million Dollar Smile      "
+#         ビタミン“Ｄ”          
+Abs $D38A4 Max 36 "          Vitamin \"D\"           "
+#    Ｎｅｖｅｒ ｇｉｖｅ ｕｐ     
+Abs $D38C8 Max 36 "         Never Give Up          "
+#         Ｗｅｌｃｏｍｅ！        
+Abs $D38EC Max 36 "            Welcome!            "
+#   Ｗｅ ａｒｅ ＴＨＥ ＯＮＥ！   
+Abs $D3910 Max 36 "        We are the ONE!         "
+#               出陣              
+Abs $D3934 Max 36 "       Let's get started!       "
+#           やったにょ！          
+Abs $D3958 Max 36 "        We did it, nyo!         "
+#         だめだったにょ～        
+Abs $D397C Max 36 "        No good, nyo...         "
+#          はたらきもの♪         
+Abs $D39A0 Max 36 "          hard worker♪          "
+#            うわのそら           
+Abs $D39C4 Max 36 "         absentmindedly         "
+#          ゆ・う・う・つ         
+Abs $D39E8 Max 36 "         mel-an-chol-ic         "
+#        hopeful afternoon        
+Abs $D3A0C Max 36 "       hopeful afternoon        "
+#          liquid pension         
+Abs $D3A30 Max 36 "         liquid pension         "
+#            紅葉みたい           
+Abs $D3A54 Max 36 "     like leaves in autumn      "
+#         our little step         
+Abs $D3A78 Max 36 "        our little step         "
+#         これって見せ場？        
+Abs $D3A9C Max 36 "     is this the highlight?     "
+#          positive mind          
+Abs $D3AC0 Max 36 "         positive mind          "
+#       スクランブル・えっぐ      
+Abs $D3AE4 Max 36 "         scrambled eggs         "
+#       the dawn of eternity      
+Abs $D3B08 Max 36 "      the dawn of eternity      "
+### sound effect names (16 chars)
+#     効果音 1    
+Abs $D3BA4 Max 20 "     SFX 1      "
+#     効果音 2    
+Abs $D3BB8 Max 20 "     SFX 2      "
+#     効果音 3    
+Abs $D3BCC Max 20 "     SFX 3      "
+#     効果音 4    
+Abs $D3BE0 Max 20 "     SFX 4      "
+#     効果音 5    
+Abs $D3BF4 Max 20 "     SFX 5      "
+#     効果音 6    
+Abs $D3C08 Max 20 "     SFX 6      "
+#     効果音 7    
+Abs $D3C1C Max 20 "     SFX 7      "
+#     効果音 8    
+Abs $D3C30 Max 20 "     SFX 8      "
+#     効果音 9    
+Abs $D3C44 Max 20 "     SFX 9      "
+#     効果音10    
+Abs $D3C58 Max 20 "     SFX 10     "
+#     効果音11    
+Abs $D3C6C Max 20 "     SFX 11     "
+#     効果音12    
+Abs $D3C80 Max 20 "     SFX 12     "
+#     効果音13    
+Abs $D3C94 Max 20 "     SFX 13     "
+#     効果音14    
+Abs $D3CA8 Max 20 "     SFX 14     "
+#     効果音15    
+Abs $D3CBC Max 20 "     SFX 15     "
+#     効果音16    
+Abs $D3CD0 Max 20 "     SFX 16     "
+#     効果音17    
+Abs $D3CE4 Max 20 "     SFX 17     "
+#     効果音18    
+Abs $D3CF8 Max 20 "     SFX 18     "
+#     効果音19    
+Abs $D3D0C Max 20 "     SFX 19     "
+#     効果音20    
+Abs $D3D20 Max 20 "     SFX 20     "
+#     効果音21    
+Abs $D3D34 Max 20 "     SFX 21     "
+#     効果音22    
+Abs $D3D48 Max 20 "     SFX 22     "
+#     効果音23    
+Abs $D3D5C Max 20 "     SFX 23     "
+#     効果音24    
+Abs $D3D70 Max 20 "     SFX 24     "
+#     効果音25    
+Abs $D3D84 Max 20 "     SFX 25     "
+#     効果音26    
+Abs $D3D98 Max 20 "     SFX 26     "
+#     効果音27    
+Abs $D3DAC Max 20 "     SFX 27     "
+### voice names (32 chars)
+#      でじこミュニケーション     
+Abs $D3E38 Max 36 "       DiGiCommunication        "
+#    にょにょにょにょにょ・・・   
+Abs $D3E5C Max 36 "       NyoNyoNyoNyoNyo...       "
+#           でじこ・声１          
+Abs $D3E80 Max 36 "            Dejiko 1            "
+#           でじこ・声２          
+Abs $D3EA4 Max 36 "            Dejiko 2            "
+#           でじこ・声３          
+Abs $D3EC8 Max 36 "            Dejiko 3            "
+#           でじこ・声４          
+Abs $D3EEC Max 36 "            Dejiko 4            "
+#           でじこ・声５          
+Abs $D3F10 Max 36 "            Dejiko 5            "
+#           でじこ・声６          
+Abs $D3F34 Max 36 "            Dejiko 6            "
+#           でじこ・声７          
+Abs $D3F58 Max 36 "            Dejiko 7            "
+#           でじこ・声８          
+Abs $D3F7C Max 36 "            Dejiko 8            "
+#           うさだ・声１          
+Abs $D3FA0 Max 36 "            Usada 1             "
+#           うさだ・声２          
+Abs $D3FC4 Max 36 "            Usada 2             "
+#           うさだ・声３          
+Abs $D3FE8 Max 36 "            Usada 3             "
+#           うさだ・声４          
+Abs $D400C Max 36 "            Usada 4             "
+#           うさだ・声５          
+Abs $D4030 Max 36 "            Usada 5             "
+#           うさだ・声６          
+Abs $D4054 Max 36 "            Usada 6             "
+#           ぷちこ・声１          
+Abs $D4078 Max 36 "           Puchiko 1            "
+#           ぷちこ・声２          
+Abs $D409C Max 36 "           Puchiko 2            "
+#           ぷちこ・声３          
+Abs $D40C0 Max 36 "           Puchiko 3            "
+#           ぷちこ・声４          
+Abs $D40E4 Max 36 "           Puchiko 4            "
+#           ぷちこ・声５          
+Abs $D4108 Max 36 "           Puchiko 5            "
+#           ぷちこ・声６          
+Abs $D412C Max 36 "           Puchiko 6            "
+#           ぷちこ・声７          
+Abs $D4150 Max 36 "           Puchiko 7            "
+#           ぴよこ・声１          
+Abs $D4174 Max 36 "            Piyoko 1            "
+#           ぴよこ・声２          
+Abs $D4198 Max 36 "            Piyoko 2            "
+#           ぴよこ・声３          
+Abs $D41BC Max 36 "            Piyoko 3            "
+#           ぴよこ・声４          
+Abs $D41E0 Max 36 "            Piyoko 4            "
+#           ぴよこ・声５          
+Abs $D4204 Max 36 "            Piyoko 5            "
+#           リク・声１            
+Abs $D4228 Max 36 "             Riku 1             "
+#           リク・声２            
+Abs $D424C Max 36 "             Riku 2             "
+#           カイ・声１            
+Abs $D4270 Max 36 "             Kai 1              "
+#           カイ・声２            
+Abs $D4294 Max 36 "             Kai 2              "
+#           クウ・声１            
+Abs $D42B8 Max 36 "             Kuu 1              "
+#           クウ・声２            
+Abs $D42DC Max 36 "             Kuu 2              "
+#           ゲマ・声１            
+Abs $D4300 Max 36 "             Gema 1             "
+#           ゲマ・声２            
+Abs $D4324 Max 36 "             Gema 2             "
+#           ゲマ・声３            
+Abs $D4348 Max 36 "             Gema 3             "
+#           ゲマ・声４            
+Abs $D436C Max 36 "             Gema 4             "
+#           ゲマ・声５            
+Abs $D4390 Max 36 "             Gema 5             "
+
+### --- unknown?
+# グー
+Ptr $E5E7C "Guu"
+# チョキ
+Ptr $E5E80 "Choki"
+# パー
+Ptr $E5E84 "Paa"
+
+### --- unknown?
+# なし
+Ptr $52174 "None"
+# レベル%d
+Ptr $527C8 "Level %d"
+# マスターレベル
+Ptr $527FC "Master Level"
+
+### --- unknown?
+# なんでもない
+Ptr $57824 "!! 451"
+# あいかわらず
+Ptr $589A4 "!! 452"
+# まだ
+Ptr $589E4 "!! 453"
+
+### --- unknown?
+# %2d位 %s店長
+Ptr $638D4 "!! 454"
+# 　　 %s店長
+Ptr $63910 "!! 455"
+# %10d点
+Ptr $63914 "!! 456"
+
+### --- unknown?
+# %d個 %d円
+Ptr $7F31C "!! 457"
+# もうけ度%d％
+Ptr $7F320 "!! 458"
+# %d円
+Ptr $7F3AC "!! 459"
+# すこし
+Ptr $7FA18 "!! 460"
+# \x02とても\x1a
+Ptr $7FA4C "!! 461"
+
+### --- unknown?
+# %s店
+Ptr $86F24 "!! 462"
+
+### --- credits
+# 　『でじこミュニケーション』
+Ptr $E80DC "『DiGiCommunication』"
+# 企画・制作
+Ptr $E810C "Planning / Production"
+# 　　　　株式会社ブロッコリー
+# use 5 spaces to indent names?
+Ptr $E8114 $E8680 "     Broccoli Co., Ltd."
+# キャラクターデザイン・原画
+Ptr $E8144 "Character Design / Lead Art"
+# 　　　　コゲどんぼ
+Ptr $E814C "     Koge-Donbo*"
+# 原画
+Ptr $E8158 "!! 468"
+# 　　　　渡辺　明夫
+Ptr $E8160 "!! 469"
+# 監修
+Ptr $E816C "!! 470"
+# 　　　　甑　ひとみ
+Ptr $E8174 "!! 471"
+# 原画進行管理
+Ptr $E8184 "!! 472"
+# 　　　　松倉　友二
+Ptr $E8190 "!! 473"
+# 　　　　寺島　清晃
+Ptr $E8198 "!! 474"
+# 企画
+Ptr $E81B0 "Planning"
+# 　企画総括
+Ptr $E81B8 "!! 476"
+# 　　　　河内　武博
+Ptr $E81C0 "!! 477"
+# 　企画補
+Ptr $E81D4 "!! 478"
+# 　　　　岡田　潤
+Ptr $E81DC $E8220 $E834C $E8390 "Atsushi Okada"
+# 　　　　窪田　稔
+Ptr $E81E4 $E8254 "!! 480"
+# プログラム
+Ptr $E81F8 "Programming"
+# 　メインプログラム
+Ptr $E8200 "  Main Programming"
+# 　　　　今村　正己
+Ptr $E8208 "     Masaki Imamura"
+# 　ライブラリ／
+Ptr $E8214 "  Library"
+# 　　　ユーザインタフェイス
+Ptr $E8218 "     User Interface"
+# 　シミュレーション／
+Ptr $E822C "  Simulation"
+# 　　　ミニゲームプログラム
+Ptr $E8230 "     Minigame Programming"
+# 　　　　阿部　哲也
+Ptr $E8238 "      Tetsuya Abe"
+# 　ミニゲームプログラム
+Ptr $E8244 "  Minigame Programming"
+# 　　　　豊島　隆志
+Ptr $E824C "     Takashi Toshima"
+# 　サウンドドライバプログラム
+Ptr $E8260 "  Sound Programming"
+# 　　　　斎藤　彰良
+Ptr $E8268 $E83C8 "     Akira Saito"
+# デザイン
+Ptr $E827C "Design"
+# 　システムグラフィック
+Ptr $E8284 "   System Graphics"
+# 　　　　椎名　誠
+Ptr $E828C "!! 495"
+# ドットキャラ／マップグラフィック
+Ptr $E8298 "!! 496"
+# 　　　　藤田　延長
+Ptr $E82A0 "!! 497"
+# 　　　　渡辺　拓也
+Ptr $E82A8 "!! 498"
+# 　　　　恩田　朋哉
+Ptr $E82B0 "!! 499"
+# 　　　　堀井　直樹
+Ptr $E82B8 $E8570 $E85D0 "!! 500"
+# 　ドットキャラ協力
+Ptr $E82C4 "!! 501"
+# 　　　　加納　保宏
+Ptr $E82CC $E8308 "!! 502"
+# 　　　　まつざわ　かずや
+Ptr $E82D4 "!! 503"
+# 　　　　青田　浩二
+Ptr $E82DC $E8318 "!! 504"
+# バストアップ／イベントＣＧ
+Ptr $E82E8 "!! 505"
+# 　進行
+Ptr $E82F0 "!! 506"
+# 　　　　影山　文憲
+Ptr $E82F8 "!! 507"
+# 　彩色
+Ptr $E8300 "!! 508"
+# 　　　　山崎　豊
+Ptr $E8310 "!! 509"
+# 　　　　岡田　佳巳
+Ptr $E8320 "!! 510"
+# 　　　　たぢまよしかづ
+Ptr $E8328 "!! 511"
+# 　　　　溝口　ひとで
+Ptr $E8330 "!! 512"
+# 　　　　麻倉　桜
+Ptr $E8338 "!! 513"
+# 　ＣＧ仕上げ
+Ptr $E8344 "!! 514"
+# シナリオ
+Ptr $E8358 "!! 515"
+# 　メインシナリオ
+Ptr $E8360 "!! 516"
+# 　　　　菊地　研一郎
+Ptr $E8368 "!! 517"
+# 　マルチ会話シナリオ
+Ptr $E8374 "!! 518"
+# 　　　　渡辺　直行
+Ptr $E837C $E85D8 "!! 519"
+# 　演出
+Ptr $E8388 "!! 520"
+# サウンド
+Ptr $E83A4 "!! 521"
+# 　作曲／効果音
+Ptr $E83AC "!! 522"
+# 　　　　並木　学
+Ptr $E83B4 "!! 523"
+# 　既存曲編曲
+Ptr $E83C0 "!! 524"
+# 　編曲協力
+Ptr $E83D4 "!! 525"
+# 　　　　濱田　智之
+Ptr $E83DC "!! 526"
+# 挿入歌
+Ptr $E83F0 "!! 527"
+# 「Ｗｅｌｃｏｍｅ！」
+Ptr $E83F8 "!! 528"
+# 　　　　作詞：コゲどんぼ
+Ptr $E8400 "!! 529"
+# 　　　　作曲：坂本　裕介
+Ptr $E8408 $E8434 "!! 530"
+# 「ＰＡＲＴＹ☆ＮＩＧＨＴ」
+Ptr $E8414 "!! 531"
+# 「ビタミン“Ｄ”」
+Ptr $E8418 "!! 532"
+# 「１００万＄スマイル」
+Ptr $E841C "!! 533"
+# 「Ｄ・Ｕ・Ｐ！」
+Ptr $E8420 "!! 534"
+# 「Ｎｅｖｅｒ　ｇｉｖｅ　ｕｐ」
+Ptr $E8424 "!! 535"
+# 　　　　作詞：森　ユキ
+Ptr $E842C "!! 536"
+# 「Ｗｅ　ａｒｅ　ＴＨＥ　ＯＮＥ！」
+Ptr $E8440 "!! 537"
+# 　　　　作詞：秋谷　銀四郎
+Ptr $E8448 "!! 538"
+# 　　　　作曲：河辺　健宏
+Ptr $E8450 "!! 539"
+# ＣＡＳＴ
+Ptr $E8464 "!! 540"
+# 　デ・ジ・キャラット
+Ptr $E846C "!! 541"
+# 　　　　真田　アサミ
+Ptr $E8470 "!! 542"
+# 　ラ・ビ・アン・ローズ
+Ptr $E8478 "!! 543"
+# 　　　　氷上　恭子
+Ptr $E847C "!! 544"
+# 　プチ・キャラット
+Ptr $E8484 "!! 545"
+# 　　　　沢城　みゆき
+Ptr $E8488 "!! 546"
+# 　ゲマ
+Ptr $E8490 "!! 547"
+# 　　　　亀井　芳子
+Ptr $E8494 "!! 548"
+# 　ピョコラ＝アナローグV世
+Ptr $E849C "!! 549"
+# 　　　　林原　めぐみ
+Ptr $E84A0 "!! 550"
+# 　リク＝ハイゼンベルク
+Ptr $E84A8 "!! 551"
+# 　　　　鳥海　浩輔
+Ptr $E84AC "!! 552"
+# 　カイ＝シュヴァイツァー
+Ptr $E84B4 "!! 553"
+# 　　　　鈴木　千尋
+Ptr $E84B8 "!! 554"
+# 　クウ＝エアハルト
+Ptr $E84C0 "!! 555"
+# 　　　　サエキトモ
+Ptr $E84C4 "!! 556"
+# マニュアル　　　　　　　　
+Ptr $E84D8 "!! 557"
+# 　　　　田中　裕也
+Ptr $E84E0 "!! 558"
+# マニュアルデザイン　　　
+Ptr $E84EC "!! 559"
+# 　　　　竹林　勇人
+Ptr $E84F4 "!! 560"
+# スペシャルサンクス
+Ptr $E8508 "!! 561"
+# 　　　　有馬　豊
+Ptr $E8510 "!! 562"
+# 　　　　松田　卓郎
+Ptr $E8518 "!! 563"
+# 　　　　田所　宰
+Ptr $E8520 "!! 564"
+# 　　　　柳沢　巌
+Ptr $E8528 "!! 565"
+# 　　　　近藤　貴浩
+Ptr $E8530 "!! 566"
+# 　　　　原篠　誠
+Ptr $E8538 "!! 567"
+# 　　　　山本　信三
+Ptr $E8540 "!! 568"
+# 　　　　篠田　信久
+Ptr $E8548 "!! 569"
+# 　　株式会社メディアワークス
+Ptr $E8554 "!! 570"
+# プロダクトマネジメント
+Ptr $E8568 "!! 571"
+# 開発
+Ptr $E8584 "!! 572"
+# 　　　　有限会社エムツー
+Ptr $E858C "!! 573"
+# 　ＳＹＳＴＥＭ　ＥＮＧＩＮＥ　　　
+Ptr $E8598 "!! 574"
+# 　Ｈｅｐｈａｅｓｔｕｓ　（Ｃ）Ｍ２
+Ptr $E85A0 "!! 575"
+# 　ＳＯＵＮＤ ＤＲＩＶＥＲ
+Ptr $E85AC "!! 576"
+# 　ＳＣＭ３ＬＴ（Ｃ）Ｍ２／斎藤彰良
+Ptr $E85B4 "!! 577"
+# ディレクター
+Ptr $E85C8 "!! 578"
+# プロデューサー
+Ptr $E85FC "!! 579"
+# 　　　　大高　寛之
+Ptr $E8604 "!! 580"
+# エグゼクティブプロデューサー
+Ptr $E8630 "!! 581"
+# 　　　　木谷　高明
+Ptr $E8638 "!! 582"
+# 製作
+Ptr $E867C "!! 583"
+
+### --- digicommunication-related
+# あおじる
+Ptr $8CF3C "Aojiru"
+# バラ
+Ptr $8CF40 "Bara"
+# アキハバラ
+Ptr $8CF44 "Akihabara"
+# ドリームランド
+Ptr $8CF48 "Dreamland"
+# ビラくばり
+Ptr $8CF4C "Flyer Handouts"
+# いいとも
+Ptr $8CF50 "Iitomo"
+# ぴたテン
+Ptr $8CF54 "Pita-Ten"
+# チャリ
+Ptr $8CF58 "Bike"
+# ごもくならべ
+Ptr $8CF5C "Five in a Row"
+# ブロッコリー
+Ptr $E9FF4 "Broccoli"
+# カリフラワー
+Ptr $E9FF8 "Cauliflower"
+# トマト
+Ptr $E9FFC "Tomato"
+# キャロット
+Ptr $EA000 "Carrot"
+# セロリ
+Ptr $EA004 "Celery"
+# あきはばら店
+Ptr $8D87C "Akihabara Store"
+# Ａ
+Ptr $8DF64 "A"
+# Ｂ
+Ptr $8DF6C "B"
+# ＡＢ
+Ptr $8DF74 "AB"
+# Ｏ
+Ptr $8DF80 "O"
+# ブロッコリー
+Ptr $EA11C "Broccoli"
+# カリフラワー
+Ptr $EA120 "Cauliflower"
+# トマト
+Ptr $EA124 "Tomato"
+# キャロット
+Ptr $EA128 "Carrot"
+# セロリ
+Ptr $EA12C "Celery"
+# ピーマン
+Ptr $EA130 "Pepper"
+# エシャロット
+Ptr $EA134 "Shallot"
+# パンプキン
+Ptr $EA138 "Pumpkin"
+# オニオン
+Ptr $EA13C "Onion"
+# キャベツ
+Ptr $EA140 "Cabbage"
+# ラディッシュ
+Ptr $EA144 "Radish"
+# ポテト
+Ptr $EA148 "Potato"
+# ガーリック
+Ptr $EA14C "Garlic"
+# オリーブ
+Ptr $EA150 "Olive"
+# トリュフ
+Ptr $EA154 "Truffle"
+# レタス
+Ptr $EA158 "Lettuce"
+# アスパラガス
+Ptr $EA15C "Asparagus"
+# パセリ
+Ptr $EA160 "Parsley"
+# バジル
+Ptr $EA164 "Basil"
+# パプリカ
+Ptr $EA168 "Paprika"
+
+### --- shop-related
+# でじこ
+Ptr $EBB84 $EBC24 $EBC44 $EBC64 "Dejiko"
+# うさだ
+Ptr $EBB88 $EBC28 $EBC68 $EBC88 "Usada"
+# ぷちこ
+Ptr $EBB8C $EBC2C $EBC4C $EBC6C $EBC8C "Puchiko"
+# ぴよこ
+Ptr $EBB90 $EBC30 $EBC50 $EBC70 $EBC90 $EBCF0 "Piyoko"
+# リク
+Ptr $EBB94 $EBC94 "Riku"
+# カイ
+Ptr $EBB98 $EBC98 "Kai"
+# クウ
+Ptr $EBB9C $EBC9C $EBCDC "Kuu"
+# ゲマ
+Ptr $EBBA0 "Gema"
+# まじんがっぱ
+Ptr $EBBA4 "Majin Gappa"
+# ほっけみりん
+Ptr $EBBA8 "Hokke Mirin"
+# 謎ゲマ
+Ptr $EBBAC "Nazo Gema"
+# ブラゲマ団員
+Ptr $EBBB0 "Black Gema Gang"
+# アタシ
+Ptr $EBC48 "Me"
+# おねえちゃん
+Ptr $EBC84 "Big Sis"
+# ピョコラ様
+Ptr $EBCB0 $EBCD0 "Lady Pyocola"
+# 私
+Ptr $EBCB4 "Me"
+# 中将
+Ptr $EBCB8 $EBCF8 "Lieutenant"
+# 少佐
+Ptr $EBCBC "Major"
+# 元帥
+Ptr $EBCD4 $EBCF4 "Admiral"
+# 自分
+Ptr $EBCD8 "Me"
+# 俺
+Ptr $EBCFC "Me"
+# そろばん
+Ptr $EBDD4 "Abacus"
+# 電卓
+Ptr $EBDD8 "Calculator"
+# レジ
+Ptr $EBDDC "Register"
+# 素手
+Ptr $EBDE4 $EBDF4 "Empty hand"
+# ローラーブレード
+Ptr $EBDE8 "Roller blade"
+# 無線機
+Ptr $EBDEC "Walkie talkie"
+# カート
+Ptr $EBDF8 "Cart"
+# フォークリフト
+Ptr $EBDFC "Forklift"
+# モップ
+Ptr $EBE04 "Mop"
+# そうじき
+Ptr $EBE08 "Vacuum"
+# すごいそうじき
+Ptr $EBE0C "Super Vacuum"
+# ビームでおそうじ
+Ptr $EBE4C "Beam-Cleaning"
+# 人気あつめ
+Ptr $EBE50 "!! 656"
+# 安値仕入れ
+Ptr $EBE54 "!! 657"
+# なし
+Ptr $EBE58 "!! 658"
+# 人物　
+Ptr $EC2FC "People"
+# 食べ物
+Ptr $EC300 "Food"
+# 飲み物
+Ptr $EC304 "Drink"
+# 動物　
+Ptr $EC308 "Animal"
+# 植物　
+Ptr $EC30C "Plant"
+# 場所　
+Ptr $EC310 "Place"
+# 遊び場
+Ptr $EC314 "Hangout Spot"
+# 仕事　
+Ptr $EC318 "Job"
+# テレビ
+Ptr $EC31C "TV"
+# マンガ
+Ptr $EC320 "Manga"
+# 乗り物
+Ptr $EC324 "Vehicle"
+# 遊び　
+Ptr $EC328 "Game"

@@ -1,0 +1,223 @@
+DSCBase $3F27D4
+
+
+
+
+Subscript 0
+Unk08 2 151 75 16 100 10 3
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# カレンダーを見る
+# と、今週から歯の
+# 健康週間だゲマ
+ShowTextBox "Now that I look\nat the calendar,\nit's Dental\nHealth week,\ngema."
+WaitTextBox
+# 店長さん、虫歯っ
+# て何ゲマ…むぎゅ
+# っ！
+ShowTextBox "Have you got any\ncavities,\nManager?...\nG-Gema--!"
+WaitTextBox
+ShowChara 1 1 8
+# 店長しゃん、今の
+# ゲマの変な質問は
+# 無視するにょ！
+ShowTextBox "Manager, please\ndon't mind Gema\nif he asks you\nany weird\nquestions, nyo!"
+WaitTextBox
+ShowChara 2 2 22
+# 芸能人は歯が命っ
+# てよく言うわ
+# 虫歯なんて、とん
+# でもない！
+ShowTextBox "A performer\nlives or dies by\nher teeth, so of\ncourse cavities\nare totally\nunforgivable!"
+WaitTextBox
+ShowChara 2 0 26
+# もちろん、アタシ
+# は毎日歯を磨いて
+# るから、ぴっかぴ
+# っかよ！
+ShowTextBox "I brush mine\nevery day until\nthey're\nsparkling!"
+WaitTextBox
+ShowChara 1 1 8
+# にょっ！そんなこ
+# とでいばるなんて
+# こころざしが低い
+# にょ！
+ShowTextBox "Nyo! You act\nlike that's a\nbig deal, but\nthat's\nnothing, nyo!"
+WaitTextBox
+ShowChara 2 2 26
+# あ～ら、そういう
+# でじこは虫歯ある
+# んじゃない？
+ShowTextBox "Hmph! Are you\nsaying you don't\nhave any \ncavities\neither, Dejiko?"
+WaitTextBox
+ShowChara 1 1 9
+# つ、都合の悪いこ
+# とは店長しゃんに
+# 振るにょ！
+ShowTextBox "W-Why don't we\nask the\nManager, nyo!?"
+WaitTextBox
+# 正直に答えるにょ
+# っ！店長しゃんは
+# 虫歯あるにょ？
+ShowTextBox "This is a yes\nor no question!\nDo you or do\nyou not have\ncavities, nyo?"
+WaitTextBox
+# …ある
+# ない！
+ShowSelMenu09 2 "!... I do\nNo way!"
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 1 0 10
+# さすが店長しゃん
+# にょ！
+ShowTextBox "That's what I\nlike to hear,\nnyo!"
+WaitTextBox
+# やっぱり歯磨きは
+# 大切にょっ…とい
+# うことで、この話
+# は終わりにするに
+# ょ！
+ShowTextBox "Brushing your\nteeth is truly\nimportant,\nnyo... Anyway,\nlet's talk about\nsomething else!"
+WaitTextBox
+ShowChara 2 2 55
+# その態度、あやし
+# いわ…でじこって
+# ひょっとして、虫
+# 歯があるの？
+ShowTextBox "What's the rush?\nDon't tell me...\nDo YOU have\ncavities,\nDejiko?"
+WaitTextBox
+ShowChara 1 1 15
+# ぎくっ！そんなこ
+# とないにょっ、ほ
+# っとくにょっ！
+ShowTextBox "Geh! No way,\nnyo! Leave me\nalone, nyo!"
+WaitTextBox
+ShowChara 2 2 55
+# そんなにムキにな
+# らなくてもいいじ
+# ゃない
+ShowTextBox "It's just a\njoke. No need\nto get so\nangry."
+WaitTextBox
+ShowChara 2 0 26
+# それじゃ、店長さ
+# ん、今日のおやつ
+# はケーキにしまし
+# ょうか？
+ShowTextBox "Well then,\nManager, would\nyou be fine with\na little cake\nwith lunch,\ntoday?"
+WaitTextBox
+ShowChara 3 2 18
+# ぷちこには、虫歯
+# はないにゅ！
+ShowTextBox "I don't have\nany cavities,\nnyu!"
+WaitTextBox
+EndScript
+Label 0
+ShowChara 1 0 10
+# にょにょ、店長し
+# ゃんの歯にも虫歯
+# があるぐらいだか
+# ら
+ShowTextBox "Nyo, if even\nthe Manager has\na few cavities,"
+WaitTextBox
+# でじこの歯に虫歯
+# があっても、全然
+# おかしくないにょ
+# ～！
+ShowTextBox "is it really\nthat strange\nfor me to have\none or two,\nnyo!?"
+WaitTextBox
+ShowChara 2 2 55
+# ごまかしてる、ご
+# まかしてる…
+ShowTextBox "Hehe, so you DO\nhave cavities!\nWell, that's\nabout what I\nexpected..."
+WaitTextBox
+ShowChara 3 2 21
+# あとで痛い目を見
+# るパターンにゅ
+ShowTextBox "I think you\ncan tell what's\ncoming next,\nnyu..."
+WaitTextBox
+Fade 1 160
+Wait 120
+SetBG 124
+Fade 0 1
+ShowChara 2 0 0
+# 店長さん、起きなさい…
+ShowTextBox "Manager,\nawaken..."
+WaitTextBox
+Fade 1 1
+SetBG 123
+Fade 0 30
+Fade 3 1
+SetBG 21
+Fade 2 30
+# よく聞きなさい、店長
+# さん…
+ShowTextBox "Heed my call,\nManager..."
+WaitTextBox
+# アタシの名前はラ・ビ
+# ・アン・ローズ…では
+# なくて虫歯の女神様
+ShowTextBox "I am the\nGoddess of\nCavities...\nDefinitely not\nRabi~En~Rose..."
+WaitTextBox
+# 虫歯の女神様は、ただ
+# いまキャンペーン中で
+# ーす！
+ShowTextBox "Right now, we're\nin the middle of\na wonderful\ncampaign!"
+WaitTextBox
+# なんと、虫歯の治療を
+# 無料かつ強制的に行っ
+# ていまーす！
+ShowTextBox "Get one cavity\ntreated, and we\ntake care of the\nrest for FREE!\nYou CAN'T miss\nthis deal!"
+WaitTextBox
+# さぁ、正直に答えなさ
+# い…
+ShowTextBox "Now, answer me\nwith an honest\nand pure\nheart..."
+WaitTextBox
+# いま店長さんが苦しん
+# でいるのは、右の前歯
+# ですか…
+ShowTextBox "Is the painful\ntooth the one in\nthe front on the\nleft..."
+WaitTextBox
+# それとも、左の奥歯で
+# すか？
+ShowTextBox "Or, is it the\nmolar way in the\nback on the\nright...?"
+WaitTextBox
+# 両方…？ううむ、なん
+# という正直者！
+ShowTextBox "Both...?\nWow, you really\nare honest!"
+WaitTextBox
+# ごほうびとして、両方
+# とも治してあげましょ
+# う…
+ShowTextBox "As your reward,\nI'll treat both\nof them today..."
+WaitTextBox
+# さぁ、お口を開けて…
+# あぁ～～～～ん
+ShowTextBox "Open your\nmouth...\nSay, \"Aaaah\"..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# あら、店長さん、
+# 浮かない顔してど
+# うしたの？
+ShowTextBox "Manager, why do\nyou look so\nsad all of a\nsudden?"
+WaitTextBox
+# えっ、虫歯はもう
+# ないってどういう
+# こと？
+ShowTextBox "What do you\nmean, you can't\nget cavities\nanymore?"
+WaitTextBox
+# って、逃げるよう
+# に行っちゃった…
+ShowTextBox "Ah, they ran\naway..."
+WaitTextBox
+# いったい、何がど
+# うなってるの…？
+ShowTextBox "... Seriously,\nwhat's that\nsupposed to\nmean?"
+WaitTextBox
+EndScript

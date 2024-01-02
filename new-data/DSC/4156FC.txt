@@ -1,0 +1,800 @@
+DSCBase $4156FC
+
+
+
+
+Subscript 0
+ShowChara 8 2 1
+# お店を開くゲマー！
+ShowTextBox "This will open the store, gema!"
+WaitTextBox
+# お店を開く前に、ちゃ
+# んとグッズを仕入れて
+# おいて
+ShowTextBox "Before you open the store, make sure you've put items on the shelves,"
+WaitTextBox
+# みんなのお仕事を決め
+# なおしておくゲマ！
+ShowTextBox "and that everyone's job assignments are OK, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 1
+ShowChara 8 2 1
+# グッズを仕入れるゲマ
+# ー！
+ShowTextBox "Go here to put items on the shelves, gema!"
+WaitTextBox
+# 毎週出てくるグッズが
+# 変わるから、こまめに
+# チェックするゲマ
+ShowTextBox "The items available will change every week, so keep a close eye on this menu, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 8 2 1
+# みんなのお仕事を決め
+# るゲマ
+ShowTextBox "Go here to choose everyone's job assignments, gema."
+WaitTextBox
+# みんなのやりたいお仕
+# 事にしてあげるゲマ！
+ShowTextBox "Try to give people jobs the job they want to do, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 3
+ShowChara 8 2 1
+# お店のお金を使って、
+# お店やみんなをパワー
+# アップしたいときや
+ShowTextBox "In this menu, using the shop's money, you can use Special Commands, gema!"
+WaitTextBox
+# グッズをたくさん売り
+# たいときに使うコマン
+# ドゲマ！
+ShowTextBox "Special Commands are for when you want to power up employees, or sell a lot of items, gema!"
+WaitTextBox
+# そうそう、スペシャル
+# コマンドは、\x04１週間に
+# １回しかできない\x1aゲマ
+ShowTextBox "Keep in mind, you can only use \x041 Special Command per week\x1a, gema."
+WaitTextBox
+# 使うタイミングが大切
+# ゲマ
+ShowTextBox "It's important to get the timing right, gema!"
+WaitTextBox
+# そして、お店のお金を
+# 使わないと出来ないか
+# ら、
+ShowTextBox "Also, Special Commands cost money,"
+WaitTextBox
+# コマンドばかり使って
+# お金をむだ使いしない
+# ようにするゲマ！
+ShowTextBox "so if you use them too much, we'll run out, gema!"
+WaitTextBox
+ShowChara 8 0 2
+# \x01お金がなくなってグッ
+# ズが仕入れられなくな
+# るかもゲマ…\x1a
+ShowTextBox "\x01If the shop has no money, we can't buy any items to sell\x1a, gema..."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 4
+ShowChara 8 2 1
+# スロットがふえてお店
+# が広くなるゲマー！
+ShowTextBox "This will expand the store, adding an additional Slot, gema!"
+WaitTextBox
+# スロットがふえれば、
+# 一度にたくさんグッズ
+# をおくことができて
+ShowTextBox "With an additional Slot, you can stock more items,"
+WaitTextBox
+# しかも、お客さんがた
+# くさんお店の中に入れ
+# るようになるから
+ShowTextBox "and the larger store will let more customers enter, gema!"
+WaitTextBox
+# １週間でたくさんもう
+# けることができるゲマ
+# ー！
+ShowTextBox "You can make a lot of money in just one week using this, gema!"
+WaitTextBox
+# コマンドを使うたびに
+# \x04４・６・９コ\x1aとスロッ
+# トがふえるゲマ
+ShowTextBox "Each use of this command will increase the Slots to 4, then 6, then 9, gema."
+WaitTextBox
+# そのかわり、どんどん
+# 必要なお金が高くなる
+# から…
+ShowTextBox "Each time, the expansion will get more expensive, gema..."
+WaitTextBox
+# たくさんお金をためて
+# おくゲマー！
+ShowTextBox "So you need to make a lot of money, gema!"
+WaitTextBox
+# ちゃんとグッズを仕入
+# れるお金もとっておく
+# ゲマよ！
+ShowTextBox "Stock items that sell, and put together as much money as you can, gema!"
+WaitTextBox
+# スロットをふやしても
+# グッズを仕入れるお金
+# がなかったら…
+ShowTextBox "Even if you add another Slot, it doesn't mean anything if you can't buy items to put in, gema."
+WaitTextBox
+# お客さんに売るモノが
+# なにもなくなるゲマ！
+ShowTextBox "If you run out of money completely, there'll be nothing for the customers to buy, gema!"
+WaitTextBox
+# ちゃんとグッズを買う
+# お金も残しておくこと
+# ゲマッ
+ShowTextBox "Make sure to always have a little money left over, just in case, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 5
+ShowChara 8 2 1
+# フェアを開くと、だれ
+# かのグッズが、１週間
+# すごく売れるゲマー！
+ShowTextBox "If you hold a Fair, items linked to a particular character will sell better for 1 week, gema!"
+WaitTextBox
+# フェアを開くときには
+# \x04だれのフェアにするの
+# かを決める\x1aゲマ
+ShowTextBox "When you hold a Fair, you'll have to decide \x04Who it's for\x1a, gema."
+WaitTextBox
+# たとえば、\x04でじこ\x1aを選
+# んで\x04でじこフェア\x1aを開
+# いたら
+ShowTextBox "For example, if you choose \x04Dejiko\x1a, and hold a \x04Dejiko Fair\x1a,"
+WaitTextBox
+# でじこの名前がついた
+# グッズがすごく売れる
+# ようになるゲマー！
+ShowTextBox "items with Dejiko's name on them will sell more than usual, gema!"
+WaitTextBox
+# \x04でじこ\x1aの名前がついた
+# グッズをたくさん仕入
+# れておいて
+ShowTextBox "So, if you stock the store with a lot of \x04Dejiko\x1a's merchandise,"
+WaitTextBox
+# \x04でじこフェア\x1aを開けば
+# すごくもうかるかもし
+# れないゲマ！
+ShowTextBox "and then hold a \x04Dejiko Fair\x1a, you might make a lot of money, gema!"
+WaitTextBox
+# 一発おおもうけをした
+# いときにフェアを開く
+# といいかもゲマー！
+ShowTextBox "If you need to make a lot of money quick, holding a Fair might be a good idea, gema!"
+WaitTextBox
+# あ、そうゲマ
+ShowTextBox "Ah, that's right, gema."
+WaitTextBox
+# フェアは、\x04毎月の最後
+# の週にしか開くことが
+# できないゲマ！\x1a
+ShowTextBox "You can \x04only hold a Fair during the last week of the month\x1a, gema!"
+WaitTextBox
+# タイミングよく、グッ
+# ズを仕入れておくのが
+# ポイントゲマ～♪
+ShowTextBox "You've gotta make sure the timing is right, gema♪"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 6
+ShowChara 8 2 1
+# グッズを10％安くして
+# お客さんにたくさん
+# 買ってもらうゲマー！
+ShowTextBox "This will make everything in the store sell for 10% off, making customers more likely to buy, gema!"
+WaitTextBox
+# 売れないグッズが売れ
+# やすくなるけれど
+ShowTextBox "It's easier to sell stuff for cheap, but..."
+WaitTextBox
+# グッズを10％安く売る
+# から、もうけが少なく
+# なるゲマ
+ShowTextBox "of course, we make less money off the sale, gema."
+WaitTextBox
+# なかなかグッズが売れ
+# なくて、\x01たたきうり\x1aに
+# なりそうなときには
+ShowTextBox "However, if something's close to going on \x01Special Discount\x1a, a 10% cut might be preferable, gema!"
+WaitTextBox
+# 思い切ってバーゲンを
+# 開いてみるといいかも
+# ゲマー！
+ShowTextBox "Try using it sometime, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 7
+ShowChara 8 2 1
+# ビラをくばった週は、
+# お客さんがいっぱい来
+# てくれるゲマー！
+ShowTextBox "If you hand out fliers, it'll bring a lot of customers to the shop, gema!"
+WaitTextBox
+# なかなかお客さんが来
+# てくれないときにやる
+# といいゲマ！
+ShowTextBox "If you think there aren't enough people in the shop, give it a try, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 8
+ShowChara 8 2 1
+# みんながお仕事で使う
+# アイテムを買うゲマ！
+ShowTextBox "Here, you can buy equipment for employees to use in the store, gema!"
+WaitTextBox
+# みんなにアイテムを
+# 買ってあげると
+ShowTextBox "If you buy equipment for each job,"
+WaitTextBox
+# みんながもっと上手に
+# お仕事できるようにな
+# るゲマ！
+ShowTextBox "then everyone will be able to do their job better, gema!"
+WaitTextBox
+# アイテムは、お仕事ご
+# とに２つずつ、みんな
+# の分だけあるゲマ
+ShowTextBox "There are only two levels of equipment you can buy for each job, gema."
+WaitTextBox
+# 高いアイテムを買って
+# あげるほど、上手にお
+# 仕事できるゲマ！
+ShowTextBox "They might be expensive, but the benefits are worth it, gema!"
+WaitTextBox
+# アイテムを買うと、お
+# 店のお金がへってしま
+# うから
+ShowTextBox "That said... they really are EXPENSIVE, gema."
+WaitTextBox
+# グッズを仕入れるお金
+# も残しておくゲマ！
+ShowTextBox "Make sure you have enough money left over to buy items to sell, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 9
+ShowChara 8 2 1
+# みんながお仕事で使う
+# アイテムゲマ！
+ShowTextBox "This is equipment employees can use during work, gema!"
+WaitTextBox
+# アイテムは、お仕事ご
+# とに２つずつ、みんな
+# の分だけあるゲマ
+ShowTextBox "There are only two levels of equipment for each job, gema."
+WaitTextBox
+# アイテムを買ったら、
+# すぐにアイテムを使う
+# ようになるゲマ
+ShowTextBox "As soon as you buy the equipment, whoever's handling the respective job will begin using it, gema."
+WaitTextBox
+# そして、今つかってい
+# るアイテムよりも高い
+# アイテムを買うと
+ShowTextBox "The more expensive equipment overrides the less expensive, gema."
+WaitTextBox
+# 高い方のアイテムを使
+# うようになるゲマ
+ShowTextBox "The employees will only use the best equipment available, gema!"
+WaitTextBox
+# 使うアイテムは、１つ
+# のお仕事につき１つだ
+# けってことゲマ
+ShowTextBox "Each piece of equipment only affects one job, gema."
+WaitTextBox
+# レジ用アイテムだと
+# \x04電卓\x1aと\x04レジ\x1aがあるけれ
+# ど
+ShowTextBox "For example, the equipment that affects the Cashier is the \x04Calculator\x1a and \x04Register\x1a, gema."
+WaitTextBox
+# どっちも買ってあげた
+# ら、レジだけを使うっ
+# てことゲマ
+ShowTextBox "Whichever you buy, only the Cashier will use them, gema."
+WaitTextBox
+# ついでに、アイテムを
+# 買うときのアドバイス
+# ゲマ！
+ShowTextBox "Also, here's some advice regarding what equipment to buy, gema!"
+WaitTextBox
+# みんなに全部のアイテ
+# ムを買ってあげるのも
+# いいけれど
+ShowTextBox "Buying all the equipment is most effective, but..."
+WaitTextBox
+# なかなかレベルが上が
+# らないキャラに買って
+# あげるといいゲマ！
+ShowTextBox "you should try to prioritize characters with low Job Levels, gema!"
+WaitTextBox
+# 安いのと高いのがある
+# けど、高い方がパワー
+# アップするゲマ
+ShowTextBox "The expensive equipment is more powerful than the less expensive equipment, gema."
+WaitTextBox
+# 安いアイテムを買って
+# あとで高いのを買って
+# もいいし
+ShowTextBox "You can buy one, and then the other, or skip straight to the more expensive if you have enough money, gema!"
+WaitTextBox
+# お店のお金がたまるま
+# でアイテムを買わない
+# でおいて
+ShowTextBox "It's probably going to take a while for the shop to make enough money for you to afford the more expensive item, but..."
+WaitTextBox
+# お金がたまったころに
+# いきなり高いアイテム
+# を買うのもいいゲマ！
+ShowTextBox "Feel free to buy it whenever you have enough, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 10
+ShowChara 8 1 1
+# グッズをスロットにセットするに
+# は
+ShowTextBox "To put items in each Slot,"
+WaitTextBox
+# レバーでカラッポのスロットを選
+# んで、Ａボタンを押すゲマ！
+ShowTextBox "move to an empty slot with the DPad, and press A to choose, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 8 1 1
+# セットされているグッズにカーソ
+# ルを合わせると
+ShowTextBox "If you move your cursor over a Slot that is filled,"
+WaitTextBox
+# グッズの名前と残りの数をチェッ
+# クすることができるゲマ
+ShowTextBox "you can check the name and remaining number of the item inside, gema."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 12
+ShowChara 8 1 1
+# 同じキャラ名か、同じ名前のグッ
+# ズを並べてセットすると
+ShowTextBox "If you line up items that share a character's name, or are the same type of item,"
+WaitTextBox
+# \x04チェイン\x1aが発生して売れやすくな
+# るゲマ！
+ShowTextBox "that will form a \x04Chain\x1a, and the items will sell more easily, gema!"
+WaitTextBox
+# \x04チェイン\x1aが発生すると矢印が出て
+# くるゲマ
+ShowTextBox "An arrow will appear on screen to indicate that a \x04Chain\x1a has formed, gema."
+WaitTextBox
+# どんどん\x04チェイン\x1aをおこして、
+# グッズをたくさん売るゲマー！
+ShowTextBox "\x04Chains\x1a are key to selling a lot of merchandise, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 13
+ShowChara 8 1 1
+# お店メニューに戻るゲマ
+ShowTextBox "This returns you to the Shop Menu, gema."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 14
+ShowChara 8 1 1
+# お店のことがわかる
+# \x04お店情報画面\x1aを開くゲマ！
+ShowTextBox "This opens the \x04Shop Information Screen\x1a, gema!"
+WaitTextBox
+# 全部で６つの情報を見ることがで
+# きるゲマ
+ShowTextBox "There are 6 things you can look for in the shop information, gema:"
+WaitTextBox
+# \x04ひょうばん\x1aは、高いほどお客さん
+# がたくさん来てくれるゲマ
+ShowTextBox "High \x04Popularity\x1a means more customers will come to the store,"
+WaitTextBox
+# \x04きれいさ\x1aは、低いほどお客さんが
+# お店に入ってこなくなるゲマ
+ShowTextBox "Low \x04Cleanliness\x1a means customers won't enter the store,"
+WaitTextBox
+# \x04お客さん\x1aは、お店に来てくれたお
+# 客さんの数ゲマ
+ShowTextBox "\x04Customers\x1a indicates the number of customers that have come to the shop,"
+WaitTextBox
+# \x04うりあげ\x1aは、お店が１週間でかせ
+# いだお金ゲマ
+ShowTextBox "\x04Proceeds\x1a is the amount of money the shop has made from selling items in the last week,"
+WaitTextBox
+# \x04おかね\x1aは、お店が持っているお金
+# ゲマ
+ShowTextBox "\x04Money\x1a is the total amount of money the shop has at hand,"
+WaitTextBox
+# \x04お店ポイント\x1aは、おかねやみんな
+# のレベルで決まるスコアゲマ
+ShowTextBox "and \x04Shop Points\x1a is a score determined by the number of customers and level of your employees, gema."
+WaitTextBox
+# 店長さんの実力によって、増えた
+# り減ったりするゲマ！
+ShowTextBox "This score will go up or down depending upon your efforts, gema!"
+WaitTextBox
+# たまにこの画面を開いて、お店の
+# 状態をチェックするといいゲマね
+ShowTextBox "It's a good idea to check this screen every now and then, and see how things are going, gema."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 15
+ShowChara 8 2 1
+# 今選んでいるのが
+# \x04グッズパネル\x1aゲマ
+ShowTextBox "Right now you have an \x04Item Panel\x1a selected, gema."
+WaitTextBox
+# \x04グッズの名前\x1a、\x04個数\x1a、
+# \x04必要なお金\x1a、\x04もうけ度\x1a
+# が書いてあるゲマ
+ShowTextBox "On the panel, you can see the \x04item name\x1a, \x04count\x1a, \x04price\x1a, and \x04percent profit\x1a, gema."
+WaitTextBox
+# グッズを選ぶと、仕入
+# れる数を変えることが
+# できるゲマ
+ShowTextBox "Choose an item, and you can change the number you want to buy, gema."
+WaitTextBox
+# 数を増やすと、必要な
+# お金も増えていくゲマ
+ShowTextBox "Buying more of an item will cost more money, gema."
+WaitTextBox
+# 数を決めたら、選んだ
+# グッズを買うことがで
+# きるゲマ！
+ShowTextBox "Once you've chosen how many you want, all that's left is to buy it, gema!"
+WaitTextBox
+# グッズを買うと、必要
+# なお金の分だけ、お店
+# のお金が減るゲマ
+ShowTextBox "The money that you spend on items here comes directly out of the store funds, gema."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 16
+ShowChara 8 2 1
+# さっき、みんなから
+# 「○○が流行してる」
+# って聞いたゲマ？
+ShowTextBox "Have you heard anyone telling you, \"So and so item is popular right now\", gema?"
+WaitTextBox
+# みんなが教えてくれた
+# 流行グッズには、
+# \x04★マーク\x1aがつくゲマ！
+ShowTextBox "Items that you've heard are popular will be marked with a \x04★\x1a, gema!"
+WaitTextBox
+# \x04★マーク\x1aのグッズをた
+# くさん仕入れて、おお
+# もうけするゲマ！
+ShowTextBox "Stock a lot of items with the \x04★\x1a mark, and you can make a lot of money, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 17
+ShowChara 8 2 1
+# スロットメニューに戻
+# るゲマ
+ShowTextBox "This will return you to the Slot Menu, gema."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 18
+ShowChara 8 2 1
+# グッズパネルの並べ方
+# を切り替えることがで
+# きるゲマ
+ShowTextBox "This lets you change the order of the Item Panels, gema."
+WaitTextBox
+# 全部で４つの並べ方に
+# 切り替えることができ
+# るゲマ
+ShowTextBox "There are 4 different orders of arrangement you can choose from, gema:"
+WaitTextBox
+# \x04値段順\x1a：
+# 買うのに必要なお金の
+# 少ない順に並べるゲマ
+ShowTextBox "\x04Price\x1a:\nThis arranges the items from least expensive to most expensive, gema."
+WaitTextBox
+# \x04個数順\x1a：
+# 仕入れる個数の少ない
+# 順に並べるゲマ
+ShowTextBox "\x04Count\x1a:\nThis arranges items in terms of how many you buy at once, gema."
+WaitTextBox
+# \x04もうけ順\x1a：
+# もうけ度の大きい順に
+# 並べるゲマ
+ShowTextBox "\x04Profit\x1a:\nThis arranges items by the percent profit if everything is sold, gema."
+WaitTextBox
+# \x04キャラ順\x1a：
+# みんなの名前順に並べ
+# るゲマ
+ShowTextBox "\x04Character\x1a:\nThis arranges the items by which character they're associated with, gema."
+WaitTextBox
+# 選びやすい並べ方にし
+# てみるといいゲマー！
+ShowTextBox "Choose whichever order makes it easiest for you, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 19
+ShowChara 8 1 1
+# キャラの足元に出ているのは、そ
+# のお仕事のレベルゲマ
+ShowTextBox "By each character's feet, you'll see their Job Level, gema."
+WaitTextBox
+# 頭の上に\x04(^-^)\x1aや\x04(-_-)\x1aのマークが
+# 出ることがあるゲマ
+ShowTextBox "Above their head, you may see a \x04(^-^)\x1a or \x04(-_-)\x1a mark, gema."
+WaitTextBox
+# いまセットされているお仕事をや
+# りたいときには\x04(^-^)\x1aが
+ShowTextBox "If they want to do the job they're currently assigned to, it'll be the \x04(^-^)\x1a mark."
+WaitTextBox
+# やりたくないときには\x04(-_-)\x1aが出
+# るゲマ！
+ShowTextBox "If they don't want to do the job, it'll be the \x04(-_-)\x1a mark, gema!"
+WaitTextBox
+# どっちでもないときには、なにも
+# 出ないゲマ
+ShowTextBox "If they don't care one way or the other, no mark will appear, gema."
+WaitTextBox
+# このマークを見て、みんなのやり
+# たいお仕事をチェックするゲマッ
+ShowTextBox "Look at this mark, and try to assign everyone jobs they enjoy, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 20
+ShowChara 8 1 1
+# \x04レジ\x1a係ゲマ
+ShowTextBox "This is the \x04Cashier\x1a, gema."
+WaitTextBox
+# お客さんがもってきたグッズを計
+# 算するゲマ
+ShowTextBox "The person doing this job calculates the amount of money to charge the customer for whatever they buy, gema."
+WaitTextBox
+# 誰かが必ずレジ係になっていない
+# とお店を開けないので注意ゲマ！
+ShowTextBox "The shop always needs a Cashier in order to open, so watch out when assigning jobs, gema!"
+WaitTextBox
+# そうそう、レジを続けていくと、
+# いいことがあるゲマ
+ShowTextBox "By the way, there's a benefit to keeping one character behind the register..."
+WaitTextBox
+# レジをやってるキャラのグッズが
+# 売れやすくなるゲマ～！
+ShowTextBox "Items related to whichever character is currently the Cashier will sell more easily, gema!"
+WaitTextBox
+# レジをやってると、人気が出てく
+# るってことゲマ～♪
+ShowTextBox "The cashier tends to be the most popular employee, gema~♪"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 21
+ShowChara 8 1 1
+# \x04接客\x1a係ゲマッ
+ShowTextBox "This job is Customer \x04Service\x1a, gema."
+WaitTextBox
+# 困っているお客さんのお手伝いを
+# するゲマ！
+ShowTextBox "The employee in this job is responsible for helping out customers, gema!"
+WaitTextBox
+# 接客が上手になると、お店のひょ
+# うばんが上がるゲマ～！
+ShowTextBox "When employees are better at the Service role, the shop's Popularity will increase, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 22
+ShowChara 8 1 1
+# \x04グッズ整理\x1a係ゲマッ
+ShowTextBox "This is where the Item \x04Stocker\x1a works, gema."
+WaitTextBox
+# スロットにおいてあるグッズをキ
+# レイに並べたりするゲマッ！
+ShowTextBox "The employee in this role is responsible for keeping the shelves orderly and easy to reach, gema!"
+WaitTextBox
+# グッズ整理が上手になると、グッ
+# ズが売れやすくなるゲマ～！
+ShowTextBox "A high Job Level in the Stocker role means items will sell more easily, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 23
+ShowChara 8 1 1
+# \x04掃除\x1a係ゲマ
+ShowTextBox "This is the \x04Cleaner\x1a job, gema."
+WaitTextBox
+# お店の中をきれいにおそうじする
+# ゲマ！
+ShowTextBox "The Cleaner is responsible for keeping the shop clean and orderly, gema!"
+WaitTextBox
+# お客さんが来るほど、お店の中が
+# どんどん汚くなるゲマ
+ShowTextBox "As customers pass through the shop, it'll get dirtier over time, gema."
+WaitTextBox
+# お店をきれいにして、お客さんが
+# たくさん来るようにするゲマ！
+ShowTextBox "A clean shop is necessary to get customers through the door, gema!"
+WaitTextBox
+# 掃除が上手になると、すぐにお店
+# の中をキレイにできるゲマー！
+ShowTextBox "The higher the Cleaner's Job Level, the quicker they'll be able to clean the shop, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 24
+ShowChara 8 1 1
+# お店メニューに戻るゲマ
+ShowTextBox "This will return you to the Shop Menu, gema."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 25
+ShowChara 8 1 1
+# みんなのことがわかる
+# \x04キャラ情報画面\x1aを開くゲマ！
+ShowTextBox "This opens the \x04Character Information Screen\x1a, gema!"
+WaitTextBox
+# 開いたら、レバーの←→でキャラ
+# をきりかえるゲマ
+ShowTextBox "When you open it, use ← and → to move between characters, gema."
+WaitTextBox
+# \x04キャラ情報画面\x1aには、お仕事の
+# \x04レベル\x1aと\x04経験値ゲージ\x1a、
+ShowTextBox "On the \x04Charater Information Screen\x1a, you can see a character's \x04Job Level\x1a, \x04Experience Gauge\x1a,"
+WaitTextBox
+# \x04装備しているアイテム\x1aが出ている
+# ゲマ
+ShowTextBox "and \x04Equipped item\x1a, gema."
+WaitTextBox
+# アシスタントキャラには、\x04とくぎ\x1a
+# と\x04とくぎゲージ\x1aも出ているゲマ
+ShowTextBox "For your Assistant, their \x04Special Skill\x1a and \x04Skill Gauge\x1a will also appear, gema."
+WaitTextBox
+# \x04とくぎ\x1aは、アシスタントキャラだ
+# け使うことができるゲマ！
+ShowTextBox "The \x04Special Skill\x1a is a technique only your Assistant can use, gema!"
+WaitTextBox
+# みんなのとくぎをおしえるゲマ
+ShowTextBox "I'll tell you what everyone's Special Skills are, gema:"
+WaitTextBox
+# でじこ：\x01目からビーム！\x1a
+# \x04お店をキレイにするゲマ！\x1a
+ShowTextBox "Dejiko: \x01Eye Laser Beam!\x1a\n\x04Immediately cleans up the shop!\x1a"
+WaitTextBox
+# これを使えば、１週間はおそうじ
+# する必要がないゲマ～♪
+ShowTextBox "If you use this, you won't need to assign a Cleaner that week, gema ♪"
+WaitTextBox
+# うさだ：\x01人気あつめ\x1a
+# \x04グッズを売れやすくするゲマ！\x1a
+ShowTextBox "Usada: \x01Popular Collection\x1a\n\x04Items will sell more easily!\x1a"
+WaitTextBox
+# これを使えば、１週間だけどんな
+# グッズも売れやすくなるゲマ～♪
+ShowTextBox "If you use this, for one week items will sell more easily, gema ♪"
+WaitTextBox
+# ぷちこ：\x01安値仕入れ\x1a
+# \x04グッズを５％安く仕入れるゲマ！\x1a
+ShowTextBox "Puchiko: \x01Wholesale Stock\x1a\n\x04Buying stock will be 5% cheaper!\x1a"
+WaitTextBox
+# これを使えば、高いグッズも安く
+# 仕入れることができるゲマ～♪
+ShowTextBox "If you use this, you can buy even expensive items to sell in the store, gema ♪"
+WaitTextBox
+# つぎに、\x04とくぎ\x1aの使い方ゲマ！
+ShowTextBox "Here's how you use a \x04Special Skill\x1a, gema!"
+WaitTextBox
+# \x04とくぎゲージ\x1aは毎日すこしずつ
+# たまっていくゲマ
+ShowTextBox "The \x04Skill Gauge\x1a will fill up a little bit every day, gema."
+WaitTextBox
+# \x04とくぎゲージ\x1aがたまると、アシス
+# タントキャラが話してくるゲマ
+ShowTextBox "When the \x04Skill Gauge\x1a is full, talk to your Assistant, gema."
+WaitTextBox
+# 使うときには「はい」、あとで使
+# うときには「いいえ」ゲマ！
+ShowTextBox "If you want them to use it immediately, say \"Yes\". To save it for later, say \"No\", gema!"
+WaitTextBox
+HideChara
+EndScript

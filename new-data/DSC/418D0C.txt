@@ -1,0 +1,98 @@
+DSCBase $418D0C
+
+
+
+
+Subscript 0
+ShowChara 2 0 0
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# おしごとをかえたいキャラを選んでＡボタンを押してね
+ShowTextBox "Whose job do you want to change?"
+EndScript
+
+
+
+Subscript 3
+# 新しいおしごとを選んでＡボタンを押してね
+ShowTextBox "Which job should they switch to?"
+EndScript
+
+
+
+Subscript 4
+# レジにはだれかいないとお仕事ができないわ
+ShowTextBox "We can't work if nobody's handling Checkout!"
+EndScript
+
+
+
+Subscript 5
+# $0が$1をするわ
+ShowTextBox "$0 is on $1 duty."
+EndScript
+
+
+
+Subscript 6
+# $0と$1がお仕事を交代よ
+ShowTextBox "$0 and $1 switched jobs."
+EndScript
+
+
+
+Subscript 7
+# お仕事はこれで決まりかしら？
+ShowTextBox "Are these assignments fine?"
+EndScript
+
+
+
+Subscript 8
+# 『レジ』は、お客様にグッズを売るお仕事よ
+ShowTextBox "The 『Checkout』runs the register."
+EndScript
+
+
+
+Subscript 9
+# 『接客』は、こまっているお客様を手助けするお仕事よ
+ShowTextBox "The 『Service』 helps customers navigate the shop."
+EndScript
+
+
+
+Subscript 10
+# 『グッズ整理』は、グッズをスロットに並べるお仕事よ
+ShowTextBox "The 『Stocker』 arranges goods on the shelves."
+EndScript
+
+
+
+Subscript 11
+# 『お掃除』は、お店の中をキレイにするお仕事よ
+ShowTextBox "The 『Cleaner』 keeps the store clean."
+EndScript
+
+
+
+Subscript 12
+# 『偵察』…偵察って何の事？
+ShowTextBox "『Recon』... What's this do?"
+EndScript
+
+
+
+Subscript 13
+# キャラのステータスを見るわ
+ShowTextBox "See a character's status."
+EndScript

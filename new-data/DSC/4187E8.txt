@@ -1,0 +1,99 @@
+DSCBase $4187E8
+
+
+
+
+Subscript 0
+ShowChara 1 0 0
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# どのキャラのお仕事をかえるにょ？
+ShowTextBox "Whose job do you want to change, nyo?"
+EndScript
+
+
+
+Subscript 3
+# どのお仕事をさせるにょ？
+ShowTextBox "Switch to which job, nyo?"
+EndScript
+
+
+
+Subscript 4
+# レジは、必ず誰かがやらなきゃダメなんだにょ！
+ShowTextBox "Someone's gotta be behind the register, nyo!"
+EndScript
+
+
+
+Subscript 5
+# $0が$1するにょ！
+ShowTextBox "$0 is on $1 duty, nyo!"
+EndScript
+
+
+
+Subscript 6
+# $0と$1がお仕事を入れかわるにょ！
+ShowTextBox "$0 and $1 switched jobs, nyo!"
+EndScript
+
+
+
+Subscript 7
+# これでいいかにょ？
+ShowTextBox "Are these assignments fine, nyo?"
+EndScript
+
+
+
+Subscript 8
+# 『レジ』は、お客さんにグッズを売るお仕事にょ！
+ShowTextBox "The 『Checkout』is where the customer buy goods, nyo!"
+EndScript
+
+
+
+Subscript 9
+# 『接客』は、お客さんの手助けをするお仕事にょ
+ShowTextBox "The 『Service』 helps customers navigate the shop, nyo."
+EndScript
+
+
+
+Subscript 10
+# 『グッズ整理』は、グッズを
+# スロットに並べるお仕事にょ
+ShowTextBox "The 『Stocker』 arranges goods on the shelves, nyo."
+EndScript
+
+
+
+Subscript 11
+# 『お掃除』は、お店の中をキレイにするお仕事にょ
+ShowTextBox "The 『Cleaner』 keeps the store looking clean, nyo."
+EndScript
+
+
+
+Subscript 12
+# 『偵察』…偵察ってなんにょ？
+ShowTextBox "The 『Recon』 is... Huh? What's Recon, nyo?"
+EndScript
+
+
+
+Subscript 13
+# キャラのステータスを見るにょ
+ShowTextBox "See a character's status, nyo."
+EndScript

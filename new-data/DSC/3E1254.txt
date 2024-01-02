@@ -1,0 +1,61 @@
+DSCBase $3E1254
+
+
+
+
+Subscript 0
+ShowChara 6 2 40
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 6 0 40
+# 自分はカイ＝シュヴァ
+# イツァー中将、ピョコ
+# ラ様をお守りする者！
+ShowTextBox "I am Lieutenant\nKy Schweizer,\nLady Pyocola's\nmost devoted\nservant and\nguardian!"
+EndScript
+
+
+
+Subscript 3
+ShowChara 6 0 40
+# ブラックゲマゲマ団の
+# みなさん、準備はいい
+# ですか？
+ShowTextBox "My fellow\nsoldiers! Are\nyou prepared to\nput your lives\non the line for\nthe Gang?"
+EndScript
+
+
+
+Subscript 4
+ShowChara 6 0 40
+# ひきょうなデ・ジ・
+# キャラットから、ピョ
+# コラ様を守らねば…
+ShowTextBox "We must not fail\nto protect our\nLady Pyocola\nfrom those Di Gi\nCharat cowards!"
+EndScript
+
+
+
+Subscript 5
+ShowChara 6 0 43
+# 自分は中将ですから、
+# アシスタントは引き受
+# けられません
+ShowTextBox "My duties as\nLieutenant will\nnot allow me to\nserve as your\nassistant,\nManager."
+Wait 60
+ShowChara 6 0 41
+# それに、もっとふさわ
+# しい方がいるじゃない
+# ですか
+ShowTextBox "Besides, I\nbelieve there\nis a far more\nfitting\ncandidate quite\nnearby..."
+Wait 60
+EndScript

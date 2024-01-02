@@ -1,0 +1,127 @@
+DSCBase $4103BC
+
+
+
+
+Subscript 0
+ShowChara 5 0 36
+# うむ、今週は
+# $0、うまくいきました
+# 来週も私に
+# おまかせあれ
+ShowTextBox "$0 went well this week.\nI'll ensure next week's results are even better."
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 5 0 35
+# ふむ、今週は
+# $0、ふつうでした
+# 来週も
+# がんばるとします
+ShowTextBox "My $0 performance was only average this week.\nI'll put in more effort next week."
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 5 0 37
+# む、今週は
+# $0、うまくいきませんでした
+# 来週こそは
+# がんばらねば…
+ShowTextBox "Hmph, I did poorly at $0 this week.\nI assure you that next week will be a different matter."
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 5 0 37
+# 近頃\x01$0\x1aばかりで、私の能力が生かされていない気がします
+# 次は\x01$1\x1aなどはどうでしょうか
+ShowTextBox "I feel like my abilities have been wasted, doing nothing but \x01$0\x1a.\nHow about assigning me to \x01$1\x1a instead, Manager?"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 5 0 36
+PlaySfx 167
+PlaySfx 18
+# ふっ…
+# $0のレベルアップです
+# これで\x03$1\x1aです
+ShowTextBox "Hmm...\nIt seems I've leveled up at $0.\nI am now level \x03$1\x1a."
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 5 0 36
+PlaySfx 167
+PlaySfx 18
+# ふっ…
+# $0のレベルアップです
+# これで…
+ShowTextBox "Hmm...\nIt seems I've leveled up at $0.\nI am now..."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 6
+SetBG 102
+Unk08 5 56 33 8 54 10 3
+Fade 0 30
+ShowChara 5 0 0
+# \x03レジマスター\x1aです
+ShowTextBox "a \x03Checkout Master\x1a."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 7
+SetBG 102
+Unk08 5 56 33 8 54 10 3
+Fade 0 30
+ShowChara 5 0 0
+# \x03接客マスター\x1aです
+ShowTextBox "a \x03Service Master\x1a."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 8
+SetBG 102
+Unk08 5 56 33 8 54 10 3
+Fade 0 30
+ShowChara 5 0 0
+# \x03グッズマスター\x1aです
+ShowTextBox "a \x03Stocking Master\x1a."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 9
+SetBG 102
+Unk08 5 56 33 8 54 10 3
+Fade 0 30
+ShowChara 5 0 0
+# \x03掃除マスター\x1aです
+ShowTextBox "a \x03Cleaning Master\x1a."
+WaitTextBox
+Fade 1 30
+EndScript

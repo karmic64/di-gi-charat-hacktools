@@ -1,0 +1,167 @@
+DSCBase $412C8C
+
+
+
+
+Subscript 0
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 1
+# ぷちこは\x02仕事に飽きているようだ\x1a
+ShowTextBox "Looks like Puchiko is \x02tired of her job\x1a!"
+EndScript
+
+
+
+Subscript 2
+# 「もうこんな仕事ヤダにゅ！」
+ShowTextBox "\"This job sucks, nyu!\""
+EndScript
+
+
+
+Subscript 3
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 4
+# ぷちこは\x02やりたい仕事を他の人にとられてすねているようだ\x1a
+ShowTextBox "Looks like Puchiko is \x02annoyed at someone else doing the job she wants\x1a!"
+EndScript
+
+
+
+Subscript 5
+# 「えこひいきはずるいにゅ」
+ShowTextBox "\"Playing favorites is mean, nyu...\""
+EndScript
+
+
+
+Subscript 6
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 7
+# ぷちこは\x02自分のグッズが叩き売られて悲しいようだ\x1a
+ShowTextBox "Looks like Puchiko is \x02sad to see her goods on special discount\x1a! "
+EndScript
+
+
+
+Subscript 8
+# 「資本主義はきびしいにゅ…」
+ShowTextBox "\"Capitalism is too strict, nyu...\""
+EndScript
+
+
+
+Subscript 9
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 10
+# ぷちこは\x03自分のグッズがたくさんあってうれしいようだ\x1a
+ShowTextBox "Looks like Puchiko is \x03happy to see a lot of her goods in the store\x1a!"
+EndScript
+
+
+
+Subscript 11
+# 「需要の多いグッズをたくさん置けばお客さんは大満足にゅ」
+ShowTextBox "\"If you put up goods that are in demand, it's natural that the customers will be satisfied, nyu.\""
+EndScript
+
+
+
+Subscript 12
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 13
+# $0ぷちこは\x01仕事がうまくいっていないようだ\x1a
+ShowTextBox "$0Looks like Puchiko's \x01job isn't going very well\x1a!"
+EndScript
+
+
+
+Subscript 14
+# 「こんなことやってられないにゅ…」
+ShowTextBox "\"I don't know if I can do this, nyu...\""
+EndScript
+
+
+
+Subscript 15
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 16
+# $0\x02ぷちこの調子はあまりよくないようだ\x1a
+ShowTextBox "$0\x02Puchiko doesn't look well\x1a!"
+EndScript
+
+
+
+Subscript 17
+# 「やる気がでないにゅ」
+ShowTextBox "\"I don't feel like doing this, nyu...\""
+EndScript
+
+
+
+Subscript 18
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 19
+# $0ぷちこは問題無く仕事をしているようだ
+ShowTextBox "$0Looks like Puchiko isn't having any problems."
+EndScript
+
+
+
+Subscript 20
+# 「今日も一日平穏無事にゅ」
+ShowTextBox "\"Just another peaceful day, nyu.\""
+EndScript
+
+
+
+Subscript 21
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 22
+# $0ぷちこは\x03はりきって仕事をしているようだ\x1a
+ShowTextBox "$0Looks like Puchiko is \x03working in high spirits\x1a!"
+EndScript
+
+
+
+Subscript 23
+# 「たまには頑張るのもいいにゅ」
+ShowTextBox "\"It feels good to put in a little effort every now and then, nyu.\""
+EndScript
+
+
+
+Subscript 24
+EndScript

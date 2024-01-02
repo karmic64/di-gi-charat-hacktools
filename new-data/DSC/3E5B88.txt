@@ -1,0 +1,342 @@
+DSCBase $3E5B88
+
+
+
+### Prefill data: $80
+Subscript 0
+ShowChara 3 1 17
+# ただいまにゅ
+ShowTextBox "I'm back, nyu."
+WaitTextBox
+# さっき$1が外を歩いてたにゅ
+ShowTextBox "I saw\n$1\nwalking by, nyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$83
+Subscript 1
+ShowChara 8 2 1
+# ぷちこ、何の本を読んでるゲマ？
+ShowTextBox "Puchiko,\nwhat book are\nyou reading,\ngema?"
+WaitTextBox
+ShowChara 3 1 17
+# 『$1動物大図鑑』にゅ
+ShowTextBox "\"Illustrated\nGuide to the\nAnimals of\n$1\",\nnyu."
+WaitTextBox
+ShowChara 3 0 18
+# $2の生態に迫る必読書にゅ
+ShowTextBox "I'm learning\nabout the\nthreats faced\nby the wild\n$2,\nnyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87
+Subscript 2
+ShowChara 3 1 17
+# にゅ…
+ShowTextBox "Nyu..."
+WaitTextBox
+# ぷちこ、$1はイマイチ苦手にゅ
+ShowTextBox "I don't like\nbeing\n$1\nvery much, nyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81
+Subscript 3
+ShowChara 3 1 17
+# …ただいまにゅ
+ShowTextBox "...\nI'm back, nyu."
+WaitTextBox
+# 屋台で$1を買ってきたにゅ
+ShowTextBox "I bought some\n$1\nfor dinner,\nnyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$87
+Subscript 4
+ShowChara 3 1 19
+# …………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 8 2 2
+# ぷちこは$2の仕事で$1まで行かされて、ゴキゲンななめゲマ
+ShowTextBox "Puchiko looks\nangry that she\nhad to go all\nthe way to\n$2\nfor work, gema.."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81
+Subscript 5
+ShowChara 3 1 17
+# おなか空いたにゅもう２日も食べてないにゅ
+ShowTextBox "I'm hungry, nyu.\nI haven't eaten\nanything in\ntwo days, nyu..."
+WaitTextBox
+ShowChara 3 0 20
+# $1でもいいから、食べたいにゅ…
+ShowTextBox "I'm so hungry,\nI'd even eat\n$1,\nnyu..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80
+Subscript 6
+ShowChara 3 1 18
+# ビックリにゅ
+# $1がお店に来てるにゅ
+ShowTextBox "I was surprised\nto see\n$1\nin the store,\nnyu."
+WaitTextBox
+# サインでも、もらっとくにゅ？
+ShowTextBox "Should I ask\nthem for their\nautograph, nyu?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$83,$8B
+Subscript 7
+ShowChara 3 1 17
+# このまえ、$1で$2を見かけたにゅ
+ShowTextBox "I saw a\n$2\nin\n$1,\nnyu."
+WaitTextBox
+# きっと$3しに来てたんだにゅ
+ShowTextBox "They probably\nwent to play\n$3,\nnyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89,$80
+Subscript 8
+ShowChara 3 1 17
+# 今日実写版『$1』の映画が封切りされるにゅ
+ShowTextBox "Today's the\npremiere of the\nlive-action\n$1\nmovie, nyu."
+WaitTextBox
+ShowChara 8 4 2
+# なんでも$2がヒロイン役を演じる異色作らしいゲマ～
+ShowTextBox "It's pretty\nweird that they\ngot\n$2\nas the leading\nheroine, gema!"
+WaitTextBox
+ShowChara 3 4 18
+# おもしろそうにゅ
+# ぷちこ観てみたいにゅ！
+ShowTextBox "It sounds\ninteresting,\nnyu. I wanna\ngo see it!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87,$86
+Subscript 9
+ShowChara 3 1 19
+# …疲れたにゅ
+# もう$1なんて、やってられないにゅ…
+ShowTextBox "...\nI'm tired, nyu.\nI can't be\n$1\nany longer,\nnyu..."
+WaitTextBox
+ShowChara 3 0 20
+# ぷちこ、$2に行って骨休みしたいにゅ～
+ShowTextBox "I want to go\ntake a long\nvacation at\n$2,\nnyu..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$87
+Subscript 10
+ShowChara 3 1 17
+# 今日はいいお天気にゅ
+ShowTextBox "The weather's\nnice today, nyu."
+WaitTextBox
+ShowChara 3 0 21
+# こんな日は、お外で$1といっしょに$2するに限るにゅ
+ShowTextBox "Today's a good\nday to work\noutside with\n$1,\nnyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$8A,$85
+Subscript 11
+ShowChara 3 1 17
+# この間、$1に会ったにゅ
+ShowTextBox "I just saw\n$1,\nnyu."
+WaitTextBox
+# $2に乗って、$3まで遊びに行くって言ってたにゅ
+ShowTextBox "They were\nriding a\n$2,\nand said they\nwere going to\n$3."
+WaitTextBox
+ShowChara 3 0 20
+# すこし、うらやましいにゅ
+ShowTextBox "I'm jealous,\nnyu..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$82
+Subscript 12
+ShowChara 3 2 17
+# こないだ小耳にはさんだにゅ
+ShowTextBox "Keep this a\nsecret,\nnyu..."
+WaitTextBox
+# $1が$2の飲みすぎでダウンしたそうにゅ
+ShowTextBox "$1\ndrank so much\n$2,\nthey nearly\nknocked\nthemselves out."
+WaitTextBox
+ShowChara 3 0 21
+# 腹八分目は大切にゅ
+ShowTextBox "Remember to\ndrink in\nmoderation, nyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$8A
+Subscript 13
+ShowChara 3 2 17
+# このまえ小耳にはさんだにゅ
+ShowTextBox "Don't tell\nanyone about\nthis, nyu..."
+WaitTextBox
+# $1が新しい$2を買って見せびらかしてるらしいにゅ
+ShowTextBox "$1\nhas been\nbragging about\nthe new\n$2\nthey bought."
+WaitTextBox
+ShowChara 3 0 18
+# ブームにも乗せられて、哀れだにゅ
+ShowTextBox "It's sad to\nsee them\nget caught up\nin a fad,\nnyu..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$80,$83
+Subscript 14
+ShowChara 3 1 17
+# 店長さん
+# ぷちこ、昨日テレビで『$1』を見たにゅ
+ShowTextBox "Manager, I\nsaw\n$1\non TV last\nnight, nyu."
+WaitTextBox
+# $2が$3とたわむれて、なごんだにゅ…
+ShowTextBox "$2\nwas playing\nwith and\npetting a\n$3..."
+WaitTextBox
+# きっとヤツラは
+# “いやし系”だにゅ
+ShowTextBox "I felt happy\njust watching,\nnyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 15
+ShowChara 3 2 17
+# 今度『$1』の本が出るにゅ
+ShowTextBox "Today the new\nvolume of\n$1\ngoes on sale,\nnyu."
+WaitTextBox
+ShowChara 3 0 21
+# 売れるかどうか心配にゅ
+ShowTextBox "I'm worried\nif people will\nbuy it or\nnot, nyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84
+Subscript 16
+ShowChara 3 1 17
+# 道すがら、$1がいっぱい咲いてたにゅ
+ShowTextBox "The\n$1\ntrees along\nthe road were\nall in bloom,\nnyu."
+WaitTextBox
+ShowChara 3 0 21
+# きれいだったにゅ～
+ShowTextBox "It was so\npretty, nyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83,$43
+Subscript 17
+ShowChara 10 1 6
+# にゃ～～～
+ShowTextBox "Meow~"
+WaitTextBox
+ShowChara 3 4 18
+# なるほど、ナットクにゅ
+ShowTextBox "Right...\nThat makes\nsense, nyu."
+WaitTextBox
+ShowChara 10 1 6
+# にゃ～～～
+ShowTextBox "Meow~"
+WaitTextBox
+ShowChara 3 4 17
+# ふむふむにゅ
+ShowTextBox "Indeed, nyu."
+WaitTextBox
+ShowChara 10 1 6
+# にや～～～
+ShowTextBox "Meow~"
+WaitTextBox
+ShowChara 3 4 21
+# 店長さん、ほっけみりんが店長さんの前世は$1に間違いないと言ってるにゅ
+ShowTextBox "Manager, Hokke\nMirin says you\nmust have been\na $1\nin a past\nlife, nyu."
+WaitTextBox
+ShowChara 3 0 18
+# $2じゃなくて、良かったにゅ！
+ShowTextBox "I'm glad you\nweren't a\n$2,\nnyu!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $82,$42
+Subscript 18
+ShowChara 3 1 17
+# ノド渇いたにゅ
+ShowTextBox "I'm thirsty,\nnyu."
+WaitTextBox
+# ちょっと$1でも買ってきていいかにゅ？
+ShowTextBox "Maybe I\nshould go buy\nsome\n$1,\nnyu?"
+WaitTextBox
+ShowChara 10 4 6
+# にゃー
+ShowTextBox "Meow~"
+WaitTextBox
+ShowChara 3 4 17
+# ほっけみりんは$2が飲みたいって言ってるにゅ
+ShowTextBox "Hokke Mirin\nsays she wants\n$2,\nnyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84
+Subscript 19
+ShowChara 3 1 17
+# そろそろ$1の季節にゅ
+ShowTextBox "It's almost\ntime for\n$1\nseason, nyu."
+WaitTextBox
+ShowChara 3 0 18
+# ぷちこ、$1の花がお気に入りにゅ
+ShowTextBox "I love\n$1\nflowers..."
+WaitTextBox
+ShowChara 3 0 21
+# いい香りがするにゅ～♪
+ShowTextBox "They smell\nso nice, nyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86,$8B,$80,$88
+Subscript 20
+ShowChara 10 2 6
+# にゃ～
+ShowTextBox "Meow~"
+WaitTextBox
+ShowChara 3 4 18
+# それはすごいにゅ！
+ShowTextBox "That's\namazing, nyu!"
+WaitTextBox
+ShowChara 3 0 17
+# ほっけみりんが$1で$2してる$3を見たらしいにゅ！
+ShowTextBox "Hokke Mirin\nsaw\n$2\nat\n$1,\nnyu!"
+WaitTextBox
+ShowChara 10 4 6
+# にゃ～～～
+ShowTextBox "Meow~"
+WaitTextBox
+ShowChara 3 4 18
+# さっそくテレビ局に知らせに行くらしいにゅ
+ShowTextBox "She's going to\ngo tell the\nTV station,\nnyu."
+WaitTextBox
+ShowChara 3 0 21
+# きっと今晩の『$4』で放送されるにゅ！
+# みんなで見るにゅ
+ShowTextBox "Maybe it'll\nshow up on\n$4\ntonight!\nMake sure to\ntune in, nyu."
+WaitTextBox
+EndScript

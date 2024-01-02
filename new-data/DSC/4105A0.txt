@@ -1,0 +1,122 @@
+DSCBase $4105A0
+
+
+
+
+Subscript 0
+ShowChara 6 0 41
+# 自分は、今週は
+# $0、すごくがんばったと言えます！
+# 来週も自分におまかせください！
+ShowTextBox "I did very well at $0 this week, I believe!\nI'll ensure next week's results are even better!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 6 0 40
+# 今週は$0、ふつうにこなしました
+# 来週もがんばります！
+ShowTextBox "My $0 performance was only average this week.\nI'll put in more effort next week!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 6 0 43
+# 今週は$0、うまくできませんでした…
+# 来週こそはがんばらせていただきます！
+ShowTextBox "$0 did not go too well for me this week...\nI'll try again next week!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 6 0 45
+# 今週も\x01$0\x1aというのはいささか問題かと…
+# 次は\x03$1\x1aでがんばらせていただきたいです！
+ShowTextBox "I had a slight problem doing \x01$0\x1a this week...\nIf you assign me to \x03$1\x1a instead, I'll be able to display my full abilities!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 6 0 41
+PlaySfx 175
+PlaySfx 18
+# やりました！
+# $0のレベルアップです！
+# これで自分は\x03$1\x1aです！
+ShowTextBox "I've done it!\nI've leveled up at $0!\nI'm now level \x03$1\x1a!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 6 0 41
+PlaySfx 175
+PlaySfx 18
+# やりました！
+# $0のレベルアップです！
+# これで…
+ShowTextBox "I've done it!\nI've leveled up at $0!\nI am now..."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 6
+SetBG 102
+Unk08 6 203 52 100 80 10 3
+Fade 0 30
+ShowChara 6 0 0
+# \x03レジマスターです\x1a
+ShowTextBox "a \x03Checkout Master\x1a!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 7
+SetBG 102
+Unk08 6 203 52 100 80 10 3
+Fade 0 30
+ShowChara 6 0 0
+# \x03接客マスターです\x1a
+ShowTextBox "a \x03Service Master\x1a!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 8
+SetBG 102
+Unk08 6 203 52 100 80 10 3
+Fade 0 30
+ShowChara 6 0 0
+# \x03グッズマスター\x1aです
+ShowTextBox "a \x03Stocking Master\x1a!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 9
+SetBG 102
+Unk08 6 203 52 100 80 10 3
+Fade 0 30
+ShowChara 6 0 0
+# \x03掃除マスター\x1aです
+ShowTextBox "a \x03Cleaning Master\x1a!"
+WaitTextBox
+Fade 1 30
+EndScript

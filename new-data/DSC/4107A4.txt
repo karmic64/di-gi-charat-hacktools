@@ -1,0 +1,126 @@
+DSCBase $4107A4
+
+
+
+
+Subscript 0
+ShowChara 7 0 48
+# 今週は
+# $0、すごくがんばれたぜ！
+# 来週も俺にまかせ
+# とけって！
+ShowTextBox "I did super well at $0 this week!\nYou can leave next week to me, Manager!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 7 0 47
+# 今週は
+# $0、ふつうだったかな
+# 来週も
+# がんばるぜ！
+ShowTextBox "I just did average at $0 this week.\nI'll do my best next week!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 7 0 49
+# ちぇっ、今週は
+# $0、うまくできなかったな…
+# 来週こそはがんばるぜ！
+ShowTextBox "Tch, I didn't do well at $0 this week...\nI'll try harder next week!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 7 0 51
+# \x01$0\x1a、もう飽きてきたなあ
+# そろそろ\x03$1\x1aがやりたいな！
+ShowTextBox "I'm tired of doing \x01$0\x1a all the time.\nLet me do \x03$1\x1a instead!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 7 0 48
+PlaySfx 183
+PlaySfx 18
+# やった！
+# $0のレベルアップだ！
+# これで\x03$1\x1aだぜー！
+ShowTextBox "I did it!\nI leveled up at $0!\nI'm level \x03$1\x1a now!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 7 0 48
+PlaySfx 183
+PlaySfx 18
+# やった！
+# $0のレベルアップだ！
+# これでー
+ShowTextBox "I did it!\nI leveled up at $0!\nI'm now..."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 6
+SetBG 102
+Unk08 7 121 93 50 108 10 3
+Fade 0 30
+ShowChara 7 0 0
+# \x03レジマスター\x1aだぜ！
+ShowTextBox "a \x03Checkout Master\x1a!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 7
+SetBG 102
+Unk08 7 121 93 50 108 10 3
+Fade 0 30
+ShowChara 7 0 0
+# \x03接客マスター\x1aだぜ！
+ShowTextBox "a \x03Service Master\x1a!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 8
+SetBG 102
+Unk08 7 121 93 50 108 10 3
+Fade 0 30
+ShowChara 7 0 0
+# \x03グッズマスター\x1aだぜ！
+ShowTextBox "a \x03Stocking Master\x1a!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 9
+SetBG 102
+Unk08 7 121 93 50 108 10 3
+Fade 0 30
+ShowChara 7 0 0
+# \x03掃除マスター\x1aだぜ！
+ShowTextBox "a \x03Cleaning Master\x1a!"
+WaitTextBox
+Fade 1 30
+EndScript

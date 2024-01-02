@@ -1,0 +1,597 @@
+DSCBase $3FBEB4
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# 今年も残すところ
+# あと１０日…クリ
+# スマスに、大晦日
+# に、お正月に、大
+# 忙しゲマ
+ShowTextBox "There are only\n10 days left in\nthe year... With\nChristmas, then\nNew Years, we'll\nbe busy, gema."
+WaitTextBox
+# ところで、店長さ
+# ん、クリスマスの
+# 予定はどうなって
+# るゲマ？
+ShowTextBox "Speaking of\nwhich, do you\nhave any plans\nfor Christmas,\nManager?"
+WaitTextBox
+# ふむふむ、イブの
+# ２４日にはクリス
+# マスパーティを開
+# く予定になってる
+# ゲマか…
+ShowTextBox "Hmm, so you\nwant to hold a\nChristmas party\non the 24th,\ngema..."
+WaitTextBox
+# いい考えと思うゲ
+# マ…それで２５日
+# はどうするゲマ？
+ShowTextBox "I think that's\na good idea,\ngema. How about\nthe 25th?"
+WaitTextBox
+ShowChara 8 0 2
+# …またパーティ？
+# う～ん、二日連続
+# でクリスマスパー
+# ティを開くのは、
+# ちょっと工夫が足
+# りないと思うゲマ
+ShowTextBox "... Still party?\nA party that\ngoes for two\ndays straight is\ntough to plan,\ngema."
+WaitTextBox
+ShowChara 8 0 1
+# 今年アシスタント
+# をやってくれた人
+# を、お食事にさそ
+# うというのはどう
+# ゲマ？
+ShowTextBox "How about\ninviting your\nAssistant out to\neat instead,\ngema?"
+WaitTextBox
+ShowChara 8 0 53
+# きっと、喜ぶと思
+# うゲマ！
+ShowTextBox "I'm sure it'll\nmake them super\nhappy, gema!"
+WaitTextBox
+# そうしよう！
+# やめておこう
+ShowSelMenu09 2 "!Let's do that!\nDon't wanna."
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 8 0 2
+# 店長さんがそうい
+# うなら、無理にす
+# すめないゲマ…
+ShowTextBox "Well, if you\naren't into it,\nthen I can't\nforce you,\ngema..."
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ、ゲマと
+# 店長しゃん、そん
+# なところで、こそ
+# こそと何を話して
+# るにょ？
+ShowTextBox "Gema, and\nManager! What\nare you\ntalking about,\nnyo?"
+WaitTextBox
+ShowChara 8 1 1
+# 何でもないゲマ
+# ところで、でじこ
+# はクリスマスの日
+# の予定はどうなっ
+# てるゲマ？
+ShowTextBox "Nothing\nimportant, gema.\nDo you have any\nplans for\nChristmas Day,\nDejiko?"
+WaitTextBox
+ShowChara 1 2 9
+# もちろん、イブは
+# みんなで絶対参加
+# パーティにょ～！
+ShowTextBox "Of course!\nOn Christmas\nEve, we're\ngetting everyone\ntogether for a\nparty, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# そして、２５日は
+# 商店街のツリーを
+# 前に、ロマンチッ
+# クにホワイトクリ
+# スマスにょ～！
+ShowTextBox "Then, on the\n25th, we'll have\na romantic\nChristmas in\nfront of the\ntree downtown!"
+WaitTextBox
+ShowChara 1 0 13
+# にょにょ…雪が降
+# らないときは、天
+# に向かって目から
+# ビームを撃つにょ
+# ～
+ShowTextBox "Nyo, and if\nthere's no\nsnow, I can\ncause some by\nshooting an\nEye Laser Beam~"
+WaitTextBox
+ShowChara 8 1 54
+# どうやら、先約が
+# あるみたい…ちょ
+# っと待つゲマ！そ
+# んな話、ゲマは聞
+# いてないゲマ～
+ShowTextBox "So you've got\nit all planned\nout, gema...\nWait a second!\nI didn't hear\nabout a party!"
+WaitTextBox
+ShowChara 1 2 11
+# 何を言うにょ
+# ゲマはさそってな
+# いから、当たり前
+# だにょ！
+ShowTextBox "What do you\nmean? Of course\nI wouldn't\ninvite you,\nnyo."
+WaitTextBox
+ShowChara 8 1 2
+# ゲ、ゲマを仲間は
+# ずれにするなんて
+# ひどいゲマ～
+ShowTextBox "T-That's just\nplain evil,\ngema..."
+WaitTextBox
+ShowChara 1 2 9
+# にょにょ、ちょっ
+# と連絡ミスにょ
+ShowTextBox "You don't get\nwhat I mean,\nnyo."
+WaitTextBox
+# ゲマがいたらジャ
+# マだとか、そうい
+# うつもりじゃ全然
+# なかったから、気
+# にするなにょ！
+ShowTextBox "I didn't mean\nthat you'd\nget in the\nway, nyo!"
+WaitTextBox
+ShowChara 8 1 2
+# ぶつぶつ…なんと
+# なく、本気っぽか
+# ったゲマ
+ShowTextBox "Sob...\nYou looked\nserious,\ngema..."
+WaitTextBox
+ShowChara 1 2 9
+# というわけで、店
+# 長しゃん、２５日
+# は、でじこたちは
+# お休みするからよ
+# ろしくにょ
+ShowTextBox "Anyway,\nManager, I'm\nlooking\nforward to\ngoing on the\n25th, nyo!"
+WaitTextBox
+EndScript
+Label 0
+ShowChara 8 0 1
+# 了解ゲマ
+# じゃ、呼んでくる
+# ゲマ
+ShowTextBox "Understood,\ngema. I'll call\nthem over, then."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 1 2 9
+# クリスマスに店長
+# しゃんとおでかけ
+# する計画？
+ShowTextBox "So we're going\nout on Christmas\nDay?"
+WaitTextBox
+ShowChara 1 0 10
+# もちろん、ＯＫに
+# 決まってるにょ！
+ShowTextBox "Alright, nyo!"
+WaitTextBox
+ShowChara 1 0 13
+# にょにょっ、この
+# 話、うさだやぷち
+# こにはないしょに
+# ょ～
+ShowTextBox "Nyo, keep this\na secret from\nUsada and\nPuchiko, okay?"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# 今年も残すところ
+# あと１０日…クリ
+# スマスに、大晦日
+# に、お正月に、大
+# 忙しゲマ
+ShowTextBox "There are only\n10 days left in\nthe year... With\nChristmas, then\nNew Years, we'll\nbe busy, gema."
+WaitTextBox
+# ところで、店長さ
+# ん、クリスマスの
+# 予定はどうなって
+# るゲマ？
+ShowTextBox "Speaking of\nwhich, do you\nhave any plans\nfor Christmas,\nManager?"
+WaitTextBox
+# ふむふむ、イブの
+# ２４日にはクリス
+# マスパーティを開
+# く予定になってる
+# ゲマか…
+ShowTextBox "Hmm, so you\nwant to hold a\nChristmas party\non the 24th,\ngema..."
+WaitTextBox
+# いい考えと思うゲ
+# マ…それで２５日
+# はどうするゲマ？
+ShowTextBox "I think that's\na good idea,\ngema. How about\nthe 25th?"
+WaitTextBox
+ShowChara 8 0 2
+# …またパーティ？
+# う～ん、二日連続
+# でクリスマスパー
+# ティを開くのは、
+# ちょっと工夫が足
+# りないと思うゲマ
+ShowTextBox "... Still party?\nA party that\ngoes for two\ndays straight is\ntough to plan,\ngema."
+WaitTextBox
+ShowChara 8 0 1
+# 今年アシスタント
+# をやってくれた人
+# を、お食事にさそ
+# うというのはどう
+# ゲマ？
+ShowTextBox "How about\ninviting your\nAssistant out to\neat instead,\ngema?"
+WaitTextBox
+ShowChara 8 0 53
+# きっと、喜ぶと思
+# うゲマ！
+ShowTextBox "I'm sure it'll\nmake them super\nhappy, gema!"
+WaitTextBox
+# そうしよう！
+# やめておこう
+ShowSelMenu09 2 "!Let's do that!\nDon't wanna."
+JumpOnSelection 2 2 3 0
+Label 3
+ShowChara 8 0 2
+# 店長さんがそうい
+# うなら、無理にす
+# すめないゲマ…
+ShowTextBox "Well, if you\naren't into it,\nthen I can't\nforce you,\ngema..."
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ、ゲマと
+# 店長しゃん、そん
+# なところで、こそ
+# こそと何を話して
+# るにょ？
+ShowTextBox "Gema, and\nManager! What\nare you\ntalking about,\nnyo?"
+WaitTextBox
+ShowChara 8 1 1
+# 何でもないゲマ
+# ところで、でじこ
+# はクリスマスの日
+# の予定はどうなっ
+# てるゲマ？
+ShowTextBox "Nothing\nimportant, gema.\nDo you have any\nplans for\nChristmas Day,\nDejiko?"
+WaitTextBox
+ShowChara 1 2 9
+# もちろん、イブは
+# みんなで絶対参加
+# パーティにょ～！
+ShowTextBox "Of course!\nOn Christmas\nEve, we're\ngetting everyone\ntogether for a\nparty, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# そして、２５日は
+# 商店街のツリーを
+# 前に、ロマンチッ
+# クにホワイトクリ
+# スマスにょ～！
+ShowTextBox "Then, on the\n25th, we'll have\na romantic\nChristmas in\nfront of the\ntree downtown!"
+WaitTextBox
+ShowChara 1 0 13
+# にょにょ…雪が降
+# らないときは、天
+# に向かって目から
+# ビームを撃つにょ
+# ～
+ShowTextBox "Nyo, and if\nthere's no\nsnow, I can\ncause some by\nshooting an\nEye Laser Beam~"
+WaitTextBox
+ShowChara 8 1 54
+# どうやら、先約が
+# あるみたい…ちょ
+# っと待つゲマ！そ
+# んな話、ゲマは聞
+# いてないゲマ～
+ShowTextBox "So you've got\nit all planned\nout, gema...\nWait a second!\nI didn't hear\nabout a party!"
+WaitTextBox
+ShowChara 1 2 11
+# 何を言うにょ
+# ゲマはさそってな
+# いから、当たり前
+# だにょ！
+ShowTextBox "What do you\nmean? Of course\nI wouldn't\ninvite you,\nnyo."
+WaitTextBox
+ShowChara 8 1 2
+# ゲ、ゲマを仲間は
+# ずれにするなんて
+# ひどいゲマ～
+ShowTextBox "T-That's just\nplain evil,\ngema..."
+WaitTextBox
+ShowChara 1 2 9
+# にょにょ、ちょっ
+# と連絡ミスにょ
+ShowTextBox "You don't get\nwhat I mean,\nnyo."
+WaitTextBox
+# ゲマがいたらジャ
+# マだとか、そうい
+# うつもりじゃ全然
+# なかったから、気
+# にするなにょ！
+ShowTextBox "I didn't mean\nthat you'd\nget in the\nway, nyo!"
+WaitTextBox
+ShowChara 8 1 2
+# ぶつぶつ…なんと
+# なく、本気っぽか
+# ったゲマ
+ShowTextBox "Sob...\nYou looked\nserious,\ngema..."
+WaitTextBox
+ShowChara 1 2 9
+# というわけで、店
+# 長しゃん、２５日
+# は、でじこたちは
+# お休みするからよ
+# ろしくにょ
+ShowTextBox "Anyway,\nManager, I'm\nlooking\nforward to\ngoing on the\n25th, nyo!"
+WaitTextBox
+EndScript
+Label 2
+ShowChara 8 0 1
+# 了解ゲマ
+# じゃ、呼んでくる
+# ゲマ
+ShowTextBox "Understood,\ngema. I'll call\nthem over, then."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 2 2 22
+# えっ、クリスマス
+# にアタシをレスト
+# ランにご招待？
+ShowTextBox "Huh? You want\nto go to a\nrestaurant on\nChristmas with\nme?"
+WaitTextBox
+ShowChara 2 0 23
+# もちろんＯＫ！
+# 楽しみにしてるわ
+# ♪
+ShowTextBox "Of course!\nI'm looking\nforward to it!♪"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# 今年も残すところ
+# あと１０日…クリ
+# スマスに、大晦日
+# に、お正月に、大
+# 忙しゲマ
+ShowTextBox "There are only\n10 days left in\nthe year... With\nChristmas, then\nNew Years, we'll\nbe busy, gema."
+WaitTextBox
+# ところで、店長さ
+# ん、クリスマスの
+# 予定はどうなって
+# るゲマ？
+ShowTextBox "Speaking of\nwhich, do you\nhave any plans\nfor Christmas,\nManager?"
+WaitTextBox
+# ふむふむ、イブの
+# ２４日にはクリス
+# マスパーティを開
+# く予定になってる
+# ゲマか…
+ShowTextBox "Hmm, so you\nwant to hold a\nChristmas party\non the 24th,\ngema..."
+WaitTextBox
+# いい考えと思うゲ
+# マ…それで２５日
+# はどうするゲマ？
+ShowTextBox "I think that's\na good idea,\ngema. How about\nthe 25th?"
+WaitTextBox
+ShowChara 8 0 2
+# …またパーティ？
+# う～ん、二日連続
+# でクリスマスパー
+# ティを開くのは、
+# ちょっと工夫が足
+# りないと思うゲマ
+ShowTextBox "... Still party?\nA party that\ngoes for two\ndays straight is\ntough to plan,\ngema."
+WaitTextBox
+ShowChara 8 0 1
+# 今年アシスタント
+# をやってくれた人
+# を、お食事にさそ
+# うというのはどう
+# ゲマ？
+ShowTextBox "How about\ninviting your\nAssistant out to\neat instead,\ngema?"
+WaitTextBox
+ShowChara 8 0 53
+# きっと、喜ぶと思
+# うゲマ！
+ShowTextBox "I'm sure it'll\nmake them super\nhappy, gema!"
+WaitTextBox
+# そうしよう！
+# やめておこう
+ShowSelMenu09 2 "!Let's do that!\nDon't wanna."
+JumpOnSelection 2 4 5 0
+Label 5
+ShowChara 8 0 2
+# 店長さんがそうい
+# うなら、無理にす
+# すめないゲマ…
+ShowTextBox "Well, if you\naren't into it,\nthen I can't\nforce you,\ngema..."
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ、ゲマと
+# 店長しゃん、そん
+# なところで、こそ
+# こそと何を話して
+# るにょ？
+ShowTextBox "Gema, and\nManager! What\nare you\ntalking about,\nnyo?"
+WaitTextBox
+ShowChara 8 1 1
+# 何でもないゲマ
+# ところで、でじこ
+# はクリスマスの日
+# の予定はどうなっ
+# てるゲマ？
+ShowTextBox "Nothing\nimportant, gema.\nDo you have any\nplans for\nChristmas Day,\nDejiko?"
+WaitTextBox
+ShowChara 1 2 9
+# もちろん、イブは
+# みんなで絶対参加
+# パーティにょ～！
+ShowTextBox "Of course!\nOn Christmas\nEve, we're\ngetting everyone\ntogether for a\nparty, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# そして、２５日は
+# 商店街のツリーを
+# 前に、ロマンチッ
+# クにホワイトクリ
+# スマスにょ～！
+ShowTextBox "Then, on the\n25th, we'll have\na romantic\nChristmas in\nfront of the\ntree downtown!"
+WaitTextBox
+ShowChara 1 0 13
+# にょにょ…雪が降
+# らないときは、天
+# に向かって目から
+# ビームを撃つにょ
+# ～
+ShowTextBox "Nyo, and if\nthere's no\nsnow, I can\ncause some by\nshooting an\nEye Laser Beam~"
+WaitTextBox
+ShowChara 8 1 54
+# どうやら、先約が
+# あるみたい…ちょ
+# っと待つゲマ！そ
+# んな話、ゲマは聞
+# いてないゲマ～
+ShowTextBox "So you've got\nit all planned\nout, gema...\nWait a second!\nI didn't hear\nabout a party!"
+WaitTextBox
+ShowChara 1 2 11
+# 何を言うにょ
+# ゲマはさそってな
+# いから、当たり前
+# だにょ！
+ShowTextBox "What do you\nmean? Of course\nI wouldn't\ninvite you,\nnyo."
+WaitTextBox
+ShowChara 8 1 2
+# ゲ、ゲマを仲間は
+# ずれにするなんて
+# ひどいゲマ～
+ShowTextBox "T-That's just\nplain evil,\ngema..."
+WaitTextBox
+ShowChara 1 2 9
+# にょにょ、ちょっ
+# と連絡ミスにょ
+ShowTextBox "You don't get\nwhat I mean,\nnyo."
+WaitTextBox
+# ゲマがいたらジャ
+# マだとか、そうい
+# うつもりじゃ全然
+# なかったから、気
+# にするなにょ！
+ShowTextBox "I didn't mean\nthat you'd\nget in the\nway, nyo!"
+WaitTextBox
+ShowChara 8 1 2
+# ぶつぶつ…なんと
+# なく、本気っぽか
+# ったゲマ
+ShowTextBox "Sob...\nYou looked\nserious,\ngema..."
+WaitTextBox
+ShowChara 1 2 9
+# というわけで、店
+# 長しゃん、２５日
+# は、でじこたちは
+# お休みするからよ
+# ろしくにょ
+ShowTextBox "Anyway,\nManager, I'm\nlooking\nforward to\ngoing on the\n25th, nyo!"
+WaitTextBox
+EndScript
+Label 4
+ShowChara 8 0 1
+# 了解ゲマ
+# じゃ、呼んでくる
+# ゲマ
+ShowTextBox "Understood,\ngema. I'll call\nthem over, then."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 3 2 17
+# わかったにゅ
+# 行くにゅ
+ShowTextBox "Okay, nyu.\nI'll go with\nyou."
+WaitTextBox
+ShowChara 3 0 18
+# 夜の街を散歩する
+# のは初めてにゅ
+# だから、楽しみに
+# ゅ
+ShowTextBox "I've never gone\ndowntown at\nnight before,\nso I'm excited,\nnyu."
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+SetBG 111
+Fade 0 30
+ShowChara 1 2 12
+# にょにょ～、昨日
+# は飲みすぎた、食
+# べすぎた、歌いす
+# ぎたにょ～っ
+ShowTextBox "Nyo~~~\nI ate, drank and\nsang like crazy\nyesterday, nyo~"
+WaitTextBox
+ShowChara 3 2 17
+# クリスマスっぽく
+# ないやつにゅ
+ShowTextBox "You don't have\nmuch Christmas\nspirit, nyu."
+WaitTextBox
+ShowChara 2 2 22
+# ちょっと早いけど
+# そろそろ出かけま
+# しょ
+ShowTextBox "It's a little\nearly, but\nlet's head out."
+WaitTextBox
+ShowChara 1 2 9
+# それじゃ、ゲマと
+# 店長しゃん、でじ
+# こたちはツリーを
+# 見に行くから留守
+# 番よろしくにょ～
+ShowTextBox "Gema, Manager,\nwe're heading\nout to look at\nthe Christmas\ntree, so watch\nthe shop, okay?"
+WaitTextBox
+ShowChara 8 1 53
+# いってらっしゃい
+# ゲマ～
+ShowTextBox "Have fun, gema!"
+WaitTextBox
+ShowChara 2 2 23
+# いってきまーす！
+ShowTextBox "We're off!"
+WaitTextBox
+ShowChara 3 2 18
+# いってくるにゅ
+ShowTextBox "We're going,\nnyu."
+WaitTextBox
+ShowChara 8 1 1
+# むむ…なんか大事
+# なことを忘れてる
+# みたいなゲマ…
+ShowTextBox "Hmm... I feel\nlike I'm\nforgetting\nsomething\nimportant,\ngema..."
+WaitTextBox
+# え、「ゲマは行か
+# ないのか」って？
+ShowTextBox "... You're\nasking why I\ndidn't go too?"
+WaitTextBox
+ShowChara 8 0 54
+# はっ、そうだった
+# ゲマーっ！
+ShowTextBox "...Oh, shoot!"
+WaitTextBox
+# でじこ、ちょっと
+# 待つゲマ！おいら
+# もつれていくゲマ
+# ～っ！
+ShowTextBox "Dejiko, wait\nup, gema! I\nwanna go too,\ngema!"
+WaitTextBox
+EndScript

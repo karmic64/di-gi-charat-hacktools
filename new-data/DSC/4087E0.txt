@@ -1,0 +1,336 @@
+DSCBase $4087E0
+
+
+
+### Prefill data: $80
+Subscript 0
+ShowChara 3 4 17
+# $2のサインって高く売れるにゅ？
+ShowTextBox "$2's signature sells for a lot, nyu?"
+Wait 60
+EndScript
+
+
+### Prefill data: $81
+Subscript 1
+ShowChara 3 4 17
+# $2はごはんの最後にとっておくにゅ
+ShowTextBox "$2 is the thing you leave for last at breakfast, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $82
+Subscript 2
+ShowChara 3 4 17
+# $2は冷凍庫でキンキンに冷やすのがおいしいにゅ
+ShowTextBox "$2 is something that's tasty when it's been kept cold in the fridge, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $83
+Subscript 3
+ShowChara 3 4 19
+# $2はかわいいわりに臭うにゅ！
+ShowTextBox "!!! 4087E0 3"
+Wait 60
+EndScript
+
+
+### Prefill data: $84
+Subscript 4
+ShowChara 3 4 17
+# $2のおひたしは、なかなおいしいにゅ
+ShowTextBox "!!! 4087E0 4"
+Wait 60
+EndScript
+
+
+### Prefill data: $85
+Subscript 5
+ShowChara 3 4 17
+# $2は、はじめて一輪車が走った場所にゅ
+ShowTextBox "$2 is the first place they raced unicycles, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $86
+Subscript 6
+ShowChara 3 4 18
+# $2…行ってみたいにゅ
+ShowTextBox "... I wanna go to $2, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $87
+Subscript 7
+ShowChara 3 4 17
+# $2、$2、えんやこらにゅ
+ShowTextBox "One, two, $2, nyu. One, two, $2, nyu..."
+Wait 60
+EndScript
+
+
+### Prefill data: $88
+Subscript 8
+ShowChara 3 4 20
+# 夜の３時、もう終ってるテレビで、何故か『$2』を放送してたにゅ
+ShowTextBox "At 3 AM, when all the shows are over, for some reason they broadcast $2 on the TV, nyu..."
+Wait 60
+EndScript
+
+
+### Prefill data: $89
+Subscript 9
+ShowChara 3 4 18
+# 『$2』のコミックの１２ページの５コマ目に、こっそりぷちこが描いてあるのはヒミツにゅ
+ShowTextBox "This is a secret... In the \"$2\" comic, I drew the 5th panel on the 12th page, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $8A
+Subscript 10
+ShowChara 3 4 17
+# $2の免許は大人になってからにゅ
+ShowTextBox "!!! 4087E0 10"
+Wait 60
+EndScript
+
+
+### Prefill data: $8B
+Subscript 11
+ShowChara 3 4 19
+# $2…胸はってするにゅ！
+# プライド大切にゅ！
+ShowTextBox "$2 is... something brides keep close to their chest, nyu!"
+Wait 60
+EndScript
+
+
+### Prefill data: $80
+Subscript 12
+ShowChara 3 4 17
+# $2はたいしたやつにゅ
+ShowTextBox "$2 isn't messing around, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $81
+Subscript 13
+ShowChara 3 4 17
+# おなかへったにゅ
+# 誰か$2買ってこいにゅ
+ShowTextBox "I'm hungry, nyu. Somebody go buy $2 for me, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $82
+Subscript 14
+ShowChara 3 4 17
+# お店の向かいに新しく$2屋ができたにゅ
+ShowTextBox "A $2 shop just opened across from the store, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $83
+Subscript 15
+ShowChara 3 4 17
+# $2の生活は、まだまだたくさんの謎につつまれているにゅ
+ShowTextBox "There's still a lot we don't know about a $2's life, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $84
+Subscript 16
+ShowChara 3 4 17
+# $2からは特上の$2紙が作られているにゅ
+ShowTextBox "!!! 4087E0 16"
+Wait 60
+EndScript
+
+
+### Prefill data: $85
+Subscript 17
+ShowChara 3 4 20
+# $2砂漠にゅ
+# 都会はきびしいにゅ
+ShowTextBox "!!! 4087E0 17"
+Wait 60
+EndScript
+
+
+### Prefill data: $86
+Subscript 18
+ShowChara 3 4 17
+# $2は夜もねむらないにゅ
+ShowTextBox "$2 doesn't sleep at night, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $87
+Subscript 19
+ShowChara 3 4 17
+# $2はおまえがやれにゅ
+ShowTextBox "$2? You do it, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $88
+Subscript 20
+ShowChara 3 4 17
+# 来週から『$2』の再放送がはじまるにゅ
+ShowTextBox "They're going to re-air \"$2\" starting next week, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $89
+Subscript 21
+ShowChara 3 4 20
+# さっきお店で『$2』の次回の原稿の忘れ物見つけたにゅ
+# どうすればいいにゅ？
+ShowTextBox "I found the draft for the next chapter of \"$2\" lying on the ground outside the shop... what should I do, nyu?"
+Wait 60
+EndScript
+
+
+### Prefill data: $8A
+Subscript 22
+ShowChara 3 4 17
+# $2レーシング、いよいよ来週から開幕にゅ
+ShowTextBox "$2 racing season starts next week, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $8B
+Subscript 23
+ShowChara 3 4 17
+# $2の道は、１に練習、２に練習、練習あるのみにゅ
+ShowTextBox "The path of $2 is: 1. practice, 2. practice, 3. nothing but practice, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $80
+Subscript 24
+ShowChara 3 4 18
+# $2の伝記、とてもたのしかったにゅ
+ShowTextBox "I had a good time reading the biography of $2, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $81
+Subscript 25
+ShowChara 3 4 19
+# $2はぷちこの隠しおやつにゅ
+# なんで知ってるにゅ？
+ShowTextBox "$2 is my secret snack. Do you know why, nyu?"
+Wait 60
+EndScript
+
+
+### Prefill data: $82
+Subscript 26
+ShowChara 3 4 17
+# $2をお水で割って$2水にゅ
+ShowTextBox "If you dilute water with $2, it becomes $2 water, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $83
+Subscript 27
+ShowChara 3 4 17
+# ぷちこ実は$2に育てられた$2少女にゅ
+ShowTextBox "The truth is, I'm a $2 girl, raised among $2, nyu."
+Wait 60
+# …と言うのはウソにゅ
+ShowTextBox "... That's not true, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $84
+Subscript 28
+ShowChara 3 4 20
+# $2の種を食べるとヤバイらしいにゅ
+ShowTextBox "Eating $2 seeds is really bad for you, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $85
+Subscript 29
+ShowChara 3 4 17
+# そういえばそろそろ$2祭りの季節にゅ
+ShowTextBox "It'll be the season for the $2 festivals soon, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $86
+Subscript 30
+ShowChara 3 4 17
+# $2に連れていけにゅ
+# にゅ！
+# にゅ！！
+ShowTextBox "Take $2 with you, nyu!\nNyu!\nNyu!!"
+Wait 60
+EndScript
+
+
+### Prefill data: $87
+Subscript 31
+ShowChara 3 4 17
+# $2楽勝にゅ
+ShowTextBox "It's an easy win for $2, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $88
+Subscript 32
+ShowChara 3 4 17
+# 『$2』スペシャルが２４時間特番でやるにゅ
+ShowTextBox "They're running a special 24-hour marathon of \"$2\", nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $89
+Subscript 33
+ShowChara 3 4 17
+# 『$2』は知る人ぞ知る名作にゅ
+ShowTextBox "\"$2\" is a masterpiece only appreciated by a select few, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $8A
+Subscript 34
+ShowChara 3 4 17
+# $2は本当は空も飛ぶことができるらしいにゅ
+ShowTextBox "They say that $2 really can fly, nyu."
+Wait 60
+EndScript
+
+
+### Prefill data: $8B
+Subscript 35
+ShowChara 3 4 17
+# $2は１日１時間まで…にゅ
+ShowTextBox "$2... at least one hour a day, nyu."
+Wait 60
+EndScript

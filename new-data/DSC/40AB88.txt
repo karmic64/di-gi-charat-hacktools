@@ -1,0 +1,192 @@
+DSCBase $40AB88
+
+
+
+
+Subscript 0
+SetPermTextBoxPos 0 16
+ShowChara 4 2 28
+EndScript
+
+
+
+Subscript 1
+ShowChara 4 0 28
+# お店を始めるぴょ？
+ShowTextBox "Ready to open the shop, pyo?"
+EndScript
+
+
+
+Subscript 2
+ShowChara 4 0 28
+# グッズをどんどん仕入
+# れるぴょ
+ShowTextBox "Put stock on the shelves, pyo."
+EndScript
+
+
+
+Subscript 3
+ShowChara 4 0 28
+# 誰がどのお仕事をやる
+# か決めるぴょ
+ShowTextBox "Choose everyone's assignments, pyo."
+EndScript
+
+
+
+Subscript 4
+EndScript
+
+
+
+Subscript 5
+ShowChara 4 0 28
+# お買物は楽しいぴょ
+ShowTextBox "!!! 40AB88 3"
+EndScript
+
+
+
+Subscript 6
+ShowChara 4 0 28
+# アイテムを買ったら、
+# バリバリ仕事ができる
+# ぴょ！
+ShowTextBox " Buy equipment for employees, pyo!"
+EndScript
+
+
+
+Subscript 7
+ShowChara 4 0 28
+# 安いぴょ、安いぴょ！
+# バーゲンぴょっ！
+ShowTextBox "Offer a special deal to attract customers, pyo!"
+EndScript
+
+
+
+Subscript 8
+ShowChara 4 0 28
+# 宣伝をして、お客さん
+# がいっぱい来るように
+# するぴょ？
+ShowTextBox "Hand out flyers to advertise the shop, pyo!"
+EndScript
+
+
+
+Subscript 9
+ShowChara 4 0 28
+# お店を広くするぴょ！
+ShowTextBox " Add a new Slot to the shop, pyo!"
+EndScript
+
+
+
+Subscript 10
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 4 0 29
+# みんなではりきってお
+# 仕事するぴょ～～～！
+ShowTextBox "Everyone, let's get to work, pyo!"
+EndScript
+
+
+
+Subscript 12
+EndScript
+
+
+
+Subscript 13
+ShowChara 4 0 34
+# ごめんぴょ
+# まだ開発中ぴょ
+ShowTextBox "Sorry, you can't do that yet, pyo."
+EndScript
+
+
+
+Subscript 14
+ShowChara 4 0 28
+# $0円かかるけどやるぴょ？
+ShowTextBox "That'll cost $0 yen. Should we do it, pyo?"
+EndScript
+
+
+
+Subscript 15
+ShowChara 4 0 30
+# しまったぴょ、お金が
+# 足りないぴょ～
+ShowTextBox "Aah, we don't have enough money, pyo..."
+EndScript
+
+
+
+Subscript 16
+ShowChara 4 0 29
+# これでお仕事がはかど
+# るぴょ！
+ShowTextBox "!!! 40AB88 12"
+EndScript
+
+
+
+Subscript 17
+ShowChara 4 0 29
+# バーゲンをやるぴょ！
+ShowTextBox "Sale started, pyo!"
+EndScript
+
+
+
+Subscript 18
+ShowChara 4 0 29
+# ビラ配りするぴょ！
+ShowTextBox "Let's go hand out some flyers, pyo!"
+EndScript
+
+
+
+Subscript 19
+ShowChara 4 0 29
+# お店を広くするぴょ！
+# 工事は来週の日曜日に
+# やるぴょ！
+ShowTextBox "The construction has started! The expansion will be finished Sunday of next week, pyo!"
+EndScript
+
+
+
+Subscript 20
+ShowChara 4 0 28
+# だれかのフェアをやっ
+# てお客さんをたくさん
+# 呼ぶぴょ！
+ShowTextBox "Hold a Special Fair of somebody! A lot of customers will come by to check it out, pyo!"
+EndScript
+
+
+
+Subscript 21
+ShowChara 4 0 29
+# $1フェアをやるぴょ！
+ShowTextBox "Time to start the $1 Fair, pyo!"
+EndScript
+
+
+
+Subscript 22
+ShowChara 4 0 28
+# $1のフェアをやるぴょ！
+ShowTextBox "Hold a $1 Fair, pyo!"
+EndScript

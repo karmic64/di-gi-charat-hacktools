@@ -1,0 +1,75 @@
+DSCBase $40B528
+
+
+
+
+Subscript 0
+ShowChara 2 0 22
+# 通信の用意ができたらＡボタンをおしてね！
+ShowTextBox "Press the A button when you're ready to begin communicating!"
+EndScript
+
+
+
+Subscript 1
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 2
+# やめるのね？
+ShowTextBox "Want to cancel communications?"
+Wait 60
+EndScript
+
+
+
+Subscript 3
+# 通信待ちよ…
+ShowTextBox "Waiting to communicate..."
+EndScript
+
+
+
+Subscript 4
+# ただいま通信中…
+ShowTextBox "Communicating..."
+EndScript
+
+
+
+Subscript 5
+# 通信終了！
+# Ａボタンを押して登録してね！
+ShowTextBox "Communications complete!\nPress A to finish the registration!"
+EndScript
+
+
+
+Subscript 6
+# 登録したわ！
+ShowTextBox "Registered!"
+WaitTextBox
+# $0店長さんのめいしをすぐ見るの？
+ShowTextBox "Want to go straight to Manager $0's business card?"
+WaitTextBox
+# すぐ見る
+# あとで
+ShowSelMenu09 2 "!Go now\nLater"
+EndScript
+
+
+
+Subscript 7
+# 通信がうまくいかなかったわ…
+ShowTextBox "The communication failed..."
+EndScript
+
+
+
+Subscript 8
+# $0店長さんを登録する場所をえらんでね！
+ShowTextBox "Choose where to register Manager $0's information!"
+EndScript

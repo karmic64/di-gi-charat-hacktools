@@ -1,0 +1,178 @@
+DSCBase $3EBB94
+
+
+
+### Prefill data: $81
+Subscript 0
+ShowChara 12 4 60
+# し、知らないゲバ
+# $1なんてオイラたち食べた事ないゲバっ！！
+ShowTextBox "!!! 3EBB94 0"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81,$80
+Subscript 1
+ShowChara 7 4 52
+# まあ聞けよ
+# 実は俺、$1の早食いには自信があるんだ
+ShowTextBox "!!! 3EBB94 1"
+WaitTextBox
+ShowChara 7 0 48
+# エヘン！あの$2にも勝ったんだぜ！
+ShowTextBox "!!! 3EBB94 2"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83
+Subscript 2
+ShowChara 7 4 47
+# 店の隣で飼ってる$1がさ、よく俺をにらむんだ
+ShowTextBox "!!! 3EBB94 3"
+WaitTextBox
+ShowChara 7 0 49
+# イヤな感じだぜ…
+ShowTextBox "!!! 3EBB94 4"
+WaitTextBox
+ShowChara 5 4 38
+# そんなことないぞクウ！
+# きっとお前の方に非があるのだ！！
+ShowTextBox "!!! 3EBB94 5"
+WaitTextBox
+ShowChara 7 4 58
+# うそッ！？
+ShowTextBox "!!! 3EBB94 6"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8A
+Subscript 3
+ShowChara 7 4 52
+# 俺、実は$1より速いんだ！
+ShowTextBox "!!! 3EBB94 7"
+WaitTextBox
+ShowChara 7 0 51
+# この脚は、伊達じゃないぜ！！
+ShowTextBox "!!! 3EBB94 8"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 4
+ShowChara 7 4 47
+# そういえば、リクに言われた『$1』全部読んだぜ
+ShowTextBox "!!! 3EBB94 9"
+WaitTextBox
+ShowChara 5 4 35
+# ほう…感動したろう？
+ShowTextBox "!!! 3EBB94 10"
+WaitTextBox
+ShowChara 7 4 49
+# …ていうか
+ShowTextBox "!!! 3EBB94 11"
+WaitTextBox
+ShowChara 7 0 48
+# 笑えた！
+ShowTextBox "!!! 3EBB94 12"
+WaitTextBox
+ShowChara 5 4 37
+# …………………。
+ShowTextBox "!!! 3EBB94 13"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $82
+Subscript 5
+ShowChara 7 4 47
+# ところでさ…
+ShowTextBox "!!! 3EBB94 14"
+WaitTextBox
+ShowChara 7 0 48
+# $1って温めると、さらにおいしくなるって本当？
+ShowTextBox "!!! 3EBB94 15"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84
+Subscript 6
+ShowChara 7 4 47
+# 今度、店の裏に$1植えようぜ
+ShowTextBox "!!! 3EBB94 16"
+WaitTextBox
+ShowChara 7 0 51
+# 来年になったら、きっとうまそうな実ができる…かな？
+ShowTextBox "!!! 3EBB94 17"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $05,$89
+Subscript 7
+ShowChara 7 4 47
+# ん…なにか来てる？
+ShowTextBox "!!! 3EBB94 18"
+WaitTextBox
+ShowChara 7 0 58
+# うわッ！？
+# ゲーマーズ$1店から大量の『$2』グッズが来てるぜ
+ShowTextBox "!!! 3EBB94 19"
+WaitTextBox
+ShowChara 6 4 46
+# やられた～！
+# 『$2』グッズはたたき売っても売れ残るグッズです～！
+ShowTextBox "!!! 3EBB94 20"
+WaitTextBox
+ShowChara 5 4 57
+# お…おのれ…デ・ジ・キャラット！！
+ShowTextBox "!!! 3EBB94 21"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8B
+Subscript 8
+ShowChara 7 4 47
+# それじゃ俺も$1でもして、一汗流すか…
+ShowTextBox "!!! 3EBB94 22"
+WaitTextBox
+ShowChara 7 0 48
+# リクも時々は運動しろよ
+ShowTextBox "!!! 3EBB94 23"
+WaitTextBox
+ShowChara 5 4 57
+# ……うっ
+ShowTextBox "!!! 3EBB94 24"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 9
+ShowChara 7 4 47
+# 俺も読んだぜ…『$1』
+ShowTextBox "!!! 3EBB94 25"
+WaitTextBox
+ShowChara 7 0 48
+# あれって…なに？
+ShowTextBox "!!! 3EBB94 26"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$80,$87
+Subscript 10
+ShowChara 7 4 47
+# 『$1』に出てる$2って$3が上手いらしいよ
+ShowTextBox "!!! 3EBB94 27"
+WaitTextBox
+ShowChara 7 0 48
+# 今度うちの店にスカウトしようぜ！
+ShowTextBox "!!! 3EBB94 28"
+WaitTextBox
+EndScript

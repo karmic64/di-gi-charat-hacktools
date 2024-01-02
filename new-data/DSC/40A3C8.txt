@@ -1,0 +1,43 @@
+DSCBase $40A3C8
+
+
+
+
+Subscript 0
+ShowChara 4 0 0
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# $0
+# 残り$1/$2個ぴょ
+ShowTextBox "$0\n$1/$2 of these left, pyo."
+EndScript
+
+
+
+Subscript 3
+# Ａボタンを押して、何か買うぴょ！
+ShowTextBox "If you press A on something, you can buy it, pyo!"
+EndScript
+
+
+
+Subscript 4
+# お買物は終わりかぴょ？
+ShowTextBox "Are you done buying, pyo?"
+EndScript
+
+
+
+Subscript 5
+# お買物をやめるぴょ？
+ShowTextBox "Done shopping, pyo?"
+EndScript

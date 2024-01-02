@@ -1,0 +1,201 @@
+DSCBase $3F3A98
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# ねえ、店長さん、
+# 今度の１５日のお
+# 祭りの日、出店を
+# 出すんでしょ？
+ShowTextBox "Hey, Manager.\nWhat do you\nthink about a\nstall at the\nfestival on\nthe 15th?"
+WaitTextBox
+ShowChara 2 0 23
+# なんといっても、
+# キャラクターグッ
+# ズは縁日向けだも
+# のね！
+ShowTextBox "I think some of\nthese character\nitems we have\nwould be nice to\nsell!"
+WaitTextBox
+ShowChara 1 2 11
+# でじこは反対にょ
+# っ！
+ShowTextBox "I'm against it,\nnyo!"
+WaitTextBox
+ShowChara 2 1 22
+# どうして？いい考
+# えだと思うけど…
+ShowTextBox "Huh? Why? I\nthought it was\na pretty good\nidea..."
+WaitTextBox
+ShowChara 1 2 11
+# よくないにょっ！
+# お店を出したら、
+# お祭りで遊ぶ時間
+# がなくなっちゃう
+# にょ！
+ShowTextBox "It's NOT good,\nnyo! Time spent\nrunning a stall\nis time not\nspent enjoying\nthe festival!"
+WaitTextBox
+# そんなんじゃ、せ
+# っかくのお祭りが
+# だいなしになっち
+# ゃうにょっ！
+ShowTextBox "Why even bother\ngoing if we\ncan't run around\nand have fun,\nnyo!?"
+WaitTextBox
+# 反対ったら反対だ
+# にょ！
+ShowTextBox "That's why I'm\nagainst it, nyo!"
+WaitTextBox
+ShowChara 2 1 25
+# と、とりつくしま
+# がないわね…
+ShowTextBox "Well, I don't\nknow what to say\nto that..."
+WaitTextBox
+ShowChara 2 0 22
+# ぷちこはどうなの
+# かしら？
+ShowTextBox "Puchiko, what do\nyou think?"
+WaitTextBox
+ShowChara 3 2 17
+# 反対にゅ！
+# ぷちこもお祭りで
+# 遊びたいにゅ
+ShowTextBox "Against, nyu!\nI want to play,\ntoo, nyu."
+WaitTextBox
+ShowChara 2 1 25
+# うーん、賛成１、
+# 反対２かぁ…
+ShowTextBox "So that's 1 for,\n2 against..."
+WaitTextBox
+ShowChara 1 2 11
+# 店長しゃん、でじ
+# こはお祭りで遊び
+# たいにょ～！
+ShowTextBox "Help us out,\nManager! I wanna\nhave some fun,\nnyo!"
+WaitTextBox
+# いいよ
+# ダメ！
+ShowSelMenu09 2 "!Fine\nNo way!"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 1 0 10
+# やっぱり店長しゃ
+# んは、でじこの味
+# 方だにょ～！
+ShowTextBox "I knew you'd be\non my side, nyo!"
+WaitTextBox
+ShowChara 2 1 22
+# まっ、いいか…
+ShowTextBox "Well,\nwhatever..."
+WaitTextBox
+ShowChara 2 0 23
+# じゃ、店長さんに
+# はその責任を取っ
+# てもらうというこ
+# とで…
+ShowTextBox "As long as the\nManager is\nwilling to take\nresponsibility,\nthen..."
+WaitTextBox
+# お祭りの日は、で
+# じこの案内はよろ
+# しくね
+ShowTextBox "Dejiko, I'll\nbe counting on\nyou to show me\naround the\nfestival, okay?"
+WaitTextBox
+ShowChara 1 2 10
+# やったにょ、当日
+# は店長しゃんのお
+# ごりにょ～！
+ShowTextBox "Alright, nyo!\nOf course, the\nManager will\ntreat us the\nday of, right?"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 1 0 12
+# にょにょ～っ、そ
+# んな～
+ShowTextBox "You WILL, won't\nyou? Oh, you're\ntoo kind, nyo!"
+WaitTextBox
+ShowChara 2 1 55
+# 残念だけど、あき
+# らめなさい
+ShowTextBox "Sorry, I think\nyou'll have to\ngive up on that\none."
+WaitTextBox
+ShowChara 1 2 12
+# …………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 2 1 23
+# まぁまぁ、そんな
+# に気を落とさない
+# で…一緒にがんば
+# ろ、ね？
+ShowTextBox "There's no need\nto look so down.\nYou do still\nhave some pocket\nchange, right?"
+WaitTextBox
+ShowChara 3 2 17
+# 違うにゅ、よく見
+# るにゅ
+ShowTextBox "... Think again,\nnyu."
+WaitTextBox
+ShowChara 1 2 11
+# にょにょ～っ！！
+ShowTextBox "Nyo, nyo!!\nWhat are you\nwaiting for!?\nWe have to\nget ready for\nthe stall, nyo!"
+WaitTextBox
+# こうなったら、お
+# 祭りでは売って売
+# って売りまくって
+# やるにょ～っ！！
+ShowTextBox "The customers\nwon't know what\nhit them! Let's\nsell, sell,\nsell, nyo!!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 1 115 65 104 100 10 3
+SetBG 113
+Fade 0 30
+ShowChara 1 1 10
+# 今日は、待ちに待
+# ったお祭りの日に
+# ょっ！
+ShowTextBox "It's finally\nthe day of the\nfestival, nyo!"
+WaitTextBox
+# さあ、お祭りに出
+# 発にょ～っ
+ShowTextBox "Let's head out,\nnyo~!"
+WaitTextBox
+Fade 3 30
+SetBG 34
+Fade 2 30
+ShowChara 1 0 0
+# このりんご飴、なかな
+# かおいしいにょ～
+ShowTextBox "This apple\ncandy is so\ntasty, nyo~"
+WaitTextBox
+# さ～て、お次は何にし
+# ようかにょ…
+ShowTextBox "Okay, what\nshould we go\ndo next, nyo..."
+WaitTextBox
+# にょ、「まだ何か買う
+# のか」って？
+ShowTextBox "\"What's there\nleft to buy\",\nyou say, nyo?"
+WaitTextBox
+# 何を言ってるにょ、店
+# 長しゃん！
+ShowTextBox "What're you\ntalking about,\nManager!"
+WaitTextBox
+# でじこはまだ、わたが
+# しと焼きとうもろこし
+# とりんご飴を食べて
+ShowTextBox "All I've bought\nwas some cotton\ncandy, some\ngrilled corn, an\napple candy,"
+WaitTextBox
+# 金魚すくいと輪投げと
+# ヨーヨーすくいをやっ
+# ただけにょ！
+ShowTextBox "A goldfish\nscoop, a try at\nthe ring toss,\nand a balloon\nanimal, nyo!"
+WaitTextBox
+# じゃ、次はあれ、射的
+# をやるにょ～！
+ShowTextBox "Oh, let's go\ntry the\nshooting\ngallery next,\nnyo!"
+WaitTextBox
+EndScript

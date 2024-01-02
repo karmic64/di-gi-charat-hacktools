@@ -1,0 +1,271 @@
+DSCBase $3E50B0
+
+
+
+### Prefill data: $85,$81,$82
+Subscript 0
+ShowChara 6 1 40
+# ピョコラ様、本日
+# のおやつは$1産の$2ですよ
+ShowTextBox "Lunch today\nwill be\n$2\nhand-cooked in\n$1,\nLady Pyocola."
+WaitTextBox
+ShowChara 4 4 29
+# わーい、うれしいぴょ～！
+ShowTextBox "Yay!\nThanks, pyo!"
+WaitTextBox
+ShowChara 6 1 41
+# しかも今日はなん
+# と$3つきですよ
+ShowTextBox "We will have\n$3\navailable to\ndrink, as well."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$89,$49
+Subscript 1
+ShowChara 6 1 44
+# たッ大変ですッリク元帥！
+# お店に$1が来てます！！
+ShowTextBox "C-Colonel Rik!\nPut the gang on\nalert!\n$1\nhas come to the\nstore!!"
+WaitTextBox
+ShowChara 5 4 39
+# 落ち着け、カイ！
+# こういう時は見て
+# 見ぬふりをすれば
+# いいのだ
+ShowTextBox "Calm yourself,\nKy! We need to\nobserve the\nsituation, then\nact!"
+WaitTextBox
+ShowChara 6 1 46
+# で、でもお店の中で大暴れしてますよ！
+ShowTextBox "B-but the shop\nis in chaos!"
+WaitTextBox
+# ああッ『$2』グッズの棚がッ！！
+ShowTextBox "Oh no!\nThe\n$2\nshelf is\ncollapsing!!"
+WaitTextBox
+ShowChara 5 4 57
+# くッ…堪えろ
+# 堪えるんだッ！
+ShowTextBox "Urgh...\nEndure!\nPull yourself\ntogether!"
+WaitTextBox
+ShowChara 6 1 43
+# そ、そうですね…
+# 『$3』グッズの棚を壊されるよりは…
+ShowTextBox "Y-Yes, sir...\nAt least the\n$3\nmerchandise is\nsafe..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$83
+Subscript 2
+ShowChara 6 2 40
+# リク元帥！
+# デ・ジ・キャラッ
+# トをおとしいれる
+# いい作戦を発案し
+# ました！
+ShowTextBox "Admiral Rik!\nI've formulated\na plan to defeat\nDi Gi Charat\nonce and for\nall!"
+WaitTextBox
+ShowChara 5 1 35
+# よろしい、聞かせてもらおう
+ShowTextBox "Excellent.\nLet's hear it."
+WaitTextBox
+ShowChara 6 2 40
+# はッ！
+# …ごにょごにょ
+ShowTextBox "Yes, sir!\n...Whisper,\nwhisper..."
+WaitTextBox
+ShowChara 5 1 57
+# な、なんと素晴ら
+# しい作戦だ…
+ShowTextBox "I see...\nYes, this is\nperfect!\nGood work!"
+WaitTextBox
+ShowChara 6 2 41
+# ちなみに作戦名は『ウキウキ$1』です
+ShowTextBox "By the way, I've\ntaken the\nliberty of\nnaming this plan\nOperation Happy\n$1."
+WaitTextBox
+ShowChara 5 1 37
+# 『ウキウキ$1』…か
+ShowTextBox "Operation Happy\n$1...\n"
+WaitTextBox
+ShowChara 5 0 65
+# 私としては『るんるん$2』の方が、いいな～♪
+ShowTextBox "I think a more\nfitting name\nwould be\nLaughing\n$2!\n"
+WaitTextBox
+ShowChara 7 1 49
+# どっちでもいっしょだろ、そんなの…
+ShowTextBox "I thought that\nfirst one was\nbad, but you\nreally have a\ngift for names,\nAdmiral..."
+WaitTextBox
+ShowChara 6 2 42
+# いや、重大な問題
+# だぞ、クウ！
+ShowTextBox "I will not\ntolerate\ninsubordination,\nMajor Coo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84,$80
+Subscript 3
+ShowChara 6 1 40
+# おや…？
+# リク元帥あてに$1の花束が…
+ShowTextBox "Hm...?\nWhat's this?\nA bouquet of\n$1\nflowers for\nAdmiral Rik?"
+WaitTextBox
+# 差出人は…
+ShowTextBox "And the sender\nis..."
+WaitTextBox
+ShowChara 6 0 45
+# …$2？
+ShowTextBox "...\n$2?"
+WaitTextBox
+ShowChara 5 2 35
+# おや…カイ
+# その$1はどうしたんだ？
+ShowTextBox "Ah, there you\nare, Ky.\nWhat are those\n$1\nfor?"
+WaitTextBox
+ShowChara 6 1 44
+# あっ…あははは！
+# なッなんでもない
+# ですよ、リク元帥！！
+ShowTextBox "Ah.. A-Ahahaha!\nN-Nothing!\nNevermind!\nDon't worry\nabout it!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$89
+Subscript 4
+ShowChara 6 1 40
+# 店長さんは$1を知ってますか？
+ShowTextBox "Manager, have\nyou ever\nvisited\n$1?"
+WaitTextBox
+# なんでも一家に一冊『$2』があるらしいじゃないですか
+ShowTextBox "I've heard\nthere's a copy\nof\n$2\nin every house."
+WaitTextBox
+ShowChara 6 0 41
+# そこにお店を開け
+# ば、あっという間
+# に大もうけできる
+# んですけどね～
+ShowTextBox "If we opened\na store there,\nit would do\nquite well,\ndon't you\nthink?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$86
+Subscript 5
+ShowChara 6 1 40
+# $1…
+# 実はあの方、$2で遊ぶのが大好きらしいです
+ShowTextBox "I've heard\n$1\nis quite fond\nof visiting\n$2."
+WaitTextBox
+ShowChara 6 0 41
+# あの方もまだまだ
+# 子供ってことでし
+# ょうか？
+ShowTextBox "Quite juvenile,\ndon't you\nthink?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$80,$40
+Subscript 6
+ShowChara 6 2 40
+# 昨日『$1』で言ってたのですが…
+ShowTextBox "Yesterday, I\nlearned a\nshocking bit of\nnews from\n$1..."
+WaitTextBox
+# $2と$3が結婚するそうですよ
+ShowTextBox "$2\nand\n$3\nare married."
+WaitTextBox
+ShowChara 7 1 58
+# マジかよッ！？
+ShowTextBox "What!?\nNo way!"
+WaitTextBox
+ShowChara 6 2 41
+# …世も末ってことですね
+ShowTextBox "Indeed.\nThis must be\nthe beginning\nof the end of\nthe world."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8B,$82
+Subscript 7
+ShowChara 6 1 41
+# ふう～
+# $1したあとは、$2がおいしいです
+ShowTextBox "Ahh...\nA little\n$2\nafter playing\n$1\nhits the spot."
+WaitTextBox
+ShowChara 6 0 46
+# あ～～～っ！！
+# 店長さんの分も飲
+# んでしまった～！
+ShowTextBox "Ack!!\nI accidentally\ndrank the\nManager's share!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$8A,$84
+Subscript 8
+ShowChara 6 2 42
+# くそッ…$1め
+ShowTextBox "Curse you,\n$1!"
+WaitTextBox
+ShowChara 7 1 47
+# どうしたんだよ、
+# カイ？
+# そんなに怒って…
+ShowTextBox "What's the\nmatter, Ky?\nI've never seen\nyou so angry."
+WaitTextBox
+ShowChara 6 2 42
+# お店の前に咲いて
+# いた$3の花を$1が$2に乗ってふんづけたんだ！！
+ShowTextBox "They ran over\nthe $3\nflowers in\nfront of the\nshop in their\n$2!"
+WaitTextBox
+ShowChara 6 0 43
+# 毎日お水をあげて
+# いたのに…
+ShowTextBox "After I had\nwatered them\nevery day,\ntoo...!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$86,$89
+Subscript 9
+ShowChara 6 2 40
+# 店長、提案があります
+ShowTextBox "Manager, I have\na suggestion,\nif I may."
+WaitTextBox
+# 今度$1にできる$2に『$3』グッズを売りに行きましょう！
+ShowTextBox "Let us visit\n$2\nto sell our\n$3\nmerchandise!"
+WaitTextBox
+ShowChara 6 0 41
+# きっと売れると思いますよ！
+ShowTextBox "I'm certain\nit will be\na success!"
+WaitTextBox
+ShowChara 7 1 49
+# え～～～…
+# めんどくせ～…
+ShowTextBox "Whaaa?\nI don't\nwanna.\nThat sounds\nlike a pain."
+WaitTextBox
+ShowChara 6 2 46
+# そうしないと、お
+# 店の倉庫がいっぱ
+# いなんですよっ！
+ShowTextBox "Our storeroom is\noverflowing...\nIf we don't do\nsomething, the\nshelves will\ncollapse!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80
+Subscript 10
+ShowChara 6 2 41
+# 店長、歯みがいてますか？
+ShowTextBox "Manager, are you\nbrushing your\nteeth properly?"
+WaitTextBox
+ShowChara 6 0 40
+# $1は虫歯だらけで、ついに入院したらしいです！
+ShowTextBox "$1\nhad so many\ncavities, they\nhad to be\nhospitalized!"
+WaitTextBox
+ShowChara 6 0 41
+# 気をつけましょうね
+ShowTextBox "Take care this\ndoesn't happen\nto you!"
+WaitTextBox
+EndScript

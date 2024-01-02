@@ -1,0 +1,38 @@
+DSCBase $3ED5EC
+
+
+
+
+Subscript 0
+ShowChara 1 0 11
+# 店長しゃん、いい
+# かげんなことを言
+# うと、目からビー
+# ムをおみまいする
+# にょ！
+ShowTextBox "Manager, if you don't get your act together, you'll get a visit from my Eye Laser Beam, nyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 1 0 12
+# 店長しゃん、下品
+# な言葉を使う人は
+# でじこ嫌いにょ！
+ShowTextBox "Manager, I hate people who use foul language, nyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 1 0 16
+# にょっ？　なんだ
+# かよく聞こえなか
+# ったから、もう一
+# 回言ってみるにょ
+ShowTextBox "Nyo? I didn't hear what you said. Could you repeat that, nyo?"
+WaitTextBox
+EndScript

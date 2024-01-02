@@ -1,0 +1,176 @@
+DSCBase $3E2980
+
+
+
+### Prefill data: $01,$85
+Subscript 0
+ShowChara 7 4 52
+# へっ…
+# $1と聞けば俺の出番だな
+ShowTextBox "Man, I can't\nget enough of\n$1!"
+WaitTextBox
+# けっこう俺、$1にはうるさいんだ
+ShowTextBox "Sorry, I guess\nit's all I talk\nabout lately."
+WaitTextBox
+ShowChara 7 0 48
+# やっぱり$2産が一番だぜ
+ShowTextBox "But really,\nyou gotta get\nthe $1\nthey make in\n$2!\nIt's great!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $82
+Subscript 1
+ShowChara 7 4 58
+# $1！？
+ShowTextBox "$1!?"
+WaitTextBox
+ShowChara 7 0 48
+# ちょうど今ノド渇
+# いてたんだ…俺
+ShowTextBox "Oh man...\nI'm gettin'\nthirsty just\nthinking about\nit..."
+WaitTextBox
+ShowChara 7 0 47
+# …で、店長がおごってくれんの？
+ShowTextBox "Hey, Manager!\nIf you're going\nout, could you\nmaybe buy me\nsome?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84
+Subscript 2
+ShowChara 7 4 52
+# 俺、昔$1の実を食べて、おなかこわしたんだよな！
+ShowTextBox "I almost died\nthe last time I\ntried eating\n$1\nfruit!"
+WaitTextBox
+ShowChara 6 4 45
+# …それ自慢になっ
+# てないぞ、クウ
+ShowTextBox "... I don't\nthink that's\nsomething you\nshould be proud\nof, Coo."
+WaitTextBox
+ShowChara 7 4 51
+# みんなも気をつけ
+# た方がいいぜ
+ShowTextBox "You all better\nbe careful, too!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $82
+Subscript 3
+ShowChara 7 4 47
+# うっぷ…
+# $1飲みすぎたぜ…
+ShowTextBox "Urrghhh...\nI drank way too\nmuch\n$1..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $00,$86
+Subscript 4
+ShowChara 7 4 47
+# $1…？
+# 俺、昨日$2で見かけたぜ
+ShowTextBox "$1...?\nYeah, I saw them\nat $2\nyesterday."
+WaitTextBox
+ShowChara 7 0 49
+# なにしてたんだろうな？
+ShowTextBox "I wonder what\nthey were up to?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $07,$8A,$80
+Subscript 5
+ShowChara 7 4 47
+# このあいだの$1は疲れたぜ！
+# だいたい店から遠すぎなんだよ、$3の家…
+ShowTextBox "I'm sick of\nbeing\n$1!\n$3's\nplace is just\nway too far..."
+WaitTextBox
+ShowChara 7 0 50
+# …そうだ！
+# 店で$2買おうぜ！
+ShowTextBox "... I know!\nI'll go by\n$2!"
+WaitTextBox
+ShowChara 7 0 52
+# $2さえあれば、一気に行けるぜ！
+ShowTextBox "That way I can\nget there in\na flash!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83
+Subscript 6
+ShowChara 7 4 47
+# 犬と$1って仲悪いんだ
+ShowTextBox "I heard\na $1\nand a dog are\nnatural enemies."
+WaitTextBox
+ShowChara 7 0 49
+# あんまり$1の話するなよな
+ShowTextBox "Kinda crazy, huh?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$85,$83
+Subscript 7
+ShowChara 7 4 58
+# うっ…！！
+# そういえば俺『$1』見るの忘れてた！
+ShowTextBox "Ah!!\nI forgot to watch\n$1!"
+WaitTextBox
+ShowChara 7 0 49
+# $2の珍しい$3を特集してたんだよな
+ShowTextBox "It was a\nspecial feature\non the rare\n$3 of\n$2...\nAw, man."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86
+Subscript 8
+ShowChara 7 4 51
+# あ～～～
+# 俺も休みになったら$1に行って遊びて～な
+ShowTextBox "Sigh...\nI wanna take a\nbreak and hang\nout at\n$1\nsoon."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 9
+ShowChara 7 4 50
+# 『$1』って感動するよな？
+ShowTextBox "$1 is\nso, so good!\nRight?"
+WaitTextBox
+# あれこそ、男のバイブルだぜ！
+ShowTextBox "It's like,\nthe bible for\nmanly men!\nI love it!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87
+Subscript 10
+ShowChara 7 4 48
+# $1ってマジで疲れる仕事だぜ
+ShowTextBox "Being\n$1\nreally tires me\nout."
+WaitTextBox
+ShowChara 7 0 47
+# でも、プライドを
+# 持ってなすべき仕
+# 事でもあるんだよ
+# な
+ShowTextBox "But at least I\ncan be proud\nabout it when\nI'm done!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8B
+Subscript 11
+ShowChara 7 4 50
+# おい、ちょっとそこの客！
+ShowTextBox "Hey, you!\nCustomer over\nthere!"
+WaitTextBox
+# 店内で$1なんかしてんじゃねーぞ！
+ShowTextBox "No $1\nin the store!\nI'm watching\nyou!"
+WaitTextBox
+EndScript

@@ -1,0 +1,203 @@
+DSCBase $4041CC
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 31
+# ぶるる…今朝は、
+# なんか妙に冷えて
+# るぴょ…
+ShowTextBox "Brrr...\nIt's weirdly\nchilly this\nmorning, pyo."
+WaitTextBox
+ShowChara 5 2 36
+# ほう…ピョコラ様
+# 外をごらんになっ
+# てください
+# 理由が分かります
+ShowTextBox "Ah... Lady\nPyocola, I\nbelieve you'll\nsee the reason\nfor the chill\njust outside."
+WaitTextBox
+ShowChara 7 1 48
+# どれどれ…おっ、
+# すげぇ！
+ShowTextBox "Huh...?\nOh, wow!"
+WaitTextBox
+ShowChara 6 2 40
+# 少佐、そこに立っ
+# てるとピョコラ様
+# が外を見られない
+# だろ…
+ShowTextBox "Major Coo.\nIf you stand\nthere, Lady\nPyocola cannot\nsee outside."
+WaitTextBox
+ShowChara 7 1 47
+# ごめんごめん…
+ShowTextBox "Sorry,\nsorry."
+WaitTextBox
+ShowChara 4 1 34
+# うわ、すごいぴょ
+# っ！？外が真っ白
+# だぴょ！
+ShowTextBox "What the heck,\npyo! Everything\noutside turned\nwhite!"
+WaitTextBox
+ShowChara 5 2 36
+# 昨夜のうちに、雪
+# が積もったようで
+# すな…
+ShowTextBox "It would appear\nquite a bit of\nsnow accumulated\novernight."
+WaitTextBox
+ShowChara 6 2 40
+# おっ、電話だ…も
+# しもし…
+ShowTextBox "Oh, the phone's\nringing.\n... Hello?"
+WaitTextBox
+# ふんふん…
+ShowTextBox "... Hmm...\n... Yes, I\nsee..."
+WaitTextBox
+ShowChara 5 2 35
+# カイ、どちらさま
+# かな？
+ShowTextBox "What's the\nmatter, Ky?"
+WaitTextBox
+ShowChara 6 2 40
+# ピョコラ様ぁ、デ
+# ・ジ・キャラット
+# たちからの電話で
+# す！
+ShowTextBox "Lady Pyocola!\nDi Gi Charat is\ncalling you!"
+WaitTextBox
+ShowChara 4 1 33
+# ぴょっ？
+ShowTextBox "Pyo!?"
+WaitTextBox
+ShowChara 6 2 40
+# “雪合戦しよう”
+# だそうです…
+ShowTextBox "It seems they\nare challenging\nyou to a\nsnowball fight."
+WaitTextBox
+ShowChara 4 1 29
+# …望むところぴょ
+# っ！
+ShowTextBox "Perfect, pyo!"
+WaitTextBox
+Fade 3 30
+SetBG 115
+Fade 2 30
+ShowChara 1 1 10
+# にょ～っ、これで
+# もくらうにょ！
+ShowTextBox "Nyooo!\nTake that, nyo!"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょぴょ、どこを
+# 狙ってるぴょ！ち
+# っともあたらない
+# ぴょ！
+ShowTextBox "Ha ha ha!\nWhere are you\naiming, pyo!?\nYou'll never\nhit me like\nthat!"
+WaitTextBox
+ShowChara 4 0 28
+# リク！
+ShowTextBox "Rik!"
+WaitTextBox
+ShowChara 5 2 39
+# はっ！
+ShowTextBox "Yes, my lady!"
+WaitTextBox
+ShowChara 4 2 28
+# カイ！
+ShowTextBox "Ky!"
+WaitTextBox
+ShowChara 6 2 40
+# はいっ！
+ShowTextBox "Standing by!"
+WaitTextBox
+ShowChara 4 2 28
+# クウ！
+ShowTextBox "Coo!"
+WaitTextBox
+ShowChara 7 2 48
+# おうっ！
+ShowTextBox "!!! 4041CC 21"
+WaitTextBox
+ShowChara 4 2 29
+# でじこお姉ちゃん
+# に集中攻撃ぴょ！
+ShowTextBox "It's time for a\nfocused assault\non Dejiko, pyo!"
+WaitTextBox
+ShowChara 1 1 11
+# にょにょーっ、卑
+# 怯なりーっ！
+ShowTextBox "Hey! That's a\ncoward's move, nyo!"
+WaitTextBox
+ShowChara 2 1 23
+# ああっ、なんて激
+# しい攻撃なのかし
+# ら！
+ShowTextBox "Oh my gosh!\nI've never seen\nanyone throw\nsnowballs that\nfast in my life!"
+WaitTextBox
+# でじこが見る見る
+# うちに雪だるまに
+# なっていくわ！
+ShowTextBox "Dejiko's going\nto be a snowwoman\nbefore this lets\nup!"
+WaitTextBox
+ShowChara 3 1 21
+# でじこの死は無駄
+# にしないにゅ…
+ShowTextBox "We can't let\nDejiko's death be\nin vain, nyu."
+WaitTextBox
+ShowChara 1 1 11
+# でじこは死んでな
+# いにょーっ！
+ShowTextBox "I'm not dead, nyo!"
+WaitTextBox
+ShowChara 2 1 23
+# あら、それは残念
+# だわ…
+ShowTextBox "Hmm...\nI guess that was\njust wishful\nthinking."
+WaitTextBox
+ShowChara 1 1 11
+# うさだーっ！
+ShowTextBox "Usadaaa!!"
+WaitTextBox
+ShowChara 2 1 23
+# やぁねぇ、ジョー
+# クよジョーク
+ShowTextBox "Gosh, it was\njust a joke,\nokay?"
+WaitTextBox
+Fade 3 30
+Unk08 4 62 38 8 60 10 3
+Unk08 1 185 140 8 108 10 3
+SetBG 92
+Fade 2 30
+ShowChara 4 0 0
+# ぴょーっ、ぴょっ
+# ぴょっ！
+ShowTextBox "Pyo pyo pyo!"
+WaitTextBox
+ShowChara 1 0 0
+# おにょれ～
+ShowTextBox "You little..."
+WaitTextBox
+# こんなくつじょくは、
+# 生まれて初めてにょ～
+ShowTextBox "I've never been\nso insulted in my\nentire life, nyo!"
+WaitTextBox
+ShowChara 4 0 0
+# じつにい～い気分ぴょ
+# ～っ！
+ShowTextBox "And it feels so\ngood to see, pyo!"
+WaitTextBox
+# さて、でじこお姉ちゃ
+# ん
+ShowTextBox "Now then, Dejiko!"
+WaitTextBox
+# 今回はこれくらいに
+# しといてあげるぴょ！
+ShowTextBox "I'll leave it at\nthat for today!"
+WaitTextBox
+# ぴょぴょ、それが勝者
+# の余裕ぴょ～っ！
+ShowTextBox "Try not to\nembarass yourself\nso badly next\ntime, pyo!"
+WaitTextBox
+EndScript

@@ -1,0 +1,100 @@
+DSCBase $409F0C
+
+
+
+
+Subscript 0
+SetPermTextBoxPos 0 16
+SetPermTextBoxCharPos -8 0
+ShowChara 4 2 28
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 4 0 28
+# どれを買うぴょ？
+ShowTextBox "What do you want\nto buy, pyo?"
+EndScript
+
+
+
+Subscript 3
+ShowChara 4 0 28
+# 全部売れると、なんと$0円にもなるぴょ！
+ShowTextBox "We make $0 yen if we sell all of those, pyo!"
+EndScript
+
+
+
+Subscript 4
+ShowChara 4 0 30
+# お金が足りないぴょ
+# 貧乏は悲しいぴょ…
+ShowTextBox "We don't have enough money, pyo...\nPoverty is cruel, pyo."
+EndScript
+
+
+
+Subscript 5
+ShowChara 4 0 30
+# それはまだお店に残っ
+# てるぴょっ！
+ShowTextBox "The shop already\nhas that, pyo!"
+EndScript
+
+
+
+Subscript 6
+ShowChara 4 0 28
+# いくつ買うぴょ？
+ShowTextBox "How many do you\nwant to buy, pyo?"
+EndScript
+
+
+
+Subscript 7
+ShowChara 4 0 28
+# $0個買うのに、
+# $1円かかるぴょ
+ShowTextBox "It costs $1 yen\nto buy $0, pyo."
+EndScript
+
+
+
+Subscript 8
+ShowChara 4 0 28
+# 買うのをやめるぴょ？
+ShowTextBox "All done, pyo?"
+EndScript
+
+
+
+Subscript 9
+ShowChara 4 0 28
+# 見やすいように、グッ
+# ズをならびかえるぴょ
+ShowTextBox "Change the order\nitems are shown,\npyo."
+EndScript
+
+
+
+Subscript 10
+ShowChara 4 0 28
+# 本当に買うぴょ？
+ShowTextBox "You want to buy\nthis, pyo?"
+EndScript
+
+
+
+Subscript 11
+ShowChara 4 0 28
+# $3の$1が$2上手になるぴょ
+ShowTextBox "$3's $1 will\nbecome $2 better, pyo."
+EndScript

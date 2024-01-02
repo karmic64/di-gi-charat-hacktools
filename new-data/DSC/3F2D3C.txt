@@ -1,0 +1,210 @@
+DSCBase $3F2D3C
+
+
+
+
+Subscript 0
+Unk08 3 134 93 8 112 10 3
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# カレンダーを見る
+# と、今週から歯の
+# 健康週間だゲマ
+ShowTextBox "Now that I look\nat the calendar,\nit's Dental\nHealth week,\ngema."
+WaitTextBox
+# 店長さん、虫歯っ
+# て何ゲマ…むぎゅ
+# っ！
+ShowTextBox "Have you got any\ncavities,\nManager?...\nG-Gema--!"
+WaitTextBox
+ShowChara 1 1 8
+# 店長しゃん、今の
+# ゲマの変な質問は
+# 無視するにょ！
+ShowTextBox "Manager, please\ndon't mind Gema\nif he asks you\nany weird\nquestions, nyo!"
+WaitTextBox
+ShowChara 2 2 22
+# 芸能人は歯が命っ
+# てよく言うわ
+# 虫歯なんて、とん
+# でもない！
+ShowTextBox "A performer\nlives or dies by\nher teeth, so of\ncourse cavities\nare totally\nunforgivable!"
+WaitTextBox
+ShowChara 2 0 26
+# もちろん、アタシ
+# は毎日歯を磨いて
+# るから、ぴっかぴ
+# っかよ！
+ShowTextBox "I brush mine\nevery day until\nthey're\nsparkling!"
+WaitTextBox
+ShowChara 1 1 8
+# にょっ！そんなこ
+# とでいばるなんて
+# こころざしが低い
+# にょ！
+ShowTextBox "Nyo! You act\nlike that's a\nbig deal, but\nthat's\nnothing, nyo!"
+WaitTextBox
+ShowChara 2 2 26
+# あ～ら、そういう
+# でじこは虫歯ある
+# んじゃない？
+ShowTextBox "Hmph! Are you\nsaying you don't\nhave any \ncavities\neither, Dejiko?"
+WaitTextBox
+ShowChara 1 1 9
+# つ、都合の悪いこ
+# とは店長しゃんに
+# 振るにょ！
+ShowTextBox "W-Why don't we\nask the\nManager, nyo!?"
+WaitTextBox
+# 正直に答えるにょ
+# っ！店長しゃんは
+# 虫歯あるにょ？
+ShowTextBox "This is a yes\nor no question!\nDo you or do\nyou not have\ncavities, nyo?"
+WaitTextBox
+# …ある
+# ない！
+ShowSelMenu09 2 "!... I do\nNo way!"
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 1 0 10
+# さすが店長しゃん
+# にょ！
+ShowTextBox "That's what I\nlike to hear,\nnyo!"
+WaitTextBox
+# やっぱり歯磨きは
+# 大切にょっ…とい
+# うことで、この話
+# は終わりにするに
+# ょ！
+ShowTextBox "Brushing your\nteeth is truly\nimportant,\nnyo... Anyway,\nlet's talk about\nsomething else!"
+WaitTextBox
+ShowChara 2 2 55
+# その態度、あやし
+# いわ…でじこって
+# ひょっとして、虫
+# 歯があるの？
+ShowTextBox "What's the rush?\nDon't tell me...\nDo YOU have\ncavities,\nDejiko?"
+WaitTextBox
+ShowChara 1 1 15
+# ぎくっ！そんなこ
+# とないにょっ、ほ
+# っとくにょっ！
+ShowTextBox "Geh! No way,\nnyo! Leave me\nalone, nyo!"
+WaitTextBox
+ShowChara 2 2 55
+# そんなにムキにな
+# らなくてもいいじ
+# ゃない
+ShowTextBox "It's just a\njoke. No need\nto get so\nangry."
+WaitTextBox
+ShowChara 2 0 26
+# それじゃ、店長さ
+# ん、今日のおやつ
+# はケーキにしまし
+# ょうか？
+ShowTextBox "Well then,\nManager, would\nyou be fine with\na little cake\nwith lunch,\ntoday?"
+WaitTextBox
+ShowChara 3 2 18
+# ぷちこには、虫歯
+# はないにゅ！
+ShowTextBox "I don't have\nany cavities,\nnyu!"
+WaitTextBox
+EndScript
+Label 0
+ShowChara 1 0 10
+# にょにょ、店長し
+# ゃんの歯にも虫歯
+# があるぐらいだか
+# ら
+ShowTextBox "Nyo, if even\nthe Manager has\na few cavities,"
+WaitTextBox
+# でじこの歯に虫歯
+# があっても、全然
+# おかしくないにょ
+# ～！
+ShowTextBox "is it really\nthat strange\nfor me to have\none or two,\nnyo!?"
+WaitTextBox
+ShowChara 2 2 55
+# ごまかしてる、ご
+# まかしてる…
+ShowTextBox "Hehe, so you DO\nhave cavities!\nWell, that's\nabout what I\nexpected..."
+WaitTextBox
+ShowChara 3 2 21
+# あとで痛い目を見
+# るパターンにゅ
+ShowTextBox "I think you\ncan tell what's\ncoming next,\nnyu..."
+WaitTextBox
+Fade 1 120
+Wait 60
+SetBG 124
+Fade 0 1
+ShowChara 3 0 0
+# 店長さん、起きるにゅ
+ShowTextBox "Manager, wake\nup, nyu..."
+WaitTextBox
+# …………
+ShowTextBox "..."
+WaitTextBox
+# 店長さん、起きるにゅっ！
+ShowTextBox "Wake up, nyu!"
+WaitTextBox
+Fade 1 1
+SetBG 123
+Fade 0 30
+Fade 3 1
+SetBG 22
+Fade 2 30
+# やっと起きたにゅ…
+# よく聞くにゅ！
+ShowTextBox "You finally woke\nup, nyu...\nListen well, nyu!"
+WaitTextBox
+# ぷちこは天からつかわ
+# された、虫歯の大天使
+# にゅ
+ShowTextBox "I am the Cavity\nArchangel, Puchiko,\nnyu."
+WaitTextBox
+# 今から問答無用で虫歯
+# を治すにゅ
+ShowTextBox "I'm here to treat\nyour cavities,\nwhether you like\nit or not, nyu."
+WaitTextBox
+# さぁ、覚悟するにゅ！
+ShowTextBox "Prepare\nyourself, nyu!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 3 1 17
+# 店長さん、おはよ
+# うにゅ
+ShowTextBox "Good morning,\nnyu."
+WaitTextBox
+# にゅっ…？
+ShowTextBox "Nyu...?"
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ？なんか
+# 店長しゃんが青い
+# 顔して逃げてくに
+# ょ…？
+ShowTextBox "Nyo? Why did\nthe Manager\nsuddenly go pale\nand run off,\nnyo...?"
+WaitTextBox
+# ぷちこ、店長しゃ
+# んに何かしたのか
+# にょ？
+ShowTextBox "Did you do\nsomething to the\nManager,\nPuchiko?"
+WaitTextBox
+ShowChara 3 1 17
+# 何もしてないにゅ
+ShowTextBox "I didn't do\nanything, nyu."
+WaitTextBox
+ShowChara 1 2 8
+# う～ん、おかしな
+# こともあるにょ～
+ShowTextBox "Hmmm... that's\nweird, nyo..."
+WaitTextBox
+EndScript

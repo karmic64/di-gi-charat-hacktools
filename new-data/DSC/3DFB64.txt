@@ -1,0 +1,2069 @@
+DSCBase $3DFB64
+
+
+
+
+Subscript 0
+ShowChara 4 0 28
+# いままでのおもいでぴょ！
+ShowTextBox "Here you can view memories we've made, pyo!"
+EndScript
+
+
+
+Subscript 1
+EndScript
+
+
+
+Subscript 2
+Fade 1 15
+EndScript
+
+
+
+Subscript 3
+ShowChara 4 2 28
+EndScript
+
+
+
+Subscript 4
+# ？？？？ぴょ？
+ShowTextBox "????, pyo?"
+EndScript
+
+
+
+Subscript 5
+# ？？？？ぴょ？
+ShowTextBox "????, pyo?"
+EndScript
+
+
+
+Subscript 6
+# 「正月」ぴょ
+ShowTextBox "「New Year's Day」, pyo!"
+EndScript
+
+
+
+Subscript 7
+SetBG 1
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 8
+# 「でじこの誕生日」ぴょ
+ShowTextBox "「Dejiko's Birthday」, pyo!"
+EndScript
+
+
+
+Subscript 9
+SetBG 2
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 10
+# 「うさだの誕生日」ぴょ
+ShowTextBox "「Usada's Birthday」, pyo!"
+EndScript
+
+
+
+Subscript 11
+SetBG 3
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 12
+# 「ぷちこの誕生日」ぴょ
+ShowTextBox "「Puchiko's Birthday」, pyo!"
+EndScript
+
+
+
+Subscript 13
+SetBG 4
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 14
+# 「ゲマの誕生日」ぴょ
+ShowTextBox "「Gema's Birthday」, pyo!"
+EndScript
+
+
+
+Subscript 15
+SetBG 5
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 16
+# 「初雪」ぴょ
+ShowTextBox "「First Snow」, pyo!"
+EndScript
+
+
+
+Subscript 17
+SetBG 6
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 18
+# 「バレンタイン・でじこ」ぴょ
+ShowTextBox "「Valentine's Day ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 19
+SetBG 7
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 20
+# 「バレンタイン・うさだ」ぴょ
+ShowTextBox "「Valentine's Day ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 21
+SetBG 8
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 22
+# 「バレンタイン・ぷちこ」ぴょ
+ShowTextBox "「Valentine's Day ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 23
+SetBG 9
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 24
+# 「ひな祭り・でじこ」ぴょ
+ShowTextBox "「Hinamatsuri ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 25
+SetBG 10
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 26
+# 「ひな祭り・うさだ」ぴょ
+ShowTextBox "「Hinamatsuri ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 27
+SetBG 11
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 28
+# 「ひな祭り・ぷちこ」ぴょ
+ShowTextBox "「Hinamatsuri ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 29
+SetBG 12
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 30
+# 「おでかけ・でじこ」ぴょ
+ShowTextBox "「Farewell ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 31
+SetBG 13
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 32
+# 「おでかけ・うさだ」ぴょ
+ShowTextBox "「Farewell ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 33
+SetBG 14
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 34
+# 「おでかけ・ぷちこ」ぴょ
+ShowTextBox "「Farewell ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 35
+SetBG 15
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 36
+# 「節分」ぴょ
+ShowTextBox "「Last Day of Winter」, pyo!"
+EndScript
+
+
+
+Subscript 37
+SetBG 16
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 38
+# 「お花見」ぴょ
+ShowTextBox "「Cherry Blossoms」, pyo!"
+EndScript
+
+
+
+Subscript 39
+SetBG 17
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 40
+# 「発明の日(うさだ)」ぴょ
+ShowTextBox "「Inventor's Day (Usada)」, pyo!"
+EndScript
+
+
+
+Subscript 41
+SetBG 18
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 42
+# 「子供の日(ぷちこ)」ぴょ
+ShowTextBox "「Children's Day (Puchiko)」, pyo!"
+EndScript
+
+
+
+Subscript 43
+SetBG 19
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 44
+# 「虫歯デー・でじこ」ぴょ
+ShowTextBox "「Dental Day ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 45
+SetBG 20
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 46
+# 「虫歯デー・うさだ」ぴょ
+ShowTextBox "「Dental Day ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 47
+SetBG 21
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 48
+# 「虫歯デー・ぷちこ」ぴょ
+ShowTextBox "「Dental Day ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 49
+SetBG 22
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 50
+# 「ゴールデンウィーク・でじこ」ぴょ
+ShowTextBox "「Golden Week ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 51
+SetBG 23
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 52
+# 「ゴールデンウィーク・うさだ」ぴょ
+ShowTextBox "「Golden Week ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 53
+SetBG 24
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 54
+# 「ゴールデンウィーク・ぷちこ」ぴょ
+ShowTextBox "「Golden Week ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 55
+SetBG 25
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 56
+# 「七夕」ぴょ
+ShowTextBox "「Tanabata」, pyo!"
+EndScript
+
+
+
+Subscript 57
+SetBG 26
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 58
+# 「海水浴」ぴょ
+ShowTextBox "「Ocean Trip」, pyo!"
+EndScript
+
+
+
+Subscript 59
+SetBG 27
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 60
+# 「動物・でじこ」ぴょ
+ShowTextBox "「Be Kind to Animals ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 61
+SetBG 28
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 62
+# 「動物・うさだ」ぴょ
+ShowTextBox "「Be Kind to Animals ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 63
+SetBG 29
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 64
+# 「動物・ぷちこ」ぴょ
+ShowTextBox "「Be Kind to Animals ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 65
+SetBG 30
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 66
+# 「決算・でじこ」ぴょ
+ShowTextBox "「Final Report ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 67
+SetBG 31
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 68
+# 「決算・うさだ」ぴょ
+ShowTextBox "「Final Report ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 69
+SetBG 32
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 70
+# 「決算・ぷちこ」ぴょ
+ShowTextBox "「Final Report ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 71
+SetBG 33
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 72
+# 「夏祭り・でじこ」ぴょ
+ShowTextBox "「Summer Festival ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 73
+SetBG 34
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 74
+# 「夏祭り・うさだ」ぴょ
+ShowTextBox "「Summer Festival ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 75
+SetBG 35
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 76
+# 「夏祭り・ぷちこ」ぴょ
+ShowTextBox "「Summer Festival ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 77
+SetBG 36
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 78
+# 「秋節・でじこ」ぴょ
+ShowTextBox "「Harvest Festival ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 79
+SetBG 37
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 80
+# 「秋節・うさだ」ぴょ
+ShowTextBox "「Harvest Festival ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 81
+SetBG 38
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 82
+# 「秋節・ぷちこ」ぴょ
+ShowTextBox "「Harvest Festival ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 83
+SetBG 39
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 84
+# 「体育の日・でじこ」ぴょ
+ShowTextBox "「Field Day ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 85
+SetBG 40
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 86
+# 「体育の日・うさだ」ぴょ
+ShowTextBox "「Field Day ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 87
+SetBG 41
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 88
+# 「体育の日・ぷちこ」ぴょ
+ShowTextBox "「Field Day ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 89
+SetBG 42
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 90
+# 「ハロウィン」ぴょ
+ShowTextBox "「Halloween」, pyo!"
+EndScript
+
+
+
+Subscript 91
+SetBG 43
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 92
+# 「なでなで・でじこ」ぴょ
+ShowTextBox "「Headpat ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 93
+SetBG 44
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 94
+# 「なでなで・うさだ」ぴょ
+ShowTextBox "「Headpat ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 95
+SetBG 45
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 96
+# 「なでなで・ぷちこ」ぴょ
+ShowTextBox "「Headpat ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 97
+SetBG 46
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 98
+# 「温泉」ぴょ
+ShowTextBox "「Hot Springs」, pyo!"
+EndScript
+
+
+
+Subscript 99
+SetBG 47
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 100
+# 「サンタ・でじこ」ぴょ
+ShowTextBox "「Santa ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 101
+SetBG 48
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 102
+# 「サンタ・うさだ」ぴょ
+ShowTextBox "「Santa ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 103
+SetBG 49
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 104
+# 「サンタ・ぷちこ」ぴょ
+ShowTextBox "「Santa ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 105
+SetBG 50
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 106
+# 「イブ・でじこ」ぴょ
+ShowTextBox "「New Year's Eve ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 107
+SetBG 51
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 108
+# 「イブ・うさだ」ぴょ
+ShowTextBox "「New Year's Eve ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 109
+SetBG 52
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 110
+# 「イブ・ぷちこ」ぴょ
+ShowTextBox "「New Year's Eve ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 111
+SetBG 53
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 112
+# 「パーティナイト」ぴょ
+ShowTextBox "「Party Night」, pyo!"
+EndScript
+
+
+
+Subscript 113
+SetBG 54
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 114
+# 「店長さんの誕生日」ぴょ
+ShowTextBox "「Manager's Birthday」, pyo!"
+EndScript
+
+
+
+Subscript 115
+SetBG 55
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 116
+# 「レジマスター・でじこ」ぴょ
+ShowTextBox "「Register Master ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 117
+SetBG 56
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 118
+# 「グッズマスター・でじこ」ぴょ
+ShowTextBox "「Stocking Master ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 119
+SetBG 57
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 120
+# 「掃除マスター・でじこ」ぴょ
+ShowTextBox "「Cleaning Master ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 121
+SetBG 58
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 122
+# 「目からビーム」ぴょ
+ShowTextBox "「Eye Beam」, pyo!"
+EndScript
+
+
+
+Subscript 123
+SetBG 59
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 124
+# 「レジマスター・うさだ」ぴょ
+ShowTextBox "「Register Master ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 125
+SetBG 60
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 126
+# 「グッズマスター・うさだ」ぴょ
+ShowTextBox "「Stocking Master ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 127
+SetBG 61
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 128
+# 「掃除マスター・うさだ」ぴょ
+ShowTextBox "「Cleaning Master ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 129
+SetBG 62
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 130
+# 「レジマスター・ぷちこ」ぴょ
+ShowTextBox "「Register Master ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 131
+SetBG 63
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 132
+# 「グッズマスター・ぷちこ」ぴょ
+ShowTextBox "「Stocking Master ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 133
+SetBG 64
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 134
+# 「掃除マスター・ぷちこ」ぴょ
+ShowTextBox "「Cleaning Master ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 135
+SetBG 65
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 136
+# 「エンディング・でじこ」ぴょ
+ShowTextBox "「Ending ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 137
+SetBG 66
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 138
+# 「エンディング・うさだ」ぴょ
+ShowTextBox "「Ending ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 139
+SetBG 67
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 140
+# 「エンディング・ぷちこ」ぴょ
+ShowTextBox "「Ending ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 141
+SetBG 68
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 142
+# 「エンディング・ぴよこ」ぴょ
+ShowTextBox "「Ending ・ Piyoko」, pyo!"
+EndScript
+
+
+
+Subscript 143
+SetBG 69
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 144
+# 「ぴよこの誕生日」ぴょ
+ShowTextBox "「Piyoko's Birthday」, pyo!"
+EndScript
+
+
+
+Subscript 145
+SetBG 70
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 146
+# 「ぴよこ登場！」ぴょ
+ShowTextBox "「Piyoko Arrives!」, pyo!"
+EndScript
+
+
+
+Subscript 147
+SetBG 71
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 148
+# 「なでなで・ぴよこ」ぴょ
+ShowTextBox "「Headpat ・ Piyoko」, pyo!"
+EndScript
+
+
+
+Subscript 149
+SetBG 72
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 150
+# 「イブ・ぴよこ」ぴょ
+ShowTextBox "「New Year's Eve ・ Piyoko」, pyo!"
+EndScript
+
+
+
+Subscript 151
+SetBG 73
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 152
+# 「口からバズーカ」ぴょ
+ShowTextBox "「Mouth Bazooka」, pyo!"
+EndScript
+
+
+
+Subscript 153
+SetBG 74
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 154
+# 「ぴよことでじこ」ぴょ
+ShowTextBox "「Piyoko and Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 155
+SetBG 75
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 156
+# 「海水浴・ぴよこ」ぴょ
+ShowTextBox "「Ocean Trip ・ Piyoko」, pyo!"
+EndScript
+
+
+
+Subscript 157
+SetBG 76
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 158
+# 「エンディング２でじこ」ぴょ
+ShowTextBox "「Ending 2 ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 159
+SetBG 77
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 160
+# 「エンディング２うさだ」ぴょ
+ShowTextBox "「Ending 2 ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 161
+SetBG 78
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 162
+# 「エンディング２ぷちこ」ぴょ
+ShowTextBox "「Ending 2 ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 163
+SetBG 79
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 164
+# 「エンディング２ぴよこ」ぴょ
+ShowTextBox "「Ending 2 ・ Piyoko」, pyo!"
+EndScript
+
+
+
+Subscript 165
+SetBG 80
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 166
+# 「エンディング２ぴよこ２」ぴょ
+ShowTextBox "「Ending 2 ・ Piyoko 2」, pyo!"
+EndScript
+
+
+
+Subscript 167
+SetBG 81
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 168
+# 「BG団ピクニック」ぴょ
+ShowTextBox "「Black Gema Gang Picnic」, pyo!"
+EndScript
+
+
+
+Subscript 169
+SetBG 82
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 170
+# 「BG団ゴールデンウィーク」ぴょ
+ShowTextBox "「Black Gema Gang Golden Week」, pyo!"
+EndScript
+
+
+
+Subscript 171
+SetBG 83
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 172
+# 「BG団遊園地」ぴょ
+ShowTextBox "「Black Gema Gang Theme Park」, pyo!"
+EndScript
+
+
+
+Subscript 173
+SetBG 84
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 174
+# 「BG団虫歯の日」ぴょ
+ShowTextBox "「Black Gema Gang Dental Day」, pyo!"
+EndScript
+
+
+
+Subscript 175
+SetBG 85
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 176
+# 「BG団花火」ぴょ
+ShowTextBox "「Black Gema Gang Fireworks」, pyo!"
+EndScript
+
+
+
+Subscript 177
+SetBG 86
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 178
+# 「BG団中秋節」ぴょ
+ShowTextBox "「Black Gema Gang Harvest Festival」, pyo!"
+EndScript
+
+
+
+Subscript 179
+SetBG 87
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 180
+# 「BG団動物」ぴょ
+ShowTextBox "「Black Gema Gang Be Kind to Animals」, pyo!"
+EndScript
+
+
+
+Subscript 181
+SetBG 88
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 182
+# 「BG団体育の日」ぴょ
+ShowTextBox "「Black Gema Gang Field Day」, pyo!"
+EndScript
+
+
+
+Subscript 183
+SetBG 89
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 184
+# 「BG団ハロウィン」ぴょ
+ShowTextBox "「Black Gema Gang Halloween」, pyo!"
+EndScript
+
+
+
+Subscript 185
+SetBG 90
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 186
+# 「BG団寒い」ぴょ
+ShowTextBox "「Black Gema Gang Chilly」, pyo!"
+EndScript
+
+
+
+Subscript 187
+SetBG 91
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 188
+# 「BG団初雪」ぴょ
+ShowTextBox "「Black Gema Gang First Snow」, pyo!"
+EndScript
+
+
+
+Subscript 189
+SetBG 92
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 190
+# 「BG団サン」ぴょ
+ShowTextBox "「Black Gema Gang Santa」, pyo!"
+EndScript
+
+
+
+Subscript 191
+SetBG 93
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 192
+# 「BG団パーティナイト」ぴょ
+ShowTextBox "「Black Gema Gang Party Night」, pyo!"
+EndScript
+
+
+
+Subscript 193
+SetBG 94
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 194
+# 「BG団大晦日」ぴょ
+ShowTextBox "「Black Gema Gang New Year's Eve」, pyo!"
+EndScript
+
+
+
+Subscript 195
+SetBG 95
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 196
+# 「BG団正月」ぴょ
+ShowTextBox "「Black Gema Gang New Year's Day」, pyo!"
+EndScript
+
+
+
+Subscript 197
+SetBG 96
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 198
+# 「BG団節分」ぴょ
+ShowTextBox "「Black Gema Gang Last Day of Winter」, pyo!"
+EndScript
+
+
+
+Subscript 199
+SetBG 97
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 200
+# 「BG団バレンタイン」ぴょ
+ShowTextBox "「Black Gema Gang Valentine's Day」, pyo!"
+EndScript
+
+
+
+Subscript 201
+SetBG 98
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 202
+# 「BG団甘酒」ぴょ
+ShowTextBox "「Black Gema Gang New Year's Eve」, pyo!"
+EndScript
+
+
+
+Subscript 203
+SetBG 99
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 204
+# 「BG団ホワイトデー」ぴょ
+ShowTextBox "「Black Gema Gang White Day」, pyo!"
+EndScript
+
+
+
+Subscript 205
+SetBG 100
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 206
+# 「BG団決算」ぴょ
+ShowTextBox "「Black Gema Gang Final Report」, pyo!"
+EndScript
+
+
+
+Subscript 207
+SetBG 101
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 208
+# 「マスターPKO」ぴょ
+ShowTextBox "「Master PKO」, pyo!"
+EndScript
+
+
+
+Subscript 209
+SetBG 102
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 210
+# 「レジマスター・ぴよこ」ぴょ
+ShowTextBox "「Register Master ・ Piyoko」, pyo!"
+EndScript
+
+
+
+Subscript 211
+SetBG 103
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 212
+# 「グッズマスター・ぴよこ」ぴょ
+ShowTextBox "「Stocking Master ・ Piyoko」, pyo!"
+EndScript
+
+
+
+Subscript 213
+SetBG 104
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 214
+# 「掃除マスター・ぴよこ」ぴょ
+ShowTextBox "「Cleaning Master ・ Piyoko」, pyo!"
+EndScript
+
+
+
+Subscript 215
+SetBG 105
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 216
+# 「接客マスター・ぴよこ」ぴょ
+ShowTextBox "「Service Master ・ Piyoko」, pyo!"
+EndScript
+
+
+
+Subscript 217
+SetBG 106
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 218
+# 「接客マスター・でじこ」ぴょ
+ShowTextBox "「Service Master ・ Dejiko」, pyo!"
+EndScript
+
+
+
+Subscript 219
+SetBG 107
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 220
+# 「接客マスター・うさだ」ぴょ
+ShowTextBox "「Service Master ・ Usada」, pyo!"
+EndScript
+
+
+
+Subscript 221
+SetBG 108
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 222
+# 「接客マスター・ぷちこ」ぴょ
+ShowTextBox "「Service Master ・ Puchiko」, pyo!"
+EndScript
+
+
+
+Subscript 223
+SetBG 109
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 224
+# 「110」ぴょ
+ShowTextBox "「110」, pyo!"
+EndScript
+
+
+
+Subscript 225
+SetBG 110
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 226
+# 「ゲーマーズ店内背景」ぴょ
+ShowTextBox "「Gamers Store Interior」, pyo!"
+EndScript
+
+
+
+Subscript 227
+SetBG 111
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 228
+# 「ブラックゲーマーズ店内背景」ぴょ
+ShowTextBox "「Black Gema Gang Store Interior」, pyo!"
+EndScript
+
+
+
+Subscript 229
+SetBG 112
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 230
+# 「秋葉原路上」ぴょ
+ShowTextBox "「Akihabara Street」, pyo!"
+EndScript
+
+
+
+Subscript 231
+SetBG 113
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 232
+# 「秋葉原路上・夜」ぴょ
+ShowTextBox "「Akihabara Street ・ Night」, pyo!"
+EndScript
+
+
+
+Subscript 233
+SetBG 114
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 234
+# 「秋葉原路上の降雪バージョン」ぴょ
+ShowTextBox "「Akihabara Street ・ Snowy」, pyo!"
+EndScript
+
+
+
+Subscript 235
+SetBG 115
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 236
+# 「宿屋の室内」ぴょ
+ShowTextBox "「Inn-terior」, pyo!"
+EndScript
+
+
+
+Subscript 237
+SetBG 116
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 238
+# 「春の野原」ぴょ
+ShowTextBox "「Spring Fields」, pyo!"
+EndScript
+
+
+
+Subscript 239
+SetBG 117
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 240
+# 「海の背景」ぴょ
+ShowTextBox "「Ocean View」, pyo!"
+EndScript
+
+
+
+Subscript 241
+SetBG 118
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 242
+# 「正月の背景」ぴょ
+ShowTextBox "「New Year's Scenery」, pyo!"
+EndScript
+
+
+
+Subscript 243
+SetBG 119
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 244
+EndScript

@@ -1,0 +1,504 @@
+DSCBase $4030B0
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 5 1 36
+# わたくしはペット
+# がよいと思う
+# そうだな種類は…
+ShowTextBox "I thought it\nmight be nice to\ngive her a pet.\nAs for what\nspecies..."
+WaitTextBox
+# イヌ…それともネ
+# コ？いや、もっと
+# 愛らしく…ハムス
+# ターとかフェレッ
+# トとか…
+ShowTextBox "A dog... or\nperhaps a cat?\nNo, something\nfluffy is best.\nA hamster, or\na ferret..."
+WaitTextBox
+# 意表をついて、イ
+# グアナというのは
+# どうだろうか…？
+ShowTextBox "Maybe something\nunexpected? I\nwonder how she\nwould feel about\nan iguana...?"
+WaitTextBox
+ShowChara 6 2 41
+# 自分はピョコラ様
+# の歯の健康を考え
+# 最高級の歯みがき
+# セットをプレゼン
+# トしたいと思いま
+# す
+ShowTextBox "Lady Pyokora's\ndental health is\nof the utmost\npriority. I\nrecommend a\nnew toothbrush."
+WaitTextBox
+# ピョコラ様の歯ぐ
+# きを傷つけないよ
+# う、毛はやわらか
+# めで、ひとつひと
+# つ毛先を丸くカッ
+# トして…
+ShowTextBox "This is cutting\nedge technology!\nThe soft, hand\ncut fibers, the\nlight carbon\nfiber base..."
+WaitTextBox
+ShowChara 7 2 52
+# えーっと、俺は何
+# にしようかなぁ…
+ShowTextBox "Man...\nI've got no\nidea what to\nget Piyoko for\nher birthday."
+WaitTextBox
+ShowChara 7 0 48
+# ところで予算はど
+# のくらいなんだ？
+ShowTextBox "How much spare\ncash have\nwe got?"
+WaitTextBox
+ShowChara 6 2 43
+# うっ、聞いてはい
+# けないことを…
+ShowTextBox "Urk...\nThat's not\nthe kind of\nnumber I\nwanted to\nhear..."
+WaitTextBox
+ShowChara 5 1 37
+# 我々ブラックゲマ
+# ゲマ団は、あいか
+# わらず貧乏ぐらし
+# …
+ShowTextBox "The Black Gema\nGema Gang has\nendured some\n'financial\ndifficulties'\nlately."
+WaitTextBox
+ShowChara 6 2 42
+# はっきり言ってし
+# まうと、予算はな
+# いのです！
+ShowTextBox "To put it\nplainly, we\nare flat broke!"
+WaitTextBox
+ShowChara 7 2 50
+# プレゼントが買え
+# ないんじゃ、いく
+# ら相談したってム
+# ダじゃん！
+ShowTextBox "There's no point\ntalking about\npresents if we\ncan't even\nscrape a few\nbucks together!"
+WaitTextBox
+ShowChara 5 1 37
+# ううっ、もうしわ
+# けありません、ピ
+# ョコラ様っ！かく
+# なる上は、このリ
+# クが命にかえても
+# …
+ShowTextBox "Ahh...\nForgive us,\nLady Pyokora!\nI'll just have\nto sell another\norgan or two..."
+WaitTextBox
+ShowChara 6 2 43
+# リ、リク元帥、落
+# ち着いてください
+# っ！
+ShowTextBox "C-Calm down,\nRik! It hasn't\ncome to that\nyet!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 5 1 39
+# というような事情
+# なのだ、店長
+ShowTextBox "... Anyway.\nThat is the\nsituation\nwe face at\npresent,\nManager."
+WaitTextBox
+ShowChara 6 2 40
+# お願いします、店
+# 長…どうか自分た
+# ちにプレゼントを
+# 買うお金をめぐん
+# でください！
+ShowTextBox "Please!\nLoan us the\nmoney to buy\nLady Pyokora\na birthday\ngift!"
+WaitTextBox
+ShowChara 7 2 47
+# 頼むよ、店長！俺
+# たちのためじゃな
+# くて、ぴよこのた
+# めなんだー！
+ShowTextBox "It's not for\nour sake! Think\nof how Piyoko\nwill feel if\nnobody gets her\na present!"
+WaitTextBox
+ShowChara 5 1 35
+# この通りだ、お願
+# いする！
+ShowTextBox "Please! We'll\ndo anything!"
+WaitTextBox
+ShowChara 6 2 40
+# 肩を叩けというな
+# ら、叩きます！
+ShowTextBox "If there's a\nback that needs\nrubbing, we'll\nrub it!"
+WaitTextBox
+ShowChara 7 2 47
+# 足をもめというな
+# ら、もむよ！
+ShowTextBox "If there are\nfeet that need\nmassaging, we'll\nmassage them!"
+WaitTextBox
+ShowChara 12 1 60
+# わ、我々からもお
+# 願いするゲバ～！
+# どうか、首領の誕
+# 生日プレゼントを
+# 買うお金を～！
+ShowTextBox "Please, geba!!\nGive us the\nmoney for the\nboss's birthday\npresent, geba!!"
+WaitTextBox
+# ＯＫする
+# ことわる
+ShowSelMenu09 2 "!OK!\nI refuse."
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 5 1 36
+# ありがとう、店長
+# っ！恩に切る！
+ShowTextBox "Thank you,\nManager! We owe\nyou our lives!"
+WaitTextBox
+ShowChara 6 2 41
+# やった、これでな
+# んとかなるぞ
+ShowTextBox "Woohoo! Now we\nshould be able\nto figure\nsomething out!"
+WaitTextBox
+ShowChara 7 2 48
+# で、プレゼントは
+# 何にするんだ？
+ShowTextBox "So, what should\nwe buy her?"
+WaitTextBox
+ShowChara 5 1 36
+# 当然、かわいいペ
+# ットだ！
+ShowTextBox "A cute pet, of\ncourse!"
+WaitTextBox
+ShowChara 6 2 41
+# いや、歯みがきセ
+# ットです！
+ShowTextBox "It's already\nbeen decided.\nNothing but a\ntoothbrush\nwill do."
+WaitTextBox
+ShowChara 7 2 50
+# 俺にも意見を言わ
+# せろよ！
+ShowTextBox "Hey, I wanna\nput in an\nidea too!"
+WaitTextBox
+ShowChara 5 1 38
+# ペット！
+ShowTextBox "Pet!"
+WaitTextBox
+ShowChara 6 2 42
+# 歯みがき！
+ShowTextBox "Toothbrush!"
+WaitTextBox
+ShowChara 7 2 50
+# え－と、えーと…
+ShowTextBox "I think it\nshould be a...\nUhhh...\nHmm..."
+WaitTextBox
+ShowChara 12 1 60
+# しゅ、収集がつか
+# なくなってきたゲ
+# バ…
+ShowTextBox "They'll be at\nthis for\nhours, geba."
+WaitTextBox
+ShowChara 5 1 39
+# 店長、すまないが
+# 話し合いが長引き
+# そうだ…また後に
+# してくれ！
+ShowTextBox "I apologize,\nManager, but it\nappears this\ndiscussion may\ntake some time.\nThank you!"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 5 1 37
+# て、店長！そこを
+# なんとかお願いで
+# きないか？
+ShowTextBox "M-Manager! You\ntruly cannot\nspare us any\nmoney?"
+WaitTextBox
+ShowChara 6 2 43
+# ほんの少しでいい
+# んです！
+ShowTextBox "Even the\ntiniest amount\nwould do!"
+WaitTextBox
+ShowChara 7 2 49
+# ひどいぜ店長、そ
+# んなに俺たちのこ
+# とキライなのかよ
+# ～っ！
+ShowTextBox "I can't believe\nyou, Manager!\nYou're just\nsending us out\nthere to DIE!"
+WaitTextBox
+ShowChara 5 1 35
+# …いや、しかし、
+# これでよかったの
+# かもしれない
+ShowTextBox "... Well,\nperhaps this is\nfor the best."
+WaitTextBox
+ShowChara 7 2 50
+# なんでだよー！
+ShowTextBox "What do\nyou mean!?"
+WaitTextBox
+ShowChara 5 1 39
+# 店長はこの店の店
+# 長なのだ…責任あ
+# る立場なのだ
+ShowTextBox "The Manager must\nconsider the\nstore finances,\nafter all. It's\na position of\nresponsibility."
+WaitTextBox
+# おそらく、店長は
+# 責任者として、公
+# 私混同はできない
+# と判断したのだろ
+# う…それはそれで
+# 立派ではないか！
+ShowTextBox "They made the\ndifficult\ndecision to keep\nprivate affairs\nseparate. That\nis admirable!"
+WaitTextBox
+ShowChara 6 2 40
+# 店長はそんなこと
+# を…
+ShowTextBox "I never thought\nabout it like\nthat."
+WaitTextBox
+ShowChara 7 2 49
+# でも、やっぱり冷
+# たいぜ、店長～！
+ShowTextBox "... But, still.\nCome on,\nManager!\nCan't you bend\nthe rules just\nthis once!?"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 4 127 93 8 108 10 3
+SetBG 112
+Fade 0 30
+ShowChara 4 1 31
+# なんだか今日はお
+# かしいぴょ
+ShowTextBox "Something\nweird's going\non today, pyo."
+WaitTextBox
+# 今日は、なんだか
+# みんながぴよこを
+# さけてるような気
+# がするぴょ
+ShowTextBox "I feel like\neveryone's been\navoiding me,\npyo."
+WaitTextBox
+ShowChara 4 0 29
+# あ、店長さん、お
+# はようぴょ！今日
+# もお元気そうでな
+# によりぴょ
+ShowTextBox "Oh!\nGood morning,\nManager! How\nare you, pyo?"
+WaitTextBox
+ShowChara 4 0 31
+# そうだ、ちょっと
+# ぴよこの話を聞く
+# ぴょ　なんだか知
+# らないけど、今日
+# はみんながぴよこ
+# に冷たくするぴょ
+ShowTextBox "By the way,\ndo you know why\nthe gang's been\nrunning away\nwhenever they\nsee me, pyo?"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 6 2 43
+# ああ、なんてこと
+# だ…結局、プレゼ
+# ントを何にするか
+# 決まらなかったな
+# んて…
+ShowTextBox "... What a mess.\nWe spent so\nlong arguing,\nwe were not able\nto purchase\nanything..."
+WaitTextBox
+ShowChara 5 1 37
+# もうしわけなくて
+# ピョコラ様の前に
+# 立てん…
+ShowTextBox "I can't show\nmyself before\nLady Pyokora\nlike this.\nI'm a disgrace!"
+WaitTextBox
+ShowChara 7 2 49
+# 店長、俺たちのこ
+# と、怒ってるのか
+# なぁ…
+ShowTextBox "I hope the\nManager isn't\nmad at us,\ntoo.."
+WaitTextBox
+ShowChara 6 2 44
+# あっ、あれを見て
+# ください！
+ShowTextBox "Look!\nOver there!"
+WaitTextBox
+ShowChara 5 1 57
+# 店長がピョコラ様
+# に包みを手渡して
+# いる…？
+ShowTextBox "The Manager\njust handed a\npackage to Lady\nPyokora!"
+WaitTextBox
+ShowChara 7 2 58
+# あれって…もしか
+# すると、誕生日プ
+# レゼントなのか？
+ShowTextBox "Could that have\nbeen... A\nbirthday\npresent!?"
+WaitTextBox
+Fade 3 30
+SetBG 70
+Fade 2 30
+ShowChara 4 0 0
+# ハッピーバースデー、
+# ディア、ピョコラ～♪
+ShowTextBox "...\nHappy birthday\ndear Pyokora.. ♪"
+WaitTextBox
+# ハッピーバースデー、
+# トゥユー♪
+ShowTextBox "Happy birthday\nto you! ♪"
+WaitTextBox
+# って、思わず自分で歌
+# ってしまったぴょ！
+ShowTextBox "Hehe, I guess\nI'm not supposed\nto sing myself,\npyo."
+WaitTextBox
+# ありがとう店長さん、
+# 感激ぴょ！
+ShowTextBox "Thank you,\nManager! I'm so\nhappy, pyo!"
+WaitTextBox
+# 誕生日プレゼント、あ
+# りがたくうけとらせて
+# もらうぴょっ！
+ShowTextBox "I accept this\nbirthday present\nwith the utmost\ngratitude, pyo!"
+WaitTextBox
+Fade 1 30
+SetBG 112
+Fade 0 30
+ShowChara 4 1 31
+# それに比べ、あい
+# つらときたら、不
+# 人情ぴょっ！見損
+# なったぴょっ！
+ShowTextBox "On the other\nhand, those louts\nbetter hope they\nkeep out of my\nsight! They're\nheartless, pyo!"
+WaitTextBox
+ShowChara 4 0 28
+# ぴょっ？…それは
+# 違うって、店長さ
+# ん、いったいどう
+# いうことぴょ？
+ShowTextBox "Pyo? What do\nyou mean, I've\ngot the wrong\nidea?"
+WaitTextBox
+# ふむふむ…
+ShowTextBox "Hmm..."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 5 1 35
+# なにやら、ピョコ
+# ラ様と店長が、話
+# し合っているよう
+# だ
+ShowTextBox "It appears that\nLady Pyokora and\nthe Manager are\ndiscussing\nsomething..."
+WaitTextBox
+ShowChara 6 1 45
+# 何を話しているん
+# でしょう…
+ShowTextBox "I wonder what\nthey could be\ntalking about."
+WaitTextBox
+ShowChara 7 1 58
+# あっ、ぴよこがこ
+# っちに来る！
+ShowTextBox "Uh oh!\nPiyoko's coming\nthis way!"
+WaitTextBox
+ShowChara 5 1 57
+# こっ、心の準備が
+# まだ…
+ShowTextBox "I'm not ready...\nMy heart cannot\nbear the shame..!"
+WaitTextBox
+ShowChara 6 1 44
+# ピョコラ様がいら
+# した！
+ShowTextBox "She's here!"
+WaitTextBox
+ShowChara 4 2 31
+# お前たち！
+ShowTextBox "You lot!"
+WaitTextBox
+ShowChara 5 1 57
+# はっ、はいっ！
+ShowTextBox "Y-Yes, ma'am!"
+WaitTextBox
+ShowChara 4 2 31
+# 話はすっかり店長
+# さんから聞かせて
+# もらったぴょ！
+ShowTextBox "You can't hide\nfrom me now! I\nheard the whole\nstory from the\nManager, pyo!"
+WaitTextBox
+ShowChara 6 1 45
+# す、すみません、
+# ピョコラ様！
+ShowTextBox "P-Please\nforgive us,\nmy lady!"
+WaitTextBox
+ShowChara 7 1 49
+# お、俺は悪くない
+# ぞ…
+ShowTextBox "It wasn't my\nfault!"
+WaitTextBox
+ShowChara 4 2 28
+# 何をわけの分から
+# ないこと言ってる
+# ぴょ？
+ShowTextBox "What are you\ntalking about?\nI came here to\napologize to\nyou, pyo!"
+WaitTextBox
+ShowChara 5 1 35
+# …は？
+ShowTextBox "... Huh?"
+WaitTextBox
+ShowChara 4 2 29
+# ぴよこの誕生日を
+# 祝うため、ない金
+# を出し合ってプレ
+# ゼントを買ったと
+# 店長さんが言って
+# たぴょ
+ShowTextBox "Despite the\ngang's pockets\nbeing totally\nempty, you\npooled up money\nto buy a gift."
+WaitTextBox
+# はっきり言って、
+# ぴよこは感激した
+# ぴょ
+ShowTextBox "I didn't expect\nyou all would\ngo that far!\nI really\nappreciate it,\npyo!"
+WaitTextBox
+ShowChara 4 0 34
+# そんなお前たちの
+# 気も知らず、ぴよ
+# こはお前たちが不
+# 人情だと店長さん
+# にグチをこぼした
+# ぴょ
+ShowTextBox "I thought you\nall hadn't got\nme anything, and\ncalled you\nheartless to the\nManager..."
+WaitTextBox
+# すまないことした
+# ぴょ
+ShowTextBox "So, I'm sorry,\npyo."
+WaitTextBox
+ShowChara 5 1 36
+# 我々には、もった
+# いないお言葉です
+# …ピョコラ様
+ShowTextBox "... We don't\ndeserve your\napology, Lady\nPyokora."
+WaitTextBox
+ShowChara 6 1 41
+# 遅れましたが、ピ
+# ョコラ様、お誕生
+# 日おめでとうござ
+# います
+ShowTextBox "Happy birthday!\nI apologize for\nthe delay."
+WaitTextBox
+ShowChara 7 1 48
+# ぴよこ、おめでと
+# う～！
+ShowTextBox "Happy birthday,\nPiyoko!"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょぴょ、ありが
+# とうぴょ～！
+ShowTextBox "Thank you,\npyo!"
+WaitTextBox
+ShowChara 5 1 36
+# （店長、我々を気
+# づかってくれて…
+# ……ありがとう）
+ShowTextBox "(Manager...\nWe owe you our\nlives. Thank\nyou so much...)"
+WaitTextBox
+ShowChara 6 1 41
+# （助かりました、
+# 店長！）
+ShowTextBox "(I was afraid\nthis was the\nend. Thank you,\nManager!)"
+WaitTextBox
+ShowChara 7 1 48
+# （サンキュー、店
+# 長！）
+ShowTextBox "(Thanks,\nManager!)"
+WaitTextBox
+EndScript

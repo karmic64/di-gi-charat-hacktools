@@ -1,0 +1,331 @@
+DSCBase $408D38
+
+
+
+### Prefill data: $80
+Subscript 0
+ShowChara 4 4 29
+# $2をさらって、でじこお姉ちゃんの代りに身代金をたくさんとるぴょ！
+ShowTextBox "!!! 408D38 0"
+Wait 60
+EndScript
+
+
+### Prefill data: $81
+Subscript 1
+ShowChara 4 4 30
+# ぴよこ、$2きらいぴょ～
+ShowTextBox "I HATE $2, pyo!"
+Wait 60
+EndScript
+
+
+### Prefill data: $82
+Subscript 2
+ShowChara 4 4 31
+# $2を飲むと骨がとけるって、近所のおばあちゃんが言ってたぴょ！
+ShowTextBox "A lady in the neighborhood told me that drinking $2 will dissolve your bones, pyo!"
+Wait 60
+EndScript
+
+
+### Prefill data: $83
+Subscript 3
+ShowChara 4 4 29
+# この前リクが怪我したノラ$2を手当てしてあげてたぴょ
+ShowTextBox "!!! 408D38 3"
+Wait 60
+EndScript
+
+
+### Prefill data: $84
+Subscript 4
+ShowChara 4 4 30
+# $2は食べられないぴょ？
+ShowTextBox "Can you eat $2, pyo?"
+Wait 60
+EndScript
+
+
+### Prefill data: $85
+Subscript 5
+ShowChara 4 4 29
+# $2の路地裏には野生のネギが生えてるぴょ
+ShowTextBox "There are wild onions growing in the back streets of $2, pyo."
+Wait 60
+EndScript
+
+
+### Prefill data: $86
+Subscript 6
+ShowChara 4 4 30
+# $2に遊びに行ってみたいぴょ～
+ShowTextBox "I want to go to $2, pyo~"
+Wait 60
+EndScript
+
+
+### Prefill data: $87
+Subscript 7
+ShowChara 4 4 30
+# 今日も$2明日も$2…
+# たまにはおやすみほしいぴょ～
+ShowTextBox "Today, $2... Tomorrow, $2...\nI want a break, pyo~"
+Wait 60
+EndScript
+
+
+### Prefill data: $88
+Subscript 8
+ShowChara 4 4 29
+# 『$2』昨日見たぴょ
+# おもしろかったぴょ
+ShowTextBox "I saw \"$2\" yesterday, pyo.\nIt was pretty good, pyo."
+Wait 60
+EndScript
+
+
+### Prefill data: $89
+Subscript 9
+ShowChara 4 4 29
+# なぜか病院の待合い室に、『$2』よく置いてあるぴょ
+# なぜぴょ？
+ShowTextBox "There are always a lot of $2 in the waiting room of the hospital, pyo.\nWhy do they do that?"
+Wait 60
+EndScript
+
+
+### Prefill data: $8A
+Subscript 10
+ShowChara 4 4 29
+# $2で、でじこお姉ちゃんをピューッとさらってくるぴょ！
+ShowTextBox "Dejiko just zoomed by riding a $2, pyo!"
+Wait 60
+EndScript
+
+
+### Prefill data: $8B
+Subscript 11
+ShowChara 4 4 29
+# $2、$2、たのしいぴょ～
+ShowTextBox "!!! 408D38 11"
+Wait 60
+EndScript
+
+
+### Prefill data: $80
+Subscript 12
+ShowChara 4 4 29
+# ぴよこも$2さんを見習ってがんばるぴょ
+ShowTextBox "I'm going to apprentice under $2 too, pyo."
+Wait 60
+EndScript
+
+
+### Prefill data: $81
+Subscript 13
+ShowChara 4 4 29
+# ぴょぴょ、ごはんが無ければ、$2を食べればいいぴょ～
+ShowTextBox "If there's nothing for breakfast, eating $2 can be good too, pyo~"
+Wait 60
+EndScript
+
+
+### Prefill data: $82
+Subscript 14
+ShowChara 4 4 29
+# $2ってちょっぴり大人の味ぴょ？
+ShowTextBox "$2 has a slightly mature taste to it, don't you think, pyo?"
+Wait 60
+EndScript
+
+
+### Prefill data: $83
+Subscript 15
+ShowChara 4 4 29
+# 動物ビスケットで、$2が出るとちょっとハッピーぴょ
+ShowTextBox "I found a $2 in my animal cookies, pyo!"
+Wait 60
+EndScript
+
+
+### Prefill data: $84
+Subscript 16
+ShowChara 4 4 30
+# お水あげるの忘れて、$2枯れちゃったぴょ～
+ShowTextBox "If you forget to water it, $2 will wither, pyo."
+Wait 60
+EndScript
+
+
+### Prefill data: $85
+Subscript 17
+ShowChara 4 4 30
+# この前$2で、迷子になったぴょ
+ShowTextBox "I got lost in $2 once, pyo."
+Wait 60
+EndScript
+
+
+### Prefill data: $86
+Subscript 18
+ShowChara 4 4 28
+# $2にお店開くと、お金もうかるぴょ？
+ShowTextBox "Do you think opening a shop in $2 would be profitable, pyo?"
+Wait 60
+EndScript
+
+
+### Prefill data: $87
+Subscript 19
+ShowChara 4 4 29
+# 今、リクとカイとクウが、ぴよこの代りに$2をやってるぴょ
+ShowTextBox "Don't worry about the $2, pyo. Rik, Ky, and Coo are doing it for me, pyo."
+Wait 60
+EndScript
+
+
+### Prefill data: $88
+Subscript 20
+ShowChara 4 4 29
+# 『$2』を乗っ取って、お店の宣伝をするぴょ
+ShowTextBox "If we take control of \"$2\", we can use it to advertise the shop, pyo!"
+Wait 60
+EndScript
+
+
+### Prefill data: $89
+Subscript 21
+ShowChara 4 4 29
+# ぴよこも毎週『$2』読んでるぴょ
+ShowTextBox "I read \"$2\" every week too, pyo!"
+Wait 60
+EndScript
+
+
+### Prefill data: $8A
+Subscript 22
+ShowChara 4 4 29
+# クウは$2が大好きなんだぴょ～
+ShowTextBox "I don't really get why Coo loves $2 so much, pyo~"
+Wait 60
+EndScript
+
+
+### Prefill data: $8B
+Subscript 23
+ShowChara 4 4 29
+# あとでみんなで$2やるぴょ
+ShowTextBox "Let's all do $2 later, pyo."
+Wait 60
+EndScript
+
+
+### Prefill data: $80
+Subscript 24
+ShowChara 4 4 29
+# $2さんはぴよこの心の師匠ぴょ
+ShowTextBox "$2 is my mentor, pyo."
+Wait 60
+EndScript
+
+
+### Prefill data: $81
+Subscript 25
+ShowChara 4 4 30
+# $2を食べたら歯をみがかないと、カイがすごく怒るぴょ
+ShowTextBox "If I eat $2 and forget to brush my teeth after, Ky gets really mad at me, pyo."
+Wait 60
+EndScript
+
+
+### Prefill data: $82
+Subscript 26
+ShowChara 4 4 31
+# $2の一気飲みはアブナイぴょ！
+ShowTextBox "!!! 408D38 26"
+Wait 60
+EndScript
+
+
+### Prefill data: $83
+Subscript 27
+ShowChara 4 4 29
+# ぴよこ、$2好きぴょ
+# 意外だぴょ？
+ShowTextBox "!!! 408D38 27"
+Wait 60
+EndScript
+
+
+### Prefill data: $84
+Subscript 28
+ShowChara 4 4 29
+# $2茶はちょっと変わった味がするぴょ
+ShowTextBox "!!! 408D38 28"
+Wait 60
+EndScript
+
+
+### Prefill data: $85
+Subscript 29
+ShowChara 4 4 29
+# $2名産$2まんじゅう、おいしいぴょ
+ShowTextBox "!!! 408D38 29"
+Wait 60
+EndScript
+
+
+### Prefill data: $86
+Subscript 30
+ShowChara 4 4 34
+# $2にいると、ついつい時間を忘れちゃうぴょ
+ShowTextBox "!!! 408D38 30"
+Wait 60
+EndScript
+
+
+### Prefill data: $87
+Subscript 31
+ShowChara 4 4 30
+# あ、まだ$2やってなかったぴょ
+# しりとり終わったらやるぴょ
+ShowTextBox "!!! 408D38 31"
+Wait 60
+EndScript
+
+
+### Prefill data: $88
+Subscript 32
+ShowChara 4 4 29
+# さっき『$2』のロケ、見たぴょ
+ShowTextBox "!!! 408D38 32"
+Wait 60
+EndScript
+
+
+### Prefill data: $89
+Subscript 33
+ShowChara 4 4 30
+# ぴよこ『$2』を読んで、とても感動したぴょ～
+ShowTextBox "!!! 408D38 33"
+Wait 60
+EndScript
+
+
+### Prefill data: $8A
+Subscript 34
+ShowChara 4 4 31
+# $2は音がうるさいぴょ！
+ShowTextBox "!!! 408D38 34"
+Wait 60
+EndScript
+
+
+### Prefill data: $8B
+Subscript 35
+ShowChara 4 4 30
+# $2…$2だけは、ぴよこ苦手ぴょ
+ShowTextBox "!!! 408D38 35"
+Wait 60
+EndScript

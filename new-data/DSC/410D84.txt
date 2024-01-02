@@ -1,0 +1,150 @@
+DSCBase $410D84
+
+
+
+
+Subscript 0
+ShowChara 1 1 12
+# １ヶ月のあいだ
+# \x01$0\x1aが全部売れなかったにょ…
+ShowTextBox "We have \x01$0\x1a that haven't sold in a month, nyo..."
+WaitTextBox
+ShowChara 1 0 14
+# 売れ残ったグッズ
+# は\x01半額でたたき売るにょ\x1a
+ShowTextBox "The leftover stock will have to go on sale for \x01Half off\x1a, nyo."
+WaitTextBox
+ShowChara 1 0 10
+# にょにょ！！
+# お客さんがたくさ
+# ん来るにょー！
+ShowTextBox "Nyo, nyo! The customers are flooding in, nyo!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 1
+ShowChara 1 1 8
+# $0が全部売れたにょ
+ShowTextBox "$0 finally sold out, nyo."
+WaitTextBox
+ShowChara 1 0 12
+# たたき売ったせい
+# で\x01$1円\x1aそんしたにょ…
+ShowTextBox "Because of the discount, we lost \x01$1 yen\x1a, nyo..."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 2 1 25
+# １ヶ月のあいだ
+# \x01$0\x1aが全部売れなかったわ…
+ShowTextBox "We have \x01$0\x1a that haven't sold in a month..."
+WaitTextBox
+ShowChara 2 0 55
+# 売れ残ったグッズ
+# は\x01半額でたたき売るわね\x1a
+ShowTextBox "The leftover stock will have to go on sale for \x01Half off\x1a."
+WaitTextBox
+ShowChara 2 0 23
+# わあ！！
+# お客さんがたくさ
+# ん来るわー！
+ShowTextBox "Woah! The customers are flooding in!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 3
+ShowChara 2 1 22
+# $0が全部売れたわ
+ShowTextBox "$0 finally sold out."
+WaitTextBox
+ShowChara 2 0 25
+# たたき売ったせい
+# で\x01$1円\x1aそんしちゃったわ…
+ShowTextBox "Because of the discount, we lost \x01$1 yen\x1a..."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 4
+ShowChara 3 1 20
+# １ヶ月のあいだ
+# \x01$0\x1aが全部売れなかったにゅ…
+ShowTextBox "We have \x01$0\x1a that haven't sold in a month, nyu..."
+WaitTextBox
+ShowChara 3 0 21
+# 売れ残ったグッズ
+# は\x01半額でたたき売るにゅ\x1a
+ShowTextBox "The leftover stock will have to go on sale for \x01Half off\x1a, nyu."
+WaitTextBox
+ShowChara 3 0 18
+# にゅ…
+# お客さんがたくさ
+# ん来るにゅ
+ShowTextBox "Nyu... The customers are flooding in, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 5
+ShowChara 3 1 17
+# $0が全部売れたにゅ
+ShowTextBox "$0 finally sold out, nyu."
+WaitTextBox
+ShowChara 3 0 20
+# たたき売ったせい
+# で\x01$1円\x1aそんしたにゅ
+ShowTextBox "Because of the discount, we lost \x01$1 yen\x1a, nyu."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 6
+ShowChara 4 1 30
+# １ヶ月のあいだ
+# \x01$0\x1aが全部売れなかったぴょ…
+ShowTextBox "We have \x01$0\x1a that haven't sold in a month, pyo..."
+WaitTextBox
+ShowChara 4 0 31
+# 売れ残ったグッズ
+# は\x01半額でたたき売るぴょ\x1a
+ShowTextBox "The leftover stock will have to go on sale for \x01Half off\x1a, pyo."
+WaitTextBox
+ShowChara 4 0 29
+# ぴょぴょ！！
+# お客さんがたくさ
+# ん来るぴょ！
+ShowTextBox "Pyo, pyo! The customers are flooding in, pyo!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 7
+ShowChara 4 1 28
+# $0が全部売れたぴょ
+ShowTextBox "$0 finally sold out, pyo."
+WaitTextBox
+ShowChara 4 0 30
+# たたき売ったせい
+# で\x01$1円\x1aそんしたぴょ…
+ShowTextBox "Because of the discount, we lost \x01$1 yen\x1a, pyo..."
+WaitTextBox
+HideChara
+EndScript

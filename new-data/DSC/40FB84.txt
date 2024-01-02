@@ -1,0 +1,156 @@
+DSCBase $40FB84
+
+
+
+
+Subscript 0
+ShowChara 3 0 18
+# $0、がんばったにゅ
+# 来週もまかせるにゅ
+ShowTextBox "I did really well at $0 this week, nyu.\nNext week I'll do even better, nyu."
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 3 0 17
+# $0、ふつうにゅ
+ShowTextBox "I did an average job at $0 this week, nyu.\nI'll do my best next week, nyu!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 3 0 20
+# …$0、うまくいかなかったにゅ
+# 来週をみるにゅ…
+ShowTextBox "I didn't do very well at $0 this week, nyu...\nI'll try harder next week, nyu..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 3 0 21
+# …\x01$0\x1aはもう十分やったにゅ
+# \x03$1\x1aがやりたいにゅ
+ShowTextBox "... I'm done doing \x01$0\x1a, nyu.\nLet me do \x03$1\x1a instead, nyu."
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 3 0 18
+PlaySfx 151
+PlaySfx 18
+# $0、レベルアップにゅ
+# \x03$1\x1aにゅ
+ShowTextBox "I leveled up at $0, nyu.\nI'm now level \x03$1\x1a, nyu."
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 3 0 18
+PlaySfx 151
+PlaySfx 18
+# $0、レベルアップにゅ
+# …
+ShowTextBox "I leveled up at $0, nyu.\nI'm now..."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 6
+SetBG 63
+Unk08 3 8 103 100 16 10 3
+Fade 0 30
+ShowChara 3 0 0
+# \x03レジマスター\x1aにゅ
+ShowTextBox "a \x03Checkout Master\x1a, nyu."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 7
+SetBG 109
+Unk08 3 176 96 102 116 10 2
+Fade 0 30
+ShowChara 3 0 0
+# \x03接客マスター\x1aにゅ
+ShowTextBox "a \x03Service Master\x1a, nyu."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 8
+SetBG 64
+Unk08 3 109 59 100 92 10 2
+Fade 0 30
+ShowChara 3 0 0
+# \x03グッズマスター\x1aにゅ
+ShowTextBox "a \x03Stocking Master\x1a, nyu."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 9
+SetBG 65
+Unk08 3 115 55 100 92 10 2
+Fade 0 30
+ShowChara 3 0 0
+# \x03掃除マスター\x1aにゅ
+ShowTextBox "a \x03Cleaning Master\x1a, nyu."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 10
+SetBG 111
+Fade 2 30
+ShowChara 3 0 18
+PlaySfx 151
+PlaySfx 18
+# 手伝ってくれてありがとうにゅ
+# \x03おかげでお仕事レベルがあがったにゅ\x1a
+ShowTextBox "Thanks for your help, nyu. I was able to \x03level up\x1a, nyu."
+WaitTextBox
+# 今後ともよろしく
+# にゅ
+ShowTextBox "I'll let you know if I need help again, nyu."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 11
+SetBG 111
+Fade 0 30
+ShowChara 3 0 20
+# せっかく手伝って
+# くれたのに、うま
+# くいかなかったに
+# ゅ…
+ShowTextBox "Even with your help, it didn't go well, nyu..."
+WaitTextBox
+ShowChara 3 0 17
+# 次はがんばるにゅ
+ShowTextBox "I'll try harder next time, nyu."
+WaitTextBox
+Fade 1 30
+EndScript

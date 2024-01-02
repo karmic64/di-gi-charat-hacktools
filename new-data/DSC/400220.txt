@@ -1,0 +1,308 @@
+DSCBase $400220
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 31
+# む～～っ…
+ShowTextBox "Hmph..."
+WaitTextBox
+ShowChara 5 2 35
+# どうしたというの
+# だろう？先日から
+# ピョコラ様が不機
+# 嫌なご様子…
+ShowTextBox "I wonder what's\nthe matter with\nLady Pyokora?\nShe's been\nsteaming since\nlast morning..."
+WaitTextBox
+ShowChara 6 2 40
+# 困ったことに、団
+# 員たちもそれが気
+# になって仕事がお
+# ろそかになってい
+# るようです…
+ShowTextBox "I would be\nremiss as her\nsubordinate to\nsimply ignore\nthe situation..."
+WaitTextBox
+ShowChara 5 2 35
+# …というわけでク
+# ウ、それとなく探
+# って欲しい
+ShowTextBox "... So, Coo,\nI leave finding\nthe cause of\nLady Pyokora's\nworries in your\nhands."
+WaitTextBox
+ShowChara 7 2 47
+# 分かった！
+ShowTextBox "Got it!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 7 2 48
+# おーい、ぴよこ！
+ShowTextBox "Hey, Piyoko!"
+WaitTextBox
+ShowChara 4 1 31
+# …何ぴょ？
+ShowTextBox "... What, pyo?"
+WaitTextBox
+ShowChara 7 2 47
+# なんでそんなに不
+# 機嫌そうにしてる
+# んだ？
+ShowTextBox "Why're you\nlooking all\nangry? Is\nsomething up?"
+WaitTextBox
+ShowChara 6 2 45
+# （ひぃーっ、まっ
+# すぐすぎる！）
+ShowTextBox "(Gah! Too\ndirect!)"
+WaitTextBox
+ShowChara 5 2 39
+# （落ち着けカイ…
+# こうなったら見守
+# るしかない！）
+ShowTextBox "(Calm yourself,\nKy... You have\nno choice but\nto stand by and\nwatch!)"
+WaitTextBox
+ShowChara 4 1 28
+# ………………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 7 2 47
+# ………………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 5 2 35
+# （とりあえず会話
+# は進んでいるよう
+# だ…）
+ShowTextBox "(Looks like\nthey're\ntalking...)"
+WaitTextBox
+ShowChara 4 1 31
+# ………………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 7 2 48
+# ………………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 6 2 40
+# （むっ、戻ってき
+# た！）
+ShowTextBox "(He's coming\nback!)"
+WaitTextBox
+ShowChara 5 2 35
+# で、クウ、ピョコ
+# ラ様は何と？
+ShowTextBox "So, Coo. What\nwas the matter?"
+WaitTextBox
+ShowChara 7 1 47
+# “毎日毎日、仕事
+# ばかりでちっとも
+# おもしろくないぴ
+# ょ～～っ！！”…
+# って言ってた
+ShowTextBox "Piyoko was\nlike, \"I'm\nsick and tired\nof nothing but\nwork all day,\npyo!\""
+WaitTextBox
+ShowChara 6 2 43
+# そんなこと言われ
+# ても、まだ一週間
+# しか経ってないん
+# だけどな…
+ShowTextBox "We've hardly\neven been here\na week..."
+WaitTextBox
+ShowChara 7 1 48
+# だから“どこか外
+# に遊びに行きたい
+# ぴょ～！”…とも
+# 言ってた！
+ShowTextBox "I said so too,\nthen she said,\n\"I wanna go\ndo something\noutside, pyo!\""
+WaitTextBox
+ShowChara 5 2 37
+# うむむ…ピョコラ
+# 様にも困ったもの
+# だ…
+ShowTextBox "Hmm... That\ncould be a\nproblem..."
+WaitTextBox
+ShowChara 6 2 40
+# しかしリク元帥、
+# ピョコラ様を助け
+# 見守るのがわれら
+# の役目…
+ShowTextBox "Marshal Rik,\nit is our duty\nas Lady\nPyokora's\nservants to\nassist her."
+WaitTextBox
+ShowChara 5 2 39
+# 店長、もうしわけ
+# ないが、ピョコラ
+# 様の願いをかなえ
+# てくれないか…？
+ShowTextBox "Manager, I\napologize, but\ncould you find\nsome way to\ngrant our Lady\nher desire?"
+WaitTextBox
+ShowChara 7 1 48
+# 俺はピクニックが
+# いいと思うな
+# 春だし！
+ShowTextBox "Since it's\nspring, I\nthink a picnic\nwould be a\ngood!"
+WaitTextBox
+ShowChara 6 2 46
+# （こいつ、ひょっ
+# としたら自分が行
+# きたいだけだった
+# り…）
+ShowTextBox "(Don't be so\nselfish,\nKuu...)"
+WaitTextBox
+# ゆるす
+# だめ！
+ShowSelMenu09 2 "!Sure!\nNo way!"
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 7 1 49
+# えーっ、いいじゃ
+# ないか、ピクニッ
+# クに行こうぜ！
+ShowTextBox "Huh? Why not?\nCome on, a\npicnic'd be fun!"
+WaitTextBox
+ShowChara 6 2 40
+# 店長にも都合があ
+# るんだ、ここはい
+# さぎよくあきらめ
+# るべきです
+ShowTextBox "If the Manager\nalready has\nplans, there's\nno sense in\nforcing the\nissue."
+WaitTextBox
+ShowChara 5 2 35
+# 仕方ない、他の策
+# を考えよう…
+ShowTextBox "I suppose we\nhave no choice\nbut to think of\na different way\nto appease\nLady Pyokora..."
+WaitTextBox
+EndScript
+Label 0
+ShowChara 7 1 47
+# よーし、善は急げ
+# だ！
+ShowTextBox "Alright! Let's\ngo see what she\nthinks!"
+WaitTextBox
+ShowChara 7 0 48
+# おーい、ぴよこ～
+# ～っ！
+ShowTextBox "Hey, Piyokooo!"
+WaitTextBox
+ShowChara 6 2 40
+# こういうときは反
+# 応が早いな…
+ShowTextBox "That was a quick\nreaction..."
+WaitTextBox
+ShowChara 5 2 35
+# では店長、準備の
+# 方、頼んだぞ
+ShowTextBox "Manager, I'll\nleave the picnic\npreparations to\nyou."
+WaitTextBox
+ShowChara 5 0 57
+# ん…準備はイヤだ
+# と？
+# 何を言うのだ店長
+# ！
+ShowTextBox "... What do you\nmean, you\ncan't? You're\nthe only one\nwho could!"
+WaitTextBox
+# 私たちは地球に来
+# たばかり！
+# ピクニックの準備
+# などできるわけが
+# ないだろう！？
+ShowTextBox "We've only just\narrived on\nEarth! How would\nwe know how to\nplan a picnic!?"
+WaitTextBox
+ShowChara 5 0 39
+# …ということで、
+# 店長、よろしくお
+# 願いする！
+ShowTextBox "So! It's up to\nyou, Manager!\nI wish you the\nbest of luck!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 117
+Fade 0 30
+ShowChara 7 1 48
+# も～りへ～
+# ゆきましょう、
+# おじょうさん～♪
+ShowTextBox "In a cabin in\na wood,\nlittle old\nman by the\nwindow stood ♪"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょっぴょ～
+# ぴょっぴょ～っ♪
+ShowTextBox "Pyo pyo pyo\nPyo pyo ♪"
+WaitTextBox
+# さーっ、どんどん
+# 行くぴょーっ！
+ShowTextBox "Let's get\ngoing, pyo!"
+WaitTextBox
+ShowChara 7 1 48
+# どんどん行くぞー
+# っ！
+ShowTextBox "Here we go!"
+WaitTextBox
+ShowChara 6 2 44
+# あっ、ピョコラ様
+# 先は長いのですか
+# ら、そんなに急が
+# ずとも…
+ShowTextBox "Ah, Lady\nPyokora, don't\nrun ahead! We've\nstill got a long\nway to walk!"
+WaitTextBox
+ShowChara 5 1 36
+# まぁ、クウもつい
+# てるし、大丈夫だ
+# ろう…
+ShowTextBox "As long as Coo\nis with her, she\nshould be\nfine..."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 7 1 52
+# あっ…ぴよこ、あ
+# んなところに野イ
+# チゴみっけ！
+ShowTextBox "Hey, Piyoko!\nLook! Wild\nstrawberries!"
+WaitTextBox
+ShowChara 4 2 29
+# いただきぴょ～
+ShowTextBox "They look\nyummy, pyo~"
+WaitTextBox
+Fade 3 30
+Unk08 4 110 82 22 108 10 3
+Unk08 7 210 86 108 108 10 3
+SetBG 82
+Fade 2 30
+ShowChara 4 0 0
+# よいしょ
+# よいしょ…
+ShowTextBox "Let's see..."
+WaitTextBox
+ShowChara 7 0 0
+# 俺も採るっ！
+ShowTextBox "Leave some\nfor me!"
+WaitTextBox
+ShowChara 4 0 0
+# せっせ、せっせ…
+ShowTextBox "*rustle, rustle*"
+WaitTextBox
+ShowChara 7 0 0
+# せっせ、せっせ…
+ShowTextBox "*rustle, rustle*"
+WaitTextBox
+ShowChara 4 0 0
+# こんなにたくさん野イ
+# チゴが採れたぴょ～！
+ShowTextBox "Wow, we sure\npicked a whole\nlot, pyo!"
+WaitTextBox
+ShowChara 7 0 0
+# よーし、これで今夜は
+# 野イチゴづくしだ！
+ShowTextBox "Looks like we'll\nbe eating\nstrawberries\ntonight!"
+WaitTextBox
+ShowChara 4 0 0
+# うっ、それはちょっと
+# イヤかもぴょ…
+ShowTextBox "... I hope\nthat's not all\nwe'll be eating,\npyo..."
+WaitTextBox
+EndScript

@@ -17,10 +17,5 @@ dgvc/gen-text
 *.bak
 
 
-*-orig
-*-new
-
-text.txt
-text-orig.txt
-textrawdump.txt
+orig-data
 

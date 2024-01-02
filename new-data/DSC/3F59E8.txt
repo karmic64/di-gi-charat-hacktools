@@ -1,0 +1,161 @@
+DSCBase $3F59E8
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 1 1 8
+# 用事があるって何
+# かにょ店長しゃん
+# ？
+ShowTextBox "What's up, nyo?"
+WaitTextBox
+ShowChara 1 0 15
+# にょにょっ、でじ
+# こにポスターのモ
+# デルのお仕事の申
+# し込み！？
+ShowTextBox "... They sent a\nrecruitment\nletter asking me\nto model for\nposters, nyo!?"
+WaitTextBox
+ShowChara 1 0 9
+# またまた、店長さ
+# ん、いまどきそん
+# なエイプリルフー
+# ルみたいなドッキ
+# リ、ひっかかるや
+# ついないにょ…
+ShowTextBox "... Come on,\nnobody's gonna\nfall for a\nprank like that,\nnyo...!"
+WaitTextBox
+# 本当だって！
+# ばれたか…
+ShowSelMenu09 2 "!It's true!\nJust kidding."
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 1 0 8
+# …ほんとう？
+ShowTextBox "... Really?"
+WaitTextBox
+# …うそじゃないに
+# ょ？
+ShowTextBox "... You're not\nmaking this up,\nnyo?"
+WaitTextBox
+ShowChara 1 0 9
+# にょにょっ、だっ
+# たら、引き受ける
+# にょ～
+ShowTextBox "N-Nyo, well,\nI guess I can't\nrefuse, can I?"
+WaitTextBox
+# して、いったい何
+# のポスターにょ？
+ShowTextBox "Wait, what kind\nof posters are\nwe talking\nabout here, nyo?"
+WaitTextBox
+ShowChara 1 0 8
+# ふむふむ…なるほ
+# ど、来週から始ま
+# る動物愛護週間の
+# 宣伝ポスターにょ
+# …
+ShowTextBox "Hmm...\nAdvertising for\nBe Kind to\nAnimals Week..."
+WaitTextBox
+ShowChara 1 0 10
+# ペットのようにか
+# わいらしいでじこ
+# には、まさにぴっ
+# たりの企画にょ！
+ShowTextBox "Well, I think\nit's a perfect\nidea, nyo!\nI'm cuter than\nany animal,\nafter all!"
+WaitTextBox
+# じゃ、さっそく取
+# り掛かるにょ～
+ShowTextBox "Let's send a\nreply right\naway, nyo!"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 1 0 9
+# まったく、店長さ
+# んも人が悪いにょ
+# っ！
+ShowTextBox "Jeez, you can\nbe really mean\nsometimes,\nManager!"
+WaitTextBox
+# もし、うさだにこ
+# の話をふってたら
+# おもいきり引っか
+# かってたところに
+# ょ…
+ShowTextBox "I bet Usada\nwould fall for\nthat story in\nan instant,\nthough, nyo..."
+WaitTextBox
+ShowChara 2 2 23
+# …呼んだかしら？
+ShowTextBox "... What\nwas that?"
+WaitTextBox
+ShowChara 1 1 15
+# なな、なんでもな
+# いにょ～
+ShowTextBox "N-Nothing,\nnyo...!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 2 2 24
+# ちょっと、ちょっ
+# と、ちょっとぉー
+# ーっ！
+ShowTextBox "Whaaaatt!?"
+WaitTextBox
+ShowChara 1 1 8
+# にょにょっ、うさ
+# だが朝から騒々し
+# いにょ…
+ShowTextBox "Nyo, you're\nsure noisy\ntoday, nyo..."
+WaitTextBox
+ShowChara 2 2 24
+# 何よ、このポスタ
+# ーはっ！
+ShowTextBox "What the heck\nis this\nposter!?"
+WaitTextBox
+Fade 1 30
+SetBG 28
+Unk08 1 78 58 50 86 10 3
+Fade 0 30
+Wait 60
+ShowChara 1 0 0
+# でじこからのお願い…
+ShowTextBox "A personal\nmessage from\nDejiko..."
+WaitTextBox
+# 小さないのちを
+# 　　大事にするにょ！
+ShowTextBox "Little lives\n      Big souls!\n Take care of\n   Animals!"
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 2 2 24
+# きーっ、これって
+# でじこのポスター
+# デビューってこと
+# じゃない！
+ShowTextBox "T-This is\nDejiko's poster\ndebut, isn't\nit!?"
+WaitTextBox
+# よりによって、で
+# じこに先を越され
+# ちゃうなんて、く
+# やし～い！
+ShowTextBox "Dejiko beat me\nto it again!\nThis is so\nfrustrating!!"
+WaitTextBox
+ShowChara 1 1 10
+# にょほほほ、でじ
+# この勝ちにょ…
+ShowTextBox "Nyo ho ho ho!\nAnother win\nunder my belt,\nnyo!"
+WaitTextBox
+ShowChara 3 2 21
+# こういうことは、
+# 出足がかんじんに
+# ゅ…
+ShowTextBox "The early bird\ngets the worm,\nnyu..."
+WaitTextBox
+EndScript

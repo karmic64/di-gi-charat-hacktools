@@ -1,0 +1,63 @@
+DSCBase $4000B4
+
+
+
+
+Subscript 0
+Unk08 3 98 63 88 100 10 3
+Unk08 10 185 80 48 108 10 3
+SetBG 111
+Fade 0 30
+ShowChara 3 1 17
+# まもなく店長さん
+# ともお別れにゅ
+ShowTextBox "It's almost time\nto say goodbye,\nManager, nyu."
+WaitTextBox
+# だけど、ぷちこは
+# 気にしないにゅ
+ShowTextBox "But, I'm not\ngoing to worry\nabout it right\nnow, nyu."
+WaitTextBox
+ShowChara 3 0 18
+# すぐに、新しい１
+# 年が始まるからに
+# ゅ！
+ShowTextBox "For now, I'm\nlooking forward\nto the start of\na new year, nyu!"
+WaitTextBox
+# ぷちこはぷちこら
+# しく、マイペース
+# でいくにゅ
+ShowTextBox "I'm going to\nkeep going at my\nown pace, nyu."
+WaitTextBox
+Fade 3 30
+SetBG 33
+Fade 2 30
+ShowChara 3 0 0
+# いらっしゃいにゅ
+ShowTextBox "... Welcome to\nthe store, nyu."
+WaitTextBox
+ShowChara 10 0 0
+# ニャー
+ShowTextBox "Meow~"
+WaitTextBox
+ShowChara 3 0 0
+# いらっしゃいにゅ！
+ShowTextBox "Welcome to the\nstore, nyu!"
+WaitTextBox
+ShowChara 10 0 0
+# ニャー
+ShowTextBox "Meow~"
+WaitTextBox
+ShowChara 3 0 0
+# お客さん、何かお探し
+# にゅ？
+ShowTextBox "Are you looking\nfor something in\nparticular?"
+WaitTextBox
+ShowChara 3 0 0
+# ぷちこが案内するにゅ
+ShowTextBox "I'll take you\nto the right\naisle, nyu."
+WaitTextBox
+ShowChara 10 0 0
+# ニャー
+ShowTextBox "Meow~"
+WaitTextBox
+EndScript

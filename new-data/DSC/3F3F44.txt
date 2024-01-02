@@ -1,0 +1,371 @@
+DSCBase $3F3F44
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 1 1 9
+# 店長しゃん、ニュ
+# ース、ニュースに
+# ょ！
+ShowTextBox "Manager, I've\ngot news, nyo!"
+WaitTextBox
+# 今度の１５日に、
+# 近くの神社でお祭
+# りがあるという話
+# だにょ～！
+ShowTextBox "I heard they're\nplanning a\nfestival at the\nshrine on the\n15th, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# ここはひとつ、み
+# んなでぱ～っと豪
+# 遊するのが筋だと
+# でじこは考えるに
+# ょ～っ！
+ShowTextBox "I thought,\nlet's go have\nsome fun and\nlive it up,\njust this\nonce, nyo!"
+WaitTextBox
+ShowChara 2 2 23
+# さんせ～い！
+ShowTextBox "Absolutely!"
+WaitTextBox
+ShowChara 3 1 18
+# 異議なしにゅ…
+ShowTextBox "No objections,\nnyu..."
+WaitTextBox
+ShowChara 1 1 9
+# 当然、でじこも賛
+# 成で、反対なしの
+# 全員賛成にょっ！
+ShowTextBox "With myself\nincluded, that\nmeans everyone\nis on board,\nnyo!"
+WaitTextBox
+ShowChara 1 0 10
+# …ということで、
+# 多数決により今度
+# の１５日はみんな
+# でお祭りに行くこ
+# とに決定にょっ！
+ShowTextBox "So, without\nfurther ado, I\ndeclare\nOperation\nFestival a\ngo, nyo!"
+WaitTextBox
+ShowChara 2 2 23
+# わーっ、ぱちぱち
+# ぱち…
+ShowTextBox "Woow, clap\nclap clap..."
+WaitTextBox
+ShowChara 2 0 25
+# あっ、でも、困っ
+# たことがひとつ…
+ShowTextBox "Ah, well,\nthere's one\nproblem..."
+WaitTextBox
+ShowChara 1 1 8
+# 何にょ？
+ShowTextBox "What's that,\nnyo?"
+WaitTextBox
+ShowChara 2 2 22
+# 夏祭りといえば、
+# 浴衣よ、ゆ・か・
+# た！
+ShowTextBox "Since it's a\nsummer festival,\nwe need yukata!"
+WaitTextBox
+ShowChara 2 0 25
+# いくらなんでも、
+# この格好じゃね…
+ShowTextBox "It might cost\na bit, but\ngoing in\nnormal clothes\nis just...\nwrong!"
+WaitTextBox
+ShowChara 1 1 14
+# ぷぷっ、特にうさ
+# だの服が一番夏祭
+# りっぽくないにょ
+# っ！
+ShowTextBox "Heheheh...\nYour clothes\nlook wrong no\nmatter what\ntime of year,\nnyo!"
+WaitTextBox
+ShowChara 2 2 24
+# むかっ…
+ShowTextBox "Gah..."
+WaitTextBox
+# アンタだって似た
+# ようなもんじゃな
+# いの！
+ShowTextBox "You wouldn't\nunderstand,\nsince they'd\nnever have a\nyukata your\nsize, anyway!"
+WaitTextBox
+ShowChara 3 1 21
+# 無益な争いはやめ
+# るにゅ
+ShowTextBox "Please stop with\nthe pointless\narguments, nyu."
+WaitTextBox
+ShowChara 2 2 25
+# はぁ…結局、この
+# 格好で行くしかな
+# いのかしら…
+ShowTextBox "Ugh... I guess\nI've got no\nchoice but to\ngo in this\noutfit..."
+WaitTextBox
+ShowChara 1 1 9
+# にょにょっ、ここ
+# は店長さんの器の
+# 大きさに期待して
+# みるにょっ！
+ShowTextBox "Here's where\nthe Manager\ngets to show\noff, nyo!"
+WaitTextBox
+# 買ってあげる！
+# ちょっとムリ…
+ShowSelMenu09 2 "!I'll buy them!\nToo expensive."
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 2 2 22
+# えっ、本当…？
+ShowTextBox "Huh, really!?"
+WaitTextBox
+ShowChara 2 0 25
+# でも、そんなに高
+# 価なもの、もらっ
+# ていいのかしら
+ShowTextBox "That's a lot\nto spend...\nIs that really\nOK, Manager?"
+WaitTextBox
+ShowChara 1 1 11
+# 何をいうにょ、で
+# じこたちは毎日毎
+# 日いっしょうけん
+# めいお店のために
+# 働いてるにょ！
+ShowTextBox "What are you\ntalking about!\nWe're always\nworking our\nbutts off for\nthe shop, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# だから、これは店
+# 長しゃんからでじ
+# こたちへのありが
+# とうのメッセージ
+# にょ！
+ShowTextBox "This is just\na little\nthanks for a\njob well done,\nnyo!"
+WaitTextBox
+# 遠慮するのは、か
+# えって失礼にょ！
+ShowTextBox "Refusing would\nbe just plain\nrude, nyo!"
+WaitTextBox
+ShowChara 2 2 22
+# そ、そうかしら…
+ShowTextBox "W-Well, if you\nsay so..."
+WaitTextBox
+ShowChara 2 0 23
+# じゃ、じゃあ善は
+# 急げっていうし、
+# 店長さんの好意に
+# 甘えさせてもらお
+# うかしら…
+ShowTextBox "If you're\nwilling to pay,\nManager, then\nI..."
+WaitTextBox
+EndScript
+Label 1
+ShowChara 2 2 55
+# ムリいっちゃダメ
+# よ、浴衣だって、
+# そんなに安いもの
+# じゃないんだし…
+ShowTextBox "I mean, is that\nreally okay?\nYukata aren't\ncheap, you know!"
+WaitTextBox
+ShowChara 1 1 12
+# にょにょ～っ、し
+# かたない、そんじ
+# ゃ浴衣で行くのは
+# やめにするにょ…
+ShowTextBox "Then I guess\nwe'll have to\ngive up on\nhaving them\nfor the\nfestival, nyo..."
+WaitTextBox
+ShowChara 2 2 22
+# 別に、遠慮しなく
+# っていいのよ
+ShowTextBox "I don't want\nto make you\nfeel bad for\nvolunteering,\nthough! I\njust..."
+WaitTextBox
+ShowChara 3 1 21
+# そこは、けじめに
+# ゅ…
+ShowTextBox "This is\ntaking forever,\nnyu."
+WaitTextBox
+ShowChara 2 2 22
+# でじこたちが望む
+# んだったら、それ
+# でいいけど…
+ShowTextBox "If Dejiko and\nPuchiko really\nwant yukata,\nthen...\nWell..."
+WaitTextBox
+# ううん…
+ShowTextBox "Hmm..."
+WaitTextBox
+ShowChara 2 0 23
+# じゃあ、こういう
+# のはどう？
+ShowTextBox "Actually, how\nabout this?"
+WaitTextBox
+# アタシたちも、お
+# 祭りでお店を出す
+# の！
+ShowTextBox "Let's run a\nstall at the\nfestival!"
+WaitTextBox
+# これなら、浴衣を
+# 着てなくても格好
+# がつくでしょ？
+ShowTextBox "That way, even\nif we can't go\nwearing\nYukata, these\nclothes should\nstill be fine!"
+WaitTextBox
+ShowChara 3 1 18
+# 名案にゅ…
+ShowTextBox "Good idea,\nnyu..."
+WaitTextBox
+ShowChara 1 1 9
+# 異論はないようだ
+# にょ…
+ShowTextBox "I don't have\nany other\nideas, nyo..."
+WaitTextBox
+ShowChara 1 0 10
+# ということで、お
+# 祭りの日はグッズ
+# を売って大もうけ
+# することに決定に
+# ょ～！
+ShowTextBox "Then let's\nstart planning\nwhat we want\nto sell!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 2 115 65 104 100 10 3
+SetBG 113
+Fade 0 30
+ShowChara 1 1 11
+# うさだのやつ遅い
+# にょ～！
+ShowTextBox "Usada's late,\nnyo!!"
+WaitTextBox
+# もうすぐお祭りが
+# 始まってしまうに
+# ょ～！
+ShowTextBox "The festival's\nabout to start,\nnyo!"
+WaitTextBox
+ShowChara 3 2 17
+# あせらなくても、
+# お祭りは遅くまで
+# やってるにゅ…
+ShowTextBox "It'll still be\nthere if we're\na few minutes\nlate, nyu..."
+WaitTextBox
+ShowChara 8 2 1
+# 店長さん、うさだ
+# から電話があった
+# ゲマ！
+ShowTextBox "Manager, I just\ngot a call from\nUsada, gema!"
+WaitTextBox
+ShowChara 1 1 8
+# うさだはなんて言
+# ってたにょ？
+ShowTextBox "What did she\nsay, nyo?"
+WaitTextBox
+ShowChara 8 2 2
+# 「ごめーん、浴衣
+# の用意が手間取っ
+# ちゃって…もうし
+# わけないけど、も
+# う少し待ってくれ
+# る？」
+ShowTextBox "\"Sorry, it's\ntaking me a\nwhile to get my\nyukata ready.\nWould you wait\nfor me, please?\""
+WaitTextBox
+# って言ってたゲマ
+# …
+ShowTextBox "... is what she\nsays, gema..."
+WaitTextBox
+ShowChara 1 1 11
+# ふざけたこと言う
+# のは、この口かに
+# ょっ、この口かに
+# ょっ…！
+ShowTextBox "Grrr...\nWait for her,\nshe says, nyo!\nWho the heck\nwould wait for\nher, nyo!?"
+WaitTextBox
+ShowChara 8 2 3
+# ひぃぃ、つねらな
+# いでゲマぁ…
+ShowTextBox "Owowow, don't\npinch the \nmessenger,\ngema..."
+WaitTextBox
+ShowChara 1 1 11
+# ぷんぷん！
+ShowTextBox "Hmph!"
+WaitTextBox
+# もういいにょ、で
+# じこは待たずに先
+# に行くにょっ！！
+ShowTextBox "Whatever, nyo!\nI'm not going\nto wait any\nlonger, nyo!\nLet's head out!"
+WaitTextBox
+Fade 3 30
+SetBG 121
+Fade 2 30
+ShowChara 1 1 9
+# にょにょ～っ、こ
+# れがお祭りにょ…
+ShowTextBox "Nyo nyo, so\nthis is a\nfestival, nyo..."
+WaitTextBox
+ShowChara 8 2 53
+# 地球のお祭りを見
+# るのは、初めてゲ
+# マ…
+ShowTextBox "It's the first\ntime I've been\nto an Earth\nfestival,\ngema..."
+WaitTextBox
+ShowChara 1 1 10
+# 見るもの聞くもの
+# すべてが新しいに
+# ょ～
+ShowTextBox "There's so\nmuch stuff I've\nnever seen or\nheard before,\nnyo~!"
+WaitTextBox
+# にょにょ、あっち
+# の方に何か面白そ
+# うなものがあるに
+# ょ～
+ShowTextBox "Nyo, what's that\nthing over\nthere, nyo?\nLooks like fun!"
+WaitTextBox
+ShowChara 8 2 1
+# でじこ、あんまり
+# 一人で先に行っち
+# ゃいけないゲマ～
+ShowTextBox "Dejiko, don't\nrun off ahead\non your own,\ngema!"
+WaitTextBox
+ShowChara 3 1 17
+# あとで合流するに
+# ゅ…
+ShowTextBox "We'll meet\nback up later,\nnyu..."
+WaitTextBox
+Fade 1 30
+SetBG 124
+Fade 0 30
+ShowChara 2 0 0
+# あっ、店長さん！
+ShowTextBox "Ah, Manager!"
+WaitTextBox
+Fade 1 1
+SetBG 35
+Fade 0 30
+ShowChara 2 0 0
+# ごめんなさい、ずいぶ
+# ん遅れちゃって…
+ShowTextBox "Sorry I'm so\nlate..."
+WaitTextBox
+# でじこたちには悪いこ
+# としちゃったわ
+ShowTextBox "I feel bad for\nDejiko, making\nher wait like\nthat..."
+WaitTextBox
+# あとで謝っておかなき
+# ゃ…
+ShowTextBox "I suppose I had\nbetter apologize\nto her later..."
+WaitTextBox
+# ちょっと帯がうまく結
+# べなかったのが原因な
+# んだけど…
+ShowTextBox "Not that it was\nMY fault this\nstupid obi\nwouldn't tie\nright..."
+WaitTextBox
+# ところで、そのでじこ
+# たちは？
+ShowTextBox "Speaking of\nwhich, where is\nDejiko?"
+WaitTextBox
+# …ふうん、先に行っち
+# ゃったんだ…
+ShowTextBox "... So they\nleft without\nme, huh..."
+WaitTextBox
+# じゃ、とりあえず二人
+# で一緒に歩きましょ、
+# 店長さん
+ShowTextBox "Oh, well. Shall\nwe take a look\naround together,\nManager?"
+WaitTextBox
+EndScript

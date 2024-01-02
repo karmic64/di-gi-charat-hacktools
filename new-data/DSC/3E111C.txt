@@ -1,0 +1,53 @@
+DSCBase $3E111C
+
+
+
+
+Subscript 0
+ShowChara 1 2 9
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 1 0 9
+# でじこだにょ～
+# よろしくにょ！
+ShowTextBox "I'm Dejiko!\nNice to meet\nyou, nyo!"
+EndScript
+
+
+
+Subscript 3
+# こう見えても、でじこ
+# はデ・ジ・キャラット
+# 星のお姫さまにょ！
+ShowTextBox "I might not\nlook it, but\nI'm the princess\nof Planet Di Gi\nCharat!"
+EndScript
+
+
+
+Subscript 4
+# 目指すは、大女優～！
+# もちろん、お店もがん
+# ばるにょ
+ShowTextBox "My dream is to\nbecome a star\nactress! Of\ncourse, I won't\nslack off in\nthe shop, nyo."
+EndScript
+
+
+
+Subscript 5
+ShowChara 1 0 10
+# この１年、店長しゃん
+# といっしょにがんばる
+# にょ～
+ShowTextBox "Looking forward\nto working with\nyou, nyo~"
+Wait 60
+HideChara
+EndScript

@@ -1,0 +1,71 @@
+DSCBase $40CB3C
+
+
+
+
+Subscript 0
+ShowChara 1 2 8
+EndScript
+
+
+
+Subscript 1
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 2
+# いままでやったミニゲームで遊ぶにょ！
+ShowTextBox "Play minigames you've unlocked, nyo!"
+EndScript
+
+
+
+Subscript 3
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 4
+# いままでのおもいでを見るにょ！
+ShowTextBox "View your memories, nyo!"
+EndScript
+
+
+
+Subscript 5
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 6
+# 音楽を聴くにょ！
+ShowTextBox "Listen to the soundtrack, nyo!"
+EndScript
+
+
+
+Subscript 7
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 8
+# みんなでおしゃべりをするにょ！
+ShowTextBox "Chat with everyone, nyo!"
+EndScript
+
+
+
+Subscript 9
+Fade 1 15
+HideChara
+EndScript

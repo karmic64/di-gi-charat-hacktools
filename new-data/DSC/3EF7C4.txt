@@ -1,0 +1,481 @@
+DSCBase $3EF7C4
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# 終了ゲマ～～っ！
+ShowTextBox "And that's it,\ngema!!"
+WaitTextBox
+ShowChara 2 2 23
+# 終わってみれば、
+# 一年なんて、あっ
+# という間だったわ
+# ね！
+ShowTextBox "I can't believe\nit's already\nbeen a whole\nyear, Manager!"
+WaitTextBox
+ShowChara 1 1 9
+# ぷちこ、おつかれ
+# だったにょ！
+# この一年、よくが
+# んばったにょ！
+ShowTextBox "Good work,\nPuchiko! You\nreally pulled\nyour weight this\nyear, nyo!"
+WaitTextBox
+ShowChara 3 1 18
+# でじこもにゅ
+ShowTextBox "You too, nyu."
+WaitTextBox
+ShowChara 8 1 1
+# では、結果発表さ
+# せてもらうゲマ！
+ShowTextBox "Now, it's time\nto announce your\nfinal results,\ngema!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 2 122 118 8 16 10 3
+Unk08 8 236 144 110 108 10 3
+Unk08 1 3 143 12 100 10 3
+ShowChara 8 1 1
+# おっと、その前に
+# ひとつやることが
+# あったゲマ
+ShowTextBox "Oops! There's\none thing we\nshould do first,\ngema."
+WaitTextBox
+# うさだ、ちょっと
+# 目を閉じててほし
+# いゲマ
+ShowTextBox "Usada, could\nyou please close\nyour eyes?"
+WaitTextBox
+ShowChara 2 2 56
+# えっ、何かしら？
+ShowTextBox "Huh? What for?"
+WaitTextBox
+ShowChara 2 0 23
+# まぁ、言われた通
+# り、素直にしたが
+# いましょ
+ShowTextBox "Well, I guess\nI can do that..."
+WaitTextBox
+Fade 1 30
+SetBG 124
+Fade 0 1
+ShowChara 2 2 63
+# はい、目をつぶっ
+# たわ
+ShowTextBox "Alright, my\neyes are\nclosed..."
+WaitTextBox
+# …………
+ShowTextBox "..."
+WaitTextBox
+# …………
+ShowTextBox "..."
+WaitTextBox
+# まだ？
+ShowTextBox "Ready?"
+WaitTextBox
+Fade 3 30
+Wait 60
+SetBG 111
+Fade 2 30
+ShowChara 8 1 53
+# ＯＫゲマ～！
+ShowTextBox "OK, gema!"
+WaitTextBox
+Fade 3 20
+Fade 2 20
+ShowChara 1 1 9
+# ぱちぱちぱち…
+ShowTextBox "*clap clap clap*"
+WaitTextBox
+Fade 3 20
+Fade 2 20
+ShowChara 3 1 18
+# ぱちぱちぱち…
+ShowTextBox "*clap clap clap*"
+WaitTextBox
+Fade 3 20
+Fade 2 20
+ShowChara 2 2 56
+# えっえっ？いった
+# い何なの？
+ShowTextBox "H-Huh? What's\ngoing on?"
+WaitTextBox
+ShowChara 8 1 53
+# うさだ、おめでと
+# うゲマ～！
+ShowTextBox "Congratulations,\nUsada!"
+WaitTextBox
+# うさだは、この一
+# 年で見事、お仕事
+# マスターになった
+# ゲマ！
+ShowTextBox "In just this one\nyear, you've\nmanaged to\nbecome a\nJob Master,\ngema!"
+WaitTextBox
+ShowChara 1 1 9
+# お仕事マスターっ
+# ていうのは
+ShowTextBox "A Job Master is\none who has\nachieved\nperfection in\nthe following\nroles:"
+WaitTextBox
+# ・レジ
+# ・接客
+# ・グッズ
+# ・掃除
+ShowTextBox "・Checkout\n・Service\n・Stocker\n・Cleaner"
+WaitTextBox
+ShowChara 1 0 10
+# この４つのお仕事
+# をきわめた者に与
+# えられるという、
+# 伝説の称号にょ
+ShowTextBox "To the person\nwho has mastered\nthese 4 tasks,\nwe bestow this\nlegendary title!"
+WaitTextBox
+ShowChara 3 1 17
+# それって、どこが
+# すごいにゅ？
+ShowTextBox "What's so\nspecial about\nthat, nyu...?"
+WaitTextBox
+ShowChara 1 1 8
+# だから、こーゆー
+# ものはエンギもの
+# にょっ！
+ShowTextBox "It's acting,\nnyo!"
+WaitTextBox
+# すごいとかすごく
+# ないとか、そうい
+# うのとは違うにょ
+# ！
+ShowTextBox "Being able to\nmake any tiny\nthing into a\nstellar\nperformance is\nan actor's job!"
+WaitTextBox
+ShowChara 2 2 23
+# そうそう♪ありが
+# たくちょうだいす
+# るわ！
+ShowTextBox "That's right♪\nThat's the only\nway to get any\nattention as a\nfuture star!"
+WaitTextBox
+Fade 3 30
+SetBG 45
+Fade 2 30
+ShowChara 2 0 0
+# ま、アイドルの下積み
+# のひとつってところか
+# しら？
+ShowTextBox "Actually, aren't\nall of these\nskills useful\nfor undiscovered\nartists?"
+WaitTextBox
+# 特技が接客とかレジ打
+# ちっていうのもありよ
+# ね
+ShowTextBox "I could make\ncustomer service\nand register\nhandling my\nspecialty!"
+WaitTextBox
+ShowChara 1 0 0
+# お仕事を手伝ってたん
+# じゃないにょ！
+ShowTextBox "That's just\nrunning a store\nat that point,\nnyo!"
+WaitTextBox
+ShowChara 8 0 0
+# うさだ、店長さんから
+# の一言ゲマ
+ShowTextBox "Usada, I have\na message for\nyou from the\nManager, gema."
+WaitTextBox
+ShowChara 2 0 0
+# はい？
+ShowTextBox "Oh?"
+WaitTextBox
+ShowChara 8 0 0
+# 「ありがとう、うさだ
+# さん。これからもよろ
+# しく」
+ShowTextBox "\"Thank you,\nUsada. Keep up\nthe good work.\""
+WaitTextBox
+ShowChara 2 0 0
+# うふふ、もちろんよ！
+ShowTextBox "Hehe,\nof course!"
+WaitTextBox
+Fade 3 30
+SetBG 111
+Fade 2 30
+ShowChara 8 1 1
+# オホン。では、あ
+# らためまして…結
+# 果発表ゲマ！
+ShowTextBox "Ahem! ... Now,\nwithout further\nado, let's\nproceed to the\nfinal results,\ngema!"
+WaitTextBox
+Unk19 40
+EndScript
+
+
+
+Subscript 2
+SetBG 111
+Fade 0 30
+Unk08 2 115 67 104 96 10 3
+ShowChara 8 1 53
+# うさだ、やったゲ
+# マ、見事な成績ゲ
+# マ！
+ShowTextBox "These are great\nresults, Usada!\nGood work, gema!"
+WaitTextBox
+ShowChara 2 2 26
+# やったわ、さすが
+# アタシね！
+ShowTextBox "Easy as pie!"
+WaitTextBox
+Fade 3 30
+SetBG 67
+Fade 2 30
+ShowChara 2 0 0
+# アイドルの才能に加え
+# て、商売の才能まであ
+# るなんて…
+ShowTextBox "On top of my\ntalent as an\nidol, to think\nthat I'm also\na commercial\ngenius..."
+WaitTextBox
+# アタシ…はっきり言っ
+# て、自分の才能が怖い
+# わ…
+ShowTextBox "To be honest,\nI'm a little\nscared of my\nown potential!"
+WaitTextBox
+Fade 3 30
+SetBG 111
+Fade 2 30
+ShowChara 1 1 16
+# にょ～
+ShowTextBox "Nyo..."
+WaitTextBox
+ShowChara 2 2 24
+# 何よ、その顔は！
+ShowTextBox "Hey! What're\nyou making that\nface for!?"
+WaitTextBox
+ShowChara 3 1 21
+# にゅ～
+ShowTextBox "Nyu..."
+WaitTextBox
+ShowChara 2 2 24
+# ぷちこまで！
+ShowTextBox "You too,\nPuchiko!?"
+WaitTextBox
+ShowChara 2 0 23
+# ねえ、ゲマなら分
+# かってくれるわよ
+# ね？
+ShowTextBox "I'm sure you\nunderstand me,\nright, Gema?"
+WaitTextBox
+ShowChara 8 1 2
+# えーと、う、うさ
+# だには悪いけど、
+# そこまでいい成績
+# じゃないゲマ…
+ShowTextBox "Uh, well,\nsorry, but your\nresults weren't\nTHAT great,\ngema..."
+WaitTextBox
+ShowChara 2 2 27
+# そっ、そんなー！
+ShowTextBox "W-What!?"
+WaitTextBox
+ShowChara 8 1 2
+# い、いや、別に悪
+# いわけじゃないゲ
+# マ。ただ、そんな
+# に飛びぬけて良い
+# というわけでもな
+# いというゲマ…
+ShowTextBox "It's not that\nthey're bad...\nThey're nothing\nto write home\nabout, though,\ngema..."
+WaitTextBox
+ShowChara 2 2 24
+# きーっ、アタシっ
+# てば、自分で自分
+# が許せなーい！
+ShowTextBox "No!\nThis is\nunacceptable!"
+WaitTextBox
+ShowChara 2 0 26
+# 店長さんっ！　来
+# 年はこんなことが
+# ないようにきっち
+# り働くわっ！
+ShowTextBox "Manager! Next\nyear, we need\nto get serious!\nWe can't let\nthis happen\never again!"
+WaitTextBox
+ShowChara 1 1 9
+# にょにょ、それは
+# 良い心がけにょ～
+ShowTextBox "That's the\nspirit, nyo~"
+WaitTextBox
+ShowChara 2 2 24
+# でじこ！　それに
+# ぷちこもっ！
+ShowTextBox "Dejiko!\nPuchiko!"
+WaitTextBox
+ShowChara 1 1 15
+# は、はいにょっ！
+ShowTextBox "Y-Yes, nyo!"
+WaitTextBox
+ShowChara 3 1 17
+# は、はいにゅ！
+ShowTextBox "Yes, nyu!"
+WaitTextBox
+ShowChara 2 2 26
+# あんたたちも来年
+# は今年以上にしっ
+# かりやるのよっ！
+ShowTextBox "You two better\nput your backs\ninto it next\nyear, too! You\nhear me!?"
+WaitTextBox
+ShowChara 8 1 2
+# う～ん、なんだか
+# 来年は今年以上に
+# さわがしくなりそ
+# うな様子ゲマ…
+ShowTextBox "I have a\nfeeling next\nyear's going\nto be busy,\ngema..."
+WaitTextBox
+ShowChara 8 0 53
+# というわけで、店
+# 長さん、次もまた
+# よろしくゲマ！
+ShowTextBox "Manager, I'll\nbe counting\non your help!"
+Wait 60
+Fade 3 120
+EndScript
+
+
+
+Subscript 3
+SetBG 111
+Fade 0 30
+Unk08 2 118 83 104 108 10 3
+ShowChara 8 1 53
+# すごいゲマ！　ま
+# ったくすばらしい
+# 結果だったゲマ！
+ShowTextBox "Amazing, gema!\nAbsolutely\nincredible\nresults!"
+WaitTextBox
+ShowChara 2 2 23
+# アイドルに必要な
+# のは、一に努力、
+# 二に努力、
+ShowTextBox "Being an idol\nneeds effort,\neffort,"
+WaitTextBox
+# 三も四も五も六も
+# 七も八も九もぜー
+# んぶ努力！
+ShowTextBox "and more\neffort! It's\neffort all the\nway!"
+WaitTextBox
+ShowChara 2 0 26
+# おほほほほ、ま、
+# アタシにとっては
+# 当然よね！
+ShowTextBox "Ohohoho!\nSomething like\nthis is nothing\nfor me!"
+WaitTextBox
+ShowChara 3 1 17
+# なんだかよくわか
+# らないけれど、と
+# にかくすごい自信
+# にゅ
+ShowTextBox "I don't really\nget it, but\nyou've got a\nlot of pride,\nnyu."
+WaitTextBox
+ShowChara 1 1 8
+# う～ん、これは、
+# でじこも負けてら
+# れないにょ～
+ShowTextBox "You've even\ncaught up with\nme, nyo! I'm\nimpressed!"
+WaitTextBox
+Fade 1 120
+Wait 60
+SetBG 78
+Fade 0 30
+Wait 60
+ShowChara 2 0 0
+# 今、あなたは、どこで
+# この手紙を読んでいる
+# のかしら？
+ShowTextBox "Dear future\nself: I wonder\nwhere you're\nreading this\nfrom?"
+Wait 120
+# 東京ドーム、武道館、
+# 横浜アリーナ、
+ShowTextBox "Tokyo Dome?\nBudokan?\nYokohama\nArena?"
+Wait 120
+# …それとも、ニューヨ
+# ークのブロードウェイ
+# かしら？
+ShowTextBox "... Or,\nmaybe even\nBroadway?"
+Wait 120
+# あなたはもう覚えてな
+# いかもしれないけど
+ShowTextBox "I don't know\nif you'll\nremember,\nbut..."
+Wait 120
+# あなたのスタートはこ
+# の小さなお店で始まっ
+# たの
+ShowTextBox "You began the\nlong road to\nstar-idoldom\nin this tiny\nshop."
+Wait 120
+# そこには店長さんと、
+# でじこと、ぷちこと、
+# ゲマがいて…
+ShowTextBox "There, with\nthe Manager,\nDejiko,\nPuchiko, and\nGema..."
+Wait 120
+# 毎日楽しく過ごしてた
+# の
+ShowTextBox "I had a good\ntime, working\nand watching the\ndays go by."
+Wait 120
+# 新しい店長さんのもと
+# で手伝いをするのも、
+# もう２年目
+ShowTextBox "It's already\nbeen two years\nsince our new\nManager\nstarted..."
+Wait 120
+# アタシの人気アイドル
+# への道は、まだ始まっ
+# たばかりで
+ShowTextBox "I'm sure my\nroad to becoming\na popular idol\nhas only just\nbegun."
+Wait 120
+# 先は長いけれど、あせ
+# らず、自分のペースで
+# 歩いていくわ
+ShowTextBox "I've got a long\nway to go, but\nI'm walking it\nat my own pace,\none step at a\ntime."
+Wait 120
+# 遠い昔には、あなたに
+# もそんな時代があった
+# っていうことを
+ShowTextBox "I hope you,\nmy future self\nwill keep\nlooking back on\nthat distant\npast..."
+Wait 120
+# たまには思い出してよ
+# ね
+ShowTextBox "... and\nremembering all\nthe fun you had\nalong the way."
+Wait 120
+# それじゃ、この辺で…
+# さようなら
+ShowTextBox "Goodbye, for\nnow..."
+Wait 120
+# 　　　今のアタシから
+# 　　　未来のアタシへ
+ShowTextBox "   From today's me\n   To my future self"
+Wait 120
+# ラ・ビ・アン・ローズ
+# 　　　　　　　　こと
+# 　　　　うさだヒカル
+ShowTextBox "       -Rabi~En~Rose\n        Usada Hikaru"
+Wait 180
+Fade 1 30
+SetBG 60
+Unk08 2 82 84 112 88 10 3
+Fade 0 30
+ShowChara 2 0 0
+# えーっと、保存してか
+# ら終了っと…
+ShowTextBox "Okay, all saved..."
+WaitTextBox
+# あはは…読み直すと、
+# ちょっと恥ずかしいか
+# も…
+ShowTextBox "Heheh... reading\nit over, this is\nkind of\nembarrassing..."
+WaitTextBox
+# 他の人には見せられな
+# いわね…
+ShowTextBox "I can't show this\nto anyone else..."
+WaitTextBox
+# さーて、お仕事に戻ら
+# なくちゃ。今日も一日
+# がんばるわよーっ！
+ShowTextBox "Alright, back to\nwork. Let's get\nit done!"
+Wait 60
+Fade 3 120
+EndScript

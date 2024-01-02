@@ -1,0 +1,2069 @@
+DSCBase $3DF07C
+
+
+
+
+Subscript 0
+ShowChara 3 0 17
+# いままでのおもいでにゅ
+ShowTextBox "Here you can view memories we've made, nyu."
+EndScript
+
+
+
+Subscript 1
+EndScript
+
+
+
+Subscript 2
+Fade 1 15
+EndScript
+
+
+
+Subscript 3
+ShowChara 3 2 17
+EndScript
+
+
+
+Subscript 4
+# ？？？？にゅ？
+ShowTextBox "????, nyu?"
+EndScript
+
+
+
+Subscript 5
+# ？？？？にゅ？
+ShowTextBox "????, nyu?"
+EndScript
+
+
+
+Subscript 6
+# 「正月」にゅ
+ShowTextBox "「New Year's Day」, nyu."
+EndScript
+
+
+
+Subscript 7
+SetBG 1
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 8
+# 「でじこの誕生日」にゅ
+ShowTextBox "「Dejiko's Birthday」, nyu."
+EndScript
+
+
+
+Subscript 9
+SetBG 2
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 10
+# 「うさだの誕生日」にゅ
+ShowTextBox "「Usada's Birthday」, nyu."
+EndScript
+
+
+
+Subscript 11
+SetBG 3
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 12
+# 「ぷちこの誕生日」にゅ
+ShowTextBox "「Puchiko's Birthday」, nyu."
+EndScript
+
+
+
+Subscript 13
+SetBG 4
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 14
+# 「ゲマの誕生日」にゅ
+ShowTextBox "「Gema's Birthday」, nyu."
+EndScript
+
+
+
+Subscript 15
+SetBG 5
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 16
+# 「初雪」にゅ
+ShowTextBox "「First Snow」, nyu."
+EndScript
+
+
+
+Subscript 17
+SetBG 6
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 18
+# 「バレンタイン・でじこ」にゅ
+ShowTextBox "「Valentine's Day ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 19
+SetBG 7
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 20
+# 「バレンタイン・うさだ」にゅ
+ShowTextBox "「Valentine's Day ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 21
+SetBG 8
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 22
+# 「バレンタイン・ぷちこ」にゅ
+ShowTextBox "「Valentine's Day ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 23
+SetBG 9
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 24
+# 「ひな祭り・でじこ」にゅ
+ShowTextBox "「Hinamatsuri ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 25
+SetBG 10
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 26
+# 「ひな祭り・うさだ」にゅ
+ShowTextBox "「Hinamatsuri ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 27
+SetBG 11
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 28
+# 「ひな祭り・ぷちこ」にゅ
+ShowTextBox "「Hinamatsuri ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 29
+SetBG 12
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 30
+# 「おでかけ・でじこ」にゅ
+ShowTextBox "「Farewell ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 31
+SetBG 13
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 32
+# 「おでかけ・うさだ」にゅ
+ShowTextBox "「Farewell ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 33
+SetBG 14
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 34
+# 「おでかけ・ぷちこ」にゅ
+ShowTextBox "「Farewell ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 35
+SetBG 15
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 36
+# 「節分」にゅ
+ShowTextBox "「Last Day of Winter」, nyu."
+EndScript
+
+
+
+Subscript 37
+SetBG 16
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 38
+# 「お花見」にゅ
+ShowTextBox "「Cherry Blossoms」, nyu."
+EndScript
+
+
+
+Subscript 39
+SetBG 17
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 40
+# 「発明の日(うさだ)」にゅ
+ShowTextBox "「Inventor's Day (Usada)」, nyu."
+EndScript
+
+
+
+Subscript 41
+SetBG 18
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 42
+# 「子供の日(ぷちこ)」にゅ
+ShowTextBox "「Children's Day (Puchiko)」, nyu."
+EndScript
+
+
+
+Subscript 43
+SetBG 19
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 44
+# 「虫歯デー・でじこ」にゅ
+ShowTextBox "「Dental Day ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 45
+SetBG 20
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 46
+# 「虫歯デー・うさだ」にゅ
+ShowTextBox "「Dental Day ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 47
+SetBG 21
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 48
+# 「虫歯デー・ぷちこ」にゅ
+ShowTextBox "「Dental Day ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 49
+SetBG 22
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 50
+# 「ゴールデンウィーク・でじこ」にゅ
+ShowTextBox "「Golden Week ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 51
+SetBG 23
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 52
+# 「ゴールデンウィーク・うさだ」にゅ
+ShowTextBox "「Golden Week ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 53
+SetBG 24
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 54
+# 「ゴールデンウィーク・ぷちこ」にゅ
+ShowTextBox "「Golden Week ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 55
+SetBG 25
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 56
+# 「七夕」にゅ
+ShowTextBox "「Tanabata」, nyu."
+EndScript
+
+
+
+Subscript 57
+SetBG 26
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 58
+# 「海水浴」にゅ
+ShowTextBox "「Ocean Trip」, nyu."
+EndScript
+
+
+
+Subscript 59
+SetBG 27
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 60
+# 「動物・でじこ」にゅ
+ShowTextBox "「Be Kind to Animals ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 61
+SetBG 28
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 62
+# 「動物・うさだ」にゅ
+ShowTextBox "「Be Kind to Animals ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 63
+SetBG 29
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 64
+# 「動物・ぷちこ」にゅ
+ShowTextBox "「Be Kind to Animals ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 65
+SetBG 30
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 66
+# 「決算・でじこ」にゅ
+ShowTextBox "「Final Report ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 67
+SetBG 31
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 68
+# 「決算・うさだ」にゅ
+ShowTextBox "「Final Report ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 69
+SetBG 32
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 70
+# 「決算・ぷちこ」にゅ
+ShowTextBox "「Final Report ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 71
+SetBG 33
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 72
+# 「夏祭り・でじこ」にゅ
+ShowTextBox "「Summer Festival ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 73
+SetBG 34
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 74
+# 「夏祭り・うさだ」にゅ
+ShowTextBox "「Summer Festival ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 75
+SetBG 35
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 76
+# 「夏祭り・ぷちこ」にゅ
+ShowTextBox "「Summer Festival ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 77
+SetBG 36
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 78
+# 「秋節・でじこ」にゅ
+ShowTextBox "「Harvest Festival ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 79
+SetBG 37
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 80
+# 「秋節・うさだ」にゅ
+ShowTextBox "「Harvest Festival ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 81
+SetBG 38
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 82
+# 「秋節・ぷちこ」にゅ
+ShowTextBox "「Harvest Festival ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 83
+SetBG 39
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 84
+# 「体育の日・でじこ」にゅ
+ShowTextBox "「Field Day ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 85
+SetBG 40
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 86
+# 「体育の日・うさだ」にゅ
+ShowTextBox "「Field Day ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 87
+SetBG 41
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 88
+# 「体育の日・ぷちこ」にゅ
+ShowTextBox "「Field Day ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 89
+SetBG 42
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 90
+# 「ハロウィン」にゅ
+ShowTextBox "「Halloween」, nyu."
+EndScript
+
+
+
+Subscript 91
+SetBG 43
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 92
+# 「なでなで・でじこ」にゅ
+ShowTextBox "「Headpat ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 93
+SetBG 44
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 94
+# 「なでなで・うさだ」にゅ
+ShowTextBox "「Headpat ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 95
+SetBG 45
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 96
+# 「なでなで・ぷちこ」にゅ
+ShowTextBox "「Headpat ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 97
+SetBG 46
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 98
+# 「温泉」にゅ
+ShowTextBox "「Hot Springs」, nyu."
+EndScript
+
+
+
+Subscript 99
+SetBG 47
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 100
+# 「サンタ・でじこ」にゅ
+ShowTextBox "「Santa ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 101
+SetBG 48
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 102
+# 「サンタ・うさだ」にゅ
+ShowTextBox "「Santa ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 103
+SetBG 49
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 104
+# 「サンタ・ぷちこ」にゅ
+ShowTextBox "「Santa ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 105
+SetBG 50
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 106
+# 「イブ・でじこ」にゅ
+ShowTextBox "「New Year's Eve ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 107
+SetBG 51
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 108
+# 「イブ・うさだ」にゅ
+ShowTextBox "「New Year's Eve ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 109
+SetBG 52
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 110
+# 「イブ・ぷちこ」にゅ
+ShowTextBox "「New Year's Eve ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 111
+SetBG 53
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 112
+# 「パーティナイト」にゅ
+ShowTextBox "「Party Night」, nyu."
+EndScript
+
+
+
+Subscript 113
+SetBG 54
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 114
+# 「店長さんの誕生日」にゅ
+ShowTextBox "「Manager's Birthday」, nyu."
+EndScript
+
+
+
+Subscript 115
+SetBG 55
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 116
+# 「レジマスター・でじこ」にゅ
+ShowTextBox "「Register Master ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 117
+SetBG 56
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 118
+# 「グッズマスター・でじこ」にゅ
+ShowTextBox "「Stocking Master ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 119
+SetBG 57
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 120
+# 「掃除マスター・でじこ」にゅ
+ShowTextBox "「Cleaning Master ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 121
+SetBG 58
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 122
+# 「目からビーム」にゅ
+ShowTextBox "「Eye Beam」, nyu."
+EndScript
+
+
+
+Subscript 123
+SetBG 59
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 124
+# 「レジマスター・うさだ」にゅ
+ShowTextBox "「Register Master ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 125
+SetBG 60
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 126
+# 「グッズマスター・うさだ」にゅ
+ShowTextBox "「Stocking Master ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 127
+SetBG 61
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 128
+# 「掃除マスター・うさだ」にゅ
+ShowTextBox "「Cleaning Master ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 129
+SetBG 62
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 130
+# 「レジマスター・ぷちこ」にゅ
+ShowTextBox "「Register Master ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 131
+SetBG 63
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 132
+# 「グッズマスター・ぷちこ」にゅ
+ShowTextBox "「Stocking Master ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 133
+SetBG 64
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 134
+# 「掃除マスター・ぷちこ」にゅ
+ShowTextBox "「Cleaning Master ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 135
+SetBG 65
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 136
+# 「エンディング・でじこ」にゅ
+ShowTextBox "「Ending ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 137
+SetBG 66
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 138
+# 「エンディング・うさだ」にゅ
+ShowTextBox "「Ending ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 139
+SetBG 67
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 140
+# 「エンディング・ぷちこ」にゅ
+ShowTextBox "「Ending ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 141
+SetBG 68
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 142
+# 「エンディング・ぴよこ」にゅ
+ShowTextBox "「Ending ・ Piyoko」, nyu."
+EndScript
+
+
+
+Subscript 143
+SetBG 69
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 144
+# 「ぴよこの誕生日」にゅ
+ShowTextBox "「Piyoko's Birthday」, nyu."
+EndScript
+
+
+
+Subscript 145
+SetBG 70
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 146
+# 「ぴよこ登場！」にゅ
+ShowTextBox "「Piyoko Arrives!」, nyu."
+EndScript
+
+
+
+Subscript 147
+SetBG 71
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 148
+# 「なでなで・ぴよこ」にゅ
+ShowTextBox "「Headpat ・ Piyoko」, nyu."
+EndScript
+
+
+
+Subscript 149
+SetBG 72
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 150
+# 「イブ・ぴよこ」にゅ
+ShowTextBox "「New Year's Eve ・ Piyoko」, nyu."
+EndScript
+
+
+
+Subscript 151
+SetBG 73
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 152
+# 「口からバズーカ」にゅ
+ShowTextBox "「Mouth Bazooka」, nyu."
+EndScript
+
+
+
+Subscript 153
+SetBG 74
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 154
+# 「ぴよことでじこ」にゅ
+ShowTextBox "「Piyoko and Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 155
+SetBG 75
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 156
+# 「海水浴・ぴよこ」にゅ
+ShowTextBox "「Ocean Trip ・ Piyoko」, nyu."
+EndScript
+
+
+
+Subscript 157
+SetBG 76
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 158
+# 「エンディング２でじこ」にゅ
+ShowTextBox "「Ending 2 ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 159
+SetBG 77
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 160
+# 「エンディング２うさだ」にゅ
+ShowTextBox "「Ending 2 ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 161
+SetBG 78
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 162
+# 「エンディング２ぷちこ」にゅ
+ShowTextBox "「Ending 2 ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 163
+SetBG 79
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 164
+# 「エンディング２ぴよこ」にゅ
+ShowTextBox "「Ending 2 ・ Piyoko」, nyu."
+EndScript
+
+
+
+Subscript 165
+SetBG 80
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 166
+# 「エンディング２ぴよこ２」にゅ
+ShowTextBox "「Ending 2 ・ Piyoko 2」, nyu."
+EndScript
+
+
+
+Subscript 167
+SetBG 81
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 168
+# 「BG団ピクニック」にゅ
+ShowTextBox "「Black Gema Gang Picnic」, nyu."
+EndScript
+
+
+
+Subscript 169
+SetBG 82
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 170
+# 「BG団ゴールデンウィーク」にゅ
+ShowTextBox "「Black Gema Gang Golden Week」, nyu."
+EndScript
+
+
+
+Subscript 171
+SetBG 83
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 172
+# 「BG団遊園地」にゅ
+ShowTextBox "「Black Gema Gang Theme Park」, nyu."
+EndScript
+
+
+
+Subscript 173
+SetBG 84
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 174
+# 「BG団虫歯の日」にゅ
+ShowTextBox "「Black Gema Gang Dental Day」, nyu."
+EndScript
+
+
+
+Subscript 175
+SetBG 85
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 176
+# 「BG団花火」にゅ
+ShowTextBox "「Black Gema Gang Fireworks」, nyu."
+EndScript
+
+
+
+Subscript 177
+SetBG 86
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 178
+# 「BG団中秋節」にゅ
+ShowTextBox "「Black Gema Gang Harvest Festival」, nyu."
+EndScript
+
+
+
+Subscript 179
+SetBG 87
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 180
+# 「BG団動物」にゅ
+ShowTextBox "「Black Gema Gang Be Kind to Animals」, nyu."
+EndScript
+
+
+
+Subscript 181
+SetBG 88
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 182
+# 「BG団体育の日」にゅ
+ShowTextBox "「Black Gema Gang Field Day」, nyu."
+EndScript
+
+
+
+Subscript 183
+SetBG 89
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 184
+# 「BG団ハロウィン」にゅ
+ShowTextBox "「Black Gema Gang Halloween」, nyu."
+EndScript
+
+
+
+Subscript 185
+SetBG 90
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 186
+# 「BG団寒い」にゅ
+ShowTextBox "「Black Gema Gang Chilly」, nyu."
+EndScript
+
+
+
+Subscript 187
+SetBG 91
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 188
+# 「BG団初雪」にゅ
+ShowTextBox "「Black Gema Gang First Snow」, nyu."
+EndScript
+
+
+
+Subscript 189
+SetBG 92
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 190
+# 「BG団サン」にゅ
+ShowTextBox "「Black Gema Gang Santa」, nyu."
+EndScript
+
+
+
+Subscript 191
+SetBG 93
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 192
+# 「BG団パーティナイト」にゅ
+ShowTextBox "「Black Gema Gang Party Night」, nyu."
+EndScript
+
+
+
+Subscript 193
+SetBG 94
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 194
+# 「BG団大晦日」にゅ
+ShowTextBox "「Black Gema Gang New Year's Eve」, nyu."
+EndScript
+
+
+
+Subscript 195
+SetBG 95
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 196
+# 「BG団正月」にゅ
+ShowTextBox "「Black Gema Gang New Year's Day」, nyu."
+EndScript
+
+
+
+Subscript 197
+SetBG 96
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 198
+# 「BG団節分」にゅ
+ShowTextBox "「Black Gema Gang Last Day of Winter」, nyu."
+EndScript
+
+
+
+Subscript 199
+SetBG 97
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 200
+# 「BG団バレンタイン」にゅ
+ShowTextBox "「Black Gema Gang Valentine's Day」, nyu."
+EndScript
+
+
+
+Subscript 201
+SetBG 98
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 202
+# 「BG団甘酒」にゅ
+ShowTextBox "「Black Gema Gang New Year's Eve」, nyu."
+EndScript
+
+
+
+Subscript 203
+SetBG 99
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 204
+# 「BG団ホワイトデー」にゅ
+ShowTextBox "「Black Gema Gang White Day」, nyu."
+EndScript
+
+
+
+Subscript 205
+SetBG 100
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 206
+# 「BG団決算」にゅ
+ShowTextBox "「Black Gema Gang Final Report」, nyu."
+EndScript
+
+
+
+Subscript 207
+SetBG 101
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 208
+# 「マスターPKO」にゅ
+ShowTextBox "「Master PKO」, nyu."
+EndScript
+
+
+
+Subscript 209
+SetBG 102
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 210
+# 「レジマスター・ぴよこ」にゅ
+ShowTextBox "「Register Master ・ Piyoko」, nyu."
+EndScript
+
+
+
+Subscript 211
+SetBG 103
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 212
+# 「グッズマスター・ぴよこ」にゅ
+ShowTextBox "「Stocking Master ・ Piyoko」, nyu."
+EndScript
+
+
+
+Subscript 213
+SetBG 104
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 214
+# 「掃除マスター・ぴよこ」にゅ
+ShowTextBox "「Cleaning Master ・ Piyoko」, nyu."
+EndScript
+
+
+
+Subscript 215
+SetBG 105
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 216
+# 「接客マスター・ぴよこ」にゅ
+ShowTextBox "「Service Master ・ Piyoko」, nyu."
+EndScript
+
+
+
+Subscript 217
+SetBG 106
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 218
+# 「接客マスター・でじこ」にゅ
+ShowTextBox "「Service Master ・ Dejiko」, nyu."
+EndScript
+
+
+
+Subscript 219
+SetBG 107
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 220
+# 「接客マスター・うさだ」にゅ
+ShowTextBox "「Service Master ・ Usada」, nyu."
+EndScript
+
+
+
+Subscript 221
+SetBG 108
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 222
+# 「接客マスター・ぷちこ」にゅ
+ShowTextBox "「Service Master ・ Puchiko」, nyu."
+EndScript
+
+
+
+Subscript 223
+SetBG 109
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 224
+# 「110」にゅ
+ShowTextBox "「110」, nyu."
+EndScript
+
+
+
+Subscript 225
+SetBG 110
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 226
+# 「ゲーマーズ店内背景」にゅ
+ShowTextBox "「Gamers Store Interior」, nyu."
+EndScript
+
+
+
+Subscript 227
+SetBG 111
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 228
+# 「ブラックゲーマーズ店内背景」にゅ
+ShowTextBox "「Black Gema Gang Store Interior」, nyu."
+EndScript
+
+
+
+Subscript 229
+SetBG 112
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 230
+# 「秋葉原路上」にゅ
+ShowTextBox "「Akihabara Street」, nyu."
+EndScript
+
+
+
+Subscript 231
+SetBG 113
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 232
+# 「秋葉原路上・夜」にゅ
+ShowTextBox "「Akihabara Street ・ Night」, nyu."
+EndScript
+
+
+
+Subscript 233
+SetBG 114
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 234
+# 「秋葉原路上の降雪バージョン」にゅ
+ShowTextBox "「Akihabara Street ・ Snowy」, nyu."
+EndScript
+
+
+
+Subscript 235
+SetBG 115
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 236
+# 「宿屋の室内」にゅ
+ShowTextBox "「Inn-terior」, nyu."
+EndScript
+
+
+
+Subscript 237
+SetBG 116
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 238
+# 「春の野原」にゅ
+ShowTextBox "「Spring Fields」, nyu."
+EndScript
+
+
+
+Subscript 239
+SetBG 117
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 240
+# 「海の背景」にゅ
+ShowTextBox "「Ocean View」, nyu."
+EndScript
+
+
+
+Subscript 241
+SetBG 118
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 242
+# 「正月の背景」にゅ
+ShowTextBox "「New Year's Scenery」, nyu."
+EndScript
+
+
+
+Subscript 243
+SetBG 119
+Fade 0 15
+WaitTextBox
+Fade 1 15
+DisableBG
+EndScript
+
+
+
+Subscript 244
+EndScript

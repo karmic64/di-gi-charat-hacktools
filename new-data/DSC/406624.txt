@@ -1,0 +1,352 @@
+DSCBase $406624
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 5 1 37
+# ううむ…
+ShowTextBox "Hmm..."
+WaitTextBox
+ShowChara 7 2 47
+# どうしたんだ、リ
+# ク？
+ShowTextBox "What's the\nmatter, Rik?"
+WaitTextBox
+ShowChara 6 2 40
+# うかない顔ですね
+# …
+ShowTextBox "You seem upset."
+WaitTextBox
+ShowChara 5 1 35
+# 先ほど、ピョコラ
+# 様からご命令があ
+# ったのだが…
+ShowTextBox "A little while\nago, I received\nan order from\nLady Pycola."
+WaitTextBox
+ShowChara 7 2 47
+# 命令？
+ShowTextBox "What order?"
+WaitTextBox
+ShowChara 5 1 35
+# バレンタインの日
+# に、団員にチョコ
+# を配るので、人数
+# 分を用意しておく
+# ように…とおおせ
+# だ
+ShowTextBox "She commanded me\nto secure equal\nValentine's Day\nchocolate for\nevery member of\nthe Gang."
+WaitTextBox
+ShowChara 7 2 48
+# なーんだ、団員た
+# ちが妙にソワソワ
+# してるなって思っ
+# たら、そういうわ
+# けだったのか
+ShowTextBox "I had thought\nthe Gang was\nunusually on\nedge. So that's\nthe situation."
+WaitTextBox
+# 別にいいんじゃな
+# いの？
+ShowTextBox "What? What's\nwrong with\nthat?"
+WaitTextBox
+ShowChara 6 2 40
+# クウ、分かってい
+# ませんね…
+ShowTextBox "You don't\nunderstand,\nCoo."
+WaitTextBox
+ShowChara 7 2 47
+# えっ？
+ShowTextBox "Huh?"
+WaitTextBox
+ShowChara 5 1 37
+# ひょっとすると、
+# 我々も団員と同じ
+# 扱いになるのかも
+# しれんのだ…
+ShowTextBox "This puts us\non the same\nlevel as the\nrest of the\nGang."
+WaitTextBox
+ShowChara 6 2 43
+# ようするに、自分
+# たちも義理チョコ
+# しかもらえないか
+# も…ということで
+# す
+ShowTextBox "... In other\nwords, she's\nonly giving us\nchocolate out\nof obligation."
+WaitTextBox
+ShowChara 7 2 50
+# お、俺はちゃんと
+# もらえるって、信
+# じてるぞー！
+ShowTextBox "What!? No way!\nOur chocolate\nwill be special!\nI believe in\nPiyoko!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 112
+Fade 0 30
+ShowChara 4 2 29
+# 今日はおまえたち
+# にプレゼントがあ
+# るぴょ！
+ShowTextBox "I have a\npresent for you\nall today, pyo!"
+WaitTextBox
+ShowChara 12 1 59
+# か、感激ゲバ！ピ
+# ョコラ様からプレ
+# ゼントをいただけ
+# るなんてー！
+ShowTextBox "Thank you,\nLady Pyocola!\nGebaa!"
+WaitTextBox
+ShowChara 12 1 60
+# 同感ゲバー！
+ShowTextBox "!!! 406624 15"
+WaitTextBox
+ShowChara 4 2 29
+# 一列に並ぶぴょ！
+ShowTextBox "Everyone,\nline up!"
+WaitTextBox
+ShowChara 12 1 59
+# は～い、ゲバ！
+ShowTextBox "Yes, ma'am!\nGeba!"
+WaitTextBox
+ShowChara 12 1 60
+# 並ぶゲバ！
+ShowTextBox "Line up, geba!"
+WaitTextBox
+ShowChara 4 2 29
+# ほいっ…
+ShowTextBox "Here you go.\nNext!"
+WaitTextBox
+ShowChara 12 1 59
+# やったゲバー
+ShowTextBox "Woo hoo, geba!"
+WaitTextBox
+ShowChara 4 2 29
+# ほいっ…
+ShowTextBox "Next!"
+WaitTextBox
+ShowChara 12 1 59
+# う、嬉しいゲバー
+ShowTextBox "I-I'm so\nhappy, geba..."
+WaitTextBox
+ShowChara 4 2 29
+# ほいっ…
+ShowTextBox "Next!"
+WaitTextBox
+ShowChara 12 1 59
+# うひょー、ゲバー
+ShowTextBox "Thank you,\ngebaa!"
+WaitTextBox
+Fade 1 120
+Wait 60
+Fade 0 30
+ShowChara 5 1 35
+# チョコを配り終え
+# たようだ…
+ShowTextBox "It seems she's\ndone handing\nout chocolate."
+WaitTextBox
+ShowChara 6 1 43
+# どきどき…はたし
+# て、自分たちはピ
+# ョコラ様からチョ
+# コをもらえるので
+# しょうか…
+ShowTextBox "My heart's\npounding...\nDid she get us\nany chocolate?"
+WaitTextBox
+ShowChara 4 2 63
+# お～い、リク、カ
+# イ、クウ、ちょっ
+# とこっちに来るぴ
+# ょ～っ！
+ShowTextBox "Hey! Rik! Ky!\nCoo! Get over\nhere for a\nsecond, pyo!"
+WaitTextBox
+ShowChara 7 1 58
+# よ、呼んでる！
+ShowTextBox "S-She's called\nus!"
+WaitTextBox
+ShowChara 5 1 39
+# 行きましょう
+ShowTextBox "Let's go...!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+EndScript
+
+
+
+Subscript 2
+ShowChara 4 2 28
+# お前たちに渡すも
+# のがあるぴょ
+ShowTextBox "I've got\nsomething I\nwanted to give\nyou three,\npyo."
+WaitTextBox
+ShowChara 5 1 39
+# と、言いますと…
+ShowTextBox "So..."
+WaitTextBox
+ShowChara 4 2 29
+# チョコを受け取る
+# ぴょ！
+ShowTextBox "Take this\nchocolate, pyo!"
+WaitTextBox
+ShowChara 7 1 48
+# やったー！ありが
+# とうよ、ぴよこ！
+ShowTextBox "Yeah! Thank\nyou, Piyoko!"
+WaitTextBox
+ShowChara 6 1 41
+# 感激です、ピョコ
+# ラ様！
+ShowTextBox "I'm moved\nbeyond words,\nLady Pyocola!\nThank you!"
+WaitTextBox
+ShowChara 4 2 29
+# そのチョコは、ぴ
+# よこの誕生日プレ
+# ゼントのお返しぴ
+# ょ
+ShowTextBox "You all got\nthat birthday\npresent for me,\nso this is me\nreturning the\nfavor, pyo!"
+WaitTextBox
+ShowChara 5 1 36
+# ピョコラ様、あり
+# がとうございます
+ShowTextBox "I thank you\nfrom the bottom\nof my heart,\nLady Pyocola."
+WaitTextBox
+ShowChara 4 2 29
+# そして、店長さん
+# にもぴょ
+ShowTextBox "And I've got\nsome for you,\ntoo, Manager!"
+WaitTextBox
+ShowChara 4 0 34
+# これはいつもお世
+# 話になってるお礼
+# にぴょ
+ShowTextBox "This is thanks\nfor everything\nyou've done for\nus, pyo."
+WaitTextBox
+ShowChara 7 1 51
+# いいな、店長のが
+# 一番大きいぞ…
+ShowTextBox "The Manager's\nshare is the\nbiggest...\nlucky!"
+WaitTextBox
+ShowChara 4 2 29
+# ホワイトデーのお
+# 返しは、あげたチ
+# ョコの大きさに比
+# 例するものを要求
+# するぴょっ！
+ShowTextBox "Of course, I\nexpect you to\nrepay every\ngram on White\nDay, pyo!"
+WaitTextBox
+ShowChara 7 1 58
+# えっ！？じゃあ、
+# 大きくなくてよか
+# ったかも…
+ShowTextBox "Huh!? Now I'm\nkind of glad\nmine is\nsmall..."
+WaitTextBox
+ShowChara 4 2 29
+# ぴょぴょ、ただの
+# 冗談ぴょ～！
+ShowTextBox "Pyo pyo!\nI'm just\njoking, pyo!"
+WaitTextBox
+ShowChara 5 1 37
+# （ピョコラ様…一
+# 瞬、目が本気でし
+# た…）
+ShowTextBox "(So she says,\nbut her eyes\nwere dead\nserious...)"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 4 2 34
+# ふう、チョコ配り
+# も楽じゃないぴょ
+ShowTextBox "Whew! That was\na lot of\nchocolate to\nhand out, pyo."
+WaitTextBox
+ShowChara 6 1 40
+# そ、そうですね
+ShowTextBox "I-Indeed..."
+WaitTextBox
+ShowChara 4 2 28
+# みんなもそう思う
+# ぴょ？
+ShowTextBox "Right,\neveryone?"
+WaitTextBox
+ShowChara 5 1 39
+# ―して、ピョコラ
+# 様、ご用は何でし
+# ょうか？
+ShowTextBox "... Lady\nPyocola, did\nyou need\nsomething from\nus?"
+WaitTextBox
+ShowChara 4 2 29
+# あとかたづけと、
+# そうじを頼むぴょ
+ShowTextBox "Oh, yeah. You\nall should\nclean up the\nshop now that\nwe're done, pyo."
+WaitTextBox
+ShowChara 7 1 49
+# ちぇっ…
+ShowTextBox "Wha!? Man..."
+WaitTextBox
+ShowChara 4 2 28
+# ん、どうしたぴょ
+# ？
+ShowTextBox "Is there a\nproblem, pyo?"
+WaitTextBox
+ShowChara 6 1 41
+# い、いいえ、何で
+# もありません
+ShowTextBox "N-No. We'll\nget to work..."
+WaitTextBox
+ShowChara 5 1 37
+# クウ少佐、しっか
+# りしろ…また来年
+# があるではないか
+# …
+ShowTextBox "Pull yourself\ntogether, Major\nCoo! There's\nalways next\nyear..."
+WaitTextBox
+ShowChara 7 1 49
+# う～ん、チョコレ
+# ート食いたかった
+# なー…
+ShowTextBox "I was looking\nforward to\ngetting\nchocolate,\nthough..."
+WaitTextBox
+ShowChara 4 2 28
+# そうだ、ひとつ言
+# い忘れてたことが
+# あったぴょ
+ShowTextBox "Oh, that's\nright! I nearly\nforgot, pyo."
+WaitTextBox
+ShowChara 4 0 29
+# チョコレート！
+ShowTextBox "Chocolate!"
+WaitTextBox
+ShowChara 7 1 48
+# ！！！
+ShowTextBox "Gasp!"
+WaitTextBox
+ShowChara 4 2 29
+# 少し余ってるから
+# 残りは３人で分け
+# るといいぴょ！
+ShowTextBox "There was some\nleft over, so\nI'll let you\nhave it, pyo."
+WaitTextBox
+ShowChara 7 1 49
+# もひとつ、がっく
+# り…
+ShowTextBox "... She didn't\nthink of us\nat all..."
+WaitTextBox
+ShowChara 5 1 37
+# ク、クウ少佐、気
+# を確かに…
+ShowTextBox "Stay strong,\nMajor Coo..."
+WaitTextBox
+ShowChara 6 1 43
+# ピョコラ様…あん
+# まりです
+ShowTextBox "Lady Pyocola\nis a harsh\nmistress..."
+WaitTextBox
+EndScript

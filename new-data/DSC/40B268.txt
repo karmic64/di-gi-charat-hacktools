@@ -1,0 +1,75 @@
+DSCBase $40B268
+
+
+
+
+Subscript 0
+ShowChara 3 0 17
+# 通信の用意ができたらＡボタンをおすにゅ
+ShowTextBox "Press the A button when you're ready to begin communicating, nyu."
+EndScript
+
+
+
+Subscript 1
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 2
+# とりやめるにゅ
+ShowTextBox "Cancel communications, nyu."
+Wait 60
+EndScript
+
+
+
+Subscript 3
+# 通信待ちにゅ…
+ShowTextBox "Waiting to communicate, nyu..."
+EndScript
+
+
+
+Subscript 4
+# 通信中にゅ…
+ShowTextBox "Communicating, nyu..."
+EndScript
+
+
+
+Subscript 5
+# 通信終了にゅ
+# Ａボタンを押して登録するにゅ
+ShowTextBox "Communications complete, nyu.\nPress A to finish the registration, nyu."
+EndScript
+
+
+
+Subscript 6
+# 登録したにゅ
+ShowTextBox "Registered, nyu."
+WaitTextBox
+# $0店長さんのめいしをすぐ見るにゅ？
+ShowTextBox "Do you want to go straight to Manager $0's business card, nyu?"
+WaitTextBox
+# すぐ見る
+# あとで
+ShowSelMenu09 2 "!Go now\nLater"
+EndScript
+
+
+
+Subscript 7
+# 通信がうまくいかなかったにゅ…
+ShowTextBox "The communication failed, nyu..."
+EndScript
+
+
+
+Subscript 8
+# $0店長さんを登録する場所をえらぶにゅ
+ShowTextBox "Choose where to register Manager $0's information, nyu."
+EndScript

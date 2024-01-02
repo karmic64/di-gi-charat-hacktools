@@ -1,0 +1,269 @@
+DSCBase $0C8CA0
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 1 1 8
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 1 1 9
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 1 1 10
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 1 1 11
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 1 1 12
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 1 1 13
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 1 1 14
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 1 1 15
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 1 1 16
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 2 1 22
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 2 1 23
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 2 1 24
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 2 1 25
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 2 1 23
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 2 1 27
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 2 1 55
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 2 1 23
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 2 1 56
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 2 1 26
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 3 1 17
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 3 1 18
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 3 1 19
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 3 1 20
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 3 1 21
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 4 1 28
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 4 1 29
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 4 1 30
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 4 1 31
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 4 1 32
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 4 1 33
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 4 1 34
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 4 1 62
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 5 1 35
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 5 1 36
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 5 1 37
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 5 1 38
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 5 1 39
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 5 1 57
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 5 1 64
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 6 1 40
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 6 1 41
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 6 1 42
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 6 1 43
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 6 1 44
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 6 1 45
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 6 1 46
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 7 1 47
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 7 1 48
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 7 1 49
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 7 1 50
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 7 1 51
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 7 1 52
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 7 1 58
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 8 1 1
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 8 1 2
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 8 1 3
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 8 1 4
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 8 1 53
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 8 1 54
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 11 1 5
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 10 1 6
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 9 1 7
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 12 1 59
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 12 1 60
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+ShowChara 13 1 61
+# ‚Ä‚·‚Æ
+ShowTextBox "Testo"
+WaitTextBox
+EndScript

@@ -1,0 +1,334 @@
+DSCBase $3FA8B8
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# 気がつけば、もう
+# １２月の半ば…
+ShowTextBox "We're already\nhalfway through\nDecember..."
+WaitTextBox
+# さすが師走（しわ
+# す）というだけあ
+# って、時間が経つ
+# のが早いわね
+ShowTextBox "This time of\nyear, the days\njust fly by,\ndon't they?"
+WaitTextBox
+ShowChara 1 2 8
+# クリスマスへむけ
+# て、大忙しの毎日
+# だにょ
+ShowTextBox "We're so busy\nevery day\ngetting ready\nfor Christmas,\nnyo..."
+WaitTextBox
+ShowChara 8 1 1
+# くつろいでるとこ
+# ろ悪いけど、店長
+# さんからの差し入
+# れゲマ～
+ShowTextBox "We don't have\nmuch time for\na break, but\nthe Manager\nsent some\nrefreshments~"
+WaitTextBox
+ShowChara 1 2 9
+# 店長しゃんからの
+# 差し入れ？…にょ
+# にょ～、さっそく
+# 開けるにょ～
+ShowTextBox "Refreshments?\nNyo, I wanna\nsee, nyo!"
+WaitTextBox
+ShowChara 2 1 22
+# ずいぶん大きな包
+# みだけど、何かし
+# ら？
+ShowTextBox "This is a\npretty big\nbox... I wonder\nwhat's inside?"
+WaitTextBox
+ShowChara 1 2 8
+# 赤と白のコートみ
+# たいなものが入っ
+# てるにょ
+ShowTextBox "What's this,\nnyo? This huge\nred and white\ncoat-lookin'\nthing..."
+WaitTextBox
+ShowChara 2 1 22
+# これって、サンタ
+# の服ね！
+ShowTextBox "Oh! That's\nSanta's outfit,\nisn't it?"
+WaitTextBox
+ShowChara 3 2 21
+# サンタの服は、サ
+# ンタ１頭から１着
+# 分しかとれないた
+# め、とても貴重な
+# 品にゅ
+ShowTextBox "Each Santa\nonly drops a\nsingle set...\nIt's very\nrare, nyu."
+WaitTextBox
+ShowChara 1 2 15
+# にょにょっ、そう
+# なのかにょっ！？
+# ぷちこは物知りだ
+# にょ～
+ShowTextBox "Really, nyo!?\nYou sure know\na lot, Puchiko!"
+WaitTextBox
+ShowChara 2 1 23
+# こらこら、知らな
+# い人をだましちゃ
+# ダメじゃない…
+ShowTextBox "Come on, don't\njust make\nstuff up..."
+WaitTextBox
+ShowChara 8 1 2
+# 知らないって、罪
+# ゲマ～
+ShowTextBox "It's her fault\nfor not\nknowing, gema~"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 2 1 22
+# えーっと、これは
+# サンタの格好をし
+# て街を歩いて、お
+# 店の宣伝をしろっ
+# てことね
+ShowTextBox "Anyway, this\noutfit is for\nwalking around\ntown and\nadvertising\nthe shop."
+WaitTextBox
+ShowChara 3 2 17
+# でも、サンタの服
+# は１着しかないに
+# ゅ
+ShowTextBox "But there's\nonly one set\nof clothes,\nnyu."
+WaitTextBox
+ShowChara 1 2 15
+# ということは、１
+# 着の服を３人で着
+# なきゃならないに
+# ょ？
+ShowTextBox "So we have to\nsplit one\nset between\nthree people,\nnyo?"
+WaitTextBox
+# むむむ、これは難
+# 問にょ…
+ShowTextBox "Hmmm, that\ncould get\ncomplicated,\nnyo..."
+WaitTextBox
+ShowChara 3 2 18
+# うさだがでじこを
+# 肩車して、でじこ
+# がぷちこを肩車し
+# て
+ShowTextBox "Dejiko can\nride on Usada's\nshoulders, and\nI'll be on\ntop..."
+WaitTextBox
+# そして、その上か
+# らサンタの服をは
+# おればいいにゅ！
+ShowTextBox "Then throw the\ncoat over\nall three of\nus, nyu!"
+WaitTextBox
+ShowChara 2 1 24
+# どこの世界に、そ
+# んなあやしいサン
+# タクロースがいる
+# のよ！
+ShowTextBox "I think I'd\nrun away if I\nsaw a Santa\nlike that..."
+WaitTextBox
+ShowChara 1 2 12
+# あいかわらず、う
+# さだはノリが悪い
+# にょ
+ShowTextBox "Usada shoots\ndown all the\nfun ideas, as\nusual, nyo."
+WaitTextBox
+ShowChara 2 1 22
+# はいはい、誰がサ
+# ンタの役をやるの
+# か、さっさとじゃ
+# んけんで決めまし
+# ょ？
+ShowTextBox "Okay, how about\nwe decide who\ngets to be\nSanta with\nRock Paper\nScissors?"
+WaitTextBox
+ShowChara 1 2 8
+# 最初はグーでいく
+# にょ！
+ShowTextBox "Rock never\nfails, nyo!"
+WaitTextBox
+ShowChara 2 1 22
+# わかったわ
+ShowTextBox "Alright..."
+WaitTextBox
+ShowChara 1 2 9
+# じゃ、いくにょ！
+# さーいしょはグー
+ShowTextBox "Here I go,\nnyo! Rock,\npaper,\nscissors..."
+WaitTextBox
+ShowChara 1 2 10
+# じゃんけん、ぽん
+# にょっ！
+ShowTextBox "Shoot, nyo!"
+WaitTextBox
+Fade 3 30
+Wait 60
+EndScript
+
+
+
+Subscript 1
+Unk08 1 86 72 84 108 10 3
+SetBG 48
+Fade 2 30
+ShowChara 1 0 0
+# にょにょ～、でじこ…
+# じゃなくて、サンタさ
+# んだにょ～っ！
+ShowTextBox "Nyo nyo nyo...\nI mean,\nHo ho ho!\nI'm Santa, nyo!"
+WaitTextBox
+# 全国のよい子のみんな
+# 今年のプレゼントはお
+# 決まりですかにょ？
+ShowTextBox "Have you good\nboys and girls\ndecided on what\npresents you\nwant, nyo?"
+WaitTextBox
+# まだなら、お父さんお
+# 母さんを連れて、でじ
+# このお店に来るにょ！
+ShowTextBox "Come on down\nto the shop\nwith your Mom\nand Dad, nyo!"
+WaitTextBox
+# でじこがいっしょにお
+# ねだりしてあげるにょ
+# ～！
+ShowTextBox "Whatever you\nwant, I'll ask\n'em for real\nnicely, nyo!"
+WaitTextBox
+# …だいたいこんなもん
+# かにょ
+# じゃ行って来るにょ～
+ShowTextBox "... Something\nlike that,\nnyo. I'll see\nyou then, nyo~"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+Unk08 2 169 72 16 84 10 3
+Fade 2 30
+ShowChara 2 1 25
+# うっ、負けちゃっ
+# た…
+ShowTextBox "Ugh, I lost..."
+WaitTextBox
+ShowChara 1 2 9
+# じゃ、あとはよろ
+# しくにょ～
+ShowTextBox "Good luck, nyo~"
+WaitTextBox
+ShowChara 3 2 17
+# よろしくにゅ
+ShowTextBox "You can do\nit, nyu."
+WaitTextBox
+ShowChara 2 1 25
+# ふぅ…仕方ないわ
+# ね
+ShowTextBox "Sigh...\nI guess\ncomplaining\nwon't help."
+WaitTextBox
+Fade 3 30
+SetBG 49
+Fade 2 30
+ShowChara 2 0 0
+# みなさ～ん、当店は明
+# 日からクリスマスセー
+# ルを開催しまーす！
+ShowTextBox "Dear customers,\nstarting\ntomorrow we'll\nbe holding our\nChristmas Sale!"
+WaitTextBox
+# ぜひ、いらっしゃって
+# くださいね～♪
+ShowTextBox "Make sure to\nstop by, okay?♪"
+WaitTextBox
+# （はぁはぁ…この袋を
+# 担いで回るのって、け
+# っこう大変だわ…）
+ShowTextBox "(Jeez... What\ndid they put in\nthis bag? It's\nso heavy!)"
+WaitTextBox
+# （だけど、ここでくじ
+# けちゃダメよ、ラ・ビ
+# ・アン・ローズ…）
+ShowTextBox "(No... I can't\nlet this get\nto me!)"
+WaitTextBox
+# （だって、アタシはラ
+# ・ビ・アン・ローズな
+# んですものっ…！）
+ShowTextBox "(I'm\nRabi~En~Rose!\nThis is nothing\nfor me...!)"
+WaitTextBox
+# 明日からクリスマスセ
+# ール、クリスマスセー
+# ルでーす、
+ShowTextBox "Tomorrow's our\nChristmas Sale!\nChristmas Sale!"
+WaitTextBox
+# みんな、一度でいいか
+# ら遊びに来てねーっ
+# にこっ♪
+ShowTextBox "Everyone, make\nsure to come\ncheck it out,\nokaay? ♪"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+Unk08 3 123 84 8 112 10 3
+Fade 2 30
+ShowChara 3 2 20
+# ぷちこ、負けたに
+# ゅ？
+ShowTextBox "... I lost,\nnyu?"
+WaitTextBox
+ShowChara 1 2 8
+# はい、サンタ帽子
+# にょ
+ShowTextBox "Here's your\nhat, nyo."
+WaitTextBox
+ShowChara 2 1 22
+# それにサンタ袋ね
+ShowTextBox "Don't forget\nthe bag,\neither."
+WaitTextBox
+ShowChara 3 2 20
+# にゅにゅ…重いに
+# ゅ
+ShowTextBox "Nyu...\nThis is\nheavy, nyu..."
+WaitTextBox
+ShowChara 2 1 25
+# だいじょうぶ？無
+# 理そうなら、代わ
+# ってあげるけど…
+ShowTextBox "Are you OK?\nIf it's too\nmuch, we can\nfind another\none..."
+WaitTextBox
+ShowChara 3 2 17
+# だいじょうぶにゅ
+# ぷちこ、がんばる
+# にゅ！
+ShowTextBox "I'm fine, nyu.\nI can do it,\nnyu!"
+WaitTextBox
+Fade 3 30
+SetBG 50
+Fade 2 30
+ShowChara 3 0 0
+# といったものの、ちょ
+# っと無茶だったかもに
+# ゅ
+ShowTextBox "... Well,\nmaybe not,\nnyu..."
+WaitTextBox
+# ふー、ちょっと、
+# ひと休みにゅ
+ShowTextBox "Let me take\na break for\na bit, nyu..."
+WaitTextBox
+# ……
+ShowTextBox "..."
+WaitTextBox
+# …………
+ShowTextBox "..."
+WaitTextBox
+# にゅっ、店長さん、ど
+# うしてこんなころにい
+# るにゅ？
+ShowTextBox "Nyu? Manager,\nwhat are you\ndoing here,\nnyu?"
+WaitTextBox
+# ぷちこを迎えにきてく
+# れたにゅ？ありがとに
+# ゅ…助かったにゅ
+ShowTextBox "You came to\nhelp me?\n... Thanks,\nnyu."
+WaitTextBox
+# 今年はいいクリスマス
+# になりそうにゅ！
+ShowTextBox "I think this\nChristmas will\nbe a good one,\nnyu!"
+WaitTextBox
+EndScript

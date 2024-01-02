@@ -1,0 +1,467 @@
+DSCBase $3E4818
+
+
+
+### Prefill data: $85,$81
+Subscript 0
+ShowChara 1 1 9
+# ちょっと$1で有名な$2屋があるから、お昼休みに行って来たにょ
+ShowTextBox "I heard about a\nfamous\n$2\nplace in\n$1,\nso I went, nyo."
+WaitTextBox
+ShowChara 1 0 12
+# でも行列がすごくて、結局食べれなかったにょ～
+ShowTextBox "But the line\nwas so long,\nI didn't even\nget through\nthe door,\nnyo..."
+WaitTextBox
+# くやしいにょ～
+ShowTextBox "I'm so\nhungry, nyo..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87
+Subscript 1
+ShowChara 1 1 12
+# にょ～…
+ShowTextBox "Nyo..."
+WaitTextBox
+# 昨日の分の$1が、まだ終わらないにょ～
+ShowTextBox "I still haven't\nfinished my\n$1\nwork from\nyesterday, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83
+Subscript 2
+ShowChara 1 1 15
+# $1にょ！
+# $1がお店にいるにょ！！
+ShowTextBox "It's a\n$1!\nThere's a\n$1\nin the shop,\nnyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80
+Subscript 3
+ShowChara 1 1 8
+# $1…$1…
+ShowTextBox "$1...\n$1..."
+WaitTextBox
+ShowChara 1 0 12
+# $1って何者だったかにょ～…
+# どうしても思い出
+# せないにょ～
+ShowTextBox "Who was that,\nagain...?\nI just can't\nremember,\nnyo..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81
+Subscript 4
+ShowChara 1 1 13
+# 目からビィームッ！！
+ShowTextBox "Eye Laser Beam!!"
+WaitTextBox
+ShowChara 8 2 4
+# ゲマーッッ！！！
+ShowTextBox "Gemaaaaa---!"
+WaitTextBox
+ShowChara 1 1 11
+# でじこのおやつを
+# 食べたむくいにょ！
+# $1の恨みは恐ろしいんだにょ！
+ShowTextBox "That's what you\nget for trying\nto eat my\n$1,\nnyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83
+Subscript 5
+ShowChara 1 1 14
+# にょにょにょ…
+# ぴよこのお店に$1を投げ入れてきたにょ
+ShowTextBox "Nyo, nyo, nyo...\nI threw a wild\n$1\ninto Piyoko's\nshop, nyo."
+WaitTextBox
+# 今に大さわぎになるにょ！
+ShowTextBox "I bet it's\na complete\nmess in there\nby now, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$81
+Subscript 6
+ShowChara 1 1 10
+# やったにょ！
+# ついに$1名物の$2をゲットしたにょ！
+ShowTextBox "Hooray!\nI got the world\nfamous\n$1\n$2\nall to myself!"
+WaitTextBox
+ShowChara 1 0 9
+# 楽しみだにょ
+# はやく食べたいにょ～
+ShowTextBox "I can't wait\nto dig in, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$89
+Subscript 7
+ShowChara 1 1 15
+# にょ～～～！？
+# お店に$1が来てるにょ～！！
+ShowTextBox "Nyo!?\n$1\njust walked into\nthe shop, nyo!"
+WaitTextBox
+ShowChara 1 0 12
+# しかも『$2』グッズをたくさん買ってるにょ！？
+ShowTextBox "And now they're\nbuying all the\n$2\nmerch, nyo!?"
+WaitTextBox
+# イメージダウンだにょ～っ！
+ShowTextBox "Gaah!!!\nMy mental image\nof you is\nruined now, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 8
+ShowChara 1 1 10
+# でじこ、『$1』を読んだにょ！
+ShowTextBox "I just finished\nreading\n$1,\nnyo!"
+WaitTextBox
+# すごく感動したにょ！
+ShowTextBox "It was so,\nso, good, nyo!\nThe ending had\nme sobbing!"
+WaitTextBox
+ShowChara 1 0 11
+# 店長しゃんも読む
+# がいいにょ！
+# いや読むべきにょ！
+ShowTextBox "You should read\nit too,\nManager!\nNo, you've\nGOTTA read it,\nnyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86
+Subscript 9
+ShowChara 1 1 16
+# すごくだるいにょ～…
+ShowTextBox "I'm so lazy,\nnyo..."
+WaitTextBox
+# こんな時は$1でバケーションだにょ～
+ShowTextBox "I wanna go on\nvacation,\nnyo...\nMaybe to\n$1!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$86
+Subscript 10
+ShowChara 1 1 13
+# ふっふっふっ…
+# 見たにょ…
+ShowTextBox "Heh heh heh...\nI saw it all,\nnyo..."
+WaitTextBox
+# 昨日、うさだが$1と楽しそうに話してたのを見たにょ
+ShowTextBox "Yesterday, Usada\nwas chatting\nwith\n$1,\nnyo."
+WaitTextBox
+ShowChara 2 2 27
+# あっ…あれは道に迷ってたから、教えてあげてただけよ！
+ShowTextBox "H-Huh?\nThey were\njust asking for\ndirections!"
+WaitTextBox
+ShowChara 2 0 22
+# $2まで行くって言ってたわ…無事に着いたかしら？
+ShowTextBox "They were trying\nto get to\n$2...\nI wonder if they\nmade it alright?"
+WaitTextBox
+ShowChara 1 1 14
+# ほんとにそれだけかにょ？
+ShowTextBox "Is that really\nall, nyo...?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$85
+Subscript 11
+ShowChara 1 1 15
+# にょにょ～ッ！？
+# 忘れてたにょ！
+ShowTextBox "Nyo!?\nI forgot, nyo!"
+WaitTextBox
+# 今日は$1が大活躍のゲーム『$2に消ゆ』の発売日だったにょ！
+ShowTextBox "Today's the day\n\"Escaping to\n$2\"\ncomes out, nyo!\n$1\nmade it, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$8A
+Subscript 12
+ShowChara 1 2 8
+# 店長しゃん、知ってるかにょ？
+ShowTextBox "Hey, Manager.\nDid you know?"
+WaitTextBox
+ShowChara 1 0 9
+# 最近、$1は$2でおでかけするのが、お気に入りだにょ
+ShowTextBox "$1\nhas been getting\naround in a\n$2\nlately, nyo.\nIt's kinda weird."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$40,$8A,$85
+Subscript 13
+ShowChara 1 2 8
+# 昨日$1と$2は、$3に乗って$4に旅立ったにょ
+ShowTextBox "$1 and\n$2\nleft for\n$4 in\na $3\nyesterday, nyo."
+WaitTextBox
+ShowChara 1 0 12
+# お別れにょ…もう永遠のお別れにょ…
+ShowTextBox "They're doomed,\nnyo...\nI'm gonna miss\nthem, nyo..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 14
+ShowChara 1 1 8
+# 店長しゃん、この
+# あいだ注文した本が届いてるにょ
+ShowTextBox "Manager, the\nbooks we\nordered just\ngot here, nyo."
+WaitTextBox
+# さっそく棚に並べるにょ
+ShowTextBox "I'm gonna put\nthem up on\nthe shelf,\nnyo."
+WaitTextBox
+ShowChara 1 0 15
+# にょ～～～ッ！？
+# 『$1』かにょ！？
+ShowTextBox "Nyo!?\nIs this\n$1,\nnyo!?"
+WaitTextBox
+# 『$1』なら、でじこが１冊買うにょ！
+ShowTextBox "I need it!\nI'll take one,\nnyo!"
+WaitTextBox
+ShowChara 2 4 23
+# ありがとうござい
+# ます
+# ５００円になりま
+# す
+ShowTextBox "Thank you very\nmuch.\nThat'll be\n500 yen."
+WaitTextBox
+ShowChara 1 4 12
+# だめにょ…今月は
+# おこづかいがもう
+# ないにょ～
+# あきらめるにょ…
+ShowTextBox "I'm already\nout of\nallowance\nmoney, nyo...\nGoodbye, my\n$1..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88
+Subscript 15
+ShowChara 1 1 8
+# 店長しゃん、店長しゃん
+ShowTextBox "Hey, Manager!"
+WaitTextBox
+# 昨日の『$1』見たかにょ？
+ShowTextBox "Did you see\n$1\nlast night, nyo?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$80,$85,$8B
+Subscript 16
+ShowChara 1 2 8
+# 今日は仕事が終ったら、『$1』を見るにょ
+ShowTextBox "I'm gonna watch\n$1\nafter work, nyo."
+WaitTextBox
+# なんでも、$2が$3まで$4しながら旅する番組らしいにょ
+ShowTextBox "$2\nhas to make it\nto $3\nwhile playing\n$4,\nnyo."
+WaitTextBox
+ShowChara 1 0 9
+# 楽しみだにょ！
+ShowTextBox "It's gonna be\nhilarious! I\ncan't wait, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84
+Subscript 17
+ShowChara 1 2 12
+# にょ～～…
+# ハナがムズムズす
+# るにょ～
+ShowTextBox "Nyo...\nMy nose is\nso itchy, nyo."
+WaitTextBox
+ShowChara 1 0 15
+# 花粉にょ！？
+# $1の花粉がお店の中にうずまいてるにょ！
+ShowTextBox "Is it pollen!?\n$1\npollen is\ngetting into\nthe shop, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 18
+ShowChara 1 2 8
+# でじこ『$1』が、とても気になるにょ～
+ShowTextBox "I'm a big fan\nof\n$1,\nnyo!"
+WaitTextBox
+ShowChara 1 0 9
+# 来週の続きがどう
+# なるか楽しみだに
+# ょ！
+ShowTextBox "I can't wait\nto see what\nhappens in\nnext week's\nchapter, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84
+Subscript 19
+ShowChara 1 2 8
+# 店長しゃん、おぼ
+# えておくがいいに
+# ょ！
+ShowTextBox "Manager!\nTime to take\nsome notes,\nnyo!"
+WaitTextBox
+# でじこの好きな花
+# は$1だにょ
+ShowTextBox "My favorite\nflower is the\n$1,\nnyo!"
+WaitTextBox
+ShowChara 1 0 10
+# 見てもよし食べて
+# もよしのナイスな
+# お花にょ！
+ShowTextBox "They're pretty\nto see and good\nto eat!\nThey're the\nbest flower\never, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $82
+Subscript 20
+ShowChara 1 2 10
+# プハ～！
+# 仕事の後の$1はサイコーにょ！
+ShowTextBox "Chug, chug...\nWhew!\nNothing like a\nlittle\n$1\nafter work, nyo!"
+WaitTextBox
+ShowChara 1 0 9
+# 店長しゃんも飲む
+# といいにょ
+ShowTextBox "Manager,\nyou can have\nsome too if\nyou want, nyo."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$8B
+Subscript 21
+ShowChara 1 2 8
+# なにやら店の外が
+# 騒がしいにょ…
+ShowTextBox "Sounds like\nsomething's\ngoing on\noutside, nyo..."
+WaitTextBox
+ShowChara 1 0 15
+# にょッ！？
+# 店の外で$1が$2してるにょ！！
+ShowTextBox "Nyo!?\n$1\nis playing\n$2\noutside the\nshop, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87
+Subscript 22
+ShowChara 1 2 16
+# ふ～…
+# 疲れたにょ～
+ShowTextBox "Guhh...\nI'm tired,\nnyo..."
+WaitTextBox
+# この季節の$1は骨が折れるにょ～
+ShowTextBox "$1\nwork is\nexhausting\nthis time of\nyear, nyo..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84
+Subscript 23
+ShowChara 1 2 8
+# にょ…？
+# お店に$1の花束が届いてるにょ
+ShowTextBox "Nyo?\nSomeone sent a\nbouquet to the\nstore, nyo."
+WaitTextBox
+ShowChara 1 0 15
+# にょ～～～！？
+ShowTextBox "Nyooo!?"
+WaitTextBox
+ShowChara 1 0 12
+# うさだあてかにょ～～～！！
+ShowTextBox "It's for\nUsada, nyo!!!"
+WaitTextBox
+ShowChara 1 0 11
+# ムカツクにょ！
+# なんででじこ様あてじゃないにょ！！
+ShowTextBox "Gaahh!!!\nWhy isn't\nanyone sending\nme bouquets,\nnyo!?"
+WaitTextBox
+ShowChara 1 0 13
+# ケッケッケッ…
+# 燃やしてしまうにょ～
+ShowTextBox "I'll just go\nahead and\nburn this,\nnyo...\nHeh heh heh..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$8A,$8B
+Subscript 24
+ShowChara 1 2 8
+# 近頃$1では$2に乗りながら$3するのが、ブームらしいにょ
+ShowTextBox "Playing\n$3\nwhile riding a\n$2 in\n$3 is\nthe new thing."
+WaitTextBox
+ShowChara 1 0 12
+# でもちょっとアブナイにょ～
+ShowTextBox "But it seems\na little\ndangerous, nyo."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86,$87
+Subscript 25
+ShowChara 1 2 8
+# 店長しゃん店長しゃん！
+ShowTextBox "Manager,\nManager!"
+WaitTextBox
+# 店長しゃんは昔$1で$2をしてたって本当かにょ？
+ShowTextBox "Is it true you\nused to be a\n$2\nat\n$1,\nnyo?"
+WaitTextBox
+ShowChara 1 0 12
+# そんな苦労がある
+# から、今の店長しゃんがいるんだにょ
+ShowTextBox "Wow, nyo...\nI guess that\nmade you the\nperson you are\ntoday, huh,\nnyo?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8A
+Subscript 26
+ShowChara 1 1 10
+# しっつもんだにょ～～！
+ShowTextBox "I've got a\nquestion, nyo!"
+WaitTextBox
+ShowChara 1 0 9
+# 店長しゃんは$1を見たことあるかにょ？
+ShowTextBox "Manager,\nhave you ever\nseen a\n$1,\nnyo?"
+WaitTextBox
+ShowChara 2 4 22
+# あら、アタシは見たことあるわよ
+ShowTextBox "Oh, I have!"
+WaitTextBox
+ShowChara 1 4 11
+# うさだには聞いてないにょッ！！
+ShowTextBox "I wasn't\nasking you,\nnyo!!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$82,$84
+Subscript 27
+ShowChara 1 2 10
+# ビックリニュースだにょ！
+ShowTextBox "I just saw the\ncraziest\nthing, nyo!"
+WaitTextBox
+ShowChara 1 0 8
+# $1は$2を飲む時に$3の花びらを入れてるらしいにょ！
+ShowTextBox "$1\nput\n$3\npetals in their\n$2,\nnyo!"
+WaitTextBox
+ShowChara 1 0 14
+# キザっぽいにょ～～～
+ShowTextBox "That's so\npretentious,\nnyo!"
+WaitTextBox
+EndScript

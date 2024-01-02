@@ -1,0 +1,50 @@
+DSCBase $3FFEFC
+
+
+
+
+Subscript 0
+Unk08 2 142 74 16 100 10 3
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# 早いものね、もう
+# 桜の季節がめぐっ
+# て来たのね…
+ShowTextBox "Just like that,\nit's already\ncherry blossom\nseason again..."
+WaitTextBox
+ShowChara 2 0 23
+# 店長さん、アタシ
+# 最後まで悔いのな
+# いようがんばるわ
+# ！
+ShowTextBox "Manager, let's\nwork hard and\nfinish the year\nwith no regrets!"
+WaitTextBox
+# きっちり仕事して
+# 新しい一年を迎え
+# るのよ！
+ShowTextBox "Go and face the\nnext year with\nour heads held\nhigh!"
+WaitTextBox
+Fade 3 30
+SetBG 32
+Fade 2 30
+ShowChara 2 0 0
+# さぁ、今日から決算セ
+# ール開催よーっ！
+ShowTextBox "Today's the\nbeginning of\nthe final\nsale...!"
+WaitTextBox
+# ばんばんっ！買ってか
+# ないと、承知しないわ
+# よーっ！
+ShowTextBox "Move, move! If\nyou're not\nbuying, I don't\nsee you!"
+WaitTextBox
+# はいッ！そこの人っ！
+# 目が合ったのも何かの
+# 縁と思いなさい！
+ShowTextBox "Hey! You, over\nthere! That fits\nyou so well, it\nmust be fate!"
+WaitTextBox
+# だからぁ、買っていっ
+# てちょうだいね@
+ShowTextBox "So why don't\nyou go ahead and\nbuy two, just\nin case?"
+WaitTextBox
+EndScript

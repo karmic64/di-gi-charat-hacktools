@@ -1,0 +1,78 @@
+DSCBase $410C84
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 1 0 10
+# バーゲンセールで
+# お客さんを集める
+# にょ
+ShowTextBox "Run a bargain sale to attract customers, nyo."
+WaitTextBox
+# 全品１割引
+# バーゲン開始にょ
+ShowTextBox "Everything's now on sale for 10% off, nyo."
+WaitTextBox
+Fade 1 30
+HideChara
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 2 0 23
+# バーゲンセールで
+# お客さんを集める
+# わ
+ShowTextBox "Run a bargain sale to attract customers."
+WaitTextBox
+# 全品１割引
+# バーゲン開始よ
+ShowTextBox "Everything's now on sale for 10% off!"
+WaitTextBox
+Fade 1 30
+HideChara
+EndScript
+
+
+
+Subscript 2
+SetBG 111
+Fade 0 30
+ShowChara 3 0 18
+# バーゲンセールで
+# お客さんを集める
+# にゅ
+ShowTextBox "Run a bargain sale to attract customers, nyu."
+WaitTextBox
+# 全品１割引
+# バーゲン開始にゅ
+ShowTextBox "Everything's now on sale for 10% off, nyu."
+WaitTextBox
+Fade 1 30
+HideChara
+EndScript
+
+
+
+Subscript 3
+SetBG 111
+Fade 0 30
+ShowChara 4 0 29
+# バーゲンセールで
+# お客さんを集める
+# ぴょ
+ShowTextBox "Run a bargain sale to attract customers, pyo."
+WaitTextBox
+# 全品１割引
+# バーゲン開始ぴょ
+ShowTextBox "Everything's now on sale for 10% off, pyo."
+WaitTextBox
+Fade 1 30
+HideChara
+EndScript

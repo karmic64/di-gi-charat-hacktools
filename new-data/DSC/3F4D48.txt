@@ -1,0 +1,587 @@
+DSCBase $3F4D48
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 55
+# ふう…
+ShowTextBox "Sigh..."
+WaitTextBox
+ShowChara 1 2 8
+# ため息なんかつい
+# てどうしたにょ、
+# うさだ？
+ShowTextBox "I didn't know\nyour ears could\neven droop like\nthat, nyo.\nSomething got\nyou down, Usada?"
+WaitTextBox
+ShowChara 2 1 55
+# 明日から、２学期
+# 開始…楽しかった
+# 夏休みも今日で終
+# わりかぁ…
+ShowTextBox "The new school\nterm starts\ntomorrow...\nSummer vacation\nalways feels\nway too short."
+WaitTextBox
+ShowChara 1 2 16
+# にょにょ、でじこ
+# には関係ない話に
+# ょ～
+ShowTextBox "That's got\nnothing to\ndo with me, nyo."
+WaitTextBox
+ShowChara 2 1 22
+# あら、そうでもな
+# いわよ？
+ShowTextBox "You think so?\nI wouldn't be\nso sure..."
+WaitTextBox
+ShowChara 1 2 8
+# なんでにょ？
+ShowTextBox "What do you\nmean, nyo?"
+WaitTextBox
+ShowChara 2 1 22
+# だって、学校が始
+# まったら、お店に
+# 来るお客さんの数
+# が減っちゃうでし
+# ょ？
+ShowTextBox "The start of the\nschool year\nmeans there'll\nbe fewer\ncustomers,\nright?"
+WaitTextBox
+# 少なくとも、夏休
+# みと同じってわけ
+# にはいかないわよ
+# ね…
+ShowTextBox "Business was\ngreat during\nthe break, but\nthings will be\ndifferent in\nthe fall."
+WaitTextBox
+ShowChara 1 2 15
+# お客さんが減る…
+# にょにょっ、それ
+# はピンチにょっ！
+ShowTextBox "Fewer\ncustomers...\nThis is bad,\nnyo!!"
+WaitTextBox
+ShowChara 2 1 22
+# なんとか、お客さ
+# んの気をひく手を
+# 考えなきゃね…
+ShowTextBox "We need to find\nsome way to draw\nin more people,\nnyo..."
+WaitTextBox
+ShowChara 1 2 8
+# にょにょっ…アイ
+# ディア、アイディ
+# ア…
+ShowTextBox "Nyo... C'mon,\nthink, nyo..."
+WaitTextBox
+ShowChara 1 0 11
+# ゲマ、何か良い考
+# えがあったら言う
+# にょ！
+ShowTextBox "Gema, gimme a\ngood idea, nyo!"
+WaitTextBox
+ShowChara 8 2 2
+# きゅ、急にそんな
+# こと言われても困
+# るゲマ…
+ShowTextBox "I can't if you\nput me on the\nspot, gema..."
+WaitTextBox
+ShowChara 2 1 22
+# 夏休みが終わった
+# ばっかりでしょ？
+# 時期的にむずかし
+# いわよね
+ShowTextBox "Summer break has\nonly just ended,\nright? This is\nalways a\ndifficult\nseason."
+WaitTextBox
+# 夏のイベントなん
+# て、だいたい夏休
+# みのうちにやっち
+# ゃうもんだから…
+ShowTextBox "If we were\ngoing to hold\na summer sale,\nwe should have\ndone that during\nthe break."
+WaitTextBox
+ShowChara 1 2 9
+# そろそろ、何か思
+# いついたかにょ、
+# ゲマ？
+ShowTextBox "Well? Have you\ngot any ideas\nyet, nyo?"
+WaitTextBox
+ShowChara 8 2 2
+# だ、だからそうい
+# うことは、ゲマに
+# は荷が重いゲマ…
+ShowTextBox "I-I've already\ngot too much on\nmy plate,\ngema...!"
+WaitTextBox
+ShowChara 1 2 11
+# まったく、その黄
+# 色くて丸いボディ
+# はただの飾りかに
+# ょっ…！
+ShowTextBox "Gah!\nYou're just a\nbig, brainless,\nshiny orb, nyo!"
+WaitTextBox
+ShowChara 8 2 53
+# そ、そんなにほめ
+# られるとなんだか
+# 恥ずかしいゲマ…
+ShowTextBox "Y-You think so,\ngema? I'm kind\nof embarrassed,\ngema..."
+WaitTextBox
+ShowChara 1 2 11
+# ほめたんじゃない
+# にょ～っ！
+ShowTextBox "That wasn't a\ncompliment,\nnyo!!"
+WaitTextBox
+ShowChara 2 1 55
+# はいはい…
+ShowTextBox "Ahem!"
+WaitTextBox
+# 気が散るから、漫
+# 才はよそでやって
+# ちょうだいね…
+ShowTextBox "If you two are\ndone with your\ncomedy routine,\ncould we get\nback to the\ndiscussion?"
+WaitTextBox
+ShowChara 3 1 17
+# これを見るにゅ
+ShowTextBox "Look at this,\nnyu."
+WaitTextBox
+ShowChara 1 2 8
+# 新聞のチラシ？
+ShowTextBox "Is this from\nthe newspaper?"
+WaitTextBox
+ShowChara 3 1 17
+# ぷちこにいい考え
+# があるにゅ…
+ShowTextBox "I have an\nidea, nyu."
+WaitTextBox
+ShowChara 2 1 22
+# えーっと、読むわ
+# ね…
+ShowTextBox "Umm, let's\nsee..."
+WaitTextBox
+# “南京町名物、中
+# 秋節。今年は９月
+# ８日に開催！”
+ShowTextBox "\"Tokyo's\nfamous \nMid-Autumn\nFestival,\nstarting Sept.\n8th...\""
+WaitTextBox
+# なるほど、中秋節
+# か…
+ShowTextBox "An autumn\nfestival,\nhuh..."
+WaitTextBox
+ShowChara 1 2 8
+# 中秋節って、何に
+# ょ？
+ShowTextBox "What's an\nautumn\nfestival, nyo?"
+WaitTextBox
+ShowChara 2 1 22
+# えーと、夏祭りの
+# ことなんだけど、
+# 日本のじゃなくて
+# 中国のなのね
+ShowTextBox "It's the same\nsummer festival,\nbut it's a\nChinese\ntradition, not\nJapanese."
+WaitTextBox
+ShowChara 1 2 8
+# 夏祭りなら、この
+# 間やったにょ？
+ShowTextBox "Why are they\ndoing it now\nif it's a\nsummer festival,\nnyo?"
+WaitTextBox
+ShowChara 2 1 22
+# 旧暦だから、数週
+# 間あとにずれちゃ
+# うの
+ShowTextBox "Because of a\nchange in the\ncalendar, it's\nslipped later\ninto the year\nover time."
+WaitTextBox
+ShowChara 1 2 8
+# ううむ…そういう
+# ものなのかにょ…
+ShowTextBox "Hmmm... Is that\nso, nyo..."
+WaitTextBox
+ShowChara 2 1 23
+# とにかく、来週だ
+# なんて、時期がい
+# いわよね
+# やっちゃいましょ
+# うよ！
+ShowTextBox "Anyway, it\nstarts next\nweek! That's\nperfect timing\nfor us to do\nsomething!"
+WaitTextBox
+ShowChara 1 2 8
+# ところで、なんで
+# でじこたちが中国
+# のお祭りをやるの
+# かにょ？
+ShowTextBox "Why should we\ndo something\nfor the Chinese\nfestival, nyo?\nI don't know any\nChinese, nyo."
+WaitTextBox
+ShowChara 2 1 22
+# そりゃぁ…何も関
+# 係ないけど…
+ShowTextBox "Well... there's\nno real reason,\nbut..."
+WaitTextBox
+ShowChara 3 1 18
+# そこはそれにゅ！
+ShowTextBox "Doesn't matter,\nnyu!"
+WaitTextBox
+ShowChara 2 1 26
+# 今、ぷちこが良い
+# こと言ったわ！
+ShowTextBox "Exactly!"
+WaitTextBox
+# そこはそれ！こう
+# いうことは、やっ
+# たもの勝ちよ、や
+# ったもの勝ち！
+ShowTextBox "Reasons have no\nplace in big\nbusiness.\nWe'll take\nany opportunity\nto win, nyu!"
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ、どうも
+# 迷うにょ…
+ShowTextBox "Nyo... You kind\nof lost me."
+WaitTextBox
+ShowChara 8 2 1
+# こういうときは、
+# 店長さんに決めて
+# もらうのが一番だ
+# と思うゲマ…
+ShowTextBox "At times like\nthis, I think\nit's best to\nleave the\ndecision to the\nManager, gema..."
+WaitTextBox
+ShowChara 3 1 17
+# たまにはゲマもい
+# いこというにゅ
+ShowTextBox "Good idea, nyu."
+WaitTextBox
+ShowChara 1 2 8
+# 店長さん、中秋節
+# をやるのはＯＫと
+# 思うにょ？
+ShowTextBox "Manager, should\nwe do something\nfor the autumn\nfestival?"
+WaitTextBox
+# 中秋節をやる
+# やらない
+ShowSelMenu09 2 "!Let's do it!\nLet's not"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 2 1 23
+# 決定ね！
+ShowTextBox "Alright!"
+WaitTextBox
+# それじゃ、来週に
+# 向けて準備を始め
+# ましょ
+ShowTextBox "Let's get ready,\nshall we?"
+WaitTextBox
+ShowChara 1 2 12
+# にょにょ…来週ま
+# でに中国のお勉強
+# しとかなきゃいけ
+# ないにょ～
+ShowTextBox "Nyo... I'll\nhave to study\nup on China\nthis week,\nnyo..."
+WaitTextBox
+ShowChara 2 1 23
+# だいじょうぶよ、
+# てきとうに「アチ
+# ョ～」とか「アル
+# ヨ～」とか言って
+# れば問題ないわ…
+ShowTextBox "Keep it simple!\nYou know,\nNi hao,\nDu bu qi,\nstuff like that!"
+WaitTextBox
+ShowChara 1 2 9
+# ア、アチョーっ、
+# で、でじこアルに
+# ょ～っ！
+ShowTextBox "N-Ni hyao,\nnyo!"
+WaitTextBox
+ShowChara 2 1 23
+# 上手、上手…
+ShowTextBox "...\nWell, you've\nstill got time\nto practice!"
+WaitTextBox
+ShowChara 1 2 12
+# な、なんかだまさ
+# れてるような気が
+# するにょ…
+ShowTextBox "D-Don't laugh\nat me, nyo!"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 1 0 8
+# でじこ的には、な
+# んか納得いかない
+# にょ～
+ShowTextBox "It's a work\nin progress,\nnyo."
+WaitTextBox
+# ということで、そ
+# の考えはボツにょ
+ShowTextBox "Anyway, you\nall better\npractice too!"
+WaitTextBox
+ShowChara 2 1 25
+# もう、わがままな
+# んだから…
+ShowTextBox "Well, I\nsuppose I should\nbrush up on the\nbasics..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 1 146 55 36 88 10 3
+SetBG 111
+Fade 0 30
+ShowChara 2 1 23
+# 来てる、来てる、
+# お客さん、たくさ
+# ん来てるわぁ…
+ShowTextBox "Whew! The\ncustomers\njust keep on\ncoming!"
+WaitTextBox
+ShowChara 3 2 18
+# 中秋節、大成功に
+# ゅ
+ShowTextBox "Setting up a\nstall at this\nfestival was\nright on the\nmoney, nyo~!"
+WaitTextBox
+Fade 3 30
+SetBG 37
+Fade 2 30
+ShowChara 1 0 0
+# アチョ～っ、いらっし
+# ゃい、いらっしゃいア
+# ルにょ～
+ShowTextBox "Welcome, \nwelcome!"
+WaitTextBox
+# ただいま、中秋節の大
+# セール中アルにょっ！
+ShowTextBox "Ni hyao! Welcome\nto our big\nautumn sale,\nnyo!"
+WaitTextBox
+# 今なら、レジで中華ま
+# んじゅうプレゼント中
+# アルにょ～
+ShowTextBox "You'll get a\nfree dumpling\nwith any\npurchase, nyo!"
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 2 1 23
+# でじこ、大人気み
+# たいね…
+ShowTextBox "I feel like\nDejiko's\ngetting way\nmore attention\nthan usual..."
+WaitTextBox
+# やっぱり、アタシ
+# の指導がよかった
+# せいかしら？
+ShowTextBox "But that's\nall thanks to my\nsuperb\ndirection, of\ncourse!"
+WaitTextBox
+ShowChara 3 2 17
+# それは関係ない…
+# とは言いきれない
+# のが微妙なところ
+# にゅ…
+ShowTextBox "Can we get\nthrough one fair\nwithout any\narguments,\nnyu...?"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+Unk08 2 104 55 104 88 10 3
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# さあて、今日は中
+# 秋節…
+ShowTextBox "Well, today's\nthe day of\nthe autumn\nfestival..."
+WaitTextBox
+# お客さん、来てく
+# れるかしら…
+ShowTextBox "I wonder if\nwe'll get any\ncustomers...?"
+WaitTextBox
+ShowChara 1 2 15
+# たいへんにょ～！
+ShowTextBox "W-We've got a\nproblem, nyo!"
+WaitTextBox
+# もう、表にお客さ
+# んが並びはじめて
+# るにょ～！
+ShowTextBox "The customers\nhave already\nstarted lining\nup out front,\nnyo!!"
+WaitTextBox
+# うさだ！そんなと
+# こでくつろいでな
+# いで、早くお店を
+# 開けるにょ～
+ShowTextBox "Usada! No time\nto relax! We've\ngotta open up\nshop, nyo!"
+WaitTextBox
+ShowChara 2 1 22
+# も、もうちょっと
+# 待って！着替えが
+# まだ…
+ShowTextBox "W-Wait, I'm not\ndone changing\nyet--!"
+WaitTextBox
+ShowChara 1 2 11
+# 急ぐにょ～っ！
+ShowTextBox "Hurry up, nyo!!"
+WaitTextBox
+Fade 3 30
+SetBG 38
+Fade 2 30
+ShowChara 2 0 0
+# いらっしゃいませ～♪
+# 本日は、ようこそいら
+# っしゃいました～！
+ShowTextBox "Welcome!♪\nToday we're\nhaving a\nspecial sale!"
+WaitTextBox
+# 小龍包、肉まんはいか
+# が？
+ShowTextBox "Would you like\na meat or soup\nbaozi?"
+WaitTextBox
+# うふっ、今日は楽しん
+# でいってくださいね～
+ShowTextBox "Hehe, please\ncome again!"
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 1 2 15
+# にょにょっ…うさ
+# だのやつ、なかな
+# かのやり手にょ…
+ShowTextBox "... Usada's\npretty good at\nthis, nyo..."
+WaitTextBox
+ShowChara 1 0 11
+# これは負けてられ
+# ないにょ！
+ShowTextBox "...\nI won't let\nher win, nyo!!"
+WaitTextBox
+# こっちも派手なパ
+# フォーマンスで対
+# 抗するにょ！
+ShowTextBox "I'll pull some\nflashy tricks\nand put her\nin her place,\nnyo!"
+WaitTextBox
+ShowChara 1 0 13
+# さあさあ、見るに
+# ょ！これが中国４
+# 千年の必殺拳「目
+# からビーム」アル
+# にょ～っ！
+ShowTextBox "Witness 4000\nyears of\nhistory! Hidden\nmove: \"Eye\nLaser Beam\",\nnyo--!!!"
+WaitTextBox
+ShowChara 8 1 54
+# め、目からビーム
+# が中国拳法だった
+# とは知らなかった
+# ゲマ～！
+ShowTextBox "What the heck\ndoes this have\nto do with\nChina,\ngemaa---!!"
+WaitTextBox
+ShowChara 3 1 19
+# ゲマがだまされて
+# どうするにゅ…
+ShowTextBox "Gema's spoiling\nthe fun, nyu..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+Unk08 3 116 78 8 108 10 3
+SetBG 111
+Fade 0 30
+ShowChara 1 1 9
+# にょにょ、今日の
+# 中秋節、お客さん
+# 来るといいにょ～
+ShowTextBox "Nyo, It'd be\nnice if we could\nget a lot of\ncustomers at the\nfestival today,\nnyo."
+WaitTextBox
+ShowChara 2 2 23
+# だいじょうぶ、ば
+# っちり、宣伝して
+# おいたから！
+ShowTextBox "Don't worry, I\nput a lot of\nwork into\nadvertising!"
+WaitTextBox
+ShowChara 1 1 10
+# にょにょ、それじ
+# ゃ、開店にょ～
+ShowTextBox "Alright!\nLet's open the\nshop, nyo!"
+WaitTextBox
+Fade 3 120
+Wait 60
+Fade 2 30
+ShowChara 1 1 12
+# ふ～っ、いつもな
+# らお休みの日だっ
+# ていうのに、お客
+# さんがいっぱいに
+# ょ…
+ShowTextBox "Whew, the shop\nis always\nbursting with\npeople on\nholidays, nyo..."
+WaitTextBox
+ShowChara 2 2 23
+# むしろ、いつもよ
+# り多いくらいかし
+# ら…
+ShowTextBox "Actually, I\nthink it's even\nmore than usual\ntoday."
+WaitTextBox
+ShowChara 2 0 22
+# ところで、朝から
+# ぷちこを見ないけ
+# ど、今日はお休み
+# なの？
+ShowTextBox "Hey, I haven't\nseen Puchiko\nsince this\nmorning. Is she\ntaking athe\nday off?"
+WaitTextBox
+ShowChara 1 1 8
+# にょっ？
+ShowTextBox "Nyo?"
+WaitTextBox
+# ぷちこなら朝から
+# 店の前に立ってる
+# にょ？
+ShowTextBox "Puchiko's been\nstanding outside\nthe shop all\nday, nyo."
+WaitTextBox
+Fade 1 30
+SetBG 39
+Fade 0 30
+ShowChara 2 2 22
+# えーっ、あれって
+# ぷちこだったの！
+ShowTextBox "Huh!? That was\nPuchiko!?"
+WaitTextBox
+# 全然動かないから
+# お人形かと思って
+# た…
+ShowTextBox "She wasn't\nmoving at all,\nso I thought she\nwas a statue..."
+WaitTextBox
+ShowChara 3 0 0
+# …………
+ShowTextBox "..."
+WaitTextBox
+# …………
+ShowTextBox "..."
+WaitTextBox
+# じっとしてるのも、た
+# いへんにゅ…
+ShowTextBox "I need to\nscratch my nose,\nnyu..."
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 8 2 1
+# でじこ～！
+ShowTextBox "Dejiko~!"
+WaitTextBox
+ShowChara 1 1 8
+# 何にょ？
+ShowTextBox "What is it, nyo?"
+WaitTextBox
+ShowChara 8 2 1
+# 入口のところに置
+# いてあるお人形の
+# 値段って、いくら
+# ゲマ？
+ShowTextBox "How much are we\nselling that\nstatue out front\nfor, gema?"
+WaitTextBox
+ShowChara 2 2 22
+# えっ？
+ShowTextBox "Huh?"
+WaitTextBox
+ShowChara 8 2 53
+# いや～、あれを欲
+# しいっていうお客
+# さんがいるゲマ…
+ShowTextBox "There was a\ncustomer who was\nlooking to buy\nit, gema..."
+WaitTextBox
+ShowChara 1 1 15
+# あれは売りものじ
+# ゃないにょ～！
+ShowTextBox "That's not for\nsale, nyo!"
+WaitTextBox
+ShowChara 2 2 25
+# この話、ぷちこに
+# はナイショね…
+ShowTextBox "...\nLet's not tell\nPuchiko about\nthis, okay...?"
+WaitTextBox
+EndScript

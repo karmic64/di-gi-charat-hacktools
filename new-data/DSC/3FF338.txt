@@ -1,0 +1,275 @@
+DSCBase $3FF338
+
+
+
+
+Subscript 0
+Unk08 2 112 74 24 100 10 3
+SetBG 122
+Fade 0 30
+ShowChara 1 1 9
+# 明日はひな祭りに
+# ょ～
+ShowTextBox "Tomorrow's\nHinamatsuri,\nnyo~"
+WaitTextBox
+# それで、ひな壇
+# （ひなだん）の準
+# 備はＯＫにょ？
+ShowTextBox "Are all the Hina\ndolls ready,\nnyo?"
+WaitTextBox
+ShowChara 3 2 17
+# ＯＫにゅ…
+ShowTextBox "Ready, nyu..."
+WaitTextBox
+ShowChara 1 1 9
+# あとは明日を待つ
+# ばかりにょ！
+ShowTextBox "Just gotta wait\ntill tomorrow,\nthen, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# 明日になったら、
+# あられかじって、
+# 甘酒飲んで、ひし
+# 餅を食べるにょ～
+# っ！
+ShowTextBox "Tomorrow, I'll\nget to eat\ncrackers and\ndrink juice till\nI burst, nyo!"
+WaitTextBox
+ShowChara 2 2 55
+# 全部、食べること
+# ばっかりね…
+ShowTextBox "You're only ever\nin it for the\nfood, aren't\nyou...?"
+WaitTextBox
+ShowChara 1 1 15
+# にょにょっ、ヤボ
+# なツッコミはやめ
+# るにょ、うさだ！
+ShowTextBox "Usada, quit\nbeing such a\nkilljoy, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# そ、それよりも、
+# この見事なひな壇
+# を見るにょ～！
+ShowTextBox "More\nimportantly,\ntake a look at\nour Hina doll\ndisplay, nyo!"
+WaitTextBox
+ShowChara 2 2 23
+# へぇ、なかなか立
+# 派なものね
+ShowTextBox "Hmm.\nYou did a\npretty good\njob."
+WaitTextBox
+ShowChara 1 1 10
+# どうにょ、ゲマを
+# こきつかって作り
+# 上げた、グレート
+# なひな壇にょ！
+ShowTextBox "We had to\nwrestle Gema\ninto doing it,\nbut I think\nit came out\ngreat, nyo!"
+WaitTextBox
+ShowChara 8 1 2
+# ゲマがひとりで作
+# った血と汗と涙の
+# 結晶ゲマ…
+ShowTextBox "This display\ncost me blood,\nsweat and tears\nto finish alone,\ngema..."
+WaitTextBox
+ShowChara 2 2 25
+# それを聞くと、な
+# んだか汗臭そうな
+# 感じがするわね
+ShowTextBox "Yeah, I can\nstill smell that\nsweat part..."
+WaitTextBox
+ShowChara 3 2 17
+# それは、あくまで
+# たとえにゅ
+ShowTextBox "That's gross,\nnyu."
+WaitTextBox
+ShowChara 2 2 23
+# ね、ちょっとさわ
+# っていいかしら…
+# きゃっ！
+ShowTextBox "Hey, mind if I\ntouch it for\na second...?\nAaah!"
+WaitTextBox
+ShowChara 8 1 3
+# むぎゅっ！
+ShowTextBox "Geh!"
+WaitTextBox
+ShowChara 3 2 17
+# うさだがゲマにつ
+# まづいたにゅ！
+ShowTextBox "Usada tripped\nover Gema, nyu!"
+WaitTextBox
+ShowChara 14 1 63
+# ベキッ…
+ShowTextBox "Ugh..."
+WaitTextBox
+ShowChara 2 2 24
+# …………！
+ShowTextBox "...!"
+WaitTextBox
+ShowChara 1 1 11
+# にょにょ～っ、な
+# んてことしてくれ
+# たにょ～っ！
+ShowTextBox "What did you\ndo, nyo!?"
+WaitTextBox
+ShowChara 2 2 23
+# ご、ごめんなさい
+# …
+ShowTextBox "S-Sorry..."
+WaitTextBox
+ShowChara 3 2 20
+# お内裏さま（おだ
+# いりさま）がぺし
+# ゃんこにゅ…
+ShowTextBox "The emperor got\nsquished flat,\nnyu..."
+WaitTextBox
+ShowChara 2 2 25
+# ごめんなさい、べ
+# んしょうする…っ
+# て、そんなお金は
+# ないし…
+ShowTextBox "Sorry, I'll buy\na replacement...\nOr I would, if I\nhad any money..."
+WaitTextBox
+# ごめん、なんとか
+# して、アタシが修
+# 理するから、かん
+# べんしてっ！
+ShowTextBox "I'll figure out\na way to fix\nhim, I promise!\nPlease forgive\nme!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 2 2 55
+# とは言ったものの
+# …
+ShowTextBox "... So I said,\nbut..."
+WaitTextBox
+# こんなものどうや
+# って修理すればい
+# いのかしら…
+ShowTextBox "... How the\nheck am I\nsupposed to fix\nthis?"
+WaitTextBox
+# う～んう～ん…
+ShowTextBox "Hmm..."
+WaitTextBox
+ShowChara 2 0 23
+# あっ、そうだ！
+# いいこと思いつい
+# ちゃった…
+ShowTextBox "Oh, that's it!\nI've got a good\nidea..."
+WaitTextBox
+Fade 1 120
+SetBG 123
+Fade 0 30
+Fade 3 1
+SetBG 122
+Fade 2 30
+ShowChara 1 1 16
+# ふわぁ～よく寝た
+# にょ…
+ShowTextBox "Yawn...\nI slept like\na log, nyo..."
+WaitTextBox
+ShowChara 1 0 9
+# さて、うさだはど
+# うしてるかにょ？
+ShowTextBox "Now, I wonder\nwhat Usada did,\nnyo."
+WaitTextBox
+# うさだ～、おひな
+# さまの修理は終わ
+# ったかにょ～？
+ShowTextBox "Usada! Are you\ndone fixing the\nHina dolls\nyet, nyo?"
+WaitTextBox
+Fade 3 20
+SetBG 11
+Fade 2 20
+ShowChara 2 0 0
+# は～い、ばっちりＯＫ
+# よ～！
+ShowTextBox "Yep! It's just\nabout done!"
+WaitTextBox
+# 見て、カンペキでしょ
+# これ以上はありえない
+# ほどカンペキ！
+ShowTextBox "Take a look!\nPretty much\nperfect, don't\nyou think?"
+WaitTextBox
+ShowChara 1 1 8
+# ………………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 2 0 0
+# どう、少しは見直して
+# くれたかしら？
+ShowTextBox "I think it's\ndone, but do\nyou have any\nrecommendations?"
+WaitTextBox
+ShowChara 1 1 8
+# …………
+ShowTextBox "..."
+WaitTextBox
+# で、おひなさまの
+# 修理の方はどうな
+# ってるにょ？
+ShowTextBox "Where are the\nfixed Hina dolls\nsupposed to be,\nnyo?"
+WaitTextBox
+ShowChara 2 0 0
+# いやねぇ、ヤボなこと
+# は言わないでよ
+ShowTextBox "What are you\ntalking about?"
+WaitTextBox
+# おひなさまなら、ほら
+# 目の前にあるじゃない
+# の
+ShowTextBox "They're right\nhere, up on the\ndisplay."
+WaitTextBox
+ShowChara 1 1 11
+# にょにょ～っ、そ
+# んなんでごまかそ
+# うとは、図太い奴
+# にょ～っ！
+ShowTextBox "Are you trying\nto make fun of\nme, nyo!?"
+WaitTextBox
+ShowChara 2 0 0
+# 図太いとは何よ、図太
+# いとはーっ！
+ShowTextBox "What!? You're\nthe one who's\nnot making any\nsense!"
+WaitTextBox
+Fade 1 30
+SetBG 122
+Fade 0 30
+ShowChara 8 2 2
+# ケンカするほど仲
+# がいい、とは言う
+# けどゲマ…
+ShowTextBox "Looks like\nthey're\ngetting along\nwell, as\nusual, gema..."
+WaitTextBox
+ShowChara 3 2 17
+# 長引きそうだから
+# 先にお店に行くに
+# ゅ
+ShowTextBox "It looks like\nthey're not\ngoing to stop\nanytime soon,\nso let's go\non ahead, nyu."
+WaitTextBox
+ShowChara 8 2 1
+# ゲマも行くゲマ～
+# ！
+ShowTextBox "Right, gema..."
+WaitTextBox
+ShowChara 1 1 11
+# 前から思ってたけ
+# ど、そのウサ耳は
+# でかくてジャマだ
+# にょ～っ！
+ShowTextBox "I've been\nthinking this\nfor a while,\nbut those\nrabbit ears are\noversized, nyo!"
+WaitTextBox
+ShowChara 2 2 24
+# なんですって～！
+ShowTextBox "What!? Take\nit back!"
+WaitTextBox
+ShowChara 1 1 11
+# 今日こそ決着つけ
+# てやるにょっ！
+ShowTextBox "I'm settling\nthis for good\ntoday, nyo!"
+WaitTextBox
+ShowChara 1 0 13
+# 目からビーム！
+ShowTextBox "Eye Laser Beam!"
+WaitTextBox
+Fade 3 20
+SetBG 123
+Fade 2 40
+EndScript

@@ -1,0 +1,130 @@
+DSCBase $3FD0C4
+
+
+
+
+Subscript 0
+Unk08 3 93 96 80 120 10 2
+SetBG 111
+Fade 0 30
+ShowChara 3 2 17
+# 行ってくるにゅ
+ShowTextBox "We're going,\nnyu."
+WaitTextBox
+ShowChara 8 1 53
+# いってらっしゃ
+# いゲマ
+ShowTextBox "See you later,\ngema!"
+WaitTextBox
+ShowChara 1 1 8
+# にょにょっ、ぷち
+# こと店長しゃん、
+# 今からおでかけす
+# るにょ？
+ShowTextBox "Are you going\nsomewhere with\nthe Manager,\nnyo?"
+WaitTextBox
+ShowChara 3 2 17
+# そういう約束だっ
+# たにゅ
+ShowTextBox "That's right,\nnyu."
+WaitTextBox
+ShowChara 1 1 12
+# がーん、でじこに
+# ないしょで店長し
+# ゃんとうまいもの
+# を食べに行くなん
+# てひどいにょ！
+ShowTextBox "Waaah!\nYou're going to\ngo eat tasty\nthings without\nme, nyo! That's\ncruel!"
+WaitTextBox
+# でじことぷちこの
+# 友情は、そんなに
+# 薄っぺらいものだ
+# ったのかにょ～！
+ShowTextBox "I can't believe\nyou'd be so\nheartless, nyo!\nWhere did your\nfriendship go!?"
+WaitTextBox
+ShowChara 3 2 17
+# 何を言われても代
+# わる気はないにゅ
+ShowTextBox "You can say\nwhatever you\nwant. We're not\ngoing to change\nthe plans, nyu."
+WaitTextBox
+ShowChara 1 1 12
+# とほほ…レストラ
+# ン…
+ShowTextBox "Sob...\nI wanna go to\na restaurant..."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 1 1 8
+# もう、いくつ寝る
+# と、お正月にょ～
+ShowTextBox "I'll just sleep\nuntil the New\nYear, nyo..."
+WaitTextBox
+ShowChara 1 0 9
+# おしょ～がつには
+# タコあげて、羽根
+# ついて、お年玉も
+# らって
+ShowTextBox "On New Years,\nI'll eat\noctopus,\nwatch TV, get\ngift money..."
+WaitTextBox
+ShowChara 1 0 10
+# それから、
+# お年玉もらって、
+# お年玉もらって、
+# お年玉もらって、
+# お年玉をもらうに
+# ょ～
+ShowTextBox "... get gift\nmoney, get gift\nmoney, get gift\nmoney, and get\nmore gift money,\nnyo ho ho..."
+WaitTextBox
+ShowChara 2 2 25
+# うっとうしいから
+# やめてよ…
+ShowTextBox "... You've got\nno holiday\nspirit at all.\nThat's\ndepressing..."
+WaitTextBox
+ShowChara 1 1 8
+# にょにょ、店長し
+# ゃん、早く戻って
+# こないかにょ～
+ShowTextBox "I hope the\nManager comes\nback soon, nyo~"
+WaitTextBox
+ShowChara 1 0 12
+# もし、でじこがぷ
+# ちこだったら、今
+# ごろレストランで
+# おいしいものを食
+# べてたのはでじこ
+# だったのににょ～
+ShowTextBox "If I was in\nPuchiko's\nplace, I bet I'd\nbe eating all\nsorts of tasty\nstuff now..."
+WaitTextBox
+ShowChara 2 2 55
+# もう何を言ってる
+# んだか…
+ShowTextBox "What are you\neven talking\nabout, now...?"
+WaitTextBox
+Fade 1 30
+SetBG 53
+Fade 0 30
+ShowChara 3 0 0
+# きれいなツリーにゅ
+ShowTextBox "The tree is\npretty, nyu."
+WaitTextBox
+# 夜中になると光るなん
+# て、知らなかったにゅ
+ShowTextBox "I didn't know\nit lit up at\nnight, nyu."
+WaitTextBox
+# もう少しツリーを見て
+# おいて、いいかにゅ？
+ShowTextBox "Is it okay\nif we stay\nand look at it\na little\nlonger, nyu?"
+WaitTextBox
+# …はくしゅっ！
+ShowTextBox "... A-choo!"
+WaitTextBox
+# だいじょうぶにゅ、別
+# に寒くないにゅ
+ShowTextBox "I'm fine, nyu.\nIt's not too\ncold."
+WaitTextBox
+# たぶん、でじこが…い
+# や、なんでもないにゅ
+ShowTextBox "I'm sure Dejiko\nis... ah,\nnevermind, nyu."
+WaitTextBox
+EndScript

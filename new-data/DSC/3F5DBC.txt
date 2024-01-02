@@ -1,0 +1,172 @@
+DSCBase $3F5DBC
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 23
+# 店長さん…ちょっ
+# と相談があるんだ
+# けどいいかしら？
+ShowTextBox "Manager...\ncould I get your\nadvice on\nsomething?"
+WaitTextBox
+ShowChara 2 0 22
+# じつは、さっき街
+# でスカウトされち
+# ゃったの…
+ShowTextBox "When I was in\ntown this\nmorning, I was\napproached by a\ntalent scout..."
+WaitTextBox
+# 「キミはイメージ
+# にぴったりだ！…
+# というより、キミ
+# 以外考えられない
+# ！」って…
+ShowTextBox "He said, \"You're\nperfect for\nthis! I can't\nimagine anyone\nelse in the\nrole!\"..."
+WaitTextBox
+# どうしよう、何か
+# の宣伝用ポスター
+# らしいんだけど…
+ShowTextBox "It seems like\nit's for some\nadvertising\ncampaign...\nWhat should I\ndo, Manager?"
+WaitTextBox
+# アタシ、引き受け
+# ちゃっていいのか
+# な…
+ShowTextBox "Is it okay\nfor me to take\nthis...?"
+WaitTextBox
+ShowChara 2 0 25
+# ほら、だって、こ
+# れでいきなり人気
+# モデルになっちゃ
+# ったりしたら
+ShowTextBox "Like, if I'm\nsuddenly going\nto be a super\nfamous poster\nmodel..."
+WaitTextBox
+# 店長さんといっし
+# ょにお店の手伝い
+# とか出来なくなっ
+# ちゃうかもしれな
+# いじゃない…
+ShowTextBox "It'll be hard\nfor me to help\nout at the shop\nfrom now on,\nyou know?"
+WaitTextBox
+ShowChara 2 0 22
+# ねえ、店長さんは
+# どう思う？
+ShowTextBox "What do you\nthink, Manager?"
+WaitTextBox
+# やるべきだ！
+# やめた方が…
+ShowSelMenu09 2 "!Do it!\nMaybe not..."
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 2 0 22
+# そうよね、まだ早
+# いわよね…
+ShowTextBox "Yeah... I guess\nit's still a\nlittle early in\nmy career to\ndo this kind of\nthing."
+WaitTextBox
+ShowChara 2 0 23
+# ちょっと残念な気
+# もするけど、断る
+# ことにするわ！
+ShowTextBox "It's too bad,\nbut I guess\nI'll have to\nturn them down!"
+WaitTextBox
+EndScript
+Label 0
+ShowChara 2 0 22
+# うん…
+ShowTextBox "Okay..."
+WaitTextBox
+# 勇気を出して、が
+# んばってみる…
+ShowTextBox "I''m a little\nnervous, but\nI'll give it\neverything I've\ngot...!"
+WaitTextBox
+# じゃ、結果は来週
+# 報告するわね…
+ShowTextBox "I'll let you\nknow how it\ngoes next\nweek!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# こんにちはーっ…
+ShowTextBox "Good morning..."
+WaitTextBox
+ShowChara 1 2 8
+# お、来たにょ！
+ShowTextBox "Oh, there you\nare, nyo!"
+WaitTextBox
+ShowChara 2 1 22
+# …なぁに？
+ShowTextBox "... Huh?"
+WaitTextBox
+ShowChara 1 2 9
+# 話は店長さんから
+# 聞いたにょ！早く
+# でじこにもポスタ
+# ー見せるにょ！
+ShowTextBox "I heard from the\nManager, nyo!\nHurry up and\nshow me the\nposter, nyo!"
+WaitTextBox
+ShowChara 2 1 22
+# これだけど…
+ShowTextBox "Well, here\nit is..."
+WaitTextBox
+Fade 1 30
+SetBG 29
+Unk08 2 147 75 8 84 10 3
+Fade 0 30
+Wait 60
+ShowChara 2 0 0
+# わたしも
+# 　　　毎日食べてます
+# ――にんじん
+ShowTextBox "  Make sure to\neat me everyday!\n         -Carrot"
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 1 2 10
+# にょにょ、こりゃ
+# けっさくだにょ～
+ShowTextBox "Nyohohoho!\nThis is a\nmasterpiece,\nnyo!!"
+WaitTextBox
+ShowChara 2 1 22
+# それはいいんだけ
+# ど…
+ShowTextBox "Yeah,\nwhatever...\nHonestly, the\nposter is the\nleast of my\nproblems."
+WaitTextBox
+ShowChara 1 2 8
+# …にょっ？
+ShowTextBox "... Nyo?"
+WaitTextBox
+ShowChara 2 1 25
+# 謝礼が、にんじん
+# 一年分だったの…
+ShowTextBox "The pay for the\njob is a  whole\nyear's supply\nof carrots."
+WaitTextBox
+ShowChara 1 2 15
+# にょにょっ、に、
+# にんじん一年分…
+ShowTextBox "N-Nyo...\nA whole year's\nworth, nyo!?"
+WaitTextBox
+ShowChara 1 0 10
+# これは笑わずには
+# いられないにょ～
+# っ！
+ShowTextBox "Hey, don't give\nthem to ME, nyo!\nI don't need\nthis many!!"
+WaitTextBox
+ShowChara 2 1 25
+# おねがーい！少し
+# でいいから持って
+# 行ってーっ！
+ShowTextBox "I'm begging you!\nJust take a few\noff my hands!\nI can't take it\nanymore!!"
+WaitTextBox
+ShowChara 3 2 21
+# にんじんを残すの
+# は誰にゅ…
+ShowTextBox "Where did they\nget this many\ncarrots, nyu?"
+WaitTextBox
+EndScript

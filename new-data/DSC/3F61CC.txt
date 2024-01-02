@@ -1,0 +1,209 @@
+DSCBase $3F61CC
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# おや、店長さん、
+# そんなにたくさん
+# 写真を広げて、い
+# ったい何をやって
+# るところゲマ？
+ShowTextBox "Manager, what's\nthe deal with\nthese pictures\nyou've got\nspread out,\ngema...?"
+WaitTextBox
+# 写真選び…？
+ShowTextBox "You're choosing\npictures?"
+WaitTextBox
+# ふうむ、来週から
+# 始まる動物愛護週
+# 間の宣伝ポスター
+# ゲマ…
+ShowTextBox "Ah, so these are\npotential\nposters for\nBe Kind To\nAnimals Week,\ngema..."
+WaitTextBox
+ShowChara 8 0 53
+# 店長さんも、いろ
+# いろつきあいが広
+# いゲマ
+ShowTextBox "You seem like\nyou know how to\ndo everything\naround here,\ngema!"
+WaitTextBox
+ShowChara 8 0 54
+# えっ、どれを選ん
+# だらいいかって？
+ShowTextBox "Huh? You wanna\nknow which one\nI'd pick, gema?"
+WaitTextBox
+ShowChara 8 0 53
+# むむむ、ゲマの眼
+# 力にお任せするゲ
+# マ…
+ShowTextBox "Heh heh...\nLeave it to\nme, gema!"
+WaitTextBox
+# 長年でじこのお目
+# 付けをやってるの
+# はダテではないゲ
+# マ…
+ShowTextBox "Keeping Dejiko\nin line for so\nlong has given\nme a keen eye\nfor details!"
+WaitTextBox
+ShowChara 8 0 1
+# …………
+ShowTextBox "..."
+WaitTextBox
+# …………
+ShowTextBox "..."
+WaitTextBox
+# ここは奇をてらう
+# より、セオリーど
+# おりにいくのがよ
+# いと思うゲマ…
+ShowTextBox "I think rather\nthan making a\nstatement,\nsticking to the\nbasics would\nbe best, gema..."
+WaitTextBox
+ShowChara 8 0 53
+# …そうすると、こ
+# のぷちこと動物の
+# ツーショット写真
+# なんかがベストと
+# 思うゲマ！
+ShowTextBox "So let's do the\nset of Puchiko\nwith the\nanimals, gema!"
+WaitTextBox
+# それにする
+# いまいち…
+ShowSelMenu09 2 "!That works\nI dunno..."
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 8 0 54
+# い、いまいち？
+ShowTextBox "Y-You DUNNO!?\nWas I that far\noff, gema?"
+WaitTextBox
+ShowChara 8 0 2
+# お、お役にたてな
+# くて申しわけない
+# ゲマ…
+ShowTextBox "S-Sorry that I\ncouldn't be of\nany help,\ngema..."
+WaitTextBox
+# じゃますると悪い
+# から、ゲマはもう
+# 行くゲマ…
+ShowTextBox "I'm just\ngetting in the\nway of your\nvision, so I'll\nleave, gema..."
+WaitTextBox
+EndScript
+Label 0
+# 子供と動物…この
+# ふたつがそろえば
+# 好感度アップ間違
+# いないゲマ！
+ShowTextBox "I'm sure that\nkids and animals\ngo perfectly\ntogether,\nthough, gema!"
+WaitTextBox
+# おまけに、お店の
+# 宣伝にもなって、
+# まったく、いうこ
+# となしゲマ！
+ShowTextBox "And if it\nadvertises the\nshop, all the\nbetter, gema!"
+WaitTextBox
+# ポスターが完成す
+# る来週が楽しみゲ
+# マ～！
+ShowTextBox "I'm looking\nforward to\nwhatever you\nput together,\nManager!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 1 1 15
+# にょにょーっ、何
+# にょ、あのポスタ
+# ーはっ！
+ShowTextBox "Nyo...\nWhat's this\nposter, nyo?"
+WaitTextBox
+ShowChara 2 2 23
+# あっ、でじこも見
+# たのね！
+ShowTextBox "Ah, you saw\nit too,\nDejiko!"
+WaitTextBox
+Fade 1 30
+SetBG 30
+Unk08 3 120 99 8 16 10 2
+Fade 0 30
+Wait 60
+ShowChara 3 0 0
+# ふれあい・大切に…
+ShowTextBox "\"Show your love\n With a hug!\"..."
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 2 2 23
+# あのポスター、か
+# わいいわよね！
+ShowTextBox "That's so cute!"
+WaitTextBox
+# 話を聞いたら、店
+# 長さんが作ったポ
+# スターだそうじゃ
+# ない！
+ShowTextBox "This must be the\nposter you were\nworking on,\nright, Manager?"
+WaitTextBox
+# いいセンスね！
+# 店長さん、見直し
+# たわ！
+ShowTextBox "Great job!\nYou've got a\ngood eye for\ndesign,\nManager!"
+WaitTextBox
+ShowChara 1 1 8
+# それで、そのぷち
+# こはどこ行ったに
+# ょ？
+ShowTextBox "By the way,\nwhere did\nPuchiko go,\nnyo?"
+WaitTextBox
+ShowChara 2 2 22
+# それが店の奥から
+# 出てこないのよ…
+ShowTextBox "She's still\ncooped up in\nthe shop..."
+WaitTextBox
+# さっきから、ポス
+# ターを見たお客さ
+# んが次々やって来
+# てるのに、どうし
+# たのかしら？
+ShowTextBox "The customers\nhave been\npouring in after\nseeing this\nposter... Maybe\nshe's busy?"
+WaitTextBox
+ShowChara 1 1 9
+# きっと照れてるん
+# だにょ
+ShowTextBox "I'll bet she's\nembarrassed,\nnyo~"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 8 1 53
+# ぷちこを見に、お
+# 客さんがたくさん
+# 来てるゲマ！
+ShowTextBox "One look at\nPuchiko, and\nthey knew they\nhad to check\nout the shop,\ngema!"
+WaitTextBox
+# なのに、どうして
+# そんなところにか
+# くれてるゲマ～？
+ShowTextBox "So why is\nshe trying to\nhide in THERE,\ngema?"
+WaitTextBox
+ShowChara 3 2 17
+# ぷ、ぷちこは必要
+# 以上に目立つのは
+# 好きじゃないにゅ
+# …
+ShowTextBox "I don't like\nbeing in the\nspotlight any\nmore than I\nhave to, nyu..."
+WaitTextBox
+ShowChara 8 1 53
+# そんなに照れなく
+# てもいいゲマ…
+ShowTextBox "There's no need\nto be\nembarrassed,\ngema!"
+WaitTextBox
+ShowChara 3 2 17
+# ほ、ほっとくにゅ
+# ーっ…
+ShowTextBox "J-Just leave me\nalone, nyu..."
+WaitTextBox
+EndScript

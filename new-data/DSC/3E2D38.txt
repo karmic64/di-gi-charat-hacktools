@@ -1,0 +1,352 @@
+DSCBase $3E2D38
+
+
+
+### Prefill data: $81
+Subscript 0
+ShowChara 3 4 17
+# $1、ぷちこ食ったことあるにゅ
+ShowTextBox "I've had a\n$1\nbefore, nyu."
+WaitTextBox
+ShowChara 3 0 18
+# うまいにゅ★
+ShowTextBox "It was good,\nnyu. ★"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83
+Subscript 1
+ShowChara 3 4 17
+# ぷちこ、$1は見たことあるにゅ
+ShowTextBox "I've seen a\n$1\nbefore, nyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87
+Subscript 2
+ShowChara 3 4 17
+# $1…えんやこらにゅ
+ShowTextBox "My next job is\n$1,\nnyu..."
+WaitTextBox
+# ぷちこ、がんばるにゅ！
+ShowTextBox "I'll do my best,\nnyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80
+Subscript 3
+ShowChara 3 4 17
+# …$1ってすごいにゅ？
+ShowTextBox "$1 is\nkind of cool,\nnyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86,$84
+Subscript 4
+ShowChara 3 4 17
+# $1と言えば、約束の場所として有名にゅ
+ShowTextBox "I heard\n$1 is\nfamous, nyu."
+WaitTextBox
+# 伝説の$2が生えてるカップル達のサンクチュアリにゅ
+ShowTextBox "If two people\nmake a promise\nbeneath the\n$2\ntree, their wish\nwill come true."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81,$82
+Subscript 5
+ShowChara 3 4 19
+# $1と$2は食い合わせが悪いにゅ
+ShowTextBox "$1 and\n$2\ndon't go well\ntogether, nyu."
+WaitTextBox
+ShowChara 3 0 20
+# 食べるとおなかゴロゴロにゅ
+ShowTextBox "They'll mix\nand make your\nstomach upset."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $01,$85
+Subscript 6
+ShowChara 3 4 17
+# $1といえば、$2で大安売りしてたにゅ
+ShowTextBox "They were selling\n$1 for\na big discount in\n$2,\nnyu."
+WaitTextBox
+# 思わずたくさん買ってしまったにゅ
+ShowTextBox "I bought way\ntoo much without\nthinking, nyu..."
+WaitTextBox
+ShowChara 3 0 18
+# …今度、うちのお店で売るにゅ
+ShowTextBox "...\nMaybe we should\nsell it in the\nshop, nyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$83
+Subscript 7
+ShowChara 3 4 17
+# $1は$2に育てられた…
+ShowTextBox "$1 was\nraised by a\n$2,\nnyu."
+WaitTextBox
+ShowChara 3 0 18
+# …という仮説があるにゅ
+ShowTextBox "...\nThat's how the\nstory goes,\nanyway, nyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$40
+Subscript 8
+ShowChara 3 4 17
+# $1は$2の生き別れの家族…
+ShowTextBox "I heard\n$1 and\n$2 are\nlong-lost\nsiblings, nyu."
+WaitTextBox
+ShowChara 3 0 21
+# かも知れないにゅ
+ShowTextBox "...\nMaybe not, nyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81
+Subscript 9
+ShowChara 3 4 17
+# ぷちこ、この季節
+# の$1が一番好きにゅ
+ShowTextBox "I love eating\n$1\nthis time of\nyear, nyu."
+WaitTextBox
+ShowChara 3 0 18
+# にゅ…おなか空いたにゅ
+ShowTextBox "Nyu...\nI'm hungry, nyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $03,$84,$86
+Subscript 10
+ShowChara 3 4 17
+# $1といえば、$2が大好物にゅ
+ShowTextBox "I heard a\n$1's\nfavorite food\nis $2,\nnyu."
+WaitTextBox
+# この季節、$3にものすごく集まってるにゅ
+ShowTextBox "They gather in\n$3\nthis time of\nyear, nyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 11
+ShowChara 3 4 17
+# 『$1』のグッズは、今大人気にゅ
+ShowTextBox "$1\nmerchandise is\nvery popular right\nnow, nyu."
+WaitTextBox
+ShowChara 3 0 18
+# ほっといても売れるにゅ！
+ShowTextBox "We should sell\nsome in the\nstore, nyu!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84
+Subscript 12
+ShowChara 3 4 17
+# 店長さん、知ってるにゅ？
+# $1を煎じたお茶は体にいいらしいにゅ
+ShowTextBox "Manager, have\nyou ever had\ntea made from\n$1\nleaves? It's\nvery good, nyu."
+WaitTextBox
+ShowChara 3 0 18
+# 健康第一、ファイト５０発にゅ！
+ShowTextBox "Remember to stay\nhydrated, nyu!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80
+Subscript 13
+ShowChara 10 4 6
+# にゃ～～～
+ShowTextBox "Meow~"
+WaitTextBox
+ShowChara 3 4 19
+# マジにゅ！？
+ShowTextBox "Really, nyu!?"
+WaitTextBox
+ShowChara 10 4 6
+# にゃ～～～
+ShowTextBox "Meow~"
+WaitTextBox
+ShowChara 3 4 20
+# どうしようもないにゅ？
+ShowTextBox "Is there nothing\nwe can do, nyu?"
+WaitTextBox
+ShowChara 10 4 6
+# にゃ～～～
+ShowTextBox "Meow~"
+WaitTextBox
+ShowChara 3 4 21
+# 店長さん、ほっけ
+# みりんが店長さん
+# と結ばれるのは$1と言ってるにゅ
+ShowTextBox "Manager, Hokke\nMirin says that\nyou and\n$1\nare bound by\ndestiny, nyu."
+WaitTextBox
+ShowChara 10 4 6
+# にゃ～～～
+ShowTextBox "Meow~"
+WaitTextBox
+ShowChara 3 4 21
+# 絶対に逃れられない運命らしいにゅ
+ShowTextBox "It's fate, nyu.\nThere's no\ngetting away\nfrom it."
+WaitTextBox
+ShowChara 3 0 18
+# 意外とお似合いにゅ！
+ShowTextBox "But I think\nyou two make a\nnice couple,\nnyu!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85
+Subscript 14
+ShowChara 3 4 17
+# $1…
+# ぷちこのあこがれにゅ
+ShowTextBox "I want to go\nto $1,\nnyu."
+WaitTextBox
+ShowChara 3 0 18
+# 空気がとってもキレイなとこらしいにゅ
+ShowTextBox "I've heard the\nair is very\nclean there,\nnyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87
+Subscript 15
+ShowChara 3 4 20
+# …$1
+# ぷちこ、ちっちゃいからツライにゅ
+ShowTextBox "I've hated\n$1\nchores since I\nwas small,\nnyu."
+WaitTextBox
+ShowChara 3 0 17
+# でも、お仕事だったら仕方ないにゅ
+ShowTextBox "But if that's\nmy job, I guess\nI'll give it a\ntry, nyu."
+WaitTextBox
+ShowChara 3 0 18
+# がんばるにゅ！
+ShowTextBox "I'll do my\nbest, nyu!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$83
+Subscript 16
+ShowChara 3 4 17
+# 『$1』…
+# よく$2が出てる番組にゅ
+ShowTextBox "I see\n$1 a\nlot on\n$2,\nnyu."
+WaitTextBox
+ShowChara 3 0 21
+# ぷちこ、$2を見るとなごむにゅ～♪
+ShowTextBox "I love watching\nit, nyu. It\nmakes me feel\ncomfortable."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$87
+Subscript 17
+ShowChara 3 4 17
+# この前、$1が転職したにゅ
+ShowTextBox "$1\ngot a new job\nrecently, nyu."
+WaitTextBox
+# $2のプロを目指すって言ってたにゅ
+ShowTextBox "They said they\nwant to be a\nprofessional\n$2\nnow, nyu."
+WaitTextBox
+ShowChara 3 0 21
+# その心意気だけは買ってやるにゅ
+ShowTextBox "...\nAt least they\nhave a good\nattitude, nyu."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$81,$80
+Subscript 18
+ShowChara 3 4 17
+# 『$1』で$2の早食いをしてたにゅ！
+ShowTextBox "There was a\n$2\nspeed-eating\ncontest on\n$1,\nnyu!"
+WaitTextBox
+# 当然優勝は$3だったにゅ
+ShowTextBox "Of course,\n$3\nwon, nyu."
+WaitTextBox
+ShowChara 3 0 18
+# 流石にゅ！
+ShowTextBox "They're the\nchamp, nyu!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 19
+ShowChara 3 4 17
+# ビッグニュースにゅ！
+ShowTextBox "I've got big\nnews, nyu!"
+WaitTextBox
+# 今度『$1』が映画化されるらしいにゅ！
+ShowTextBox "They're making\na movie based\non\n$1,\nnyu!"
+WaitTextBox
+ShowChara 3 0 18
+# ぷちこ、楽しみにゅ！
+ShowTextBox "I can't wait,\nnyu!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8B,$80
+Subscript 20
+ShowChara 3 4 17
+# $1は$2の得意技にゅ！
+ShowTextBox "$1 is\n$2's\nspecialty, nyu!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83,$8A
+Subscript 21
+ShowChara 3 4 18
+# $1はメチャクチャ早いにゅ
+ShowTextBox "A $1\ncan run super\nfast, nyu."
+WaitTextBox
+# そのスピードは$2をもしのぐにゅ！
+ShowTextBox "I bet they can\neven outrun a\n$2,\nnyu!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8B
+Subscript 22
+ShowChara 3 4 17
+# ほっけみりんが$1したいって言ってるにゅ
+ShowTextBox "Hokke Mirin told\nme they want to\nplay\n$1,\nnyu."
+WaitTextBox
+# ちょっとおでかけして来ていいかにゅ？
+ShowTextBox "Is it okay if\nwe take a break\nfor a bit,\nManager?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8A,$85,$0B,$83
+Subscript 23
+ShowChara 3 4 17
+# 今、ぷちこ$1に乗って$2で$3してみたいにゅ
+ShowTextBox "I was playing\n$3\nwhile riding a\n$1\nin $2,\nnyu."
+WaitTextBox
+ShowChara 3 0 21
+# でも$2は$4がいっぱいいるから気をつけるにゅ
+ShowTextBox "But $2\nis full of\n$4 families,\nnyu."
+WaitTextBox
+ShowChara 3 0 19
+# ふんづけたりすると呪われるにゅ…
+ShowTextBox "If you run one\nover, you'll get\ncursed, nyu..."
+WaitTextBox
+EndScript

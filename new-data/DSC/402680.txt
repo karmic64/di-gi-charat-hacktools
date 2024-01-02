@@ -1,0 +1,160 @@
+DSCBase $402680
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 28
+# 今、「どうぶつあ
+# いごしゅうかん」
+# と聞いたぴょ
+ShowTextBox "I heard it's\n\"Be Kind to\nAnimals Week\",\npyo."
+WaitTextBox
+# なんでも動物をか
+# わいがらないと、
+# キツ～イお仕置き
+# をされるらしいぴ
+# ょ～
+ShowTextBox "If you're not\nsuper nice to\nevery animal you\nsee, you get a\nreally horrible\npunishment, pyo!"
+WaitTextBox
+ShowChara 4 0 30
+# ぶるぶる、地球は
+# 怖いところぴょ…
+ShowTextBox "Earth customs\nare kind of\nscary sometimes,\npyo."
+WaitTextBox
+# 黙って見てる
+# それは間違ってる
+ShowSelMenu09 2 "!That's right\nNot exactly..."
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 4 0 28
+# ということで、ぴ
+# よこは一生懸命に
+# 動物をかわいがる
+# ぴょ
+ShowTextBox "So, I spent all\nday figuring out\nwhat to do for\nanimals, pyo."
+WaitTextBox
+ShowChara 5 2 36
+# ピョコラ様、準備
+# が整いました
+ShowTextBox "Lady Pyokora,\nthe preparations\nare complete."
+WaitTextBox
+ShowChara 4 1 29
+# ごくろうぴょ…そ
+# れでは「動物とな
+# かよし作戦」…
+# 開始ぴょっ！
+ShowTextBox "Good work, pyo.\nLet Operation\nWild Friendship\nbegin, pyo!"
+WaitTextBox
+Fade 3 30
+Unk08 4 132 84 108 108 10 3
+Unk08 5 36 38 8 56 10 3
+Unk08 6 206 56 60 20 10 3
+Unk08 7 20 123 58 100 10 3
+SetBG 88
+Fade 2 30
+ShowChara 4 0 0
+# パンダだぴょ、パンダ
+# だぴょ～！
+ShowTextBox "It's a panda,\npyo!"
+WaitTextBox
+ShowChara 4 0 0
+# なでなで…
+ShowTextBox "Pat pat..."
+WaitTextBox
+ShowChara 7 0 0
+# 俺もなでなで…
+ShowTextBox "I wanna pet\nit too!"
+WaitTextBox
+ShowChara 5 0 0
+# ふふふふふ、パンダで
+# すか…
+ShowTextBox "Heh...\nA panda, is\nit...?"
+WaitTextBox
+ShowChara 5 0 0
+# ぬいぐるみとはいえ、
+# 動物は動物…
+ShowTextBox "Stuffed or not,\nI suppose an\nanimal is an\nanimal."
+WaitTextBox
+ShowChara 5 0 0
+# 私もなでなでしたい…
+ShowTextBox "I want to\npet it too..."
+WaitTextBox
+ShowChara 6 0 0
+# ピョコラ様、記念写真
+# を撮りましょう！
+ShowTextBox "Lady Pyokora,\nallow me to\ntake a photo!"
+WaitTextBox
+ShowChara 4 0 0
+# ＯＫぴょ！
+ShowTextBox "OK, pyo!"
+WaitTextBox
+ShowChara 6 0 0
+# …はい、チーズ！
+ShowTextBox "Say cheese!"
+WaitTextBox
+ShowChara 4 0 0
+# ぴょっ@
+ShowTextBox "Pyo~"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 4 0 33
+# …えっ、そーじゃ
+# ないって？
+ShowTextBox "Really?\nThat's not\nwhat this week\nis about, pyo?"
+WaitTextBox
+ShowChara 4 0 31
+# そんなはずないぴ
+# ょ！　ちゃんとも
+# のの本に書いてあ
+# ったぴょ！
+ShowTextBox "No way, pyo!\nIt was written\nin a book and\neverything!\nIt's gotta be\nreal, pyo!"
+WaitTextBox
+ShowChara 4 0 28
+# …それは大昔のこ
+# とだと店長さんは
+# いうぴょ？
+ShowTextBox "... You're\nsaying that's\njust a joke,\npyo?"
+WaitTextBox
+ShowChara 4 0 29
+# ぴょぴょ、ぴよこ
+# はそれを聞いて安
+# 心したぴょ…
+ShowTextBox "Whew...\nThat's a\nrelief, pyo."
+WaitTextBox
+# ということで、作
+# 戦は中止ぴょっ！
+ShowTextBox "Alright, call\noff the\noperation,\npyo!"
+WaitTextBox
+ShowChara 5 2 35
+# 「いま、動物の鳴
+# き声か何かが聞こ
+# えなかったか」で
+# すと…？
+ShowTextBox "Huh, you just\nheard some\nkind of\nanimal screech\nfrom the store,\nManager?"
+WaitTextBox
+ShowChara 5 0 36
+# はっはっは、気の
+# せいですよ店長、
+# 気のせい、気のせ
+# い…
+ShowTextBox "Hehehe... It's\njust your\nimagination,\npyo. Don't\nworry about it!"
+WaitTextBox
+ShowChara 7 1 48
+# いけね－な、ひょ
+# っとして疲れてん
+# じゃないのか、店
+# 長？
+ShowTextBox "I'm sure you're\njust tired...\nWhy don't you\nleave the shop\nfor the day,\npyo?"
+WaitTextBox
+ShowChara 6 2 41
+# ささ、店長、早く
+# 帰って休んでくだ
+# さい…大事なお体
+# なんですから…
+ShowTextBox "You can just\nleave closing\nup to us...\nNothing to\nworry about,\npyo...!"
+WaitTextBox
+EndScript

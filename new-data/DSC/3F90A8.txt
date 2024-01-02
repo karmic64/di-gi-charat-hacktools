@@ -1,0 +1,568 @@
+DSCBase $3F90A8
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# もうすぐハロウィ
+# ンだけど、ハロウ
+# ィンが何か知って
+# る？
+ShowTextBox "It's almost\nHalloween...\nSay, Dejiko, do\nyou know what\nHalloween is?"
+WaitTextBox
+ShowChara 1 2 10
+# もちろんにょ！ハ
+# ロウィンっていう
+# のは、人をおどか
+# すと、おかしをも
+# らえるという、お
+# かしな日にょ！
+ShowTextBox "Of course, nyo!\nHalloween's that\nweird day where\nyou get to scare\npeople and eat\ncandy, nyo!"
+WaitTextBox
+ShowChara 2 1 23
+# じゃ、さっそくだ
+# けど、ハロウィン
+# の日に何のかっこ
+# うをするか、会議
+# して決めましょう
+ShowTextBox "It's about time\nfor us to\nfigure out what\ncostumes we want\nto wear."
+WaitTextBox
+ShowChara 3 2 17
+# いきなりすぎにゅ
+ShowTextBox "It's a little\nsudden, nyu..."
+WaitTextBox
+ShowChara 1 2 9
+# まぁまぁ、でじこ
+# は賛成にょ
+ShowTextBox "I think so\ntoo, nyo."
+WaitTextBox
+ShowChara 2 1 22
+# とりあえず、アタ
+# シが考えたのはこ
+# んなかんじ
+ShowTextBox "Anyway, this is\nwhat I was\nthinking about:"
+WaitTextBox
+# １．かぼちゃ頭
+# ２．ドラキュラ
+# ３．魔女
+# ４．ミイラ男
+# ５．フランケン
+# ６．狼男
+ShowTextBox "1. Pumpkin Head\n2. Vampire\n3. Witch\n4. Mummy\n5. Frankenstein\n6. Werewolf"
+WaitTextBox
+# どう、何か意見あ
+# るかしら？
+ShowTextBox "Do you have any\nother ideas?"
+WaitTextBox
+ShowChara 1 2 8
+# にょにょ～、みん
+# なで同じやつをや
+# るのがいいと思う
+# けど、その場合、
+# ゲマが問題になり
+# そうにょ…
+ShowTextBox "I think it'd be\ncool for us to\nall wear the\nsame costume,\nbut Gema is a\nproblem, nyo..."
+WaitTextBox
+ShowChara 8 1 1
+# どうしてゲマ？
+ShowTextBox "Why, gema?"
+WaitTextBox
+ShowChara 3 2 17
+# その中でまんまる
+# なのはかぼちゃ頭
+# だけにゅ
+ShowTextBox "He's round\nenough for the\npumpkin head to\nwork, nyu."
+WaitTextBox
+ShowChara 1 2 9
+# つまり、ゲマが選
+# べるのはそれだけ
+# ということにょ！
+ShowTextBox "Yeah, that's\nthe only choice\nyou've got, nyo!"
+WaitTextBox
+ShowChara 2 1 25
+# 特にミイラ男なん
+# てダメよね。ゲマ
+# を包帯でぐるぐる
+# 巻きとかにしたら
+# …
+ShowTextBox "A mummy costume\ndefinitely\nwouldn't work.\nIf we wound up\nGema in gauze\nlike that..."
+WaitTextBox
+ShowChara 1 2 8
+# う～ん、ただのバ
+# レーボールになっ
+# てしまうにょ
+ShowTextBox "... He'd end up\nlooking like a\nvolleyball,\nnyo!"
+WaitTextBox
+ShowChara 2 1 23
+# あ、それでもいい
+# わね
+ShowTextBox "Actually, that\nmight be fine!"
+WaitTextBox
+ShowChara 1 2 10
+# おもしろそうだか
+# ら、ちょっとやっ
+# てみるにょ！ぷち
+# こ、包帯の用意に
+# ょ！
+ShowTextBox "It's kind of\nfunny, so let's\ndo it, nyo!\nPuchiko, have\nyou got the\nbandages, nyo?"
+WaitTextBox
+ShowChara 3 2 18
+# すでに準備はＯＫ
+# にゅ
+ShowTextBox "Everything's\nready, nyu."
+WaitTextBox
+ShowChara 8 1 54
+# ゲ、ゲマのことは
+# いいから、話をハ
+# ロウィンの仮装の
+# ことに戻すゲマ！
+ShowTextBox "C-Can't we\nreturn to the\ndiscussion,\ngema? Maybe\nsomeone's got\nanother idea...!"
+WaitTextBox
+ShowChara 1 2 8
+# にょっ…はろうぃ
+# んのかそう？
+ShowTextBox "Discussion, nyo?"
+WaitTextBox
+ShowChara 2 1 23
+# そうそう、そうい
+# えば、その話をし
+# てたんだっけ
+ShowTextBox "That's right,\nwe still need\nto decide on\nwhat everyone\nwill wear!"
+WaitTextBox
+ShowChara 8 1 2
+# なんだか、どっと
+# 疲れてきたゲマ…
+ShowTextBox "That was a\nclose one,\ngema..."
+WaitTextBox
+ShowChara 1 2 10
+# でじこは魔女にょ
+# ！
+ShowTextBox "I wanna be a\nwitch, nyo!"
+WaitTextBox
+# ミイラとかフラン
+# ケンだと、でじこ
+# のかわいさが目立
+# たないにょ
+ShowTextBox "A mummy or\nFrankenstein\nwould make it\nhard to tell\nhow cute I am,\nnyo."
+WaitTextBox
+ShowChara 2 1 23
+# そうね、アタシも
+# 魔女がいいと思う
+# わ
+ShowTextBox "I think I\nlike the witch\nidea best, too."
+WaitTextBox
+ShowChara 3 2 18
+# ぷちこも魔女にな
+# るにゅ！
+ShowTextBox "I'll be a witch\ntoo, nyu!"
+WaitTextBox
+ShowChara 2 1 22
+# じゃ、衣装はそれ
+# ぞれがそろえてく
+# るってことでいい
+# かしら？
+ShowTextBox "Is it alright if\nI make them\nall match?"
+WaitTextBox
+ShowChara 1 2 9
+# わかったにょ～。
+# では、今日はこれ
+# で解散にょ！
+ShowTextBox "Got it, nyo!\nI hereby\nproclaim this\ndiscussion\nover, nyo!"
+WaitTextBox
+ShowChara 8 1 54
+# ちょ、ちょっと待
+# つゲマ。結局、ゲ
+# マは何の仮装をす
+# ればいいゲマ？
+ShowTextBox "W-Wait a second,\ngema. What did\nyou decide on\nfor me to wear?"
+WaitTextBox
+ShowChara 2 1 23
+# おつかれさま
+ShowTextBox "Bye bye!"
+WaitTextBox
+ShowChara 3 2 17
+# さらばにゅ
+ShowTextBox "See you later,\nnyu."
+WaitTextBox
+ShowChara 8 1 2
+# ゲ、ゲマは何をす
+# ればいいゲマ～！
+ShowTextBox "W-What should I\ndo, gema!?"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 1 180 66 64 100 10 3
+Unk08 2 69 45 96 78 10 3
+Unk08 3 80 107 68 32 10 3
+Unk08 8 133 102 24 32 10 3
+SetBG 43
+Fade 0 30
+ShowChara 1 0 0
+# とりっく、おあ、とり
+# ーとめんとにょ～
+ShowTextBox "Trick or\ntreatment, nyo~!"
+WaitTextBox
+ShowChara 2 0 0
+# “とりーとめんと”じ
+# ゃなくて“とりーと”
+# よ…
+ShowTextBox "It's supposed\nto be \"treat\",\nnot\n\"treatment\"..."
+WaitTextBox
+ShowChara 1 0 0
+# にょにょ、とりっく、
+# おあ、とりーとにょ～
+ShowTextBox "Nyo, trick or\ntreat, nyo!"
+WaitTextBox
+# イタズラされたくなか
+# ったら、お菓子をよこ
+# すにょ～
+ShowTextBox "Hand over the\ncandy if you\ndon't want me to\nprank you, nyo~"
+WaitTextBox
+ShowChara 8 0 0
+# 上出来ゲマ！
+ShowTextBox "Good job, gema!"
+WaitTextBox
+ShowChara 1 0 0
+# 準備ばんたん、まさに
+# カンペキにょっ！
+ShowTextBox "Looks like all\nthe preparations\nare perfect,\ngema!"
+WaitTextBox
+ShowChara 3 0 0
+# ご近所のお菓子は、全
+# 部ぷちこたち、魔女軍
+# 団のものにゅ…
+ShowTextBox "All the candy\nin the\nneighborhood\nbelongs to\nPuchiko's\nwitches, nyu..."
+WaitTextBox
+ShowChara 8 0 0
+# がんばるゲマ！ゲマは
+# パンプキン、かぼちゃ
+# 頭ゲマ～！
+ShowTextBox "I'm a\npumpkin, so I'll\njust sit here,\ngema!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+Fade 1 30
+SetBG 113
+Fade 0 30
+ShowChara 1 1 10
+# 大漁大漁にょ～！
+# これで当分おやつ
+# に困らないにょ～
+ShowTextBox "Good haul, nyo!\nWe'll be working\noff this stash\nfor weeks, nyo~"
+WaitTextBox
+ShowChara 2 1 22
+# あれっ、向こうか
+# ら誰か来るわ…
+ShowTextBox "Hey, there's\nsomebody\ncoming..."
+WaitTextBox
+ShowChara 12 2 59
+# ゲバ～っ！
+ShowTextBox "Geba!"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバゲバ～っ！
+ShowTextBox "Geba geba!"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょぴょっ、お姉
+# ちゃん、待ってた
+# ぴょ！
+ShowTextBox "Pyo pyo pyo!\nI've been\nwaiting for\nyou, Dejiko!"
+WaitTextBox
+ShowChara 1 1 15
+# にょ！？ぴよこ、
+# いったい何しに来
+# たにょ！
+ShowTextBox "Nyo!? Piyoko,\nwhat are you\ndoing here,\nnyo!?"
+WaitTextBox
+ShowChara 4 2 29
+# お姉ちゃんの集め
+# たお菓子を横取り
+# しに決まってるぴ
+# ょっ！
+ShowTextBox "Why, to steal\nyour candy, of\ncourse!\nPyo pyo pyo!"
+WaitTextBox
+# さぁ、お姉ちゃん
+# 集めたお菓子をお
+# となしくこっちに
+# わたすぴょっ！
+ShowTextBox "Now be a good\ngirl and hand\nit over, pyo!"
+WaitTextBox
+ShowChara 1 1 11
+# イヤだにょ！取れ
+# るものなら取って
+# みろだにょっ！
+ShowTextBox "No way, nyo!\nIf you want my\ncandy, why don't\nyou just try\nand take it,\nnyo!?"
+WaitTextBox
+ShowChara 1 0 13
+# くらえ、目からビ
+# ィ～ム…にょっ？
+ShowTextBox "Take this!\nEye Laser Beam!\n... Nyo!?"
+WaitTextBox
+ShowChara 5 1 39
+# おっと、そうはい
+# きません
+ShowTextBox "Now, now.\nWe can't be\nhaving that."
+WaitTextBox
+ShowChara 3 1 17
+# にゅ！？
+ShowTextBox "Nyu!?"
+WaitTextBox
+ShowChara 6 1 41
+# お菓子はいただい
+# て行きます！
+ShowTextBox "We'll be\ntaking that\ncandy off your\nhands, now!"
+WaitTextBox
+ShowChara 2 1 24
+# きゃーっ、ちょっ
+# と、それはアタシ
+# のよ！返しなさい
+# よーっ！
+ShowTextBox "Aaah! That's\nMINE! Give it\nback!"
+WaitTextBox
+ShowChara 7 1 52
+# ふん、油断大敵だ
+# ぜ！
+ShowTextBox "Heheh, you\nshouldn't have\nlet your\nguard down!"
+WaitTextBox
+ShowChara 8 1 54
+# な、なんと、ぴよ
+# こはおとりだった
+# ゲマ！？
+ShowTextBox "Piyoko was\nonly a decoy,\ngema!?"
+WaitTextBox
+ShowChara 4 2 29
+# ぴょぴょっ、目的
+# は果たしたぴょ、
+# みな、すみやかに
+# 退くぴょ～～っ！
+ShowTextBox "Objective\ncomplete, pyo!\nAll units,\nreturn to base,\npyo!"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバーっ！
+ShowTextBox "Geba!"
+WaitTextBox
+ShowChara 1 1 12
+# で、でじこのお菓
+# 子がＢＧ団のＵＦ
+# Ｏの中に次々と吸
+# い込まれていくに
+# ょ…
+ShowTextBox "T-They abducted\nall of my\ncandy, nyo..."
+WaitTextBox
+ShowChara 8 1 54
+# でじこ、ぽかーん
+# としてる場合じゃ
+# ないゲマっ！
+ShowTextBox "There's no time\nto sit around\nin a daze, gema!"
+WaitTextBox
+ShowChara 1 1 11
+# はっ、そ、そうだ
+# ったにょ。どうに
+# かして、でじこた
+# ちのお菓子を取り
+# 戻すにょっ！
+ShowTextBox "R-Right, nyo.\nNo matter what,\nwe've gotta get\nour candy back,\nnyo!"
+WaitTextBox
+ShowChara 2 1 26
+# よーし、ここはア
+# タシにまかせて！
+# 絶対に取り戻して
+# みせるんだから！
+ShowTextBox "Leave it to me!\nI'll make them\nregret the day\nthey chose to\ntake MY candy!"
+WaitTextBox
+Unk1B 2 40
+EndScript
+
+
+
+Subscript 3
+PlayMusic 17
+SetBG 113
+Fade 2 30
+ShowChara 2 1 26
+# ざっと、こんなも
+# のね！
+ShowTextBox "And that's that!"
+WaitTextBox
+ShowChara 1 1 10
+# やったにょ、うさ
+# だ、お手柄にょ！
+ShowTextBox "You did it,\nUsada! Amazing,\nnyo!"
+WaitTextBox
+ShowChara 5 2 37
+# ま、まさか、お菓
+# 子を全部取り戻さ
+# れてしまうとは…
+ShowTextBox "U-Unbelievable!\nHow did she\nget back all\nthe candy,\npyo!?"
+WaitTextBox
+ShowChara 6 2 43
+# ピョ、ピョコラ様
+# 、残念ながら、作
+# 戦は失敗のようで
+# す…
+ShowTextBox "Lady Pyokora,\nI'm afraid this\nstrategy was a\nfailure..."
+WaitTextBox
+ShowChara 7 2 50
+# 空を飛ぶなんて、
+# 反則だぞ！
+ShowTextBox "Being able to\nfly is cheating!\nNot fair!"
+WaitTextBox
+ShowChara 4 2 30
+# とほほ、これでこ
+# の冬はおやつ抜き
+# ぴょ
+ShowTextBox "I guess we\nwon't be having\nany dessert this\nwinter, pyo..."
+WaitTextBox
+ShowChara 2 1 22
+# ねえ、あなたたち
+ShowTextBox "Hey, you guys!"
+WaitTextBox
+ShowChara 4 2 31
+# な、何ぴょ。もう
+# 返すものはないは
+# ずぴょ！
+ShowTextBox "W-What, pyo?\nLeave us alone!\nYou already got\nall your candy\nback, pyo!"
+WaitTextBox
+ShowChara 2 1 23
+# なんだかかわいそ
+# うだから、お菓子
+# を少しわけてあげ
+# るわ
+ShowTextBox "I feel kind of\nbad, so...\nI guess we can\nlet you have\na little of\nour candy."
+WaitTextBox
+ShowChara 4 2 33
+# ほ、ほんとうぴょ
+# っ！？
+ShowTextBox "R-Really, pyo!?"
+WaitTextBox
+ShowChara 2 1 22
+# ねぇ、でじこにぷ
+# ちこ。ちょっとぐ
+# らいなら、わけて
+# あげてもいいでし
+# ょ？
+ShowTextBox "Hey, Puchiko,\nDejiko. We can\ngive them just\na couple\nhandfuls, right?"
+WaitTextBox
+ShowChara 1 1 9
+# うさだがそういう
+# なら、しかたない
+# にょ
+ShowTextBox "Well, I guess\nthat's okay,\nnyo."
+WaitTextBox
+ShowChara 3 1 17
+# 感謝しながら食べ
+# るにゅ
+ShowTextBox "You'd better\nthank us, nyu."
+WaitTextBox
+ShowChara 4 2 34
+# うれしいぴょ！あ
+# りがとうぴょっ！
+ShowTextBox "I'm so happy,\npyo! Thank you\nso much, pyo!"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバ～っ…これで
+# 冬が越せそうゲバ
+# ～！
+ShowTextBox "Geba! This'll\nlast us the\nwhole winter,\ngeba!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+PlayMusic 17
+SetBG 113
+Fade 0 30
+ShowChara 2 1 25
+# ダメだわ、回収し
+# きれなかった…
+ShowTextBox "It's\nimpossible...\nI can't catch\nup with them\nnow..."
+WaitTextBox
+ShowChara 4 2 29
+# ぴょぴょっ、それ
+# では、ごきげんよ
+# うぴょ！
+ShowTextBox "Pyo pyo pyo!\nWith that, I\nbid you\nadieu, pyo!"
+WaitTextBox
+ShowChara 1 1 12
+# で、でじこのお菓
+# 子が、お空のかな
+# たへ…
+ShowTextBox "A-All my candy\ngot sucked up\ninto the sky,\nnyo..."
+WaitTextBox
+ShowChara 2 1 25
+# ごめんなさい、ア
+# タシのせいで
+ShowTextBox "I'm sorry...\nIt's my fault."
+WaitTextBox
+ShowChara 3 1 17
+# うさだのせいじゃ
+# ないにゅ
+ShowTextBox "It's not your\nfault, nyu.\nThey're the\nones who took\nour candy, nyu."
+WaitTextBox
+ShowChara 2 1 25
+# でも…
+ShowTextBox "But, still..."
+WaitTextBox
+ShowChara 1 1 9
+# そうにょ。うさだ
+# のせいじゃないん
+# だから、全然気に
+# しなくていいにょ
+ShowTextBox "That's right.\nThere's nothing\nwe can do now,\nso don't\nworry about it,\nnyo."
+WaitTextBox
+ShowChara 2 1 23
+# そういってもらえ
+# ると、助かるわ
+ShowTextBox "... Thank you,\nthat means a\nlot to me."
+WaitTextBox
+ShowChara 1 1 8
+# じゃ、気をとりな
+# おしてもう一度、
+# お菓子をもらいに
+# いくにょ！
+ShowTextBox "Alright, nyo!\nWe've got no\nchoice but to\ngo get more\ncandy, nyo!"
+WaitTextBox
+ShowChara 2 1 22
+# ええっ、またやる
+# の？
+ShowTextBox "Huh? You\nwanna go all\nover the\nneighborhood\nAGAIN?"
+WaitTextBox
+ShowChara 1 1 15
+# にょにょっ、何か
+# 不服でもあるのか
+# にょ、うさだ！？
+ShowTextBox "What's the\nmatter, Usada!?\nYou have any\ncomplaints,\nnyo!?"
+WaitTextBox
+ShowChara 2 1 25
+# い、いいえ…
+ShowTextBox "N-No..."
+WaitTextBox
+# （これは絶対根に
+# 持ってるわ…）
+ShowTextBox "(I won't\nforget this,\nBlack Gema\nGema Gang...!)"
+WaitTextBox
+ShowChara 1 1 9
+# 何か言ったにょ？
+ShowTextBox "What was that,\nnyo?"
+WaitTextBox
+ShowChara 2 1 25
+# な、何も…
+ShowTextBox "N-nothing..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+EndScript

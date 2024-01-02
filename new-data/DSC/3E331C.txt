@@ -1,0 +1,127 @@
+DSCBase $3E331C
+
+
+
+### Prefill data: $00,$40
+Subscript 0
+ShowChara 4 4 28
+# $1って$2より、えらいぴょ？
+ShowTextBox "Don't you think\n$1 is\ncooler than\n$2,\npyo?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83,$81
+Subscript 1
+ShowChara 4 4 28
+# アナローグ星にいる$1は変わってるぴょ
+ShowTextBox "The native\n$1 on\nPlanet Analog\nis a little\nweird, pyo."
+WaitTextBox
+ShowChara 4 0 29
+# 地球の$1とは違って、$2を食べるんだぴょ！
+ShowTextBox "They eat\n$2\ninstead of\nnormal\n$1\nfood, pyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $82,$42
+Subscript 2
+ShowChara 4 4 28
+# $1買ってくれるぴょ？
+ShowTextBox "Oh, are you\ngoing to buy\n$1,\npyo?"
+WaitTextBox
+ShowChara 4 0 34
+# でもぴよこ、$1より$2の方がいいぴょ
+ShowTextBox "I prefer\n$2,\npyo. Get that\nif they have\nit!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84
+Subscript 3
+ShowChara 4 4 28
+# このまえおつかい
+# に行った時、ぴよ
+# こ$1の花見たぴょ
+ShowTextBox "I saw a\n$1\nflower while I\nwas out running\nerrands, pyo."
+WaitTextBox
+ShowChara 4 0 29
+# とてもキレイだったぴょ♪
+ShowTextBox "It's beautiful\nto see in\nbloom, pyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$85
+Subscript 4
+ShowChara 4 4 31
+# 『$1』は$2では放送されてないんだぴょ！
+ShowTextBox "They don't have\n$1\non TV in\n$2,\npyo!"
+WaitTextBox
+ShowChara 4 0 30
+# $2の人たちがかわいそうだぴょ～
+ShowTextBox "It's too bad\nfor the people\nwho live there,\npyo."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86,$8A
+Subscript 5
+ShowChara 4 4 28
+# $1で$2に乗るとしあわせになるってウワサを聞いたぴょ
+ShowTextBox "I heard if you\nride the\n$2\nin $1\nyou'll become\nlucky, pyo."
+WaitTextBox
+ShowChara 4 0 31
+# マジぴょ？
+ShowTextBox "Is that true,\npyo?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86,$8A,$4A
+Subscript 6
+ShowChara 4 4 29
+# ぴよこ今度$1に行ったら$2に乗りたいぴょ
+ShowTextBox "I want to ride\nthe $2\nin $1,\npyo."
+WaitTextBox
+ShowChara 4 0 34
+# あ、$3にも乗りたいぴょ♪
+ShowTextBox "Oh, I wanna\nride the\n$3,\ntoo, pyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89,$8B,$80
+Subscript 7
+ShowChara 4 4 29
+# ぴよこも今『$1』がお気に入りぴょ！
+ShowTextBox "I just started\nreading\n$1,\npyo!"
+WaitTextBox
+ShowChara 4 0 30
+# $2にあけくれる主人公$3の行く末が心配だぴょ
+ShowTextBox "I'm getting\nkind of worried\n$3 is\ngonna be in the\n$2 arc\nforever, pyo."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83,$87
+Subscript 8
+ShowChara 4 4 31
+# でじこお姉ちゃん
+# のお店にいる$1は$2ができるって話ぴょ！
+ShowTextBox "!!! 3E331C 15"
+WaitTextBox
+# それ見たさに連日
+# たくさんお客さん
+# が来てるらしいぴ
+# ょ！！
+ShowTextBox "They've got\ncustomers\npouring through\nthe doors to\nsee if it's\nreal, pyo!"
+WaitTextBox
+ShowChara 4 0 30
+# くやしいぴょ～！
+# ぴよこのお店でも
+# なにかするぴょ～
+# ！！
+ShowTextBox "Aaargh!\nI'm so\njealous, pyo!\nWe need a\n$1\nhere, too, pyo!"
+WaitTextBox
+EndScript

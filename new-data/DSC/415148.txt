@@ -1,0 +1,91 @@
+DSCBase $415148
+
+
+
+
+Subscript 0
+ShowChara 1 2 8
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# さいしょから
+# はじめるにょ
+ShowTextBox "Start a new game, nyo."
+EndScript
+
+
+
+Subscript 3
+ShowChara 1 0 10
+# いちねんかん
+# がんばるにょ！
+ShowTextBox "Do your best this year, nyo!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 4
+# まえのつづきから
+# はじめるにょ
+ShowTextBox "Continue from a saved game, nyo."
+EndScript
+
+
+
+Subscript 5
+ShowChara 1 0 10
+# きょうもがんばるにょ！
+ShowTextBox "Do your best today, nyo!"
+WaitTextBox
+DoorCloseTransition
+EndScript
+
+
+
+Subscript 6
+# めいしを見たり、ともだちとこうかんしたりするにょ
+ShowTextBox "View or exchange business cards, nyo."
+EndScript
+
+
+
+Subscript 7
+HideChara
+EndScript
+
+
+
+Subscript 8
+# ミニゲームやおもいでを見たりするにょ
+ShowTextBox "View minigames and memories, nyo."
+EndScript
+
+
+
+Subscript 9
+HideChara
+EndScript
+
+
+
+Subscript 10
+# いろいろなせっていをするにょ
+ShowTextBox "Adjust the settings, nyo."
+EndScript
+
+
+
+Subscript 11
+Fade 1 15
+HideChara
+EndScript

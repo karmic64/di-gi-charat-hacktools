@@ -1,0 +1,62 @@
+DSCBase $410F80
+
+
+
+
+Subscript 0
+Fade 0 30
+SetPermTextBoxPos 0 16
+ShowChara 8 2 2
+# \x01おかねがなくなって仕入れることが出来ないゲマ…\x1a
+ShowTextBox "\x01The shop has no money to buy stock with, gema...\x1a"
+WaitTextBox
+# しょうがないゲマ、このおかねを使うゲマ！
+ShowTextBox "Well, I'll just have to lend you this! Spend it wisely, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 1
+Fade 0 30
+SetPermTextBoxPos 0 16
+ShowChara 8 2 2
+# \x01おかねがなくなって仕入れることが出来ないゲマ…\x1a
+ShowTextBox "\x01The shop has no money to buy stock with, gema...\x1a"
+WaitTextBox
+# しょうがないゲマ、このおかねを使うゲマ！
+ShowTextBox "Well, I'll just have to lend you this! Spend it wisely, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 2
+Fade 0 30
+SetPermTextBoxPos 0 16
+ShowChara 8 2 2
+# \x01おかねがなくなって仕入れることが出来ないゲマ…\x1a
+ShowTextBox "\x01The shop has no money to buy stock with, gema...\x1a"
+WaitTextBox
+# しょうがないゲマ、このおかねを使うゲマ！
+ShowTextBox "Well, I'll just have to lend you this! Spend it wisely, gema!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 3
+Fade 0 30
+SetPermTextBoxPos 0 16
+ShowChara 8 2 2
+# \x01おかねがなくなって仕入れることが出来ないゲマ…\x1a
+ShowTextBox "\x01The shop has no money to buy stock with, gema...\x1a"
+WaitTextBox
+# しょうがないゲマ、このおかねを使うゲマ！
+ShowTextBox "Well, I'll just have to lend you this! Spend it wisely, gema!"
+WaitTextBox
+HideChara
+EndScript

@@ -1,0 +1,256 @@
+DSCBase $40461C
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 5 1 35
+# ううむ…年末はい
+# そがしい…
+ShowTextBox "This time of\nyear is always\nso busy."
+WaitTextBox
+# クリスマスに大晦
+# 日、年が明けても
+# すぐ正月…
+ShowTextBox "Christmas,\nNew Year's Eve,\nand New Year's\nDay, one after\nthe other..."
+WaitTextBox
+# 休む間もないとは
+# このことか…
+ShowTextBox "Can I not have\neven a single\nmoment to rest?"
+WaitTextBox
+ShowChara 6 2 40
+# 元帥、とりあえず
+# 目の前の仕事から
+# 順に片づけていき
+# ましょう…
+ShowTextBox "Admiral, I\nsuggest we try\nto deal with\neach item one\nat a time."
+WaitTextBox
+ShowChara 5 1 39
+# うむ、では最初の
+# 議題だ
+ShowTextBox "... You're\nright. Let's\nbegin, then."
+WaitTextBox
+# どうやってクリス
+# マスセール用のサ
+# ンタクロースの衣
+# 装を３着も用意す
+# るか、だ…
+ShowTextBox "First, how to\nacquire three\nSanta Claus\noutfits for the\nChristmas sale."
+WaitTextBox
+ShowChara 7 2 47
+# ぴよこに用意した
+# ヤツってどうなっ
+# た？
+ShowTextBox "What happened\nto the clothes\nwe got for\nPiyoko?"
+WaitTextBox
+ShowChara 6 2 43
+# それが…
+ShowTextBox "Well..."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 6 2 41
+# ピョコラ様、いか
+# がですか、この衣
+# 装は？
+ShowTextBox "Lady Pyocola,\nwhat do you\nthink? Do the\nclothes fit?"
+WaitTextBox
+ShowChara 4 1 28
+# 外に出るのは寒い
+# からイヤぴょ
+ShowTextBox "It's way too\ncold outside\nfor this, pyo!"
+WaitTextBox
+ShowChara 12 2 59
+# うわ、わがまま
+# ゲバ…
+ShowTextBox "...\nSo spoiled,\ngeba."
+WaitTextBox
+ShowChara 4 1 31
+# …なんか言ったぴ
+# ょ？
+ShowTextBox "Did you say\nsomething,\npyo!?"
+WaitTextBox
+ShowChara 12 2 59
+# な、なにも言って
+# ないゲバっ！
+ShowTextBox "N-Nothing at\nall, geba!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 6 2 43
+# というわけで、ム
+# ダになってしまっ
+# たのだ…
+ShowTextBox "... And so\nthat plan\nended in\nfailure."
+WaitTextBox
+ShowChara 7 2 52
+# ぴよこのサイズな
+# ら、俺、無理すれ
+# ば着れるかもしれ
+# ないぜ？
+ShowTextBox "If the clothes\nare Piyoko's\nsize, I might\nbe able to fit\ninto them.\nProbably..."
+WaitTextBox
+ShowChara 6 2 43
+# そういう問題じゃ
+# ないだろ…
+ShowTextBox "Unfortunately,\nthat's not the\nproblem."
+WaitTextBox
+ShowChara 5 1 37
+# サンタのいないク
+# リスマスというの
+# もさびしいものだ
+# …
+ShowTextBox "A Christmas\nwithout Santa\nis a thought\ntoo sad to\nbear..."
+WaitTextBox
+ShowChara 5 0 35
+# しかたがない…面
+# 倒だが、我々の手
+# で作り上げる他あ
+# るまい…
+ShowTextBox "... We've got\nno choice but\nto sew the\noutfits\nourselves."
+WaitTextBox
+# というわけで…
+ShowTextBox "So..."
+WaitTextBox
+ShowChara 5 0 39
+# カイ＝シュヴァイ
+# ツァー中将、元帥
+# として命令する！
+ShowTextBox "Lieutenant\nKy Schweitzer!\nI command you\nas Admiral of\nthe Black Gema\nGema Gang!"
+WaitTextBox
+# 本日中にサンタ服
+# を３着用意せよ！
+ShowTextBox "Prepare three\nSanta outfits\nby the end of\nthe day!"
+WaitTextBox
+ShowChara 6 2 44
+# うっ…自分がです
+# かッ！？
+ShowTextBox "Me!?"
+WaitTextBox
+ShowChara 5 1 38
+# カイ＝シュヴァイ
+# ツァー中将、返事
+# は！
+ShowTextBox "Do I hear a\ncomplaint,\nLieutenant?"
+WaitTextBox
+ShowChara 6 2 45
+# 本日中にサンタ服
+# を３着用意します
+# ！
+ShowTextBox "No, sir!\nI'll have them\nready within\nthe day, sir!"
+WaitTextBox
+ShowChara 5 1 35
+# よろしい！
+ShowTextBox "Very well!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 6 2 46
+# （まいったな…
+# どうしよう…）
+ShowTextBox "(Aw, crap...\nWhat am I\ngoing to do?)"
+WaitTextBox
+ShowChara 6 0 41
+# （そうだ！）
+ShowTextBox "(... That's\nit!)"
+WaitTextBox
+ShowChara 6 0 40
+# クウ＝エアハルト
+# 少佐、中将として
+# 命令する！
+ShowTextBox "Major Coo\nErhardt, I\ncommand you as\nLieutenant of\nthe Black Gema\nGema Gang!"
+WaitTextBox
+ShowChara 7 1 58
+# えっ？
+ShowTextBox "Huh!?"
+WaitTextBox
+ShowChara 6 2 40
+# 本日中にサンタ服
+# を３着用意せよ！
+ShowTextBox "Prepare three\nSanta outfits\nby the end of\nthe day!"
+WaitTextBox
+ShowChara 7 1 58
+# そ、そんなーっ！
+ShowTextBox "Hey, wait a\nminute!"
+WaitTextBox
+ShowChara 6 2 40
+# クウ＝エアハルト
+# 少佐、返事は！
+ShowTextBox "Am I hearing a\ncomplaint,\nMajor!?"
+WaitTextBox
+ShowChara 7 1 50
+# ちぇっ…本日中に
+# サンタ服を３着用
+# 意しまーすっ！
+ShowTextBox "Tch...\nFine, fine!\nI'll do it!"
+WaitTextBox
+ShowChara 6 2 41
+# よろしい！
+ShowTextBox "Good!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 7 1 49
+# （まいったなぁ…
+# どうしよう…）
+ShowTextBox "(Man, what the\nheck... What\nshould I do?)"
+WaitTextBox
+ShowChara 7 0 48
+# （そうだ！）
+ShowTextBox "(... I know!)"
+WaitTextBox
+ShowChara 7 0 47
+# おい、お前ら！
+ShowTextBox "Hey, you guys!"
+WaitTextBox
+ShowChara 12 2 59
+# …ゲバ？
+ShowTextBox "Geba?"
+WaitTextBox
+ShowChara 7 1 48
+# ふっふっふ…
+ShowTextBox "Heh heh..."
+WaitTextBox
+# 俺、クウ＝エアハ
+# ルト少佐様の命令
+# だ！
+ShowTextBox "Major Coo\nErhardt has an\norder for you\nlot!"
+WaitTextBox
+# 本日中に…以下略
+# だ！
+ShowTextBox "Within the day,\nget... well, you\nheard what they\nsaid! Do that!"
+WaitTextBox
+ShowChara 12 2 59
+# ゲバーっ、そんな
+# の無茶ゲバーっ！
+ShowTextBox "Geba!? That's\nimpossible,\ngeba!"
+WaitTextBox
+ShowChara 7 1 50
+# いーからやれっ！
+# 返事はどうした！
+ShowTextBox "That's not how\nyou talk to\nyour superior!\nJust get it\ndone!"
+WaitTextBox
+ShowChara 12 2 59
+# イ、イエッサー、
+# ゲバ…
+ShowTextBox "Y-Yes, sir,\ngeba..."
+WaitTextBox
+ShowChara 7 1 48
+# よろしい
+ShowTextBox "Alright!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 12 2 59
+# とほほ…下っぱは
+# つらすぎるゲバ…
+ShowTextBox "Sniff...\nBeing at the\nbottom of the\nladder sucks,\ngeba..."
+WaitTextBox
+EndScript

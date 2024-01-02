@@ -1,0 +1,195 @@
+DSCBase $40AE24
+
+
+
+
+Subscript 0
+SetPermTextBoxPos 0 16
+ShowChara 2 2 22
+EndScript
+
+
+
+Subscript 1
+ShowChara 2 0 22
+# 開店していいかしら？
+ShowTextBox "Ready to open the store?"
+EndScript
+
+
+
+Subscript 2
+ShowChara 2 0 22
+# 新しいグッズを仕入れ
+# るわよ
+ShowTextBox "Put stock on the shelves."
+EndScript
+
+
+
+Subscript 3
+ShowChara 2 0 22
+# 誰がどのお仕事をする
+# のか、決めましょう！
+ShowTextBox "Choose everyone's assignments."
+EndScript
+
+
+
+Subscript 4
+ShowChara 2 0 22
+# お店のことをちゃんと
+# 知っておくのが売り上
+# げ倍増への近道よ
+ShowTextBox "Look at the shop information."
+EndScript
+
+
+
+Subscript 5
+ShowChara 2 0 22
+# 楽しいショッピングし
+# ましょ！
+ShowTextBox "Pay for something special!"
+EndScript
+
+
+
+Subscript 6
+ShowChara 2 0 22
+# 道具を買ったら、お仕
+# 事も楽ちんね！
+ShowTextBox " Buy equipment for employees!"
+EndScript
+
+
+
+Subscript 7
+ShowChara 2 0 22
+# バーゲン！　いい響き
+# だわ…
+ShowTextBox "Offer a special deal to attract customers!"
+EndScript
+
+
+
+Subscript 8
+ShowChara 2 0 22
+# ビラ配りは、笑顔をた
+# やさずに！
+ShowTextBox "Hand out flyers to advertise the shop!"
+EndScript
+
+
+
+Subscript 9
+ShowChara 2 0 22
+# お店を広くするのね！
+# 工事は来週の日曜日に
+# やるわ！
+ShowTextBox " Add a new Slot to the shop! The construction will be finished next Sunday."
+EndScript
+
+
+
+Subscript 10
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 2 0 23
+# さあ、今週も開店よ！
+ShowTextBox "Let's open for the week, shall we?"
+EndScript
+
+
+
+Subscript 12
+EndScript
+
+
+
+Subscript 13
+ShowChara 2 0 25
+# ごめんなさい…
+# まだなの
+ShowTextBox "Sorry... you can't do that yet."
+EndScript
+
+
+
+Subscript 14
+ShowChara 2 0 22
+# $0円かかるけどやるの？
+ShowTextBox "That'll cost $0 yen. Is that OK?"
+EndScript
+
+
+
+Subscript 15
+ShowChara 2 0 25
+# お、お金が足りないな
+# んて！
+ShowTextBox "Ah, we don't have enough money!"
+EndScript
+
+
+
+Subscript 16
+ShowChara 2 0 23
+# お仕事がんばりましょ
+# うね！
+ShowTextBox "Let's do our best!"
+EndScript
+
+
+
+Subscript 17
+ShowChara 2 0 23
+# バーゲン開始！
+ShowTextBox "Sale started!"
+EndScript
+
+
+
+Subscript 18
+ShowChara 2 0 23
+# ビラ配りをやるわよ！
+ShowTextBox "Let's go hand out some flyers!"
+EndScript
+
+
+
+Subscript 19
+ShowChara 2 0 23
+# お店を広くするわよ！
+ShowTextBox "Done! The expansion will be finished Sunday of next week!"
+EndScript
+
+
+
+Subscript 20
+ShowChara 2 0 22
+# だれかのフェアをやっ
+# てお客さんをたくさん
+# 呼ぶわ
+ShowTextBox "Hold a Special Fair of somebody! A lot of customers will come by to check it out!"
+EndScript
+
+
+
+Subscript 21
+ShowChara 2 0 23
+# $1フェア、ただいまからスタート！
+ShowTextBox "Time to start the $1 Fair!"
+EndScript
+
+
+
+Subscript 22
+ShowChara 2 0 22
+# $1のフェアをやるわよ！
+ShowTextBox "Hold a $1 Fair!"
+EndScript

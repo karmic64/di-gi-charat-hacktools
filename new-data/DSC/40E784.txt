@@ -1,0 +1,210 @@
+DSCBase $40E784
+
+
+
+
+Subscript 0
+Unk11 0 0
+Unk11 3 1
+SetBG 111
+Fade 0 30
+ShowChara 1 1 9
+# にょっにょにょっ
+# にょにょ～っ…♪
+ShowTextBox "Nyo Nyo Nyo,\nNyo Nyo~~..."
+Wait 60
+ShowChara 1 0 10
+# さーて、今日も一
+# 日バリバリと働く
+# にょ～っ！
+ShowTextBox "Awright, let's crush it at work again today nyo!"
+Wait 60
+ShowChara 3 1 17
+# 今日もキリキリと
+# 働くにゅ…
+ShowTextBox "Getting crushed by work again today, nyu..."
+Wait 60
+ShowChara 8 2 53
+# でじこーっ
+# がんばって働くゲ
+# マ～～っ！
+ShowTextBox "Dejiko! Good luck with work today, gema!"
+Wait 60
+# ゲマは、いつでも
+# でじこを応援して
+# るゲマ～っ！
+ShowTextBox "I'll be cheering you on as always, gema~!"
+Wait 60
+ShowChara 1 1 13
+# 目からビーム！
+ShowTextBox "Eye Laser Beam!"
+Wait 60
+Fade 3 10
+Fade 2 10
+ShowChara 8 2 4
+# ゲマぁ～～っ！
+ShowTextBox "Gema~~~!!"
+Wait 60
+ShowChara 1 1 11
+# 応援だけかにょ？
+# なんでゲマも手伝
+# わないにょっ！？
+ShowTextBox "Cheering us?! Why don't you help out for once, nyo!?"
+Wait 60
+ShowChara 8 2 4
+# ジョ、ジョークだ
+# ゲマ～っ！
+ShowTextBox "J-just kidding gema~!"
+Wait 60
+ShowChara 3 1 17
+# 分かってるならい
+# いにゅ
+ShowTextBox "If you say so nyu."
+Wait 60
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 2 2 23
+# おはよー！
+ShowTextBox "Good morning!"
+Wait 60
+ShowChara 3 1 17
+# おはようにゅ
+ShowTextBox "Good morning, nyu."
+Wait 60
+ShowChara 1 1 8
+# にょっ、うさだが
+# やってきたにょ！
+ShowTextBox "Nyo, Usada finally showed up nyo!"
+Wait 60
+ShowChara 2 2 22
+# あら、でじこ、今
+# 日はずいぶん早い
+# のね。どうかした
+# の？
+ShowTextBox "You're up early today, Dejiko. Is something the matter?"
+Wait 60
+ShowChara 1 1 8
+# “なにかあった”
+# じゃないにょっ！
+ShowTextBox "Of course something's the matter, nyo!!"
+Wait 60
+ShowChara 1 0 9
+# もうすぐ、この店
+# に新しい店長さん
+# がやって来るんだ
+# にょ～っ！
+ShowTextBox "The new store manager starts today, nyo!"
+Wait 60
+ShowChara 2 2 22
+# なるほど、それで
+# お店の中をびしー
+# っと、キレイに掃
+# 除してたのね
+ShowTextBox "Well, we had better get this place sparkling clean before they arrive!"
+Wait 60
+ShowChara 1 1 9
+# にょにょっ、もう
+# だ～いぶ片づいた
+# にょ！
+ShowTextBox "No worries, nyo! Everything's already suuuper organized, nyo!"
+Wait 60
+ShowChara 1 0 14
+# にょにょ、これで
+# いつ新しい店長さ
+# んがやってきても
+# 大丈夫だにょ～
+ShowTextBox "It should be fine like this, nyo~"
+Wait 60
+ShowChara 8 2 1
+# とりあえず、第一
+# 印象だけは、ばっ
+# ちりゲマ！
+ShowTextBox "At least the first impression will be perfect, gema!"
+Wait 60
+ShowChara 1 1 11
+# むかっ、「第一印
+# 象だけ」とは何に
+# ょ～！
+ShowTextBox "What do you mean, \"At least\", nyo!?"
+Wait 60
+ShowChara 2 2 23
+# あははははーっ…
+ShowTextBox "Ahahahaha..."
+Wait 60
+ShowChara 2 0 55
+# って、あんまり人
+# のこと笑えないか
+# も…
+ShowTextBox "... Well, I suppose I'm in no position to be laughing..."
+Wait 60
+ShowChara 8 2 2
+# なんだか、新しい
+# 店長さんが気の毒
+# に思えてきたゲマ
+ShowTextBox "Somehow I feel sorry for the new manager, gema..."
+Wait 60
+ShowChara 3 1 21
+# 大丈夫、なるよう
+# にしかならないに
+# ゅ
+ShowTextBox "Whatever happens, happens, nyu."
+Wait 60
+JumpOnSelection 1 0 0
+Label 0
+Fade 1 30
+Unk0C 0
+EndScript
+Label 1
+Fade 1 30
+Unk0C 1
+EndScript
+
+
+
+Subscript 1
+Unk11 0 2
+Unk11 3 3
+SetBG 118
+Fade 0 30
+ShowChara 8 1 1
+# みんなの自己紹介ゲマ！
+ShowTextBox "Time to introduce everyone gema!"
+Wait 60
+ShowChara 8 0 53
+# おいらの名前は、
+# ゲマだゲマ！
+ShowTextBox "My name's Gema, gema!"
+Wait 60
+ShowChara 1 1 10
+# でじこだにょ！
+ShowTextBox "I'm Dejiko, nyo!"
+Wait 60
+ShowChara 1 0 8
+# う～ん、とくいな
+# ことは「目からビ
+# ーム」だにょ！
+ShowTextBox "My special skill is my Eye Laser Beam, nyo!"
+Wait 60
+ShowChara 2 2 22
+# アタシは、ラ・ビ
+# ・アン・ローズ…
+ShowTextBox "I am Rabi~en~Rose..."
+Wait 60
+ShowChara 3 1 17
+# …………
+ShowTextBox "..."
+Wait 60
+ShowChara 3 0 18
+# ぷちこにゅ…
+ShowTextBox "Puchiko nyu..."
+Wait 60
+JumpOnSelection 1 2 0
+Label 2
+Fade 1 30
+Unk0C 0
+EndScript
+Label 3
+Fade 1 15
+Unk0C 1
+EndScript

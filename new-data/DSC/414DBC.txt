@@ -1,0 +1,247 @@
+DSCBase $414DBC
+
+
+
+
+Subscript 0
+ShowChara 7 1 51
+# $0、もう飽きてきたなあ
+# そろそろ違う仕事がやりたいな！
+ShowTextBox "I'm tired of doing $0.\nLet me do something else, already!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 1
+ShowChara 7 1 47
+# 店長がそこまで言
+# うんなら、このま
+# まの仕事でがんば
+# ってみるかな～
+ShowTextBox "If you say you need me here, I'll give it another try, I guess."
+WaitTextBox
+PlaySfx 179
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 7 1 49
+# 店長、頼むからこ
+# んなことはもうな
+# いようにしてくれ
+# よー
+ShowTextBox "Come on, Manager... Let me do something else, please..."
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 3
+ShowChara 7 1 48
+# 店長、さすがわか
+# ってるじゃん！
+# 俺、もっと仕事が
+# んばるからな！！
+ShowTextBox "I knew you'd get it, Manager! I'm ready to give it everything today!!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 4
+ShowChara 7 1 47
+# ああ～、なんだか
+# やる気出ねえ～
+ShowTextBox "Ugh... I don't feel like doing anything now..."
+WaitTextBox
+PlaySfx 179
+HideChara
+EndScript
+
+
+
+Subscript 5
+ShowChara 7 1 47
+# なんだか、いまい
+# ち調子が出ないぜ
+# …
+ShowTextBox "I don't feel good, for some reason..."
+WaitTextBox
+PlaySfx 179
+HideChara
+EndScript
+
+
+
+Subscript 6
+ShowChara 7 1 47
+# とりゃ～っ、こん
+# な仕事、朝飯前だ
+# ぜ！
+ShowTextBox "Hiyaaa! Heh, this job's a piece of cake!"
+WaitTextBox
+PlaySfx 179
+HideChara
+EndScript
+
+
+
+Subscript 7
+ShowChara 7 1 47
+# ぴよこ～っ、見て
+# るか～！今の俺は
+# 絶好調だぜ！
+ShowTextBox "Hey, look at me, Piyoko! I'm tearing it up today!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 8
+ShowChara 7 1 47
+# ぴよこ～っ、見て
+# るか～！今の俺は
+# 絶好調だぜ！
+ShowTextBox "Hey, look at me, Piyoko! I'm tearing it up today!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 9
+ShowChara 7 1 47
+# ぴよこ～っ、見て
+# るか～！今の俺は
+# 絶好調だぜ！
+ShowTextBox "Hey, look at me, Piyoko! I'm tearing it up today!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 10
+ShowChara 7 1 47
+# ぴよこ～っ、見て
+# るか～！今の俺は
+# 絶好調だぜ！
+ShowTextBox "Hey, look at me, Piyoko! I'm tearing it up today!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 11
+ShowChara 7 1 47
+# ぴよこ～っ、見て
+# るか～！今の俺は
+# 絶好調だぜ！
+ShowTextBox "Hey, look at me, Piyoko! I'm tearing it up today!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 12
+ShowChara 7 1 47
+# ぴよこ～っ、見て
+# るか～！今の俺は
+# 絶好調だぜ！
+ShowTextBox "Hey, look at me, Piyoko! I'm tearing it up today!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 13
+ShowChara 7 1 47
+# ぴよこ～っ、見て
+# るか～！今の俺は
+# 絶好調だぜ！
+ShowTextBox "Hey, look at me, Piyoko! I'm tearing it up today!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 14
+ShowChara 7 1 47
+# ぴよこ～っ、見て
+# るか～！今の俺は
+# 絶好調だぜ！
+ShowTextBox "Hey, look at me, Piyoko! I'm tearing it up today!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 15
+ShowChara 7 1 47
+# ぴよこ～っ、見て
+# るか～！今の俺は
+# 絶好調だぜ！
+ShowTextBox "Hey, look at me, Piyoko! I'm tearing it up today!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 16
+ShowChara 7 1 47
+# ぴよこ～っ、見て
+# るか～！今の俺は
+# 絶好調だぜ！
+ShowTextBox "Hey, look at me, Piyoko! I'm tearing it up today!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 17
+ShowChara 7 1 47
+# ぴよこ～っ、見て
+# るか～！今の俺は
+# 絶好調だぜ！
+ShowTextBox "Hey, look at me, Piyoko! I'm tearing it up today!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 18
+ShowChara 7 1 47
+# ぴよこ～っ、見て
+# るか～！今の俺は
+# 絶好調だぜ！
+ShowTextBox "Hey, look at me, Piyoko! I'm tearing it up today!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 19
+ShowChara 7 1 47
+# ぴよこ～っ、見て
+# るか～！今の俺は
+# 絶好調だぜ！
+ShowTextBox "Hey, look at me, Piyoko! I'm tearing it up today!"
+WaitTextBox
+HideChara
+EndScript

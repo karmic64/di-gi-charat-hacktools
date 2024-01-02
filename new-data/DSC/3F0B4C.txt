@@ -1,0 +1,304 @@
+DSCBase $3F0B4C
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 2 1 23
+# さて、ついにゴー
+# ルデンウィークに
+# 突入ね…
+ShowTextBox "Hey, you know\nwhat? Golden\nWeek's coming up\nsoon."
+WaitTextBox
+# ところで、でじこ
+# って、ゴールデン
+# ウィークが何か、
+# 知ってる？
+ShowTextBox "Dejiko, do you\nknow what Golden\nWeek is?"
+WaitTextBox
+ShowChara 1 2 10
+# もちろん、知って
+# るにょ！
+ShowTextBox "Of course, nyo!"
+WaitTextBox
+# ゴールデンウィー
+# クは春の大型連休
+# のことにょっ！
+ShowTextBox "Golden Week is\nthat super-long\nspring holiday,\nnyo!"
+WaitTextBox
+# ちなみに、今年の
+# ゴールデンウィー
+# クは、今日４月２
+# ８日から、来週の
+# ５月５日までにょ
+# ～っ！
+ShowTextBox "This year it\nstarts April\n28th, and lasts\nuntil May 5th,\nnyo!"
+WaitTextBox
+ShowChara 2 1 23
+# へぇ、よく知って
+# るじゃない！
+ShowTextBox "Wow, you've got\nit down to the\ndetails!"
+WaitTextBox
+ShowChara 1 2 12
+# だけど、お店の手
+# 伝いがあるから、
+# でじこにはあんま
+# り関係ないにょ～
+ShowTextBox "But since I work\nin retail, it's\ngot nothing to\ndo with me, nyo."
+WaitTextBox
+ShowChara 2 1 25
+# …そうね
+ShowTextBox "... Oh, right."
+WaitTextBox
+ShowChara 3 2 17
+# がんばるにゅ！
+# 稼ぎ時にゅ
+ShowTextBox "Don't get\ndiscouraged,\nnyu.\nIt's a golden\nopportunity to\nmake more money."
+WaitTextBox
+ShowChara 8 1 1
+# そうゲマっ、ぷち
+# この言うとおりゲ
+# マ！
+ShowTextBox "That's exactly\nright, gema!"
+WaitTextBox
+ShowChara 8 0 53
+# ゴールデンウィー
+# クは、他のお店は
+# セールとかやって
+# お客さんをたくさ
+# ん集めるゲマ！
+ShowTextBox "Every store\nholds a Golden\nWeek sale that\nbrings in the\ncustomers in\ndroves, gema!"
+WaitTextBox
+# 他のお店に負けな
+# いよう、うちの店
+# もお客さんを呼ぶ
+# アイディアを考え
+# るゲマ！
+ShowTextBox "We can't let\nthem beat us!\nWe need a plan\nthat'll make us\nbest on the\nblock, gema!"
+WaitTextBox
+ShowChara 2 1 23
+# そうね！みんなで
+# 考えて、アイディ
+# ア出してみましょ
+ShowTextBox "I guess so!\nLet's all think\nof some ideas\nfor what we can\ndo during\nGolden Week."
+WaitTextBox
+ShowChara 1 2 16
+# え～、なんだか気
+# がすすまないにょ
+# ～
+# 納得いかないにょ
+# ～
+ShowTextBox "Huh? No way,\nnyo.\nI didn't sign\nup for\nthinking on a\nday off, nyo."
+WaitTextBox
+ShowChara 8 1 2
+# だまって考えるゲ
+# マ！
+ShowTextBox "Shut up and\nthink, gema!"
+WaitTextBox
+ShowChara 3 2 17
+# 考えるにゅ…
+ShowTextBox "Thinking, nyu..."
+WaitTextBox
+Fade 1 120
+Wait 60
+Fade 0 30
+ShowChara 8 1 2
+# う～ん…
+ShowTextBox "Hmm..."
+WaitTextBox
+ShowChara 1 2 12
+# にょ～～っ、何も
+# 思いつかないにょ
+# ～～！
+ShowTextBox "Gaaaah!\nI've got\nnothing, nyo!"
+WaitTextBox
+# 休憩したら…
+# いや、根性だ…
+ShowSelMenu09 2 "!Take a break\nStick with it"
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 1 0 9
+# にょっ、今、店長
+# しゃんが良いこと
+# を言ったにょっ！
+ShowTextBox "Nyo!\nYou're right,\nManager! We've\ngotta put our\nhearts into it!"
+WaitTextBox
+ShowChara 3 2 17
+# 根性にゅっ！
+ShowTextBox "Determination,\nnyu!"
+WaitTextBox
+ShowChara 1 2 11
+# そうにょっ！こん
+# なときこそ、みん
+# なで根性出してが
+# んばるにょっ！
+ShowTextBox "That's right!\nDetermination!\nEveryone, show\nus what you've\ngot, nyo!"
+WaitTextBox
+ShowChara 2 1 25
+# うーん、もっとも
+# だけど…
+ShowTextBox "Well, of\ncourse that'd\nhelp, but..."
+WaitTextBox
+ShowChara 8 1 1
+# 結論ゲマっ！
+ShowTextBox "That's it,\ngema!"
+WaitTextBox
+# ゴールデンウィー
+# クは、みんな根性
+# 出してがんばるゲ
+# マっ！
+ShowTextBox "Everyone, show\nus your\ndetermination\nby working hard\nthis Golden\nWeek, gema!"
+WaitTextBox
+ShowChara 14 2 63
+# おーっ！
+ShowTextBox "Yeah!"
+WaitTextBox
+ShowChara 8 1 1
+# 声が小さいゲマぁ
+# ～～っ！
+ShowTextBox "I can't hear\nyou, gema!\nLouder!"
+WaitTextBox
+ShowChara 14 2 63
+# おおーーーーっ！
+ShowTextBox "YEAH!!"
+WaitTextBox
+ShowChara 1 2 10
+# にょにょ！なんか
+# やれる気になって
+# きたにょ！
+ShowTextBox "Nyo, nyo! Now I\nfeel like I\nreally can do\nit, nyo!"
+WaitTextBox
+ShowChara 2 1 25
+# やれる気がするだ
+# けかも…
+ShowTextBox "We'll see how\nlong that lasts,\nI guess."
+WaitTextBox
+ShowChara 3 2 21
+# それは言わない約
+# 束にゅ
+ShowTextBox "She's going to\nregret it by\nthe end of day\none, nyu."
+WaitTextBox
+ShowChara 8 1 53
+# さあ、開店するゲ
+# マ！
+ShowTextBox "Alright, let's\nopen the shop,\ngema!"
+WaitTextBox
+EndScript
+Label 0
+ShowChara 8 1 2
+# 店長さんも、ああ
+# 言ってるゲマ
+# ちょっと休憩する
+# ゲマ…
+ShowTextBox "I guess you're\nright. Let's\ntake a short\nbreak, gema."
+WaitTextBox
+ShowChara 3 2 17
+# 賛成にゅ
+ShowTextBox "I agree, nyu."
+WaitTextBox
+ShowChara 1 2 12
+# にょにょ～、考え
+# すぎで、お腹が減
+# ったにょ～
+ShowTextBox "Nyo... All that\nthinking made\nme hungry, nyo!"
+WaitTextBox
+ShowChara 2 1 23
+# ねぇ、何か食べま
+# しょ？
+ShowTextBox "Let's go get\nsomething to\neat, shall we?"
+WaitTextBox
+ShowChara 3 2 17
+# 賛成にゅ
+ShowTextBox "I agree, nyu!"
+WaitTextBox
+ShowChara 1 2 10
+# でじこは外に食べ
+# に行きたいにょ！
+# ファミレスとかが
+# いいにょっ！
+ShowTextBox "Let's go out to\neat, nyo! I\nwanna go to a\nrestaurant!"
+WaitTextBox
+ShowChara 2 1 25
+# え～っ、ファミレ
+# ス？高いわよ～
+ShowTextBox "A restaurant?\nThat's way too\nexpensive!"
+WaitTextBox
+ShowChara 1 2 8
+# にょっ……！
+ShowTextBox "... Nyo...!"
+WaitTextBox
+ShowChara 1 0 10
+# ひらめいたにょ！
+ShowTextBox "Eureka, nyo!"
+WaitTextBox
+ShowChara 8 1 1
+# 「ひらめ」がどう
+# かしたゲマ？
+ShowTextBox "Eureka? I\ndon't know that\nrestaurant,\ngema."
+WaitTextBox
+ShowChara 1 2 9
+# ファミレスという
+# 言葉でひらめいた
+# にょ！
+ShowTextBox "No, no! I just\ngot an idea,\nnyo!"
+WaitTextBox
+ShowChara 1 0 10
+# ゴールデンウィー
+# クの間だけ、ファ
+# ミレスの服を着る
+# んだにょ～～っ！
+ShowTextBox "For Golden Week,\nlet's dress\nlike we're a\nrestaurant, nyo!"
+WaitTextBox
+# そうすれば、でじ
+# こを見に、たくさ
+# んお客さんがやっ
+# てくるに違いない
+# にょ！
+ShowTextBox "If I'm in a cute\nwaitress outfit,\nI'm sure we'll\nget plenty of\ncustomers in\nthe door, nyo!"
+WaitTextBox
+ShowChara 2 1 24
+# え～～～～っ！？
+ShowTextBox "Whaaa!?"
+WaitTextBox
+ShowChara 8 1 54
+# ひぇ～～～っ！？
+ShowTextBox "Huh!?"
+WaitTextBox
+ShowChara 3 2 17
+# にゅっ！？
+ShowTextBox "Nyu!?"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 1 80 68 68 100 10 3
+SetBG 23
+Fade 0 30
+ShowChara 1 0 0
+# いらっしゃいませ～
+# …だにょ！
+ShowTextBox "Welcome! May I \ntake your order?\n...\nPerfect, nyo!"
+WaitTextBox
+# これぞ、ゴールデンウ
+# ィーク限定
+ShowTextBox "This is my\nall-new,\nGolden Week\nonly,"
+WaitTextBox
+# ちょースペシャル・デ
+# ラックス・ゴージャス
+# コスチュームにょっ！
+ShowTextBox "Super special\nhyper deluxe\nultra waitress\ncostume, nyo!"
+WaitTextBox
+# にょにょ、予想通り、
+# 朝からお客さんでいっ
+# ぱいだにょ！
+ShowTextBox "Just as I\npredicted, the\ncustomers have\nbeen piling up\nsince morning,\nnyo!"
+WaitTextBox
+# この調子で一週間、が
+# んばるにょ～！
+ShowTextBox "Let's keep this\nenergy going\nall week long,\nnyo!"
+WaitTextBox
+EndScript

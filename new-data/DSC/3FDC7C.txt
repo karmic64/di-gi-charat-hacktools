@@ -1,0 +1,197 @@
+DSCBase $3FDC7C
+
+
+
+
+Subscript 0
+Unk08 1 154 78 8 72 10 3
+Unk08 2 45 60 24 108 10 3
+Unk08 3 204 130 72 24 10 3
+SetBG 120
+Fade 0 30
+ShowChara 1 1 9
+# 今日は待ちに待っ
+# た豆まきの日にょ
+# ！！
+ShowTextBox "Today's the\nlong awaited\nSetsubun, nyo!!"
+WaitTextBox
+ShowChara 1 0 8
+# にょにょっ、ぷち
+# こ、ちょっと耳を
+# かすにょ…
+ShowTextBox "Puchiko, give\nme your ear\nfor a sec, nyo."
+WaitTextBox
+ShowChara 3 1 17
+# にゅっ…？
+ShowTextBox "Nyu...?"
+WaitTextBox
+ShowChara 1 1 8
+# ごにょごにょ、ご
+# にょごにょ…
+ShowTextBox "Whisper,\nwhisper..."
+WaitTextBox
+ShowChara 1 0 14
+# ＯＫにょ？
+ShowTextBox "Okay, nyo?"
+WaitTextBox
+ShowChara 3 0 18
+# ＯＫにゅ！
+ShowTextBox "Okay, nyu!"
+WaitTextBox
+ShowChara 2 2 23
+# おまたせー、豆ま
+# きセットを買って
+# きたわよー
+ShowTextBox "Sorry for the\nwait! I went and\nbought the\nbeans."
+WaitTextBox
+ShowChara 1 1 10
+# ごくろうにょっ！
+# …じゃ、さっそく
+# ジャンケンで鬼を
+# 決めるにょ～
+ShowTextBox "Good work, nyo!\nSo, let's pick\nthe Demon with\nRock Paper\nScissors, nyo."
+WaitTextBox
+ShowChara 2 2 22
+# わっ、待って、ま
+# だ心の準備が…
+ShowTextBox "W-Woah, wait,\nI need a\nmoment to get\nready..."
+WaitTextBox
+ShowChara 3 1 17
+# いくにゅ…
+ShowTextBox "Ready, nyu..."
+WaitTextBox
+ShowChara 1 1 8
+# せえの、さーいし
+# ょは…
+ShowTextBox "Ready, and...\nRock, Paper,\nScissors..."
+WaitTextBox
+ShowChara 2 2 22
+# ぐーっ！
+ShowTextBox "Shoot!"
+WaitTextBox
+ShowChara 3 1 18
+# ぱー、にゅ…
+ShowTextBox "Paper, nyu..."
+WaitTextBox
+ShowChara 1 1 9
+# ぱー、にょっ！
+ShowTextBox "Paper, nyo!"
+WaitTextBox
+ShowChara 2 2 22
+# えっ？
+ShowTextBox "Huh?"
+WaitTextBox
+ShowChara 1 1 9
+# でじこがパー、ぷ
+# ちこもパー、そし
+# て、うさだだけグ
+# ー…
+ShowTextBox "Dejiko's paper,\nPuchiko's also\npaper, and Usada\nis the only one\nwith rock..."
+WaitTextBox
+ShowChara 1 0 10
+# ということで、鬼
+# はうさだに決定に
+# ょ～
+ShowTextBox "So, Usada is the\nDemon this year,\nnyo~"
+WaitTextBox
+ShowChara 2 2 24
+# なによ今のはっ！
+# インチキだわっ！
+ShowTextBox "Hey, what was\nthat!? You\ncheated!"
+WaitTextBox
+ShowChara 1 1 14
+# 何をおっしゃって
+# るのかさっぱりだ
+# にょ、ラ・ビ・ア
+# ン・ローズさん？
+# 勝負はじつに公正
+# に行われたにょ！
+ShowTextBox "What ever could\nyou mean, Miss\nRabi~en~Rose?\nThis contest\nwas held\nimpartially!"
+WaitTextBox
+ShowChara 3 1 21
+# ぷちこは子供だか
+# ら、むつかしいこ
+# とは分からないに
+# ゅ…
+ShowTextBox "I'm still just\na kid... I\nwould never\nthink of\ntricking you,\nnyu..."
+WaitTextBox
+ShowChara 2 2 24
+# でじこはともかく
+# ぷちこにまでっ…
+ShowTextBox "You two..."
+WaitTextBox
+# き～っ、こんな簡
+# 単な手に引っかか
+# っちゃうなんて、
+# ゆるせな～い！
+ShowTextBox "I'm not going\nto let you\npull a fast\none on me!\nGet over here!"
+WaitTextBox
+# えーい、鬼は外！
+ShowTextBox "The Demon\ngoes outside!"
+WaitTextBox
+Fade 3 30
+SetBG 16
+Fade 2 30
+ShowChara 1 0 0
+# にょにょっ、何をする
+# にょっ！
+ShowTextBox "H-Hey, what\ndo you think\nyou're doing,\nnyo!?"
+WaitTextBox
+ShowChara 2 0 0
+# 問答無用っ、えいっ！
+ShowTextBox "It's pointless\nto resist!"
+WaitTextBox
+ShowChara 1 0 0
+# よ、よくもやったにょ
+# っ！おかえしにょ、そ
+# れっ！
+ShowTextBox "Now you've\nreally gone and\ndone it, nyo!\nTake this!"
+WaitTextBox
+ShowChara 3 0 0
+# ぽりぽり…ぷちこは年
+# の数だけお豆を食べる
+# だけでいいにゅ～
+ShowTextBox "Munch, munch...\nI'll just be\nover here eating\nthe beans, nyu."
+WaitTextBox
+ShowChara 1 0 0
+# うさだっ、お前は鬼に
+# ょっ、鬼だにょっ！
+ShowTextBox "Usada, you're\nthe Demon!\nIt's YOU, nyo!"
+WaitTextBox
+ShowChara 2 0 0
+# きーっ、まだそれを言
+# うつもり？
+ShowTextBox "Gah! You're\nstill on about\nthat!?"
+WaitTextBox
+ShowChara 1 0 0
+# 鬼は外っ！鬼は外っ！
+ShowTextBox "Demons get out!\nDemons get out!"
+WaitTextBox
+ShowChara 2 0 0
+# 鬼は外っ！鬼は外っ！
+ShowTextBox "Demons get out!\nDemons get OUT!"
+WaitTextBox
+Fade 1 30
+SetBG 120
+Fade 0 30
+ShowChara 1 1 11
+# ぜぇぜぇ…今日の
+# ところはこれくら
+# いにしといてやる
+# というか、つかれ
+# たにょ！
+ShowTextBox "Huff, huff...\nI'm tired,\nnyo! Let's\nleave off here\nfor today."
+WaitTextBox
+ShowChara 2 2 24
+# はぁはぁ…そ、そ
+# うね…これくらい
+# にしときましょ
+ShowTextBox "Haah, haah...\nFine, let's\nstop..."
+WaitTextBox
+ShowChara 3 1 17
+# ふたりとも、どう
+# でもいいけどおそ
+# うじが大変にゅ…
+ShowTextBox "I hope you\ntwo plan on\ncleaning up\nthe mess you\nmade, nyu..."
+WaitTextBox
+EndScript

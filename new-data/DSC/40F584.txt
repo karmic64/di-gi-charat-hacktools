@@ -1,0 +1,170 @@
+DSCBase $40F584
+
+
+
+
+Subscript 0
+ShowChara 2 0 23
+# アタシ、今週は
+# $0、すごくがんばれたわ！
+# 来週もまかせといて！
+ShowTextBox "I did really well at $0 this week!\nNext week I'll do even better, of course!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 2 0 22
+# 今週は、
+# $0、ふつうにこなせたみたいね
+# 来週もがんばるわ！
+ShowTextBox "Looks like I did just an average job at $0 this week.\nI'll do my best next week!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 2 0 25
+# うーん、今週は
+# $0、うまくいかなかったかも…
+# 来週はがんばらなくちゃ！
+ShowTextBox "I didn't do very well at $0 this week...\nI'll try harder next week!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 2 0 55
+# うーん、\x01$0\x1aばかりでちょっとつまらないわね…
+# そろそろ\x03$1\x1aをやりたいな～
+ShowTextBox "Doing \x01$0\x1a all the time is a little boring...\nI'd like to try doing \x03$1\x1a instead~"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+ShowChara 2 0 23
+PlaySfx 143
+PlaySfx 18
+# やったわ、
+# $0、レベルアップよ！
+# これで\x03$1\x1aね！
+ShowTextBox "Yay! I did it!\nI leveled up at $0!\nI'm now level \x03$1\x1a!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+ShowChara 2 0 23
+PlaySfx 143
+PlaySfx 18
+# やったわ、
+# $0、レベルアップよ！
+# これで…
+ShowTextBox "Yay! I did it!\nI leveled up at $0!\nI'm now..."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 6
+SetBG 60
+Unk08 2 82 84 112 88 10 3
+Fade 0 30
+ShowChara 2 0 0
+# \x03レジマスター\x1aよ！
+ShowTextBox "a \x03Checkout Master\x1a!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 7
+SetBG 108
+Unk08 2 169 62 106 88 10 3
+Fade 0 30
+ShowChara 2 0 0
+# \x03接客マスター\x1aよ！
+ShowTextBox "a \x03Service Master\x1a!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 8
+SetBG 61
+Unk08 2 148 72 20 96 10 3
+Fade 0 30
+ShowChara 2 0 0
+# \x03グッズマスター\x1aよ！
+ShowTextBox "a \x03Stocking Master\x1a!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 9
+SetBG 62
+Unk08 2 109 58 104 92 10 3
+Fade 0 30
+ShowChara 2 0 0
+# \x03掃除マスター\x1aよ！
+ShowTextBox "a \x03Cleaning Master\x1a!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 10
+SetBG 111
+Fade 2 30
+ShowChara 2 0 23
+PlaySfx 143
+PlaySfx 18
+# 店長さん、手伝っ
+# てくれてどうもあ
+# りがとう！
+# \x03店長さんのおかげ
+# でお仕事レベルが
+# あがったわ！\x1a
+ShowTextBox "Thanks for your help, Manager! With your advice, I was able to \x03level up\x1a!"
+WaitTextBox
+ShowChara 2 0 23
+# アタシ、これから
+# ももっとがんばる
+# から、今後ともよ
+# ろしくね！
+ShowTextBox "I'll keep doing my best, so I hope you'll help me out again sometime!"
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 11
+SetBG 111
+Fade 0 30
+ShowChara 2 0 25
+# 店長さんせっかく
+# 手伝ってくれたの
+# に、うまくいかな
+# かったわ…
+ShowTextBox "Sorry, Manager... Even with your help, it didn't go too well..."
+WaitTextBox
+ShowChara 2 0 22
+# アタシ、次こそは
+# がんばるわね！
+ShowTextBox "I'll try harder next time!"
+WaitTextBox
+Fade 1 30
+EndScript

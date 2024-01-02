@@ -1,0 +1,167 @@
+DSCBase $413BE4
+
+
+
+
+Subscript 0
+ShowChara 5 0 0
+EndScript
+
+
+
+Subscript 1
+# リクは\x02仕事に飽きているようだ\x1a
+ShowTextBox "Looks like Rik is \x02tired of his job\x1a!"
+EndScript
+
+
+
+Subscript 2
+# 「もっと他の仕事を学ばねば」
+ShowTextBox "\"I've fallen behind on the other areas of my research...\""
+EndScript
+
+
+
+Subscript 3
+ShowChara 5 0 0
+EndScript
+
+
+
+Subscript 4
+# リクは\x02やりたい仕事を他の人にとられて不機嫌なようだ\x1a
+ShowTextBox "Looks like Rik is \x02annoyed at someone else doing the job he wants\x1a!"
+EndScript
+
+
+
+Subscript 5
+# 「えこひいきとは納得できん」
+ShowTextBox "\"I cannot support favoritism, Manager.\""
+EndScript
+
+
+
+Subscript 6
+ShowChara 5 0 0
+EndScript
+
+
+
+Subscript 7
+# リクは\x02自分のグッズが叩き売られて悲しいようだ\x1a
+ShowTextBox "Looks like Rik is \x02sad to see his goods on special discount\x1a! "
+EndScript
+
+
+
+Subscript 8
+# 「私のグッズが叩き売られている…」
+ShowTextBox "\"To think that my goods would ever go on discount...\""
+EndScript
+
+
+
+Subscript 9
+ShowChara 5 0 0
+EndScript
+
+
+
+Subscript 10
+# リクは\x03自分のグッズがたくさんあってうれしいようだ\x1a
+ShowTextBox "Looks like Rik is \x03happy to see a lot of his goods in the store\x1a!"
+EndScript
+
+
+
+Subscript 11
+# 「私のグッズでいっぱいにすればお店は繁盛する道理だな」
+ShowTextBox "\"It's only logical that my merchandise would sell well.\""
+EndScript
+
+
+
+Subscript 12
+ShowChara 5 0 0
+EndScript
+
+
+
+Subscript 13
+# $0リクは\x01仕事がうまくいっていないようだ\x1a
+ShowTextBox "$0Looks like Rik's \x01job isn't going very well\x1a!"
+EndScript
+
+
+
+Subscript 14
+# 「む…こんなことではいかん…」
+ShowTextBox "\"Hmph... This won't do...\""
+EndScript
+
+
+
+Subscript 15
+ShowChara 5 0 0
+EndScript
+
+
+
+Subscript 16
+# $0\x02リクの調子はあまりよくないようだ\x1a
+ShowTextBox "$0\x02Rik doesn't look well\x1a!"
+EndScript
+
+
+
+Subscript 17
+# 「うーむ、がんばらねば…」
+ShowTextBox "\"This is all for Lady Pyokora's sake...\""
+EndScript
+
+
+
+Subscript 18
+ShowChara 5 0 0
+EndScript
+
+
+
+Subscript 19
+# $0リクは問題無く仕事をしているようだ
+ShowTextBox "$0Looks like Rik isn't having any problems."
+EndScript
+
+
+
+Subscript 20
+# 「ふむ、いつも通り、とどこおりはない」
+ShowTextBox "\"Things are going smoothly, as usual.\""
+EndScript
+
+
+
+Subscript 21
+ShowChara 5 0 0
+EndScript
+
+
+
+Subscript 22
+# $0リクは\x03はりきって仕事をしているようだ\x1a
+ShowTextBox "$0Looks like Rik is \x03working in high spirits\x1a!"
+EndScript
+
+
+
+Subscript 23
+# 「ピョコラ様のためなら、どんな仕事でも問題はないな」
+ShowTextBox "\"If it's for Lady Pyokora's sake, there is nothing I cannot do!\""
+EndScript
+
+
+
+Subscript 24
+EndScript

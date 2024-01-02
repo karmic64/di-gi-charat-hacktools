@@ -1,0 +1,45 @@
+DSCBase $3E46AC
+
+
+
+
+Subscript 0
+ShowChara 2 0 22
+# あら、いけない事
+# 言っちゃったかし
+# ら？
+ShowTextBox "Oh, did I say something I shouldn't have?"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 2 0 25
+# ごめんなさい
+# 次から気をつけま
+# す
+ShowTextBox "I'm sorry. I'll be more careful next time."
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 2 0 23
+# ああ、よかった
+ShowTextBox "OK! Thank goodness."
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 2 0 25
+# え、でも…これが
+# ダメだとおしゃべ
+# りできなくなるん
+# だけど…
+ShowTextBox "Um... If I can't say that, then I won't have anything to talk about..."
+WaitTextBox
+EndScript

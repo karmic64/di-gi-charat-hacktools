@@ -1,0 +1,82 @@
+DSCBase $4075A4
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 4 1 28
+# イベントNo.333の
+# ホワイトデー1
+# ぴょ
+ShowTextBox "Event No. 333\nWhite Day 1,\npyo."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 4 0 0
+# イベントNo.334の
+# 「ホワイトデー2リク」ぴょ
+ShowTextBox "Event No. 334\nWhite Day 2-Rik,\npyo."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 2
+SetBG 111
+Fade 0 30
+ShowChara 4 0 0
+# イベントNo.335の
+# 「ホワイトデー2カイ」ぴょ
+ShowTextBox "Event No. 335\nWhite Day 2-Ky,\npyo."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 3
+SetBG 111
+Fade 0 30
+ShowChara 4 0 0
+# イベントNo.336の
+# 「ホワイトデー2クウ」ぴょ
+ShowTextBox "Event No. 336\nWhite Day 3-Coo,\npyo."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 4
+SetBG 111
+Fade 0 30
+ShowChara 4 0 0
+# イベントNo.337の
+# 「ホワイトデー2謎ゲマ」ぴょ
+ShowTextBox "Event No. 337\nWhite Day 2-Nazo Gema,\npyo."
+WaitTextBox
+Fade 1 30
+EndScript
+
+
+
+Subscript 5
+SetBG 100
+Unk08 4 200 112 8 96 10 3
+Fade 0 30
+ShowChara 4 0 0
+# イベントNo.338の
+# 「ホワイトデー2」ぴょ
+ShowTextBox "Event No. 338\nWhite Day 2,\npyo."
+WaitTextBox
+Fade 1 30
+EndScript

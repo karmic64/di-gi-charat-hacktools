@@ -1,0 +1,45 @@
+DSCBase $3E418C
+
+
+
+
+Subscript 0
+ShowChara 6 0 40
+# 私、何か変な事を
+# 言ったでしょうか
+# ？
+ShowTextBox "Did I say\nsomething\ninappropriate,\nManager?"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 6 0 43
+# 申し訳ありません
+# 申し訳ありません
+ShowTextBox "I am truly\nsorry. Please\naccept my\napologies."
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 6 0 46
+# そうですか…それ
+# ならいいんですが
+# …いいんですが…
+ShowTextBox "Oh, I see.\nIf you say so."
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 6 0 43
+# 申し訳ありません
+# その話題は忘れた
+# くないんです…
+ShowTextBox "I'm sorry...\nI don't think\nI can let this\ntopic go."
+WaitTextBox
+EndScript

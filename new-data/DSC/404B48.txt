@@ -1,0 +1,202 @@
+DSCBase $404B48
+
+
+
+
+Subscript 0
+Unk08 4 79 76 104 88 10 3
+SetBG 73
+Fade 0 30
+ShowChara 4 0 0
+# じゃーん、今日のため
+# に用意したコスチュー
+# ムぴょ！
+ShowTextBox "Ta da!\nHere's the\noutfit we\nprepared for\ntoday, pyo!"
+WaitTextBox
+# どうぴょ、似合ってる
+# ぴょ？
+ShowTextBox "What do you\nthink, pyo?\nLooks good on\nme, right?"
+WaitTextBox
+# 団員たちが夜なべして
+# つくった、愛のこもっ
+# た一品ぴょ…
+ShowTextBox "This costume was\na labor of love,\nhand-made by the\ntireless members\nof the Black\nGema Gema Gang!"
+WaitTextBox
+# さあ店長さん、ぴよこ
+# といっしょにステキな
+# イブを過ごすぴょっ！
+ShowTextBox "Let's have a\nwonderful\nChristmas Eve,\nManager!"
+WaitTextBox
+Fade 1 30
+SetBG 112
+Fade 0 30
+ShowChara 7 1 48
+# メリー・クリスマ
+# ース！
+ShowTextBox "Merry Christmas!"
+WaitTextBox
+ShowChara 12 2 60
+# わ～～っ、メリー
+# ・クリスマス、ゲ
+# バ～っ！
+ShowTextBox "Waaah!\nMerry Christmas,\ngeba!"
+WaitTextBox
+ShowChara 7 1 48
+# それじゃ、みんな
+# で盛り上がるぞー
+# っ！
+ShowTextBox "Everyone!\nLet's party!"
+WaitTextBox
+ShowChara 12 2 60
+# ぱちぱちぱち…
+ShowTextBox "Clap, clap,\nclap..."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 5 1 35
+# ううむ、クリスマ
+# スパーティ、いま
+# いち盛り上がらな
+# いようだ…
+ShowTextBox "Hmm...\nThis Christmas\nEve party isn't\nas lively as I\nhoped."
+WaitTextBox
+# ケーキがないのも
+# さることながら、
+# やはり、ピョコラ
+# 様がいらっしゃら
+# ないのが最大の原
+# 因か…
+ShowTextBox "Of course, there\nis no cake,\nbut...\nLady Pyocola's\nabsence is the\nreal reason..."
+WaitTextBox
+ShowChara 6 1 43
+# はぁ…。
+# 今ごろ、ピョコラ
+# 様は店長といっし
+# ょに…
+ShowTextBox "Sigh...\nI can't imagine\nhow much fun\nLady Pyocola and\nthe Manager are\nhaving now..."
+WaitTextBox
+# リク元帥、自分も
+# 店長のように、ピ
+# ョコラ様と二人で
+# イブの街へお出か
+# けしたかったです
+# っ！
+ShowTextBox "I wish I could\nhave gone out\nto spend\nChristmas Eve\nwith Lady\nPyocola..."
+WaitTextBox
+ShowChara 5 1 35
+# カイ、ピョコラ様
+# がそうするのだと
+# おっしゃったのだ
+# ぞ…
+ShowTextBox "I doubt she\nwould have\ngone along with\nthat, Ky."
+WaitTextBox
+ShowChara 6 1 43
+# 分かってはいるの
+# ですが…
+ShowTextBox "... I'm well\naware. But,\nstill..."
+WaitTextBox
+ShowChara 5 1 37
+# とはいえ、正直に
+# いうと、自分も同
+# じ気分だが…
+ShowTextBox "... To tell\nyou the truth,\nI feel the same\nway."
+WaitTextBox
+ShowChara 4 2 29
+# ただいまぴょ～
+ShowTextBox "We're back,\npyo!"
+WaitTextBox
+ShowChara 6 1 44
+# あれ、ピョコラ様？
+ShowTextBox "Lady Pyocola?"
+WaitTextBox
+ShowChara 5 1 57
+# ピョコラ様、ずい
+# ぶんお早いお帰り
+# ですね…途中、何
+# か変わったことで
+# も？
+ShowTextBox "You're back\nearly, Lady\nPyocola. Did\nsomething\nhappen?"
+WaitTextBox
+ShowChara 4 2 28
+# 変わったこと？
+# 特にないぴょ…
+ShowTextBox "Huh?\nI don't think\nso, pyo."
+WaitTextBox
+ShowChara 4 0 29
+# それより、みんな
+# にケーキを買って
+# きたんだぴょ～っ
+# ！
+ShowTextBox "More\nimportantly!\nWe got a cake\nfor you all,\npyo!"
+WaitTextBox
+ShowChara 7 1 48
+# ああっ、ケーキ！
+ShowTextBox "Woohoo!\nCake!"
+WaitTextBox
+ShowChara 4 2 29
+# クウ、ケーキを切
+# って、みんなで食
+# べるぴょっ！
+ShowTextBox "Coo, you cut\nit! Then we'll\nall eat\ntogether, pyo!"
+WaitTextBox
+ShowChara 7 1 48
+# よーし、じゃ、さ
+# っそく…
+ShowTextBox "Alright, here\nI go...!"
+WaitTextBox
+ShowChara 12 2 60
+# わ、我々も手伝う
+# ゲバーっ！
+ShowTextBox "L-Let us have\na piece, geba!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 7 1 48
+# それでは、あらた
+# めまして…メリー
+# ・クリスマース！
+ShowTextBox "One more time...\nMerry Christmas!"
+WaitTextBox
+ShowChara 5 2 36
+# メリー・クリスマ
+# ス！
+ShowTextBox "Merry Christmas!"
+WaitTextBox
+ShowChara 6 1 41
+# メリー・クリスマ
+# ス！
+ShowTextBox "Merry Christmas!"
+WaitTextBox
+ShowChara 12 2 60
+# わ～～っ、メリー
+# ・クリスマス、ゲ
+# バ～っ！
+ShowTextBox "Merry Christmas,\ngeba!"
+WaitTextBox
+ShowChara 12 1 60
+# クリスマス、おめ
+# でとうゲバ～っ、
+# そして、ピョコラ
+# 様、ばんざいゲバ
+# ～っ！
+ShowTextBox "Merry Christmas,\nand glory to\nLady Pyocola,\ngeba!"
+WaitTextBox
+ShowChara 4 2 28
+# （店長さん、店長
+# さん…）
+ShowTextBox "(Hey,\nManager.)"
+WaitTextBox
+ShowChara 4 0 29
+# （店長さんのいっ
+# たとおりだったぴ
+# ょ）
+ShowTextBox "(It's just\nlike you said,\npyo!)"
+WaitTextBox
+# （やっぱり、みん
+# なといっしょの方
+# が楽しいぴょ…）
+ShowTextBox "(Celebrating\nwith everyone\nis way more\nfun!)"
+WaitTextBox
+EndScript

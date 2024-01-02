@@ -1,0 +1,400 @@
+DSCBase $405DE8
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 29
+# ぴょーっ、ぴょっ
+# ぴょっぴょっ！
+ShowTextBox "Pyo, pyo!\nPyo pyo pyo!"
+WaitTextBox
+# ぴよこは、この日
+# が来るのを待って
+# いたのぴょっ！
+ShowTextBox "I've been\nwaiting for this\nday, pyo!"
+WaitTextBox
+ShowChara 5 2 57
+# おおっ、ピョコラ
+# 様が、なんとなく
+# どこかで聞いたこ
+# とあるようなセリ
+# フを！
+ShowTextBox "I've heard that\nline before\nsomewhere, Lady\nPyocola!"
+WaitTextBox
+ShowChara 6 2 40
+# とりあえず、今回
+# もやる気だけはま
+# んまんのようです
+# ね…
+ShowTextBox "In any case,\nyou seem to be\nbursting with\nenergy today."
+WaitTextBox
+ShowChara 7 2 47
+# えーと、明日は豆
+# まき？節分だな
+ShowTextBox "Umm, was\ntomorrow\nSetsubun...?\nThat's the name,\nright?"
+WaitTextBox
+ShowChara 4 1 31
+# …なんか、ノリが
+# 悪いぴょ
+ShowTextBox "... What's\ngoing on? You\nall got quiet,\npyo."
+WaitTextBox
+# 言いたいことがあ
+# るんなら、聞いて
+# やるから言うがい
+# いぴょ！
+ShowTextBox "If you've got\nsomething to\nsay, then say\nit, pyo!"
+WaitTextBox
+ShowChara 5 2 36
+# ありません
+ShowTextBox "Nothing."
+WaitTextBox
+ShowChara 6 2 41
+# なにもありません
+ShowTextBox "Nothing at all."
+WaitTextBox
+ShowChara 7 2 51
+# 言いたいことなん
+# て、なにもありま
+# せん
+ShowTextBox "Absolutely\nnothing to say,\nLady Pyocola."
+WaitTextBox
+ShowChara 4 1 31
+# …………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 4 0 29
+# 心配はいらないぴ
+# ょ、今度の作戦は
+# シンプルぴょ…
+ShowTextBox "If you're\nworried about\nthe plan, don't\nbe. I kept it\nsimple this\ntime, pyo."
+WaitTextBox
+ShowChara 4 0 28
+# コホン、明日は節
+# 分だから、街中豆
+# まきでいっぱいに
+# なるぴょ
+ShowTextBox "Ahem! With\ntomorrow being\nSetsubun, the\ntown will be\nfull of people\nthrowing beans."
+WaitTextBox
+# めざすは数の勝利
+# ぴょっ！
+ShowTextBox "Our goal is\nto win by\nnumbers, pyo!"
+WaitTextBox
+ShowChara 4 0 29
+# 落ちてる豆をみん
+# なで、拾って拾っ
+# て拾いまくって、
+# 大量の豆を集める
+# ぴょっ！
+ShowTextBox "We'll pick up\nall the beans\npeople throw\nuntil we've\ngot a mountain\nof beans!"
+WaitTextBox
+# どうぴょ？今度の
+# 作戦はパーフェク
+# トぴょ？
+ShowTextBox "What do you\nthink? Perfect,\nisn't it, pyo?"
+WaitTextBox
+ShowChara 6 2 41
+# 異議なしです
+# 賛成です
+ShowTextBox "I have\nabsolutely no\nqualms or\nobjections, and\nagree\ncompletely."
+WaitTextBox
+ShowChara 5 2 36
+# 右に同じ…
+ShowTextBox "...\nDitto."
+WaitTextBox
+ShowChara 7 0 47
+# なぁ、ぴよこ
+ShowTextBox "Hey, Piyoko."
+WaitTextBox
+ShowChara 4 1 28
+# 何ぴょ、クウ？
+ShowTextBox "What is it,\nCoo?"
+WaitTextBox
+ShowChara 7 2 48
+# これから明日に備
+# えて特訓をするっ
+# てのはどうだ？
+ShowTextBox "How about we\nhold a special\ntraining\nsession to get\nready for\ntomorrow?"
+WaitTextBox
+ShowChara 4 1 29
+# とっくん…いい響
+# きぴょ！
+ShowTextBox "Special\ntraining...\nI like the\nsound of that,\npyo!"
+WaitTextBox
+ShowChara 5 2 39
+# そうですな
+# 言うならば、明日
+# は絶対に負けられ
+# ない試合のような
+# もの…
+ShowTextBox "... Indeed.\nTommorow is\na battle that\nwe absolutely\ncannot afford\nto lose."
+WaitTextBox
+ShowChara 5 0 36
+# いまここでの特訓
+# は、決して損には
+# なりますまい！
+ShowTextBox "A little\npreparation\nwill help\nsecure our\nvictory!"
+WaitTextBox
+ShowChara 6 2 41
+# 自分もよいアイデ
+# ィアだと思います
+ShowTextBox "I believe it\nis a good\nidea, as well."
+WaitTextBox
+ShowChara 4 1 29
+# みんな、集まるぴ
+# ょ～～っ！
+ShowTextBox "Everyone,\nhuddle up,\npyo!"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバ～～っ！
+ShowTextBox "Gebaa!"
+WaitTextBox
+ShowChara 4 1 29
+# これから、あした
+# 節分の日の豆拾い
+# のための特訓を行
+# うぴょ～～っ！
+ShowTextBox "We're going\nto hold a\ntraining\nsession for\ntomorrow! Get\nready, pyo!"
+WaitTextBox
+Unk1B 4 40
+EndScript
+
+
+
+Subscript 1
+PlayMusic 18
+SetBG 112
+Fade 2 30
+ShowChara 4 1 31
+# みんな、だらしな
+# いぴょ！こんなこ
+# とで、豆をたくさ
+# ん集められると思
+# ってるかぴょっ？
+ShowTextBox "Unbelievable!\nWe'll never be\nable to get\na mountain of\nbeans if you\nare this sloppy!"
+WaitTextBox
+ShowChara 12 2 60
+# も、もうしわけな
+# いゲバ～～っ！
+ShowTextBox "W-We're sorry,\ngebaa!"
+WaitTextBox
+ShowChara 4 1 31
+# これから、もう一
+# 度特訓を…
+ShowTextBox "One more time,\nfrom the\nvery beginning,\npyo!"
+WaitTextBox
+ShowChara 5 2 35
+# ピョコラ様、これ
+# 以上の特訓は逆効
+# 果かと…
+ShowTextBox "Lady Pyocola,\novertraining\nmay have the\nopposite\neffect..."
+WaitTextBox
+ShowChara 4 1 31
+# むむむ…しかたな
+# いぴょ！お前たち
+# 今日はもう休んで
+# いいぴょっ！
+ShowTextBox "Hmph! Fine!\nTake a break!"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバ～～っ！
+ShowTextBox "Gebaa!"
+WaitTextBox
+ShowChara 4 1 29
+# そのかわり明日は
+# がんばるぴょっ！
+ShowTextBox "You all had\nbetter put\nyour backs into\nit tomorrow,\npyo!"
+WaitTextBox
+ShowChara 12 2 60
+# がんばりますゲバ
+# ～～っ！
+ShowTextBox "We'll try our\nhardest, geba!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+PlayMusic 18
+SetBG 112
+Fade 0 30
+ShowChara 4 1 29
+# みんなご苦労だっ
+# たぴょ！明日に備
+# え、今日はもう休
+# むぴょっ！
+ShowTextBox "Good work, pyo!\nThat's enough\nfor today!"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバ～～っ！
+ShowTextBox "Geba!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+Unk08 4 0 0 50 60 10 3
+Unk08 12 0 160 80 70 10 3
+SetBG 113
+Fade 0 30
+ShowChara 4 1 28
+# 街はもう、朝から
+# 豆まきでフィーバ
+# ー中ぴょっ！
+ShowTextBox "The whole town's\nbeen in a bean\nthrowing frenzy\nsince morning,\npyo!"
+WaitTextBox
+# おまえたち、昨日
+# 命令したとおり、
+# 今日は豆を拾って
+# 拾って拾いまくる
+# ぴょーーっ！！
+ShowTextBox "Stick to the\nplan, everyone!\nGrab those beans\ntill you can't\ngrab any more!"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバーっ！
+ShowTextBox "Gebaa!"
+WaitTextBox
+ShowChara 12 1 60
+# えっほ、えっほ、
+# ゲバっゲバっ！
+ShowTextBox "Hup, hah!\nGeba, geba!"
+WaitTextBox
+ShowChara 12 2 60
+# えっほ、えっほ、
+# ゲバっゲバっ！
+ShowTextBox "One, two, three!\nGeba, geba!"
+WaitTextBox
+ShowChara 4 1 29
+# いいかんじぴょ！
+ShowTextBox "That's the\nspirit, pyo!"
+WaitTextBox
+# その調子で、がん
+# がん豆を集めるぴ
+# ょ！
+ShowTextBox "Just like that!\nGet out there\nand gather some\nbeans, pyo!"
+WaitTextBox
+ShowChara 12 2 60
+# ゲバっーっ！
+ShowTextBox "Gebaaa!!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 12 2 59
+# いやあ、たくさん
+# 豆が集まったゲバ
+ShowTextBox "Whew! We sure\ngot a whole\nlot of beans,\ngeba."
+WaitTextBox
+# これでしばらく飯
+# の心配はないゲバ
+ShowTextBox "We won't have\nto worry about\nfood for a\nwhile, geba."
+WaitTextBox
+ShowChara 4 1 30
+# ふう…けっこう重
+# 労働だったぴょ…
+ShowTextBox "Phew...\nThat was hard\nwork, pyo."
+WaitTextBox
+ShowChara 6 2 40
+# 腰をかがめる仕事
+# ですからね…
+ShowTextBox "It really\ntakes a toll\non your waist,\ndoesn't it?"
+WaitTextBox
+ShowChara 7 1 48
+# あーっ、腹へった
+# なーっ！
+ShowTextBox "I'm hungry!"
+WaitTextBox
+ShowChara 12 2 59
+# では、さっそくこ
+# の豆をつかって夕
+# 飯をつくるゲバ
+ShowTextBox "We'll put\nthese beans\non for dinner,\ngeba!"
+WaitTextBox
+ShowChara 5 1 39
+# ふむ、では各自、
+# 責任を持って豆を
+# 持ち帰るように！
+ShowTextBox "Very good!\nEveryone, grab\nyour beans!\nWe're going\nhome!"
+WaitTextBox
+ShowChara 12 2 60
+# イエッサー、ゲバ
+# ーっ！
+ShowTextBox "Yes, sir!\nGeba!"
+WaitTextBox
+Fade 1 30
+SetBG 112
+Fade 0 30
+ShowChara 12 2 59
+# 今日のメニューは
+# 豆の煮物にビーン
+# ズカレー、豆腐に
+# 豆乳ゲバ！
+ShowTextBox "Today's course\nwill be bean\nstew with a side\nof bean curry,\ncooked in bean\nsauce, geba!"
+WaitTextBox
+ShowChara 7 1 48
+# いただきまーす…
+# もぐもぐ…うん、
+# うまい！
+ShowTextBox "Let's eat!\nChomp, chomp...\nHey, this is\ngood!"
+WaitTextBox
+ShowChara 6 2 41
+# まだたくさんある
+# おちついて食え…
+ShowTextBox "There's still\nplenty to eat,\nso take your\ntime."
+WaitTextBox
+ShowChara 5 1 36
+# ピョコラ様、今日
+# は大成功でしたな
+# ！
+ShowTextBox "Today's\noperation was\na great\nsuccess, Lady\nPyocola!"
+WaitTextBox
+ShowChara 4 1 29
+# うむ、まったく大
+# 成功だぴょ！
+ShowTextBox "It went great,\npyo!"
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 2 1 22
+# ねえ、今日は街中
+# でＢＧ団が豆をひ
+# ろってたけど、い
+# ったい何なのかし
+# ら？
+ShowTextBox "Hey, did you see\nthose BG Gang\nguys walking\naround picking\nup beans? What's\nup with that?"
+WaitTextBox
+ShowChara 1 2 15
+# まさかあいつら、
+# 街の美化活動とか
+# に目覚めたとかそ
+# んなのかにょ！？
+ShowTextBox "No way!\nAre they on\nsome sort of\ncleanup crew\noperation, nyo!?"
+WaitTextBox
+ShowChara 1 0 8
+# …って、それはま
+# さかにょ
+ShowTextBox "...\nDefinitely\nnot, nyo!"
+WaitTextBox
+ShowChara 2 1 22
+# あ、分かった！
+# きっと、拾った豆
+# を食べるつもりな
+# んだわ！
+ShowTextBox "Oh, I know!\nThey're\nprobably going\nto eat the\nbeans for\ndinner!"
+WaitTextBox
+ShowChara 2 0 23
+# …なーんて、あは
+# は、いくら何でも
+# それはないわよね
+ShowTextBox "... Just\nkidding!\nThere's no way\nthey'd fall\nTHAT far!"
+WaitTextBox
+ShowChara 3 2 17
+# ぷちこは食べてる
+# と思うにゅ…
+ShowTextBox "...\nI'd eat them,\nnyu."
+WaitTextBox
+EndScript

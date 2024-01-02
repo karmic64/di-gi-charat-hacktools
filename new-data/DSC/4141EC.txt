@@ -1,0 +1,50 @@
+DSCBase $4141EC
+
+
+
+
+Subscript 0
+ShowChara 5 1 35
+# お客さんからよいことを聞いたぞ
+ShowTextBox "A customer just told me something interesting."
+WaitTextBox
+ShowChara 5 0 36
+# 最近は\x02$0関連のグッズ\x1aが流行っているそうだ
+# たくさん仕入れて
+# 大儲けするぞ！
+ShowTextBox "It sounds like\x02 items related to $0\x1a are popular right now.\nIf we stock many of those, we can make a lot of money!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 1
+ShowChara 5 1 35
+# お客さんからよいことを聞いたぞ
+ShowTextBox "A customer just told me something interesting."
+WaitTextBox
+ShowChara 5 0 36
+# 最近は\x02$0\x1aが流行っているそうだ
+# たくさん仕入れて
+# 大儲けするぞ！
+ShowTextBox "It sounds like\x02$0\x1a are popular right now.\nIf we stock many of those, we can make a lot of money!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 5 1 35
+# お客さんからよいことを聞いたぞ
+ShowTextBox "A customer just told me something interesting."
+WaitTextBox
+ShowChara 5 0 36
+# 最近は\x02$0\x1aが大変流行っているそうだ
+# たくさん仕入れて
+# 大儲けするぞ！
+ShowTextBox "It sounds like\x02$0\x1a are unbelievably popular right now.\nIf we stock many of those, we can make a lot of money!"
+WaitTextBox
+HideChara
+EndScript

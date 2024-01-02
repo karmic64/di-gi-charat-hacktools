@@ -1,0 +1,54 @@
+DSCBase $40B930
+
+
+
+
+Subscript 0
+# ともだちとめいしのこうかんをするのね！
+ShowTextBox "Exchange business cards with a friend!"
+EndScript
+
+
+
+Subscript 1
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 2
+# いままでもらったともだちのめいしを見るのね！
+ShowTextBox "See business cards you already have!"
+EndScript
+
+
+
+Subscript 3
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 4
+# みんなのめいしのランキングを見るのね！
+ShowTextBox "Look at the Business Card Rankings!"
+EndScript
+
+
+
+Subscript 5
+HideChara
+EndScript
+
+
+
+Subscript 6
+ShowChara 2 2 22
+EndScript
+
+
+
+Subscript 7
+EndScript

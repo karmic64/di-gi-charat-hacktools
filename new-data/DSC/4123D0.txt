@@ -1,0 +1,68 @@
+DSCBase $4123D0
+
+
+
+
+Subscript 0
+# うさだの悩みを聞いた！
+ShowTextBox "You listened to Usada's complaints!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+# うさだをなだめた！
+ShowTextBox "You helped Usada calm down!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+# うさだをなぐさめた！
+ShowTextBox "You consoled Usada!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+# うさだをおだてた！
+ShowTextBox "You flattered Usada!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+# うさだにかつを入れた！
+ShowTextBox "You gave Usada a pep talk!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+# うさだをはげました！
+ShowTextBox "You cheered on Usada!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+# うさだをほめた！
+ShowTextBox "You praised Usada!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+EndScript
+
+
+
+Subscript 8
+EndScript

@@ -1,0 +1,403 @@
+DSCBase $3FE5C4
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 8 1 54
+# て、店長さん、き
+# んきゅうじたいゲ
+# マーっ！！
+ShowTextBox "M-Manager,\nwe've got an\nemergency, gema!"
+WaitTextBox
+ShowChara 8 0 2
+# きょ、今日は朝か
+# らお客さんが一人
+# も入ってこないゲ
+# マっ！
+ShowTextBox "We haven't had\na single\ncustomer enter\nall day, gema!"
+WaitTextBox
+ShowChara 8 0 54
+# おまけに、でじこ
+# が、いや、それだ
+# けではなくて、ぷ
+# ちこやうさだまで
+# 姿が見えないゲマ
+# ～～っ！
+ShowTextBox "Also, I haven't\nseen any trace\nof Dejiko or\nPuchiko today!\nIt's like they\ndisappeared!!"
+WaitTextBox
+ShowChara 8 0 2
+# こ、こんなことは
+# 初めてゲマ…
+ShowTextBox "This is the\nfirst time this\nhas ever\nhappened, gema.."
+WaitTextBox
+ShowChara 8 0 54
+# ど、どうすればい
+# いゲマーっ！！
+ShowTextBox "W-What should\nwe do, gema!?"
+WaitTextBox
+ShowChara 2 2 23
+# ただいまーっ
+ShowTextBox "We're back!"
+WaitTextBox
+ShowChara 3 2 17
+# いま戻ったにゅ！
+ShowTextBox "Good morning,\nnyu!"
+WaitTextBox
+ShowChara 1 2 10
+# 店長しゃん、ただ
+# いまにょ～っ！
+ShowTextBox "We're back,\nnyo~!"
+WaitTextBox
+ShowChara 1 0 8
+# …にょっ、ゲマ、
+# 何をしけた顔して
+# るにょ？
+ShowTextBox "... Gema,\nyou don't look\ntoo good. Is\nsomething the\nmatter, nyo?"
+WaitTextBox
+ShowChara 8 1 2
+# 何じゃないゲマ！
+# 朝からお客さんは
+# ゼロだし、でじこ
+# たちはいないし、
+# ゲマはもうゲマゲ
+# マゲマーっ！
+ShowTextBox "Of course\nsomething's the\nmatter, gema!\nWe haven't had\na single\ncustomer today!"
+WaitTextBox
+ShowChara 1 2 8
+# ほいっ
+ShowTextBox "Here you go!"
+WaitTextBox
+ShowChara 8 1 1
+# …これは何ゲマ？
+ShowTextBox "... What's\nthis, gema?"
+WaitTextBox
+ShowChara 2 2 23
+# いやねぇ、バレン
+# タインじゃない！
+ShowTextBox "It's a\nValentine's\nchocolate!"
+WaitTextBox
+ShowChara 3 2 17
+# ぷちこからもにゅ
+ShowTextBox "I got you one\ntoo, nyu."
+WaitTextBox
+ShowChara 8 1 1
+# あ、ありがとうゲ
+# マ…
+ShowTextBox "T-Thanks,\ngema..."
+WaitTextBox
+ShowChara 2 2 23
+# 最後にアタシから
+# も…
+ShowTextBox "Here's mine,\ntoo."
+WaitTextBox
+ShowChara 8 1 1
+# うれしいゲマ…
+ShowTextBox "Wow...\nI don't know\nwhat to say,\ngema..."
+WaitTextBox
+ShowChara 1 2 9
+# にょにょ、義理と
+# はいえ、でじこと
+# ぷちこと、うさだ
+# からにょ！
+ShowTextBox "It's only to\nbe polite, but\nall three of\nus got\nchocolate for\nyou, nyo!"
+WaitTextBox
+# 合計３つもチョコ
+# をもらえるなんて
+# ゲマはしあわせも
+# のにょ
+ShowTextBox "You should be\nhappy to get\nso much, nyo!"
+WaitTextBox
+ShowChara 8 1 1
+# ところで…
+ShowTextBox "About that..."
+WaitTextBox
+ShowChara 1 2 9
+# 何にょ？
+ShowTextBox "What, nyo?"
+WaitTextBox
+ShowChara 8 1 1
+# バレンタインって
+# 何ゲマ？
+ShowTextBox "What's a\n\"Valentine\",\ngema?"
+WaitTextBox
+ShowChara 1 2 12
+# ずるっ…
+ShowTextBox "Uh..."
+WaitTextBox
+ShowChara 2 2 23
+# し、知らずにうれ
+# しがってたの…？
+ShowTextBox "If you didn't\nknow, why were\nyou acting so\nhappy...?"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 8 1 1
+# なるほど、バレン
+# タインとはそうい
+# う日ゲマか…
+ShowTextBox "I see, so\nthat's what\nValentine's Day\nis about,\ngema..."
+WaitTextBox
+ShowChara 1 2 10
+# 世の中の女の子や
+# 男の子にとって、
+# この日は年間を通
+# じての最大のイベ
+# ントにょっ！
+ShowTextBox "It's the number\none Most\nImportant Day\nfor the boys and\ngirls of the\nworld, nyo!"
+WaitTextBox
+ShowChara 2 2 23
+# ある意味、盆や正
+# 月、それどころか
+# クリスマスをもし
+# のぐ日よね…
+ShowTextBox "In some ways,\nit's on the\nlevel of\nChristmas or New\nYear's..."
+WaitTextBox
+ShowChara 1 2 8
+# この日ばかりは、
+# 大人も子供も朝か
+# ら気もそぞろで、
+# さっぱり商売にな
+# らないにょ…
+ShowTextBox "Both adults and\nkids will be too\ndistracted to go\nshopping today,\nnyo..."
+WaitTextBox
+ShowChara 2 2 22
+# もちろん、アタシ
+# たちもね…
+ShowTextBox "Of course, we're\nin the same\ncamp..."
+WaitTextBox
+ShowChara 2 0 23
+# だから、今日は朝
+# から休みをもらっ
+# て思い思いにチョ
+# コを配ってたって
+# わけ
+ShowTextBox "So we were gone\nall morning\ngiving out our\nown chocolates."
+WaitTextBox
+ShowChara 8 1 1
+# う～ん、勉強にな
+# ったゲマ
+ShowTextBox "It's the first\ntime I've heard\nof this, gema."
+WaitTextBox
+ShowChara 2 2 22
+# あ～っ、今日はた
+# くさんチョコを配
+# ったからつかれた
+# わ
+ShowTextBox "Aaah...\nI had to run\nall over the\nplace to give\nout chocolate.\nI'm tired..."
+WaitTextBox
+ShowChara 1 2 8
+# 右に同じにょ…
+# んじゃ、今日は早
+# いけどこのへんで
+# 失礼させてもらう
+# にょ～
+ShowTextBox "Same, nyo...\nIt's still\nearly, but I'm\ntaking the rest\nof the day off,\nnyo~"
+WaitTextBox
+ShowChara 3 2 17
+# 帰るにゅ
+ShowTextBox "I'm going home,\nnyu."
+WaitTextBox
+ShowChara 8 1 1
+# …………
+ShowTextBox "..."
+WaitTextBox
+# な、なんかやけに
+# あっさり帰ってい
+# っちゃったゲマ…
+ShowTextBox "T-They barely\neven tried to\ncome up with an\nexcuse, gema..."
+WaitTextBox
+# おや、そういえば
+# でじこたちは店長
+# さんにチョコを渡
+# してなかったよう
+# な気がするゲマ…
+ShowTextBox "Actually, it\nlooks like they\ndidn't get you\nany chocolate,\nManager."
+WaitTextBox
+ShowChara 8 0 53
+# 店長さん、気を落
+# とすことはないゲ
+# マ
+ShowTextBox "Don't let it\nget you down,\ngema."
+WaitTextBox
+# 人生は長いゲマ
+# これから、まだま
+# だチャンスは…え
+# っ、気にしてない
+# ゲマ？
+ShowTextBox "You'll have\nplenty of\nchances in the\nfuture... Oh,\nyou're not\nworried?"
+WaitTextBox
+ShowChara 8 0 2
+# こ、これは失礼し
+# たゲマ
+ShowTextBox "W-Well, then,\ngema..."
+WaitTextBox
+Fade 1 120
+EndScript
+
+
+
+Subscript 1
+Unk08 1 103 80 88 108 10 3
+SetBG 113
+Fade 0 30
+ShowChara 1 2 9
+# にょにょっ、これ
+# はこれは店長しゃ
+# ん！
+ShowTextBox "Nyo nyo! Well,\nif it isn't\nthe Manager!"
+WaitTextBox
+ShowChara 1 0 10
+# こんなところで会
+# うなんて、偶然に
+# ょ
+ShowTextBox "What a\ncoincidence,\nfor us to meet\nhere, nyo...!"
+WaitTextBox
+ShowChara 1 0 9
+# そうだ、偶然つい
+# でにこんなものは
+# どうかにょ？
+ShowTextBox "Well, since\nwe're here\nanyway, why\ndon't I give\nyou this, nyo?"
+WaitTextBox
+Fade 3 30
+SetBG 7
+Fade 2 30
+ShowChara 1 0 0
+# バレンタインのチョコ
+# レートにょ
+# はいっ、どうぞにょ～
+ShowTextBox "It's a\nValentine's Day\nchocolate, nyo.\nGo ahead, nyo~"
+WaitTextBox
+# どーしたにょ、受けと
+# らないのかにょ？
+ShowTextBox "What, you don't\nwant it, nyo?"
+WaitTextBox
+Fade 1 30
+SetBG 113
+Fade 0 30
+ShowChara 1 2 9
+# ちょうど店長しゃ
+# んに出会ってよか
+# ったにょ～
+ShowTextBox "I'm glad I\nbumped into you\nnow, nyo~"
+WaitTextBox
+ShowChara 1 0 10
+# やっぱり、でじこ
+# みたいな有名人が
+# そのへんの見知ら
+# ぬ人にチョコをあ
+# げるわけにはいか
+# ないにょ！
+ShowTextBox "If a superstar\nlike me was\nseen giving\nchocolate in\npublic, it'd be\na disaster, nyo!"
+WaitTextBox
+ShowChara 1 0 9
+# それじゃ、でじこ
+# はこのへんで失礼
+# するにょ
+ShowTextBox "I've gotta go.\nSee you later,\nnyo!"
+WaitTextBox
+# あ、店長しゃん、
+# チョコはゆっくり
+# あせらず食べるの
+# がいいにょ～
+ShowTextBox "Ah, Manager,\nplease take your\ntime and enjoy\nthe chocolate,\nnyo!~"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+Unk08 2 90 69 72 100 10 3
+SetBG 113
+Fade 0 30
+ShowChara 2 1 63
+# あっ、店長さん…
+ShowTextBox "Oh, Manager..."
+WaitTextBox
+# ちょっとお時間い
+# いかしら…？
+ShowTextBox "Do you have a\nsecond...?"
+WaitTextBox
+Fade 3 30
+SetBG 8
+Fade 2 30
+ShowChara 2 0 0
+# はいっ、チョコ！
+ShowTextBox "Here!"
+WaitTextBox
+# いつもお世話になって
+# るから、特別製…手作
+# りよ！
+ShowTextBox "Since you're\nalways helping\nme out, I made\nyou some\nchocolate!"
+WaitTextBox
+Fade 1 30
+SetBG 113
+Fade 0 30
+ShowChara 2 1 22
+# えっ…、義理チョ
+# コでもうれしいっ
+# て？
+ShowTextBox "Huh? You would\nhave been fine\nwith something\nfrom the\nstore?"
+WaitTextBox
+# うう～ん…
+ShowTextBox "Well..."
+WaitTextBox
+ShowChara 2 0 23
+# ま、今回はそうい
+# うことにしておく
+# わ…
+ShowTextBox "... I wanted\nto make it for\nyou, because..."
+WaitTextBox
+ShowChara 2 0 56
+# あっ、なんでもな
+# いったら、なんで
+# もないわ！
+ShowTextBox "U-um, don't\nworry about it!\nI was just\nmumbling!"
+WaitTextBox
+ShowChara 2 0 23
+# じゃ、店長さん、
+# また明日ねー
+ShowTextBox "See you\ntomorrow,\nManager!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+Unk08 3 120 97 16 120 10 2
+SetBG 111
+Fade 0 30
+ShowChara 3 1 17
+# 店長さん、ぷちこ
+# にゅ
+ShowTextBox "It's me,\nManager.\nPuchiko, nyu."
+WaitTextBox
+Fade 3 30
+SetBG 9
+Fade 2 30
+ShowChara 3 0 0
+# はい、チョコにゅ
+ShowTextBox "Here's some\nchocolate,\nnyu."
+WaitTextBox
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 1 2 63
+# ぷちこ～、何して
+# るにょ～
+# 遅いにょ～っ！
+ShowTextBox "Come on,\nPuchiko!\nWe're gonna be\nlate, nyo!"
+WaitTextBox
+ShowChara 3 1 18
+# でじこが呼んでる
+# にゅ
+ShowTextBox "Dejiko's\ncalling me,\nnyu."
+WaitTextBox
+# じゃ、もう行くに
+# ゅ
+ShowTextBox "I'm going.\nBye, nyu."
+WaitTextBox
+EndScript

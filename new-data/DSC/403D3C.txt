@@ -1,0 +1,198 @@
+DSCBase $403D3C
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 4 1 29
+# ひらめいたぴょ！
+ShowTextBox "Eureka, pyo!"
+WaitTextBox
+ShowChara 7 2 47
+# どーしたぴよこ？
+ShowTextBox "What's up,\nPiyoko?"
+WaitTextBox
+ShowChara 4 1 29
+# ふっふっふ…今、
+# ぴよこはよいこと
+# を思いついたぴょ
+# ！
+ShowTextBox "Heh heh heh...\nI've just come\nup with my most\ningenious plan\nyet, pyo!"
+WaitTextBox
+ShowChara 7 2 47
+# …だから、何を？
+ShowTextBox "... And what's\nthat supposed to\nmean, exactly?"
+WaitTextBox
+ShowChara 4 1 29
+# またひとつ、お姉
+# ちゃんへのイヤガ
+# ラセを思いついた
+# ぴょっ！
+ShowTextBox "A prank to play\non Dejiko, of\ncourse! This one\nwill have her\nfuming, pyo!"
+WaitTextBox
+ShowChara 7 2 47
+# なーんだ…
+ShowTextBox "ANOTHER\nprank..?"
+WaitTextBox
+ShowChara 4 1 31
+# むかっ…その反応
+# は何ぴょ！今なん
+# かちょっとむかっ
+# ときたぴょっ！
+ShowTextBox "What's with the\nattitude, pyo!?\nYou're ruining\nmy mood!"
+WaitTextBox
+ShowChara 7 2 51
+# えー、なんかさ－
+# 今日は寒くってさ
+# ー、なんか元気出
+# なくってさー…
+ShowTextBox "Piyoko, it's\njust... Isn't\nit a little\ncold to be\nrunning around\npulling pranks?"
+WaitTextBox
+ShowChara 4 1 31
+# もういいぴょ！
+# クウには頼まない
+# から、そこでダラ
+# ダラと昼寝でもし
+# てるといいぴょ！
+ShowTextBox "Fine, pyo!\nIf you wanna\nlaze around\nall day long,\nthen I'll just\ngo by myself!"
+WaitTextBox
+ShowChara 7 2 47
+# そんなに急がなく
+# ても、もう少しし
+# たらリクとカイが
+# 戻って…
+ShowTextBox "I didn't mean\nit like that,\nPiyoko... I'm\nsure Rik and\nKy will-"
+WaitTextBox
+# …行っちゃったよ
+ShowTextBox "...\nShe left..."
+WaitTextBox
+Fade 1 30
+SetBG 113
+Fade 0 30
+ShowChara 4 1 28
+# ぴょっ…
+ShowTextBox "Pyo..."
+WaitTextBox
+ShowChara 4 0 30
+# そ、外がこんなに
+# 寒くなってるなん
+# て反則ぴょ…
+ShowTextBox "P-P-P-Pyo...\nCoo said it was\ncold out, but\nI didn't know\nit was THIS\ncold..."
+WaitTextBox
+ShowChara 4 0 31
+# ぴょぴょーっ、根
+# 性ぴょ、根性だぴ
+# ょーっ！
+ShowTextBox "B-But it's\nnothing, pyo!\nDejiko's\nreaction will\nbe more than\nworth it!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 4 1 28
+# うー、さぶさぶ…
+# やっとゲーマーズ
+# に到着したぴょ…
+ShowTextBox "Brr...\nI finally\nmade it to\nGamers..."
+WaitTextBox
+ShowChara 4 0 29
+# これでやっと、暖
+# かいところでぬく
+# ぬくできるぴょ…
+ShowTextBox "I'll just\nwarm up a\nlittle inside,\npyo..."
+WaitTextBox
+ShowChara 4 0 31
+# って違うぴょ！
+ShowTextBox "... No!\nFocus on the\nplan, Piyoko!"
+WaitTextBox
+# あくまで、ぴよこ
+# のねらいはでじこ
+# お姉ちゃんへのイ
+# ヤガラセ攻撃ぴょ
+# っ！
+ShowTextBox "The prank always\ncomes first,\npyo! She'll\nnever see it\ncoming!"
+WaitTextBox
+ShowChara 4 0 28
+# えー、あー、オホ
+# ン…
+ShowTextBox "Aaah, Aaah...\nAhem..."
+WaitTextBox
+ShowChara 4 0 29
+# あーあーでじこお
+# 姉ちゃん、でじこ
+# お姉ちゃん、いる
+# なら返事するぴょ
+# ーっ！
+ShowTextBox "Dejiko!\nDEJIKO!!\nI know you're\nin there!\nListen up, pyo!"
+WaitTextBox
+# ちょっと話がある
+# から、中に入れる
+# ぴょっ！
+ShowTextBox "I've got\nsomething very\nimportant to\nsay to you, so\nI'm coming in,\npyo!"
+WaitTextBox
+# なお、温かい飲み
+# 物にはココアがい
+# いぴょ！くり返す
+# ぴょ、温かいココ
+# アだぴょっ！
+ShowTextBox "You are to\nprepare hot\nchocolate for\nme right now!\nYou get that?\nHOT CHOCOLATE!"
+WaitTextBox
+ShowChara 4 0 28
+# …………
+ShowTextBox "..."
+WaitTextBox
+# おかしいぴょ、反
+# 応がないぴょ…
+ShowTextBox "That's weird,\npyo...\nNobody\nresponded..."
+WaitTextBox
+# きょろきょろ…
+ShowTextBox "Pyo..."
+WaitTextBox
+# ぴょ、こんなとこ
+# ろにハリガミが…
+# どれどれ、読んで
+# みるぴょ…
+ShowTextBox "What's this\npaper on the\ndoor, pyo?"
+WaitTextBox
+# “オイッス、でじ
+# こだにょ！”
+ShowTextBox "\"Howdy!\nDejiko here,\nnyo!\""
+WaitTextBox
+# “にょにょー、今
+# でじこたちは温泉
+# に行っているんだ
+# にょー”
+ShowTextBox "\"Dejiko and\nthe rest of the\nGamers staff\nare out on a\nhot springs\ntrip, nyo.\""
+WaitTextBox
+# “うらやましいか
+# にょ、うらやまし
+# いかにょ？じゃ、
+# ２，３日留守にす
+# るからよろしくだ
+# にょ！”
+ShowTextBox "\"Hehe, I bet\nyou're jealous,\nnyo! See you in\na couple days!\""
+WaitTextBox
+ShowChara 4 0 33
+# がーん、お、お姉
+# ちゃん、い、いな
+# いぴょ？
+ShowTextBox "Whaaaaat!?\nShe's not even\nhere, pyo!?"
+WaitTextBox
+Fade 1 30
+Unk08 4 56 100 96 80 10 3
+SetBG 91
+Fade 0 30
+ShowChara 4 0 0
+# はっくしゅん…！
+ShowTextBox "A-choo!!"
+WaitTextBox
+# ぴょ～、な、なんか、
+# ダメダメだぴょ～
+ShowTextBox "Pyo...\nS-So cold,\npyo..."
+WaitTextBox
+# 今日は、もう帰って
+# 寝るぴょ…
+ShowTextBox "Guess I'll\njust go home,\npyo..."
+WaitTextBox
+EndScript

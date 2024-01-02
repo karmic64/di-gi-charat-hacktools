@@ -1,0 +1,98 @@
+DSCBase $4189B0
+
+
+
+
+Subscript 0
+ShowChara 3 0 0
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# どのキャラのお仕事をかえるにゅ？
+ShowTextBox "Whose job do you want to change, nyu?"
+EndScript
+
+
+
+Subscript 3
+# どのお仕事をさせるにゅ？
+ShowTextBox "Switch to which job, nyu?"
+EndScript
+
+
+
+Subscript 4
+# レジは外せないにゅ
+ShowTextBox "Someone needs to handle Checkout, nyu."
+EndScript
+
+
+
+Subscript 5
+# $0が$1をするにゅ
+ShowTextBox "$0 is on $1 duty, nyu."
+EndScript
+
+
+
+Subscript 6
+# $0と$1がお仕事を入れかわるにゅ
+ShowTextBox "$0 and $1 switched jobs, nyu."
+EndScript
+
+
+
+Subscript 7
+# これでいいにゅ？
+ShowTextBox "Are these assignments fine, nyu?"
+EndScript
+
+
+
+Subscript 8
+# 『レジ』…レジをうつにゅ
+ShowTextBox "The 『Checkout』runs the register, nyu."
+EndScript
+
+
+
+Subscript 9
+# 『接客』…お客さんをあんないするにゅ
+ShowTextBox "The 『Service』 helps customers navigate the shop, nyu."
+EndScript
+
+
+
+Subscript 10
+# 『グッズ整理』…グッズをキレイに並べるにゅ
+ShowTextBox "The 『Stocker』 arranges goods on the shelves, nyu."
+EndScript
+
+
+
+Subscript 11
+# 『お掃除』…お店の中をキレイにするにゅ
+ShowTextBox "The 『Cleaner』 keeps the store clean, nyu."
+EndScript
+
+
+
+Subscript 12
+# 『偵察』…なんにゅ？
+ShowTextBox "『Recon』... I don't know what that is, nyu."
+EndScript
+
+
+
+Subscript 13
+# キャラのステータスを見るにゅ
+ShowTextBox "See a character's status, nyu."
+EndScript

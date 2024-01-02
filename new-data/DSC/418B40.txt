@@ -1,0 +1,98 @@
+DSCBase $418B40
+
+
+
+
+Subscript 0
+ShowChara 4 0 0
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# どのキャラのお仕事をかえるぴょ？
+ShowTextBox "Whose job do you want to change, pyo?"
+EndScript
+
+
+
+Subscript 3
+# どのお仕事をさせるぴょ？
+ShowTextBox "Switch to which job, pyo?"
+EndScript
+
+
+
+Subscript 4
+# レジは、必ず誰かがやらなくちゃいけないぴょ！
+ShowTextBox "Someone needs to do Checkout, or the shop can't run, pyo!"
+EndScript
+
+
+
+Subscript 5
+# $0が$1するぴょ！
+ShowTextBox "$0 is on $1 duty, pyo!"
+EndScript
+
+
+
+Subscript 6
+# $0が$1がお仕事を入れかわるぴょ！
+ShowTextBox "$0 and $1 switched jobs, pyo!"
+EndScript
+
+
+
+Subscript 7
+# これで決まりぴょ？
+ShowTextBox "Are these assignments fine, pyo?"
+EndScript
+
+
+
+Subscript 8
+# 『レジ』ぴょ。お客さんからお金をいただくお仕事ぴょ
+ShowTextBox "The 『Checkout』runs the register, pyo."
+EndScript
+
+
+
+Subscript 9
+# 『接客』ぴょ。お客さんを手助けするお仕事ぴょ
+ShowTextBox "The 『Service』 helps customers navigate the shop, pyo."
+EndScript
+
+
+
+Subscript 10
+# 『グッズ整理』ぴょ。グッズをキレイに並べるお仕事ぴょ
+ShowTextBox "The 『Stocker』 arranges goods on the shelves, pyo."
+EndScript
+
+
+
+Subscript 11
+# 『お掃除』ぴょ。お店の中をキレイにするお仕事ぴょ
+ShowTextBox "The 『Cleaner』 keeps the store clean, pyo."
+EndScript
+
+
+
+Subscript 12
+# 『偵察』ぴょ。でじこお姉ちゃんのお店を偵察するぴょ
+ShowTextBox "『Recon』monitors Dejiko's store, pyo."
+EndScript
+
+
+
+Subscript 13
+# キャラのステータスを見るぴょ
+ShowTextBox "See a character's status, pyo."
+EndScript

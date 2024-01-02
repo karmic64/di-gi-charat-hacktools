@@ -1,0 +1,104 @@
+DSCBase $3FCDCC
+
+
+
+
+Subscript 0
+Unk08 2 80 65 78 100 10 3
+SetBG 111
+Fade 0 30
+ShowChara 2 2 56
+# 今日は１２月２５
+# 日、クリスマス当
+# 日…
+ShowTextBox "Today's\nChristmas Day..."
+WaitTextBox
+ShowChara 2 0 23
+# それじゃ、今日は
+# 予定通り、店長さ
+# んをお借りして行
+# きまーす
+ShowTextBox "As such, I'll\nbe borrowing\nthe Manager\nfor a little\nwhile~"
+WaitTextBox
+# みんなー、お留守
+# 番の方はよろしく
+# ね！
+ShowTextBox "Take care of\nthe store while\nwe're out!"
+WaitTextBox
+ShowChara 1 1 8
+# いってらっしゃい
+# にょ～
+ShowTextBox "See you later,\nnyo~"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 1 1 9
+# ホールド・ミー・
+# ベイベー
+# 踊ろうよサンデー
+ShowTextBox "Hold me, baby\nDance away the\nSunday..."
+WaitTextBox
+ShowChara 1 0 15
+# にょにょっ！？
+ShowTextBox "N-Nyo!?"
+WaitTextBox
+ShowChara 3 2 17
+# どうしたにゅ？
+ShowTextBox "What's the\nmatter, nyu?"
+WaitTextBox
+ShowChara 1 1 15
+# 「踊ろうよサンデ
+# ー」って歌ってる
+# けど、今年のイブ
+# はサンデーじゃな
+# かったにょ！
+ShowTextBox "The line is\n\"Dance away the\nSunday\", but\nChristmas Eve\nwasn't a Sunday\nthis year, nyo!"
+WaitTextBox
+ShowChara 3 2 19
+# ぷちこはどうでも
+# いいにゅ…昼寝す
+# るから、静かにし
+# てほしいにゅ
+ShowTextBox "... I'm going to\ntake a nap, so\nplease keep it\ndown, nyu."
+WaitTextBox
+ShowChara 1 1 12
+# ぷちこ、つきあい
+# 悪いにょ～
+ShowTextBox "You're no\nfun, nyo..."
+WaitTextBox
+# にょ～、でじこも
+# 店長しゃんとお出
+# かけして、何かう
+# まいものでも食べ
+# させてもらいたか
+# ったにょ…
+ShowTextBox "Nyo...\nI wanted to go\nout and eat\nsomething\ntasty with the\nManager, nyo..."
+WaitTextBox
+ShowChara 3 2 17
+# 未練がましいにゅ
+ShowTextBox "Too late for\nthat now, nyu."
+WaitTextBox
+Fade 1 30
+SetBG 52
+Fade 0 30
+ShowChara 2 0 0
+# うわあ、大きなツリー
+# …
+ShowTextBox "Woah, what a\nhuge tree!"
+WaitTextBox
+# お店にもこんな大きな
+# ツリーがあったら、お
+# 客さんが喜ぶかも…
+ShowTextBox "I wonder if\nthe customers\nwould like a\ntree this big\nin the shop..."
+WaitTextBox
+# あっ、今日はお店のこ
+# とは忘れて、だったわ
+# よね
+ShowTextBox "Ah, forget the\nshop. Let's\nenjoy the\nmoment!"
+WaitTextBox
+# もう少し街を歩いて、
+# お食事はそれからね！
+ShowTextBox "Let's walk\naround town a\nlittle more.\nThen we can\ngo get something\nto eat!"
+WaitTextBox
+EndScript

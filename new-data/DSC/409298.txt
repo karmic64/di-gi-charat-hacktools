@@ -1,0 +1,339 @@
+DSCBase $409298
+
+
+
+### Prefill data: $80
+Subscript 0
+ShowChara 2 4 23
+# $2さん、ステキよね
+ShowTextBox "!!! 409298 0"
+Wait 60
+EndScript
+
+
+### Prefill data: $81
+Subscript 1
+ShowChara 2 4 56
+# $2っておいしくって、食べ過ぎが恐いわよね
+ShowTextBox "!!! 409298 1"
+Wait 60
+EndScript
+
+
+### Prefill data: $82
+Subscript 2
+ShowChara 2 4 23
+# $2って、本当はすごく安いのよね
+ShowTextBox "!!! 409298 2"
+Wait 60
+EndScript
+
+
+### Prefill data: $83
+Subscript 3
+ShowChara 2 4 23
+# $2ってかわいいわね
+# そう思わない？
+ShowTextBox "!!! 409298 3"
+Wait 60
+EndScript
+
+
+### Prefill data: $84
+Subscript 4
+ShowChara 2 4 23
+# お部屋に$2の鉢植があると、ぐっと雰囲気がよくなるのよね
+ShowTextBox "!!! 409298 4"
+Wait 60
+EndScript
+
+
+### Prefill data: $85
+Subscript 5
+ShowChara 2 4 25
+# $2…なつかしい名前ね…
+ShowTextBox "!!! 409298 5"
+Wait 60
+EndScript
+
+
+### Prefill data: $86
+Subscript 6
+ShowChara 2 4 23
+# うちのお店も$2に新しいお店を出すの、どうかしら？
+ShowTextBox "!!! 409298 6"
+Wait 60
+EndScript
+
+
+### Prefill data: $87
+Subscript 7
+ShowChara 2 4 23
+# $2のコツは愛情よ
+# ていねいにね
+ShowTextBox "!!! 409298 7"
+Wait 60
+EndScript
+
+
+### Prefill data: $88
+Subscript 8
+ShowChara 2 4 23
+# アタシもいつか『$2』に出られるよう、がんばろうっと♪
+ShowTextBox "!!! 409298 8"
+Wait 60
+EndScript
+
+
+### Prefill data: $89
+Subscript 9
+ShowChara 2 4 23
+# 今月は『$2』のコミックスがよく売れたわね
+ShowTextBox "!!! 409298 9"
+Wait 60
+EndScript
+
+
+### Prefill data: $8A
+Subscript 10
+ShowChara 2 4 56
+# いつか$2の助手席に乗せてくれるステキな人、現れないかなぁ
+ShowTextBox "!!! 409298 10"
+Wait 60
+EndScript
+
+
+### Prefill data: $8B
+Subscript 11
+ShowChara 2 4 23
+# 休みの日に公園で$2してる人、よくいるわよね
+ShowTextBox "!!! 409298 11"
+Wait 60
+EndScript
+
+
+### Prefill data: $80
+Subscript 12
+ShowChara 2 4 23
+# 今度$2さんをお店に呼んで、講演会を開いてみたらどうかしら？
+ShowTextBox "!!! 409298 12"
+Wait 60
+EndScript
+
+
+### Prefill data: $81
+Subscript 13
+ShowChara 2 4 23
+# あとでみんなで$2を食べながら、お茶にしましょう
+ShowTextBox "!!! 409298 13"
+Wait 60
+EndScript
+
+
+### Prefill data: $82
+Subscript 14
+ShowChara 2 4 23
+# 夏の暑い日、運動した後のコップ一杯の$2、たまらないわね
+ShowTextBox "!!! 409298 14"
+Wait 60
+EndScript
+
+
+### Prefill data: $83
+Subscript 15
+ShowChara 2 4 22
+# お店に$2のぬいぐるみとか置いたら売れないかしら？
+ShowTextBox "!!! 409298 15"
+Wait 60
+EndScript
+
+
+### Prefill data: $84
+Subscript 16
+ShowChara 2 4 56
+# 今度、$2エキスを配合したクリームが新発売されるんですって
+ShowTextBox "!!! 409298 16"
+Wait 60
+EndScript
+
+
+### Prefill data: $85
+Subscript 17
+ShowChara 2 4 23
+# $2には$2の良さがあるのよね
+ShowTextBox "!!! 409298 17"
+Wait 60
+EndScript
+
+
+### Prefill data: $86
+Subscript 18
+ShowChara 2 4 23
+# $2なら昨日遊びに行ってきたばっかりよ
+ShowTextBox "!!! 409298 18"
+Wait 60
+EndScript
+
+
+### Prefill data: $87
+Subscript 19
+ShowChara 2 4 25
+# ここのところ$2で忙しくって肩がこっちゃう
+ShowTextBox "!!! 409298 19"
+Wait 60
+EndScript
+
+
+### Prefill data: $88
+Subscript 20
+ShowChara 2 4 23
+# 昨日の『$2』、楽しかったわね
+ShowTextBox "!!! 409298 20"
+Wait 60
+EndScript
+
+
+### Prefill data: $89
+Subscript 21
+ShowChara 2 4 56
+# 次の号の『$2』楽しみね
+# はやく読みたくない？
+ShowTextBox "!!! 409298 21"
+Wait 60
+EndScript
+
+
+### Prefill data: $8A
+Subscript 22
+ShowChara 2 4 23
+# 来週、人力$2の大会があるんですって
+# みんなで見に行きましょうか？
+ShowTextBox "!!! 409298 22"
+Wait 60
+EndScript
+
+
+### Prefill data: $8B
+Subscript 23
+ShowChara 2 4 23
+# うちの近所に$2のすごい得意なおじいさんが住んでるのよ
+ShowTextBox "!!! 409298 23"
+Wait 60
+# 若いわよね
+ShowTextBox "!!! 409298 24"
+Wait 60
+EndScript
+
+
+### Prefill data: $80
+Subscript 24
+ShowChara 2 4 23
+# $2さん、最近有名になっちゃったわね
+# 昔からのファンとしてはちょっと複雑な気分…
+ShowTextBox "!!! 409298 25"
+Wait 60
+EndScript
+
+
+### Prefill data: $81
+Subscript 25
+ShowChara 2 4 24
+# …お店に一週間置きっぱなしだった$2、あなたの仕業じゃないでしょうね！？
+ShowTextBox "!!! 409298 26"
+Wait 60
+EndScript
+
+
+### Prefill data: $82
+Subscript 26
+ShowChara 2 4 23
+# そういえば$2まだ冷蔵庫に入ってたわね
+ShowTextBox "!!! 409298 27"
+Wait 60
+EndScript
+
+
+### Prefill data: $83
+Subscript 27
+ShowChara 2 4 23
+# 『$2の里』って言うテーマパークがあるんですって
+# 一度行ってみたいわね
+ShowTextBox "!!! 409298 28"
+Wait 60
+EndScript
+
+
+### Prefill data: $84
+Subscript 28
+ShowChara 2 4 22
+# $2の花言葉ってなんだったかしら？
+ShowTextBox "!!! 409298 29"
+Wait 60
+EndScript
+
+
+### Prefill data: $85
+Subscript 29
+ShowChara 2 4 23
+# $2に東京タワーより高い電波塔が建つって噂、本当かしら？
+ShowTextBox "!!! 409298 30"
+Wait 60
+EndScript
+
+
+### Prefill data: $86
+Subscript 30
+ShowChara 2 4 23
+# $2は美味しい御飯屋さんがたくさんあっていいわよね
+ShowTextBox "!!! 409298 31"
+Wait 60
+EndScript
+
+
+### Prefill data: $87
+Subscript 31
+ShowChara 2 4 23
+# さ、しりとりが終わったら、びしばし$2するわよ
+ShowTextBox "!!! 409298 32"
+Wait 60
+EndScript
+
+
+### Prefill data: $88
+Subscript 32
+ShowChara 2 4 56
+# 『$2』って実は40年前に白黒で放映されてるのよ
+# 今のはリメイクなの
+ShowTextBox "!!! 409298 33"
+Wait 60
+# 知ってた？
+ShowTextBox "!!! 409298 34"
+Wait 60
+EndScript
+
+
+### Prefill data: $89
+Subscript 33
+ShowChara 2 4 25
+# 『$2』の新刊、自分の分とっておくの忘れちゃった…
+ShowTextBox "!!! 409298 35"
+Wait 60
+EndScript
+
+
+### Prefill data: $8A
+Subscript 34
+ShowChara 2 4 23
+# 小さい頃、デパートの屋上で$2に乗ったりしたわねー
+ShowTextBox "!!! 409298 36"
+Wait 60
+EndScript
+
+
+### Prefill data: $8B
+Subscript 35
+ShowChara 2 4 23
+# 駅前で$2をしているパフォーマーの人、たまに見かけるわね
+ShowTextBox "!!! 409298 37"
+Wait 60
+EndScript

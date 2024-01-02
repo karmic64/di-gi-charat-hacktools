@@ -1,0 +1,382 @@
+DSCBase $3F9D38
+
+
+
+
+Subscript 0
+Unk08 1 124 53 60 84 10 3
+Unk08 2 186 72 24 84 10 3
+Unk08 3 50 55 24 88 10 3
+Unk08 8 22 133 16 20 10 3
+SetBG 120
+Fade 0 30
+ShowChara 1 1 10
+# さーて、今日は待
+# ちに待ったハワイ
+# 旅行の日にょ～！
+ShowTextBox "Today's the day\nof our long\nawaited trip to\nHawai, nyo~!"
+WaitTextBox
+ShowChara 1 0 9
+# みんな、おぼえて
+# るかにょ？１０月
+# の市民運動会で、
+# このハワイ旅行の
+# チケットを手に入
+# れたんだにょ～
+ShowTextBox "Remember,\neveryone? When\nwe won that\ncompetition in\nOctober, we got\na trip to Hawai!"
+WaitTextBox
+ShowChara 2 2 25
+# はぁ…ハワイじゃ
+# なくて、羽合なん
+# だけど…
+ShowTextBox "Right...\nHawai, not\nHawaii...\nHow could I\nforget...?"
+WaitTextBox
+# 常夏のビーチと、
+# 晩秋の温泉街じゃ
+# ずいぶん差がある
+# わよね
+ShowTextBox "There's a big\ndifference\nbetween summer\nbeaches and\nautumn hot\nsprings..."
+WaitTextBox
+ShowChara 1 1 9
+# 最後の忘れ物チェ
+# ックするにょ～
+ShowTextBox "Make sure you're\nnot forgetting\nanything before\nwe leave, nyo~"
+WaitTextBox
+# 着替えに洗面具、
+# それにカメラっと
+# …
+ShowTextBox "I've got my\ntoothbrush, a\nchange of\nclothes, my\ncamera, and..."
+WaitTextBox
+ShowChara 1 0 10
+# それじゃ、出発に
+# ょ～っ！
+ShowTextBox "Alright,\nready to go,\nnyo!"
+WaitTextBox
+Fade 1 120
+SetBG 123
+Fade 0 30
+Fade 3 1
+SetBG 47
+Fade 2 30
+ShowChara 1 0 0
+# いい湯だにょ～
+ShowTextBox "Aaaah...\nSo refreshing,\nnyo..."
+WaitTextBox
+ShowChara 3 0 0
+# いい湯だにゅ
+ShowTextBox "The water feels\nnice, nyu..."
+WaitTextBox
+ShowChara 2 0 0
+# たまには、温泉もいい
+# わねー
+ShowTextBox "It's no Hawaii,\nbut a hot\nspring isn't\ntoo bad..."
+WaitTextBox
+ShowChara 1 0 0
+# お湯もいいけど、でじ
+# こは夕食が楽しみだに
+# ょ～
+ShowTextBox "This part's\nnice, but what\nI'm really\nlooking forward\nto is dinner,\nnyo~"
+WaitTextBox
+ShowChara 3 0 0
+# でじこ、食い意地はっ
+# てるにゅ
+ShowTextBox "You're always\ngoing on about\nfood, nyu..."
+WaitTextBox
+ShowChara 2 0 0
+# 地方の温泉街に、都会
+# から来た３人の美人Ｏ
+# Ｌが宿泊中…
+ShowTextBox "Three beautiful\nworking girls\non an overnight\ntrip to a hot\nspring..."
+WaitTextBox
+# テレビドラマだったら
+# 今夜あたりに何か事件
+# が起きるところね
+ShowTextBox "If this was a\nTV show, this\nis when\nsomething\ncrazy would\nhappen!"
+WaitTextBox
+ShowChara 1 0 0
+# うさだ、テレビの見す
+# ぎにょ
+ShowTextBox "You watch too\nmuch TV, nyo."
+WaitTextBox
+Fade 3 30
+SetBG 124
+Fade 2 30
+Fade 1 1
+SetBG 116
+Fade 0 30
+ShowChara 1 1 12
+# にょにょ～、悲し
+# いにょ～、もう帰
+# らなきゃならない
+# なんて、悲しすぎ
+# るにょ～
+ShowTextBox "Nyoo...\nI don't wanna\nleave, nyo...\nJust let me\nstay here\nforever..."
+WaitTextBox
+ShowChara 2 2 22
+# しかたないじゃな
+# い。明日から、ま
+# たお店の手伝いが
+# あるんだし
+ShowTextBox "It's too bad\nwe've got\nwork tomorrow,\nbut that's\njust how it is."
+WaitTextBox
+ShowChara 3 2 17
+# そもそも、日帰り
+# のチケットにゅ
+ShowTextBox "The ticket was\nonly for the\nweekend\nanyway, nyu."
+WaitTextBox
+ShowChara 1 1 12
+# 現実はきびしいに
+# ょ。温泉とお料理
+# の思い出を胸に、
+# でじこはおとなし
+# く帰るにょ
+ShowTextBox "Life isn't fair,\nnyo... But,\nI'll have my\nmemories of\nthis spring\nforever, nyo..."
+WaitTextBox
+ShowChara 2 2 23
+# おおげさねぇ…
+ShowTextBox "You're so\ndramatic..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 1 1 15
+# にょにょ～っ！
+ShowTextBox "Nyo, nyo!"
+WaitTextBox
+ShowChara 3 2 19
+# 急に大声出して、
+# いったい、どうし
+# たにゅ
+ShowTextBox "Don't yell\nlike that, nyu.\nWhat's the\nmatter?"
+WaitTextBox
+ShowChara 1 1 15
+# ゲマの姿がどこに
+# も見あたらないに
+# ょっ！
+ShowTextBox "I can't find\nGema anywhere,\nnyo!"
+WaitTextBox
+ShowChara 2 2 22
+# おかしいわね、さ
+# っきまでそこにい
+# たのに
+ShowTextBox "That's weird.\nI'm sure he\nwas here just\na little while\nago..."
+WaitTextBox
+ShowChara 3 2 17
+# にゅっ、あそこを
+# 見るにゅ！
+ShowTextBox "Nyu! Look,\nover there!"
+WaitTextBox
+ShowChara 8 1 63
+# た、たすけてゲマ
+# ～っ！
+ShowTextBox "H-Help me,\ngemaaa!"
+WaitTextBox
+ShowChara 1 1 15
+# これはビックリに
+# ょ！ゲマが山のお
+# 猿さんに捕まえら
+# れてるにょ！
+ShowTextBox "What the heck!?\nGema got\ngrabbed by a\nmountain\nmonkey, nyo!"
+WaitTextBox
+ShowChara 2 2 22
+# エサか何かと間違
+# えられちゃったの
+# かしら…？
+ShowTextBox "Maybe it\nmistook him\nfor food...?"
+WaitTextBox
+ShowChara 1 1 11
+# 何をのんきなこと
+# いってるにょ！と
+# にかく、助けるに
+# ょ～っ！
+ShowTextBox "Who cares\nabout that,\nnyo! We've\ngotta go\nhelp him!"
+WaitTextBox
+Unk1B 1 40
+EndScript
+
+
+
+Subscript 2
+PlayMusic 17
+SetBG 116
+Fade 2 30
+ShowChara 1 1 10
+# 正義は勝つにょ！
+ShowTextBox "Justice prevails,\nnyo!"
+WaitTextBox
+ShowChara 8 1 53
+# で、でじこ～、き
+# っと助けてくれる
+# って信じてたゲマ
+# ～っ！
+ShowTextBox "I knew you'd\nsave me,\nDejiko!\nGemaaa!"
+WaitTextBox
+ShowChara 1 1 9
+# にょにょ、これで
+# も、でじこはデ・
+# ジ・キャラット星
+# の王女、当然の行
+# 動にょ
+ShowTextBox "As the princess\nof Planet\nDiGi Charat, it's\nmy duty to\nprotect my\nsubjects, nyo!"
+WaitTextBox
+ShowChara 8 1 53
+# ゲマは…ゲマはう
+# れしいゲマ！
+ShowTextBox "T-Thank you,\ngema!"
+WaitTextBox
+ShowChara 2 2 23
+# じーん…感動のシ
+# ーンだわ
+ShowTextBox "Hmm...\nWhat an\nemotional\nscene."
+WaitTextBox
+ShowChara 3 2 17
+# ひたってる場合じ
+# ゃないにゅ
+ShowTextBox "This isn't the\ntime to be\nstanding around,\nnyu."
+WaitTextBox
+ShowChara 2 2 22
+# えっ？
+ShowTextBox "Huh?"
+WaitTextBox
+ShowChara 3 2 17
+# 急がないと、帰り
+# の電車に間に合わ
+# ないにゅ
+ShowTextBox "If we don't\nhurry, we'll\nmiss the bus\nhome, nyu."
+WaitTextBox
+ShowChara 2 2 24
+# タイヘン、電車に
+# 乗れなかったら、
+# こんなところで野
+# 宿よ！
+ShowTextBox "Oh, no!\nIf we miss the\nbus, we'll\nhave to camp\nout in the\nwoods tonight!"
+WaitTextBox
+ShowChara 1 1 15
+# にょにょ～っ、そ
+# れは一大事、い、
+# 急ぐにょ～っ！
+ShowTextBox "N-Nyo!\nHurry, nyo!"
+WaitTextBox
+ShowChara 8 1 2
+# ま、待って、ゲマ
+# をおいていかない
+# でゲマ～！
+ShowTextBox "D-Don't leave\nme behind,\ngemaaa!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+PlayMusic 17
+SetBG 116
+Fade 0 30
+ShowChara 1 1 12
+# にょにょ、力およ
+# ばず…
+ShowTextBox "Nyo...\nI wasn't quick\nenough, nyo..."
+WaitTextBox
+ShowChara 2 2 24
+# ちょっと、どうす
+# るのよ？
+ShowTextBox "Hey, what\ndo we do now?"
+WaitTextBox
+ShowChara 1 1 8
+# う～ん…
+ShowTextBox "Umm..."
+WaitTextBox
+ShowChara 2 2 24
+# う～ん、じゃなく
+# て！
+ShowTextBox "We've gotta\ndo something!"
+WaitTextBox
+ShowChara 1 1 8
+# にょにょ、これは
+# 追わない方がよか
+# ったかもにょ
+ShowTextBox "Maybe it's\nfor the best,\nnyo?"
+WaitTextBox
+ShowChara 2 2 22
+# あら、どうして？
+ShowTextBox "What do you\nmean?"
+WaitTextBox
+ShowChara 1 1 9
+# サル者は追わず、
+# っていうにょ
+ShowTextBox "!!! 3F9D38 46"
+WaitTextBox
+ShowChara 2 2 23
+# なるほど…って、
+# ええかげんにしな
+# さい！
+ShowTextBox "!!! 3F9D38 47"
+WaitTextBox
+ShowChara 1 1 9
+# おあとがよろしい
+# ようにょ～
+ShowTextBox "!!! 3F9D38 48"
+WaitTextBox
+ShowChara 8 1 2
+# よくないゲマ～
+ShowTextBox "!!! 3F9D38 49"
+WaitTextBox
+ShowChara 1 1 15
+# にょにょっ、ゲ、
+# ゲマっ！
+ShowTextBox "G-Gema!"
+WaitTextBox
+ShowChara 2 2 23
+# い、いつのまにか
+# 戻ってたのね…
+ShowTextBox "When did you\nget back?"
+WaitTextBox
+ShowChara 8 1 2
+# 誰かさんたちがマ
+# ンザイやってる間
+# に、必死で逃げて
+# きたゲマ
+ShowTextBox "While SOME\npeople were\ngoofing off,\nI was able to\nescape, gema."
+WaitTextBox
+ShowChara 1 1 15
+# で、でじこたちは
+# 別に遊んでたわけ
+# じゃないにょ！
+ShowTextBox "We weren't\ngoofing off,\nnyo! We were\ndiscussing the\nnext stage of\nour plan!"
+WaitTextBox
+ShowChara 8 1 2
+# ふ～ん、本当ゲマ
+# ？
+ShowTextBox "Hmmm.\nIs that so,\ngema?"
+WaitTextBox
+ShowChara 3 2 17
+# お取り込み中、失
+# 礼にゅ。今のさわ
+# ぎで出発が遅れた
+# にゅ、急ぐにゅ！
+ShowTextBox "Sorry for\ncutting in, but\nwe need to\nhurry to the\nbus, nyu!"
+WaitTextBox
+ShowChara 8 1 2
+# しかたないゲマ。
+# 続きは、帰りの電
+# 車の中でゆっくり
+# 聞かせてもらうゲ
+# マ
+ShowTextBox "We'll have\nplenty of time\non the train for\nyou to tell me\nthe whole\n\"plan\", gema..."
+WaitTextBox
+ShowChara 1 1 12
+# にょにょ、だから
+# ゴメンナサイって
+# いってるにょ～
+ShowTextBox "I-I'm sorry,\nnyoo~"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+EndScript

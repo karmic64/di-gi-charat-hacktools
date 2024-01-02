@@ -1,0 +1,262 @@
+DSCBase $3EBFAC
+
+
+
+### Prefill data: $80,$86,$87
+Subscript 0
+ShowChara 3 4 17
+# ぷちこ、昨日$1が$2で、$3してたの見たにゅ
+ShowTextBox "!!! 3EBFAC 0"
+WaitTextBox
+ShowChara 3 0 21
+# さびしそうだったにゅ
+ShowTextBox "!!! 3EBFAC 1"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83,$87
+Subscript 1
+ShowChara 3 4 17
+# $1でも教えれば、$2くらいできるにゅ
+ShowTextBox "!!! 3EBFAC 2"
+WaitTextBox
+# 馬鹿にしたもんじゃないにゅ
+ShowTextBox "!!! 3EBFAC 3"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $01,$85
+Subscript 2
+ShowChara 3 4 18
+# $1は本場$2産に限るにゅ
+ShowTextBox "!!! 3EBFAC 4"
+WaitTextBox
+# 今度いっしょに食べるにゅ！
+ShowTextBox "!!! 3EBFAC 5"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80,$8A
+Subscript 3
+ShowChara 3 4 17
+# $1は$2に乗って、故郷に帰ったにゅ
+ShowTextBox "!!! 3EBFAC 6"
+WaitTextBox
+ShowChara 3 0 21
+# 落ちぶれたもんにゅ
+ShowTextBox "!!! 3EBFAC 7"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80
+Subscript 4
+ShowChara 3 4 21
+# その話を聞いて、$1もきっと救われるにゅ
+ShowTextBox "!!! 3EBFAC 8"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $80
+Subscript 5
+ShowChara 3 4 18
+# 思い出は大切にゅ
+ShowTextBox "!!! 3EBFAC 9"
+WaitTextBox
+ShowChara 3 0 21
+# $1のあの笑顔を忘れないにゅ…
+ShowTextBox "!!! 3EBFAC 10"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8A
+Subscript 6
+ShowChara 3 4 21
+# ぷちこ、いつか$1に乗って、お空を飛びたいにゅ
+ShowTextBox "!!! 3EBFAC 11"
+WaitTextBox
+ShowChara 3 0 17
+# ムリにゅ？
+ShowTextBox "!!! 3EBFAC 12"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $03,$83
+Subscript 7
+ShowChara 3 4 17
+# ぷちこ、１度でいいから$1をさわってみたいにゅ
+ShowTextBox "!!! 3EBFAC 13"
+WaitTextBox
+# この際、$2でもいいにゅ
+ShowTextBox "!!! 3EBFAC 14"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84
+Subscript 8
+ShowChara 3 4 21
+# ぷちこ、昨日お店の裏で$1の花を見つけたにゅ
+ShowTextBox "!!! 3EBFAC 15"
+WaitTextBox
+# 風流にゅ…
+ShowTextBox "!!! 3EBFAC 16"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 9
+ShowChara 3 4 17
+# おかげさまで『$1』グッズは大人気にゅ
+ShowTextBox "!!! 3EBFAC 17"
+WaitTextBox
+ShowChara 3 0 18
+# 今年のビッグヒット商品にゅ！
+ShowTextBox "!!! 3EBFAC 18"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87
+Subscript 10
+ShowChara 3 4 21
+# 人生楽ありゃ苦もあるんだにゅ
+ShowTextBox "!!! 3EBFAC 19"
+WaitTextBox
+ShowChara 3 0 18
+# $1、えんやこらにゅ
+ShowTextBox "!!! 3EBFAC 20"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87
+Subscript 11
+ShowChara 3 4 18
+# それって『すてきなデフレスパイラル』にゅ？
+ShowTextBox "!!! 3EBFAC 21"
+WaitTextBox
+ShowChara 8 4 2
+# ぷちこ、言ってる意味分かってないゲマ
+ShowTextBox "!!! 3EBFAC 22"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $82
+Subscript 12
+ShowChara 3 4 17
+# …$1
+# ぷちこのオススメ
+# ドリンクにゅ！
+ShowTextBox "!!! 3EBFAC 23"
+WaitTextBox
+ShowChara 3 0 18
+# 店長さんも気に入
+# ると思うにゅ！
+ShowTextBox "!!! 3EBFAC 24"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81
+Subscript 13
+ShowChara 3 4 21
+# おなかが空いた時
+# 頭の中で$1を思い浮かべるにゅ
+ShowTextBox "!!! 3EBFAC 25"
+WaitTextBox
+ShowChara 3 0 20
+# …そうすれば少し
+# だけ元気になれる
+# にゅ
+ShowTextBox "!!! 3EBFAC 26"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86,$89
+Subscript 14
+ShowChara 3 4 17
+# $1で今度『$2』のイベントショーがあるにゅ！
+ShowTextBox "!!! 3EBFAC 27"
+WaitTextBox
+ShowChara 3 0 18
+# ぷちこ、店長さん
+# におねだりしてい
+# いかにゅ？
+ShowTextBox "!!! 3EBFAC 28"
+WaitTextBox
+ShowChara 3 0 19
+# ちょっとは気を使
+# えにゅ！
+ShowTextBox "!!! 3EBFAC 29"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87,$8B
+Subscript 15
+ShowChara 3 4 17
+# $1は今若者に人気あるお仕事にゅ
+ShowTextBox "!!! 3EBFAC 30"
+WaitTextBox
+ShowChara 3 0 21
+# でも、ぷちこはお
+# 部屋でのんびり$2してたいにゅ
+ShowTextBox "!!! 3EBFAC 31"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $82
+Subscript 16
+ShowChara 3 4 17
+# 仕事が終ったら、
+# $1で「おつかれさ～ん」にゅ
+ShowTextBox "!!! 3EBFAC 32"
+WaitTextBox
+ShowChara 3 0 21
+# ゆとりある職場っ
+# てステキにゅ
+ShowTextBox "!!! 3EBFAC 33"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88
+Subscript 17
+ShowChara 3 4 18
+# ぷちこに『$1』から出演依頼が来たにゅ
+ShowTextBox "!!! 3EBFAC 34"
+WaitTextBox
+ShowChara 3 0 17
+# でも、ぷちこはお
+# 店が大切にゅ
+# きっぱり断ったにゅ！
+ShowTextBox "!!! 3EBFAC 35"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$8A,$86
+Subscript 18
+ShowChara 3 4 18
+# ミス$1の優勝商品は豪華クルージングツアーにゅ
+ShowTextBox "!!! 3EBFAC 36"
+WaitTextBox
+# $2に乗って$3まで行くにゅ
+ShowTextBox "!!! 3EBFAC 37"
+WaitTextBox
+ShowChara 3 0 17
+# それってリッチにゅ？
+ShowTextBox "!!! 3EBFAC 38"
+WaitTextBox
+EndScript

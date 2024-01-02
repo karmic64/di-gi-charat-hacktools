@@ -1,0 +1,100 @@
+DSCBase $40A0A4
+
+
+
+
+Subscript 0
+SetPermTextBoxPos 0 16
+ShowChara 2 2 22
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 2 0 22
+# 何を買うのかしら？
+ShowTextBox "What do you want to buy?"
+EndScript
+
+
+
+Subscript 3
+ShowChara 2 0 22
+# きっちり売り切ると、
+# $0円になるわね
+ShowTextBox "If we sell all of these, it'll total $0 yen."
+EndScript
+
+
+
+Subscript 4
+ShowChara 2 0 25
+# お金が足りないわ…
+ShowTextBox "We don't have enough money to buy that..."
+EndScript
+
+
+
+Subscript 5
+ShowChara 2 0 25
+# それはまだお店にある
+# けど、もっと買う気な
+# の？
+ShowTextBox "We already have that in the shop, you know.\nYou still want to buy it?"
+EndScript
+
+
+
+Subscript 6
+ShowChara 2 0 22
+# いくつ買うのかしら？
+ShowTextBox "How many do you want to buy?"
+EndScript
+
+
+
+Subscript 7
+ShowChara 2 0 22
+# $0個買うから、
+# $1円ね！
+ShowTextBox "Buying $0 of these will total $1 yen!"
+EndScript
+
+
+
+Subscript 8
+ShowChara 2 0 22
+# 買うのをやめるの？
+ShowTextBox "Did you decide against buying this?"
+EndScript
+
+
+
+Subscript 9
+ShowChara 2 0 22
+# 見やすいように、グッ
+# ズをならびかえるわ
+ShowTextBox "Change the order in the Buy Menu."
+EndScript
+
+
+
+Subscript 10
+ShowChara 2 0 22
+# 本当に買うのかしら？
+ShowTextBox "Are you sure you want to buy this?"
+EndScript
+
+
+
+Subscript 11
+ShowChara 2 0 22
+# $3の$1が$2上手になるわ
+ShowTextBox "$3's $1 became $2 better."
+EndScript

@@ -1,0 +1,262 @@
+DSCBase $3F31EC
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 1 1 9
+# ただいまにょ～！
+ShowTextBox "I'm back, nyo!"
+WaitTextBox
+# いいつけどおり、
+# 笹の葉つきの竹を
+# 取ってきたにょ
+ShowTextBox "I got that\nbamboo like \nyou asked, nyo."
+WaitTextBox
+ShowChara 2 2 23
+# こっちも、短冊の
+# 用意ＯＫよ
+ShowTextBox "OK, and the\npaper slips are\nready, too."
+WaitTextBox
+ShowChara 3 2 17
+# ＯＫにゅ…
+ShowTextBox "OK, nyu..."
+WaitTextBox
+ShowChara 2 2 22
+# さらさら…
+ShowTextBox "Now then, next\nis..."
+WaitTextBox
+ShowChara 1 1 8
+# うさだ、短冊に何
+# を書いてるにょ？
+ShowTextBox "Usada, what are\nwe supposed to\nwrite on this\npaper, nyo?"
+WaitTextBox
+ShowChara 2 2 22
+# 七夕の笹には、こ
+# うして短冊に願い
+# 事を書いて吊るし
+# ておくのよ
+ShowTextBox "It's Tanabata,\nso we write down\nour wishes and\nhang them from\nthe bamboo."
+WaitTextBox
+ShowChara 1 1 10
+# 知ってるにょ！た
+# しか、サンタクロ
+# ースとかいうおじ
+# さんが、
+ShowTextBox "Oh, I know, nyo!\nThen that old\nguy, Santa\nClaus,"
+WaitTextBox
+# 短冊に書かれた願
+# い事を叶えにやっ
+# てくるんだにょ！
+ShowTextBox "He swoops by and\ngrants whatever\nwish you wrote\non the paper,\nnyo!"
+WaitTextBox
+ShowChara 2 2 55
+# もう…店長さん、
+# でじこに何か言っ
+# てやってよ…
+ShowTextBox "Umm... Manager,\ndo you know\nwhat Dejiko's\ntalking about?"
+WaitTextBox
+# それはクリスマス
+# じつはその通り…
+ShowSelMenu09 2 "!That's Christmas\nThat seems right"
+JumpOnSelection 2 0 1 0
+Label 1
+ShowChara 1 1 8
+# ふむふむ…
+ShowTextBox "Hmm, hmm..."
+WaitTextBox
+ShowChara 1 0 10
+# ほら見ろにょ！や
+# っぱり、このでじ
+# この言うことが正
+# しいにょ！
+ShowTextBox "See, nyo!? I\nknow what I'm\ntalking about,\nnyo!"
+WaitTextBox
+ShowChara 2 2 55
+# あー、はいはい…
+ShowTextBox "Sure, sure..."
+WaitTextBox
+# もうどうなったっ
+# て、アタシ知らな
+# いから…
+ShowTextBox "I don't get if\nthis is supposed\nto be a joke,\nbut..."
+WaitTextBox
+EndScript
+Label 0
+ShowChara 1 1 10
+# 間違いは誰にでも
+# あるにょ
+# 気にしない、気に
+# しないにょ…
+ShowTextBox "Everyone makes\nmistakes, nyo.\nDon't worry\nabout it, nyo~"
+WaitTextBox
+ShowChara 3 2 17
+# 間違えたのは、お
+# 前の方にゅ…
+ShowTextBox "I'm not sure\nyou realize who\nmade the\nmistake here..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 1 1 9
+# 鈴を鳴らすにょ～
+# 鈴を鳴らすにょ～
+# しゃんしゃんと、
+# 鈴を鳴らすにょ～
+ShowTextBox "Ring a bell,\nring a bell,\nring a bell,\nnyo~"
+WaitTextBox
+ShowChara 1 0 10
+# やって来い来い、
+# サンタクロースに
+# ょ～！
+ShowTextBox "Come on Santa,\ngrant my wish,\nnyo!"
+WaitTextBox
+# そして、早くでじ
+# この願いをかなえ
+# るにょ～！
+ShowTextBox "Then, my dream\nwill finally\ncome true, nyo!"
+WaitTextBox
+ShowChara 2 2 55
+# …………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 2 0 22
+# ところで、でじこ
+# は短冊になんて書
+# いたのかしら？
+ShowTextBox "By the way, what\ndid you write\nfor your wish,\nDejiko?"
+WaitTextBox
+ShowChara 8 1 2
+# ＜銀河をまたにか
+# ける女優になる＞
+# って書いてたゲマ
+# …
+ShowTextBox "\"I want to be a\nstar actress that\nconquers the\ngalaxy\", gema..."
+WaitTextBox
+ShowChara 2 2 55
+# いくらサンタさん
+# でも、それは無理
+# じゃないかしら…
+ShowTextBox "I don't know if\nSanta can really\ndo that for\nyou..."
+WaitTextBox
+ShowChara 3 1 21
+# ぷちこは
+# ＜目からビーム＞
+# にゅ
+ShowTextBox "I wrote\n\"Eye Laser\nBeam\", nyu."
+WaitTextBox
+# 今年こそマスター
+# するにゅ…
+ShowTextBox "This year, I'll\ndefinitely\nmaster it,\nnyu..."
+WaitTextBox
+ShowChara 2 2 25
+# もう…こんなヘン
+# な七夕、生まれて
+# 初めてだわ…
+ShowTextBox "... I've never\nseen a Tanabata\nlike this\nbefore..."
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# ゲマ～～っ…
+ShowTextBox "Gema~~~"
+WaitTextBox
+# あっ、店長さん、
+# ちょっと笹の飾り
+# つけを手伝って欲
+# しいゲマ
+ShowTextBox "Oh, Manager,\ncould you help\nme hang up\neveryone's\nwishes from the\nbamboo, gema?"
+WaitTextBox
+# でじこたちは浴衣
+# に着替中で、手が
+# 空いてないゲマ…
+ShowTextBox "Dejiko and the\nothers are busy\nchanging into\ntheir yukata,\nso I could use\na hand, gema..."
+WaitTextBox
+Fade 1 30
+SetBG 26
+Unk08 1 197 53 16 92 10 3
+Unk08 2 70 56 84 92 10 3
+Unk08 3 130 95 8 16 10 2
+Unk08 8 8 108 18 108 10 3
+Fade 0 30
+ShowChara 3 0 0
+# あ、流れ星にゅ…
+ShowTextBox "Ah, a shooting\nstar, nyu..."
+WaitTextBox
+ShowChara 1 0 0
+# きっと、彦星が足を踏
+# み外したんだにょ！
+ShowTextBox "Hikoboshi must\nhave knocked it\ndown, nyo!"
+WaitTextBox
+# まったく織姫も罪な女
+# だにょ～
+ShowTextBox "Orihime's such a\nnaughty girl,\nnyo~"
+WaitTextBox
+ShowChara 2 0 0
+# ねえ、店長さん、さっ
+# き短冊に何て書いてた
+# の？
+ShowTextBox "Say, Manager,\nwhat did you\nwrite for your\nwish?"
+WaitTextBox
+ShowChara 1 0 0
+# にょにょっ、でじこも
+# 知りたいにょ、知りた
+# いにょっ！
+ShowTextBox "Nyo nyo, I wanna\nknow too, nyo!"
+WaitTextBox
+ShowChara 3 0 0
+# 同じくにゅ…
+ShowTextBox "Me too, nyu..."
+WaitTextBox
+ShowChara 8 0 0
+# どれどれゲマ…
+ShowTextBox "Let's see, gema..."
+WaitTextBox
+# ＜お店が繁盛しますよ
+# うに＞って書いてある
+# ゲマ！
+ShowTextBox "\"That the shop\nwill prosper\",\ngema!"
+WaitTextBox
+ShowChara 2 0 0
+# う～ん、また明日から
+# もがんばらなくちゃ…
+ShowTextBox "I guess we'll\nhave to work\nhard to make\nthat dream\ncome true..."
+WaitTextBox
+ShowChara 1 0 0
+# そういうことなら、わ
+# ざわざお星さまにお願
+# いすることないにょ！
+ShowTextBox "That's not the\nkind of wish you\nneed to make to\nthe stars, nyo!"
+WaitTextBox
+# このでじこさまが直接
+# かなえてあげるにょ！
+ShowTextBox "I, Lady Dejiko,\nwill grant it\ndirectly, nyo~"
+WaitTextBox
+ShowChara 3 0 0
+# ぷちこはマイペースに
+# ゅ…
+ShowTextBox "I'd rather work\nat my own\npace, nyu..."
+WaitTextBox
+ShowChara 8 0 0
+# じゃ、明日からファイ
+# トゲマ！
+ShowTextBox "Alright, let's\ndo our best\ntomorrow,\ngema!"
+WaitTextBox
+Unk08 8 150 60 18 108 10 3
+ShowChara 8 0 0
+# （一同）
+# おーっ！
+ShowTextBox "Okay!"
+WaitTextBox
+EndScript

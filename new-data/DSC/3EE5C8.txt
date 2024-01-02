@@ -1,0 +1,371 @@
+DSCBase $3EE5C8
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# 終了ゲマ～～っ！
+ShowTextBox "And that's it,\ngema!!"
+WaitTextBox
+ShowChara 1 1 10
+# なんだか、燃え尽
+# きて真っ白な灰に
+# なった気分だにょ
+# ～！
+ShowTextBox "I'm so tired,\nI feel like\nI'm about to\ndissolve, nyo!"
+WaitTextBox
+ShowChara 2 1 55
+# どう見ても、元気
+# ハツラツとしてる
+# んだけど…
+ShowTextBox "You certainly\ndon't look that\nway... Where\ndoes your\nenergy even\ncome from?"
+WaitTextBox
+ShowChara 3 2 17
+# ぷちこは平気にゅ
+ShowTextBox "I feel fine,\nnyu."
+WaitTextBox
+ShowChara 8 1 1
+# では、結果発表さ
+# せてもらうゲマ！
+ShowTextBox "Now, it's time to\nannounce your\nfinal results,\ngema!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+Unk08 3 121 120 8 16 10 2
+ShowChara 8 0 53
+# おっと、その前に
+# ひとつやることが
+# あったゲマ
+ShowTextBox "Oops! There's\none thing we\nshould do first,\ngema."
+WaitTextBox
+# ぷちこ、ちょっと
+# 目を閉じててほし
+# いゲマ
+ShowTextBox "Puchiko, could\nyou please close\nyour eyes?"
+WaitTextBox
+Fade 1 30
+SetBG 124
+Fade 0 1
+ShowChara 3 2 63
+# 閉じたにゅ
+ShowTextBox "They're\nclosed, nyu."
+WaitTextBox
+# …………
+ShowTextBox "..."
+WaitTextBox
+# …………
+ShowTextBox "..."
+WaitTextBox
+# …………
+ShowTextBox "..."
+WaitTextBox
+Fade 3 30
+SetBG 111
+Fade 2 30
+ShowChara 8 1 53
+# はい、お待たせ、
+# ＯＫゲマ～！
+ShowTextBox "OK, sorry for\nthe wait! It's\nready, gema!"
+WaitTextBox
+Fade 3 20
+Fade 2 20
+ShowChara 1 1 9
+# ぱちぱちぱち…
+ShowTextBox "*clap clap clap*"
+WaitTextBox
+Fade 3 20
+Fade 2 20
+ShowChara 2 1 23
+# ぱちぱちぱち…
+ShowTextBox "*clap clap clap*"
+WaitTextBox
+Fade 3 20
+Fade 2 20
+ShowChara 3 2 17
+# ？？？
+ShowTextBox "???"
+WaitTextBox
+ShowChara 8 1 53
+# ぷちこ、おめでと
+# うゲマ～！
+ShowTextBox "Congratulations,\nPuchiko!"
+WaitTextBox
+# ぷちこは、この一
+# 年で見事、お仕事
+# マスターになった
+# ゲマ！
+ShowTextBox "In just this one\nyear, you've\nmanaged to\nbecome a\nJob Master,\ngema!"
+WaitTextBox
+ShowChara 1 1 9
+# お仕事マスターっ
+# ていうのは
+ShowTextBox "A Job Master is\none who has\nachieved\nperfection in\nthe following\nroles:"
+WaitTextBox
+# ・レジ
+# ・接客
+# ・グッズ
+# ・掃除
+ShowTextBox "・Checkout\n・Service\n・Stocker\n・Cleaner"
+WaitTextBox
+ShowChara 1 0 10
+# この４つのお仕事
+# をきわめた者に与
+# えられるという、
+# 伝説の称号にょ！
+ShowTextBox "To the person\nwho has mastered\nthese 4 tasks,\nwe bestow this\nlegendary title!"
+WaitTextBox
+ShowChara 2 1 23
+# ぷちこ、よくがん
+# ばったわね！
+ShowTextBox "Good job,\nPuchiko! You\nreally worked\nhard this year!"
+WaitTextBox
+ShowChara 3 2 17
+# お仕事マスターに
+# なると何がもらえ
+# るにゅ？
+ShowTextBox "What do I get\nfor becoming a\nJob Master,\nnyu?"
+WaitTextBox
+ShowChara 2 1 25
+# えっ、何がって、
+# 特に何も…
+ShowTextBox "Um, nothing,\nreally..."
+WaitTextBox
+ShowChara 1 1 9
+# それを今から教え
+# るにょ！
+ShowTextBox "I'll tell you,\nnyo!"
+WaitTextBox
+# お仕事マスターが
+# もらえるもの…そ
+# れは！
+ShowTextBox "A Job Master\ngets the two\nmost important\nthings of all,\nnyo!"
+WaitTextBox
+ShowChara 3 2 18
+# それはにゅ？
+ShowTextBox "And what are\nthose, nyu?"
+WaitTextBox
+ShowChara 1 1 10
+# 愛と勇気にょ！
+ShowTextBox "Love and\nCourage, nyo!"
+WaitTextBox
+Fade 3 30
+SetBG 46
+Fade 2 30
+ShowChara 3 0 0
+# 愛と勇気…いい言葉に
+# ゅ
+ShowTextBox "Love and\nCourage...\nI like it, nyu."
+WaitTextBox
+# １００のプレゼントを
+# もらうより
+ShowTextBox "I feel like\nthat's\nsomething more\nvaluable than"
+WaitTextBox
+# ずっと価値のあるもの
+# をもらった気分にゅ
+ShowTextBox "a hundred\npresents,\nnyu..."
+WaitTextBox
+Fade 3 30
+SetBG 111
+Fade 2 30
+ShowChara 1 1 10
+# ぷちこ、分かって
+# くれて、でじこは
+# うれしいにょっ！
+ShowTextBox "You get it,\nnyo! Love and\nCourage are\nwhat it's all\nabout, nyo!"
+WaitTextBox
+ShowChara 3 2 19
+# …なんて、そんな
+# 言葉でごまかされ
+# ないにゅ
+ShowTextBox "... Did you\nthink I'd fall\nfor that?\nDon't trick me,\nnyu."
+WaitTextBox
+# くらうにゅ！
+# めからびーむにゅ
+# ！
+ShowTextBox "Take this!\nEye Laser Beam,\nnyu!"
+WaitTextBox
+Fade 3 20
+Wait 20
+Fade 2 20
+ShowChara 1 1 12
+# にょにょ～っ、何
+# かドロドロしたも
+# のが～～っ、にょ
+# にょ～っ！
+ShowTextBox "Ewww! What the\nheck's that\nmushy thing\ncoming out,\nnyo!?"
+WaitTextBox
+ShowChara 8 1 2
+# オホン。では、あ
+# らためまして…結
+# 果発表ゲマ！
+ShowTextBox "Ahem! ... Now,\nwithout further\nado, let's\nproceed to the\nfinal results,\ngema!"
+WaitTextBox
+Unk19 40
+EndScript
+
+
+
+Subscript 2
+SetBG 111
+Fade 0 30
+Unk08 3 119 74 104 96 10 3
+ShowChara 8 0 53
+# ぷちこ、やったゲ
+# マ、見事な成績ゲ
+# マ！
+ShowTextBox "These are great\nresults,\nPuchiko!\nGood work, gema!"
+WaitTextBox
+ShowChara 3 2 21
+# まあまあにゅ
+ShowTextBox "They're OK,\nnyu."
+WaitTextBox
+Fade 3 30
+SetBG 68
+Fade 2 30
+ShowChara 3 0 0
+# まだまだ目標にとどい
+# てないにゅ。次はうま
+# くやるにゅ
+ShowTextBox "I still haven't\nreached my goal\nyet, nyu. Next\nyear will be\neven better."
+WaitTextBox
+Fade 3 30
+SetBG 111
+Fade 2 30
+ShowChara 1 1 8
+# そうかにょ？　
+# でじこには十分よ
+# くやってるように
+# 見えたにょ
+ShowTextBox "Really, nyo?\nIt looked like\nyou were doing\ngood enough to\nme, nyo."
+WaitTextBox
+ShowChara 2 1 23
+# あんたと一緒にし
+# ないの！ぷちこは
+# こころざしが高い
+# のよね
+ShowTextBox "Don't lump her\nin with you!\nPuchiko has\nher heart set\non reaching\nthe top."
+WaitTextBox
+ShowChara 3 2 17
+# その通りにゅ
+ShowTextBox "That's right,\nnyu."
+WaitTextBox
+ShowChara 1 1 12
+# にょにょ～、めざ
+# しだか、こころざ
+# しだか知らないけ
+# れど、でじこだっ
+# て高いものは高い
+# にょ～っ！
+ShowTextBox "Nyo, I don't\nknow about\nreaching the\ntop, but good\nwork is good\nwork!"
+WaitTextBox
+ShowChara 8 1 1
+# 勝ってカブトの緒
+# （お）をしめるっ
+# ていう言葉がある
+# ゲマ
+ShowTextBox "You shouldn't\nlet a few\nsuccesses now\ngo to your\nhead, gema."
+WaitTextBox
+# みんな、やる気じ
+# ゅうぶんで、まこ
+# とに頼もしいかぎ
+# りゲマ
+ShowTextBox "But, if\neveryone's\ndoing their\nbest, I'm sure\nit'll work out,\ngema!"
+WaitTextBox
+ShowChara 8 0 53
+# 店長さん、来年も
+# お店はだいじょう
+# ぶそうみたいゲマ
+# ね…
+ShowTextBox "Manager, I\nthink the shop\nwill be okay\nnext year, gema."
+Wait 60
+Fade 3 120
+EndScript
+
+
+
+Subscript 3
+SetBG 111
+Fade 0 30
+Unk08 3 119 89 104 112 10 3
+ShowChara 8 0 53
+# すごいゲマ！　ま
+# ったくすばらしい
+# 結果だったゲマ！
+ShowTextBox "Amazing, gema!\nAbsolutely\nincredible\nresults!"
+WaitTextBox
+ShowChara 3 2 18
+# やれることをやっ
+# ただけにゅ
+ShowTextBox "I just did\nwhat I could,\nnyu."
+WaitTextBox
+ShowChara 2 1 23
+# いいえ、それが大
+# 事なことなのよ！
+ShowTextBox "That's what\nis most\nimportant!"
+WaitTextBox
+ShowChara 8 1 53
+# そうゲマ！
+ShowTextBox "That's right,\ngema!"
+WaitTextBox
+# でじこも、ぷちこ
+# も、うさだも、店
+# 長さんも、そして
+# おいらも
+ShowTextBox "Dejiko,\nPuchiko,\nUsada, the\nManager, and\nI..."
+WaitTextBox
+# みんな、自分でや
+# れることをやった
+# だけなんだゲマー
+# っ！
+ShowTextBox "Because we all\nworked hard,\nthis year was\na great\nsuccess, gema!"
+WaitTextBox
+Fade 1 120
+Wait 60
+SetBG 79
+Fade 0 30
+Wait 60
+ShowChara 3 0 0
+# ということは、ぷちこ
+# が一番えらいにゅ
+ShowTextBox "So you mean\nthat I worked\nthe hardest,\nnyu."
+Wait 120
+# でじこもうさだも大き
+# いのに
+ShowTextBox "Since Dejiko\nand Usada are\nbigger than\nme, it's\neasier for\nthem, nyu."
+Wait 120
+# ぷちこと同じくらいし
+# か働いてないにゅ
+ShowTextBox "So I had to\nwork extra\nhard to keep\nup, nyu."
+Wait 120
+# やっぱり、ぷちこが一
+# 番にゅ！
+ShowTextBox "That's why I\ndeserve the\nmost praise,\nnyu!"
+Wait 180
+Fade 1 30
+SetBG 111
+Fade 0 30
+ShowChara 3 1 18
+# 今日もお手伝いす
+# るにゅ
+ShowTextBox "I'll help out\nagain today,\nnyu."
+WaitTextBox
+Fade 1 30
+Unk08 3 109 59 100 92 10 3
+SetBG 64
+Fade 0 30
+ShowChara 3 0 0
+# まずはグッズの整理
+# から始めるにゅ
+ShowTextBox "I'll start by\norganizing the\nshelves..."
+WaitTextBox
+# にゅっ、にゅっ…
+ShowTextBox "Nyu, nyu..."
+Wait 60
+Fade 3 120
+EndScript

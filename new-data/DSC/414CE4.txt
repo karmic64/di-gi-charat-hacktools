@@ -1,0 +1,68 @@
+DSCBase $414CE4
+
+
+
+
+Subscript 0
+# クウの悩みを聞いた！
+ShowTextBox "You listened to Coo's complaints!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+# クウをなだめた！
+ShowTextBox "You helped Coo calm down!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+# クウをなぐさめた！
+ShowTextBox "You consoled Coo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+# クウをおだてた！
+ShowTextBox "You flattered Coo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 4
+# クウにかつを入れた！
+ShowTextBox "You gave Coo a pep talk!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 5
+# クウをはげました！
+ShowTextBox "You cheered on Coo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 6
+# クウをほめた！
+ShowTextBox "You praised Coo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 7
+EndScript
+
+
+
+Subscript 8
+EndScript

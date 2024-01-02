@@ -1,0 +1,460 @@
+DSCBase $3E1C90
+
+
+
+### Prefill data: $02,$85,$81
+Subscript 0
+ShowChara 1 4 8
+# $1と言えば、$2風$3がおいしいにょ～！
+ShowTextBox "If you're gonna\neat $1,\nadding $3\nfrom $2\nmakes a great\ncombo, nyo!"
+WaitTextBox
+# $1が隠し味に入ってて絶品にょ～！
+ShowTextBox "It really brings\nout all the\nhidden flavor,\nnyo!"
+WaitTextBox
+ShowChara 1 0 9
+# 店長しゃんも一度
+# 食べてみれば、い
+# いにょ～
+# でじこのオススメ
+# にょ！
+ShowTextBox "You should try\nit at least\nonce, nyo~\nI give it\nDejiko's special\ntwo-thumbs-up!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $00,$83
+Subscript 1
+ShowChara 1 4 8
+# $1の横顔は、なんとなく$2に似てるにょ
+ShowTextBox "If you look at\n$1 from\nthe side, they\nkind of look\nlike a $2,\nnyo."
+WaitTextBox
+ShowChara 1 0 9
+# 店長しゃんもそう
+# 思うにょ？
+ShowTextBox "You think so\ntoo, right,\nManager?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $07
+Subscript 2
+ShowChara 1 4 16
+# でじこ、かったる
+# いにょ～
+# もう$1するのイヤだにょ～
+ShowTextBox "I'm dying, nyo~\nI don't wanna\ndo $1\nanymore, nyo...!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87,$06
+Subscript 3
+ShowChara 1 4 9
+# 店長しゃんのおっつかい♪
+# 店長しゃんのおっつかい♪
+ShowTextBox "Errands for the\nManager ♪\nErrands for the\nManager, nyo! ♪"
+WaitTextBox
+ShowChara 1 0 10
+# ちょっと$2まで$1しに、行って来ていいかにょ？
+ShowTextBox "I wonder if I\ncan head to\n$2 for \na bit before my\n$1 shift\nstarts, nyo...?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $00,$81
+Subscript 4
+ShowChara 1 4 8
+# $1と言えば、テレビの料理番組で、$2を食べてたにょ
+ShowTextBox "I saw $1\neating $2\non a cooking\nshow the other\nday, nyo."
+WaitTextBox
+ShowChara 1 0 9
+# おいしそうだった
+# にょ～♪
+ShowTextBox "It looked\nsuper tasty!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $86,$03
+Subscript 5
+ShowChara 1 4 8
+# 豆知識にょ！
+ShowTextBox "Trivia time,\nnyo!"
+WaitTextBox
+ShowChara 1 0 9
+# $2は主に$1に住んでるにょ！
+ShowTextBox "A $1\nusually lives\nin $2,\nnyo!"
+WaitTextBox
+ShowChara 1 0 10
+# だから、子供に大
+# 人気なんだにょ～
+# ！
+ShowTextBox "That's why kids\nlove them so\nmuch, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $81
+Subscript 6
+ShowChara 1 4 15
+# にょーーーッ！！
+ShowTextBox "Nyoooooooo!!!"
+WaitTextBox
+# いきなり無性に$1が食べたくなってきたにょーッ！
+ShowTextBox "I wanna eat\n$1 \nright now, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $07,$86
+Subscript 7
+ShowChara 1 4 9
+# ゲマが代わりに$1をやってくれるそうだから、でじこは$2に遊びに行くにょ
+ShowTextBox "Gema took over\ndoing $1\nfor me, so I'm\ngoing to\n$2, nyo."
+WaitTextBox
+ShowChara 8 4 54
+# そ、そんなの聞いてないゲマ！？
+ShowTextBox "Huh!? Since\nwhen, gema!?"
+WaitTextBox
+ShowChara 1 4 13
+# うるさいにょ！
+# 逆らうとひどいにょ！
+ShowTextBox "Shut up, nyo!\nI deserve a\nbreak!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $83,$43
+Subscript 8
+ShowChara 1 4 15
+# テレビでスゴイもの見たにょ！
+ShowTextBox "I saw this\ncrazy thing on\nTV, nyo!"
+WaitTextBox
+# $1と$2がバトルしてたにょ！
+ShowTextBox "A $1\nand a $2\nwere fighting,\nnyo!"
+WaitTextBox
+# カメラマンがビビ
+# るくらいの、すご
+# い映像だったにょ
+# ！
+ShowTextBox "Even the camera\nguy was shaking\nfrom how\nawesome it was,\nnyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $05,$80,$85,$87
+Subscript 9
+ShowChara 1 4 9
+# ここで$1にお住まいの$2さんから、お手紙にょ！
+ShowTextBox "We got a letter\nfrom $2,\nresident of\n$1, nyo!"
+WaitTextBox
+ShowChara 1 0 8
+# 『こんにちは私は
+# でじこちゃんの熱
+# 烈なファンです。
+# でじこちゃんがと
+# てもとても好きで
+# す』
+ShowTextBox "\"Hello. I'm the\nworld's #1 Dejiko\nfan. I love her\nso, so much.\""
+WaitTextBox
+ShowChara 1 0 9
+# $2さん、ありがとにょ！
+ShowTextBox "Thank you,\n$2, nyo!"
+WaitTextBox
+ShowChara 1 0 8
+# 『私は今$3で$4をしているのですが…』
+ShowTextBox "\"Right now I'm\nworking doing\n$4 in\n$3, but...\""
+WaitTextBox
+# 『でじこちゃんのグッズをもっと置かないとお店が燃える夢を見ました』
+ShowTextBox "\"I had a dream\nwhere the shop\nburned down\nbecause I didn't\nbuy enough\nDejiko merch.\""
+WaitTextBox
+ShowChara 1 0 15
+# にょーーーっ！？
+# それは大変にょ！！
+ShowTextBox "Nyo!?\nThat's horrible,\nnyo!"
+WaitTextBox
+ShowChara 1 0 8
+# 『そんなわけで、
+# でじこちゃんのグ
+# ッズを今の百倍は
+# 入れるとよいと思
+# います』
+ShowTextBox "\"That's why I'd\nlike it if you\nsold one hundred\ntimes as much\nDejiko merch in\nyour store.\""
+WaitTextBox
+ShowChara 1 0 10
+# そんなわけで、で
+# じこのグッズを今
+# の百倍入れるにょ
+# ーっ！
+ShowTextBox "You heard the\nguy, nyo!\nWe gotta fill\nthose shelves!"
+WaitTextBox
+ShowChara 8 4 2
+# …その手紙はどうして、でじこの字で書かれてるゲマ？
+ShowTextBox "... Isn't\nthis your\nhandwriting,\ngema?"
+WaitTextBox
+ShowChara 1 4 15
+# にょっ！
+ShowTextBox "Nyo-!"
+WaitTextBox
+ShowChara 1 0 9
+# …以上、$1にお住まいの$2さんからのお手紙でしたにょ！
+ShowTextBox "... Thank you\nso much for\nyour letter,\n$2!"
+WaitTextBox
+# 応援ありがとにょでじこガンバルにょ！
+ShowTextBox "We'll try our\nhardest to meet\nyour\nexpectations,\nnyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $01,$85
+Subscript 10
+ShowChara 1 4 8
+# $1といえば、$2が名産らしいにょ
+ShowTextBox "I heard\n$2 is\nfamous for their\n$1, nyo."
+WaitTextBox
+# 名産ってことは、
+# いっぱい作ってる
+# ってことにょ
+ShowTextBox "That means they\nmust make a\nwhole lot,\nright, nyo?"
+WaitTextBox
+ShowChara 1 0 14
+# 買い占めてお店で
+# 売るにょ！
+ShowTextBox "So if we buy\nit all up, we\ncan sell it in\nour store, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $87,$05
+Subscript 11
+ShowChara 1 4 12
+# …$1
+# なつかしいにょ～
+# つらかったにょ～
+# 苦しかったにょ～
+ShowTextBox "Ah, $1...\nIt's painful\nand nostalgic\nat the same\ntime, nyo..."
+WaitTextBox
+ShowChara 1 0 11
+# そんな苦労があっ
+# たからこそ、$2にもお店を出せたんだにょ！
+ShowTextBox "It's because\nof all that\npain we were\nable to open\na shop even in\n$2, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84,$83
+Subscript 12
+ShowChara 1 4 9
+# $1は$2の大好物でもあるにょ！
+ShowTextBox "$4 is\nthe favorite\nfood of\n$2, nyo!"
+WaitTextBox
+ShowChara 1 0 10
+# 覚えるにょ！
+ShowTextBox "Make sure you\nremember that!\nIt could save\nyour life, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $00,$88,$8B
+Subscript 13
+ShowChara 1 4 16
+# $1なら『$2』で$3してたにょ～
+ShowTextBox "I saw $1\nplaying\n$3 on\n$2, nyo."
+WaitTextBox
+ShowChara 1 0 9
+# ハッスルプレイで
+# 会場をわかせてたにょ！
+ShowTextBox "The audience\nwas getting\nreally into it,\nnyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 14
+ShowChara 1 4 14
+# でじこ、『$1』の本なら全部持ってるにょ～
+ShowTextBox "I just got all\nthe volumes of\n$1, nyo!"
+WaitTextBox
+ShowChara 2 4 55
+# ひょっとして、それ自慢してるの？
+ShowTextBox "Awfully proud\nof yourself,\naren't you?"
+WaitTextBox
+ShowChara 1 4 11
+# ひょっとしてじゃ
+# なくても、自慢だ
+# にょ！文句あるかにょ！
+ShowTextBox "Of course I am!\nYou got a\nproblem with\nthat, nyo!?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $85,$84,$80
+Subscript 15
+ShowChara 1 4 8
+# $1では、$2の花が貴重らしいにょ！
+ShowTextBox "I heard that\n$2\nflowers are\nsuper valuable\nin $1,\nnyo!"
+WaitTextBox
+# $1生まれの$3が言ってたにょ
+ShowTextBox "I heard that\nfrom $3.\nThey were born\nthere, nyo."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $89
+Subscript 16
+ShowChara 1 4 10
+# たった今『$1』グッズは売り切れましたにょ～！
+# 完売にょ～！
+ShowTextBox "We just sold out\nof $1\nmerchandise,\nnyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $84
+Subscript 17
+ShowChara 1 4 8
+# $1は秋になる実がおいしいにょ！
+ShowTextBox "The fruit of\n$1 plants\nis really\ntasty, nyo!"
+WaitTextBox
+ShowChara 1 0 9
+# 店長しゃんは知ってたかにょ？
+ShowTextBox "Bet you didn't\nknow that, did\nyou, Manager?"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88
+Subscript 18
+ShowChara 1 4 8
+# でじこ、『$1』は好きだにょ！
+ShowTextBox "I love\n$1, nyo!"
+WaitTextBox
+ShowChara 1 0 9
+# おもしろくて、毎回ビデオに録画してるにょ！
+ShowTextBox "I gotta record\nevery episode\nso I can\nrewatch, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $09,$80,$40
+Subscript 19
+ShowChara 1 4 16
+# 『$1』なら、でじこ最後まで読んだにょ
+ShowTextBox "I finished\nreading\n$1, nyo."
+WaitTextBox
+ShowChara 1 0 12
+# $2と$3のラブロマンスに、おもわず涙が出たにょ～
+ShowTextBox "The forbidden\nromance between\n$2 and\n$3 was\nsuch a tear\njerker, nyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $88,$80
+Subscript 20
+ShowChara 1 4 8
+# 『$1』は$2が司会する超人気番組だにょ！
+ShowTextBox "$1 is\nbringing on\n$2 as\na host, nyo!"
+WaitTextBox
+ShowChara 1 0 9
+# 毎回、楽しみにしてるにょ！
+ShowTextBox "I can't wait\nto watch the\nnext episode,\nnyo!"
+WaitTextBox
+EndScript
+
+
+### Prefill data: $02,$8B
+Subscript 21
+ShowChara 1 4 8
+# $1を飲みながら$2すると危険だにょ！
+ShowTextBox "It's dangerous\nto drink\n$1 and\nplay $2,\nnyo!"
+WaitTextBox
+ShowChara 1 0 16
+# 気分悪くなるにょ～
+ShowTextBox "It'll mess up\nyour stomach\nsomething bad,\nnyo."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8A,$80
+Subscript 22
+ShowChara 1 4 8
+# $1だったらでじこ知ってるにょ
+ShowTextBox "Yeah, I've seen\na $1\nbefore, nyo."
+WaitTextBox
+ShowChara 1 0 9
+# このまえ、$2が乗って暴走してたにょ
+ShowTextBox "$2 came\nby driving one\nlike crazy a\nlittle earlier,\nnyo."
+WaitTextBox
+ShowChara 1 0 13
+# 危なかったから、でじこがお仕置きしてやったにょ！
+ShowTextBox "It was super\ndangerous! I\nhad to give them\na stern talking\nto, nyo."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $82
+Subscript 23
+ShowChara 1 4 15
+# にょ～～～！
+# 無性に$1が飲みたくなったにょ！！
+ShowTextBox "Nyoooo!!!\nI wanna drink\n$1,\nnyo!"
+WaitTextBox
+ShowChara 1 0 8
+# 誰かおつかいに…
+ShowTextBox "Someone gimme\nsome change,\nnyo!"
+WaitTextBox
+ShowChara 10 4 6
+# にゃ～～～♪
+ShowTextBox "Meow~"
+WaitTextBox
+ShowChara 1 4 12
+# …ムリにょ！
+# ほっけみりんにはムリにょ～
+ShowTextBox "...\nNah, I can't\nask Hokke\nMirin to do\nthat..."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8A
+Subscript 24
+ShowChara 1 4 8
+# にょ！？
+# お店の前に$1が止まったにょ
+ShowTextBox "Nyo!?\nA $1\njust stopped\nin front of the\nstore, nyo."
+WaitTextBox
+ShowChara 1 0 15
+# にょ～～～！
+# 誰か降りてくるにょ？
+ShowTextBox "Nyooo!!\nWho's getting\nout?"
+WaitTextBox
+ShowChara 9 4 7
+# ……………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 1 4 11
+# なんで、まじんがっぱが$1に乗ってたにょ？
+ShowTextBox "Huh!?\nIt was Majin\nGappa in the\n$1!?"
+WaitTextBox
+ShowChara 9 4 7
+# ……………
+ShowTextBox "..."
+WaitTextBox
+ShowChara 1 4 12
+# ムシかにょ～～～
+# シカトかにょ～～
+ShowTextBox "...\nI'm just going\nto pretend I\ndidn't see that,\nnyo."
+WaitTextBox
+EndScript
+
+
+### Prefill data: $8B
+Subscript 25
+ShowChara 1 4 8
+# 『$1』とは、デ・ジ・キャラット星では王族だけが許された遊びにょ！
+ShowTextBox "On Planet\nDiGi Charat,\nonly royalty can\nplay\n$1,\nnyo!"
+WaitTextBox
+ShowChara 1 0 16
+# 小市民には高級すぎるにょ～
+ShowTextBox "The themes are\ntoo subtle for\nignorant\ncommoners to\nappreciate,\nnyo~"
+WaitTextBox
+EndScript

@@ -1,0 +1,45 @@
+DSCBase $3E4288
+
+
+
+
+Subscript 0
+ShowChara 7 0 58
+# あ、ヤベ…
+# なんかまずかった
+# かな？
+ShowTextBox "Aw, man. I said\nsomething I\nshouldn't have,\ndidn't I?"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 7 0 51
+# わるいわるい
+# 次から気をつける
+# からかんべんな
+ShowTextBox "My bad. I'll be\ncareful next\ntime."
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 7 0 52
+# そっか、ならいい
+# や
+ShowTextBox "Oh, okay."
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 7 0 50
+# えー
+# じゃあ何しゃべれ
+# って言うんだよ？
+ShowTextBox "Huh!?\nWhat the heck\nam I supposed\nto talk about,\nthen?"
+WaitTextBox
+EndScript

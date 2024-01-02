@@ -1,0 +1,46 @@
+DSCBase $3E4580
+
+
+
+
+Subscript 0
+ShowChara 5 0 35
+# はて…？
+# 何か不適当な発言
+# でもあったかな？
+ShowTextBox "Hmm..?\nHave I said\nsomething\ninappropriate?"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 5 0 37
+# む…これは失礼
+# 以後重々注意しよう
+ShowTextBox "...\nI apologize.\nFrom now on, I\nwill endeavour\nto speak in a\nmore fitting\nmanner."
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 5 0 39
+# ふむ…
+# ま、当然だが何も
+# 問題はないな
+ShowTextBox "I thought not."
+WaitTextBox
+EndScript
+
+
+
+Subscript 3
+ShowChara 5 0 38
+# 悪いが拒否する
+# それでは最低限の
+# 話題にも困るでは
+# 無いか
+ShowTextBox "I must object.\nSurely you will\nnot deny us the\nbare minimum of\nconversation?"
+WaitTextBox
+EndScript

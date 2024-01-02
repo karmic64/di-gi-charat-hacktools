@@ -1,0 +1,35 @@
+DSCBase $3ED8D0
+
+
+
+
+Subscript 0
+ShowChara 4 0 28
+# ぴょぴょ、最初の
+# 一回は許してやる
+# ぴょ！
+ShowTextBox "I will forgive you this time, but do NOT say that again, pyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+ShowChara 4 0 31
+# ぴよこには、ふさ
+# わしくない言葉ぴ
+# ょっ！
+ShowTextBox "This is not the kind of language you should be using in front of royalty, pyo!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 2
+ShowChara 4 0 28
+# 口からバズーカ！
+# …を出したくなっ
+# たぴょ
+ShowTextBox "Mouth Bazooka!\n... is what you'll be getting soon, pyo!"
+WaitTextBox
+EndScript

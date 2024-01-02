@@ -1,0 +1,54 @@
+DSCBase $40B84C
+
+
+
+
+Subscript 0
+# ともだちとめいしのこうかんするぴょ！
+ShowTextBox "Exchange business cards with a friend, pyo!"
+EndScript
+
+
+
+Subscript 1
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 2
+# いままでもらったともだちのめいしを見るぴょ！
+ShowTextBox "See business cards you've already got, pyo!"
+EndScript
+
+
+
+Subscript 3
+Fade 1 15
+HideChara
+EndScript
+
+
+
+Subscript 4
+# みんなのめいしのランキングを見るぴょ！
+ShowTextBox "Take a look at the Business Card Rankings, pyo!"
+EndScript
+
+
+
+Subscript 5
+HideChara
+EndScript
+
+
+
+Subscript 6
+ShowChara 4 2 28
+EndScript
+
+
+
+Subscript 7
+EndScript

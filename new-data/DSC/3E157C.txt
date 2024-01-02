@@ -1,0 +1,49 @@
+DSCBase $3E157C
+
+
+
+
+Subscript 0
+ShowChara 3 2 17
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# ぷちこにゅ
+ShowTextBox "I'm Puchiko,\nnyu."
+EndScript
+
+
+
+Subscript 3
+# 得意なことは、めから
+# びーむにゅ
+ShowTextBox "I've got an eye\nlaser beam too,\nnyu."
+EndScript
+
+
+
+Subscript 4
+# 本当のことをいうと、
+# じつは、まだびーむは
+# よく出ないにゅ
+ShowTextBox "I'm not very\ngood at the\nbeam part yet,\nthough."
+EndScript
+
+
+
+Subscript 5
+ShowChara 3 0 18
+# ぷちこのこと、よろし
+# くにゅ
+ShowTextBox "Nice to meet\nyou, nyu."
+Wait 60
+HideChara
+EndScript

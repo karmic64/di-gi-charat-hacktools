@@ -1,0 +1,98 @@
+DSCBase $410980
+
+
+
+
+Subscript 0
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# 店長さん、毎日お
+# つかれさまゲマ！
+ShowTextBox "Good work today, gema!"
+WaitTextBox
+# ３ヶ月に一度の中
+# 間決算の時間がや
+# ってきたゲマ！
+ShowTextBox "It's time to review the results of the last 3 months, gema!"
+WaitTextBox
+# それではさっそく
+# 結果を発表させて
+# もらうゲマ！
+ShowTextBox "Let's take a look, gema!"
+WaitTextBox
+HideChara
+Unk19 40
+EndScript
+
+
+
+Subscript 1
+SetBG 111
+Fade 0 30
+ShowChara 8 1 53
+# さすが店長さん、
+# 見事な成績ゲマ！
+ShowTextBox "Great results, Manager!"
+WaitTextBox
+# この調子でいけば
+# 何も問題もないゲ
+# マ！
+ShowTextBox "If you keep this up, I don't foresee there being any problems, gema!"
+WaitTextBox
+# というわけで、店
+# 長さん、今後とも
+# よろしくゲマ！
+ShowTextBox "I'll leave it to you, gema!"
+WaitTextBox
+DoorCloseTransition
+EndScript
+
+
+
+Subscript 2
+SetBG 111
+Fade 0 30
+ShowChara 8 1 1
+# う～ん、成績はも
+# うひとつゲマ…
+ShowTextBox "Hmm, these results..."
+WaitTextBox
+# 店長さん、もっと
+# しっかりがんばる
+# ゲマ！
+ShowTextBox "Manager, try to do a little better from now on, gema!"
+WaitTextBox
+# 店長さん、でじこ
+# たちに話しかけて
+# るゲマか？
+ShowTextBox "Have you been talking to the employees during the day, gema?"
+WaitTextBox
+# でじこたちが働い
+# てないと、お客さ
+# んが来なくなっち
+# ゃうゲマ！
+ShowTextBox "If they're slacking off and you don't notice, customers will stop coming, gema!"
+WaitTextBox
+# それに、スロット
+# の数はちゃんと増
+# やしてるゲマか？
+ShowTextBox "Also, have you tried expanding the store yet, gema?"
+WaitTextBox
+# スロットの数が増
+# えれば、一度にた
+# くさんのグッズが
+# 売れるようになる
+# ゲマ！
+ShowTextBox "If you add additional Slots, you'll be able to sell more items at once, gema!"
+WaitTextBox
+# というわけで、店
+# 長さん
+# ゲマのアドバイス
+# を生かして、今後
+# はもっとがんばっ
+# てほしいゲマ！
+ShowTextBox "If you're stuck, give it a try, gema!\nDo your best from now on, gema!"
+WaitTextBox
+DoorCloseTransition
+EndScript

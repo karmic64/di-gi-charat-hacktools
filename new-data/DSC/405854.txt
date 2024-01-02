@@ -1,0 +1,244 @@
+DSCBase $405854
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 12 2 59
+# 首領、言われたと
+# おりにそばを買っ
+# てきたゲバっ
+ShowTextBox "Boss, we got\nthose soba\nnoodles you\nwanted, geba."
+WaitTextBox
+ShowChara 4 1 29
+# ごくろうぴょ
+ShowTextBox "Good work, pyo."
+WaitTextBox
+ShowChara 12 2 59
+# では、これにて失
+# 礼ゲバ
+ShowTextBox "Excuse us, geba."
+WaitTextBox
+ShowChara 4 1 29
+# 待つぴょ！これは
+# お前たちのために
+# 買ったものぴょ
+ShowTextBox "Wait! I wanted\nto get these\nfor you all,\npyo."
+WaitTextBox
+ShowChara 12 2 59
+# ゲバ？
+ShowTextBox "Geba?"
+WaitTextBox
+ShowChara 4 1 29
+# 地球では年越しに
+# そばを食べる習慣
+# があるって店長さ
+# んが言ってたぴょ
+ShowTextBox "I heard from the\nManager it's a\ntradition to eat\nsoba noodles\nat midnight on\nNew Year's Eve."
+WaitTextBox
+ShowChara 12 2 59
+# じ～ん…首領のあ
+# たたかいお心づか
+# い、感動ゲバ…
+ShowTextBox "Ah! We don't\ndeserve your\nkindness, boss!\nGebaa!"
+WaitTextBox
+# さっそく、他のも
+# のにこの感動を伝
+# えるゲバ～っ！
+ShowTextBox "We've got to\ngo tell the\nothers, geba!"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 4 1 29
+# さて、ぴよこは外
+# にそばを食べに行
+# くぴょ！
+ShowTextBox "Now, I'm going\nto go eat my\nnoodles outside,\npyo!"
+WaitTextBox
+ShowChara 7 2 48
+# ぴよこ、俺もつい
+# て行っていいか？
+ShowTextBox "Can I come too,\nPiyoko?"
+WaitTextBox
+ShowChara 4 1 29
+# ＯＫぴょ
+ShowTextBox "Sure, pyo."
+WaitTextBox
+ShowChara 6 2 41
+# ピョコラ様が行く
+# のなら自分も…
+ShowTextBox "If Lady Pyocola\nis eating\noutside, then\nI too would\nlike to go."
+WaitTextBox
+ShowChara 5 2 36
+# 同じく、私も
+ShowTextBox "I feel exactly\nthe same."
+WaitTextBox
+ShowChara 4 1 28
+# …店長さんもいっ
+# しょに行くぴょ？
+ShowTextBox "... Do you want\nto come too,\nManager?"
+WaitTextBox
+# 行こうかな
+# 行かない
+ShowSelMenu09 2 "!Let's go\nSorry, no"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 5 2 36
+# さすが店長、つき
+# あいがいいな
+ShowTextBox "Heheh, good old\nManager! Always\nup for anything!"
+WaitTextBox
+ShowChara 7 2 48
+# えっ、なに、店長
+# がおごってくれる
+# って？
+ShowTextBox "Wait, what?\nYou'll treat us?"
+WaitTextBox
+ShowChara 6 2 41
+# 本当ですか、店長
+# ！？
+ShowTextBox "Really,\nManager!?"
+WaitTextBox
+ShowChara 4 1 29
+# わ～い、それじゃ
+# ぴよこは遠慮なく
+# 注文させてもらう
+# ぴょっ！
+ShowTextBox "Hooray!\nI'm gonna eat\nnoodles till I\nburst, pyo!"
+WaitTextBox
+# ぴよこは天ぷらそ
+# ば、しかも、特上
+# を頼むぴょっ！
+ShowTextBox "I want the\ntempura soba,\npyo! Give me\nthe best you\ngot!"
+WaitTextBox
+# 加えて、デザート
+# にアイスクリーム
+# と白玉も注文する
+# ぴょっ！
+ShowTextBox "And I want ice\ncream and\ndumplings for\ndesert, pyo!"
+WaitTextBox
+ShowChara 7 2 48
+# あっ、俺もそれ頼
+# むっ！
+ShowTextBox "Oh, oh!\nMe too!"
+WaitTextBox
+ShowChara 6 2 41
+# 自分はごもくそば
+# と鉄火丼…それに
+# ちゃわんむしを…
+ShowTextBox "I'll have the\nspecialty soba\nwith a tuna\nbowl. And some\negg custard too,\nplease."
+WaitTextBox
+ShowChara 5 2 36
+# 私はたぬきそばと
+# きつねそば、それ
+# に、カモ南蛮と…
+ShowTextBox "I'll have the\nTanuki and\nFox soba, and\nsome Duck\nNanban on the\nside."
+WaitTextBox
+ShowChara 4 1 29
+# う～ん、動物好き
+# なリクらしい注文
+# ぴょ
+ShowTextBox "Rik can't stop\nthinking about\nanimals even\nwhen he's\nordering, pyo!"
+WaitTextBox
+ShowChara 6 2 43
+# それは何か違うよ
+# うな…
+ShowTextBox "I don't know\nabout that..."
+WaitTextBox
+ShowChara 5 2 36
+# では、そろそろ出
+# 発しましょうか！
+ShowTextBox "Let us depart!"
+WaitTextBox
+ShowChara 7 2 48
+# おーっ！
+ShowTextBox "Yeah!"
+WaitTextBox
+ShowChara 4 1 28
+# ぴょっ…？店長さ
+# ん、サイフの中を
+# のぞいたりしてど
+# うしたぴょ？
+ShowTextBox "Pyo...? Why\nare you\nlooking at your\nwallet like\nthat, Manager?"
+WaitTextBox
+EndScript
+Label 1
+ShowChara 4 0 28
+# じゃ、店長さん、
+# ぴよこたちは行っ
+# てくるぴょ！
+ShowTextBox "OK, pyo.\nWe'll see you\nlater!"
+WaitTextBox
+ShowChara 5 2 35
+# では店長、留守番
+# をよろしくお願い
+# する
+ShowTextBox "We leave the\nstore in your\nhands, Manager."
+WaitTextBox
+ShowChara 6 2 40
+# 店長、帰りにお土
+# 産にそばを買って
+# きますね
+ShowTextBox "We'll make\nsure to bring\nback some soba\nfor you."
+WaitTextBox
+ShowChara 7 2 48
+# 店長、それじゃよ
+# いお年を！って、
+# まだ早いか…
+ShowTextBox "Happy New Year,\nManager! Even\nif it's still\na little\nearly..."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 12 2 59
+# あっ、店長！
+# てっきり首領たち
+# とお出かけしたと
+# 思ってたゲバ
+ShowTextBox "Oh, Manager!\nWe thought you\nleft with the\nBoss, geba."
+WaitTextBox
+# 首領からいただい
+# たおそば、まだ余
+# ってるけど、どう
+# ゲバ、店長？
+ShowTextBox "We've still\ngot some soba\nleft over.\nWant some,\ngeba?"
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 12 2 59
+# ずるずるずる…
+ShowTextBox "Slurp, slurp..."
+WaitTextBox
+ShowChara 12 1 59
+# ずるずるずる…
+ShowTextBox "Slurp, slurp!"
+WaitTextBox
+ShowChara 12 2 59
+# うまいゲバ…こん
+# なごちそう、何年
+# ぶりか思い出せな
+# いゲバ…
+ShowTextBox "Ahhh...\nThat's good\nstuff, geba.\nThe best we've\nhad in years..."
+WaitTextBox
+# えっ、店長さん、
+# 自分はもうおなか
+# いっぱいだから代
+# りに食っていいゲ
+# バ？
+ShowTextBox "You're full,\nManager? Sure\nyou don't want\nany more, geba?"
+WaitTextBox
+# 店長さん、ありが
+# とうゲバ！
+ShowTextBox "Well, more for\nus, geba!"
+WaitTextBox
+# ううっ、人の温か
+# さが身にしみる…
+# 地球に来て本当に
+# よかったゲバ…！
+ShowTextBox "You're too\nkind to us,\ngeba! Coming\nto Earth was\nthe best thing\nwe've ever done!"
+WaitTextBox
+EndScript

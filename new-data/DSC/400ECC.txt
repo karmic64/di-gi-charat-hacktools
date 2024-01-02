@@ -1,0 +1,232 @@
+DSCBase $400ECC
+
+
+
+
+Subscript 0
+SetBG 112
+Fade 0 30
+ShowChara 5 1 39
+# 店長、話があるの
+# だが、少々時間を
+# もらえるか？
+ShowTextBox "Manager. If you\nhave a moment,\nmay I speak?"
+WaitTextBox
+ShowChara 5 0 35
+# 店長、ここに…
+ShowTextBox "Here."
+WaitTextBox
+# 遊園地のチケット
+# が２枚ある
+ShowTextBox "These are two\ntickets to the\namusement park."
+WaitTextBox
+# これでピョコラ様
+# を遊園地につれて
+# 行ってくれまいか
+# ？
+ShowTextBox "May I ask you\nto accompany\nLady Pyokora\nthere?"
+WaitTextBox
+ShowChara 5 0 36
+# 我々のことは気に
+# せず…
+ShowTextBox "Don't worry\nabout us."
+WaitTextBox
+# 大事なのは、ピョ
+# コラ様に楽しんで
+# いただくこと…
+ShowTextBox "The most\nimportant thing\nis that Lady\nPyokora enjoys\nherself..."
+WaitTextBox
+ShowChara 5 0 35
+# 話は以上だ…
+# 店長、よろしく頼
+# んだぞ…
+ShowTextBox "That's all.\nWe're counting\non you,\nManager."
+WaitTextBox
+SineWipe 30
+Wait 30
+SineUnwipe 30
+ShowChara 4 1 30
+# いそがしかったゴ
+# ールデンウィーク
+# も、もうすぐ終わ
+# るぴょ…
+ShowTextBox "Golden Week is\nalmost over...\nI feel like I\nhardly got a\nmoment to rest,\npyo."
+WaitTextBox
+# ただ、どこにも遊
+# びに行けなかった
+# のはちょっと残念
+# ぴょ…
+ShowTextBox "It's too bad\nwe didn't get\nto go take a\nbreak anywhere,\npyo..."
+WaitTextBox
+ShowChara 4 0 28
+# ぴょ？
+ShowTextBox "Pyo?"
+WaitTextBox
+# 店長さん、それは
+# 何ぴょ？
+ShowTextBox "What's this,\nManager?"
+WaitTextBox
+ShowChara 4 0 33
+# これは、遊園地の
+# チケットぴょっ！
+ShowTextBox "These are\ntickets to the\namusement park,\npyo!"
+WaitTextBox
+# みんなで行こう！
+# ぴよこと二人で
+ShowSelMenu09 2 "!Let's all go!\nJust you and me!"
+JumpOnSelection 2 0 1 0
+Label 0
+ShowChara 4 0 29
+# …来週の日曜、み
+# んなで行っていい
+# ぴょ？　店長さん
+# ふとっぱらぴょ！
+ShowTextBox "You want to go\nwith everyone\nnext Sunday?\nYou're so\ngenerous, pyo!"
+WaitTextBox
+ShowChara 6 2 40
+# …「みんなで」？
+ShowTextBox "... Wait,\neveryone?"
+WaitTextBox
+ShowChara 7 2 47
+# チケット２枚しか
+# なかったんじゃな
+# いのか？
+ShowTextBox "Aren't there\nonly two\ntickets?"
+WaitTextBox
+ShowChara 4 1 29
+# なに言ってるぴょ
+# ？　ちゃんとお前
+# たちの分まである
+# ぴょ！
+ShowTextBox "What are you\ntalking about,\npyo? Of course\nthere's enough\nfor everyone!"
+WaitTextBox
+ShowChara 7 2 48
+# やったー！
+# じゃ、ぴよこいっ
+# しょに行こうぜ！
+ShowTextBox "Alright!\nLet's go,\nPiyoko!"
+WaitTextBox
+ShowChara 6 2 41
+# そうですね、みん
+# なで、ゴールデン
+# ウィークを楽しみ
+# ましょう！
+ShowTextBox "Indeed! Let\nus enjoy the\nfinal days of\nGolden Week\nto the\nfullest!"
+WaitTextBox
+ShowChara 5 1 36
+# 店長、ひとつ借り
+# ができたな…
+ShowTextBox "I'm very\ngrateful, but..."
+WaitTextBox
+EndScript
+Label 1
+ShowChara 4 0 28
+# …だけど、２枚し
+# かないぴょ
+ShowTextBox "... This is\nonly two\ntickets, pyo."
+WaitTextBox
+# ぴよこと店長さん
+# の分ぴょ？
+ShowTextBox "That's only\nenough for\nyou and I,\npyo."
+WaitTextBox
+ShowChara 4 0 34
+# …もうしわけない
+# けど、みんなを働
+# かせておいて、ぴ
+# よこひとりが遊ぶ
+# わけにはいかない
+# ぴょ
+ShowTextBox "I can't run off\nand play while\neveryone else is\nworking hard,\npyo."
+WaitTextBox
+# そーゆーわけで、
+# 気持ちだけいただ
+# いておくぴょ
+ShowTextBox "Sorry, pyo.\n"
+WaitTextBox
+ShowChara 5 2 37
+# ピョコラ様…
+ShowTextBox "Lady Pyokora..."
+WaitTextBox
+ShowChara 4 1 29
+# 首領として当然の
+# 判断ぴょ
+ShowTextBox "What? It was an\neasy decision,\npyo. I wouldn't\nbe a good leader\nif I accepted."
+WaitTextBox
+ShowChara 12 0 60
+# しゅ、首領、一生
+# ついてゆくゲバ～
+ShowTextBox "B-Boss...!\nWe'll follow you\nfor life!\nGebaaaaa!!"
+WaitTextBox
+EndScript
+
+
+
+Subscript 1
+SetBG 113
+Fade 0 30
+ShowChara 4 1 29
+# お前たち、何をし
+# てるぴょー！もた
+# もたしてると置い
+# てくぴょ！
+ShowTextBox "Hey! What's\ntaking you so\nlong, pyo!?\nWe're leaving!"
+WaitTextBox
+ShowChara 7 1 48
+# そうだそうだ！
+# 置いてくぜ！
+ShowTextBox "Come on, you\nheard the lady!\nLet's go!"
+WaitTextBox
+ShowChara 6 2 44
+# あっピョコラ様ッ
+# お弁当ーっ！
+ShowTextBox "Wait, Lady\nPyokora! Your\nlunch!"
+WaitTextBox
+ShowChara 5 2 35
+# では店長、行って
+# くる！
+ShowTextBox "Manager, by\nyour leave,\nwe're off!"
+WaitTextBox
+Fade 3 30
+Unk08 4 106 124 108 40 10 3
+Unk08 5 90 32 90 48 10 3
+Unk08 6 146 60 8 16 10 3
+Unk08 7 28 84 80 48 10 3
+SetBG 84
+Fade 2 30
+ShowChara 4 0 0
+# 速いぴょ！
+# 速いぴょーっ！
+ShowTextBox "You're slow,\npyo! Hurry up!"
+WaitTextBox
+# ぴよこはこの乗り物が
+# 気に入ったぴょーっ！
+ShowTextBox "I quite like\nthis strange\nvehicle, pyo!"
+WaitTextBox
+# 決めたぴょっ！
+ShowTextBox "I've decided,\npyo!"
+WaitTextBox
+# 今日はずーっとコレに
+# 乗ってるぴょっ！
+ShowTextBox "We'll keep\nriding this\nuntil the park\ncloses, pyo!"
+WaitTextBox
+ShowChara 7 0 0
+# 俺もうヤダ～！
+ShowTextBox "I can't take\nit anymore...!!"
+WaitTextBox
+ShowChara 6 0 0
+# さ、さんせい…
+ShowTextBox "I don't think\nI'll make it..."
+WaitTextBox
+ShowChara 5 0 0
+# ピョ、ピョコラ様がそ
+# うおっしゃるなら…
+ShowTextBox "I-If Lady\nPyokora orders\nit, then I must\nobey..."
+WaitTextBox
+# うわーーっ！
+ShowTextBox "Gaaaaah!"
+WaitTextBox
+ShowChara 4 0 0
+# 楽しいぴょーっ！
+ShowTextBox "This is so fun,\npyo!"
+WaitTextBox
+EndScript

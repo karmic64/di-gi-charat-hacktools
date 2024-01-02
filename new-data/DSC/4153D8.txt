@@ -1,0 +1,91 @@
+DSCBase $4153D8
+
+
+
+
+Subscript 0
+ShowChara 4 2 28
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+# さいしょから
+# はじめるぴょ
+ShowTextBox "Start a new game, pyo."
+EndScript
+
+
+
+Subscript 3
+ShowChara 4 0 29
+# いちねんかん
+# がんばるぴょ！
+ShowTextBox "Do your best this year, pyo!"
+WaitTextBox
+HideChara
+EndScript
+
+
+
+Subscript 4
+# まえのつづきから
+# はじめるぴょ
+ShowTextBox "Continue from a saved game, pyo."
+EndScript
+
+
+
+Subscript 5
+ShowChara 4 0 29
+# きょうもがんばるぴょ！
+ShowTextBox "Do your best today, pyo!"
+WaitTextBox
+DoorCloseTransition
+EndScript
+
+
+
+Subscript 6
+# めいしを見たり、ともだちとこうかんしたりするぴょ
+ShowTextBox "View business cards, or exchange yours with a nearby friend, pyo."
+EndScript
+
+
+
+Subscript 7
+HideChara
+EndScript
+
+
+
+Subscript 8
+# ミニゲームやおもいでをみたりするぴょ
+ShowTextBox "View minigames and memories, pyo."
+EndScript
+
+
+
+Subscript 9
+HideChara
+EndScript
+
+
+
+Subscript 10
+# いろいろなせっていをするぴょ
+ShowTextBox "Adjust the settings, pyo."
+EndScript
+
+
+
+Subscript 11
+Fade 1 15
+HideChara
+EndScript

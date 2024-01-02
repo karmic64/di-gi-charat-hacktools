@@ -1,0 +1,102 @@
+DSCBase $409D7C
+
+
+
+
+Subscript 0
+SetPermTextBoxPos 0 16
+SetPermTextBoxCharPos -12 0
+ShowChara 3 2 17
+EndScript
+
+
+
+Subscript 1
+HideChara
+EndScript
+
+
+
+Subscript 2
+ShowChara 3 0 17
+# 何を買うにゅ？
+ShowTextBox "What do you want\nto buy, nyu?"
+EndScript
+
+
+
+Subscript 3
+ShowChara 3 0 17
+# 全部で、
+# $0円で売れるにゅ
+ShowTextBox "We make $0 yen\nif we sell all of\nthose, nyu."
+EndScript
+
+
+
+Subscript 4
+ShowChara 3 0 21
+# お金が無いにゅ…
+# がんばって、お金をも
+# っとかせぐにゅ
+ShowTextBox "We don't have enough money, nyu...\nWe'll have to save up for this, nyu."
+EndScript
+
+
+
+Subscript 5
+ShowChara 3 0 20
+# それはまだお店に残っ
+# てるにゅ
+ShowTextBox "The shop already\nhas that, nyu."
+EndScript
+
+
+
+Subscript 6
+ShowChara 3 0 17
+# いくつ買うにゅ？
+ShowTextBox "How many do you\nwant to buy, nyu?"
+EndScript
+
+
+
+Subscript 7
+ShowChara 3 0 17
+# $0個買うのに、
+# $1円ひつようにゅ
+ShowTextBox "It costs $1 yen\nto buy $0, nyu."
+EndScript
+
+
+
+Subscript 8
+ShowChara 3 0 17
+# 買うの、やめるにゅ？
+ShowTextBox "Done buying, nyu?"
+EndScript
+
+
+
+Subscript 9
+ShowChara 3 0 17
+# 見やすいように、グッ
+# ズをならびかえるにゅ
+ShowTextBox "Change the order\nitems are shown,\nnyu."
+EndScript
+
+
+
+Subscript 10
+ShowChara 3 0 17
+# 本当に買うにゅ？
+ShowTextBox "You want to buy\nthis, nyu?"
+EndScript
+
+
+
+Subscript 11
+ShowChara 3 0 17
+# $3の$1が$2上手になるにゅ
+ShowTextBox "$3's $1 will\nbecome $2 better, nyu."
+EndScript

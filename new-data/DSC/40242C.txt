@@ -1,0 +1,86 @@
+DSCBase $40242C
+
+
+
+
+Subscript 0
+SetBG 113
+Fade 0 30
+ShowChara 7 1 48
+# すすき取ってきた
+# ぜーっ！
+ShowTextBox "I've got the\npopsicles!"
+WaitTextBox
+ShowChara 5 2 35
+# クウ、ご苦労…
+# カイ、そっちは？
+ShowTextBox "Good work, Coo.\nKy, status\nreport?"
+WaitTextBox
+ShowChara 6 1 40
+# 問題ありません
+# お団子も、もうじ
+# き完成します
+ShowTextBox "The dango will\nbe ready\nshortly.\nWe are green for\nlaunch."
+WaitTextBox
+ShowChara 5 2 35
+# 了解した
+# こちらも準備オー
+# ケーだ…
+ShowTextBox "Understood.\nMy preparations\nare complete as\nwell."
+WaitTextBox
+ShowChara 5 0 39
+# では、ピョコラ様
+# をお呼びするか
+ShowTextBox "All that's left\nis to call over\nLady Pyokora."
+WaitTextBox
+Fade 3 30
+Unk08 4 128 64 64 108 10 3
+Unk08 5 19 113 52 92 10 3
+Unk08 6 58 99 90 88 10 3
+Unk08 7 197 92 56 88 10 3
+SetBG 87
+Fade 2 30
+ShowChara 4 0 0
+# うん、ばっちりぴょ！
+ShowTextBox "Hmm!\nPerfect, pyo!"
+WaitTextBox
+# それでは、お月見を
+# はじめるぴょ！
+ShowTextBox "Let the moon\nviewing begin,\npyo!"
+WaitTextBox
+ShowChara 5 0 0
+# はっ、ではまずピョコ
+# ラ様より天体望遠鏡を
+# お使いください
+ShowTextBox "Lady Pyokora,\nyou may use the\ntelescope first."
+WaitTextBox
+ShowChara 4 0 0
+# のぞくぴょ～
+ShowTextBox "Let's see,\npyo..."
+WaitTextBox
+# えーと、なかなかピン
+# トが合わないぴょ…
+ShowTextBox "Uhhh...\nI think it's\nout of focus,\npyo..."
+WaitTextBox
+ShowChara 6 0 0
+# そこはこう…
+ShowTextBox "Allow me to\nmake a few\nadjustments..."
+WaitTextBox
+ShowChara 4 0 0
+# …見えたぴょ！
+ShowTextBox "Ah, I see it,\npyo!"
+WaitTextBox
+# えーと、これは
+# クレーターぴょ！
+ShowTextBox "I see a crater,\npyo!"
+WaitTextBox
+ShowChara 7 0 0
+# 俺も見たい、見たい！
+ShowTextBox "I wanna see\ntoo!"
+WaitTextBox
+ShowChara 4 0 0
+# 待つぴょ、まだぴよこ
+# の番ぴょーっ！
+ShowTextBox "Be patient!\nIt's still my\nturn, pyo!"
+WaitTextBox
+EndScript
