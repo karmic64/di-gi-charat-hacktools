@@ -109,7 +109,7 @@ Subscript 8
 ShowChara 4 4 31
 # ‚Å‚¶‚±‚¨o‚¿‚á‚ñ
 # ‚Ì‚¨“X‚É‚¢‚é$1‚Í$2‚ª‚Å‚«‚é‚Á‚Ä˜b‚Ò‚åI
-ShowTextBox "!!! 3E331C 15"
+ShowTextBox "I heard that the $1 at Dejiko's store can do a $2 job, pyo!"
 WaitTextBox
 # ‚»‚êŒ©‚½‚³‚É˜A“ú
 # ‚½‚­‚³‚ñ‚¨‹q‚³‚ñ
