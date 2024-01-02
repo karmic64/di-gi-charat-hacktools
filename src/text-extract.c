@@ -396,7 +396,7 @@ int extracttext(char *strlistname, char *outname, uint8_t *rombuf2, size_t romsi
   
   /* ---------- create output file from TOC ----------- */
   f = fopen(outname, "wb");
-  FILE *df = fopen("textrawdump.txt", "wb");
+  //FILE *df = fopen("textrawdump.txt", "wb");
   
   int strcnt = 0;
   for (int i = 0; i < tocents; i++)
@@ -426,21 +426,21 @@ int extracttext(char *strlistname, char *outname, uint8_t *rombuf2, size_t romsi
           if (c == '\n')
           {
             fprintf(f, "\\n");
-            fprintf(df, "\\n");
+            //fprintf(df, "\\n");
           }
           else if (c < 0x20)
           {
             fprintf(f, "\\x%02x", c);
-            fprintf(df, "\\x%02x", c);
+            //fprintf(df, "\\x%02x", c);
           }
           else
           {
             fputc(c, f);
-            fputc(c, df);
+            //fputc(c, df);
           }
         }
         fputc('\n', f);
-        fputc('\n', df);
+        //fputc('\n', df);
         /* now put in actual commands */
         int refs = str->refs;
         if (refs)
@@ -460,7 +460,7 @@ int extracttext(char *strlistname, char *outname, uint8_t *rombuf2, size_t romsi
     }
   }
   
-  fclose(df);
+  //fclose(df);
   fclose(f);
   
 	free(toc);
