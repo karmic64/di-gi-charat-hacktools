@@ -4,7 +4,6 @@
 ### if a string has a listed maximum length, any characters past this will be deleted
 
 ### --- shop rating screen
-Double
 # %s“X’·
 Ptr $C4BC "Manager %s"
 # ©•ª‚Ì‚ß‚¢‚µ
@@ -31,7 +30,6 @@ Ptr $C9D60 "Really, Really Bad Manager"
 Ptr $C9D64 "Apocalyptically Bad Manager"
 
 ### --- various text prompt menu titles
-Double
 # ‚È‚Ü‚¦
 Ptr $10090 "Name"
 # D‚«‚ÈH‚×•¨
@@ -55,7 +53,6 @@ Ptr $10788 "Favorite food, Favorite animal, Favorite person"
 Ptr $10DEC "Black bean"
 
 ### --- misc shop-related
-NoDouble
 # “Áê—¬s 
 Ptr $12C8C "Special Trend"
 # ’Êí 
@@ -138,7 +135,6 @@ Abs $CA954 Max 16 "Watch"
 Abs $CA964 Max 16 "Pin"
 
 ### --- item names
-NoDouble
 # ‚Å‚¶‚±ƒ{[ƒ‹ƒyƒ“
 Abs $CA974 Max 24 "Dejiko Pen"
 # ‚Å‚¶‚±ƒyƒ“ƒP[ƒX
@@ -387,7 +383,6 @@ Abs $CC998 Max 24 "Aq. Age Saga 2"
 Abs $CC9DC Max 24 "G Angel"
 
 ### --- work-related item names
-NoDouble
 # ‚ê‚¶‚P
 Abs $CCAD4 Max 24 "Register 1"
 # ‚ê‚¶‚Q
@@ -454,7 +449,6 @@ Abs $CD2CC Max 24 "Broom"
 Abs $CD310 Max 24 "Vacuum"
 
 ### --- event names?
-NoDouble
 ### dejiko
 # ‰ÔŒ©1
 Abs $CD35B Max 32 "Cherry Blossom 1"
@@ -745,7 +739,6 @@ Abs $CF3BB Max 32 "Final Report Day"
 ### --- sound test-related
 ###  note that all of these strings are centered onscreen by padding with spaces
 ###  make your strings the amount of characters listed, and use spaces to center
-NoDouble
 ### song names (32 chars)
 #      ‚o‚`‚q‚s‚x™‚m‚h‚f‚g‚s     
 Abs $D3814 Max 36 "          PARTY™NIGHT           "
