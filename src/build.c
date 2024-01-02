@@ -24,16 +24,16 @@
 int main(int argc, char* argv[])
 {
 	if (argc != 8) {
-		puts("usage: build srcrom outrom dscdir mbmdir mfmdir mrmdir text");
+		puts("usage: build srcrom dscdir mbmdir mfmdir mrmdir text outrom");
 		return EXIT_FAILURE;
 	}
 	const char * srcrom = argv[1];
-	const char * outrom = argv[2];
-	const char * dscdir = argv[3];
-	const char * mbmdir = argv[4];
-	const char * mfmdir = argv[5];
-	const char * mrmdir = argv[6];
-	const char * textfile = argv[7];
+	const char * dscdir = argv[2];
+	const char * mbmdir = argv[3];
+	const char * mfmdir = argv[4];
+	const char * mrmdir = argv[5];
+	const char * textfile = argv[6];
+	const char * outrom = argv[7];
 	
 	
 	

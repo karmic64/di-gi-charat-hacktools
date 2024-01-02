@@ -4,9 +4,6 @@ else
 DOTEXE:=
 endif
 
-# note, this makefile only builds the tools!
-# please refer to "0GUIDELINES FOR TRANSLATORS.txt" for info on building the translation
-
 
 
 ########### variables
@@ -43,9 +40,9 @@ HACKS_OUT := hacks/hacks.gba
 
 .PHONY: default all tools hacks clean
 
-default: tools hacks
+default: t.gba
 
-all: tools hacks
+all: tools hacks t.gba
 
 tools: $(TOOL_EXE)
 hacks: $(HACKS_OUT)
@@ -57,6 +54,7 @@ clean:
 	$(RM) $(TOOL_EXE)
 	$(RM) $(addprefix src/lex.yy.,c h)
 	$(RM) $(HACKS_OUT)
+	$(RM) t.gba
 
 
 
@@ -109,9 +107,16 @@ rip-text: stringlist.txt
 
 
 
-########## executables
+########## main outputs
 
 
 $(HACKS_OUT): $(HACKS)
 	armips -strequ OUTNAME $@ -strequ ROMNAME "$(ROMNAME)" $<
 
+
+# make dirs in new-data if they don't exist
+$(addprefix new-data/,DSC MBM MFM MRM):
+	mkdir -p $@
+
+t.gba: bin/build$(DOTEXE) $(HACKS_OUT) $(addprefix new-data/,DSC MBM MFM MRM text.txt)
+	$^ $@
