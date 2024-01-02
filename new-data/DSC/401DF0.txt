@@ -41,7 +41,7 @@ SineUnwipe 30
 ShowChara 5 1 35
 # …ピョコラ様が好
 # きそうな花火？
-ShowTextBox "... What kind of\nfireworks Lady\nPyokora would\nlike?"
+ShowTextBox "... What kind of\nfireworks Lady\nPyocola would\nlike?"
 WaitTextBox
 # ふむ…ピョコラ様
 # は、ハデで目立つ
@@ -84,7 +84,7 @@ ShowChara 6 0 41
 # 花火が好きなので
 # しょうが、ピョコ
 # ラ様は女の子です
-ShowTextBox "A boy would\nprefer rockets\nand loud bangs,\nbut our Lady\nPyokora is a\nyoung lady."
+ShowTextBox "A boy would\nprefer rockets\nand loud bangs,\nbut our Lady\nPyocola is a\nyoung lady."
 WaitTextBox
 # だから、自分は線
 # 香花火のような静

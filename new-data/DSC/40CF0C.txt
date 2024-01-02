@@ -209,7 +209,7 @@ ShowChara 12 2 60
 # 団首領、ピョコラ
 # ＝アナローグV世
 # 様ばんざーい！
-ShowTextBox "Long live Lady Pyokora Analogue the 3rd!!"
+ShowTextBox "Long live Lady Pyocola Analogue the 3rd!!"
 WaitTextBox
 ShowChara 1 1 8
 # じゃ、新しい店長
@@ -272,7 +272,7 @@ WaitTextBox
 ShowChara 5 2 57
 # ピョ、ピョコラ様
 # …
-ShowTextBox "Lady Pyokora..."
+ShowTextBox "Lady Pyocola..."
 WaitTextBox
 ShowChara 6 2 43
 # なんだか、逆にし
@@ -369,7 +369,7 @@ ShowChara 5 2 57
 # ピョ、ピョコラ様
 # 危険です！ここは
 # ひとまず！！
-ShowTextBox "This is dangerous, Lady Pyokora! Let's withdraw for now!"
+ShowTextBox "This is dangerous, Lady Pyocola! Let's withdraw for now!"
 WaitTextBox
 ShowChara 7 2 58
 # に、逃げないと命

@@ -11,13 +11,13 @@ ShowChara 5 1 36
 # です。この一年、
 # 本当にお疲れさま
 # でした…
-ShowTextBox "Lady Pyokora,\nI've just\nfinalized this\nyear's results.\nThank you for\nyour hard work."
+ShowTextBox "Lady Pyocola,\nI've just\nfinalized this\nyear's results.\nThank you for\nyour hard work."
 WaitTextBox
 ShowChara 6 1 41
 # 立派です、ピョコ
 # ラ様！　自分は感
 # 動です！
-ShowTextBox "Excellent work,\nLady Pyokora!\nInspiring!"
+ShowTextBox "Excellent work,\nLady Pyocola!\nInspiring!"
 WaitTextBox
 ShowChara 7 1 48
 # ブラックゲマゲマ
@@ -49,7 +49,7 @@ ShowChara 5 1 39
 # ピョコラ様、大人
 # になられましたな
 # …
-ShowTextBox "You've grown\nup a little,\nLady Pyokora..."
+ShowTextBox "You've grown\nup a little,\nLady Pyocola..."
 WaitTextBox
 ShowChara 6 1 43
 # これで、毎日歯を
@@ -87,7 +87,7 @@ ShowChara 5 1 35
 # ピョコラ様、謎ゲ
 # マでは司会になり
 # ません
-ShowTextBox "Lady Pyokora,\nit seems Nazo\nGema will not\nbe delivering\nthe results\nthis time."
+ShowTextBox "Lady Pyocola,\nit seems Nazo\nGema will not\nbe delivering\nthe results\nthis time."
 WaitTextBox
 # 今回は特別に、ゲ
 # マを借りてまいり
@@ -193,7 +193,7 @@ ShowChara 5 1 36
 # ピョコラ様、落ち
 # 着いて、落ち着い
 # て…
-ShowTextBox "Please calm\ndown, Lady\nPyokora..."
+ShowTextBox "Please calm\ndown, Lady\nPyocola..."
 WaitTextBox
 ShowChara 6 1 41
 # 受けておいて、損
@@ -266,7 +266,7 @@ WaitTextBox
 ShowChara 6 1 41
 # ピョコラ様のおお
 # せのままに…
-ShowTextBox "We await your\norders, Lady\nPyokora."
+ShowTextBox "We await your\norders, Lady\nPyocola."
 WaitTextBox
 ShowChara 7 1 48
 # これからも、ぴよ
@@ -388,7 +388,7 @@ ShowChara 5 1 35
 # ピョコラ様、急に
 # 黙られて、いかが
 # なさいました？
-ShowTextBox "Lady Pyokora,\nis something\nthe matter?\nWhy did you\nstop speaking?"
+ShowTextBox "Lady Pyocola,\nis something\nthe matter?\nWhy did you\nstop speaking?"
 WaitTextBox
 ShowChara 4 2 28
 # ぴょっ？
@@ -426,7 +426,7 @@ ShowChara 12 2 60
 # ョコラ＝アナロー
 # グV世に栄光あれ
 # ゲバーっ！
-ShowTextBox "Glory to our\nLady Pyokoro\nAnalogue the\n3rd, geba---!!"
+ShowTextBox "Glory to our\nLady Pyocola\nAnalogue the\n3rd, geba---!!"
 WaitTextBox
 Fade 3 30
 Unk08 4 157 42 24 88 10 2

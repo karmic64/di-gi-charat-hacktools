@@ -121,7 +121,7 @@ ShowChara 5 1 35
 # ピョコラ様、いっ
 # たい、何をなさっ
 # たのです？
-ShowTextBox "Lady Pyokora,\nwhatever could\nyou have done\nto cause this?"
+ShowTextBox "Lady Pyocola,\nwhatever could\nyou have done\nto cause this?"
 WaitTextBox
 ShowChara 4 2 29
 # ぴょぴょぴょ、簡
@@ -236,7 +236,7 @@ ShowChara 6 1 44
 # ああっ、ピョコラ
 # 様、どこへ行かれ
 # るのですっ！
-ShowTextBox "Lady Pyokora!\nWhere are you\ngoing!?"
+ShowTextBox "Lady Pyocola!\nWhere are you\ngoing!?"
 WaitTextBox
 ShowChara 5 1 38
 # クウ、先ほどのセ
@@ -249,7 +249,7 @@ ShowChara 5 0 38
 # いて、どこかに走
 # り去って行ったで
 # はないか！
-ShowTextBox "Lady Pyokora\nnever forgets\na grudge!\nShe'll track you\nto the ends of\nthe earth!"
+ShowTextBox "Lady Pyocola\nnever forgets\na grudge!\nShe'll track you\nto the ends of\nthe earth!"
 WaitTextBox
 ShowChara 7 1 58
 # えっ！？お、俺、

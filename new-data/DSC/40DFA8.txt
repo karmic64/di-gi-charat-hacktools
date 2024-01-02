@@ -12,7 +12,7 @@ ShowChara 4 1 28
 # わたしの名前はピ
 # ョコラ＝アナロー
 # グV世ぴょ
-ShowTextBox "My name is Pyokora Analogue the 3rd, pyo."
+ShowTextBox "My name is Pyocola Analogue the 3rd, pyo."
 Wait 60
 ShowChara 4 0 29
 # かの有名な、ブラ
@@ -187,7 +187,7 @@ ShowChara 12 1 60
 # われらが首領、ピ
 # ョコラ＝アナロー
 # グV世のため、
-ShowTextBox "We, the loyal servants of Lady Pyokora Analogue the 3rd,"
+ShowTextBox "We, the loyal servants of Lady Pyocola Analogue the 3rd,"
 Wait 60
 ShowChara 12 2 60
 # 今日も明日もあさ
@@ -250,7 +250,7 @@ ShowTextBox "I'll start with myself, pyo!"
 # の首領、ピョコ
 # ラ＝アナローグ
 # V世ぴょっ！
-ShowTextBox "I am the leader of the Black Gema Gema Gang, Pyokora Analogue the 3rd, pyo!"
+ShowTextBox "I am the leader of the Black Gema Gema Gang, Pyocola Analogue the 3rd, pyo!"
 Wait 60
 ShowChara 4 0 29
 # ぴよこが来たから
@@ -269,7 +269,7 @@ Wait 60
 ShowChara 5 0 35
 # すべてはピョコラ
 # 様のために！
-ShowTextBox "All I do is for the sake of Lady Pyokora!"
+ShowTextBox "All I do is for the sake of Lady Pyocola!"
 Wait 60
 ShowChara 6 1 40
 # 自分はカイ・シュ
@@ -277,14 +277,14 @@ ShowChara 6 1 40
 # ちゅうじょう）。
 # ピョコラ様をお守
 # りする者！
-ShowTextBox "I am Lieutenant General Ky Schweitzer, sworn guardian of Lady Pyokora!"
+ShowTextBox "I am Lieutenant General Ky Schweitzer, sworn guardian of Lady Pyocola!"
 Wait 60
 ShowChara 6 0 40
 # ひきょうなデ・ジ
 # ・キャラット一味
 # からピョコラ様を
 # 守らねば…
-ShowTextBox "We must not fail to protect our Lady Pyokora from those DiGi Charat cowards!"
+ShowTextBox "We must not fail to protect our Lady Pyocola from those DiGi Charat cowards!"
 Wait 60
 ShowChara 7 2 47
 # 俺はクウ・エアハ
@@ -328,7 +328,7 @@ ShowChara 5 4 35
 # 交換して頂けたこ
 # とを光栄に思うの
 # だな
-ShowTextBox "It's a great honor for you to be personally invited to the Gang by Lady Pyokora."
+ShowTextBox "It's a great honor for you to be personally invited to the Gang by Lady Pyocola."
 WaitTextBox
 ShowChara 6 4 40
 # 今日よりアナタは

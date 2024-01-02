@@ -158,7 +158,7 @@ EndScript
 
 Subscript 23
 # 「自分はピョコラ様のため、仕事に全力を尽くしております！」
-ShowTextBox "\"I will give everything I have to this job, for Lady Pyokora's sake!\""
+ShowTextBox "\"I will give everything I have to this job, for Lady Pyocola's sake!\""
 EndScript
 
 

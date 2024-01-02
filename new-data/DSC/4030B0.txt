@@ -31,7 +31,7 @@ ShowChara 6 2 41
 # セットをプレゼン
 # トしたいと思いま
 # す
-ShowTextBox "Lady Pyokora's\ndental health is\nof the utmost\npriority. I\nrecommend a\nnew toothbrush."
+ShowTextBox "Lady Pyocola's\ndental health is\nof the utmost\npriority. I\nrecommend a\nnew toothbrush."
 WaitTextBox
 # ピョコラ様の歯ぐ
 # きを傷つけないよ
@@ -83,7 +83,7 @@ ShowChara 5 1 37
 # なる上は、このリ
 # クが命にかえても
 # …
-ShowTextBox "Ahh...\nForgive us,\nLady Pyokora!\nI'll just have\nto sell another\norgan or two..."
+ShowTextBox "Ahh...\nForgive us,\nLady Pyocola!\nI'll just have\nto sell another\norgan or two..."
 WaitTextBox
 ShowChara 6 2 43
 # リ、リク元帥、落
@@ -105,7 +105,7 @@ ShowChara 6 2 40
 # ちにプレゼントを
 # 買うお金をめぐん
 # でください！
-ShowTextBox "Please!\nLoan us the\nmoney to buy\nLady Pyokora\na birthday\ngift!"
+ShowTextBox "Please!\nLoan us the\nmoney to buy\nLady Pyocola\na birthday\ngift!"
 WaitTextBox
 ShowChara 7 2 47
 # 頼むよ、店長！俺
@@ -301,7 +301,7 @@ ShowChara 5 1 37
 # もうしわけなくて
 # ピョコラ様の前に
 # 立てん…
-ShowTextBox "I can't show\nmyself before\nLady Pyokora\nlike this.\nI'm a disgrace!"
+ShowTextBox "I can't show\nmyself before\nLady Pyocola\nlike this.\nI'm a disgrace!"
 WaitTextBox
 ShowChara 7 2 49
 # 店長、俺たちのこ
@@ -318,7 +318,7 @@ ShowChara 5 1 57
 # 店長がピョコラ様
 # に包みを手渡して
 # いる…？
-ShowTextBox "The Manager\njust handed a\npackage to Lady\nPyokora!"
+ShowTextBox "The Manager\njust handed a\npackage to Lady\nPyocola!"
 WaitTextBox
 ShowChara 7 2 58
 # あれって…もしか
@@ -332,7 +332,7 @@ Fade 2 30
 ShowChara 4 0 0
 # ハッピーバースデー、
 # ディア、ピョコラ～♪
-ShowTextBox "...\nHappy birthday\ndear Pyokora.. ♪"
+ShowTextBox "...\nHappy birthday\ndear Pyocola.. ♪"
 WaitTextBox
 # ハッピーバースデー、
 # トゥユー♪
@@ -379,7 +379,7 @@ ShowChara 5 1 35
 # ラ様と店長が、話
 # し合っているよう
 # だ
-ShowTextBox "It appears that\nLady Pyokora and\nthe Manager are\ndiscussing\nsomething..."
+ShowTextBox "It appears that\nLady Pyocola and\nthe Manager are\ndiscussing\nsomething..."
 WaitTextBox
 ShowChara 6 1 45
 # 何を話しているん
@@ -466,7 +466,7 @@ ShowChara 5 1 36
 # 我々には、もった
 # いないお言葉です
 # …ピョコラ様
-ShowTextBox "... We don't\ndeserve your\napology, Lady\nPyokora."
+ShowTextBox "... We don't\ndeserve your\napology, Lady\nPyocola."
 WaitTextBox
 ShowChara 6 1 41
 # 遅れましたが、ピ

@@ -111,7 +111,7 @@ WaitTextBox
 # ピョコラ様のイメ
 # ージにぴったりだ
 # と思いました…
-ShowTextBox "This kind of\npicture really\nsuits you,\nLady Pyokora."
+ShowTextBox "This kind of\npicture really\nsuits you,\nLady Pyocola."
 WaitTextBox
 ShowChara 7 2 48
 # いいなぁ、楽しか

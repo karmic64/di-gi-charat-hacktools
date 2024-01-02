@@ -83,7 +83,7 @@ WaitTextBox
 ShowChara 5 2 39
 # お任せください、
 # ピョコラ様
-ShowTextBox "Leave the\nmatter to us,\nLady Pyokora!"
+ShowTextBox "Leave the\nmatter to us,\nLady Pyocola!"
 WaitTextBox
 ShowChara 6 2 41
 # 必ずや、デ・ジ・

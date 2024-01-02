@@ -39,7 +39,7 @@ WaitTextBox
 ShowChara 5 2 36
 # ピョコラ様、準備
 # が整いました
-ShowTextBox "Lady Pyokora,\nthe preparations\nare complete."
+ShowTextBox "Lady Pyocola,\nthe preparations\nare complete."
 WaitTextBox
 ShowChara 4 1 29
 # ごくろうぴょ…そ
@@ -85,7 +85,7 @@ WaitTextBox
 ShowChara 6 0 0
 # ピョコラ様、記念写真
 # を撮りましょう！
-ShowTextBox "Lady Pyokora,\nallow me to\ntake a photo!"
+ShowTextBox "Lady Pyocola,\nallow me to\ntake a photo!"
 WaitTextBox
 ShowChara 4 0 0
 # ＯＫぴょ！

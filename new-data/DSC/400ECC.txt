@@ -24,7 +24,7 @@ WaitTextBox
 # を遊園地につれて
 # 行ってくれまいか
 # ？
-ShowTextBox "May I ask you\nto accompany\nLady Pyokora\nthere?"
+ShowTextBox "May I ask you\nto accompany\nLady Pyocola\nthere?"
 WaitTextBox
 ShowChara 5 0 36
 # 我々のことは気に
@@ -34,7 +34,7 @@ WaitTextBox
 # 大事なのは、ピョ
 # コラ様に楽しんで
 # いただくこと…
-ShowTextBox "The most\nimportant thing\nis that Lady\nPyokora enjoys\nherself..."
+ShowTextBox "The most\nimportant thing\nis that Lady\nPyocola enjoys\nherself..."
 WaitTextBox
 ShowChara 5 0 35
 # 話は以上だ…
@@ -145,7 +145,7 @@ ShowTextBox "Sorry, pyo.\n"
 WaitTextBox
 ShowChara 5 2 37
 # ピョコラ様…
-ShowTextBox "Lady Pyokora..."
+ShowTextBox "Lady Pyocola..."
 WaitTextBox
 ShowChara 4 1 29
 # 首領として当然の
@@ -179,7 +179,7 @@ WaitTextBox
 ShowChara 6 2 44
 # あっピョコラ様ッ
 # お弁当ーっ！
-ShowTextBox "Wait, Lady\nPyokora! Your\nlunch!"
+ShowTextBox "Wait, Lady\nPyocola! Your\nlunch!"
 WaitTextBox
 ShowChara 5 2 35
 # では店長、行って
@@ -220,7 +220,7 @@ WaitTextBox
 ShowChara 5 0 0
 # ピョ、ピョコラ様がそ
 # うおっしゃるなら…
-ShowTextBox "I-If Lady\nPyokora orders\nit, then I must\nobey..."
+ShowTextBox "I-If Lady\nPyocola orders\nit, then I must\nobey..."
 WaitTextBox
 # うわーーっ！
 ShowTextBox "Gaaaaah!"

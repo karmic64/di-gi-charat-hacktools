@@ -31,7 +31,7 @@ WaitTextBox
 ShowChara 5 0 39
 # では、ピョコラ様
 # をお呼びするか
-ShowTextBox "All that's left\nis to call over\nLady Pyokora."
+ShowTextBox "All that's left\nis to call over\nLady Pyocola."
 WaitTextBox
 Fade 3 30
 Unk08 4 128 64 64 108 10 3
@@ -52,7 +52,7 @@ ShowChara 5 0 0
 # はっ、ではまずピョコ
 # ラ様より天体望遠鏡を
 # お使いください
-ShowTextBox "Lady Pyokora,\nyou may use the\ntelescope first."
+ShowTextBox "Lady Pyocola,\nyou may use the\ntelescope first."
 WaitTextBox
 ShowChara 4 0 0
 # のぞくぴょ～

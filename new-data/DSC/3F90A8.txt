@@ -410,7 +410,7 @@ ShowChara 6 2 43
 # 、残念ながら、作
 # 戦は失敗のようで
 # す…
-ShowTextBox "Lady Pyokora,\nI'm afraid this\nstrategy was a\nfailure..."
+ShowTextBox "Lady Pyocola,\nI'm afraid this\nstrategy was a\nfailure..."
 WaitTextBox
 ShowChara 7 2 50
 # 空を飛ぶなんて、

@@ -15,7 +15,7 @@ ShowChara 5 2 35
 # だろう？先日から
 # ピョコラ様が不機
 # 嫌なご様子…
-ShowTextBox "I wonder what's\nthe matter with\nLady Pyokora?\nShe's been\nsteaming since\nlast morning..."
+ShowTextBox "I wonder what's\nthe matter with\nLady Pyocola?\nShe's been\nsteaming since\nlast morning..."
 WaitTextBox
 ShowChara 6 2 40
 # 困ったことに、団
@@ -29,7 +29,7 @@ ShowChara 5 2 35
 # …というわけでク
 # ウ、それとなく探
 # って欲しい
-ShowTextBox "... So, Coo,\nI leave finding\nthe cause of\nLady Pyokora's\nworries in your\nhands."
+ShowTextBox "... So, Coo,\nI leave finding\nthe cause of\nLady Pyocola's\nworries in your\nhands."
 WaitTextBox
 ShowChara 7 2 47
 # 分かった！
@@ -128,7 +128,7 @@ ShowChara 6 2 40
 # ピョコラ様を助け
 # 見守るのがわれら
 # の役目…
-ShowTextBox "Marshal Rik,\nit is our duty\nas Lady\nPyokora's\nservants to\nassist her."
+ShowTextBox "Marshal Rik,\nit is our duty\nas Lady\nPyocola's\nservants to\nassist her."
 WaitTextBox
 ShowChara 5 2 39
 # 店長、もうしわけ
@@ -171,7 +171,7 @@ WaitTextBox
 ShowChara 5 2 35
 # 仕方ない、他の策
 # を考えよう…
-ShowTextBox "I suppose we\nhave no choice\nbut to think of\na different way\nto appease\nLady Pyokora..."
+ShowTextBox "I suppose we\nhave no choice\nbut to think of\na different way\nto appease\nLady Pyocola..."
 WaitTextBox
 EndScript
 Label 0
@@ -247,7 +247,7 @@ ShowChara 6 2 44
 # 先は長いのですか
 # ら、そんなに急が
 # ずとも…
-ShowTextBox "Ah, Lady\nPyokora, don't\nrun ahead! We've\nstill got a long\nway to walk!"
+ShowTextBox "Ah, Lady\nPyocola, don't\nrun ahead! We've\nstill got a long\nway to walk!"
 WaitTextBox
 ShowChara 5 1 36
 # まぁ、クウもつい
