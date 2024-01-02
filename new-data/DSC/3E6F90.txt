@@ -102,7 +102,7 @@ ShowTextBox "The\n$1\nat\n$2 is\nsupposed to be\nreally tasty..."
 WaitTextBox
 ShowChara 2 0 23
 # アタシも１度でいいから食べてみたいわ♪
-ShowTextBox "!!! 3E6F90 16"
+ShowTextBox "I'd like to try it too, just once♪"
 WaitTextBox
 EndScript
 
