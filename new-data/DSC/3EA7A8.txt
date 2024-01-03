@@ -6,25 +6,25 @@ DSCBase $3EA7A8
 Subscript 0
 ShowChara 2 4 23
 # アタシ、昔$1を飼っていたことあるのよ
-ShowTextBox "!!! 3EA7A8 0"
+ShowTextBox "A long time ago, I used to have a pet $1."
 WaitTextBox
 # 店長さんは何か動物飼ってたりしました？
-ShowTextBox "!!! 3EA7A8 1"
+ShowTextBox "Manager, have you ever had a pet?"
 WaitTextBox
 # 飼ってたどうぶつ
-ShowTextPrompt 3 "!!! 3EA7A8 2"
+ShowTextPrompt 3 "Pet"
 JumpOnSelection 2 0 1 0
 Label 0
 ShowChara 2 0 23
 # $9ね、$9もかわいいわよね
-ShowTextBox "!!! 3EA7A8 3"
+ShowTextBox "A $9, they're cute."
 WaitTextBox
 EndScript
 Label 1
 ShowChara 2 0 22
 # ふーん、そうなの
 # 残念…
-ShowTextBox "!!! 3EA7A8 4"
+ShowTextBox "Hmm, is that so? Too bad..."
 WaitTextBox
 EndScript
 
@@ -33,22 +33,22 @@ EndScript
 Subscript 1
 ShowChara 2 4 22
 # ところで$1って何を食べるのかしら？
-ShowTextBox "!!! 3EA7A8 5"
+ShowTextBox "By the way, what does a $1 eat?"
 WaitTextBox
 # $1のエサ
-ShowTextPrompt 1 "!!! 3EA7A8 6"
+ShowTextPrompt 1 "$1 bait"
 JumpOnSelection 2 2 3 0
 Label 2
 ShowChara 2 0 23
 # さすが店長さん、物知りね
-ShowTextBox "!!! 3EA7A8 7"
+ShowTextBox "Good work, manager. You know a lot."
 WaitTextBox
 EndScript
 Label 3
 ShowChara 2 0 22
 # 知らない？
 # …うーん、なんだったかしら？
-ShowTextBox "!!! 3EA7A8 8"
+ShowTextBox "You don't know? Mmmmm... what was it?"
 WaitTextBox
 EndScript
 
@@ -57,29 +57,29 @@ EndScript
 Subscript 2
 ShowChara 2 4 23
 # アタシ、$1さんをとても尊敬してるの
-ShowTextBox "!!! 3EA7A8 9"
+ShowTextBox "I really respect $1."
 WaitTextBox
 ShowChara 2 0 22
 # 店長さんも、尊敬している人っています？
-ShowTextBox "!!! 3EA7A8 10"
+ShowTextBox "Manager, is there anyone you respect?"
 WaitTextBox
 # そんけいしている人
-ShowTextPrompt 0 "!!! 3EA7A8 11"
+ShowTextPrompt 0 "Person you respect"
 JumpOnSelection 2 4 5 0
 Label 4
 ShowChara 2 0 23
 # へー、あの人もとても素敵よね
-ShowTextBox "!!! 3EA7A8 12"
+ShowTextBox "Wow, they're really nice."
 WaitTextBox
 EndScript
 Label 5
 ShowChara 2 0 22
 # もしかして、店長さんも$1さんが好きなの？
-ShowTextBox "!!! 3EA7A8 13"
+ShowTextBox "Then, does that mean you like $1?"
 WaitTextBox
 ShowChara 2 0 23
 # アタシといっしょね
-ShowTextBox "!!! 3EA7A8 14"
+ShowTextBox "Me too."
 WaitTextBox
 EndScript
 
@@ -88,32 +88,32 @@ EndScript
 Subscript 3
 ShowChara 2 4 22
 # $1ってどこで作られてるのかしら？
-ShowTextBox "!!! 3EA7A8 15"
+ShowTextBox "Where do they make $1?"
 WaitTextBox
 # 誰か知ってる？
-ShowTextBox "!!! 3EA7A8 16"
+ShowTextBox "Does anyone know?"
 WaitTextBox
 # $1の原産地
-ShowTextPrompt 5 "!!! 3EA7A8 17"
+ShowTextPrompt 5 "$1 place"
 JumpOnSelection 2 6 7 0
 Label 6
 ShowChara 2 0 23
 # へえ、そうなんだ
-ShowTextBox "!!! 3EA7A8 18"
+ShowTextBox "Wow, is that true?"
 WaitTextBox
 # またひとつ賢くなっちゃったわ
-ShowTextBox "!!! 3EA7A8 19"
+ShowTextBox "I've gotten a little smarter."
 WaitTextBox
 EndScript
 Label 7
 ShowChara 3 4 17
 # $1の原産地は$2にゅ…
-ShowTextBox "!!! 3EA7A8 20"
+ShowTextBox "They make $1 at $2, nyu..."
 WaitTextBox
 ShowChara 2 4 22
 # へぇ…
 # よく知ってるわね
-ShowTextBox "!!! 3EA7A8 21"
+ShowTextBox "Wow...\nYou know a lot."
 WaitTextBox
 EndScript
 
@@ -122,24 +122,24 @@ EndScript
 Subscript 4
 ShowChara 2 4 22
 # ふう、やっと$1が終ったわ
-ShowTextBox "!!! 3EA7A8 22"
+ShowTextBox "Phew, I'm finally done the $1 job."
 WaitTextBox
 # 店長さん、まだ他にお仕事あります？
-ShowTextBox "!!! 3EA7A8 23"
+ShowTextBox "Manager, are there any other jobs to do?"
 WaitTextBox
 # うさだのしごと
-ShowTextPrompt 7 "!!! 3EA7A8 24"
+ShowTextPrompt 7 "Job for Usada"
 JumpOnSelection 2 8 9 0
 Label 8
 ShowChara 2 0 23
 # わかりました、すぐに始めますね
-ShowTextBox "!!! 3EA7A8 25"
+ShowTextBox "OK, I'll get on it right away."
 WaitTextBox
 EndScript
 Label 9
 ShowChara 2 0 23
 # それじゃあ、ひとやすみして、$2でも食べましょうか
-ShowTextBox "!!! 3EA7A8 26"
+ShowTextBox "Well then, I think I'll take a break and eat some $2."
 WaitTextBox
 EndScript
 
@@ -148,27 +148,27 @@ EndScript
 Subscript 5
 ShowChara 2 4 22
 # そういえばもうすぐ、$1の$2が見ごろの季節ね
-ShowTextBox "!!! 3EA7A8 27"
+ShowTextBox "Speaking of, soon it'll be the best time to see the $2 flowers at $1."
 WaitTextBox
 # 店長さんは好きな花とかある？
-ShowTextBox "!!! 3EA7A8 28"
+ShowTextBox "Manager, do you have a favorite flower?"
 WaitTextBox
 # 好きな花
-ShowTextPrompt 4 "!!! 3EA7A8 29"
+ShowTextPrompt 4 "Favorite flower"
 JumpOnSelection 2 10 11 0
 Label 10
 ShowChara 2 0 23
 # そうね、$9の花も咲くころね
-ShowTextBox "!!! 3EA7A8 30"
+ShowTextBox "I see. It's also time for the $9 flowers to bloom."
 WaitTextBox
 # 今度よかったら見に行かない？
-ShowTextBox "!!! 3EA7A8 31"
+ShowTextBox "If it's OK, won't you come to see them?"
 WaitTextBox
 EndScript
 Label 11
 ShowChara 2 0 22
 # あんまりお花とか興味ないんだ？
-ShowTextBox "!!! 3EA7A8 32"
+ShowTextBox "So you don't have much interest in flowers?"
 WaitTextBox
 EndScript
 
@@ -178,26 +178,26 @@ Subscript 6
 ShowChara 2 4 22
 # ふう～
 # 今日は$1が忙しくて、ノドが渇くわね
-ShowTextBox "!!! 3EA7A8 33"
+ShowTextBox "Phew~\nToday I've been so busy with the $1 job, I'm thirsty."
 WaitTextBox
 # なにか飲み物買って来ましょうか？
-ShowTextBox "!!! 3EA7A8 34"
+ShowTextBox "Won't you go and buy something to drink?"
 WaitTextBox
 # のみもの
-ShowTextPrompt 2 "!!! 3EA7A8 35"
+ShowTextPrompt 2 "Drink"
 JumpOnSelection 2 12 13 0
 Label 12
 ShowChara 2 0 22
 # $9ね
 # いいわね、アタシもそれにしようかしら？
-ShowTextBox "!!! 3EA7A8 36"
+ShowTextBox "$9? Alright, I think I'll go with that too."
 WaitTextBox
 EndScript
 Label 13
 ShowChara 2 0 25
 # …そう
 # じゃあ、アタシも遠慮しとくわ
-ShowTextBox "!!! 3EA7A8 37"
+ShowTextBox "...sure.\nWell then, I'll hold off too."
 WaitTextBox
 EndScript
 
@@ -206,35 +206,35 @@ EndScript
 Subscript 7
 ShowChara 2 4 22
 # そういえば、今日$1で$2のコンサートがあるんですってね
-ShowTextBox "!!! 3EA7A8 38"
+ShowTextBox "That reminds me, today $2 is going to have a concert at $1."
 WaitTextBox
 ShowChara 2 0 25
 # アタシも行ってみたいんだけど…
-ShowTextBox "!!! 3EA7A8 39"
+ShowTextBox "I'd like to go..."
 WaitTextBox
 ShowChara 2 0 22
 # 店長さんは、誰のコンサートなら行ってみたい？
-ShowTextBox "!!! 3EA7A8 40"
+ShowTextBox "Manager, whose concerts would you like to go to?"
 WaitTextBox
 # 好きなアーティスト
-ShowTextPrompt 0 "!!! 3EA7A8 41"
+ShowTextPrompt 0 "Favorite artist"
 JumpOnSelection 2 14 15 0
 Label 14
 ShowChara 2 0 26
 # え～～～！
 # 店長さんて$9のファンだったの？
-ShowTextBox "!!! 3EA7A8 42"
+ShowTextBox "Whaaaaat! You're a fan of $9?"
 WaitTextBox
 ShowChara 2 0 22
 # 意外ね…
-ShowTextBox "!!! 3EA7A8 43"
+ShowTextBox "I wasn't expecting that..."
 WaitTextBox
 EndScript
 Label 15
 ShowChara 2 0 22
 # 好きな歌手とかいないの…？
 # 仕事ひとすじなのね
-ShowTextBox "!!! 3EA7A8 44"
+ShowTextBox "You don't have a favorite singer...? You must be really devoted to your work."
 WaitTextBox
 EndScript
 
@@ -243,25 +243,25 @@ EndScript
 Subscript 8
 ShowChara 2 4 22
 # 今$1では、花がいっぱい咲いてるんですって
-ShowTextBox "!!! 3EA7A8 45"
+ShowTextBox "I heard that lots of flowers are blooming right now at $1."
 WaitTextBox
 # 何の花か知ってる？
-ShowTextBox "!!! 3EA7A8 46"
+ShowTextBox "Do you know what flowers?"
 WaitTextBox
 # しょくぶつ
-ShowTextPrompt 4 "!!! 3EA7A8 47"
+ShowTextPrompt 4 "Plant"
 JumpOnSelection 2 16 17 0
 Label 16
 ShowChara 2 0 23
 # へ～そうなんだ
 # 店長さんって物知りね
-ShowTextBox "!!! 3EA7A8 48"
+ShowTextBox "Wow, really? You know a lot, huh?"
 WaitTextBox
 EndScript
 Label 17
 ShowChara 2 0 25
 # …そう、知らないんだ
-ShowTextBox "!!! 3EA7A8 49"
+ShowTextBox "...I see, you don't know."
 WaitTextBox
 EndScript
 
@@ -270,36 +270,36 @@ EndScript
 Subscript 9
 ShowChara 2 4 22
 # アタシ『$1』って知ってるわよ
-ShowTextBox "!!! 3EA7A8 50"
+ShowTextBox "I know \"$1\"."
 WaitTextBox
 # たしか動物が活躍するマンガよね
-ShowTextBox "!!! 3EA7A8 51"
+ShowTextBox "If I remember correctly, animals play a big part in that manga."
 WaitTextBox
 ShowChara 2 0 56
 # どんな動物だったっけ？
-ShowTextBox "!!! 3EA7A8 52"
+ShowTextBox "What animal was it?"
 WaitTextBox
 # どうぶつ
-ShowTextPrompt 3 "!!! 3EA7A8 53"
+ShowTextPrompt 3 "Animal"
 JumpOnSelection 2 18 19 0
 Label 18
 ShowChara 2 0 23
 # そう、そうよ
 # $9だったわ！
-ShowTextBox "!!! 3EA7A8 54"
+ShowTextBox "Yes, yes! It was the $9!"
 WaitTextBox
 # いろんな$9がいっぱい出てくるのよね
-ShowTextBox "!!! 3EA7A8 55"
+ShowTextBox "A lot of various kinds of $9 appear in it."
 WaitTextBox
 EndScript
 Label 19
 ShowChara 2 0 22
 # 店長さんも知らないんなら、しょうがないか
-ShowTextBox "!!! 3EA7A8 56"
+ShowTextBox "Well, if even you don't know..."
 WaitTextBox
 ShowChara 2 0 55
 # もっとアタシも勉強しないとね
-ShowTextBox "!!! 3EA7A8 57"
+ShowTextBox "I guess I have to study more."
 WaitTextBox
 EndScript
 
@@ -308,32 +308,32 @@ EndScript
 Subscript 10
 ShowChara 2 4 22
 # $1の出身はすごいところなの
-ShowTextBox "!!! 3EA7A8 58"
+ShowTextBox "$1 was born in an amazing place."
 WaitTextBox
 # $1の出身地
-ShowTextPrompt 5 "!!! 3EA7A8 59"
+ShowTextPrompt 5 "$1's birthplace"
 JumpOnSelection 2 20 21 0
 Label 20
 ShowChara 2 0 23
 # そう、$9よ
-ShowTextBox "!!! 3EA7A8 60"
+ShowTextBox "I see, it was $9."
 WaitTextBox
 ShowChara 2 0 55
 # 意外すぎて、ちょ
 # っと驚いちゃうわ
 # よね
-ShowTextBox "!!! 3EA7A8 61"
+ShowTextBox "That's really unexpected! I'm a little surprised."
 WaitTextBox
 EndScript
 Label 21
 ShowChara 2 0 27
 # う～ん、どこだっ
 # たかしら？
-ShowTextBox "!!! 3EA7A8 62"
+ShowTextBox "Hmmm, where was it?"
 WaitTextBox
 # 思い出せないと悔
 # しいのよね～！
-ShowTextBox "!!! 3EA7A8 63"
+ShowTextBox "It's annoying when I can't remember~!"
 WaitTextBox
 EndScript
 
@@ -342,45 +342,45 @@ EndScript
 Subscript 11
 ShowChara 2 4 22
 # ねえ店長さん
-ShowTextBox "!!! 3EA7A8 64"
+ShowTextBox "Hey, Manager."
 WaitTextBox
 # 店長さんはひまな
 # 時何してるの？
-ShowTextBox "!!! 3EA7A8 65"
+ShowTextBox "What do you do in your free time?"
 WaitTextBox
 # ひまな時すること
-ShowTextPrompt 11 "!!! 3EA7A8 66"
+ShowTextPrompt 11 "Free time activity"
 JumpOnSelection 2 22 23 0
 Label 22
 ShowChara 2 0 23
 # へぇ～
 # $9なんて意外ね～
-ShowTextBox "!!! 3EA7A8 67"
+ShowTextBox "Wow~ I wasn't expecting you to do $9~"
 WaitTextBox
 ShowChara 2 0 56
 # そんな風には見えないけど…
-ShowTextBox "!!! 3EA7A8 68"
+ShowTextBox "You don't really look like you'd be into that..."
 WaitTextBox
 EndScript
 Label 23
 ShowChara 2 0 55
 # …そうよね～
-ShowTextBox "!!! 3EA7A8 69"
+ShowTextBox "...I see~"
 WaitTextBox
 # 何をするにもお金
 # がかかるもんね
-ShowTextBox "!!! 3EA7A8 70"
+ShowTextBox "Doing anything costs money, right?"
 WaitTextBox
 ShowChara 2 0 22
 # 家で勉強とか読書
 # してた方がマシよ
 # ね
-ShowTextBox "!!! 3EA7A8 71"
+ShowTextBox "Studying or reading in your house is better, right?"
 WaitTextBox
 ShowChara 2 0 25
 # でも時々、息抜き
 # は必要かしら…
-ShowTextBox "!!! 3EA7A8 72"
+ShowTextBox "However, I think that you need to relax sometimes..."
 WaitTextBox
 EndScript
 
@@ -389,23 +389,23 @@ EndScript
 Subscript 12
 ShowChara 2 4 55
 # 今日その$1がマンガを買って行ったわ
-ShowTextBox "!!! 3EA7A8 73"
+ShowTextBox "Today, $1 came and bought a manga."
 WaitTextBox
 # 何てタイトルか知ってる？
-ShowTextBox "!!! 3EA7A8 74"
+ShowTextBox "Do you know its title?"
 WaitTextBox
 # マンガ
-ShowTextPrompt 9 "!!! 3EA7A8 75"
+ShowTextPrompt 9 "Manga"
 JumpOnSelection 2 24 25 0
 Label 24
 ShowChara 2 0 55
 # そう、よりにもよって『$9』なのよ
-ShowTextBox "!!! 3EA7A8 76"
+ShowTextBox "Yes, of all things, it was \"$9\"."
 WaitTextBox
 ShowChara 2 0 25
 # アタシの抱いてた
 # 理想が…ああ…
-ShowTextBox "!!! 3EA7A8 77"
+ShowTextBox "My dearly-held image of them...aaaah..."
 WaitTextBox
 EndScript
 Label 25
@@ -413,11 +413,11 @@ ShowChara 2 0 55
 # …そうよね～
 # 知ってるはずない
 # わよね
-ShowTextBox "!!! 3EA7A8 78"
+ShowTextBox "...I see~\nI shouldn't expect you to know."
 WaitTextBox
 # 知らない方が幸せ
 # だったのかも…
-ShowTextBox "!!! 3EA7A8 79"
+ShowTextBox "Perhaps I'd be happier if I didn't know..."
 WaitTextBox
 EndScript
 
@@ -426,26 +426,26 @@ EndScript
 Subscript 13
 ShowChara 2 4 22
 # いろんな$1を紹介してるテレビ番組があるんですってね
-ShowTextBox "!!! 3EA7A8 80"
+ShowTextBox "There's a TV show that showcases a lot of various kinds of $1."
 WaitTextBox
 # なんて番組か知ってる？
-ShowTextBox "!!! 3EA7A8 81"
+ShowTextBox "Do you know what show?"
 WaitTextBox
 # テレビばんぐみ
-ShowTextPrompt 8 "!!! 3EA7A8 82"
+ShowTextPrompt 8 "TV show"
 JumpOnSelection 2 26 27 0
 Label 26
 ShowChara 2 0 23
 # そうそう！
 # 『$9』！
-ShowTextBox "!!! 3EA7A8 83"
+ShowTextBox "Yes, yes! \"$9\"!"
 WaitTextBox
 # おかげであの番組視聴率いいらしいわよ
-ShowTextBox "!!! 3EA7A8 84"
+ShowTextBox "It seems to be getting really good ratings!"
 WaitTextBox
 # アタシも見なくっ
 # ちゃ！
-ShowTextBox "!!! 3EA7A8 85"
+ShowTextBox "I have to watch it too!"
 WaitTextBox
 EndScript
 Label 27
@@ -453,14 +453,14 @@ ShowChara 2 0 26
 # えッ！？
 # 店長さん知らない
 # の～！？
-ShowTextBox "!!! 3EA7A8 86"
+ShowTextBox "What?! You don't know~?!"
 WaitTextBox
 ShowChara 2 0 55
 # ハァ…
 # たまには世間って
 # ものにも注目して
 # ください
-ShowTextBox "!!! 3EA7A8 87"
+ShowTextBox "*sigh*... Please be more attentive to the world around you every once in a while!"
 WaitTextBox
 EndScript
 
@@ -469,25 +469,25 @@ EndScript
 Subscript 14
 ShowChara 2 4 22
 # 最近$1は$2の食べすぎで太ったのよね
-ShowTextBox "!!! 3EA7A8 88"
+ShowTextBox "Recently, $1 has been getting fat because they've been eating too much $2."
 WaitTextBox
 # しかも変な乗り物
 # にも乗ってるから
 # さらに運動不足…
-ShowTextBox "!!! 3EA7A8 89"
+ShowTextBox "They've been riding a strange vehicle and not getting enough exercise..."
 WaitTextBox
 # のりもの
-ShowTextPrompt 10 "!!! 3EA7A8 90"
+ShowTextPrompt 10 "Vehicle"
 JumpOnSelection 2 28 29 0
 Label 28
 ShowChara 2 0 23
 # そうそう…真っ赤な$9に乗ってるのよ
-ShowTextBox "!!! 3EA7A8 91"
+ShowTextBox "Yes, yes... They've been riding a red $9."
 WaitTextBox
 ShowChara 2 0 55
 # ここだけの話…
 # あれって似合ってないわよね
-ShowTextBox "!!! 3EA7A8 92"
+ShowTextBox "Don't tell anyone else, but... it doesn't really suit them."
 WaitTextBox
 EndScript
 Label 29
@@ -495,7 +495,7 @@ ShowChara 2 0 24
 # ちょっと店長さん
 # アタシの話ちゃん
 # と聞いてる？
-ShowTextBox "!!! 3EA7A8 93"
+ShowTextBox "Hold on, are you even listening to what I'm saying?"
 WaitTextBox
 EndScript
 
@@ -505,35 +505,35 @@ Subscript 15
 ShowChara 2 4 22
 # $1かあ…
 # たしか人気テーマパークがあるのよね～
-ShowTextBox "!!! 3EA7A8 94"
+ShowTextBox "$1... I remember there's a popular theme park there~"
 WaitTextBox
 ShowChara 2 0 56
 # なんてとこだったかしら？
-ShowTextBox "!!! 3EA7A8 95"
+ShowTextBox "What was it called?"
 WaitTextBox
 # テーマパーク
-ShowTextPrompt 6 "!!! 3EA7A8 96"
+ShowTextPrompt 6 "Theme park"
 JumpOnSelection 2 30 31 0
 Label 30
 ShowChara 2 0 23
 # そうそう、$9！
-ShowTextBox "!!! 3EA7A8 97"
+ShowTextBox "Yes, yes, $9!"
 WaitTextBox
 # あそこってとって
 # も楽しいアトラク
 # ションがいっぱい
 # あるんだってね♪
-ShowTextBox "!!! 3EA7A8 98"
+ShowTextBox "I heard that there're a lot of very fun attractions there♪"
 WaitTextBox
 EndScript
 Label 31
 ShowChara 2 0 25
 # 知らないんですか
 # ？
-ShowTextBox "!!! 3EA7A8 99"
+ShowTextBox "So you don't know?"
 WaitTextBox
 # 意外に遅れてるん
 # だ…
-ShowTextBox "!!! 3EA7A8 100"
+ShowTextBox "I wasn't expecting you to be so behind the times..."
 WaitTextBox
 EndScript
