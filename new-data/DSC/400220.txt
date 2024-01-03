@@ -148,7 +148,7 @@ ShowChara 6 2 46
 # としたら自分が行
 # きたいだけだった
 # り…）
-ShowTextBox "(Don't be so\nselfish,\nKuu...)"
+ShowTextBox "(Don't be so\nselfish,\nCoo...)"
 WaitTextBox
 # ゆるす
 # だめ！

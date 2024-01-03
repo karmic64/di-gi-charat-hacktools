@@ -6,32 +6,32 @@ DSCBase $3EA274
 Subscript 0
 ShowChara 5 4 35
 # ムッ…あそこで『$1』を立ち読みしている人物は…
-ShowTextBox "!!! 3EA274 0"
+ShowTextBox "Mmmh...someone was reading \"$1\" over there..."
 WaitTextBox
 # 立ち読みしている人
-ShowTextPrompt 0 "!!! 3EA274 1"
+ShowTextPrompt 0 "Reader's name"
 JumpOnSelection 2 0 1 0
 Label 0
 ShowChara 5 0 36
 # そうだ…私同様、
 # こよなく$2を愛する$9…
-ShowTextBox "!!! 3EA274 2"
+ShowTextBox "$9, I see... Just like me, he loves $2 more than anything else..."
 WaitTextBox
 ShowChara 5 0 39
 # しかし、私がいる
 # 限り『$2博士』の称号は、私のものだ
-ShowTextBox "!!! 3EA274 3"
+ShowTextBox "However, for as long as I live, the title of \"$2 expert\" is mine."
 WaitTextBox
 EndScript
 Label 1
 ShowChara 5 0 37
 # はて…思い出せな
 # い…誰だ？
-ShowTextBox "!!! 3EA274 4"
+ShowTextBox "Well...I can't remember...who was it?"
 WaitTextBox
 ShowChara 5 0 36
 # まあいいか…
-ShowTextBox "!!! 3EA274 5"
+ShowTextBox "Meh, whatever..."
 WaitTextBox
 EndScript
 
@@ -41,27 +41,27 @@ Subscript 1
 ShowChara 5 4 35
 # $1と言うと有名なテーマパークがあったな
 # 店長、知っているか？
-ShowTextBox "!!! 3EA274 6"
+ShowTextBox "About $1, there was a famous theme park there. Manager, do you know?"
 WaitTextBox
 # テーマパーク
-ShowTextPrompt 6 "!!! 3EA274 7"
+ShowTextPrompt 6 "Theme park"
 JumpOnSelection 2 2 3 0
 Label 2
 ShowChara 5 0 36
 # そう、$9だ
 # 別名『$2の楽園』と呼ばれる聖地…
-ShowTextBox "!!! 3EA274 8"
+ShowTextBox "Yes, $9. A holy place, also known as the \"$2 Paradise\"..."
 WaitTextBox
 ShowChara 5 0 65
 # 一度行ってみたいものだ♪
-ShowTextBox "!!! 3EA274 9"
+ShowTextBox "I would love to go there once♪"
 WaitTextBox
 EndScript
 Label 3
 ShowChara 5 0 37
 # 知らないものはし
 # かたない…
-ShowTextBox "!!! 3EA274 10"
+ShowTextBox "Well, if you don't know..."
 WaitTextBox
 EndScript
 
@@ -70,36 +70,36 @@ EndScript
 Subscript 2
 ShowChara 5 4 35
 # $1とは意外な果物を主食としているのだ
-ShowTextBox "!!! 3EA274 11"
+ShowTextBox "The $1 has a strange fruit as a main part of its diet."
 WaitTextBox
 ShowChara 5 0 39
 # …店長が知ってるわけないか
-ShowTextBox "!!! 3EA274 12"
+ShowTextBox "...Manager, there's no way you'd know, right?"
 WaitTextBox
 # くだもの
-ShowTextPrompt 1 "!!! 3EA274 13"
+ShowTextPrompt 1 "Fruit"
 JumpOnSelection 2 4 5 0
 Label 4
 ShowChara 5 0 57
 # な、なぜ、知って
 # いる？
-ShowTextBox "!!! 3EA274 14"
+ShowTextBox "H-how do you know that?"
 WaitTextBox
 # まさか私の『$1博士』の称号を狙っているのでは…
-ShowTextBox "!!! 3EA274 15"
+ShowTextBox "Could it be... you're after my title of \"$1 Expert\"..."
 WaitTextBox
 EndScript
 Label 5
 ShowChara 5 0 39
 # フフフ…分かるま
 # い
-ShowTextBox "!!! 3EA274 16"
+ShowTextBox "Hehehe... So you don't know."
 WaitTextBox
 ShowChara 5 0 38
 # この私に勝とうな
 # どと１０万年早い
 # わ！
-ShowTextBox "!!! 3EA274 17"
+ShowTextBox "It's a million years too early for you to beat me!"
 WaitTextBox
 EndScript
 
@@ -108,24 +108,24 @@ EndScript
 Subscript 3
 ShowChara 5 4 35
 # 今週私が見た『$1』には$2が映っていたぞ
-ShowTextBox "!!! 3EA274 18"
+ShowTextBox "Last week, I saw a $2 on \"$1\"!"
 WaitTextBox
 ShowChara 5 0 37
 # とても愛らしかった…ハァ@
-ShowTextBox "!!! 3EA274 19"
+ShowTextBox "It was so cute... ahhh..."
 WaitTextBox
 ShowChara 5 0 36
 # 来週はもっとかわいいらしいぞ
-ShowTextBox "!!! 3EA274 20"
+ShowTextBox "It'll be more cute this week!"
 WaitTextBox
 # どうぶつ
-ShowTextPrompt 3 "!!! 3EA274 21"
+ShowTextPrompt 3 "Animal"
 JumpOnSelection 2 6 7 0
 Label 6
 ShowChara 5 0 39
 # そう！$9だ
 # これはビデオに撮るしかないだろう
-ShowTextBox "!!! 3EA274 22"
+ShowTextBox "Yes, a $9! I've gotta get that on video."
 WaitTextBox
 EndScript
 Label 7
@@ -133,7 +133,7 @@ ShowChara 5 0 39
 # これは私だけの楽
 # しみ…簡単には教
 # えられん…
-ShowTextBox "!!! 3EA274 23"
+ShowTextBox "It's my own interest... You wouldn't understand."
 WaitTextBox
 EndScript
 
@@ -142,24 +142,24 @@ EndScript
 Subscript 4
 ShowChara 5 4 35
 # $1をした後は、冷たい飲み物で体をいやしたいものだ
-ShowTextBox "!!! 3EA274 24"
+ShowTextBox "After doing the $1 job, I'd like to heal my body with a cold drink."
 WaitTextBox
 # のみもの
-ShowTextPrompt 2 "!!! 3EA274 25"
+ShowTextPrompt 2 "Drink"
 JumpOnSelection 2 8 9 0
 Label 8
 ShowChara 5 0 36
 # そう…$9もいいな
 # しかし、私として
 # は$2が好きだ
-ShowTextBox "!!! 3EA274 26"
+ShowTextBox "I see...$9 is good. However, I like $2 more."
 WaitTextBox
 EndScript
 Label 9
 ShowChara 5 0 37
 # 水分は大切だぞ、店長
 # …体を大事しろ
-ShowTextBox "!!! 3EA274 27"
+ShowTextBox "It's important to stay hydrated, Manager. Take your body seriously."
 WaitTextBox
 EndScript
 
@@ -168,26 +168,26 @@ EndScript
 Subscript 5
 ShowChara 5 4 35
 # そういえば…クウあてに$1から荷物が来ていたな
-ShowTextBox "!!! 3EA274 28"
+ShowTextBox "Speaking of...a package for Coo came in from $1."
 WaitTextBox
 # 店長、中身は…？
-ShowTextBox "!!! 3EA274 29"
+ShowTextBox "Manager, what's inside...?"
 WaitTextBox
 # しょくぶつ
-ShowTextPrompt 4 "!!! 3EA274 30"
+ShowTextPrompt 4 "Plant"
 JumpOnSelection 2 10 11 0
 Label 10
 ShowChara 5 0 37
 # $9の花束？
-ShowTextBox "!!! 3EA274 31"
+ShowTextBox "A bouquet of $9 flowers?"
 WaitTextBox
 ShowChara 5 0 39
 # フッ…もうそんな季節か
-ShowTextBox "!!! 3EA274 32"
+ShowTextBox "Heh...it's already that season, huh."
 WaitTextBox
 ShowChara 5 0 64
 # （しかしなぜ…？）
-ShowTextBox "!!! 3EA274 33"
+ShowTextBox "(but why...?)"
 WaitTextBox
 EndScript
 Label 11
@@ -195,13 +195,13 @@ ShowChara 5 0 64
 # え…と、この花の
 # 名前は…？
 # なんだっけ？
-ShowTextBox "!!! 3EA274 34"
+ShowTextBox "Umm... what was the name of this flower?"
 WaitTextBox
 ShowChara 5 0 36
 # ま、まあいい……
 # クウに渡しておこ
 # う
-ShowTextBox "!!! 3EA274 35"
+ShowTextBox "Well, whatever... I'll hand it over to Coo."
 WaitTextBox
 EndScript
 
@@ -210,33 +210,33 @@ EndScript
 Subscript 6
 ShowChara 5 4 35
 # $1は寒い国でしか生存できない動物だ
-ShowTextBox "!!! 3EA274 36"
+ShowTextBox "The $1 cannot survive outside of a cold country."
 WaitTextBox
 # どこだか知っているか？
-ShowTextBox "!!! 3EA274 37"
+ShowTextBox "Do you know where?"
 WaitTextBox
 # さむいくに
-ShowTextPrompt 5 "!!! 3EA274 38"
+ShowTextPrompt 5 "Cold country"
 JumpOnSelection 2 12 13 0
 Label 12
 ShowChara 5 0 57
 # …………………。
-ShowTextBox "!!! 3EA274 39"
+ShowTextBox "........。"
 WaitTextBox
 ShowChara 5 0 39
 # 少しは学んだよう
 # だな…これも私の
 # おかげ…感謝しろ
-ShowTextBox "!!! 3EA274 40"
+ShowTextBox "It seems you've learned a little...thanks to me. Show your gratitude."
 WaitTextBox
 EndScript
 Label 13
 ShowChara 5 0 39
 # おろかな…こんな簡単なことも知らないのか？
-ShowTextBox "!!! 3EA274 41"
+ShowTextBox "Stupid... you don't know even a simple thing like this?"
 WaitTextBox
 ShowChara 5 0 57
 # $1のお家は$2に決まっているだろう！
-ShowTextBox "!!! 3EA274 42"
+ShowTextBox "Of course the $1 lives in $2!"
 WaitTextBox
 EndScript
