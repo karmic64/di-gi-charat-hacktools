@@ -196,7 +196,7 @@ Subscript 10
 ShowChara 7 2 49
 # ‚Ó```
 # $1‚Î‚©‚è‚µ‚Ä‚é‚ÆA”æ‚ê‚é‚º
-ShowTextBox "Bleh...\nI'm getting\ntired of\nplaying\n$1."
+ShowTextBox "Bleh...\nI'm getting\ntired of\ndoing\n$1."
 WaitTextBox
 ShowChara 7 0 48
 # ‚ÜA‚±‚ñ‚È‚Í$2‚Å‚àˆù‚ñ‚Å‚Ğ‚Æ‚â‚·‚İ‚¾‚È

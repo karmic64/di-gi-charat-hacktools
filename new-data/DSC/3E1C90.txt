@@ -259,7 +259,7 @@ EndScript
 Subscript 13
 ShowChara 1 4 16
 # $1なら『$2』で$3してたにょ～
-ShowTextBox "I saw $1\nplaying\n$3 on\n$2, nyo."
+ShowTextBox "I saw $1 doing $3 on $2, nyo."
 WaitTextBox
 ShowChara 1 0 9
 # ハッスルプレイで
@@ -366,7 +366,7 @@ EndScript
 Subscript 21
 ShowChara 1 4 8
 # $1を飲みながら$2すると危険だにょ！
-ShowTextBox "It's dangerous\nto drink\n$1 and\nplay $2,\nnyo!"
+ShowTextBox "It's dangerous\nto drink\n$1 and\ndo $2,\nnyo!"
 WaitTextBox
 ShowChara 1 0 16
 # 気分悪くなるにょ～
@@ -451,10 +451,10 @@ EndScript
 Subscript 25
 ShowChara 1 4 8
 # 『$1』とは、デ・ジ・キャラット星では王族だけが許された遊びにょ！
-ShowTextBox "On Planet\nDiGi Charat,\nonly royalty can\nplay\n$1,\nnyo!"
+ShowTextBox "On Planet DiGi Charat, only royalty can do $1, nyo!"
 WaitTextBox
 ShowChara 1 0 16
 # 小市民には高級すぎるにょ～
-ShowTextBox "The themes are\ntoo subtle for\nignorant\ncommoners to\nappreciate,\nnyo~"
+ShowTextBox "It's too high-class for ignorant commoners, nyo~"
 WaitTextBox
 EndScript

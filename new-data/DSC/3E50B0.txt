@@ -191,7 +191,7 @@ Subscript 7
 ShowChara 6 1 41
 # Ç”Ç§Å`
 # $1ÇµÇΩÇ†Ç∆ÇÕÅA$2Ç™Ç®Ç¢ÇµÇ¢Ç≈Ç∑
-ShowTextBox "Ahh...\nA little\n$2\nafter playing\n$1\nhits the spot."
+ShowTextBox "Ahh...\nA little\n$2\nafter doing\n$1\nhits the spot."
 WaitTextBox
 ShowChara 6 0 46
 # Ç†Å`Å`Å`Ç¡ÅIÅI

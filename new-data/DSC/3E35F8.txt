@@ -108,7 +108,7 @@ ShowTextBox "$1\nhas come into\nquite a sum of\nmoney recently."
 WaitTextBox
 ShowChara 5 0 36
 # ‰Æ‚ÅŽ”‚Á‚Ä‚¢‚é$2‚É$3‚Ü‚Å‚³‚¹‚Ä‚¢‚é‚ç‚µ‚¢
-ShowTextBox "I've heard they\neven bought a\n$2\nthat can play\n$3.\nRidiculous..."
+ShowTextBox "I've heard they\neven bought a\n$2\nthat can do\n$3.\nRidiculous..."
 WaitTextBox
 EndScript
 

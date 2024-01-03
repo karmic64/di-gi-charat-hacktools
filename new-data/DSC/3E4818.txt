@@ -267,7 +267,7 @@ ShowChara 1 2 8
 ShowTextBox "I'm gonna watch\n$1\nafter work, nyo."
 WaitTextBox
 # なんでも、$2が$3まで$4しながら旅する番組らしいにょ
-ShowTextBox "$2\nhas to make it\nto $3\nwhile playing\n$4,\nnyo."
+ShowTextBox "$2\nhas to make it\nto $3\nwhile doing\n$4,\nnyo."
 WaitTextBox
 ShowChara 1 0 9
 # 楽しみだにょ！
@@ -353,7 +353,7 @@ WaitTextBox
 ShowChara 1 0 15
 # にょッ！？
 # 店の外で$1が$2してるにょ！！
-ShowTextBox "Nyo!?\n$1\nis playing\n$2\noutside the\nshop, nyo!"
+ShowTextBox "Nyo!?\n$1\nis doing\n$2\noutside the\nshop, nyo!"
 WaitTextBox
 EndScript
 
@@ -403,7 +403,7 @@ EndScript
 Subscript 24
 ShowChara 1 2 8
 # 近頃$1では$2に乗りながら$3するのが、ブームらしいにょ
-ShowTextBox "Playing\n$3\nwhile riding a\n$2 in\n$3 is\nthe new thing."
+ShowTextBox "Doing\n$3\nwhile riding a\n$2 in\n$3 is\nthe new thing."
 WaitTextBox
 ShowChara 1 0 12
 # でもちょっとアブナイにょ～

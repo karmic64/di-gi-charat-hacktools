@@ -327,7 +327,7 @@ EndScript
 Subscript 22
 ShowChara 3 4 17
 # ‚Ù‚Á‚¯‚İ‚è‚ñ‚ª$1‚µ‚½‚¢‚Á‚ÄŒ¾‚Á‚Ä‚é‚É‚ã
-ShowTextBox "Hokke Mirin told\nme they want to\nplay\n$1,\nnyu."
+ShowTextBox "Hokke Mirin told\nme they want to\ndo\n$1,\nnyu."
 WaitTextBox
 # ‚¿‚å‚Á‚Æ‚¨‚Å‚©‚¯‚µ‚Ä—ˆ‚Ä‚¢‚¢‚©‚É‚ãH
 ShowTextBox "Is it okay if\nwe take a break\nfor a bit,\nManager?"
@@ -339,7 +339,7 @@ EndScript
 Subscript 23
 ShowChara 3 4 17
 # ¡A‚Õ‚¿‚±$1‚Éæ‚Á‚Ä$2‚Å$3‚µ‚Ä‚İ‚½‚¢‚É‚ã
-ShowTextBox "I was playing\n$3\nwhile riding a\n$1\nin $2,\nnyu."
+ShowTextBox "I was doing\n$3\nwhile riding a\n$1\nin $2,\nnyu."
 WaitTextBox
 ShowChara 3 0 21
 # ‚Å‚à$2‚Í$4‚ª‚¢‚Á‚Ï‚¢‚¢‚é‚©‚ç‹C‚ğ‚Â‚¯‚é‚É‚ã

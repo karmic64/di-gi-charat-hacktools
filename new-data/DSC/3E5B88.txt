@@ -101,7 +101,7 @@ ShowChara 3 1 17
 ShowTextBox "I saw a\n$2\nin\n$1,\nnyu."
 WaitTextBox
 # Ç´Ç¡Ç∆$3ÇµÇ…óàÇƒÇΩÇÒÇæÇ…Ç„
-ShowTextBox "They probably\nwent to play\n$3,\nnyu."
+ShowTextBox "They probably\nwent to do\n$3,\nnyu."
 WaitTextBox
 EndScript
 
@@ -324,7 +324,7 @@ ShowTextBox "That's\namazing, nyu!"
 WaitTextBox
 ShowChara 3 0 17
 # ÇŸÇ¡ÇØÇ›ÇËÇÒÇ™$1Ç≈$2ÇµÇƒÇÈ$3Çå©ÇΩÇÁÇµÇ¢Ç…Ç„ÅI
-ShowTextBox "Hokke Mirin\nsaw\n$2\nat\n$1,\nnyu!"
+ShowTextBox "Hokke Mirin saw $3 doing $2 at $1, nyu!"
 WaitTextBox
 ShowChara 10 4 6
 # Ç…Ç·Å`Å`Å`

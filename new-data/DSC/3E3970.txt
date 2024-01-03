@@ -207,7 +207,7 @@ ShowChara 2 4 23
 ShowTextBox "Oh, yeah.\nI remember\n$1."
 WaitTextBox
 # ¬‚³‚¢ A‚æ‚­‚â‚Á‚½‚í
-ShowTextBox "I used to play\nthat all the\ntime when I was\na kid. Ahh,\nmemories..."
+ShowTextBox "I used to do\nthat all the\ntime when I was\na kid. Ahh,\nmemories..."
 WaitTextBox
 EndScript
 
@@ -303,7 +303,7 @@ Subscript 23
 ShowChara 2 4 55
 # ‚Ó‚¤`
 # ‚±‚Ì‹GßA$1‚·‚é‚Ì‚Á‚Ä”æ‚ê‚é‚í‚æ‚Ë
-ShowTextBox "Playing\n$1\naround this time\nof year just\nmakes me tired."
+ShowTextBox "Doing\n$1\naround this time\nof year just\nmakes me tired."
 WaitTextBox
 ShowChara 2 0 24
 # ‚È‚É‚ª‚Á‚ÄA‚Æ‚É‚©‚­‚Ù‚±‚è‚ª–Ú‚É“ü‚Á‚Ä‘å•Ï‚È‚Ì`

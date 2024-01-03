@@ -114,7 +114,7 @@ ShowChara 2 1 27
 ShowTextBox "Gaaaaahh!!"
 WaitTextBox
 # 昨日『$1』で$2が$3してたの見損ねちゃった～
-ShowTextBox "I missed\n$2\nplaying\n$3 on\n$1\nlast night!"
+ShowTextBox "I missed\n$2\ndoing\n$3 on\n$1\nlast night!"
 WaitTextBox
 ShowChara 2 0 25
 # 今日学校ですごく評判よかったの
@@ -345,7 +345,7 @@ Subscript 23
 ShowChara 2 2 25
 # ふ～…
 # 今日学校で$1したの
-ShowTextBox "Phew...\nWe played\n$1\ntoday at\nschool."
+ShowTextBox "Phew...\nWe did\n$1\ntoday at\nschool."
 WaitTextBox
 ShowChara 2 0 22
 # あれって意外と楽しいわね♪
