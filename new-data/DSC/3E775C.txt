@@ -644,7 +644,7 @@ ShowTextBox "Yes, $9, nyo!"
 WaitTextBox
 ShowChara 1 0 10
 # ‚Å‚¶‚±‚à–ˆ“ú$9‚ğH‚×‚Ä’·¶‚«‚·‚é‚É‚åI
-ShowTextBox "I'll also eat $9 every day for a long life, nyo!"
+ShowTextBox "I'll also eat some $9 every day for a long life, nyo!"
 WaitTextBox
 EndScript
 Label 31
