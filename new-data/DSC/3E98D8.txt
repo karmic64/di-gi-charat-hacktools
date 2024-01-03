@@ -8,37 +8,37 @@ ShowChara 4 4 30
 # ぴょ～
 # おなか空いたぴょ
 # ～
-ShowTextBox "!!! 3E98D8 0"
+ShowTextBox "Pyo~ I'm hungry, pyo~"
 WaitTextBox
 # $1しすぎで、おなかペコペコぴょ！
 # もう動けないぴょ！
-ShowTextBox "!!! 3E98D8 1"
+ShowTextBox "I did the $1 job too much, and I'm starving, pyo! I can't move any more, pyo!"
 WaitTextBox
 ShowChara 4 0 34
 # 店長さん、何かおごるぴょ！
-ShowTextBox "!!! 3E98D8 2"
+ShowTextBox "Manager, give me some food, pyo!"
 WaitTextBox
 # たべもの
-ShowTextPrompt 1 "!!! 3E98D8 3"
+ShowTextPrompt 1 "Food"
 JumpOnSelection 2 0 1 0
 Label 0
 ShowChara 4 0 29
 # わ～～～い！
 # 店長さんが$9おごってくれるぴょ～
-ShowTextBox "!!! 3E98D8 4"
+ShowTextBox "Yaaaaaay! The manager gave me some $9, pyo~"
 WaitTextBox
 # さっそく$2に出かけるぴょ
-ShowTextBox "!!! 3E98D8 5"
+ShowTextBox "I'm gonna go to $2 right now, pyo."
 WaitTextBox
 ShowChara 5 4 35
 # $2は危険な場所…
 # 私もご一緒いたします
-ShowTextBox "!!! 3E98D8 6"
+ShowTextBox "$2 is a dangerous place... I will accompany you."
 WaitTextBox
 ShowChara 7 4 48
 # じゃあ、当然俺も
 # 行かなきゃな
-ShowTextBox "!!! 3E98D8 7"
+ShowTextBox "Well, I guess I have to go too."
 WaitTextBox
 ShowChara 6 4 43
 # ふ、ふたりとも行
@@ -46,29 +46,29 @@ ShowChara 6 4 43
 # が店番するのです
 # か？
 # じ、自分ですか？
-ShowTextBox "!!! 3E98D8 8"
+ShowTextBox "B-but if you two go, who's gonna tend to the store? M-me?"
 WaitTextBox
 ShowChara 4 4 29
 # カイだけ置いて行
 # けないぴょ！
-ShowTextBox "!!! 3E98D8 9"
+ShowTextBox "We can't leave Ky behind, pyo!"
 WaitTextBox
 # 店長さん
 # $2行きは、また今度にするぴょ！
-ShowTextBox "!!! 3E98D8 10"
+ShowTextBox "Manager, we'll go to $2 another time, pyo!"
 WaitTextBox
 EndScript
 Label 1
 ShowChara 4 0 34
 # ダメぴょ？
-ShowTextBox "!!! 3E98D8 11"
+ShowTextBox "I can't have anything, pyo?"
 WaitTextBox
 ShowChara 4 0 30
 # わかったぴょ…
 # ぴよこ、ガリガリ
 # になるまで働くぴ
 # ょ
-ShowTextBox "!!! 3E98D8 12"
+ShowTextBox "I get it, pyo... I'll just work until I'm nothing but skin and bones, pyo."
 WaitTextBox
 EndScript
 
@@ -78,35 +78,35 @@ Subscript 1
 ShowChara 4 4 29
 # 店長さん、ぴよこ
 # $1がんばったぴょ！
-ShowTextBox "!!! 3E98D8 13"
+ShowTextBox "Manager, I did the $1 job really hard, pyo!"
 WaitTextBox
 ShowChara 4 0 34
 # ぴよこノド渇いた
 # ぴょ！
-ShowTextBox "!!! 3E98D8 14"
+ShowTextBox "I'm thirsty, pyo!"
 WaitTextBox
 # のみもの
-ShowTextPrompt 2 "!!! 3E98D8 15"
+ShowTextPrompt 2 "Drink"
 JumpOnSelection 2 2 3 0
 Label 2
 ShowChara 4 0 29
 # え…$9くれるぴょ？
-ShowTextBox "!!! 3E98D8 16"
+ShowTextBox "Um...you'll give me some $9, pyo?"
 WaitTextBox
 ShowChara 4 0 28
 # おねだりしたみた
 # いで悪いぴょ
 # 店長さん、ありがとぴょ♪
-ShowTextBox "!!! 3E98D8 17"
+ShowTextBox "Sorry if it seemed like I was begging, pyo. Manager, thank you, pyo♪"
 WaitTextBox
 EndScript
 Label 3
 ShowChara 4 0 31
 # 店長さん、ぴよこの話聞いてるぴょ？
-ShowTextBox "!!! 3E98D8 18"
+ShowTextBox "Manager, are you listening to me, pyo?"
 WaitTextBox
 # ぴよこ、ノド渇いたんだぴょ！！
-ShowTextBox "!!! 3E98D8 19"
+ShowTextBox "I'm THIRSTY, pyo!!"
 WaitTextBox
 EndScript
 
@@ -115,34 +115,34 @@ EndScript
 Subscript 2
 ShowChara 4 4 28
 # ぴよこ、$1からプレゼントもらったぴょ
-ShowTextBox "!!! 3E98D8 20"
+ShowTextBox "I got a present from $1, pyo."
 WaitTextBox
 ShowChara 4 0 29
 # ぴょ？
 # 何の香水ぴょ！？
-ShowTextBox "!!! 3E98D8 21"
+ShowTextBox "Pyo? What perfume is this, pyo?!"
 WaitTextBox
 # 花の名前
-ShowTextPrompt 4 "!!! 3E98D8 22"
+ShowTextPrompt 4 "Flower name"
 JumpOnSelection 2 4 5 0
 Label 4
 # そうぴょ、$9の香水ぴょ！
-ShowTextBox "!!! 3E98D8 23"
+ShowTextBox "Yes, pyo, it's $9 perfume, pyo!"
 WaitTextBox
 ShowChara 4 0 34
 # これでぴよこも一人前のレディだぴょ！
-ShowTextBox "!!! 3E98D8 24"
+ShowTextBox "With this, I'll become a full-fledged lady, pyo!"
 WaitTextBox
 EndScript
 Label 5
 ShowChara 4 0 28
 # え…と、$2の香水ぴょ？
-ShowTextBox "!!! 3E98D8 25"
+ShowTextBox "Ummm... is it $2 perfume, pyo?"
 WaitTextBox
 ShowChara 4 0 31
 # なんで$2の香水つけなきゃいけないぴょ！
 # 失礼ぴょ！！
-ShowTextBox "!!! 3E98D8 26"
+ShowTextBox "Why do I have to use $2 perfume, pyo?! I'm leaving, pyo!!"
 WaitTextBox
 EndScript
 
@@ -152,38 +152,38 @@ Subscript 3
 ShowChara 4 4 29
 # ぴよこ、昔$1を食べたぴょ
 # すごくおいしかったぴょ
-ShowTextBox "!!! 3E98D8 27"
+ShowTextBox "I ate $1 a long time ago, pyo. It was really good, pyo."
 WaitTextBox
 ShowChara 4 0 28
 # ぴよこもおいしい
 # $1が作れるようになりたいぴょ
-ShowTextBox "!!! 3E98D8 28"
+ShowTextBox "I want to be able to make delicious $1 too, pyo."
 WaitTextBox
 # たべもの
-ShowTextPrompt 1 "!!! 3E98D8 29"
+ShowTextPrompt 1 "Food"
 JumpOnSelection 2 6 7 0
 Label 6
 ShowChara 4 0 29
 # 店長さんは$9が食べたいぴょ？
 # 今度作ってみるぴょ
-ShowTextBox "!!! 3E98D8 30"
+ShowTextBox "You want some $9, pyo? I'll try making that next time, pyo."
 WaitTextBox
 ShowChara 4 0 34
 # おいしくないかも
 # しれないけど、が
 # んばるぴょ！
-ShowTextBox "!!! 3E98D8 31"
+ShowTextBox "It might not be that good, but I'll try my best, pyo!"
 WaitTextBox
 EndScript
 Label 7
 ShowChara 4 0 34
 # ぴよこにはムリぴょ？
-ShowTextBox "!!! 3E98D8 32"
+ShowTextBox "You don't think I can do it, pyo?"
 WaitTextBox
 ShowChara 4 0 31
 # でもがんばれば、
 # ぴよこでも$2くらいは作れるぴょ！
-ShowTextBox "!!! 3E98D8 33"
+ShowTextBox "But if I try hard, even I could make $2, pyo!"
 WaitTextBox
 EndScript
 
@@ -193,31 +193,31 @@ Subscript 4
 ShowChara 4 4 28
 # $1は意外なペットを飼ってるんだぴょ
 # 知ってるぴょ？
-ShowTextBox "!!! 3E98D8 34"
+ShowTextBox "$1 has a weird pet, pyo. Do you know, pyo?"
 WaitTextBox
 # $1のペット
-ShowTextPrompt 3 "!!! 3E98D8 35"
+ShowTextPrompt 3 "$1's pet"
 JumpOnSelection 2 8 9 0
 Label 8
 ShowChara 4 0 33
 # 店長さん物知りだ
 # ぴょ！よく知って
 # るぴょ！！
-ShowTextBox "!!! 3E98D8 36"
+ShowTextBox "Wow, Manager, you really know a lot, pyo!!"
 WaitTextBox
 ShowChara 4 0 29
 # でも$9をペットにするなんて、変なシュミだぴょ
-ShowTextBox "!!! 3E98D8 37"
+ShowTextBox "However, it's weird to choose a $9 as a pet, pyo."
 WaitTextBox
 EndScript
 Label 9
 ShowChara 4 0 28
 # 知らないぴょ？
-ShowTextBox "!!! 3E98D8 38"
+ShowTextBox "You don't know, pyo?"
 WaitTextBox
 ShowChara 4 0 29
 # ま、$1のペットなんて何でもいいぴょ
-ShowTextBox "!!! 3E98D8 39"
+ShowTextBox "Meh, who cares what $1's pet is, pyo."
 WaitTextBox
 EndScript
 
@@ -226,28 +226,28 @@ EndScript
 Subscript 5
 ShowChara 4 4 29
 # 一度でいいから$1を作ってるところを見てみたいぴょ
-ShowTextBox "!!! 3E98D8 40"
+ShowTextBox "I want to see $1 being made, just once, pyo."
 WaitTextBox
 ShowChara 4 0 28
 # どこに行けばいいぴょ？
-ShowTextBox "!!! 3E98D8 41"
+ShowTextBox "Where can I go, pyo?"
 WaitTextBox
 # $1の本場
-ShowTextPrompt 5 "!!! 3E98D8 42"
+ShowTextPrompt 5 "$1 place"
 JumpOnSelection 2 10 11 0
 Label 10
 # $9ぴょ？
-ShowTextBox "!!! 3E98D8 43"
+ShowTextBox "$9, pyo?"
 WaitTextBox
 ShowChara 4 0 31
 # ちょっとここから
 # 遠いぴょ
 # でも見たいぴょ～
-ShowTextBox "!!! 3E98D8 44"
+ShowTextBox "It's kind of far from here, pyo. But I still wanna see, pyo~"
 WaitTextBox
 ShowChara 4 0 34
 # そうすれば、ぴよこもおいしい$1作れるようになるぴょ！
-ShowTextBox "!!! 3E98D8 45"
+ShowTextBox "When I see it, I'll also be able to make delicious $1, pyo!"
 WaitTextBox
 EndScript
 Label 11
@@ -256,7 +256,7 @@ ShowChara 4 0 28
 # てみただけぴょ！
 # 店長さん気にしな
 # くていいぴょ！
-ShowTextBox "!!! 3E98D8 46"
+ShowTextBox "I was just talking about a dream, pyo! Don't worry about it, pyo!"
 WaitTextBox
 EndScript
 
@@ -265,36 +265,37 @@ EndScript
 Subscript 6
 ShowChara 4 4 34
 # 店長さん、毎日$1すると疲れるぴょ
-ShowTextBox "!!! 3E98D8 47"
+ShowTextBox "Manager, doing the $1 job every day makes me tired, pyo."
 WaitTextBox
 ShowChara 4 0 30
 # たまにはお休みでどこか行きたいぴょ！
-ShowTextBox "!!! 3E98D8 48"
+ShowTextBox "Once in a while, I'd like to go somewhere on vacation, pyo!"
 WaitTextBox
 # テーマパーク
-ShowTextPrompt 6 "!!! 3E98D8 49"
+ShowTextPrompt 6 "Theme park"
 JumpOnSelection 2 12 13 0
 Label 12
 ShowChara 4 0 33
 # 本当ぴょ？
 # $9に連れて行ってくれるぴょ？
-ShowTextBox "!!! 3E98D8 50"
+ShowTextBox "Really, pyo? You'll bring me to $9, pyo?"
 WaitTextBox
 ShowChara 4 0 29
 # うれしいぴょ～♪
 # ぴよこ、しあわせぴょ！
-ShowTextBox "!!! 3E98D8 51"
+## don't know how to phrase this without saying "happy" twice in a row
+ShowTextBox "I'm so happy, pyo~♪ Thank you so much, pyo!"
 WaitTextBox
 EndScript
 Label 13
 ShowChara 4 0 31
 # こんなに疲れてるのに、なにもしてくれないぴょ…
-ShowTextBox "!!! 3E98D8 52"
+ShowTextBox "I'm this tired, but you won't do anything for me, pyo..."
 WaitTextBox
 ShowChara 4 0 30
 # オニぴょ…店長さんはオニぴょ…
 # $2以下の人間ぴょ
-ShowTextBox "!!! 3E98D8 53"
+ShowTextBox "Horrible, pyo... You're horrible, pyo... You're a lesser being than a $2, pyo."
 WaitTextBox
 EndScript
 
@@ -303,36 +304,36 @@ EndScript
 Subscript 7
 ShowChara 4 4 28
 # $1は本当は$2の仕事がしたかったらしいぴょ
-ShowTextBox "!!! 3E98D8 54"
+ShowTextBox "I heard that $1 really wants to do the $2 job, pyo."
 WaitTextBox
 # 店長さんはどんな仕事をしたかったぴょ？
-ShowTextBox "!!! 3E98D8 55"
+ShowTextBox "Manager, what kind of job do you want to do?"
 WaitTextBox
 # しごと
-ShowTextPrompt 7 "!!! 3E98D8 56"
+ShowTextPrompt 7 "Job"
 JumpOnSelection 2 14 15 0
 Label 14
 # ふーん、$9ぴょ～
-ShowTextBox "!!! 3E98D8 57"
+ShowTextBox "Hmmm, $9, pyo~"
 WaitTextBox
 ShowChara 4 0 29
 # でも、店長さんは
 # やっぱり店長さんだぴょ
-ShowTextBox "!!! 3E98D8 58"
+ShowTextBox "That sounds like our Manager, pyo."
 WaitTextBox
 EndScript
 Label 15
 ShowChara 4 0 34
 # 夢…なかったぴょ？
-ShowTextBox "!!! 3E98D8 59"
+ShowTextBox "You... don't have any dreams, pyo?"
 WaitTextBox
 ShowChara 4 0 28
 # それじゃ、これからぴよこ達とこのお店を大きくするぴょ！
-ShowTextBox "!!! 3E98D8 60"
+ShowTextBox "Well then, from now on, we'll make this store huge, pyo!"
 WaitTextBox
 ShowChara 4 0 29
 # それが店長さんとぴよこの夢ぴょ！
-ShowTextBox "!!! 3E98D8 61"
+ShowTextBox "That will be our dream, pyo!"
 WaitTextBox
 EndScript
 
@@ -341,35 +342,36 @@ EndScript
 Subscript 8
 ShowChara 4 4 28
 # $1より早い乗り物があるんだぴょ
-ShowTextBox "!!! 3E98D8 62"
+ShowTextBox "There's something even faster than a $1, pyo."
 WaitTextBox
 # のりもの
-ShowTextPrompt 10 "!!! 3E98D8 63"
+ShowTextPrompt 10 "Vehicle"
 JumpOnSelection 2 16 17 0
 Label 16
 ShowChara 4 0 29
 # そのとおり$9だぴょ～！
 # 今度見かけたら…
-ShowTextBox "!!! 3E98D8 64"
+ShowTextBox "Exactly, it's a $9, pyo~! If I ever see one..."
 WaitTextBox
 ShowChara 4 0 32
 # 口からバズーカ！
-ShowTextBox "!!! 3E98D8 65"
+ShowTextBox "Mouth Bazooka!"
 WaitTextBox
 ShowChara 4 0 34
 # ぴよこのバズーカと速さくらべぴょ！
-ShowTextBox "!!! 3E98D8 66"
+ShowTextBox "We'll see if it's faster than my bazooka, pyo!"
 WaitTextBox
 EndScript
 Label 17
 # まあ知らないものは、しかたないぴょ！
 # …でも！
-ShowTextBox "!!! 3E98D8 67"
+ShowTextBox "Well, if you don't know, then whatever, pyo!\nBUT!"
 WaitTextBox
 ShowChara 4 0 31
 # $2でも知ってる事だぴょ！
 # 店長さんはもっと勉強すべきにょ！
-ShowTextBox "!!! 3E98D8 68"
+## yes, it says "nyo"
+ShowTextBox "Even $2 knows that, pyo! Manager, you need to study more, nyo!"
 WaitTextBox
 EndScript
 
@@ -379,35 +381,35 @@ Subscript 9
 ShowChara 4 4 30
 # ふわ～…
 # 昨日おそくまで『$1』を読んでたから、眠いぴょ～
-ShowTextBox "!!! 3E98D8 69"
+ShowTextBox "Yaawn~...\nYesterday I read \"$1\" so late, I'm tired, pyo~"
 WaitTextBox
 # 店長さんも徹夜で
 # 何かしたことある
 # ぴょ？
-ShowTextBox "!!! 3E98D8 70"
+ShowTextBox "Manager, have you ever done anything all night, pyo?"
 WaitTextBox
 # てつやでしたこと
-ShowTextPrompt 11 "!!! 3E98D8 71"
+ShowTextPrompt 11 "All-night activity"
 JumpOnSelection 2 18 19 0
 Label 18
 ShowChara 4 0 33
 # $9ぴょ！？
 # すごいぴょ！！
-ShowTextBox "!!! 3E98D8 72"
+ShowTextBox "$9, pyo? Wow, pyo!"
 WaitTextBox
 ShowChara 4 0 34
 # ぴよこ、$2よりソンケーしちゃうぴょ
-ShowTextBox "!!! 3E98D8 73"
+ShowTextBox "I respect you a lot more than I respect $2, pyo."
 WaitTextBox
 EndScript
 Label 19
 ShowChara 4 0 28
 # 夜ふかしはダメぴょ？
-ShowTextBox "!!! 3E98D8 74"
+ShowTextBox "It's bad to stay up late, pyo?"
 WaitTextBox
 ShowChara 4 0 34
 # 今度から気をつけるぴょ
-ShowTextBox "!!! 3E98D8 75"
+ShowTextBox "I'll be careful next time, pyo."
 WaitTextBox
 EndScript
 
@@ -416,34 +418,34 @@ EndScript
 Subscript 10
 ShowChara 4 4 29
 # $1の新作コミック『$2マン』が発売されたぴょ！
-ShowTextBox "!!! 3E98D8 76"
+ShowTextBox "$1 released a new comic called \"$2 Man\", pyo!"
 WaitTextBox
 # 売って売って売りまくるぴょ！
-ShowTextBox "!!! 3E98D8 77"
+ShowTextBox "They're selling like hotcakes, pyo!"
 WaitTextBox
 ShowChara 4 0 28
 # 店長さんのお気に入りのコミックも宣伝するぴょ！
-ShowTextBox "!!! 3E98D8 78"
+ShowTextBox "I'll promote YOUR favorite comic too, pyo!"
 WaitTextBox
 # マンガ
-ShowTextPrompt 9 "!!! 3E98D8 79"
+ShowTextPrompt 9 "Manga"
 JumpOnSelection 2 20 21 0
 Label 20
 ShowChara 4 0 29
 # 『$9』も発売中ぴょ！
-ShowTextBox "!!! 3E98D8 80"
+ShowTextBox "\"$9\" is also currently being sold, pyo!"
 WaitTextBox
 # $3の一生を描いた大傑作だぴょ～！
-ShowTextBox "!!! 3E98D8 81"
+ShowTextBox "It's a masterpiece depicting $3's entire life, pyo~!"
 WaitTextBox
 EndScript
 Label 21
 # オススメないぴょ？
-ShowTextBox "!!! 3E98D8 82"
+ShowTextBox "You don't have any ideas, pyo?"
 WaitTextBox
 ShowChara 4 0 29
 # それじゃ『$2マン』をジャンジャン売りさばくぴょ！
-ShowTextBox "!!! 3E98D8 83"
+ShowTextBox "Well then, we'll keep selling out \"$2 Man\", pyo!"
 WaitTextBox
 EndScript
 
@@ -452,28 +454,28 @@ EndScript
 Subscript 11
 ShowChara 4 4 29
 # $1の熱い要望で、今度からお店でビデオソフトを売ることにしたぴょ！
-ShowTextBox "!!! 3E98D8 84"
+ShowTextBox "Because of the demand from $1, we've decided to start selling videos, pyo!"
 WaitTextBox
 ShowChara 4 0 28
 # 店長さん、どんな作品を仕入れるぴょ？
-ShowTextBox "!!! 3E98D8 85"
+ShowTextBox "Manager, what'd you like us to get, pyo?"
 WaitTextBox
 # テレビばんぐみ
-ShowTextPrompt 8 "!!! 3E98D8 86"
+ShowTextPrompt 8 "TV show"
 JumpOnSelection 2 22 23 0
 Label 22
 ShowChara 4 0 29
 # なるほど『$9』ぴょ
 # 売れそうぴょ！
-ShowTextBox "!!! 3E98D8 87"
+ShowTextBox "I see, \"$9\", pyo. I'm sure it'll sell well, pyo!"
 WaitTextBox
 EndScript
 Label 23
 # 思いつかないぴょ？
-ShowTextBox "!!! 3E98D8 88"
+ShowTextBox "Can't think of anything, pyo?"
 WaitTextBox
 ShowChara 4 0 34
 # それじゃぴよこのオススメ『$2』を仕入れるぴょ！
-ShowTextBox "!!! 3E98D8 89"
+ShowTextBox "Well then, I say we'll get some copies of \"$2\", pyo!"
 WaitTextBox
 EndScript

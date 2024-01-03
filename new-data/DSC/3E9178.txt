@@ -183,7 +183,7 @@ ShowChara 3 4 17
 ShowTextBox "I'm thirsty because of that $1 job, nyu..."
 WaitTextBox
 # Ç»ÇÒÇ©à˘Ç›ï®Ç®Ç≤ÇÍÇ…Ç„Åc
-ShowTextBox "Treat me to a drink, nyu..."
+ShowTextBox "Give me a drink, nyu..."
 WaitTextBox
 # ÇÃÇ›Ç‡ÇÃ
 ShowTextPrompt 2 "Drink"

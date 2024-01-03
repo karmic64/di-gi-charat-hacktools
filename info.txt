@@ -15,7 +15,6 @@ KNOWN TOOL ISSUES:
 - some of the graphics (like in the coin-catching minigame) are NOT in MBM files, so there must be a custom exporter/importer scripting system
 
 
-
 KNOWN CRASHES:
 01. game crashed once after saying yes to dejiko's special "beam from the eyes" cleaning power, but can't reproduce
 02. see 02.sav. just go through the next week of work, and then the game crashes unpredictably when executing the first ShowTextBox command in DSC $3ffd20
@@ -60,7 +59,7 @@ pre-fill data:
 						$08: Name of a TV show (default: "Sure thing" from $80e9edc)
 						$09: Name of a manga (default: "Pita Ten" from $80e9ee8)
 						$0a: Name of a vehicle (default: "Bicycle" from $80e9ef4)
-						$0b: Name of a game (default: "Gomoku" from $80e9efc)
+						$0b: Name of an activity (default: "Gomoku" from $80e9efc)
 					default strings are filled by routine $808cebc
 						
 
