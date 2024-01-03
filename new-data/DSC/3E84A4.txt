@@ -75,7 +75,7 @@ ShowTextBox "I tried to study like Admiral Rik."
 WaitTextBox
 ShowChara 6 0 40
 # $1は主に暑い地域に生息してるんです
-ShowTextBox "A $1 lives in hot areas."
+ShowTextBox "A $1 lives in a hot area."
 WaitTextBox
 ShowChara 6 0 46
 # あ、あれ…？
